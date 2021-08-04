@@ -16,6 +16,7 @@ This is an alpha version! The changes listed here are not final.
 - Tooling: Moved all development to the Jetpack monorepo.
 
 ### Fixed
+- Fix linting config files and linting issues
 - Tooling: Fix PHP unit testing dependency on later versions of PHP.
 
 ## 1.1.0 - 2021-06-17
