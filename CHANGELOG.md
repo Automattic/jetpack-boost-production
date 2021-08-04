@@ -15,6 +15,9 @@ This is an alpha version! The changes listed here are not final.
 ### Changed
 - Tooling: Moved all development to the Jetpack monorepo.
 
+### Fixed
+- Tooling: Fix PHP unit testing dependency on later versions of PHP.
+
 ## 1.1.0 - 2021-06-17
 
 - Update: User connection is no longer required for Speed Scores.
