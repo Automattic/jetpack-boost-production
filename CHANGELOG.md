@@ -18,6 +18,7 @@ This is an alpha version! The changes listed here are not final.
 
 ### Fixed
 - Fix linting config files and linting issues
+- Fix PHP linting issues and setup
 - Tooling: Fix PHP unit testing dependency on later versions of PHP.
 
 ## 1.1.0 - 2021-06-17
