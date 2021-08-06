@@ -11,6 +11,7 @@ This is an alpha version! The changes listed here are not final.
 
 ### Added
 - Add Watch command in Composer to allow Jetpack watch CLI command working for Boost
+- Implement the feature to clear dismissed Critical CSS recommendations
 
 ### Changed
 - Tooling: Moved all development to the Jetpack monorepo.
