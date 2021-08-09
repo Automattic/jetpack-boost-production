@@ -16,6 +16,7 @@ This is an alpha version! The changes listed here are not final.
 ### Changed
 - Tooling: Moved all development to the Jetpack monorepo.
 - Updated package dependencies
+- Updated package dependencies.
 
 ### Fixed
 - Extend prettier base config and fix linting issues
