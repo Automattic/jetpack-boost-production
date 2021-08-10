@@ -27,8 +27,8 @@ class InstalledVersions
 private static $installed = array (
   'root' => 
   array (
-    'pretty_version' => '1.2.0-beta',
-    'version' => '1.2.0.0-beta',
+    'pretty_version' => '1.3.0-alpha',
+    'version' => '1.3.0.0-alpha',
     'aliases' => 
     array (
     ),
@@ -66,8 +66,8 @@ private static $installed = array (
     ),
     'automattic/jetpack-boost' => 
     array (
-      'pretty_version' => '1.2.0-beta',
-      'version' => '1.2.0.0-beta',
+      'pretty_version' => '1.3.0-alpha',
+      'version' => '1.3.0.0-alpha',
       'aliases' => 
       array (
       ),
