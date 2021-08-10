@@ -24,6 +24,7 @@ This is an alpha version! The changes listed here are not final.
 - Fix an incorrect call to clear dismissed recommendations on plugin deactivation
 - Fix linting config files and linting issues
 - Fix PHP linting issues and setup
+- Improved Critical CSS showstopper error display on small screens
 - Tooling: Fix PHP unit testing dependency on later versions of PHP.
 
 ## 1.1.0 - 2021-06-17

@@ -627,19 +627,31 @@
 .jb-error {
   position: relative;
   color: #d63638;
-  display: flex;
-  align-items: flex-start;
-  justify-content: left;
-  text-align: left;
+  display: block;
   margin: 0;
   padding: 0;
+}
+@media (min-width: 768px) {
+  .jb-error {
+    display: flex;
+    align-items: flex-start;
+    justify-content: left;
+  }
 }
 .jb-error p {
   margin: 0.25em 0;
   color: #D63638;
 }
 .jb-error .jb-error__main-action:not(:empty) {
-  margin-left: 20px;
+  margin-left: auto;
+}
+.jb-error .jb-error__main-action:not(:empty) button {
+  margin-left: 0;
+}
+@media (min-width: 768px) {
+  .jb-error .jb-error__main-action:not(:empty) button {
+    margin-left: 20px;
+  }
 }
 .jb-error svg.icon {
   color: inherit;
@@ -666,6 +678,13 @@
   color: #23282D;
   font-size: 16px;
   margin: 16px auto;
+}
+.jb-error .jb-error__message li {
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+  -ms-word-break: break-all;
+  word-break: break-all;
+  word-break: break-word;
 }
 .jb-error .action {
   color: #1d2327;
@@ -737,6 +756,13 @@
   border: 1px solid #dcdcde;
   border-radius: 4px;
   padding: 24px 69px 0 27px;
+}
+.jb-critical-css__advanced .panel li {
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+  -ms-word-break: break-all;
+  word-break: break-all;
+  word-break: break-word;
 }
 .jb-critical-css__advanced .panel h4 {
   font-size: 20px;
