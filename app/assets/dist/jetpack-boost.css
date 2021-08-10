@@ -690,6 +690,7 @@
 
 .jb-critical-css__error-description {
   line-height: 1.5rem;
+  color: #23282D;
 }
 .jb-critical-css__error-description a, .jb-critical-css__error-description h5, .jb-critical-css__error-description a.action {
   color: inherit;
@@ -716,6 +717,7 @@
   display: block;
 }
 .jb-critical-css__error-description p.suggestion, .jb-critical-css__error-description p.raw-error {
+  color: #23282D;
   margin-top: 8px;
   margin-bottom: 24px;
 }

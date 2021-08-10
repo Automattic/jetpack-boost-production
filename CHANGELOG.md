@@ -15,6 +15,7 @@ This is an alpha version! The changes listed here are not final.
 
 ### Changed
 - Tooling: Moved all development to the Jetpack monorepo.
+- Unify Critical CSS Showstopper error design - show consistent styling and options for all cases.
 - Updated package dependencies
 - Updated package dependencies.
 
