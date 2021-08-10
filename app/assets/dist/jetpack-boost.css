@@ -686,6 +686,9 @@
   word-break: break-all;
   word-break: break-word;
 }
+.jb-error .raw-error {
+  color: #23282D;
+}
 .jb-error .action {
   color: #1d2327;
   font-weight: bold;

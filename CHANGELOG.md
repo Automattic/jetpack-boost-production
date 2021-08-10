@@ -22,6 +22,7 @@ This is an alpha version! The changes listed here are not final.
 ### Fixed
 - Extend prettier base config and fix linting issues
 - Fix an incorrect call to clear dismissed recommendations on plugin deactivation
+- Fixed minor styling and display issues around Critical CSS Showstopper errors
 - Fix linting config files and linting issues
 - Fix PHP linting issues and setup
 - Improved Critical CSS showstopper error display on small screens
