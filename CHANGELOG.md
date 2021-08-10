@@ -5,27 +5,16 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
-## [1.2.0-alpha] - unreleased
-
-This is an alpha version! The changes listed here are not final.
-
+## [1.2.0-beta] - 2021-08-10
 ### Added
-- Add Watch command in Composer to allow Jetpack watch CLI command working for Boost
-- Implement the feature to clear dismissed Critical CSS recommendations
+- Critical CSS: Added a new Advanced Critical CSS recommendations page.
 
 ### Changed
-- Tooling: Moved all development to the Jetpack monorepo.
-- Unify Critical CSS Showstopper error design - show consistent styling and options for all cases.
-- Updated package dependencies
+- Critical CSS: Updated error reporting for Critical CSS to offer more users more guidance.
 - Updated package dependencies.
+- Tooling: Moved all development to the Jetpack monorepo.
 
 ### Fixed
-- Extend prettier base config and fix linting issues
-- Fix an incorrect call to clear dismissed recommendations on plugin deactivation
-- Fixed minor styling and display issues around Critical CSS Showstopper errors
-- Fix linting config files and linting issues
-- Fix PHP linting issues and setup
-- Improved Critical CSS showstopper error display on small screens
 - Tooling: Fix PHP unit testing dependency on later versions of PHP.
 
 ## 1.1.0 - 2021-06-17
@@ -85,4 +74,4 @@ This is an alpha version! The changes listed here are not final.
 
 - First public alpha release
 
-[1.2.0-alpha]: https://github.com/Automattic/jetpack-boost-production/compare/v1.1.0...v1.2.0-alpha
+[1.2.0-beta]: https://github.com/Automattic/jetpack-boost-production/compare/v1.1.0...v1.2.0-beta
