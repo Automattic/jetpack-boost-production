@@ -11,6 +11,7 @@ This is an alpha version! The changes listed here are not final.
 
 ### Changed
 - General: start new release cycle
+- Update the WordPress tested up to version in the readme file
 
 ## [1.2.0-beta] - 2021-08-10
 ### Added
