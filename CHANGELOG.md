@@ -12,6 +12,9 @@ This is an alpha version! The changes listed here are not final.
 ### Changed
 - Update the WordPress tested up to version in the readme file
 
+### Fixed
+- Fixed backwards compatibility for leftover past Critical CSS generation failure data
+
 ## [1.2.0-beta] - 2021-08-10
 ### Added
 - Critical CSS: Added a new Advanced Critical CSS recommendations page.
