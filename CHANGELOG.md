@@ -14,6 +14,7 @@ This is an alpha version! The changes listed here are not final.
 - Update the WordPress tested up to version in the readme file
 
 ### Fixed
+- Cleanup dangling files and rules to remove files from production release
 - Fixed backwards compatibility for leftover past Critical CSS generation failure data
 
 ## [1.2.0-beta] - 2021-08-10
