@@ -44,7 +44,7 @@ private static $installed = array (
       'aliases' => 
       array (
       ),
-      'reference' => '02072d53b005ad27cd5d88a1fe02520ea88ba6cd',
+      'reference' => '1b596009ccf736f9219cfd7e3b65d01fe6314035',
     ),
     'automattic/jetpack-assets' => 
     array (
@@ -53,7 +53,7 @@ private static $installed = array (
       'aliases' => 
       array (
       ),
-      'reference' => '69da9ef8b15d1177686af05a3ffbcb35bfec90b2',
+      'reference' => '858e100a0e233baa939e90cba680930065fb0dad',
     ),
     'automattic/jetpack-autoloader' => 
     array (
@@ -62,7 +62,7 @@ private static $installed = array (
       'aliases' => 
       array (
       ),
-      'reference' => '02516a500e930ccc49c277a193e931ed7891facf',
+      'reference' => 'fca154f042bfe31d90a7b4d1db08c7e623a33f5b',
     ),
     'automattic/jetpack-boost' => 
     array (
@@ -80,7 +80,7 @@ private static $installed = array (
       'aliases' => 
       array (
       ),
-      'reference' => '24ba6e139fac5e74ea5a5b015d87e5985623bc49',
+      'reference' => '6d107ee2f34a75a05ece21fb6b643ea3bf073c70',
     ),
     'automattic/jetpack-connection' => 
     array (
@@ -89,7 +89,7 @@ private static $installed = array (
       'aliases' => 
       array (
       ),
-      'reference' => '63befa7e7fbc625c92ab8db418833934b54b8ea8',
+      'reference' => 'fa5796533574043fac381b4aa70ac17c199064af',
     ),
     'automattic/jetpack-constants' => 
     array (
@@ -98,7 +98,7 @@ private static $installed = array (
       'aliases' => 
       array (
       ),
-      'reference' => '88c260198565409039d2cebeadb44afd1d2328ab',
+      'reference' => '31dae5c98911b2859259516d765cc463edd7bc78',
     ),
     'automattic/jetpack-device-detection' => 
     array (
@@ -107,7 +107,7 @@ private static $installed = array (
       'aliases' => 
       array (
       ),
-      'reference' => '609a835cc69404f85c79d060468cedaad9f6ded2',
+      'reference' => '21e12efdc0fc3e3cf055a53aee3c2ae042305c6e',
     ),
     'automattic/jetpack-heartbeat' => 
     array (
@@ -116,7 +116,7 @@ private static $installed = array (
       'aliases' => 
       array (
       ),
-      'reference' => '9f7fef1525be0e920b201c30085a0517bc8c03bc',
+      'reference' => '16b6003553f5b1ff068e9c849c07432797537839',
     ),
     'automattic/jetpack-lazy-images' => 
     array (
@@ -125,7 +125,7 @@ private static $installed = array (
       'aliases' => 
       array (
       ),
-      'reference' => 'b80d5e5de94b98315303bb3bfb8918470060fd41',
+      'reference' => '07f207bd73b4d09ed578f19bb7bdc6e24bc2bb5c',
     ),
     'automattic/jetpack-options' => 
     array (
@@ -134,7 +134,7 @@ private static $installed = array (
       'aliases' => 
       array (
       ),
-      'reference' => 'e3e3c90423933ea5402ddcddf6d558f2a0c29ff2',
+      'reference' => 'c75e5f20fce92c8d252df176e3a745b5d22acb0f',
     ),
     'automattic/jetpack-redirect' => 
     array (
@@ -143,7 +143,7 @@ private static $installed = array (
       'aliases' => 
       array (
       ),
-      'reference' => 'b5ee07ebf8e8357d069e95fd8216e4cdfb8b876e',
+      'reference' => '5149be6946d2cfa351cc33a6efe450635b1b8163',
     ),
     'automattic/jetpack-roles' => 
     array (
@@ -152,7 +152,7 @@ private static $installed = array (
       'aliases' => 
       array (
       ),
-      'reference' => '4c7970eb7926780be10aa35620cccace009a2522',
+      'reference' => 'a6cc480c65c29afe295c00bdec1083857b347f33',
     ),
     'automattic/jetpack-status' => 
     array (
@@ -161,7 +161,7 @@ private static $installed = array (
       'aliases' => 
       array (
       ),
-      'reference' => '3beb1383cfe7fa0832a2daf9f9439a9739a80b5a',
+      'reference' => 'd9869a3a7703062845e427e3e7a48f3e18fd9790',
     ),
     'automattic/jetpack-terms-of-service' => 
     array (
@@ -170,7 +170,7 @@ private static $installed = array (
       'aliases' => 
       array (
       ),
-      'reference' => '26f1011ab656f78f816a0af64859f90535083579',
+      'reference' => '0014f7d2d211460e5a6cad7de6070307af65c6e9',
     ),
     'automattic/jetpack-tracking' => 
     array (
@@ -179,7 +179,7 @@ private static $installed = array (
       'aliases' => 
       array (
       ),
-      'reference' => '9165b6d5d60d8c5937b55396e54f2ec78d3c6fe5',
+      'reference' => '31d3f76e83f1731f8d5606c2c58ae7bc8926b001',
     ),
     'tedivm/jshrink' => 
     array (
