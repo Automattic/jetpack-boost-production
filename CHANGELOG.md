@@ -9,6 +9,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 This is an alpha version! The changes listed here are not final.
 
+### Added
+- Added a message in case a 418 error occured during critical CSS generation
+
 ### Changed
 - General: start new release cycle
 - Improve wording on Critical CSS Description
