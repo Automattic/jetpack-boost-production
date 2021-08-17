@@ -11,6 +11,7 @@ This is an alpha version! The changes listed here are not final.
 
 ### Changed
 - General: start new release cycle
+- Improve wording on Critical CSS Description
 
 ## [1.2.0] - 2021-08-12
 ### Added
