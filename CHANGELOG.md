@@ -16,6 +16,9 @@ This is an alpha version! The changes listed here are not final.
 - General: start new release cycle
 - Improve wording on Critical CSS Description
 
+### Fixed
+- Remove obsolete Docker setup, update commands supporting development workflow and update documentation
+
 ## [1.2.0] - 2021-08-12
 ### Added
 - Critical CSS: Added a new Advanced Critical CSS recommendations page.
