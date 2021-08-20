@@ -18,6 +18,7 @@ This is an alpha version! The changes listed here are not final.
 - Improve wording on Critical CSS Description
 
 ### Fixed
+- Clear speed score on plugin deactivation.
 - Remove obsolete Docker setup, update commands supporting development workflow and update documentation
 
 ## [1.2.0] - 2021-08-12
