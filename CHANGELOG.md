@@ -16,6 +16,7 @@ This is an alpha version! The changes listed here are not final.
 ### Changed
 - General: start new release cycle
 - Improve wording on Critical CSS Description
+- Updated package dependencies
 
 ### Fixed
 - Clear speed score on plugin deactivation.
