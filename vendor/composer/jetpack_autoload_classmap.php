@@ -191,7 +191,7 @@ return array(
 		'path'    => $baseDir . '/app/class-jetpack-boost.php'
 	),
 	'Automattic\\Jetpack\\Jetpack_Lazy_Images' => array(
-		'version' => '1.5.9999999.9999999-dev',
+		'version' => '2.0.9999999.9999999-dev',
 		'path'    => $vendorDir . '/automattic/jetpack-lazy-images/src/lazy-images.php'
 	),
 	'Automattic\\Jetpack\\Device_Detection' => array(
