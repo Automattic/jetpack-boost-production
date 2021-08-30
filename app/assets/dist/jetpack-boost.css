@@ -738,7 +738,7 @@
   margin-top: 20px;
   display: block;
 }
-.jb-critical-css__error-description p.suggestion, .jb-critical-css__error-description p.raw-error {
+.jb-critical-css__error-description p.suggestion, .jb-critical-css__error-description p.suggestion-closing, .jb-critical-css__error-description p.raw-error {
   color: #23282D;
   margin-top: 8px;
   margin-bottom: 24px;
@@ -916,4 +916,26 @@
   position: absolute;
   width: 1px;
   word-wrap: normal !important;
+}
+
+.numbered-list {
+  list-style-type: none;
+  margin-left: 0;
+}
+.numbered-list li {
+  margin-bottom: 0.5em;
+  display: flex;
+}
+.numbered-list .text {
+  flex: 1;
+}
+.numbered-list .index {
+  border: 1px solid #ccc;
+  border-radius: 50%;
+  display: block;
+  width: 1.5em;
+  height: 1.5em;
+  text-align: center;
+  line-height: 1.4em;
+  margin-right: 5px;
 }
