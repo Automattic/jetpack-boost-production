@@ -13,6 +13,7 @@ This is an alpha version! The changes listed here are not final.
 - Added a message in case a 418 error occured during critical CSS generation
 - Added step by step instructions to troubleshoot critical css errors.
 - Add EmptyCSSError Critical CSS error support
+- Catch API fetch error early and add more context to it so it can be more useful when reported by usersCatch API fetch error early and add more context to it so it can be more useful when reported by users
 
 ### Changed
 - Fix hostname comparison while deciding same origin css files to skip proxy. Same origin css files will now be skipped from
