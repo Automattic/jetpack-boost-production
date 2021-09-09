@@ -16,6 +16,7 @@ This is an alpha version! The changes listed here are not final.
 - Catch API fetch error early and add more context to it so it can be more useful when reported by usersCatch API fetch error early and add more context to it so it can be more useful when reported by users
 
 ### Changed
+- Allow Node ^14.17.6 to be used in this project. This shouldn't change the behavior of the code itself.
 - Fix hostname comparison while deciding same origin css files to skip proxy. Same origin css files will now be skipped from
   proxy even if the port is something other than 80.
 - General: start new release cycle
