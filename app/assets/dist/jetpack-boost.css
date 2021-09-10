@@ -513,13 +513,13 @@
   background-color: white;
 }
 .jb-score-bar .fill-good {
-  background-color: #008710;
+  background-color: #069e08;
 }
 .jb-score-bar .fill-mediocre {
-  background-color: darkorange;
+  background-color: #FAA754;
 }
 .jb-score-bar .fill-bad {
-  background-color: #CC1818;
+  background-color: #D63638;
 }
 
 .jb-score-context {

@@ -17,6 +17,7 @@ This is an alpha version! The changes listed here are not final.
 
 ### Changed
 - Allow Node ^14.17.6 to be used in this project. This shouldn't change the behavior of the code itself.
+- Changed boost plugin score bar styling
 - Fix hostname comparison while deciding same origin css files to skip proxy. Same origin css files will now be skipped from
   proxy even if the port is something other than 80.
 - General: start new release cycle
