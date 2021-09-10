@@ -18,7 +18,7 @@
       'aliases' => 
       array (
       ),
-      'reference' => 'fc98d4abf2d2012de55516b176e1cd8ceb3db039',
+      'reference' => '0b1b6c1f1bdfcaf948e3ed4d85e9153f1def4f60',
     ),
     'automattic/jetpack-assets' => 
     array (
@@ -27,7 +27,7 @@
       'aliases' => 
       array (
       ),
-      'reference' => '75c69d80641f372f9ed9ff5fe9a6281ace5b19a8',
+      'reference' => '66c3e57579707f17fcb7b1c83406786f0d9214cf',
     ),
     'automattic/jetpack-autoloader' => 
     array (
@@ -36,7 +36,7 @@
       'aliases' => 
       array (
       ),
-      'reference' => 'bb317f307c39325a2d8c7eb0922d81f7792faff9',
+      'reference' => '57b4a0f07384a9f25e1faaac88da04ef658e8af5',
     ),
     'automattic/jetpack-boost' => 
     array (
@@ -54,7 +54,7 @@
       'aliases' => 
       array (
       ),
-      'reference' => '4b3972d4e0093e345c8e4f1e37bcd3daf160d2b0',
+      'reference' => '82d7b0744d0bbe1b798765968f450082f85d52d2',
     ),
     'automattic/jetpack-connection' => 
     array (
@@ -63,7 +63,7 @@
       'aliases' => 
       array (
       ),
-      'reference' => '5ff81ba73ce76ff92dfc94fdd1446b20a22c5d79',
+      'reference' => '0bf478317fe55d91414c457a15ed2bf52ced53d6',
     ),
     'automattic/jetpack-constants' => 
     array (
@@ -72,7 +72,7 @@
       'aliases' => 
       array (
       ),
-      'reference' => 'b429e1da1136b4027ef1266b322d49e8113a9fa3',
+      'reference' => '45f524bc2bb8aa404f3dae0f843b4f8c9ca0b324',
     ),
     'automattic/jetpack-device-detection' => 
     array (
@@ -81,7 +81,7 @@
       'aliases' => 
       array (
       ),
-      'reference' => '0aa7c3d8728965f6c7bcc161a967c687de86a21b',
+      'reference' => '580cc990640d8d3822deb848ab9936ce22e61fda',
     ),
     'automattic/jetpack-heartbeat' => 
     array (
@@ -90,7 +90,7 @@
       'aliases' => 
       array (
       ),
-      'reference' => 'bad8b27d1ab796af0a9d7425f6ce049789f54b00',
+      'reference' => '5440ee92c7e6edfe61dd370db1341fb50e66a5f3',
     ),
     'automattic/jetpack-lazy-images' => 
     array (
@@ -99,7 +99,7 @@
       'aliases' => 
       array (
       ),
-      'reference' => '1c067c2222a2344b33bd3c74c1c5f83f3dbcf686',
+      'reference' => '3acd7459ca29738df6d342ba53abbe119d3e0b57',
     ),
     'automattic/jetpack-options' => 
     array (
@@ -108,7 +108,7 @@
       'aliases' => 
       array (
       ),
-      'reference' => '5a7be859f42aadb5ebeac7d138d7b7fa7964f17f',
+      'reference' => '3884dad1fbdf6494bbd7c78d8c77c6be46acd10a',
     ),
     'automattic/jetpack-redirect' => 
     array (
@@ -117,7 +117,7 @@
       'aliases' => 
       array (
       ),
-      'reference' => 'eec9303cee1c4fa878f623849fdf87b2282b8851',
+      'reference' => '06d20e7fb661050051ee9b001ca854a7b68b3da3',
     ),
     'automattic/jetpack-roles' => 
     array (
@@ -126,7 +126,7 @@
       'aliases' => 
       array (
       ),
-      'reference' => 'e09bb5eec10d22a66e7ae1d21bf93aa860a77bc3',
+      'reference' => '83e8d6566f6de8ffbb9e66dfca2696f6490ab2c1',
     ),
     'automattic/jetpack-status' => 
     array (
@@ -135,7 +135,7 @@
       'aliases' => 
       array (
       ),
-      'reference' => '69dc2649cfafac472e449e49cb36872212024954',
+      'reference' => 'f0168d8c4c02406cd25dea9ce4dd98351a7fae1e',
     ),
     'automattic/jetpack-terms-of-service' => 
     array (
@@ -144,7 +144,7 @@
       'aliases' => 
       array (
       ),
-      'reference' => 'c647996898cd2072acffdf9be19d7cd54fc0b398',
+      'reference' => 'aa7ed956a1eca28d3b1a9688ceadcef24cfd08f2',
     ),
     'automattic/jetpack-tracking' => 
     array (
@@ -153,7 +153,7 @@
       'aliases' => 
       array (
       ),
-      'reference' => '8f43e97bebef3138787ff57dcddbc4610ae31950',
+      'reference' => '830357eec5f4d4b3d96e1f99ad17af2fef209499',
     ),
     'tedivm/jshrink' => 
     array (
