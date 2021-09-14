@@ -35,6 +35,7 @@ This is an alpha version! The changes listed here are not final.
 ### Fixed
 - Clear speed score on plugin deactivation.
 - Fix Critical CSS resume on module disable and re-enable
+- Fix linting config and standards in file
 - Remove obsolete Docker setup, update commands supporting development workflow and update documentation
 
 ## [1.2.0] - 2021-08-12
