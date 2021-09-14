@@ -14,6 +14,7 @@ This is an alpha version! The changes listed here are not final.
 - Added step by step instructions to troubleshoot critical css errors.
 - Add EmptyCSSError Critical CSS error support
 - Catch API fetch error early and add more context to it so it can be more useful when reported by usersCatch API fetch error early and add more context to it so it can be more useful when reported by users
+- More descriptive error message if critical css is failing because of x-frame-options deny config
 
 ### Changed
 - Allow Node ^14.17.6 to be used in this project. This shouldn't change the behavior of the code itself.
