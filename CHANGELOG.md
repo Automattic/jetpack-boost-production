@@ -39,6 +39,7 @@ This is an alpha version! The changes listed here are not final.
 - Fix console error on critical-css module subscription status
 - Fix Critical CSS resume on module disable and re-enable
 - Fix linting config and standards in file
+- General Typescript linting fixes
 - Remove obsolete Docker setup, update commands supporting development workflow and update documentation
 
 ## [1.2.0] - 2021-08-12
