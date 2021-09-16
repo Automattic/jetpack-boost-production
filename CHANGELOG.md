@@ -36,6 +36,7 @@ This is an alpha version! The changes listed here are not final.
 
 ### Fixed
 - Clear speed score on plugin deactivation.
+- Critical CSS will get cleared on theme change
 - Fix console error on critical-css module subscription status
 - Fix Critical CSS resume on module disable and re-enable
 - Fix linting config and standards in file
