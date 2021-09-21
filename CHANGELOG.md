@@ -32,6 +32,7 @@ This is an alpha version! The changes listed here are not final.
 - Updated package dependencies
 - Updated package dependencies
 - Updated package dependencies.
+- Updated package dependencies.
 - Update package dependencies
 - Use Node 16.7.0 in tooling. This shouldn't change the behavior of the code itself.
 
