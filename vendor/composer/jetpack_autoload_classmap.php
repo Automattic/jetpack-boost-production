@@ -6,6 +6,10 @@ $vendorDir = dirname(__DIR__);
 $baseDir   = dirname($vendorDir);
 
 return array(
+	'Automattic\\Jetpack_Boost\\Tests\\Modules\\WP_Test_Module' => array(
+		'version' => '1.3.0.0-alpha',
+		'path'    => $baseDir . '/tests/php/modules/test-class-module.php'
+	),
 	'Automattic\\Jetpack_Boost\\Tests\\Modules\\Critical_CSS\\WP_Test_Critical_Css' => array(
 		'version' => '1.3.0.0-alpha',
 		'path'    => $baseDir . '/tests/php/modules/critical-css/test-class-critical-css.php'
@@ -21,6 +25,10 @@ return array(
 	'Automattic\\Jetpack_Boost\\Tests\\Lib\\WP_Test_Url' => array(
 		'version' => '1.3.0.0-alpha',
 		'path'    => $baseDir . '/tests/php/lib/test-class-url.php'
+	),
+	'Automattic\\Jetpack_Boost\\Tests\\Mocks\\Mock_Module' => array(
+		'version' => '1.3.0.0-alpha',
+		'path'    => $baseDir . '/tests/php/mocks/mock-module.php'
 	),
 	'Automattic\\Jetpack_Boost\\Tests\\Base_Test_Case' => array(
 		'version' => '1.3.0.0-alpha',

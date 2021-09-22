@@ -17,6 +17,8 @@ This is an alpha version! The changes listed here are not final.
 - More descriptive error message if critical css is failing because of x-frame-options deny config
 
 ### Changed
+- Add deactivate and uninstall hooks to Boost module base so that individual modules and can override and necessary tasks.
+  Refactored Critical CSS uninstall tasks to align to new methodology.
 - Allow Node ^14.17.6 to be used in this project. This shouldn't change the behavior of the code itself.
 - Changed boost plugin score bar styling
 - Fix hostname comparison while deciding same origin css files to skip proxy. Same origin css files will now be skipped from
