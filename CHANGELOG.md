@@ -9,6 +9,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 This is an alpha version! The changes listed here are not final.
 
+### Security
+- Verify valid ajax request and current user capabilities to dismiss critical css recommendation
+
 ### Added
 - Added a message in case a 418 error occured during critical CSS generation
 - Added step by step instructions to troubleshoot critical css errors.
