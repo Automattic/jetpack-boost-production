@@ -89,7 +89,7 @@ private static $installed = array (
       'aliases' => 
       array (
       ),
-      'reference' => 'bae7b1e00f8e444806a4a233bc98ffb1e887eb45',
+      'reference' => 'f8c7b6fb467cc251fdc6a6d37946905ac4263967',
     ),
     'automattic/jetpack-constants' => 
     array (

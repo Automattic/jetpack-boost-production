@@ -6,10 +6,6 @@ namespace Composer\Autoload;
 
 class ComposerStaticInitb1e77e6231d50e7663f84529b6a3dfda_jetpack_boostⓥ1_3_0_alpha
 {
-    public static $files = array (
-        'bce4ecd6aabb2a2948e06d0e2c4ea9a6' => __DIR__ . '/..' . '/automattic/jetpack-connection/legacy/load-ixr.php',
-    );
-
     public static $prefixLengthsPsr4 = array (
         'A' => 
         array (

@@ -43,24 +43,6 @@ class ComposerAutoloaderInitb1e77e6231d50e7663f84529b6a3dfda_jetpack_boostⓥ1_3
         $loader->setClassMapAuthoritative(true);
         $loader->register(true);
 
-        if ($useStaticLoader) {
-            $includeFiles = Composer\Autoload\ComposerStaticInitb1e77e6231d50e7663f84529b6a3dfda_jetpack_boostⓥ1_3_0_alpha::$files;
-        } else {
-            $includeFiles = require __DIR__ . '/autoload_files.php';
-        }
-        foreach ($includeFiles as $fileIdentifier => $file) {
-            composerRequireb1e77e6231d50e7663f84529b6a3dfda_jetpack_boostⓥ1_3_0_alpha($fileIdentifier, $file);
-        }
-
         return $loader;
-    }
-}
-
-function composerRequireb1e77e6231d50e7663f84529b6a3dfda_jetpack_boostⓥ1_3_0_alpha($fileIdentifier, $file)
-{
-    if (empty($GLOBALS['__composer_autoload_files'][$fileIdentifier])) {
-        require $file;
-
-        $GLOBALS['__composer_autoload_files'][$fileIdentifier] = true;
     }
 }
