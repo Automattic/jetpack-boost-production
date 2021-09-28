@@ -82,6 +82,7 @@ class ComposerStaticInitb1e77e6231d50e7663f84529b6a3dfda_jetpack_boostⓥ1_3_0_a
         'Automattic\\Jetpack_Boost\\Lib\\Nonce' => __DIR__ . '/../..' . '/app/lib/class-nonce.php',
         'Automattic\\Jetpack_Boost\\Lib\\Output_Filter' => __DIR__ . '/../..' . '/app/lib/class-output-filter.php',
         'Automattic\\Jetpack_Boost\\Lib\\Speed_Score' => __DIR__ . '/../..' . '/app/lib/class-speed-score.php',
+        'Automattic\\Jetpack_Boost\\Lib\\Speed_Score_History' => __DIR__ . '/../..' . '/app/lib/class-speed-score-history.php',
         'Automattic\\Jetpack_Boost\\Lib\\Speed_Score_Request' => __DIR__ . '/../..' . '/app/lib/class-speed-score-request.php',
         'Automattic\\Jetpack_Boost\\Lib\\Storage_Post_Type' => __DIR__ . '/../..' . '/app/lib/class-storage-post-type.php',
         'Automattic\\Jetpack_Boost\\Lib\\Transient' => __DIR__ . '/../..' . '/app/lib/class-transient.php',

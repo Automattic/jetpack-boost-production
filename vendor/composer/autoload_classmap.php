@@ -57,6 +57,7 @@ return array(
     'Automattic\\Jetpack_Boost\\Lib\\Nonce' => $baseDir . '/app/lib/class-nonce.php',
     'Automattic\\Jetpack_Boost\\Lib\\Output_Filter' => $baseDir . '/app/lib/class-output-filter.php',
     'Automattic\\Jetpack_Boost\\Lib\\Speed_Score' => $baseDir . '/app/lib/class-speed-score.php',
+    'Automattic\\Jetpack_Boost\\Lib\\Speed_Score_History' => $baseDir . '/app/lib/class-speed-score-history.php',
     'Automattic\\Jetpack_Boost\\Lib\\Speed_Score_Request' => $baseDir . '/app/lib/class-speed-score-request.php',
     'Automattic\\Jetpack_Boost\\Lib\\Storage_Post_Type' => $baseDir . '/app/lib/class-storage-post-type.php',
     'Automattic\\Jetpack_Boost\\Lib\\Transient' => $baseDir . '/app/lib/class-transient.php',

@@ -18,6 +18,10 @@ return array(
 		'version' => '1.3.0.0-alpha',
 		'path'    => $baseDir . '/tests/php/lib/test-class-viewport.php'
 	),
+	'Automattic\\Jetpack_Boost\\Tests\\Lib\\WP_Test_Speed_Score_History' => array(
+		'version' => '1.3.0.0-alpha',
+		'path'    => $baseDir . '/tests/php/lib/test-class-speed-score-history.php'
+	),
 	'Automattic\\Jetpack_Boost\\Tests\\Lib\\WP_Test_Minify' => array(
 		'version' => '1.3.0.0-alpha',
 		'path'    => $baseDir . '/tests/php/lib/test-class-minify.php'
@@ -169,6 +173,10 @@ return array(
 	'Automattic\\Jetpack_Boost\\Lib\\Cacheable' => array(
 		'version' => '1.3.0.0-alpha',
 		'path'    => $baseDir . '/app/lib/class-cacheable.php'
+	),
+	'Automattic\\Jetpack_Boost\\Lib\\Speed_Score_History' => array(
+		'version' => '1.3.0.0-alpha',
+		'path'    => $baseDir . '/app/lib/class-speed-score-history.php'
 	),
 	'Automattic\\Jetpack_Boost\\Lib\\Url' => array(
 		'version' => '1.3.0.0-alpha',
