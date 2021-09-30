@@ -29,6 +29,7 @@ This is an alpha version! The changes listed here are not final.
   proxy even if the port is something other than 80.
 - General: start new release cycle
 - Improve wording on Critical CSS Description
+- Instead comparing between the last two speed scores, show boost vs no-boost scores for improvements.
 - Tests: update PHPUnit polyfills dependency (yoast/phpunit-polyfills).
 - Updated package dependencies
 - Updated package dependencies

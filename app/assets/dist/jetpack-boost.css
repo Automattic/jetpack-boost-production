@@ -511,7 +511,7 @@
     min-width: 43px;
   }
 }
-.jb-score-bar__previous_score {
+.jb-score-bar__no_boost_score {
   --clearance-space: 74px;
   position: absolute;
   background: #fff;
@@ -527,10 +527,10 @@
   border: 2px solid transparent;
   background-clip: padding-box;
 }
-.jb-score-bar__previous_score:hover {
+.jb-score-bar__no_boost_score:hover {
   border: 2px solid rgba(255, 255, 255, 0.5);
 }
-.jb-score-bar__previous_score::after {
+.jb-score-bar__no_boost_score::after {
   content: " ";
   width: 0;
   height: 0;
@@ -541,7 +541,7 @@
   top: 28px;
   left: 6px;
 }
-.jb-score-bar__previous_score_tooltip {
+.jb-score-bar__no_boost_score_tooltip {
   box-shadow: 0 0 20px 0 rgba(170, 170, 170, 0.28);
   position: absolute;
   top: -62px;
@@ -553,7 +553,7 @@
   margin: 0 16px;
   display: none;
 }
-.jb-score-bar__previous_score_tooltip::after {
+.jb-score-bar__no_boost_score_tooltip::after {
   content: " ";
   width: 0;
   height: 0;
@@ -565,7 +565,7 @@
   left: 10em;
   margin: 0 -10px;
 }
-.jb-score-bar__previous_score:hover .jb-score-bar__previous_score_tooltip {
+.jb-score-bar__no_boost_score:hover .jb-score-bar__no_boost_score_tooltip {
   display: block;
 }
 .jb-score-bar .fill-loading {
