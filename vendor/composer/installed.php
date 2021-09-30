@@ -151,7 +151,7 @@
             'type' => 'library',
             'install_path' => __DIR__ . '/../automattic/jetpack-tracking',
             'aliases' => array(),
-            'reference' => '33533dd4109ff9866a0803e39173540221890e3f',
+            'reference' => '0309bbbb0f044b35327638cfd5b180585ff7608c',
             'dev_requirement' => false,
         ),
         'tedivm/jshrink' => array(
