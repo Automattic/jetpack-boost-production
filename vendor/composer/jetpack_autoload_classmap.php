@@ -18,6 +18,10 @@ return array(
 		'version' => '1.3.0.0-alpha',
 		'path'    => $baseDir . '/tests/php/lib/test-class-viewport.php'
 	),
+	'Automattic\\Jetpack_Boost\\Tests\\Lib\\WP_Test_Analytics' => array(
+		'version' => '1.3.0.0-alpha',
+		'path'    => $baseDir . '/tests/php/lib/test-class-analytics.php'
+	),
 	'Automattic\\Jetpack_Boost\\Tests\\Lib\\WP_Test_Speed_Score_History' => array(
 		'version' => '1.3.0.0-alpha',
 		'path'    => $baseDir . '/tests/php/lib/test-class-speed-score-history.php'

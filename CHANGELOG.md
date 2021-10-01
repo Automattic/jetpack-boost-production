@@ -13,6 +13,7 @@ This is an alpha version! The changes listed here are not final.
 - Verify valid ajax request and current user capabilities to dismiss critical css recommendation
 
 ### Added
+- Add Critical CSS generation statistics tracker
 - Added a message in case a 418 error occured during critical CSS generation
 - Added a way to see previous speed scores for comparison.
 - Added step by step instructions to troubleshoot critical css errors.
