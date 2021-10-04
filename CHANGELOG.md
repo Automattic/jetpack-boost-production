@@ -5,54 +5,25 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
-## [1.3.0-alpha] - unreleased
-
-This is an alpha version! The changes listed here are not final.
-
+## [1.3.0-beta] - 2021-10-04
 ### Security
-- Verify valid ajax request and current user capabilities to dismiss critical css recommendation
+- Critical CSS: Add permissions checks to AJAX endpoints used when dismissing Critical CSS Recommendations.
 
 ### Added
-- Add Critical CSS generation statistics tracker
-- Added a message in case a 418 error occured during critical CSS generation
-- Added a way to see previous speed scores for comparison.
-- Added step by step instructions to troubleshoot critical css errors.
-- Add EmptyCSSError Critical CSS error support
-- Catch API fetch error early and add more context to it so it can be more useful when reported by usersCatch API fetch error early and add more context to it so it can be more useful when reported by users
-- More descriptive error message if critical css is failing because of x-frame-options deny config
+- Critical CSS: Add extra information to "fetch" errors when generating Critical CSS.
+- Critical CSS: Added explanation for mod-security HTTP 418 errors.
+- Critical CSS: Added stats tracking for generation outcomes.
+- Critical CSS: Added step-by-step instructions for Advanced Recommendations.
+- Critical CSS: More descriptive error message if critical css is failing because of x-frame-options deny config.
+- Speed Scores: Added "without Boost" speed score indicator.
 
 ### Changed
-- Add deactivate and uninstall hooks to Boost module base so that individual modules and can override and necessary tasks.
-  Refactored Critical CSS uninstall tasks to align to new methodology.
-- Allow Node ^14.17.6 to be used in this project. This shouldn't change the behavior of the code itself.
-- Changed boost plugin score bar styling
-- Fix hostname comparison while deciding same origin css files to skip proxy. Same origin css files will now be skipped from
-  proxy even if the port is something other than 80.
-- General: start new release cycle
-- Improve wording on Critical CSS Description
-- Instead comparing between the last two speed scores, show boost vs no-boost scores for improvements.
-- Tests: update PHPUnit polyfills dependency (yoast/phpunit-polyfills).
-- Updated package dependencies
-- Updated package dependencies
-- Updated package dependencies
-- Updated package dependencies
-- Updated package dependencies
-- Updated package dependencies
-- Updated package dependencies
-- Updated package dependencies.
-- Updated package dependencies.
-- Updated package dependencies.
-- Update package dependencies
-- Use Node 16.7.0 in tooling. This shouldn't change the behavior of the code itself.
+- Critical CSS: Take port numbers into account when comparing origins for proxying.
 
 ### Fixed
-- Clear speed score on plugin deactivation.
-- Critical CSS will get cleared on theme change
-- Fix console error on critical-css module subscription status
-- Fix Critical CSS resume on module disable and re-enable
-- Fix linting config and standards in file
-- General Typescript linting fixes
-- Remove obsolete Docker setup, update commands supporting development workflow and update documentation
+- Critical CSS: Clear generated CSS on theme change.
+- Critical CSS: Ensure generator process is resumed after module deactivated and reactivated without reload.
+- Speed Scores: Clear speed score on plugin deactivation and uninstallation.
 
 ## [1.2.0] - 2021-08-12
 ### Added
@@ -124,5 +95,5 @@ This is an alpha version! The changes listed here are not final.
 
 - First public alpha release
 
-[1.3.0-alpha]: https://github.com/Automattic/jetpack-boost-production/compare/v1.2.0...v1.3.0-alpha
+[1.3.0-beta]: https://github.com/Automattic/jetpack-boost-production/compare/v1.2.0...v1.3.0-beta
 [1.2.0]: https://github.com/Automattic/jetpack-boost-production/compare/v1.1.0...v1.2.0-beta
