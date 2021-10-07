@@ -462,13 +462,13 @@
   position: relative;
   font-size: 14px;
   position: relative;
-  z-index: 50;
 }
 @media (min-width: 768px) {
   .jb-score-bar__label {
     padding-left: 15px;
     padding-right: 15px;
     width: 200px;
+    z-index: 50;
   }
 }
 .jb-score-bar__score {
