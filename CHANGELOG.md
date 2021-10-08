@@ -11,6 +11,7 @@ This is an alpha version! The changes listed here are not final.
 
 ### Fixed
 - Fix issue with overall speed score info tooltip display
+- Fix the Speed_Score_History::clear_all declaration property
 
 ## [1.3.0-beta] - 2021-10-04
 ### Security
