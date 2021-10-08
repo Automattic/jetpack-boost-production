@@ -12,6 +12,9 @@ This is an alpha version! The changes listed here are not final.
 ### Changed
 - Updated package dependencies
 
+### Fixed
+- Fix issue with overall speed score info tooltip display
+
 ## [1.3.0-beta] - 2021-10-04
 ### Security
 - Critical CSS: Add permissions checks to AJAX endpoints used when dismissing Critical CSS Recommendations.
