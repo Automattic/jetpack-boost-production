@@ -9,6 +9,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 This is an alpha version! The changes listed here are not final.
 
+### Added
+- Retry if a score request job is stuck for more than 15 minutes
+
 ### Fixed
 - Fix issue with overall speed score info tooltip display
 - Fix the Speed_Score_History::clear_all declaration property
