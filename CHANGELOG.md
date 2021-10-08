@@ -13,6 +13,7 @@ This is an alpha version! The changes listed here are not final.
 - Retry if a score request job is stuck for more than 15 minutes
 
 ### Changed
+- Do not show noBoost score if no modules are active.
 - Updated package dependencies
 
 ### Fixed
