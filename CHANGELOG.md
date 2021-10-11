@@ -16,6 +16,7 @@ This is an alpha version! The changes listed here are not final.
 ### Changed
 - Do not show noBoost score if no modules are active.
 - Updated package dependencies
+- Updated package dependencies
 
 ### Fixed
 - Fix issue with overall speed score info tooltip display
