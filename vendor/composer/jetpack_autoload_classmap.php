@@ -342,13 +342,13 @@ return array(
 		'version' => '1.13.11.0',
 		'path'    => $vendorDir . '/automattic/jetpack-tracking/src/class-tracking.php'
 	),
-	'Automattic\\Jetpack\\A8c_Mc_Stats' => array(
-		'version' => '1.4.6.0',
-		'path'    => $vendorDir . '/automattic/jetpack-a8c-mc-stats/src/class-a8c-mc-stats.php'
-	),
 	'Automattic\\Jetpack\\Assets' => array(
 		'version' => '1.11.7.0',
 		'path'    => $vendorDir . '/automattic/jetpack-assets/src/class-assets.php'
+	),
+	'Automattic\\Jetpack\\A8c_Mc_Stats' => array(
+		'version' => '1.4.6.0',
+		'path'    => $vendorDir . '/automattic/jetpack-a8c-mc-stats/src/class-a8c-mc-stats.php'
 	),
 	'Automattic\\Jetpack\\Terms_Of_Service' => array(
 		'version' => '1.9.10.0',
