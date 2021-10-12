@@ -165,16 +165,17 @@ If you run into compatibility issues, please do let us know. You can drop us a l
 1. Manage your Jetpack Boost settings
 
 == Changelog ==
-### 1.3.0-beta - 2021-10-04
+### 1.3.0-beta - 2021-10-12
 #### Security
 - Critical CSS: Add permissions checks to AJAX endpoints used when dismissing Critical CSS Recommendations.
 
 #### Added
-- Critical CSS: Add extra information to "fetch" errors when generating Critical CSS.
 - Critical CSS: Added explanation for mod-security HTTP 418 errors.
 - Critical CSS: Added stats tracking for generation outcomes.
 - Critical CSS: Added step-by-step instructions for Advanced Recommendations.
+- Critical CSS: Add extra information to "fetch" errors when generating Critical CSS.
 - Critical CSS: More descriptive error message if critical css is failing because of x-frame-options deny config.
+- Speed Scores: Retry if a score request job is stuck for more than 15 minutes
 - Speed Scores: Added "without Boost" speed score indicator.
 
 #### Changed
@@ -183,7 +184,7 @@ If you run into compatibility issues, please do let us know. You can drop us a l
 #### Fixed
 - Critical CSS: Clear generated CSS on theme change.
 - Critical CSS: Ensure generator process is resumed after module deactivated and reactivated without reload.
-- Speed Scores: Clear speed score on plugin deactivation.
+- Speed Scores: Clear speed score on plugin deactivation and uninstallation.
 --------
 
 [See the previous changelogs here](https://github.com/Automattic/jetpack/blob/master/projects/plugins/boost/CHANGELOG.md#changelog) 
