@@ -15,6 +15,7 @@ This is an alpha version! The changes listed here are not final.
 
 ### Changed
 - Do not show noBoost score if no modules are active.
+- Update Critical CSS Generator library to latest
 - Updated package dependencies
 - Updated package dependencies
 
