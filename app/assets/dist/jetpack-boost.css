@@ -1010,6 +1010,9 @@
   z-index: 60;
   padding: 24px;
 }
+.jb-rating-card .jb-rating-card__headline {
+  margin-right: 21px;
+}
 
 .jb-settings .jb-button--primary {
   color: #ffffff;
