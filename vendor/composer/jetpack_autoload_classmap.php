@@ -302,10 +302,6 @@ return array(
 		'version' => '1.30.7.0',
 		'path'    => $vendorDir . '/automattic/jetpack-connection/src/class-rest-connector.php'
 	),
-	'Automattic\\Jetpack\\Jetpack_Lazy_Images' => array(
-		'version' => '2.0.1.0',
-		'path'    => $vendorDir . '/automattic/jetpack-lazy-images/src/lazy-images.php'
-	),
 	'Automattic\\Jetpack\\Device_Detection\\User_Agent_Info' => array(
 		'version' => '1.4.4.0',
 		'path'    => $vendorDir . '/automattic/jetpack-device-detection/src/class-user-agent-info.php'
@@ -314,6 +310,10 @@ return array(
 		'version' => '1.4.4.0',
 		'path'    => $vendorDir . '/automattic/jetpack-device-detection/src/class-device-detection.php'
 	),
+	'Automattic\\Jetpack\\Jetpack_Lazy_Images' => array(
+		'version' => '2.0.1.0',
+		'path'    => $vendorDir . '/automattic/jetpack-lazy-images/src/lazy-images.php'
+	),
 	'Automattic\\Jetpack\\Config' => array(
 		'version' => '1.5.1.0',
 		'path'    => $vendorDir . '/automattic/jetpack-config/src/class-config.php'
@@ -321,6 +321,14 @@ return array(
 	'Automattic\\Jetpack\\Heartbeat' => array(
 		'version' => '1.3.11.0',
 		'path'    => $vendorDir . '/automattic/jetpack-heartbeat/src/class-heartbeat.php'
+	),
+	'Automattic\\Jetpack\\Redirect' => array(
+		'version' => '1.7.2.0',
+		'path'    => $vendorDir . '/automattic/jetpack-redirect/src/class-redirect.php'
+	),
+	'Automattic\\Jetpack\\Roles' => array(
+		'version' => '1.4.7.0',
+		'path'    => $vendorDir . '/automattic/jetpack-roles/src/class-roles.php'
 	),
 	'Jetpack_Tracks_Client' => array(
 		'version' => '1.13.11.0',
@@ -333,14 +341,6 @@ return array(
 	'Automattic\\Jetpack\\Tracking' => array(
 		'version' => '1.13.11.0',
 		'path'    => $vendorDir . '/automattic/jetpack-tracking/src/class-tracking.php'
-	),
-	'Automattic\\Jetpack\\Redirect' => array(
-		'version' => '1.7.2.0',
-		'path'    => $vendorDir . '/automattic/jetpack-redirect/src/class-redirect.php'
-	),
-	'Automattic\\Jetpack\\Roles' => array(
-		'version' => '1.4.7.0',
-		'path'    => $vendorDir . '/automattic/jetpack-roles/src/class-roles.php'
 	),
 	'Automattic\\Jetpack\\A8c_Mc_Stats' => array(
 		'version' => '1.4.6.0',
