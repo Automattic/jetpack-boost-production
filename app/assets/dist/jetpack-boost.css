@@ -616,8 +616,8 @@
   border-radius: 4px;
   position: absolute;
   z-index: 1000;
-  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.5);
   text-align: left;
+  box-shadow: 0 0 20px 0 rgba(170, 170, 170, 0.28);
 }
 @media (min-width: 768px) {
   .jb-score-context__info-container {
@@ -648,7 +648,7 @@
   height: 12px;
   transform: translate(-50%, 50%) rotate(45deg);
   background-color: #FFFFFF;
-  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.5);
+  box-shadow: 0 0 20px 0 rgba(170, 170, 170, 0.28);
 }
 .jb-score-context:hover .jb-score-context__info-container {
   display: block;
