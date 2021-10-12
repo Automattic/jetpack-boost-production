@@ -5,32 +5,17 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
-## [1.3.1-alpha] - unreleased
-
-This is an alpha version! The changes listed here are not final.
-
-### Added
-- Add Jetpack Boost version event property to Tracks events.
-- Retry if a score request job is stuck for more than 15 minutes
-
-### Changed
-- Do not show noBoost score if no modules are active.
-- Update Critical CSS Generator library to latest
-
-### Fixed
-- Fix issue with overall speed score info tooltip display
-- Fix the Speed_Score_History::clear_all declaration property
-
-## [1.3.0-beta] - 2021-10-04
+## [1.3.0-beta] - 2021-10-12
 ### Security
 - Critical CSS: Add permissions checks to AJAX endpoints used when dismissing Critical CSS Recommendations.
 
 ### Added
-- Critical CSS: Add extra information to "fetch" errors when generating Critical CSS.
 - Critical CSS: Added explanation for mod-security HTTP 418 errors.
 - Critical CSS: Added stats tracking for generation outcomes.
 - Critical CSS: Added step-by-step instructions for Advanced Recommendations.
+- Critical CSS: Add extra information to "fetch" errors when generating Critical CSS.
 - Critical CSS: More descriptive error message if critical css is failing because of x-frame-options deny config.
+- Speed Scores: Retry if a score request job is stuck for more than 15 minutes
 - Speed Scores: Added "without Boost" speed score indicator.
 
 ### Changed
@@ -111,6 +96,5 @@ This is an alpha version! The changes listed here are not final.
 
 - First public alpha release
 
-[1.3.1-alpha]: https://github.com/Automattic/jetpack-boost-production/compare/v1.3.0-beta...v1.3.1-alpha
 [1.3.0-beta]: https://github.com/Automattic/jetpack-boost-production/compare/v1.2.0...v1.3.0-beta
 [1.2.0]: https://github.com/Automattic/jetpack-boost-production/compare/v1.1.0...v1.2.0-beta
