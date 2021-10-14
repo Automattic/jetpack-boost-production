@@ -27,19 +27,7 @@ class Client {
 		if ( ! $result || is_wp_error( $result ) ) {
 			return $result;
 		}
-
-		$response = self::_wp_remote_request( $result['url'], $result['request'] );
-
-		/**
-		 * Fired when the remote request response has been received.
-		 *
-		 * @since 1.30.8
-		 *
-		 * @param array|WP_Error The HTTP response.
-		 */
-		do_action( 'jetpack_received_remote_request_response', $response );
-
-		return $response;
+		return self::_wp_remote_request( $result['url'], $result['request'] );
 	}
 
 	/**

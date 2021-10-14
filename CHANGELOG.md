@@ -9,35 +9,25 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 This is an alpha version! The changes listed here are not final.
 
-### Added
-- Add Jetpack Boost version event property to Tracks events.
-- Retry if a score request job is stuck for more than 15 minutes
-
 ### Changed
-- Do not show noBoost score if no modules are active.
 - Refresh speed score if theme has changed since last score
 - Update Critical CSS Generator library to latest
-- Updated package dependencies
-- Updated package dependencies
-- Updated package dependencies.
 
 ### Fixed
 - Critical CSS: Move CSS file proxying to client-side, to catch WAF-based CDN URLs
-- Fix issue with overall speed score info tooltip display
-- Fix lint errors reported by updated `@sveltejs/eslint-config` version.
-- Fix the Speed_Score_History::clear_all declaration property
 - Make sure that the Critical CSS Nonce for dismissing recommendations is always available in the settings page
 
-## [1.3.0-beta] - 2021-10-04
+## [1.3.0-beta] - 2021-10-12
 ### Security
 - Critical CSS: Add permissions checks to AJAX endpoints used when dismissing Critical CSS Recommendations.
 
 ### Added
-- Critical CSS: Add extra information to "fetch" errors when generating Critical CSS.
 - Critical CSS: Added explanation for mod-security HTTP 418 errors.
 - Critical CSS: Added stats tracking for generation outcomes.
 - Critical CSS: Added step-by-step instructions for Advanced Recommendations.
+- Critical CSS: Add extra information to "fetch" errors when generating Critical CSS.
 - Critical CSS: More descriptive error message if critical css is failing because of x-frame-options deny config.
+- Speed Scores: Retry if a score request job is stuck for more than 15 minutes
 - Speed Scores: Added "without Boost" speed score indicator.
 
 ### Changed
