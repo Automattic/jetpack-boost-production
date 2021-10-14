@@ -1,7 +1,7 @@
 <?php return array(
     'root' => array(
-        'pretty_version' => '1.3.1-alpha',
-        'version' => '1.3.1.0-alpha',
+        'pretty_version' => '1.4.0-alpha',
+        'version' => '1.4.0.0-alpha',
         'type' => 'library',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
@@ -17,6 +17,15 @@
             'install_path' => __DIR__ . '/../automattic/jetpack-a8c-mc-stats',
             'aliases' => array(),
             'reference' => '0ef0ff6f3cf1a87c1127e995a9abf7c6239239b6',
+            'dev_requirement' => false,
+        ),
+        'automattic/jetpack-admin-ui' => array(
+            'pretty_version' => '0.1.x-dev',
+            'version' => '0.1.9999999.9999999-dev',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../automattic/jetpack-admin-ui',
+            'aliases' => array(),
+            'reference' => '272552f28505c18df9663a168073c0b9088d3363',
             'dev_requirement' => false,
         ),
         'automattic/jetpack-assets' => array(
@@ -38,8 +47,8 @@
             'dev_requirement' => false,
         ),
         'automattic/jetpack-boost' => array(
-            'pretty_version' => '1.3.1-alpha',
-            'version' => '1.3.1.0-alpha',
+            'pretty_version' => '1.4.0-alpha',
+            'version' => '1.4.0.0-alpha',
             'type' => 'library',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),

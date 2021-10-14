@@ -5,7 +5,7 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
-## [1.3.1-alpha] - unreleased
+## [1.4.0-alpha] - unreleased
 
 This is an alpha version! The changes listed here are not final.
 
@@ -20,6 +20,7 @@ This is an alpha version! The changes listed here are not final.
 - Updated package dependencies
 - Updated package dependencies
 - Updated package dependencies.
+- Use the Admin UI package and register the menu under the Jetpack top level menu
 
 ### Fixed
 - Critical CSS: Move CSS file proxying to client-side, to catch WAF-based CDN URLs
@@ -118,6 +119,6 @@ This is an alpha version! The changes listed here are not final.
 
 - First public alpha release
 
-[1.3.1-alpha]: https://github.com/Automattic/jetpack-boost-production/compare/v1.3.0-beta...v1.3.1-alpha
+[1.4.0-alpha]: https://github.com/Automattic/jetpack-boost-production/compare/v1.3.0-beta...v1.4.0-alpha
 [1.3.0-beta]: https://github.com/Automattic/jetpack-boost-production/compare/v1.2.0...v1.3.0-beta
 [1.2.0]: https://github.com/Automattic/jetpack-boost-production/compare/v1.1.0...v1.2.0-beta
