@@ -22,6 +22,7 @@ This is an alpha version! The changes listed here are not final.
 - Updated package dependencies.
 
 ### Fixed
+- Critical CSS: Move CSS file proxying to client-side, to catch WAF-based CDN URLs
 - Fix issue with overall speed score info tooltip display
 - Fix lint errors reported by updated `@sveltejs/eslint-config` version.
 - Fix the Speed_Score_History::clear_all declaration property

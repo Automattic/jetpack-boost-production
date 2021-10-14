@@ -30,10 +30,6 @@ return array(
 		'version' => '1.3.1.0-alpha',
 		'path'    => $baseDir . '/tests/php/class-base-test-case.php'
 	),
-	'Automattic\\Jetpack_Boost\\Tests\\Modules\\Critical_CSS\\WP_Test_Critical_Css' => array(
-		'version' => '1.3.1.0-alpha',
-		'path'    => $baseDir . '/tests/php/modules/critical-css/test-class-critical-css.php'
-	),
 	'Automattic\\Jetpack_Boost\\Tests\\Modules\\WP_Test_Module' => array(
 		'version' => '1.3.1.0-alpha',
 		'path'    => $baseDir . '/tests/php/modules/test-class-module.php'
