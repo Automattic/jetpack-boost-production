@@ -5,19 +5,7 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
-## [1.3.1-alpha] - unreleased
-
-This is an alpha version! The changes listed here are not final.
-
-### Changed
-- Refresh speed score if theme has changed since last score
-- Update Critical CSS Generator library to latest
-
-### Fixed
-- Critical CSS: Move CSS file proxying to client-side, to catch WAF-based CDN URLs
-- Make sure that the Critical CSS Nonce for dismissing recommendations is always available in the settings page
-
-## [1.3.0-beta] - 2021-10-12
+## [1.3.0-beta] - 2021-10-14
 ### Security
 - Critical CSS: Add permissions checks to AJAX endpoints used when dismissing Critical CSS Recommendations.
 
@@ -27,15 +15,19 @@ This is an alpha version! The changes listed here are not final.
 - Critical CSS: Added step-by-step instructions for Advanced Recommendations.
 - Critical CSS: Add extra information to "fetch" errors when generating Critical CSS.
 - Critical CSS: More descriptive error message if critical css is failing because of x-frame-options deny config.
-- Speed Scores: Retry if a score request job is stuck for more than 15 minutes
 - Speed Scores: Added "without Boost" speed score indicator.
+- Speed Scores: Retry if a score request job is stuck for more than 15 minutes
 
 ### Changed
 - Critical CSS: Take port numbers into account when comparing origins for proxying.
+- Refresh speed score if theme has changed since last score
+- Update Critical CSS Generator library to latest
 
 ### Fixed
 - Critical CSS: Clear generated CSS on theme change.
 - Critical CSS: Ensure generator process is resumed after module deactivated and reactivated without reload.
+- Critical CSS: Move CSS file proxying to client-side, to catch WAF-based CDN URLs
+- Make sure that the Critical CSS Nonce for dismissing recommendations is always available in the settings page
 - Speed Scores: Clear speed score on plugin deactivation and uninstallation.
 
 ## [1.2.0] - 2021-08-12
@@ -108,6 +100,5 @@ This is an alpha version! The changes listed here are not final.
 
 - First public alpha release
 
-[1.3.1-alpha]: https://github.com/Automattic/jetpack-boost-production/compare/v1.3.0-beta...v1.3.1-alpha
 [1.3.0-beta]: https://github.com/Automattic/jetpack-boost-production/compare/v1.2.0...v1.3.0-beta
 [1.2.0]: https://github.com/Automattic/jetpack-boost-production/compare/v1.1.0...v1.2.0-beta
