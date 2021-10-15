@@ -10,6 +10,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 This is an alpha version! The changes listed here are not final.
 
 ### Added
+- Add a compatibility file for Elementor plugin to ignore its library custom post type from the list of providers
 - Add Jetpack Boost version event property to Tracks events.
 - Retry if a score request job is stuck for more than 15 minutes
 
