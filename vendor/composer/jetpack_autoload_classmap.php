@@ -318,6 +318,14 @@ return array(
 		'version' => '1.3.11.0',
 		'path'    => $vendorDir . '/automattic/jetpack-heartbeat/src/class-heartbeat.php'
 	),
+	'Automattic\\Jetpack\\Redirect' => array(
+		'version' => '1.7.2.0',
+		'path'    => $vendorDir . '/automattic/jetpack-redirect/src/class-redirect.php'
+	),
+	'Automattic\\Jetpack\\Roles' => array(
+		'version' => '1.4.7.0',
+		'path'    => $vendorDir . '/automattic/jetpack-roles/src/class-roles.php'
+	),
 	'Jetpack_Tracks_Client' => array(
 		'version' => '1.13.11.0',
 		'path'    => $vendorDir . '/automattic/jetpack-tracking/legacy/class-jetpack-tracks-client.php'
@@ -329,14 +337,6 @@ return array(
 	'Automattic\\Jetpack\\Tracking' => array(
 		'version' => '1.13.11.0',
 		'path'    => $vendorDir . '/automattic/jetpack-tracking/src/class-tracking.php'
-	),
-	'Automattic\\Jetpack\\Redirect' => array(
-		'version' => '1.7.2.0',
-		'path'    => $vendorDir . '/automattic/jetpack-redirect/src/class-redirect.php'
-	),
-	'Automattic\\Jetpack\\Roles' => array(
-		'version' => '1.4.7.0',
-		'path'    => $vendorDir . '/automattic/jetpack-roles/src/class-roles.php'
 	),
 	'Automattic\\Jetpack\\A8c_Mc_Stats' => array(
 		'version' => '1.4.6.0',
