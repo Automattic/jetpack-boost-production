@@ -24,6 +24,9 @@ This is an alpha version! The changes listed here are not final.
 - Updated package dependencies.
 - Use the Admin UI package and register the menu under the Jetpack top level menu
 
+### Removed
+- Cleanup left over Jest framework setup and setting and fix link in the README file
+
 ### Fixed
 - Critical CSS: Move CSS file proxying to client-side, to catch WAF-based CDN URLs
 - Fix issue with overall speed score info tooltip display
