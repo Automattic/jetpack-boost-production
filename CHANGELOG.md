@@ -22,6 +22,7 @@ This is an alpha version! The changes listed here are not final.
 - Update Critical CSS Generator library to latest
 - Updated package dependencies
 - Updated package dependencies
+- Updated package dependencies
 - Updated package dependencies.
 - Use the Admin UI package and register the menu under the Jetpack top level menu
 
