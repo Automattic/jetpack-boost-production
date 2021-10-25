@@ -165,7 +165,7 @@ If you run into compatibility issues, please do let us know. You can drop us a l
 1. Manage your Jetpack Boost settings
 
 == Changelog ==
-### 1.3.0-beta - 2021-10-14
+### 1.3.0 - 2021-10-25
 #### Security
 - Critical CSS: Add permissions checks to AJAX endpoints used when dismissing Critical CSS Recommendations.
 

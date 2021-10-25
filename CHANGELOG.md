@@ -5,14 +5,7 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
-## [1.3.1-alpha] - unreleased
-
-This is an alpha version! The changes listed here are not final.
-
-### Fixed
-- Fix UI issues due to incorrect class name
-
-## [1.3.0-beta] - 2021-10-14
+## [1.3.0] - 2021-10-14
 ### Security
 - Critical CSS: Add permissions checks to AJAX endpoints used when dismissing Critical CSS Recommendations.
 
@@ -107,6 +100,5 @@ This is an alpha version! The changes listed here are not final.
 
 - First public alpha release
 
-[1.3.1-alpha]: https://github.com/Automattic/jetpack-boost-production/compare/v1.3.0-beta...v1.3.1-alpha
-[1.3.0-beta]: https://github.com/Automattic/jetpack-boost-production/compare/v1.2.0...v1.3.0-beta
-[1.2.0]: https://github.com/Automattic/jetpack-boost-production/compare/v1.1.0...v1.2.0-beta
+[1.3.0]: https://github.com/Automattic/jetpack-boost-production/compare/v1.2.0...v1.3.0
+[1.2.0]: https://github.com/Automattic/jetpack-boost-production/compare/v1.1.0...v1.2.0
