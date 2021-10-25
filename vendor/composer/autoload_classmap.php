@@ -7,6 +7,7 @@ $baseDir = dirname($vendorDir);
 
 return array(
     'Automattic\\Jetpack\\A8c_Mc_Stats' => $vendorDir . '/automattic/jetpack-a8c-mc-stats/src/class-a8c-mc-stats.php',
+    'Automattic\\Jetpack\\Admin_UI\\Admin_Menu' => $vendorDir . '/automattic/jetpack-admin-ui/src/class-admin-menu.php',
     'Automattic\\Jetpack\\Assets' => $vendorDir . '/automattic/jetpack-assets/src/class-assets.php',
     'Automattic\\Jetpack\\Autoloader\\AutoloadFileWriter' => $vendorDir . '/automattic/jetpack-autoloader/src/AutoloadFileWriter.php',
     'Automattic\\Jetpack\\Autoloader\\AutoloadGenerator' => $vendorDir . '/automattic/jetpack-autoloader/src/AutoloadGenerator.php',
