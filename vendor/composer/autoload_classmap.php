@@ -42,6 +42,7 @@ return array(
     'Automattic\\Jetpack\\Redirect' => $vendorDir . '/automattic/jetpack-redirect/src/class-redirect.php',
     'Automattic\\Jetpack\\Roles' => $vendorDir . '/automattic/jetpack-roles/src/class-roles.php',
     'Automattic\\Jetpack\\Status' => $vendorDir . '/automattic/jetpack-status/src/class-status.php',
+    'Automattic\\Jetpack\\Status\\Host' => $vendorDir . '/automattic/jetpack-status/src/class-host.php',
     'Automattic\\Jetpack\\Terms_Of_Service' => $vendorDir . '/automattic/jetpack-terms-of-service/src/class-terms-of-service.php',
     'Automattic\\Jetpack\\Tracking' => $vendorDir . '/automattic/jetpack-tracking/src/class-tracking.php',
     'Automattic\\Jetpack_Boost\\Admin\\Admin' => $baseDir . '/app/admin/class-admin.php',

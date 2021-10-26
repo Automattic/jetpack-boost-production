@@ -359,8 +359,12 @@ return array(
 		'path'    => $vendorDir . '/automattic/jetpack-options/legacy/class-jetpack-options.php'
 	),
 	'Automattic\\Jetpack\\Status' => array(
-		'version' => '1.8.9999999.9999999-dev',
+		'version' => '1.9.9999999.9999999-dev',
 		'path'    => $vendorDir . '/automattic/jetpack-status/src/class-status.php'
+	),
+	'Automattic\\Jetpack\\Status\\Host' => array(
+		'version' => '1.9.9999999.9999999-dev',
+		'path'    => $vendorDir . '/automattic/jetpack-status/src/class-host.php'
 	),
 	'Automattic\\Jetpack\\Constants' => array(
 		'version' => '1.6.9999999.9999999-dev',
