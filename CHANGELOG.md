@@ -20,6 +20,7 @@ This is an alpha version! The changes listed here are not final.
 - Do not show noBoost score if no modules are active.
 - E2E tests: update pnpm commands to use new tunnel wrapper script
 - Refresh speed score if theme has changed since last score
+- Set `convertDeprecationsToExceptions` true in PHPUnit config.
 - Update Critical CSS Generator library to latest
 - Updated package dependencies
 - Updated package dependencies
