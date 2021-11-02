@@ -13,6 +13,7 @@ This is an alpha version! The changes listed here are not final.
 - Add a compatibility file for Elementor plugin to ignore its library custom post type from the list of providers
 - Add Jetpack Boost version event property to Tracks events.
 - Create the e2e test base framework
+- Explicitly hide admin_bar during Critical CSS render
 - Retry if a score request job is stuck for more than 15 minutes
 
 ### Changed
