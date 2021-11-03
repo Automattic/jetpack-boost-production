@@ -19,6 +19,7 @@ This is an alpha version! The changes listed here are not final.
 ### Changed
 - Added active modules data with page speed score request.
 - Do not show noBoost score if no modules are active.
+- E2E tests: remove jest setup in favor of e2e-commons setup file
 - E2E tests: update pnpm commands to use new tunnel wrapper script
 - Refresh speed score if theme has changed since last score
 - Set `convertDeprecationsToExceptions` true in PHPUnit config.
