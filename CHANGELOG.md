@@ -41,6 +41,7 @@ This is an alpha version! The changes listed here are not final.
 - Critical CSS: Move CSS file proxying to client-side, to catch WAF-based CDN URLs
 - Fix issue with overall speed score info tooltip display
 - Fix lint errors reported by updated `@sveltejs/eslint-config` version.
+- Fix the official name to the JavaScript word reference
 - Fix the Speed_Score_History::clear_all declaration property
 - Fix UI issues due to incorrect class name
 - Make sure that the Critical CSS Nonce for dismissing recommendations is always available in the settings page
