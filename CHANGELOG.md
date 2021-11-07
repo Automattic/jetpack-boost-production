@@ -38,6 +38,7 @@ This is an alpha version! The changes listed here are not final.
 - Cleanup left over Jest framework setup and setting and fix link in the README file
 
 ### Fixed
+- Boost: make progress bar corners round on small screens
 - Critical CSS: Move CSS file proxying to client-side, to catch WAF-based CDN URLs
 - Fix issue with overall speed score info tooltip display
 - Fix lint errors reported by updated `@sveltejs/eslint-config` version.

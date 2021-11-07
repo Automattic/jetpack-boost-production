@@ -510,6 +510,7 @@
 @media (max-width: 767px) {
   .jb-score-bar__filler {
     min-width: 43px;
+    border-radius: inherit;
   }
 }
 .jb-score-bar__no_boost_score {
