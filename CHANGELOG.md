@@ -36,6 +36,7 @@ This is an alpha version! The changes listed here are not final.
 
 ### Removed
 - Cleanup left over Jest framework setup and setting and fix link in the README file
+- E2E tests: cleaned up some unused dependencies
 
 ### Fixed
 - Boost: make progress bar corners round on small screens
