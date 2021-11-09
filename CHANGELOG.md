@@ -49,6 +49,7 @@ This is an alpha version! The changes listed here are not final.
 - Fix the Speed_Score_History::clear_all declaration property
 - Fix UI issues due to incorrect class name
 - Make sure that the Critical CSS Nonce for dismissing recommendations is always available in the settings page
+- Refactor linting/formating Boost and Svelte/TypeScript files
 
 ## [1.3.0-beta] - 2021-10-04
 ### Security
