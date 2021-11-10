@@ -11,6 +11,7 @@ This is an alpha version! The changes listed here are not final.
 
 ### Added
 - Add a compatibility file for Elementor plugin to ignore its library custom post type from the list of providers
+- Add a pnpm slack command to the e2e package.json file to allow for slack notifications during the Github Action e2e worflow
 - Add Jetpack Boost version event property to Tracks events.
 - Create the e2e test base framework
 - Explicitly hide admin_bar during Critical CSS render
