@@ -52,6 +52,7 @@ This is an alpha version! The changes listed here are not final.
 - Fix the official name to the JavaScript word reference
 - Fix the Speed_Score_History::clear_all declaration property
 - Fix UI issues due to incorrect class name
+- Implement support for loading stylesheets when JavaScript is disabled in the context Critical CSS being enabled
 - Make sure that the Critical CSS Nonce for dismissing recommendations is always available in the settings page
 - Refactor linting/formating Boost and Svelte/TypeScript files
 
