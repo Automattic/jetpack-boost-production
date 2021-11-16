@@ -47,6 +47,7 @@ This is an alpha version! The changes listed here are not final.
 ### Fixed
 - Boost: make progress bar corners round on small screens
 - Critical CSS: Move CSS file proxying to client-side, to catch WAF-based CDN URLs
+- Fix increase of CLS score on stylesheets loading with the help of appropriate filter.
 - Fix issue with overall speed score info tooltip display
 - Fix lint errors reported by updated `@sveltejs/eslint-config` version.
 - Fix the E2E speed scores test assertion
