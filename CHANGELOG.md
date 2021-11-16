@@ -55,6 +55,7 @@ This is an alpha version! The changes listed here are not final.
 - Implement support for loading stylesheets when JavaScript is disabled in the context Critical CSS being enabled
 - Make sure that the Critical CSS Nonce for dismissing recommendations is always available in the settings page
 - Refactor linting/formating Boost and Svelte/TypeScript files
+- Replace the site url by the home url to cater for sub directory WordPress install
 
 ## [1.3.0-beta] - 2021-10-04
 ### Security
