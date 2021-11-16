@@ -45,7 +45,6 @@ This is an alpha version! The changes listed here are not final.
 - E2E tests: cleaned up some unused dependencies
 
 ### Fixed
-- Assets: revert use of the new method added to register scripts
 - Boost: make progress bar corners round on small screens
 - Critical CSS: Move CSS file proxying to client-side, to catch WAF-based CDN URLs
 - Fix increase of CLS score on stylesheets loading with the help of appropriate filter.
