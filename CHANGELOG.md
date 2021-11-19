@@ -5,61 +5,27 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
-## [1.4.0-alpha] - unreleased
-
-This is an alpha version! The changes listed here are not final.
-
+## [1.3.1-beta] - 2021-11-19
 ### Added
-- Add a compatibility file for Elementor plugin to ignore its library custom post type from the list of providers
-- Add a pnpm slack command to the e2e package.json file to allow for slack notifications during the Github Action e2e worflow
-- Add Jetpack Boost version event property to Tracks events.
-- Create the e2e test base framework
-- Explicitly hide admin_bar during Critical CSS render
-- Retry if a score request job is stuck for more than 15 minutes
+- Critical CSS: Added a filter to allow stylesheets to load synchronously, to avoid CLS issues on certain setups.
+- Critical CSS: Exclude "library" posts from Elementor plugin when generating Critical CSS.
+- Critical CSS: Explicitly hide admin_bar during Critical CSS render, to improve compatability with custom admin bar setups.
+- Speed Scores: Automatically retry if a speed score request is stuck for more than 15 minutes.
+- Stability: New end-to-end testing system.
 
 ### Changed
-- Added active modules data with page speed score request.
-- Do not show noBoost score if no modules are active.
-- E2E tests: remove jest setup in favor of e2e-commons setup file
-- E2E tests: update pnpm commands to use new tunnel wrapper script
-- Refresh speed score if theme has changed since last score
-- Set `convertDeprecationsToExceptions` true in PHPUnit config.
-- Update Critical CSS Generator library to latest
-- Updated package dependencies
-- Updated package dependencies
-- Updated package dependencies
-- Updated package dependencies
-- Updated package dependencies
-- Updated package dependencies
-- Updated package dependencies
-- Updated package dependencies
-- Updated package dependencies
-- Updated package dependencies
-- Updated package dependencies
-- Updated package dependencies.
-- Updated package dependencies.
-- Update PHPUnit configs to include just what needs coverage rather than include everything then try to exclude stuff that doesn't.
-- updating internal dependencies
-- Use the Admin UI package and register the menu under the Jetpack top level menu
-
-### Removed
-- Cleanup left over Jest framework setup and setting and fix link in the README file
-- E2E tests: cleaned up some unused dependencies
+- Critical CSS: Detect external CSS URLs from the client side, to improve compatibility with WAFs which modify HTML.
+- Move Boost admin menu into Jetpack submenu.
+- Speed Scores: Automatically refresh speed scores if the theme has changed.
+- Speed Scores: Include active modules and Jetpack Boost version with Speed Score requests.
 
 ### Fixed
-- Boost: make progress bar corners round on small screens
-- Critical CSS: Move CSS file proxying to client-side, to catch WAF-based CDN URLs
-- Fix increase of CLS score on stylesheets loading with the help of appropriate filter.
-- Fix issue with overall speed score info tooltip display
-- Fix lint errors reported by updated `@sveltejs/eslint-config` version.
-- Fix the E2E speed scores test assertion
-- Fix the official name to the JavaScript word reference
-- Fix the Speed_Score_History::clear_all declaration property
-- Fix UI issues due to incorrect class name
-- Implement support for loading stylesheets when JavaScript is disabled in the context Critical CSS being enabled
-- Make sure that the Critical CSS Nonce for dismissing recommendations is always available in the settings page
-- Refactor linting/formating Boost and Svelte/TypeScript files
-- Replace the site url by the home url to cater for sub directory WordPress install
+- Critical CSS: Fix handling for corrupted font-face rules.
+- Critical CSS: Fix issue with dismissing recommendations after enabling Critical CSS without page refresh.
+- Critical CSS: Ensure CSS files still load when JavaScript is not enabled.
+- Critical CSS: Use home_url instead of site_url when determining homepage during Critical CSS generation.
+- Speed Scores: Do not show comparative scores when no modules are active.
+- Minor UI fixes for small screens and tooltip display.
 
 ## [1.3.0-beta] - 2021-10-04
 ### Security
@@ -151,6 +117,6 @@ This is an alpha version! The changes listed here are not final.
 
 - First public alpha release
 
-[1.4.0-alpha]: https://github.com/Automattic/jetpack-boost-production/compare/v1.3.0-beta...v1.4.0-alpha
+[1.4.0-beta]: https://github.com/Automattic/jetpack-boost-production/compare/v1.3.0-beta...v1.4.0-beta
 [1.3.0-beta]: https://github.com/Automattic/jetpack-boost-production/compare/v1.2.0...v1.3.0-beta
 [1.2.0]: https://github.com/Automattic/jetpack-boost-production/compare/v1.1.0...v1.2.0-beta
