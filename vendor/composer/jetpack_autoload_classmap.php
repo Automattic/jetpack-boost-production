@@ -7,35 +7,35 @@ $baseDir   = dirname($vendorDir);
 
 return array(
 	'Automattic\\Jetpack_Boost\\Tests\\Base_Test_Case' => array(
-		'version' => '1.4.0.0-beta',
+		'version' => '1.3.1.0-beta',
 		'path'    => $baseDir . '/tests/php/class-base-test-case.php'
 	),
 	'Automattic\\Jetpack_Boost\\Tests\\Lib\\WP_Test_Url' => array(
-		'version' => '1.4.0.0-beta',
+		'version' => '1.3.1.0-beta',
 		'path'    => $baseDir . '/tests/php/lib/test-class-url.php'
 	),
 	'Automattic\\Jetpack_Boost\\Tests\\Lib\\WP_Test_Viewport' => array(
-		'version' => '1.4.0.0-beta',
+		'version' => '1.3.1.0-beta',
 		'path'    => $baseDir . '/tests/php/lib/test-class-viewport.php'
 	),
 	'Automattic\\Jetpack_Boost\\Tests\\Lib\\WP_Test_Speed_Score_History' => array(
-		'version' => '1.4.0.0-beta',
+		'version' => '1.3.1.0-beta',
 		'path'    => $baseDir . '/tests/php/lib/test-class-speed-score-history.php'
 	),
 	'Automattic\\Jetpack_Boost\\Tests\\Lib\\WP_Test_Minify' => array(
-		'version' => '1.4.0.0-beta',
+		'version' => '1.3.1.0-beta',
 		'path'    => $baseDir . '/tests/php/lib/test-class-minify.php'
 	),
 	'Automattic\\Jetpack_Boost\\Tests\\Lib\\WP_Test_Analytics' => array(
-		'version' => '1.4.0.0-beta',
+		'version' => '1.3.1.0-beta',
 		'path'    => $baseDir . '/tests/php/lib/test-class-analytics.php'
 	),
 	'Automattic\\Jetpack_Boost\\Tests\\Mocks\\Mock_Module' => array(
-		'version' => '1.4.0.0-beta',
+		'version' => '1.3.1.0-beta',
 		'path'    => $baseDir . '/tests/php/mocks/mock-module.php'
 	),
 	'Automattic\\Jetpack_Boost\\Tests\\Modules\\WP_Test_Module' => array(
-		'version' => '1.4.0.0-beta',
+		'version' => '1.3.1.0-beta',
 		'path'    => $baseDir . '/tests/php/modules/test-class-module.php'
 	),
 	'Automattic\\Jetpack\\Autoloader\\AutoloadFileWriter' => array(
@@ -63,147 +63,147 @@ return array(
 		'path'    => $vendorDir . '/tedivm/jshrink/src/JShrink/Minifier.php'
 	),
 	'Automattic\\Jetpack_Boost\\Admin\\Admin' => array(
-		'version' => '1.4.0.0-beta',
+		'version' => '1.3.1.0-beta',
 		'path'    => $baseDir . '/app/admin/class-admin.php'
 	),
 	'Automattic\\Jetpack_Boost\\Admin\\Admin_Notice' => array(
-		'version' => '1.4.0.0-beta',
+		'version' => '1.3.1.0-beta',
 		'path'    => $baseDir . '/app/admin/class-admin-notice.php'
 	),
 	'Automattic\\Jetpack_Boost\\Lib\\Transient' => array(
-		'version' => '1.4.0.0-beta',
+		'version' => '1.3.1.0-beta',
 		'path'    => $baseDir . '/app/lib/class-transient.php'
 	),
 	'Automattic\\Jetpack_Boost\\Lib\\Output_Filter' => array(
-		'version' => '1.4.0.0-beta',
+		'version' => '1.3.1.0-beta',
 		'path'    => $baseDir . '/app/lib/class-output-filter.php'
 	),
 	'Automattic\\Jetpack_Boost\\Lib\\Assets' => array(
-		'version' => '1.4.0.0-beta',
+		'version' => '1.3.1.0-beta',
 		'path'    => $baseDir . '/app/lib/class-assets.php'
 	),
 	'Automattic\\Jetpack_Boost\\Lib\\Cacheable' => array(
-		'version' => '1.4.0.0-beta',
+		'version' => '1.3.1.0-beta',
 		'path'    => $baseDir . '/app/lib/class-cacheable.php'
 	),
 	'Automattic\\Jetpack_Boost\\Lib\\Connection' => array(
-		'version' => '1.4.0.0-beta',
+		'version' => '1.3.1.0-beta',
 		'path'    => $baseDir . '/app/lib/class-connection.php'
 	),
 	'Automattic\\Jetpack_Boost\\Lib\\Viewport' => array(
-		'version' => '1.4.0.0-beta',
+		'version' => '1.3.1.0-beta',
 		'path'    => $baseDir . '/app/lib/class-viewport.php'
 	),
 	'Automattic\\Jetpack_Boost\\Lib\\Speed_Score' => array(
-		'version' => '1.4.0.0-beta',
+		'version' => '1.3.1.0-beta',
 		'path'    => $baseDir . '/app/lib/class-speed-score.php'
 	),
 	'Automattic\\Jetpack_Boost\\Lib\\Url' => array(
-		'version' => '1.4.0.0-beta',
+		'version' => '1.3.1.0-beta',
 		'path'    => $baseDir . '/app/lib/class-url.php'
 	),
 	'Automattic\\Jetpack_Boost\\Lib\\CLI' => array(
-		'version' => '1.4.0.0-beta',
+		'version' => '1.3.1.0-beta',
 		'path'    => $baseDir . '/app/lib/class-cli.php'
 	),
 	'Automattic\\Jetpack_Boost\\Lib\\Minify' => array(
-		'version' => '1.4.0.0-beta',
+		'version' => '1.3.1.0-beta',
 		'path'    => $baseDir . '/app/lib/class-minify.php'
 	),
 	'Automattic\\Jetpack_Boost\\Lib\\Speed_Score_Request' => array(
-		'version' => '1.4.0.0-beta',
+		'version' => '1.3.1.0-beta',
 		'path'    => $baseDir . '/app/lib/class-speed-score-request.php'
 	),
 	'Automattic\\Jetpack_Boost\\Lib\\Storage_Post_Type' => array(
-		'version' => '1.4.0.0-beta',
+		'version' => '1.3.1.0-beta',
 		'path'    => $baseDir . '/app/lib/class-storage-post-type.php'
 	),
 	'Automattic\\Jetpack_Boost\\Lib\\Analytics' => array(
-		'version' => '1.4.0.0-beta',
+		'version' => '1.3.1.0-beta',
 		'path'    => $baseDir . '/app/lib/class-analytics.php'
 	),
 	'Automattic\\Jetpack_Boost\\Lib\\Speed_Score_History' => array(
-		'version' => '1.4.0.0-beta',
+		'version' => '1.3.1.0-beta',
 		'path'    => $baseDir . '/app/lib/class-speed-score-history.php'
 	),
 	'Automattic\\Jetpack_Boost\\Lib\\Utils' => array(
-		'version' => '1.4.0.0-beta',
+		'version' => '1.3.1.0-beta',
 		'path'    => $baseDir . '/app/lib/class-utils.php'
 	),
 	'Automattic\\Jetpack_Boost\\Lib\\Environment_Change_Detector' => array(
-		'version' => '1.4.0.0-beta',
+		'version' => '1.3.1.0-beta',
 		'path'    => $baseDir . '/app/lib/class-environment-change-detector.php'
 	),
 	'Automattic\\Jetpack_Boost\\Lib\\Config' => array(
-		'version' => '1.4.0.0-beta',
+		'version' => '1.3.1.0-beta',
 		'path'    => $baseDir . '/app/lib/class-config.php'
 	),
 	'Automattic\\Jetpack_Boost\\Lib\\Nonce' => array(
-		'version' => '1.4.0.0-beta',
+		'version' => '1.3.1.0-beta',
 		'path'    => $baseDir . '/app/lib/class-nonce.php'
 	),
 	'Automattic\\Jetpack_Boost\\Lib\\Debug' => array(
-		'version' => '1.4.0.0-beta',
+		'version' => '1.3.1.0-beta',
 		'path'    => $baseDir . '/app/lib/class-debug.php'
 	),
 	'Automattic\\Jetpack_Boost\\Jetpack_Boost' => array(
-		'version' => '1.4.0.0-beta',
+		'version' => '1.3.1.0-beta',
 		'path'    => $baseDir . '/app/class-jetpack-boost.php'
 	),
 	'Automattic\\Jetpack_Boost\\Modules\\Critical_CSS\\Admin_Bar_Css_Compat' => array(
-		'version' => '1.4.0.0-beta',
+		'version' => '1.3.1.0-beta',
 		'path'    => $baseDir . '/app/modules/critical-css/class-admin-bar-css-compat.php'
 	),
 	'Automattic\\Jetpack_Boost\\Modules\\Critical_CSS\\Critical_CSS_Storage' => array(
-		'version' => '1.4.0.0-beta',
+		'version' => '1.3.1.0-beta',
 		'path'    => $baseDir . '/app/modules/critical-css/class-critical-css-storage.php'
 	),
 	'Automattic\\Jetpack_Boost\\Modules\\Critical_CSS\\Providers\\Taxonomy_Provider' => array(
-		'version' => '1.4.0.0-beta',
+		'version' => '1.3.1.0-beta',
 		'path'    => $baseDir . '/app/modules/critical-css/providers/class-taxonomy-provider.php'
 	),
 	'Automattic\\Jetpack_Boost\\Modules\\Critical_CSS\\Providers\\Provider' => array(
-		'version' => '1.4.0.0-beta',
+		'version' => '1.3.1.0-beta',
 		'path'    => $baseDir . '/app/modules/critical-css/providers/class-provider.php'
 	),
 	'Automattic\\Jetpack_Boost\\Modules\\Critical_CSS\\Providers\\Post_ID_Provider' => array(
-		'version' => '1.4.0.0-beta',
+		'version' => '1.3.1.0-beta',
 		'path'    => $baseDir . '/app/modules/critical-css/providers/class-post-id-provider.php'
 	),
 	'Automattic\\Jetpack_Boost\\Modules\\Critical_CSS\\Providers\\Singular_Post_Provider' => array(
-		'version' => '1.4.0.0-beta',
+		'version' => '1.3.1.0-beta',
 		'path'    => $baseDir . '/app/modules/critical-css/providers/class-singular-post-provider.php'
 	),
 	'Automattic\\Jetpack_Boost\\Modules\\Critical_CSS\\Providers\\Archive_Provider' => array(
-		'version' => '1.4.0.0-beta',
+		'version' => '1.3.1.0-beta',
 		'path'    => $baseDir . '/app/modules/critical-css/providers/class-archive-provider.php'
 	),
 	'Automattic\\Jetpack_Boost\\Modules\\Critical_CSS\\Providers\\WP_Core_Provider' => array(
-		'version' => '1.4.0.0-beta',
+		'version' => '1.3.1.0-beta',
 		'path'    => $baseDir . '/app/modules/critical-css/providers/class-wp-core-provider.php'
 	),
 	'Automattic\\Jetpack_Boost\\Modules\\Critical_CSS\\Regenerate_Admin_Notice' => array(
-		'version' => '1.4.0.0-beta',
+		'version' => '1.3.1.0-beta',
 		'path'    => $baseDir . '/app/modules/critical-css/class-regenerate-admin-notice.php'
 	),
 	'Automattic\\Jetpack_Boost\\Modules\\Critical_CSS\\Critical_CSS_State' => array(
-		'version' => '1.4.0.0-beta',
+		'version' => '1.3.1.0-beta',
 		'path'    => $baseDir . '/app/modules/critical-css/class-critical-css-state.php'
 	),
 	'Automattic\\Jetpack_Boost\\Modules\\Critical_CSS\\Critical_CSS' => array(
-		'version' => '1.4.0.0-beta',
+		'version' => '1.3.1.0-beta',
 		'path'    => $baseDir . '/app/modules/critical-css/class-critical-css.php'
 	),
 	'Automattic\\Jetpack_Boost\\Modules\\Lazy_Images\\Lazy_Images' => array(
-		'version' => '1.4.0.0-beta',
+		'version' => '1.3.1.0-beta',
 		'path'    => $baseDir . '/app/modules/lazy-images/class-lazy-images.php'
 	),
 	'Automattic\\Jetpack_Boost\\Modules\\Render_Blocking_JS\\Render_Blocking_JS' => array(
-		'version' => '1.4.0.0-beta',
+		'version' => '1.3.1.0-beta',
 		'path'    => $baseDir . '/app/modules/render-blocking-js/class-render-blocking-js.php'
 	),
 	'Automattic\\Jetpack_Boost\\Modules\\Module' => array(
-		'version' => '1.4.0.0-beta',
+		'version' => '1.3.1.0-beta',
 		'path'    => $baseDir . '/app/modules/class-module.php'
 	),
 	'Automattic\\Jetpack\\Jetpack_Lazy_Images' => array(

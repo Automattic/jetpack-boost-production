@@ -165,7 +165,7 @@ If you run into compatibility issues, please do let us know. You can drop us a l
 1. Manage your Jetpack Boost settings
 
 == Changelog ==
-### 1.3.1-beta - 2021-11-19
+### 1.3.1-beta - 2021-11-22
 #### Added
 - Critical CSS: Added a filter to allow stylesheets to load synchronously, to avoid CLS issues on certain setups.
 - Critical CSS: Exclude "library" posts from Elementor plugin when generating Critical CSS.
@@ -185,7 +185,7 @@ If you run into compatibility issues, please do let us know. You can drop us a l
 - Critical CSS: Ensure CSS files still load when JavaScript is not enabled.
 - Critical CSS: Use home_url instead of site_url when determining homepage during Critical CSS generation.
 - Speed Scores: Do not show comparative scores when no modules are active.
-- Minor UI fixes for small screens and tooltip display.
+Minor UI fixes for small screens and tooltip display.
 
 --------
 
