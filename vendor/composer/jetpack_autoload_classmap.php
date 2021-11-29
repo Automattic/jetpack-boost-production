@@ -359,7 +359,7 @@ return array(
 		'path'    => $vendorDir . '/automattic/jetpack-terms-of-service/src/class-terms-of-service.php'
 	),
 	'Jetpack_Options' => array(
-		'version' => '1.13.9999999.9999999-dev',
+		'version' => '1.14.9999999.9999999-dev',
 		'path'    => $vendorDir . '/automattic/jetpack-options/legacy/class-jetpack-options.php'
 	),
 	'Automattic\\Jetpack\\Status\\Host' => array(
