@@ -12,6 +12,7 @@ This is an alpha version! The changes listed here are not final.
 ### Changed
 - E2E tests: migrate from Jest to Playwright test runner
 - Updated package dependencies.
+- Updated package dependencies.
 
 ### Fixed
 - Fixed issue with re-serving Critical CSS during generation process
