@@ -16,6 +16,7 @@ This is an alpha version! The changes listed here are not final.
 - Updated package dependencies.
 
 ### Fixed
+- Fixed initial configuration of lazy load behaving opposit to jetpack settings
 - Fixed issue with re-serving Critical CSS during generation process
 
 ## [1.3.1-beta] - 2021-11-22
