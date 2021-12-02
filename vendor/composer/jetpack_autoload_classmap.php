@@ -206,10 +206,6 @@ return array(
 		'version' => '1.3.1.0-beta',
 		'path'    => $baseDir . '/app/modules/class-module.php'
 	),
-	'Automattic\\Jetpack\\Jetpack_Lazy_Images' => array(
-		'version' => '2.0.8.0',
-		'path'    => $vendorDir . '/automattic/jetpack-lazy-images/src/lazy-images.php'
-	),
 	'Automattic\\Jetpack\\Device_Detection' => array(
 		'version' => '1.4.9.0',
 		'path'    => $vendorDir . '/automattic/jetpack-device-detection/src/class-device-detection.php'
@@ -217,6 +213,10 @@ return array(
 	'Automattic\\Jetpack\\Device_Detection\\User_Agent_Info' => array(
 		'version' => '1.4.9.0',
 		'path'    => $vendorDir . '/automattic/jetpack-device-detection/src/class-user-agent-info.php'
+	),
+	'Automattic\\Jetpack\\Jetpack_Lazy_Images' => array(
+		'version' => '2.0.8.0',
+		'path'    => $vendorDir . '/automattic/jetpack-lazy-images/src/lazy-images.php'
 	),
 	'Jetpack_XMLRPC_Server' => array(
 		'version' => '1.31.0.0',

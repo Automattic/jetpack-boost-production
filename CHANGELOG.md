@@ -5,14 +5,7 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
-## [1.3.2-alpha] - unreleased
-
-This is an alpha version! The changes listed here are not final.
-
-### Fixed
-- Fixed issue with re-serving Critical CSS during generation process
-
-## [1.3.1-beta] - 2021-11-22
+## [1.3.1-beta] - 2021-12-02
 ### Added
 - Critical CSS: Added a filter to allow stylesheets to load synchronously, to avoid CLS issues on certain setups.
 - Critical CSS: Exclude "library" posts from Elementor plugin when generating Critical CSS.
@@ -27,12 +20,13 @@ This is an alpha version! The changes listed here are not final.
 - Speed Scores: Include active modules and Jetpack Boost version with Speed Score requests.
 
 ### Fixed
+- Critical CSS: Ensure CSS files still load when JavaScript is not enabled.
+- Critical CSS: Fixed issue with re-serving Critical CSS during generation process
 - Critical CSS: Fix handling for corrupted font-face rules.
 - Critical CSS: Fix issue with dismissing recommendations after enabling Critical CSS without page refresh.
-- Critical CSS: Ensure CSS files still load when JavaScript is not enabled.
 - Critical CSS: Use home_url instead of site_url when determining homepage during Critical CSS generation.
-- Speed Scores: Do not show comparative scores when no modules are active.
 - Minor UI fixes for small screens and tooltip display.
+- Speed Scores: Do not show comparative scores when no modules are active.
 
 ## [1.3.0-beta] - 2021-10-04
 ### Security
@@ -124,7 +118,6 @@ This is an alpha version! The changes listed here are not final.
 
 - First public alpha release
 
-[1.3.2-alpha]: https://github.com/Automattic/jetpack-boost-production/compare/v1.3.1-beta...v1.3.2-alpha
 [1.3.1-beta]: https://github.com/Automattic/jetpack-boost-production/compare/v1.3.0-beta...v1.3.1-beta
 [1.3.0-beta]: https://github.com/Automattic/jetpack-boost-production/compare/v1.2.0...v1.3.0-beta
 [1.2.0]: https://github.com/Automattic/jetpack-boost-production/compare/v1.1.0...v1.2.0-beta
