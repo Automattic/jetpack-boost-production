@@ -351,7 +351,7 @@ return array(
 		'path'    => $vendorDir . '/automattic/jetpack-a8c-mc-stats/src/class-a8c-mc-stats.php'
 	),
 	'Automattic\\Jetpack\\Assets' => array(
-		'version' => '1.13.9999999.9999999-dev',
+		'version' => '1.14.9999999.9999999-dev',
 		'path'    => $vendorDir . '/automattic/jetpack-assets/src/class-assets.php'
 	),
 	'Automattic\\Jetpack\\Terms_Of_Service' => array(

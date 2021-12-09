@@ -6,6 +6,10 @@ namespace Composer\Autoload;
 
 class ComposerStaticInitb1e77e6231d50e7663f84529b6a3dfda_jetpack_boostⓥ2_0_0_alpha
 {
+    public static $files = array (
+        '3773ef3f09c37da5478d578e32b03a4b' => __DIR__ . '/..' . '/automattic/jetpack-assets/actions.php',
+    );
+
     public static $prefixLengthsPsr4 = array (
         'A' => 
         array (
