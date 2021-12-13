@@ -51,7 +51,7 @@
                 "monorepo": true,
                 "relative": false
             },
-            "install-path": "../automattic/jetpack-a8c-mc-stats"
+            "install-path": "../../jetpack_vendor/automattic/jetpack-a8c-mc-stats"
         },
         {
             "name": "automattic/jetpack-admin-ui",
@@ -111,7 +111,7 @@
                 "monorepo": true,
                 "relative": false
             },
-            "install-path": "../automattic/jetpack-admin-ui"
+            "install-path": "../../jetpack_vendor/automattic/jetpack-admin-ui"
         },
         {
             "name": "automattic/jetpack-assets",
@@ -171,7 +171,7 @@
                 "monorepo": true,
                 "relative": false
             },
-            "install-path": "../automattic/jetpack-assets"
+            "install-path": "../../jetpack_vendor/automattic/jetpack-assets"
         },
         {
             "name": "automattic/jetpack-autoloader",
@@ -235,6 +235,64 @@
             "install-path": "../automattic/jetpack-autoloader"
         },
         {
+            "name": "automattic/jetpack-composer-plugin",
+            "version": "0.1.x-dev",
+            "version_normalized": "0.1.9999999.9999999-dev",
+            "dist": {
+                "type": "path",
+                "url": "/tmp/jetpack-build/Automattic/jetpack-composer-plugin",
+                "reference": "67fa4a8e137cce005b7aa93bcdb8e823075fb47f"
+            },
+            "require": {
+                "composer-plugin-api": "^2.1.0"
+            },
+            "require-dev": {
+                "automattic/jetpack-changelogger": "^3.0",
+                "composer/composer": "^2.1",
+                "yoast/phpunit-polyfills": "1.0.2"
+            },
+            "type": "composer-plugin",
+            "extra": {
+                "class": "Automattic\\Jetpack\\Composer\\Plugin",
+                "mirror-repo": "Automattic/jetpack-composer-plugin",
+                "changelogger": {
+                    "link-template": "https://github.com/Automattic/jetpack-composer-plugin/compare/v${old}...v${new}"
+                },
+                "autotagger": true,
+                "branch-alias": {
+                    "dev-master": "0.1.x-dev"
+                }
+            },
+            "installation-source": "dist",
+            "autoload": {
+                "classmap": [
+                    "src/"
+                ]
+            },
+            "scripts": {
+                "phpunit": [
+                    "./vendor/phpunit/phpunit/phpunit --colors=always"
+                ],
+                "test-coverage": [
+                    "@composer install",
+                    "phpdbg -d memory_limit=2048M -d max_execution_time=900 -qrr ./vendor/bin/phpunit --coverage-clover \"$COVERAGE_DIR/clover.xml\""
+                ],
+                "test-php": [
+                    "@composer install",
+                    "@composer phpunit"
+                ]
+            },
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "description": "A custom installer plugin for Composer to move Jetpack packages out of `vendor/` so WordPress's translation infrastructure will find their strings.",
+            "transport-options": {
+                "monorepo": true,
+                "relative": false
+            },
+            "install-path": "../automattic/jetpack-composer-plugin"
+        },
+        {
             "name": "automattic/jetpack-config",
             "version": "1.5.x-dev",
             "version_normalized": "1.5.9999999.9999999-dev",
@@ -271,7 +329,7 @@
                 "monorepo": true,
                 "relative": false
             },
-            "install-path": "../automattic/jetpack-config"
+            "install-path": "../../jetpack_vendor/automattic/jetpack-config"
         },
         {
             "name": "automattic/jetpack-connection",
@@ -344,7 +402,7 @@
                 "monorepo": true,
                 "relative": false
             },
-            "install-path": "../automattic/jetpack-connection"
+            "install-path": "../../jetpack_vendor/automattic/jetpack-connection"
         },
         {
             "name": "automattic/jetpack-constants",
@@ -398,7 +456,7 @@
                 "monorepo": true,
                 "relative": false
             },
-            "install-path": "../automattic/jetpack-constants"
+            "install-path": "../../jetpack_vendor/automattic/jetpack-constants"
         },
         {
             "name": "automattic/jetpack-device-detection",
@@ -451,7 +509,7 @@
                 "monorepo": true,
                 "relative": false
             },
-            "install-path": "../automattic/jetpack-device-detection"
+            "install-path": "../../jetpack_vendor/automattic/jetpack-device-detection"
         },
         {
             "name": "automattic/jetpack-heartbeat",
@@ -494,7 +552,7 @@
                 "monorepo": true,
                 "relative": false
             },
-            "install-path": "../automattic/jetpack-heartbeat"
+            "install-path": "../../jetpack_vendor/automattic/jetpack-heartbeat"
         },
         {
             "name": "automattic/jetpack-lazy-images",
@@ -563,7 +621,7 @@
                 "monorepo": true,
                 "relative": false
             },
-            "install-path": "../automattic/jetpack-lazy-images"
+            "install-path": "../../jetpack_vendor/automattic/jetpack-lazy-images"
         },
         {
             "name": "automattic/jetpack-options",
@@ -606,7 +664,7 @@
                 "monorepo": true,
                 "relative": false
             },
-            "install-path": "../automattic/jetpack-options"
+            "install-path": "../../jetpack_vendor/automattic/jetpack-options"
         },
         {
             "name": "automattic/jetpack-redirect",
@@ -663,7 +721,7 @@
                 "monorepo": true,
                 "relative": false
             },
-            "install-path": "../automattic/jetpack-redirect"
+            "install-path": "../../jetpack_vendor/automattic/jetpack-redirect"
         },
         {
             "name": "automattic/jetpack-roles",
@@ -717,7 +775,7 @@
                 "monorepo": true,
                 "relative": false
             },
-            "install-path": "../automattic/jetpack-roles"
+            "install-path": "../../jetpack_vendor/automattic/jetpack-roles"
         },
         {
             "name": "automattic/jetpack-status",
@@ -774,7 +832,7 @@
                 "monorepo": true,
                 "relative": false
             },
-            "install-path": "../automattic/jetpack-status"
+            "install-path": "../../jetpack_vendor/automattic/jetpack-status"
         },
         {
             "name": "automattic/jetpack-terms-of-service",
@@ -832,7 +890,7 @@
                 "monorepo": true,
                 "relative": false
             },
-            "install-path": "../automattic/jetpack-terms-of-service"
+            "install-path": "../../jetpack_vendor/automattic/jetpack-terms-of-service"
         },
         {
             "name": "automattic/jetpack-tracking",
@@ -893,7 +951,7 @@
                 "monorepo": true,
                 "relative": false
             },
-            "install-path": "../automattic/jetpack-tracking"
+            "install-path": "../../jetpack_vendor/automattic/jetpack-tracking"
         },
         {
             "name": "tedivm/jshrink",

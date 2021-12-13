@@ -9,6 +9,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 This is an alpha version! The changes listed here are not final.
 
+### Added
+- Add a dependency on the automattic/jetpack-composer-plugin Composer package.
+
 ### Changed
 - E2E tests: migrate from Jest to Playwright test runner
 - Updated Dashboard heading with new Horizontal logo.
