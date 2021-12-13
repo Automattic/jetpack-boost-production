@@ -114,6 +114,10 @@
   display: flex;
   height: 27px;
 }
+.jb-settings-header__logo svg {
+  width: 100%;
+  height: auto;
+}
 @media (min-width: 992px) {
   .jb-settings-header__logo {
     height: 32px;
