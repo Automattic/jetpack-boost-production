@@ -11,6 +11,7 @@ This is an alpha version! The changes listed here are not final.
 
 ### Added
 - Add a dependency on the automattic/jetpack-composer-plugin Composer package.
+- Refactor and add new core E2E tests
 
 ### Changed
 - E2E tests: migrate from Jest to Playwright test runner
