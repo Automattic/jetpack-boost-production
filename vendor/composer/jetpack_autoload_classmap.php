@@ -315,7 +315,7 @@ return array(
 		'path'    => $baseDir . '/jetpack_vendor/automattic/jetpack-connection/src/class-server-sandbox.php'
 	),
 	'Automattic\\Jetpack\\Config' => array(
-		'version' => '1.5.9999999.9999999-dev',
+		'version' => '1.6.9999999.9999999-dev',
 		'path'    => $baseDir . '/jetpack_vendor/automattic/jetpack-config/src/class-config.php'
 	),
 	'Automattic\\Jetpack\\Admin_UI\\Admin_Menu' => array(
