@@ -4,5 +4,11 @@ return array(
   'domain' => 'jetpack-boost',
   'type' => 'plugins',
   'packages' => array(
+    'jetpack-config' => '0.0.0',
+    'jetpack-assets' => '0.0.0',
+    'jetpack-tracking' => '0.0.0',
+    'jetpack-heartbeat' => '0.0.0',
+    'jetpack-connection' => '0.0.0',
+    'jetpack-lazy-images' => '0.0.0',
   ),
 );
