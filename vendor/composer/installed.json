@@ -243,14 +243,14 @@
             "dist": {
                 "type": "path",
                 "url": "/tmp/jetpack-build/Automattic/jetpack-composer-plugin",
-                "reference": "e14b73857ae00a2f4d4a0465e5d6659f05ae48e1"
+                "reference": "4372c797067ae9839a478a56616dbb0b7ef06b67"
             },
             "require": {
                 "composer-plugin-api": "^2.1.0"
             },
             "require-dev": {
                 "automattic/jetpack-changelogger": "^3.0",
-                "composer/composer": "^2.1",
+                "composer/composer": "2.2.3",
                 "yoast/phpunit-polyfills": "1.0.2"
             },
             "type": "composer-plugin",
