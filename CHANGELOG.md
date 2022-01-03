@@ -22,6 +22,7 @@ This is an alpha version! The changes listed here are not final.
 - Switch to pcov for code coverage.
 - Updated Dashboard heading with new Horizontal logo.
 - Updated package dependencies
+- Updated package dependencies
 - Updated package dependencies.
 - Updated package dependencies.
 - Updated package dependencies.
