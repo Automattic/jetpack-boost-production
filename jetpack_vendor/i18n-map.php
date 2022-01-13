@@ -4,11 +4,11 @@ return array(
   'domain' => 'jetpack-boost',
   'type' => 'plugins',
   'packages' => array(
-    'jetpack-config' => '0.0.0',
-    'jetpack-assets' => '0.0.0',
-    'jetpack-tracking' => '0.0.0',
-    'jetpack-heartbeat' => '0.0.0',
-    'jetpack-connection' => '0.0.0',
-    'jetpack-lazy-images' => '0.0.0',
+    'jetpack-config' => '1.6.9999999-dev',
+    'jetpack-assets' => '1.16.9999999-dev',
+    'jetpack-tracking' => '1.14.9999999-dev',
+    'jetpack-heartbeat' => '1.4.9999999-dev',
+    'jetpack-connection' => '1.35.9999999-dev',
+    'jetpack-lazy-images' => '2.1.9999999-dev',
   ),
 );
