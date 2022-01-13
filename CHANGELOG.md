@@ -38,6 +38,7 @@ This is an alpha version! The changes listed here are not final.
 - Updated package dependencies.
 
 ### Fixed
+- Check that the Assets::alias_textdomains_from_file method exists before calling it.
 - Fixed initial configuration of lazy load behaving opposit to jetpack settings
 - Fixed issue with re-serving Critical CSS during generation process
 - Sync some E2E deps with the rest of the monorepo to avoid breaking eslint tests.
