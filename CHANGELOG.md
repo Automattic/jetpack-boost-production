@@ -20,6 +20,7 @@ This is an alpha version! The changes listed here are not final.
 - E2E tests: migrate from Jest to Playwright test runner
 - E2E tests renovate: bump dependencies
 - General: Boost is now compatible with WordPress 5.9.
+- General: update required node version to v16.13.2
 - Switch to pcov for code coverage.
 - Updated Dashboard heading with new Horizontal logo.
 - Updated package dependencies
