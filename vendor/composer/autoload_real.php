@@ -56,11 +56,16 @@ class ComposerAutoloaderInitb1e77e6231d50e7663f84529b6a3dfda_jetpack_boostⓥ2_0
     }
 }
 
+/**
+ * @param string $fileIdentifier
+ * @param string $file
+ * @return void
+ */
 function composerRequireb1e77e6231d50e7663f84529b6a3dfda_jetpack_boostⓥ2_0_0_alpha($fileIdentifier, $file)
 {
     if (empty($GLOBALS['__composer_autoload_files'][$fileIdentifier])) {
-        require $file;
-
         $GLOBALS['__composer_autoload_files'][$fileIdentifier] = true;
+
+        require $file;
     }
 }
