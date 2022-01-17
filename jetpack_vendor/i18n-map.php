@@ -8,7 +8,7 @@ return array(
     'jetpack-assets' => '1.16.9999999-dev',
     'jetpack-tracking' => '1.14.9999999-dev',
     'jetpack-heartbeat' => '1.4.9999999-dev',
-    'jetpack-connection' => '1.35.9999999-dev',
+    'jetpack-connection' => '1.36.9999999-dev',
     'jetpack-lazy-images' => '2.1.9999999-dev',
   ),
 );

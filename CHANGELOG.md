@@ -38,6 +38,7 @@ This is an alpha version! The changes listed here are not final.
 - Updated package dependencies.
 - Updated package dependencies.
 - Updated package dependencies.
+- Updated package dependencies.
 
 ### Fixed
 - Check that the Assets::alias_textdomains_from_file method exists before calling it.
