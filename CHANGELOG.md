@@ -14,6 +14,7 @@ This is an alpha version! The changes listed here are not final.
 - E2E tests
 - Load the Composer package assets i18n map.
 - Refactor and add new core E2E tests
+- Suggested steps if critical css failed to generate due to page errors
 
 ### Changed
 - Add Jetpack compatibility tests.
