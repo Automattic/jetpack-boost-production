@@ -374,12 +374,16 @@ return array(
 		'version' => '1.14.9999999.9999999-dev',
 		'path'    => $baseDir . '/jetpack_vendor/automattic/jetpack-options/legacy/class-jetpack-options.php'
 	),
+	'Automattic\\Jetpack\\Status\\Visitor' => array(
+		'version' => '1.10.9999999.9999999-dev',
+		'path'    => $baseDir . '/jetpack_vendor/automattic/jetpack-status/src/class-visitor.php'
+	),
 	'Automattic\\Jetpack\\Status\\Host' => array(
-		'version' => '1.9.9999999.9999999-dev',
+		'version' => '1.10.9999999.9999999-dev',
 		'path'    => $baseDir . '/jetpack_vendor/automattic/jetpack-status/src/class-host.php'
 	),
 	'Automattic\\Jetpack\\Status' => array(
-		'version' => '1.9.9999999.9999999-dev',
+		'version' => '1.10.9999999.9999999-dev',
 		'path'    => $baseDir . '/jetpack_vendor/automattic/jetpack-status/src/class-status.php'
 	),
 	'Automattic\\Jetpack\\Constants' => array(
