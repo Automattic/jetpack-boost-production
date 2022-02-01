@@ -31,6 +31,7 @@ This is an alpha version! The changes listed here are not final.
 - Updated package dependencies
 - Updated package dependencies
 - Updated package dependencies
+- Updated package dependencies
 - Updated package dependencies.
 - Updated package dependencies.
 - Updated package dependencies.
@@ -46,6 +47,7 @@ This is an alpha version! The changes listed here are not final.
 - Update regular expression to ignore deferring js via ignore attribute with and without quotes.
 
 ### Fixed
+- Added a bunch of missing eslint ignore directives.
 - Check that the Assets::alias_textdomains_from_file method exists before calling it.
 - Fixed e2e tests
 - Fixed initial configuration of lazy load behaving opposit to jetpack settings
