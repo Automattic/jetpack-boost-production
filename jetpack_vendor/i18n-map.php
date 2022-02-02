@@ -4,6 +4,10 @@ return array(
   'domain' => 'jetpack-boost',
   'type' => 'plugins',
   'packages' => array(
+    'jetpack-admin-ui' => array(
+      'path' => 'jetpack_vendor/automattic/jetpack-admin-ui',
+      'ver' => '0.2.9999999-dev',
+    ),
     'jetpack-config' => array(
       'path' => 'jetpack_vendor/automattic/jetpack-config',
       'ver' => '1.6.9999999-dev',
