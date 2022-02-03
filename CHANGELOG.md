@@ -54,6 +54,7 @@ This is an alpha version! The changes listed here are not final.
 - Fixed e2e tests
 - Fixed initial configuration of lazy load behaving opposit to jetpack settings
 - Fixed issue with re-serving Critical CSS during generation process
+- Re-added Lazy image compatibility
 - Sync some E2E deps with the rest of the monorepo to avoid breaking eslint tests.
 
 ## [1.3.1-beta] - 2021-11-22
