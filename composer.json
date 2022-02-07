@@ -76,7 +76,6 @@
 			"automattic/jetpack-composer-plugin": true
 		}
 	},
-	"repositories": [],
 	"extra": {
 		"autotagger": true,
 		"mirror-repo": "Automattic/jetpack-boost-production",
