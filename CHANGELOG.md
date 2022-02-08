@@ -50,6 +50,9 @@ This is an alpha version! The changes listed here are not final.
 - Updated package dependencies.
 - Update regular expression to ignore deferring js via ignore attribute with and without quotes.
 
+### Removed
+- Removed separate pnpm workspace for e2e tests.
+
 ### Fixed
 - Added a bunch of missing eslint ignore directives.
 - Check that the Assets::alias_textdomains_from_file method exists before calling it.
