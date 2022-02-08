@@ -20,6 +20,7 @@ This is an alpha version! The changes listed here are not final.
 - Add Jetpack compatibility tests.
 - E2E tests: merge Github workflows
 - E2E tests: migrate from Jest to Playwright test runner
+- E2E tests: updated eslint configuration
 - E2E tests renovate: bump dependencies
 - General: Boost is now compatible with WordPress 5.9.
 - General: update required node version to v16.13.2
