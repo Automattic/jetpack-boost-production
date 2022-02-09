@@ -26,6 +26,7 @@ This is an alpha version! The changes listed here are not final.
 - General: update required node version to v16.13.2
 - Move Critical CSS recommendation to it's own class.
 - Switch to pcov for code coverage.
+- Updated composer.lock file.
 - Updated Dashboard heading with new Horizontal logo.
 - Updated package dependencies
 - Updated package dependencies
