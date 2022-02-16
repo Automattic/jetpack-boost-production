@@ -27,6 +27,7 @@ This is an alpha version! The changes listed here are not final.
 - Move Critical CSS recommendation to it's own class.
 - Switch to pcov for code coverage.
 - Updated composer.lock file.
+- Updated composer.lock file.
 - Updated Dashboard heading with new Horizontal logo.
 - Updated package dependencies
 - Updated package dependencies
