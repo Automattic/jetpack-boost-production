@@ -58,6 +58,10 @@ return array(
 		'version' => '2.0.0.0-alpha',
 		'path'    => $baseDir . '/app/contracts/Has_Setup.php'
 	),
+	'Automattic\\Jetpack_Boost\\Contracts\\Boost_API_Client' => array(
+		'version' => '2.0.0.0-alpha',
+		'path'    => $baseDir . '/app/contracts/Boost_API_Client.php'
+	),
 	'Automattic\\Jetpack_Boost\\Contracts\\Feature' => array(
 		'version' => '2.0.0.0-alpha',
 		'path'    => $baseDir . '/app/contracts/Feature.php'
@@ -106,9 +110,21 @@ return array(
 		'version' => '2.0.0.0-alpha',
 		'path'    => $baseDir . '/app/rest-api/endpoints/Generator_Success.php'
 	),
+	'Automattic\\Jetpack_Boost\\REST_API\\Endpoints\\Request_Cloud_CSS' => array(
+		'version' => '2.0.0.0-alpha',
+		'path'    => $baseDir . '/app/rest-api/endpoints/Request_Cloud_CSS.php'
+	),
+	'Automattic\\Jetpack_Boost\\REST_API\\Endpoints\\Update_Cloud_CSS' => array(
+		'version' => '2.0.0.0-alpha',
+		'path'    => $baseDir . '/app/rest-api/endpoints/Update_Cloud_CSS.php'
+	),
 	'Automattic\\Jetpack_Boost\\REST_API\\Permissions\\Nonce' => array(
 		'version' => '2.0.0.0-alpha',
 		'path'    => $baseDir . '/app/rest-api/permissions/Nonce.php'
+	),
+	'Automattic\\Jetpack_Boost\\REST_API\\Permissions\\Signed_With_Blog_Token' => array(
+		'version' => '2.0.0.0-alpha',
+		'path'    => $baseDir . '/app/rest-api/permissions/Signed_With_Blog_Token.php'
 	),
 	'Automattic\\Jetpack_Boost\\REST_API\\Permissions\\Current_User_Admin' => array(
 		'version' => '2.0.0.0-alpha',
@@ -154,65 +170,25 @@ return array(
 		'version' => '2.0.0.0-alpha',
 		'path'    => $baseDir . '/app/features/optimizations/render-blocking-js/class-render-blocking-js.php'
 	),
-	'Automattic\\Jetpack_Boost\\Features\\Optimizations\\Critical_CSS\\Critical_CSS_Storage' => array(
-		'version' => '2.0.0.0-alpha',
-		'path'    => $baseDir . '/app/features/optimizations/critical-css/Critical_CSS_Storage.php'
-	),
 	'Automattic\\Jetpack_Boost\\Features\\Optimizations\\Critical_CSS\\Regenerate_Admin_Notice' => array(
 		'version' => '2.0.0.0-alpha',
 		'path'    => $baseDir . '/app/features/optimizations/critical-css/Regenerate_Admin_Notice.php'
 	),
-	'Automattic\\Jetpack_Boost\\Features\\Optimizations\\Critical_CSS\\Source_Providers\\Providers\\WP_Core_Provider' => array(
+	'Automattic\\Jetpack_Boost\\Features\\Optimizations\\Critical_CSS\\Generator' => array(
 		'version' => '2.0.0.0-alpha',
-		'path'    => $baseDir . '/app/features/optimizations/critical-css/source-providers/providers/WP_Core_Provider.php'
-	),
-	'Automattic\\Jetpack_Boost\\Features\\Optimizations\\Critical_CSS\\Source_Providers\\Providers\\Taxonomy_Provider' => array(
-		'version' => '2.0.0.0-alpha',
-		'path'    => $baseDir . '/app/features/optimizations/critical-css/source-providers/providers/Taxonomy_Provider.php'
-	),
-	'Automattic\\Jetpack_Boost\\Features\\Optimizations\\Critical_CSS\\Source_Providers\\Providers\\Singular_Post_Provider' => array(
-		'version' => '2.0.0.0-alpha',
-		'path'    => $baseDir . '/app/features/optimizations/critical-css/source-providers/providers/Singular_Post_Provider.php'
-	),
-	'Automattic\\Jetpack_Boost\\Features\\Optimizations\\Critical_CSS\\Source_Providers\\Providers\\Post_ID_Provider' => array(
-		'version' => '2.0.0.0-alpha',
-		'path'    => $baseDir . '/app/features/optimizations/critical-css/source-providers/providers/Post_ID_Provider.php'
-	),
-	'Automattic\\Jetpack_Boost\\Features\\Optimizations\\Critical_CSS\\Source_Providers\\Providers\\Provider' => array(
-		'version' => '2.0.0.0-alpha',
-		'path'    => $baseDir . '/app/features/optimizations/critical-css/source-providers/providers/Provider.php'
-	),
-	'Automattic\\Jetpack_Boost\\Features\\Optimizations\\Critical_CSS\\Source_Providers\\Providers\\Archive_Provider' => array(
-		'version' => '2.0.0.0-alpha',
-		'path'    => $baseDir . '/app/features/optimizations/critical-css/source-providers/providers/Archive_Provider.php'
-	),
-	'Automattic\\Jetpack_Boost\\Features\\Optimizations\\Critical_CSS\\Source_Providers\\Source_Providers' => array(
-		'version' => '2.0.0.0-alpha',
-		'path'    => $baseDir . '/app/features/optimizations/critical-css/source-providers/Source_Providers.php'
-	),
-	'Automattic\\Jetpack_Boost\\Features\\Optimizations\\Critical_CSS\\Recommendations' => array(
-		'version' => '2.0.0.0-alpha',
-		'path'    => $baseDir . '/app/features/optimizations/critical-css/Recommendations.php'
-	),
-	'Automattic\\Jetpack_Boost\\Features\\Optimizations\\Critical_CSS\\Admin_Bar_Compatibilty' => array(
-		'version' => '2.0.0.0-alpha',
-		'path'    => $baseDir . '/app/features/optimizations/critical-css/Admin_Bar_Compatibilty.php'
-	),
-	'Automattic\\Jetpack_Boost\\Features\\Optimizations\\Critical_CSS\\Display_Critical_CSS' => array(
-		'version' => '2.0.0.0-alpha',
-		'path'    => $baseDir . '/app/features/optimizations/critical-css/Display_Critical_CSS.php'
-	),
-	'Automattic\\Jetpack_Boost\\Features\\Optimizations\\Critical_CSS\\Critical_CSS_State' => array(
-		'version' => '2.0.0.0-alpha',
-		'path'    => $baseDir . '/app/features/optimizations/critical-css/Critical_CSS_State.php'
-	),
-	'Automattic\\Jetpack_Boost\\Features\\Optimizations\\Critical_CSS\\Generate\\Generator' => array(
-		'version' => '2.0.0.0-alpha',
-		'path'    => $baseDir . '/app/features/optimizations/critical-css/generate/Generator.php'
+		'path'    => $baseDir . '/app/features/optimizations/critical-css/Generator.php'
 	),
 	'Automattic\\Jetpack_Boost\\Features\\Optimizations\\Critical_CSS\\Critical_CSS' => array(
 		'version' => '2.0.0.0-alpha',
 		'path'    => $baseDir . '/app/features/optimizations/critical-css/Critical_CSS.php'
+	),
+	'Automattic\\Jetpack_Boost\\Features\\Optimizations\\Cloud_CSS\\Cloud_CSS' => array(
+		'version' => '2.0.0.0-alpha',
+		'path'    => $baseDir . '/app/features/optimizations/cloud-css/Cloud_CSS.php'
+	),
+	'Automattic\\Jetpack_Boost\\Features\\Optimizations\\Cloud_CSS\\Cloud_CSS_Request' => array(
+		'version' => '2.0.0.0-alpha',
+		'path'    => $baseDir . '/app/features/optimizations/cloud-css/Cloud_CSS_Request.php'
 	),
 	'Automattic\\Jetpack_Boost\\Admin\\Admin' => array(
 		'version' => '2.0.0.0-alpha',
@@ -246,6 +222,10 @@ return array(
 		'version' => '2.0.0.0-alpha',
 		'path'    => $baseDir . '/app/lib/class-viewport.php'
 	),
+	'Automattic\\Jetpack_Boost\\Lib\\Boost_API' => array(
+		'version' => '2.0.0.0-alpha',
+		'path'    => $baseDir . '/app/lib/Boost_API.php'
+	),
 	'Automattic\\Jetpack_Boost\\Lib\\Analytics' => array(
 		'version' => '2.0.0.0-alpha',
 		'path'    => $baseDir . '/app/lib/class-analytics.php'
@@ -266,6 +246,58 @@ return array(
 		'version' => '2.0.0.0-alpha',
 		'path'    => $baseDir . '/app/lib/class-collection.php'
 	),
+	'Automattic\\Jetpack_Boost\\Lib\\Critical_CSS\\Critical_CSS_Storage' => array(
+		'version' => '2.0.0.0-alpha',
+		'path'    => $baseDir . '/app/lib/critical-css/Critical_CSS_Storage.php'
+	),
+	'Automattic\\Jetpack_Boost\\Lib\\Critical_CSS\\Source_Providers\\Providers\\WP_Core_Provider' => array(
+		'version' => '2.0.0.0-alpha',
+		'path'    => $baseDir . '/app/lib/critical-css/source-providers/providers/WP_Core_Provider.php'
+	),
+	'Automattic\\Jetpack_Boost\\Lib\\Critical_CSS\\Source_Providers\\Providers\\Taxonomy_Provider' => array(
+		'version' => '2.0.0.0-alpha',
+		'path'    => $baseDir . '/app/lib/critical-css/source-providers/providers/Taxonomy_Provider.php'
+	),
+	'Automattic\\Jetpack_Boost\\Lib\\Critical_CSS\\Source_Providers\\Providers\\Singular_Post_Provider' => array(
+		'version' => '2.0.0.0-alpha',
+		'path'    => $baseDir . '/app/lib/critical-css/source-providers/providers/Singular_Post_Provider.php'
+	),
+	'Automattic\\Jetpack_Boost\\Lib\\Critical_CSS\\Source_Providers\\Providers\\Post_ID_Provider' => array(
+		'version' => '2.0.0.0-alpha',
+		'path'    => $baseDir . '/app/lib/critical-css/source-providers/providers/Post_ID_Provider.php'
+	),
+	'Automattic\\Jetpack_Boost\\Lib\\Critical_CSS\\Source_Providers\\Providers\\Provider' => array(
+		'version' => '2.0.0.0-alpha',
+		'path'    => $baseDir . '/app/lib/critical-css/source-providers/providers/Provider.php'
+	),
+	'Automattic\\Jetpack_Boost\\Lib\\Critical_CSS\\Source_Providers\\Providers\\Archive_Provider' => array(
+		'version' => '2.0.0.0-alpha',
+		'path'    => $baseDir . '/app/lib/critical-css/source-providers/providers/Archive_Provider.php'
+	),
+	'Automattic\\Jetpack_Boost\\Lib\\Critical_CSS\\Source_Providers\\Source_Providers' => array(
+		'version' => '2.0.0.0-alpha',
+		'path'    => $baseDir . '/app/lib/critical-css/source-providers/Source_Providers.php'
+	),
+	'Automattic\\Jetpack_Boost\\Lib\\Critical_CSS\\Recommendations' => array(
+		'version' => '2.0.0.0-alpha',
+		'path'    => $baseDir . '/app/lib/critical-css/Recommendations.php'
+	),
+	'Automattic\\Jetpack_Boost\\Lib\\Critical_CSS\\Admin_Bar_Compatibilty' => array(
+		'version' => '2.0.0.0-alpha',
+		'path'    => $baseDir . '/app/lib/critical-css/Admin_Bar_Compatibilty.php'
+	),
+	'Automattic\\Jetpack_Boost\\Lib\\Critical_CSS\\Display_Critical_CSS' => array(
+		'version' => '2.0.0.0-alpha',
+		'path'    => $baseDir . '/app/lib/critical-css/Display_Critical_CSS.php'
+	),
+	'Automattic\\Jetpack_Boost\\Lib\\Critical_CSS\\Critical_CSS_State' => array(
+		'version' => '2.0.0.0-alpha',
+		'path'    => $baseDir . '/app/lib/critical-css/Critical_CSS_State.php'
+	),
+	'Automattic\\Jetpack_Boost\\Lib\\Critical_CSS\\Critical_CSS_Invalidator' => array(
+		'version' => '2.0.0.0-alpha',
+		'path'    => $baseDir . '/app/lib/critical-css/Critical_CSS_Invalidator.php'
+	),
 	'Automattic\\Jetpack_Boost\\Lib\\Setup' => array(
 		'version' => '2.0.0.0-alpha',
 		'path'    => $baseDir . '/app/lib/Setup.php'
@@ -273,6 +305,10 @@ return array(
 	'Automattic\\Jetpack_Boost\\Lib\\Url' => array(
 		'version' => '2.0.0.0-alpha',
 		'path'    => $baseDir . '/app/lib/class-url.php'
+	),
+	'Automattic\\Jetpack_Boost\\Lib\\WPCOM_Boost_API_Client' => array(
+		'version' => '2.0.0.0-alpha',
+		'path'    => $baseDir . '/app/lib/WPCOM_Boost_API_Client.php'
 	),
 	'Automattic\\Jetpack_Boost\\Lib\\Storage_Post_Type' => array(
 		'version' => '2.0.0.0-alpha',
