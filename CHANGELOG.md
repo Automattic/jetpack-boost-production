@@ -12,6 +12,7 @@ This is an alpha version! The changes listed here are not final.
 ### Added
 - Add a dependency on the automattic/jetpack-composer-plugin Composer package.
 - Added Cloud Critical CSS
+- Add My Jetpack page
 - E2E tests
 - Load the Composer package assets i18n map.
 - Refactor and add new core E2E tests
@@ -39,6 +40,7 @@ This is an alpha version! The changes listed here are not final.
 - Updated package dependencies
 - Updated package dependencies
 - Updated package dependencies
+- Updated package dependencies.
 - Updated package dependencies.
 - Updated package dependencies.
 - Updated package dependencies.
