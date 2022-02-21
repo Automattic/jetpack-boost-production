@@ -61,6 +61,7 @@ This is an alpha version! The changes listed here are not final.
 ### Fixed
 - Added a bunch of missing eslint ignore directives.
 - Check that the Assets::alias_textdomains_from_file method exists before calling it.
+- E2E tests: update readme
 - Fixed e2e tests
 - Fixed initial configuration of lazy load behaving opposit to jetpack settings
 - Fixed issue with re-serving Critical CSS during generation process
