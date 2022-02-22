@@ -5,70 +5,7 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
-## [2.0.0-alpha] - unreleased
-
-This is an alpha version! The changes listed here are not final.
-
-### Added
-- Add a dependency on the automattic/jetpack-composer-plugin Composer package.
-- Added Cloud Critical CSS
-- Add My Jetpack page
-- E2E tests
-- Load the Composer package assets i18n map.
-- Refactor and add new core E2E tests
-- Suggested steps if critical css failed to generate due to page errors
-
-### Changed
-- Add Jetpack compatibility tests.
-- E2E tests: merge Github workflows
-- E2E tests: migrate from Jest to Playwright test runner
-- E2E tests: updated eslint configuration
-- E2E tests renovate: bump dependencies
-- General: Boost is now compatible with WordPress 5.9.
-- General: update required node version to v16.13.2
-- Move Critical CSS recommendation to it's own class.
-- Switch to pcov for code coverage.
-- Updated composer.lock file.
-- Updated composer.lock file.
-- Updated Dashboard heading with new Horizontal logo.
-- Updated package dependencies
-- Updated package dependencies
-- Updated package dependencies
-- Updated package dependencies
-- Updated package dependencies
-- Updated package dependencies
-- Updated package dependencies
-- Updated package dependencies
-- Updated package dependencies
-- Updated package dependencies.
-- Updated package dependencies.
-- Updated package dependencies.
-- Updated package dependencies.
-- Updated package dependencies.
-- Updated package dependencies.
-- Updated package dependencies.
-- Updated package dependencies.
-- Updated package dependencies.
-- Updated package dependencies.
-- Updated package dependencies.
-- Updated package dependencies.
-- Updated package dependencies.
-- Update regular expression to ignore deferring js via ignore attribute with and without quotes.
-
-### Removed
-- Removed separate pnpm workspace for e2e tests.
-
-### Fixed
-- Added a bunch of missing eslint ignore directives.
-- Check that the Assets::alias_textdomains_from_file method exists before calling it.
-- E2E tests: update readme
-- Fixed e2e tests
-- Fixed initial configuration of lazy load behaving opposit to jetpack settings
-- Fixed issue with re-serving Critical CSS during generation process
-- Re-added Lazy image compatibility
-- Sync some E2E deps with the rest of the monorepo to avoid breaking eslint tests.
-
-## [1.3.1-beta] - 2021-11-22
+## [1.3.1-beta] - 2021-12-02
 ### Added
 - Critical CSS: Added a filter to allow stylesheets to load synchronously, to avoid CLS issues on certain setups.
 - Critical CSS: Exclude "library" posts from Elementor plugin when generating Critical CSS.
@@ -83,12 +20,13 @@ This is an alpha version! The changes listed here are not final.
 - Speed Scores: Include active modules and Jetpack Boost version with Speed Score requests.
 
 ### Fixed
+- Critical CSS: Ensure CSS files still load when JavaScript is not enabled.
+- Critical CSS: Fixed issue with re-serving Critical CSS during generation process
 - Critical CSS: Fix handling for corrupted font-face rules.
 - Critical CSS: Fix issue with dismissing recommendations after enabling Critical CSS without page refresh.
-- Critical CSS: Ensure CSS files still load when JavaScript is not enabled.
 - Critical CSS: Use home_url instead of site_url when determining homepage during Critical CSS generation.
-- Speed Scores: Do not show comparative scores when no modules are active.
 - Minor UI fixes for small screens and tooltip display.
+- Speed Scores: Do not show comparative scores when no modules are active.
 
 ## [1.3.0-beta] - 2021-10-04
 ### Security
@@ -180,7 +118,6 @@ This is an alpha version! The changes listed here are not final.
 
 - First public alpha release
 
-[2.0.0-alpha]: https://github.com/Automattic/jetpack-boost-production/compare/v1.3.1-beta...v2.0.0-alpha
 [1.3.1-beta]: https://github.com/Automattic/jetpack-boost-production/compare/v1.3.0-beta...v1.3.1-beta
 [1.3.0-beta]: https://github.com/Automattic/jetpack-boost-production/compare/v1.2.0...v1.3.0-beta
 [1.2.0]: https://github.com/Automattic/jetpack-boost-production/compare/v1.1.0...v1.2.0-beta

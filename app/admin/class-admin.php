@@ -10,13 +10,14 @@ namespace Automattic\Jetpack_Boost\Admin;
 
 use Automattic\Jetpack\Admin_UI\Admin_Menu;
 use Automattic\Jetpack\Status;
-use Automattic\Jetpack_Boost\Features\Optimizations\Optimizations;
-use Automattic\Jetpack_Boost\Features\Speed_Score\Speed_Score;
 use Automattic\Jetpack_Boost\Jetpack_Boost;
 use Automattic\Jetpack_Boost\Lib\Analytics;
 use Automattic\Jetpack_Boost\Lib\Environment_Change_Detector;
-use Automattic\Jetpack_Boost\REST_API\Permissions\Nonce;
+use Automattic\Jetpack_Boost\Lib\Speed_Score;
 
+/**
+ * Class Admin
+ */
 class Admin {
 
 	/**
@@ -44,7 +45,7 @@ class Admin {
 	 *
 	 * @var Jetpack_Boost Plugin.
 	 */
-	private $modules;
+	private $jetpack_boost;
 
 	/**
 	 * Speed_Score class instance.
@@ -53,13 +54,21 @@ class Admin {
 	 */
 	private $speed_score;
 
-	public function __construct( Optimizations $modules ) {
-		$this->modules     = $modules;
-		$this->speed_score = new Speed_Score( $modules );
+	/**
+	 * Initialize the class and set its properties.
+	 *
+	 * @param Jetpack_Boost $jetpack_boost Main plugin instance.
+	 *
+	 * @since    1.0.0
+	 */
+	public function __construct( Jetpack_Boost $jetpack_boost ) {
+		$this->jetpack_boost = $jetpack_boost;
+		$this->speed_score   = new Speed_Score( $jetpack_boost );
 		Environment_Change_Detector::init();
 
 		add_action( 'init', array( new Analytics(), 'init' ) );
 		add_filter( 'plugin_action_links_' . JETPACK_BOOST_PLUGIN_BASE, array( $this, 'plugin_page_settings_link' ) );
+		add_action( 'rest_api_init', array( $this, 'register_rest_routes' ) );
 		add_action( 'admin_notices', array( $this, 'show_notices' ) );
 		add_action( 'wp_ajax_set_show_rating_prompt', array( $this, 'handle_set_show_rating_prompt' ) );
 		add_filter( 'jetpack_boost_js_constants', array( $this, 'add_js_constants' ) );
@@ -93,7 +102,7 @@ class Admin {
 		$internal_path = apply_filters( 'jetpack_boost_asset_internal_path', 'app/assets/dist/' );
 
 		wp_enqueue_style(
-			'jetpack-boost-css',
+			$this->jetpack_boost->get_plugin_name() . '-css',
 			plugins_url( $internal_path . 'jetpack-boost.css', JETPACK_BOOST_PATH ),
 			array( 'wp-components' ),
 			JETPACK_BOOST_VERSION
@@ -108,7 +117,7 @@ class Admin {
 	public function enqueue_scripts() {
 		$internal_path = apply_filters( 'jetpack_boost_asset_internal_path', 'app/assets/dist/' );
 
-		$admin_js_handle = 'jetpack-boost-admin';
+		$admin_js_handle = $this->jetpack_boost->get_plugin_name() . '-admin';
 
 		wp_register_script(
 			$admin_js_handle,
@@ -118,7 +127,6 @@ class Admin {
 			true
 		);
 
-		$optimizations = ( new Optimizations() )->get_status();
 		// Prepare configuration constants for JavaScript.
 		$constants = array(
 			'version'             => JETPACK_BOOST_VERSION,
@@ -126,7 +134,8 @@ class Admin {
 				'namespace' => JETPACK_BOOST_REST_NAMESPACE,
 				'prefix'    => JETPACK_BOOST_REST_PREFIX,
 			),
-			'optimizations'       => $optimizations,
+			'modules'             => $this->jetpack_boost->get_available_modules(),
+			'config'              => $this->jetpack_boost->config()->get_data(),
 			'locale'              => get_locale(),
 			'site'                => array(
 				'url'       => get_home_url(),
@@ -137,14 +146,6 @@ class Admin {
 			'preferences'         => array(
 				'showRatingPrompt' => $this->get_show_rating_prompt(),
 			),
-
-			/**
-			 * A bit of necessary magic,
-			 * Explained more in the Nonce class.
-			 *
-			 * Nonces are automatically generated when registering routes.
-			 */
-			'nonces'              => Nonce::get_generated_nonces(),
 		);
 
 		// Give each module an opportunity to define extra constants.
@@ -178,7 +179,7 @@ class Admin {
 	 */
 	public function render_settings() {
 		wp_localize_script(
-			'jetpack-boost-admin',
+			$this->jetpack_boost->get_plugin_name() . '-admin',
 			'wpApiSettings',
 			array(
 				'root'  => esc_url_raw( rest_url() ),
@@ -200,13 +201,56 @@ class Admin {
 	}
 
 	/**
+	 * Register REST routes for settings.
+	 *
+	 * @return void
+	 */
+	public function register_rest_routes() {
+		// Activate and deactivate a module.
+		register_rest_route(
+			JETPACK_BOOST_REST_NAMESPACE,
+			JETPACK_BOOST_REST_PREFIX . '/module/(?P<slug>[a-z\-]+)/status',
+			array(
+				'methods'             => \WP_REST_Server::EDITABLE,
+				'callback'            => array( $this, 'set_module_status' ),
+				'permission_callback' => array( $this, 'check_for_permissions' ),
+			)
+		);
+	}
+
+	/**
+	 * Handler for the /module/(?P<slug>[a-z\-]+)/status endpoint.
+	 *
+	 * @param \WP_REST_Request $request The request object.
+	 *
+	 * @return \WP_REST_Response|\WP_Error The response.
+	 */
+	public function set_module_status( $request ) {
+		$params = $request->get_json_params();
+
+		if ( ! isset( $params['status'] ) ) {
+			return new \WP_Error(
+				'jetpack_boost_error_missing_module_status_param',
+				__( 'Missing status param', 'jetpack-boost' )
+			);
+		}
+
+		$module_slug = $request['slug'];
+		$this->jetpack_boost->set_module_status( (bool) $params['status'], $module_slug );
+
+		return rest_ensure_response(
+			$this->jetpack_boost->get_module_status( $module_slug )
+		);
+	}
+
+	/**
 	 * Show any admin notices from enabled modules.
 	 */
 	public function show_notices() {
 		// Determine if we're already on the settings page.
 		// phpcs:ignore WordPress.Security.NonceVerification.Recommended
 		$on_settings_page = isset( $_GET['page'] ) && self::MENU_SLUG === $_GET['page'];
-		$notices          = $this->get_admin_notices();
+		$notices          = $this->jetpack_boost->get_admin_notices();
 
 		// Filter out any that have been dismissed, unless newer than the dismissal.
 		$dismissed_notices = \get_option( self::DISMISSED_NOTICE_OPTION, array() );
@@ -237,22 +281,13 @@ class Admin {
 	 * @return array List of notice ids.
 	 */
 	private function get_shown_admin_notice_ids() {
-		$notices = $this->get_admin_notices();
+		$notices = $this->jetpack_boost->get_admin_notices();
 		$ids     = array();
 		foreach ( $notices as $notice ) {
 			$ids[] = $notice->get_id();
 		}
 
 		return $ids;
-	}
-
-	/**
-	 * Returns a list of admin notices to show. Asks each module to provide admin notices the user needs to see.
-	 *
-	 * @return \Automattic\Jetpack_Boost\Admin\Admin_Notice[]
-	 */
-	public function get_admin_notices() {
-		return apply_filters( 'jetpack_boost_admin_notices', array() );
 	}
 
 	/**
