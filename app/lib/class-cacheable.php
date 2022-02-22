@@ -57,18 +57,9 @@ abstract class Cacheable implements \JsonSerializable {
 	/**
 	 * This is intended to be the reverse of JsonSerializable->jsonSerialize.
 	 *
-	 * @param array $data Serialized data to restore the object from.
-	 *
-	 * @throws \Exception Throw an exception to remind to implement the method in child classes.
-	 *
-	 *  phpcs:disable VariableAnalysis.CodeAnalysis.VariableAnalysis.UnusedVariable
+	 * @param mixed $data The data to convert into an object.
 	 */
-	public static function jsonUnserialize( $data ) {
-		// PHP 5.6 does not support abstract static classes. Throwing an error is a way to make sure we remember to override them in the child classes.
-		$class = get_called_class();
-		throw new \Exception( "Must implement static method jsonUnserialize in class $class" );
-	}
-	// phpcs:enable VariableAnalysis.CodeAnalysis.VariableAnalysis.UnusedVariable
+	abstract public static function jsonUnserialize( $data );
 
 	/**
 	 * Fetch an object with the given ID.
@@ -119,13 +110,6 @@ abstract class Cacheable implements \JsonSerializable {
 	}
 
 	/**
-	 * Delete all currently cached entries.
-	 */
-	public static function clear_cache() {
-		Transient::delete_by_prefix( static::cache_prefix() );
-	}
-
-	/**
 	 * Delete the cache entry for the given cache id.
 	 *
 	 * @param string $cache_id The cache ID.
@@ -137,11 +121,7 @@ abstract class Cacheable implements \JsonSerializable {
 	/**
 	 * Returns the cache prefix
 	 *
-	 * @throws \Exception Throw an exception to remind to implement the method in child classes.
+	 * @return string The cache prefix
 	 */
-	protected static function cache_prefix() {
-		// PHP 5.6 does not support abstract static classes. Throwing an error is a way to make sure we remember to override them in the child classes.
-		$class = get_called_class();
-		throw new \Exception( "Must implement static method cache_prefix in class $class" );
-	}
+	abstract protected static function cache_prefix();
 }

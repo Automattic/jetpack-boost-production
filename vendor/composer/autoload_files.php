@@ -6,5 +6,5 @@ $vendorDir = dirname(dirname(__FILE__));
 $baseDir = dirname($vendorDir);
 
 return array(
-    '3773ef3f09c37da5478d578e32b03a4b' => $baseDir . '/jetpack_vendor/automattic/jetpack-assets/actions.php',
+    'bce4ecd6aabb2a2948e06d0e2c4ea9a6' => $vendorDir . '/automattic/jetpack-connection/legacy/load-ixr.php',
 );

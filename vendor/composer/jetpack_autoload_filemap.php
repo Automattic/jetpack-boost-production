@@ -6,8 +6,8 @@ $vendorDir = dirname(__DIR__);
 $baseDir   = dirname($vendorDir);
 
 return array(
-	'3773ef3f09c37da5478d578e32b03a4b' => array(
-		'version' => '1.17.9999999.9999999-dev',
-		'path'    => $baseDir . '/jetpack_vendor/automattic/jetpack-assets/actions.php'
+	'bce4ecd6aabb2a2948e06d0e2c4ea9a6' => array(
+		'version' => '1.30.1.0',
+		'path'    => $vendorDir . '/automattic/jetpack-connection/legacy/load-ixr.php'
 	),
 );
