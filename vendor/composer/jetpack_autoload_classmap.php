@@ -290,10 +290,6 @@ return array(
 		'version' => '1.6.1.0',
 		'path'    => $vendorDir . '/automattic/jetpack-config/src/class-config.php'
 	),
-	'Automattic\\Jetpack\\Admin_UI\\Admin_Menu' => array(
-		'version' => '0.2.4.0',
-		'path'    => $vendorDir . '/automattic/jetpack-admin-ui/src/class-admin-menu.php'
-	),
 	'Jetpack_IXR_ClientMulticall' => array(
 		'version' => '1.36.4.0',
 		'path'    => $vendorDir . '/automattic/jetpack-connection/legacy/class-jetpack-ixr-clientmulticall.php'
@@ -389,6 +385,10 @@ return array(
 	'Automattic\\Jetpack\\Connection\\Rest_Authentication' => array(
 		'version' => '1.36.4.0',
 		'path'    => $vendorDir . '/automattic/jetpack-connection/src/class-rest-authentication.php'
+	),
+	'Automattic\\Jetpack\\Admin_UI\\Admin_Menu' => array(
+		'version' => '0.2.4.0',
+		'path'    => $vendorDir . '/automattic/jetpack-admin-ui/src/class-admin-menu.php'
 	),
 	'Automattic\\Jetpack\\Plugins_Installer' => array(
 		'version' => '0.1.0.0',
