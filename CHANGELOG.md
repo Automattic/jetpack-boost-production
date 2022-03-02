@@ -56,6 +56,7 @@ This is an alpha version! The changes listed here are not final.
 - Updated package dependencies.
 - Updated package dependencies.
 - Updated package dependencies.
+- Updated package dependencies.
 - Update regular expression to ignore deferring js via ignore attribute with and without quotes.
 
 ### Removed
