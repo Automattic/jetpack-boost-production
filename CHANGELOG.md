@@ -19,6 +19,7 @@ This is an alpha version! The changes listed here are not final.
 - Suggested steps if critical css failed to generate due to page errors
 
 ### Changed
+- Added Cloud Critical CSS status.
 - Add Jetpack compatibility tests.
 - E2E tests: fix pnpm script
 - E2E tests: merge Github workflows

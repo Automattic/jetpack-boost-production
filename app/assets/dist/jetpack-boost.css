@@ -945,6 +945,15 @@
   min-width: 48px;
 }
 
+.jb-cloud-css-meta {
+  display: flex;
+  justify-content: space-between;
+}
+.jb-cloud-css-meta .meta-description {
+  font-size: 14px;
+  color: #888888;
+}
+
 .cross-close {
   position: absolute;
   right: 21px;

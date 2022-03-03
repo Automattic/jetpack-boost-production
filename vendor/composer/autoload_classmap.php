@@ -125,6 +125,7 @@ return array(
     'Automattic\\Jetpack_Boost\\REST_API\\Contracts\\Endpoint' => $baseDir . '/app/rest-api/contracts/Endpoint.php',
     'Automattic\\Jetpack_Boost\\REST_API\\Contracts\\Has_Endpoints' => $baseDir . '/app/rest-api/contracts/Has_Endpoints.php',
     'Automattic\\Jetpack_Boost\\REST_API\\Contracts\\Permission' => $baseDir . '/app/rest-api/contracts/Permission.php',
+    'Automattic\\Jetpack_Boost\\REST_API\\Endpoints\\Cloud_CSS_Status' => $baseDir . '/app/rest-api/endpoints/Cloud_CSS_Status.php',
     'Automattic\\Jetpack_Boost\\REST_API\\Endpoints\\Generator_Error' => $baseDir . '/app/rest-api/endpoints/Generator_Error.php',
     'Automattic\\Jetpack_Boost\\REST_API\\Endpoints\\Generator_Request' => $baseDir . '/app/rest-api/endpoints/Generator_Request.php',
     'Automattic\\Jetpack_Boost\\REST_API\\Endpoints\\Generator_Status' => $baseDir . '/app/rest-api/endpoints/Generator_Status.php',

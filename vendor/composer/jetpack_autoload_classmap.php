@@ -98,6 +98,10 @@ return array(
 		'version' => '2.0.0.0-alpha',
 		'path'    => $baseDir . '/app/rest-api/endpoints/Recommendations_Dismiss.php'
 	),
+	'Automattic\\Jetpack_Boost\\REST_API\\Endpoints\\Cloud_CSS_Status' => array(
+		'version' => '2.0.0.0-alpha',
+		'path'    => $baseDir . '/app/rest-api/endpoints/Cloud_CSS_Status.php'
+	),
 	'Automattic\\Jetpack_Boost\\REST_API\\Endpoints\\Optimization_Status' => array(
 		'version' => '2.0.0.0-alpha',
 		'path'    => $baseDir . '/app/rest-api/endpoints/Optimization_Status.php'

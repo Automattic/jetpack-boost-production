@@ -154,6 +154,7 @@ class ComposerStaticInitb1e77e6231d50e7663f84529b6a3dfda_jetpack_boostⓥ2_0_0_a
         'Automattic\\Jetpack_Boost\\REST_API\\Contracts\\Endpoint' => __DIR__ . '/../..' . '/app/rest-api/contracts/Endpoint.php',
         'Automattic\\Jetpack_Boost\\REST_API\\Contracts\\Has_Endpoints' => __DIR__ . '/../..' . '/app/rest-api/contracts/Has_Endpoints.php',
         'Automattic\\Jetpack_Boost\\REST_API\\Contracts\\Permission' => __DIR__ . '/../..' . '/app/rest-api/contracts/Permission.php',
+        'Automattic\\Jetpack_Boost\\REST_API\\Endpoints\\Cloud_CSS_Status' => __DIR__ . '/../..' . '/app/rest-api/endpoints/Cloud_CSS_Status.php',
         'Automattic\\Jetpack_Boost\\REST_API\\Endpoints\\Generator_Error' => __DIR__ . '/../..' . '/app/rest-api/endpoints/Generator_Error.php',
         'Automattic\\Jetpack_Boost\\REST_API\\Endpoints\\Generator_Request' => __DIR__ . '/../..' . '/app/rest-api/endpoints/Generator_Request.php',
         'Automattic\\Jetpack_Boost\\REST_API\\Endpoints\\Generator_Status' => __DIR__ . '/../..' . '/app/rest-api/endpoints/Generator_Status.php',
