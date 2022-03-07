@@ -67,6 +67,7 @@ This is an alpha version! The changes listed here are not final.
 ### Fixed
 - Added a bunch of missing eslint ignore directives.
 - Check that the Assets::alias_textdomains_from_file method exists before calling it.
+- Disable asynchronize stylesheet on pending Cloud CSS.
 - E2E tests: update readme
 - Fixed e2e tests
 - Fixed initial configuration of lazy load behaving opposit to jetpack settings
