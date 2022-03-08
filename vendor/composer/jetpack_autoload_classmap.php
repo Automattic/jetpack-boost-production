@@ -286,7 +286,7 @@ return array(
 		'version' => '2.0.0.0-alpha',
 		'path'    => $baseDir . '/app/lib/critical-css/Recommendations.php'
 	),
-	'Automattic\\Jetpack_Boost\\Lib\\Critical_CSS\\Admin_Bar_Compatibilty' => array(
+	'Automattic\\Jetpack_Boost\\Lib\\Critical_CSS\\Admin_Bar_Compatibility' => array(
 		'version' => '2.0.0.0-alpha',
 		'path'    => $baseDir . '/app/lib/critical-css/Admin_Bar_Compatibilty.php'
 	),

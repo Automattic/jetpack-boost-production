@@ -96,7 +96,7 @@ return array(
     'Automattic\\Jetpack_Boost\\Lib\\Cacheable' => $baseDir . '/app/lib/class-cacheable.php',
     'Automattic\\Jetpack_Boost\\Lib\\Collection' => $baseDir . '/app/lib/class-collection.php',
     'Automattic\\Jetpack_Boost\\Lib\\Connection' => $baseDir . '/app/lib/class-connection.php',
-    'Automattic\\Jetpack_Boost\\Lib\\Critical_CSS\\Admin_Bar_Compatibilty' => $baseDir . '/app/lib/critical-css/Admin_Bar_Compatibilty.php',
+    'Automattic\\Jetpack_Boost\\Lib\\Critical_CSS\\Admin_Bar_Compatibility' => $baseDir . '/app/lib/critical-css/Admin_Bar_Compatibilty.php',
     'Automattic\\Jetpack_Boost\\Lib\\Critical_CSS\\Critical_CSS_Invalidator' => $baseDir . '/app/lib/critical-css/Critical_CSS_Invalidator.php',
     'Automattic\\Jetpack_Boost\\Lib\\Critical_CSS\\Critical_CSS_State' => $baseDir . '/app/lib/critical-css/Critical_CSS_State.php',
     'Automattic\\Jetpack_Boost\\Lib\\Critical_CSS\\Critical_CSS_Storage' => $baseDir . '/app/lib/critical-css/Critical_CSS_Storage.php',

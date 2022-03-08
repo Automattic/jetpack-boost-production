@@ -125,7 +125,7 @@ class ComposerStaticInitb1e77e6231d50e7663f84529b6a3dfda_jetpack_boostⓥ2_0_0_a
         'Automattic\\Jetpack_Boost\\Lib\\Cacheable' => __DIR__ . '/../..' . '/app/lib/class-cacheable.php',
         'Automattic\\Jetpack_Boost\\Lib\\Collection' => __DIR__ . '/../..' . '/app/lib/class-collection.php',
         'Automattic\\Jetpack_Boost\\Lib\\Connection' => __DIR__ . '/../..' . '/app/lib/class-connection.php',
-        'Automattic\\Jetpack_Boost\\Lib\\Critical_CSS\\Admin_Bar_Compatibilty' => __DIR__ . '/../..' . '/app/lib/critical-css/Admin_Bar_Compatibilty.php',
+        'Automattic\\Jetpack_Boost\\Lib\\Critical_CSS\\Admin_Bar_Compatibility' => __DIR__ . '/../..' . '/app/lib/critical-css/Admin_Bar_Compatibilty.php',
         'Automattic\\Jetpack_Boost\\Lib\\Critical_CSS\\Critical_CSS_Invalidator' => __DIR__ . '/../..' . '/app/lib/critical-css/Critical_CSS_Invalidator.php',
         'Automattic\\Jetpack_Boost\\Lib\\Critical_CSS\\Critical_CSS_State' => __DIR__ . '/../..' . '/app/lib/critical-css/Critical_CSS_State.php',
         'Automattic\\Jetpack_Boost\\Lib\\Critical_CSS\\Critical_CSS_Storage' => __DIR__ . '/../..' . '/app/lib/critical-css/Critical_CSS_Storage.php',
