@@ -74,6 +74,7 @@ This is an alpha version! The changes listed here are not final.
 - Fixed e2e tests
 - Fixed initial configuration of lazy load behaving opposit to jetpack settings
 - Fixed issue with re-serving Critical CSS during generation process
+- General: Clean up use of FILTER_SANITIZE_STRING as it is deprecated in PHP 8.1
 - Re-added Lazy image compatibility
 - Sync some E2E deps with the rest of the monorepo to avoid breaking eslint tests.
 
