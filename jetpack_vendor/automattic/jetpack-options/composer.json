@@ -15,6 +15,7 @@
 			"legacy"
 		]
 	},
+	"repositories": [],
 	"minimum-stability": "dev",
 	"prefer-stable": true,
 	"extra": {
