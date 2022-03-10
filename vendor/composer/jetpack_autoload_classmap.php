@@ -426,10 +426,6 @@ return array(
 		'version' => '1.1.9999999.9999999-dev',
 		'path'    => $vendorDir . '/automattic/jetpack-composer-plugin/src/class-plugin.php'
 	),
-	'Automattic\\Jetpack\\Admin_UI\\Admin_Menu' => array(
-		'version' => '0.2.9999999.9999999-dev',
-		'path'    => $baseDir . '/jetpack_vendor/automattic/jetpack-admin-ui/src/class-admin-menu.php'
-	),
 	'Jetpack_Signature' => array(
 		'version' => '1.37.9999999.9999999-dev',
 		'path'    => $baseDir . '/jetpack_vendor/automattic/jetpack-connection/legacy/class-jetpack-signature.php'
@@ -502,6 +498,10 @@ return array(
 		'version' => '1.37.9999999.9999999-dev',
 		'path'    => $baseDir . '/jetpack_vendor/automattic/jetpack-connection/src/class-plugin.php'
 	),
+	'Automattic\\Jetpack\\Connection\\Webhooks\\Authorize_Redirect' => array(
+		'version' => '1.37.9999999.9999999-dev',
+		'path'    => $baseDir . '/jetpack_vendor/automattic/jetpack-connection/src/webhooks/class-authorize-redirect.php'
+	),
 	'Automattic\\Jetpack\\Connection\\Secrets' => array(
 		'version' => '1.37.9999999.9999999-dev',
 		'path'    => $baseDir . '/jetpack_vendor/automattic/jetpack-connection/src/class-secrets.php'
@@ -545,6 +545,10 @@ return array(
 	'Automattic\\Jetpack\\Heartbeat' => array(
 		'version' => '1.4.9999999.9999999-dev',
 		'path'    => $baseDir . '/jetpack_vendor/automattic/jetpack-heartbeat/src/class-heartbeat.php'
+	),
+	'Automattic\\Jetpack\\Admin_UI\\Admin_Menu' => array(
+		'version' => '0.2.9999999.9999999-dev',
+		'path'    => $baseDir . '/jetpack_vendor/automattic/jetpack-admin-ui/src/class-admin-menu.php'
 	),
 	'Automattic\\Jetpack\\Redirect' => array(
 		'version' => '1.7.9999999.9999999-dev',
