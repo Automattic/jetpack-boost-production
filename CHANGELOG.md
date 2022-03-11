@@ -9,6 +9,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 This is an alpha version! The changes listed here are not final.
 
+### Changed
+- Renamed hook `handle_theme_change` to `handle_environment_change`
+
 ### Fixed
 - General: Clean up use of FILTER_SANITIZE_STRING as it is deprecated in PHP 8.1
 
