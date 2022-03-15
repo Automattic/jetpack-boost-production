@@ -1037,3 +1037,14 @@
   text-decoration: none;
   display: inline-block;
 }
+
+.jb-badge {
+  border: 1px solid;
+  font-size: 0.5em;
+  text-transform: uppercase;
+  padding: 0.2em;
+  border-radius: 0.4em;
+  vertical-align: middle;
+  color: #787c82;
+  margin-left: 1em;
+}
