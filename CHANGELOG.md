@@ -11,6 +11,7 @@ This is an alpha version! The changes listed here are not final.
 
 ### Changed
 - Added upgraded badge and changed text on cloud CSS feature
+- Comment: Add Critical CSS Premium Plan CTA section.
 - Renamed hook `handle_theme_change` to `handle_environment_change`
 - Updated package dependencies
 

@@ -945,6 +945,26 @@
   min-width: 48px;
 }
 
+.jb-premium-cta {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px 24px;
+  margin: 32px 0;
+  border: 2px solid #008710;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.jb-premium-cta p {
+  margin: 0;
+}
+.jb-premium-cta__action-line {
+  font-weight: bold;
+}
+.jb-premium-cta__icon svg {
+  fill: #008710;
+}
+
 .jb-cloud-css-meta {
   display: flex;
   justify-content: space-between;
