@@ -18,6 +18,9 @@ This is an alpha version! The changes listed here are not final.
 - Updated package dependencies
 - Updated package dependencies.
 
+### Removed
+- Remove unused JS dependencies.
+
 ### Fixed
 - General: Clean up use of FILTER_SANITIZE_STRING as it is deprecated in PHP 8.1
 
