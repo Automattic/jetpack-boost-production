@@ -532,11 +532,11 @@ return array(
 	),
 	'Automattic\\Jetpack\\Plugins_Installer' => array(
 		'version' => '0.1.9999999.9999999-dev',
-		'path'    => $vendorDir . '/automattic/jetpack-plugins-installer/src/class-plugins-installer.php'
+		'path'    => $baseDir . '/jetpack_vendor/automattic/jetpack-plugins-installer/src/class-plugins-installer.php'
 	),
 	'Automattic\\Jetpack\\Automatic_Install_Skin' => array(
 		'version' => '0.1.9999999.9999999-dev',
-		'path'    => $vendorDir . '/automattic/jetpack-plugins-installer/src/class-automatic-install-skin.php'
+		'path'    => $baseDir . '/jetpack_vendor/automattic/jetpack-plugins-installer/src/class-automatic-install-skin.php'
 	),
 	'Automattic\\Jetpack\\Roles' => array(
 		'version' => '1.4.9999999.9999999-dev',
