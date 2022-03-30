@@ -16,6 +16,7 @@ This is an alpha version! The changes listed here are not final.
 - Added pre Critical CSS generation consolation log.
 - Added upgraded badge and changed text on cloud CSS feature
 - Comment: Add Critical CSS Premium Plan CTA section.
+- E2E tests - bumped dependencies versions
 - Microperformance: Use === null instead of is_null
 - Renamed hook `handle_theme_change` to `handle_environment_change`
 - Updated package dependencies
