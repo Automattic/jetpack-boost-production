@@ -9,6 +9,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 This is an alpha version! The changes listed here are not final.
 
+### Added
+- Added a page to show benefits of upgrading Jetpack Boost
+
 ### Changed
 - Added pre Critical CSS generation consolation log.
 - Added upgraded badge and changed text on cloud CSS feature
