@@ -25,6 +25,7 @@ This is an alpha version! The changes listed here are not final.
 - Updated package dependencies.
 
 ### Removed
+- E2E tests: removed duplicated test fixture and use the one in e2e-commons
 - Remove unused JS dependencies.
 
 ### Fixed
