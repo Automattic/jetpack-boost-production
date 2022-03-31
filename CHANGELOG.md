@@ -20,8 +20,6 @@ This is an alpha version! The changes listed here are not final.
 - Microperformance: Use === null instead of is_null
 - Renamed hook `handle_theme_change` to `handle_environment_change`
 - Updated package dependencies
-- Updated package dependencies
-- Updated package dependencies.
 - Updated package dependencies.
 
 ### Removed
