@@ -12,6 +12,7 @@ This is an alpha version! The changes listed here are not final.
 ### Added
 - Added a page to show benefits of upgrading Jetpack Boost
 - Added suport option for premium users
+- E2E tests: added custom error messages to the expect functions
 
 ### Changed
 - Added pre Critical CSS generation consolation log.
