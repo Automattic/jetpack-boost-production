@@ -75,7 +75,7 @@ return array(
     'Automattic\\Jetpack\\Status\\Host' => $baseDir . '/jetpack_vendor/automattic/jetpack-status/src/class-host.php',
     'Automattic\\Jetpack\\Status\\Visitor' => $baseDir . '/jetpack_vendor/automattic/jetpack-status/src/class-visitor.php',
     'Automattic\\Jetpack\\Terms_Of_Service' => $baseDir . '/jetpack_vendor/automattic/jetpack-connection/src/class-terms-of-service.php',
-    'Automattic\\Jetpack\\Tracking' => $baseDir . '/jetpack_vendor/automattic/jetpack-tracking/src/class-tracking.php',
+    'Automattic\\Jetpack\\Tracking' => $baseDir . '/jetpack_vendor/automattic/jetpack-connection/src/class-tracking.php',
     'Automattic\\Jetpack_Boost\\Admin\\Admin' => $baseDir . '/app/admin/class-admin.php',
     'Automattic\\Jetpack_Boost\\Admin\\Admin_Notice' => $baseDir . '/app/admin/class-admin-notice.php',
     'Automattic\\Jetpack_Boost\\Contracts\\Boost_API_Client' => $baseDir . '/app/contracts/Boost_API_Client.php',
@@ -152,7 +152,7 @@ return array(
     'Jetpack_IXR_ClientMulticall' => $baseDir . '/jetpack_vendor/automattic/jetpack-connection/legacy/class-jetpack-ixr-clientmulticall.php',
     'Jetpack_Options' => $baseDir . '/jetpack_vendor/automattic/jetpack-options/legacy/class-jetpack-options.php',
     'Jetpack_Signature' => $baseDir . '/jetpack_vendor/automattic/jetpack-connection/legacy/class-jetpack-signature.php',
-    'Jetpack_Tracks_Client' => $baseDir . '/jetpack_vendor/automattic/jetpack-tracking/legacy/class-jetpack-tracks-client.php',
-    'Jetpack_Tracks_Event' => $baseDir . '/jetpack_vendor/automattic/jetpack-tracking/legacy/class-jetpack-tracks-event.php',
+    'Jetpack_Tracks_Client' => $baseDir . '/jetpack_vendor/automattic/jetpack-connection/legacy/class-jetpack-tracks-client.php',
+    'Jetpack_Tracks_Event' => $baseDir . '/jetpack_vendor/automattic/jetpack-connection/legacy/class-jetpack-tracks-event.php',
     'Jetpack_XMLRPC_Server' => $baseDir . '/jetpack_vendor/automattic/jetpack-connection/legacy/class-jetpack-xmlrpc-server.php',
 );

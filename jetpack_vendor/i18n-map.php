@@ -20,10 +20,6 @@ return array(
       'path' => 'jetpack_vendor/automattic/jetpack-lazy-images',
       'ver' => '2.1.9999999-dev',
     ),
-    'jetpack-tracking' => array(
-      'path' => 'jetpack_vendor/automattic/jetpack-tracking',
-      'ver' => '1.14.9999999-dev',
-    ),
     'jetpack-plugins-installer' => array(
       'path' => 'jetpack_vendor/automattic/jetpack-plugins-installer',
       'ver' => '0.1.9999999-dev',
