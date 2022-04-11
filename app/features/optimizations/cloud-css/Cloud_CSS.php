@@ -2,7 +2,6 @@
 namespace Automattic\Jetpack_Boost\Features\Optimizations\Cloud_CSS;
 
 use Automattic\Jetpack_Boost\Contracts\Feature;
-use Automattic\Jetpack_Boost\Features\Optimizations\Critical_CSS\Generator;
 use Automattic\Jetpack_Boost\Lib\Critical_CSS\Admin_Bar_Compatibility;
 use Automattic\Jetpack_Boost\Lib\Critical_CSS\Critical_CSS_Invalidator;
 use Automattic\Jetpack_Boost\Lib\Critical_CSS\Critical_CSS_State;
@@ -120,12 +119,8 @@ class Cloud_CSS implements Feature, Has_Endpoints {
 		}
 		$state->create_request( $source_providers->get_providers() );
 
-		$client   = new Cloud_CSS_Request( $state );
-		$response = $client->request_generate();
-		if ( is_wp_error( $response ) ) {
-			$state->set_as_failed( $response->get_error_message() );
-		}
-		return $response;
+		$client = new Cloud_CSS_Request( $state );
+		return $client->request_generate();
 	}
 
 	/**
@@ -148,8 +143,8 @@ class Cloud_CSS implements Feature, Has_Endpoints {
 	 */
 	public function add_critical_css_constants( $constants ) {
 		// Information about the current status of Cloud CSS / generation.
-		$generator                      = new Generator( 'cloud' );
-		$constants['criticalCssStatus'] = $generator->get_critical_css_status();
+		$state                       = new Critical_CSS_State( 'cloud' );
+		$constants['cloudCssStatus'] = $state->get_generation_status();
 
 		return $constants;
 	}

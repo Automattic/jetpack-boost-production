@@ -23,29 +23,22 @@ class Update_Cloud_CSS implements Contracts\Endpoint {
 	}
 
 	public function response( $request ) {
-		$params = $request->get_params();
+		$request_body = $request->get_body();
 
 		try {
-			$providers = $params['providers'];
-			$state     = new Critical_CSS_State( 'cloud' );
-			$storage   = new Critical_CSS_Storage();
+			$request_body = json_decode( $request_body );
+			$providers    = $request_body->providers;
+			$state        = new Critical_CSS_State( 'cloud' );
+			$storage      = new Critical_CSS_Storage();
 
-			foreach ( $providers as $provider => $result ) {
-				if ( ! isset( $result['data'] ) ) {
-					$state->set_as_failed( __( 'An unknown error occurred', 'jetpack-boost' ) );
-					continue;
-				}
-				$data = $result['data'];
-				if ( isset( $result['success'] ) && $result['success'] ) {
+			foreach ( $providers as $provider => $data ) {
+				if ( $data->success ) {
 					$state->set_source_success( $provider );
-					$storage->store_css( $provider, $data['css'] );
-				} elseif ( isset( $data['show_stopper'] ) && $data['show_stopper'] ) {
-					$state->set_as_failed( $data['error'] );
+					$storage->store_css( $provider, $data->css );
 				} else {
-					$state->set_source_error( $provider, $data['urls'] );
+					$state->set_source_error( $provider, $data->error );
 				}
 			}
-			$state->maybe_set_status();
 
 			wp_send_json_success();
 		} catch ( \Exception $e ) {
