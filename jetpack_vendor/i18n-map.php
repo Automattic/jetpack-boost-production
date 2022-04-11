@@ -32,13 +32,13 @@ return array(
       'path' => 'jetpack_vendor/automattic/jetpack-admin-ui',
       'ver' => '0.2.6',
     ),
-    'jetpack-my-jetpack' => array(
-      'path' => 'jetpack_vendor/automattic/jetpack-my-jetpack',
-      'ver' => '0.6.13',
-    ),
     'jetpack-connection' => array(
       'path' => 'jetpack_vendor/automattic/jetpack-connection',
       'ver' => '1.37.5',
+    ),
+    'jetpack-my-jetpack' => array(
+      'path' => 'jetpack_vendor/automattic/jetpack-my-jetpack',
+      'ver' => '0.6.13',
     ),
   ),
 );

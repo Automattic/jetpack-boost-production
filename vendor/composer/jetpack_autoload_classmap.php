@@ -562,13 +562,13 @@ return array(
 		'version' => '1.4.0.0',
 		'path'    => $baseDir . '/jetpack_vendor/automattic/jetpack-heartbeat/src/class-heartbeat.php'
 	),
-	'Automattic\\Jetpack\\Redirect' => array(
-		'version' => '1.7.13.0',
-		'path'    => $baseDir . '/jetpack_vendor/automattic/jetpack-redirect/src/class-redirect.php'
-	),
 	'Automattic\\Jetpack\\Admin_UI\\Admin_Menu' => array(
 		'version' => '0.2.6.0',
 		'path'    => $baseDir . '/jetpack_vendor/automattic/jetpack-admin-ui/src/class-admin-menu.php'
+	),
+	'Automattic\\Jetpack\\Redirect' => array(
+		'version' => '1.7.13.0',
+		'path'    => $baseDir . '/jetpack_vendor/automattic/jetpack-redirect/src/class-redirect.php'
 	),
 	'Automattic\\Jetpack\\Assets\\Semver' => array(
 		'version' => '1.17.9.0',
