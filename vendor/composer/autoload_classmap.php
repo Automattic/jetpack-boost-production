@@ -84,6 +84,7 @@ return array(
     'Automattic\\Jetpack_Boost\\Contracts\\Has_Slug' => $baseDir . '/app/contracts/Has_Slug.php',
     'Automattic\\Jetpack_Boost\\Features\\Optimizations\\Cloud_CSS\\Cloud_CSS' => $baseDir . '/app/features/optimizations/cloud-css/Cloud_CSS.php',
     'Automattic\\Jetpack_Boost\\Features\\Optimizations\\Cloud_CSS\\Cloud_CSS_Request' => $baseDir . '/app/features/optimizations/cloud-css/Cloud_CSS_Request.php',
+    'Automattic\\Jetpack_Boost\\Features\\Optimizations\\Critical_CSS\\CSS_Proxy' => $baseDir . '/app/features/optimizations/critical-css/CSS_Proxy.php',
     'Automattic\\Jetpack_Boost\\Features\\Optimizations\\Critical_CSS\\Critical_CSS' => $baseDir . '/app/features/optimizations/critical-css/Critical_CSS.php',
     'Automattic\\Jetpack_Boost\\Features\\Optimizations\\Critical_CSS\\Generator' => $baseDir . '/app/features/optimizations/critical-css/Generator.php',
     'Automattic\\Jetpack_Boost\\Features\\Optimizations\\Critical_CSS\\Regenerate_Admin_Notice' => $baseDir . '/app/features/optimizations/critical-css/Regenerate_Admin_Notice.php',

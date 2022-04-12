@@ -5,7 +5,7 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
-## [1.4.2-alpha] - unreleased
+## [1.4.3-alpha] - unreleased
 
 This is an alpha version! The changes listed here are not final.
 
@@ -34,11 +34,11 @@ This is an alpha version! The changes listed here are not final.
 - Fix VS Code ESLint and prettier config
 - General: Clean up use of FILTER_SANITIZE_STRING as it is deprecated in PHP 8.1
 
-## [1.4.1-beta] - 2022-03-08
-### Added
-- Critical CSS: Added internal support for Cloud Critical CSS.
-- Critical CSS: Added suggested steps when Critical CSS fails due to page errors.
+## [1.4.2] - 2022-04-11
+### Fixed
+- Fixed critical CSS generation failure while using a CDN to serve CSS
 
+## [1.4.1] - 2022-04-06
 ### Changed
 - Critical CSS: Tidied up Critical CSS class structure.
 - Critical CSS: Updated Critical CSS generation to exclude animation keyframes.
@@ -167,5 +167,6 @@ This is an alpha version! The changes listed here are not final.
 [1.3.1-beta]: https://github.com/Automattic/jetpack-boost-production/compare/v1.3.0-beta...v1.3.1-beta
 [1.3.0-beta]: https://github.com/Automattic/jetpack-boost-production/compare/v1.2.0...v1.3.0-beta
 [1.2.0]: https://github.com/Automattic/jetpack-boost-production/compare/v1.1.0...v1.2.0-beta
-[1.4.2-alpha]: https://github.com/Automattic/jetpack-boost-production/compare/v1.4.1-beta...v1.4.2-alpha
-[1.4.1-beta]: https://github.com/Automattic/jetpack-boost-production/compare/v1.4.0...v1.4.1-beta
+[1.4.3-alpha]: https://github.com/Automattic/jetpack-boost-production/compare/v1.4.2...v1.4.3-alpha
+[1.4.2]: https://github.com/Automattic/jetpack-boost-production/compare/v1.4.1...v1.4.2
+[1.4.1]: https://github.com/Automattic/jetpack-boost-production/compare/v1.4.0...v1.4.1
