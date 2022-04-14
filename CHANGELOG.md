@@ -22,6 +22,7 @@ This is an alpha version! The changes listed here are not final.
 - Comment: Add Critical CSS Premium Plan CTA section.
 - E2E tests - bumped dependencies versions
 - Microperformance: Use === null instead of is_null
+- PHPCS: Fix `WordPress.Security.ValidatedSanitizedInput`
 - Refactor Cloud CSS status to display error.
 - Renamed hook `handle_theme_change` to `handle_environment_change`
 - Updated package dependencies
