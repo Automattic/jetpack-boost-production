@@ -134,6 +134,10 @@ return array(
 		'version' => '1.4.3.0-alpha',
 		'path'    => $baseDir . '/app/lib/class-viewport.php'
 	),
+	'Automattic\\Jetpack_Boost\\Lib\\Premium_Features' => array(
+		'version' => '1.4.3.0-alpha',
+		'path'    => $baseDir . '/app/lib/Premium_Features.php'
+	),
 	'Automattic\\Jetpack_Boost\\Lib\\Nonce' => array(
 		'version' => '1.4.3.0-alpha',
 		'path'    => $baseDir . '/app/lib/class-nonce.php'

@@ -121,6 +121,7 @@ return array(
     'Automattic\\Jetpack_Boost\\Lib\\Minify' => $baseDir . '/app/lib/class-minify.php',
     'Automattic\\Jetpack_Boost\\Lib\\Nonce' => $baseDir . '/app/lib/class-nonce.php',
     'Automattic\\Jetpack_Boost\\Lib\\Output_Filter' => $baseDir . '/app/lib/class-output-filter.php',
+    'Automattic\\Jetpack_Boost\\Lib\\Premium_Features' => $baseDir . '/app/lib/Premium_Features.php',
     'Automattic\\Jetpack_Boost\\Lib\\Setup' => $baseDir . '/app/lib/Setup.php',
     'Automattic\\Jetpack_Boost\\Lib\\Status' => $baseDir . '/app/lib/Status.php',
     'Automattic\\Jetpack_Boost\\Lib\\Storage_Post_Type' => $baseDir . '/app/lib/class-storage-post-type.php',

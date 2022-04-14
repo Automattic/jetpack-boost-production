@@ -150,6 +150,7 @@ class ComposerStaticInitb1e77e6231d50e7663f84529b6a3dfda_jetpack_boostⓥ1_4_3_a
         'Automattic\\Jetpack_Boost\\Lib\\Minify' => __DIR__ . '/../..' . '/app/lib/class-minify.php',
         'Automattic\\Jetpack_Boost\\Lib\\Nonce' => __DIR__ . '/../..' . '/app/lib/class-nonce.php',
         'Automattic\\Jetpack_Boost\\Lib\\Output_Filter' => __DIR__ . '/../..' . '/app/lib/class-output-filter.php',
+        'Automattic\\Jetpack_Boost\\Lib\\Premium_Features' => __DIR__ . '/../..' . '/app/lib/Premium_Features.php',
         'Automattic\\Jetpack_Boost\\Lib\\Setup' => __DIR__ . '/../..' . '/app/lib/Setup.php',
         'Automattic\\Jetpack_Boost\\Lib\\Status' => __DIR__ . '/../..' . '/app/lib/Status.php',
         'Automattic\\Jetpack_Boost\\Lib\\Storage_Post_Type' => __DIR__ . '/../..' . '/app/lib/class-storage-post-type.php',
