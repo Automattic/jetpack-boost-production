@@ -33,6 +33,7 @@ This is an alpha version! The changes listed here are not final.
 - Remove unused JS dependencies.
 
 ### Fixed
+- Fixed failed build for external TypeScript files
 - Fix VS Code ESLint and prettier config
 - General: Clean up use of FILTER_SANITIZE_STRING as it is deprecated in PHP 8.1
 - Improved critical CSS autorefresh
