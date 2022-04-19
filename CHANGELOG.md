@@ -27,6 +27,7 @@ This is an alpha version! The changes listed here are not final.
 - Renamed hook `handle_theme_change` to `handle_environment_change`
 - Updated package dependencies
 - Updated package dependencies.
+- Update package.json metadata.
 
 ### Removed
 - E2E tests: removed duplicated test fixture and use the one in e2e-commons
