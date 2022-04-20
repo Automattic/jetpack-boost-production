@@ -8,10 +8,6 @@ return array(
       'path' => 'jetpack_vendor/automattic/jetpack-config',
       'ver' => '1.7.9999999-dev',
     ),
-    'jetpack-heartbeat' => array(
-      'path' => 'jetpack_vendor/automattic/jetpack-heartbeat',
-      'ver' => '1.4.9999999-dev',
-    ),
     'jetpack-assets' => array(
       'path' => 'jetpack_vendor/automattic/jetpack-assets',
       'ver' => '1.17.9999999-dev',
@@ -30,7 +26,7 @@ return array(
     ),
     'jetpack-connection' => array(
       'path' => 'jetpack_vendor/automattic/jetpack-connection',
-      'ver' => '1.38.9999999-dev',
+      'ver' => '1.39.9999999-dev',
     ),
     'jetpack-my-jetpack' => array(
       'path' => 'jetpack_vendor/automattic/jetpack-my-jetpack',

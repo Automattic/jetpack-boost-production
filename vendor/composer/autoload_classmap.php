@@ -46,7 +46,7 @@ return array(
     'Automattic\\Jetpack\\Device_Detection\\User_Agent_Info' => $baseDir . '/jetpack_vendor/automattic/jetpack-device-detection/src/class-user-agent-info.php',
     'Automattic\\Jetpack\\Errors' => $baseDir . '/jetpack_vendor/automattic/jetpack-status/src/class-errors.php',
     'Automattic\\Jetpack\\Files' => $baseDir . '/jetpack_vendor/automattic/jetpack-status/src/class-files.php',
-    'Automattic\\Jetpack\\Heartbeat' => $baseDir . '/jetpack_vendor/automattic/jetpack-heartbeat/src/class-heartbeat.php',
+    'Automattic\\Jetpack\\Heartbeat' => $baseDir . '/jetpack_vendor/automattic/jetpack-connection/src/class-heartbeat.php',
     'Automattic\\Jetpack\\Jetpack_Lazy_Images' => $baseDir . '/jetpack_vendor/automattic/jetpack-lazy-images/src/lazy-images.php',
     'Automattic\\Jetpack\\Modules' => $baseDir . '/jetpack_vendor/automattic/jetpack-status/src/class-modules.php',
     'Automattic\\Jetpack\\My_Jetpack\\Hybrid_Product' => $baseDir . '/jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-hybrid-product.php',
