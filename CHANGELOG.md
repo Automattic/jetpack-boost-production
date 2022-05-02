@@ -26,6 +26,7 @@ This is an alpha version! The changes listed here are not final.
 - PHPCS: Fix `WordPress.Security.ValidatedSanitizedInput`
 - Refactor Cloud CSS status to display advanced recommendations.
 - Refactor Cloud CSS status to display error.
+- Remove use of `pnpx` in preparation for pnpm 7.0.
 - Renamed hook `handle_theme_change` to `handle_environment_change`
 - Updated "Contact Support" button to link to the Jetpack Support form after Cloud CSS showstopper retry.
 - Updated package dependencies
