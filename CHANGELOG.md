@@ -22,6 +22,7 @@ This is an alpha version! The changes listed here are not final.
 - Changed the reference to eslint shim
 - Comment: Add Critical CSS Premium Plan CTA section.
 - E2E tests - bumped dependencies versions
+- Janitorial: require a more recent version of WordPress now that WP 6.0 is coming out.
 - Microperformance: Use === null instead of is_null
 - PHPCS: Fix `WordPress.Security.ValidatedSanitizedInput`
 - Refactor Cloud CSS status to display advanced recommendations.
