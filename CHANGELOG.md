@@ -18,6 +18,7 @@ This is an alpha version! The changes listed here are not final.
 
 ### Changed
 - Added pre Critical CSS generation consolation log.
+- Added TS check to build process
 - Added upgraded badge and changed text on cloud CSS feature
 - Changed the reference to eslint shim
 - Comment: Add Critical CSS Premium Plan CTA section.
