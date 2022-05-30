@@ -34,7 +34,6 @@ This is an alpha version! The changes listed here are not final.
 - update connection usage
 - Updated "Contact Support" button to link to the Jetpack Support form after Cloud CSS showstopper retry.
 - Updated boost/tsconfig to use js-tools/tsconfig.base.json
-- Updated package dependencies
 - Updated package dependencies.
 - Update package.json metadata.
 
