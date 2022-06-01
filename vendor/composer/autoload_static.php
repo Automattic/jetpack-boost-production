@@ -117,6 +117,7 @@ class ComposerStaticInitb1e77e6231d50e7663f84529b6a3dfda_jetpack_boostⓥ1_4_3_a
         'Automattic\\Jetpack_Boost\\Contracts\\Has_Setup' => __DIR__ . '/../..' . '/app/contracts/Has_Setup.php',
         'Automattic\\Jetpack_Boost\\Contracts\\Has_Slug' => __DIR__ . '/../..' . '/app/contracts/Has_Slug.php',
         'Automattic\\Jetpack_Boost\\Features\\Optimizations\\Cloud_CSS\\Cloud_CSS' => __DIR__ . '/../..' . '/app/features/optimizations/cloud-css/Cloud_CSS.php',
+        'Automattic\\Jetpack_Boost\\Features\\Optimizations\\Cloud_CSS\\Cloud_CSS_Cron' => __DIR__ . '/../..' . '/app/features/optimizations/cloud-css/Cloud_CSS_Cron.php',
         'Automattic\\Jetpack_Boost\\Features\\Optimizations\\Cloud_CSS\\Cloud_CSS_Request' => __DIR__ . '/../..' . '/app/features/optimizations/cloud-css/Cloud_CSS_Request.php',
         'Automattic\\Jetpack_Boost\\Features\\Optimizations\\Critical_CSS\\CSS_Proxy' => __DIR__ . '/../..' . '/app/features/optimizations/critical-css/CSS_Proxy.php',
         'Automattic\\Jetpack_Boost\\Features\\Optimizations\\Critical_CSS\\Critical_CSS' => __DIR__ . '/../..' . '/app/features/optimizations/critical-css/Critical_CSS.php',

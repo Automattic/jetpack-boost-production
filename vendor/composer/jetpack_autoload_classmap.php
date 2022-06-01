@@ -90,6 +90,10 @@ return array(
 		'version' => '1.4.3.0-alpha',
 		'path'    => $baseDir . '/app/features/optimizations/cloud-css/Cloud_CSS.php'
 	),
+	'Automattic\\Jetpack_Boost\\Features\\Optimizations\\Cloud_CSS\\Cloud_CSS_Cron' => array(
+		'version' => '1.4.3.0-alpha',
+		'path'    => $baseDir . '/app/features/optimizations/cloud-css/Cloud_CSS_Cron.php'
+	),
 	'Automattic\\Jetpack_Boost\\Features\\Optimizations\\Critical_CSS\\Regenerate_Admin_Notice' => array(
 		'version' => '1.4.3.0-alpha',
 		'path'    => $baseDir . '/app/features/optimizations/critical-css/Regenerate_Admin_Notice.php'
