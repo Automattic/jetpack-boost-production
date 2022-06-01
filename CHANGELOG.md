@@ -34,6 +34,7 @@ This is an alpha version! The changes listed here are not final.
 - Renamed hook `handle_theme_change` to `handle_environment_change`
 - update connection usage
 - Updated "Contact Support" button to link to the Jetpack Support form after Cloud CSS showstopper retry.
+- Updated Benefits Interstitial pricing to be dynamically fetched from the API.
 - Updated boost/tsconfig to use js-tools/tsconfig.base.json
 - Updated package dependencies.
 - Update package.json metadata.
