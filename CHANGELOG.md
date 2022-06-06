@@ -23,6 +23,7 @@ This is an alpha version! The changes listed here are not final.
 - Added upgraded badge and changed text on cloud CSS feature
 - Changed the reference to eslint shim
 - Comment: Add Critical CSS Premium Plan CTA section.
+- Comment: Update connection e2e tests to wait for optimization status endpoint call.
 - Deprecate soft disconnect
 - E2E tests - bumped dependencies versions
 - Janitorial: require a more recent version of WordPress now that WP 6.0 is coming out.
