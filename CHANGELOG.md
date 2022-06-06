@@ -37,6 +37,7 @@ This is an alpha version! The changes listed here are not final.
 - Updated "Contact Support" button to link to the Jetpack Support form after Cloud CSS showstopper retry.
 - Updated Benefits Interstitial pricing to be dynamically fetched from the API.
 - Updated boost/tsconfig to use js-tools/tsconfig.base.json
+- Updated external links in the plugin
 - Updated package dependencies.
 - Update package.json metadata.
 
