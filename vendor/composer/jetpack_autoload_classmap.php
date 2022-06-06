@@ -270,6 +270,10 @@ return array(
 		'version' => '1.4.3.0-alpha',
 		'path'    => $baseDir . '/app/rest-api/endpoints/Generator_Request.php'
 	),
+	'Automattic\\Jetpack_Boost\\REST_API\\Endpoints\\Optimizations_Status' => array(
+		'version' => '1.4.3.0-alpha',
+		'path'    => $baseDir . '/app/rest-api/endpoints/Optimizations_Status.php'
+	),
 	'Automattic\\Jetpack_Boost\\REST_API\\Endpoints\\Update_Cloud_CSS' => array(
 		'version' => '1.4.3.0-alpha',
 		'path'    => $baseDir . '/app/rest-api/endpoints/Update_Cloud_CSS.php'

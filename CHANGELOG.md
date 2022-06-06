@@ -53,6 +53,7 @@ This is an alpha version! The changes listed here are not final.
 - Fix VS Code ESLint and prettier config
 - General: Clean up use of FILTER_SANITIZE_STRING as it is deprecated in PHP 8.1
 - Improved critical CSS autorefresh
+- Make sure that modules state is refreshed during connection
 
 ## [1.4.2] - 2022-04-11
 ### Fixed

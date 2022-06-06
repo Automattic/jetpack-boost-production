@@ -175,6 +175,7 @@ class ComposerStaticInitb1e77e6231d50e7663f84529b6a3dfda_jetpack_boostⓥ1_4_3_a
         'Automattic\\Jetpack_Boost\\REST_API\\Endpoints\\Generator_Status' => __DIR__ . '/../..' . '/app/rest-api/endpoints/Generator_Status.php',
         'Automattic\\Jetpack_Boost\\REST_API\\Endpoints\\Generator_Success' => __DIR__ . '/../..' . '/app/rest-api/endpoints/Generator_Success.php',
         'Automattic\\Jetpack_Boost\\REST_API\\Endpoints\\Optimization_Status' => __DIR__ . '/../..' . '/app/rest-api/endpoints/Optimization_Status.php',
+        'Automattic\\Jetpack_Boost\\REST_API\\Endpoints\\Optimizations_Status' => __DIR__ . '/../..' . '/app/rest-api/endpoints/Optimizations_Status.php',
         'Automattic\\Jetpack_Boost\\REST_API\\Endpoints\\Recommendations_Dismiss' => __DIR__ . '/../..' . '/app/rest-api/endpoints/Recommendations_Dismiss.php',
         'Automattic\\Jetpack_Boost\\REST_API\\Endpoints\\Recommendations_Reset' => __DIR__ . '/../..' . '/app/rest-api/endpoints/Recommendations_Reset.php',
         'Automattic\\Jetpack_Boost\\REST_API\\Endpoints\\Request_Cloud_CSS' => __DIR__ . '/../..' . '/app/rest-api/endpoints/Request_Cloud_CSS.php',
