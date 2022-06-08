@@ -636,7 +636,7 @@
             "dist": {
                 "type": "path",
                 "url": "/tmp/jetpack-build/Automattic/jetpack-my-jetpack",
-                "reference": "0c09831ea5ccc448c417fd948f63accd7255a3ea"
+                "reference": "5392ab9fffbb514e9d0297564c7a4e751e4d0211"
             },
             "require": {
                 "automattic/jetpack-admin-ui": "^0.2",
@@ -680,7 +680,7 @@
                 ],
                 "test-coverage": [
                     "php -dpcov.directory=. ./vendor/bin/phpunit --coverage-clover \"$COVERAGE_DIR/coverage.xml\"",
-                    "pnpm run test -- --coverageDirectory=\"$COVERAGE_DIR\" --coverage --coverageReporters=clover"
+                    "pnpm run test --coverageDirectory=\"$COVERAGE_DIR\" --coverage --coverageReporters=clover"
                 ],
                 "test-php": [
                     "@composer phpunit"
@@ -690,7 +690,7 @@
                 ],
                 "test-js-watch": [
                     "Composer\\Config::disableProcessTimeout",
-                    "pnpm run test -- --watch"
+                    "pnpm run test --watch"
                 ],
                 "build-development": [
                     "pnpm run build"
