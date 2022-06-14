@@ -15,6 +15,7 @@ This is an alpha version! The changes listed here are not final.
 - Added suport option for premium users
 - Add missing JavaScript dependencies.
 - E2E tests: added custom error messages to the expect functions
+- prompt to seek support if score dropped
 - Upgrade flow
 
 ### Changed
