@@ -49,6 +49,7 @@ This is an alpha version! The changes listed here are not final.
 - Remove unused JS dependencies.
 
 ### Fixed
+- e2e test fix
 - Fix broken SQL query on uninstall.
 - Fixed ESLint for TypeScript and thus fixed some lints
 - Fixed failed build for external TypeScript files
