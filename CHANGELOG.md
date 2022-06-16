@@ -27,6 +27,7 @@ This is an alpha version! The changes listed here are not final.
 - Comment: Update connection e2e tests to wait for optimization status endpoint call.
 - Deprecate soft disconnect
 - E2E tests - bumped dependencies versions
+- E2E tests: bump @playwright/test and allure-playwright versions
 - Janitorial: require a more recent version of WordPress now that WP 6.0 is coming out.
 - Microperformance: Use === null instead of is_null
 - PHPCS: Fix `WordPress.Security.ValidatedSanitizedInput`
