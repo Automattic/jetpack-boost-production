@@ -36,6 +36,7 @@ This is an alpha version! The changes listed here are not final.
 - Remove use of `pnpx` in preparation for pnpm 7.0.
 - Renamed hook `handle_theme_change` to `handle_environment_change`
 - Renaming master to trunk.
+- Renaming `master` references to `trunk`
 - Reorder JS imports for `import/order` eslint rule.
 - update connection usage
 - Updated "Contact Support" button to link to the Jetpack Support form after Cloud CSS showstopper retry.
