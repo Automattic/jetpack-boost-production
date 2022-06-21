@@ -5,62 +5,29 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
-## [1.4.3-alpha] - unreleased
+## [1.5.1-alpha] - unreleased
 
 This is an alpha version! The changes listed here are not final.
 
+## [1.5.0-beta] - 2022-06-21
 ### Added
-- Added a page to show benefits of upgrading Jetpack Boost
-- Added cron job that checks if last attempt to cloud css failed and resends the request
-- Added suport option for premium users
-- Add missing JavaScript dependencies.
-- E2E tests: added custom error messages to the expect functions
-- prompt to seek support if score dropped
-- Upgrade flow
+- Cloud CSS: Added support for generating Critical CSS in the cloud.
+- Critical CSS: Added an explanation for Console output during Critical CSS Generation.
+- General: Added an option to purchase a premium Jetpack Boost plan.
+- General: Added option to contact premium support for paid users.
+- Speed Scores: Added prompt for reaching out to support when the speed score decreases.
 
 ### Changed
-- Added pre Critical CSS generation consolation log.
-- Added TS check to build process
-- Added upgraded badge and changed text on cloud CSS feature
-- Changed the reference to eslint shim
-- Comment: Add Critical CSS Premium Plan CTA section.
-- Comment: Update connection e2e tests to wait for optimization status endpoint call.
-- Deprecate soft disconnect
-- E2E tests - bumped dependencies versions
-- E2E tests: bump @playwright/test and allure-playwright versions
-- Janitorial: require a more recent version of WordPress now that WP 6.0 is coming out.
-- Microperformance: Use === null instead of is_null
-- PHPCS: Fix `WordPress.Security.ValidatedSanitizedInput`
-- Refactor Cloud CSS status to display advanced recommendations.
-- Refactor Cloud CSS status to display error.
-- Remove use of `pnpx` in preparation for pnpm 7.0.
-- Renamed hook `handle_theme_change` to `handle_environment_change`
-- Renaming master to trunk.
-- Renaming `master` references to `trunk`
-- Reorder JS imports for `import/order` eslint rule.
-- update connection usage
-- Updated "Contact Support" button to link to the Jetpack Support form after Cloud CSS showstopper retry.
-- Updated Benefits Interstitial pricing to be dynamically fetched from the API.
-- Updated boost/tsconfig to use js-tools/tsconfig.base.json
-- Updated external links in the plugin
-- Updated package dependencies.
-- Update package.json metadata.
-
-### Removed
-- E2E tests: removed duplicated test fixture and use the one in e2e-commons
-- Remove unused build dependencies.
-- Remove unused JS dependencies.
+- General: Remove soft disconnect.
+- General: Remove use of `pnpx` in preparation for pnpm 7.0.
+- General: Renamed hook `handle_theme_change` to `handle_environment_change`
+- General: Renaming `master` branch to `trunk`.
+- General: Updated external links to use Jetpack Redirects.
 
 ### Fixed
-- e2e test fix
-- Fix broken SQL query on uninstall.
-- Fixed ESLint for TypeScript and thus fixed some lints
-- Fixed failed build for external TypeScript files
-- Fix VS Code ESLint and prettier config
+- Stability: Fix broken SQL query on uninstall.
+- General: Fix VS Code ESLint and prettier config.
 - General: Clean up use of FILTER_SANITIZE_STRING as it is deprecated in PHP 8.1
-- Improved critical CSS autorefresh
-- Make sure that modules state is refreshed during connection
-- Update all Critical CSS on new post
 
 ## [1.4.2] - 2022-04-11
 ### Fixed
@@ -195,6 +162,8 @@ This is an alpha version! The changes listed here are not final.
 [1.3.1-beta]: https://github.com/Automattic/jetpack-boost-production/compare/v1.3.0-beta...v1.3.1-beta
 [1.3.0-beta]: https://github.com/Automattic/jetpack-boost-production/compare/v1.2.0...v1.3.0-beta
 [1.2.0]: https://github.com/Automattic/jetpack-boost-production/compare/v1.1.0...v1.2.0-beta
-[1.4.3-alpha]: https://github.com/Automattic/jetpack-boost-production/compare/v1.4.2...v1.4.3-alpha
+[1.4.3-beta]: https://github.com/Automattic/jetpack-boost-production/compare/v1.4.2...v1.4.3-beta
+[1.5.1-alpha]: https://github.com/Automattic/jetpack-boost-production/compare/v1.5.0-beta...v1.5.1-alpha
+[1.5.0-beta]: https://github.com/Automattic/jetpack-boost-production/compare/v1.4.1...v1.5.0-beta
 [1.4.2]: https://github.com/Automattic/jetpack-boost-production/compare/v1.4.1...v1.4.2
 [1.4.1]: https://github.com/Automattic/jetpack-boost-production/compare/v1.4.0...v1.4.1

@@ -1,7 +1,7 @@
 <?php return array(
     'root' => array(
-        'pretty_version' => '1.4.3-alpha',
-        'version' => '1.4.3.0-alpha',
+        'pretty_version' => '1.5.1-alpha',
+        'version' => '1.5.1.0-alpha',
         'type' => 'library',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
@@ -47,8 +47,8 @@
             'dev_requirement' => false,
         ),
         'automattic/jetpack-boost' => array(
-            'pretty_version' => '1.4.3-alpha',
-            'version' => '1.4.3.0-alpha',
+            'pretty_version' => '1.5.1-alpha',
+            'version' => '1.5.1.0-alpha',
             'type' => 'library',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
