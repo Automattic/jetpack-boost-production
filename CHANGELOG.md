@@ -60,6 +60,7 @@ This is an alpha version! The changes listed here are not final.
 - General: Clean up use of FILTER_SANITIZE_STRING as it is deprecated in PHP 8.1
 - Improved critical CSS autorefresh
 - Make sure that modules state is refreshed during connection
+- Update all Critical CSS on new post
 
 ## [1.4.2] - 2022-04-11
 ### Fixed
