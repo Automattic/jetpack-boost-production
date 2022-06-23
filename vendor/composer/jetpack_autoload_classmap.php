@@ -82,6 +82,10 @@ return array(
 		'version' => '1.5.1.0-alpha',
 		'path'    => $baseDir . '/app/admin/class-admin.php'
 	),
+	'Automattic\\Jetpack_Boost\\Admin\\Config' => array(
+		'version' => '1.5.1.0-alpha',
+		'path'    => $baseDir . '/app/admin/class-config.php'
+	),
 	'Automattic\\Jetpack_Boost\\REST_API\\Contracts\\Permission' => array(
 		'version' => '1.5.1.0-alpha',
 		'path'    => $baseDir . '/app/rest-api/contracts/Permission.php'
@@ -113,6 +117,10 @@ return array(
 	'Automattic\\Jetpack_Boost\\REST_API\\Route' => array(
 		'version' => '1.5.1.0-alpha',
 		'path'    => $baseDir . '/app/rest-api/Route.php'
+	),
+	'Automattic\\Jetpack_Boost\\REST_API\\Endpoints\\Config_State' => array(
+		'version' => '1.5.1.0-alpha',
+		'path'    => $baseDir . '/app/rest-api/endpoints/Config_State.php'
 	),
 	'Automattic\\Jetpack_Boost\\REST_API\\Endpoints\\Request_Cloud_CSS' => array(
 		'version' => '1.5.1.0-alpha',

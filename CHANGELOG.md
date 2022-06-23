@@ -9,6 +9,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 This is an alpha version! The changes listed here are not final.
 
+### Changed
+- Decouple config constants from enqueue scripts
+
 ## [1.5.0-beta] - 2022-06-21
 ### Added
 - Cloud CSS: Added support for generating Critical CSS in the cloud.
