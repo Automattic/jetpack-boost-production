@@ -12,6 +12,9 @@ This is an alpha version! The changes listed here are not final.
 ### Changed
 - Decouple config constants from enqueue scripts
 
+### Fixed
+- Remove focus outline on navigation for headers
+
 ## [1.5.0-beta] - 2022-06-21
 ### Added
 - Cloud CSS: Added support for generating Critical CSS in the cloud.
