@@ -298,7 +298,7 @@
             "dist": {
                 "type": "path",
                 "url": "/tmp/jetpack-build/Automattic/jetpack-config",
-                "reference": "4b6dde2db55c0b7b43b94d75dcbb7d3077b7c444"
+                "reference": "54e7ed6579196df82f252ba3d8ef92a088561f81"
             },
             "require-dev": {
                 "automattic/jetpack-changelogger": "^3.1"
