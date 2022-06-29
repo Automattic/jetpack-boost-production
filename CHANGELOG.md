@@ -10,6 +10,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 This is an alpha version! The changes listed here are not final.
 
 ### Fixed
+- Fix caching of purchased plan features to reduce calls to wpcom api
 - Remove focus outline on navigation for headers
 
 ## [1.5.0] - 2022-06-27
