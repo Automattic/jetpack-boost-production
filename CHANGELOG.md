@@ -9,6 +9,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 This is an alpha version! The changes listed here are not final.
 
+### Added
+- Keep Critical CSS status in sync with Cloud CSS for better experience in Cloud CSS subscription expiration
+
 ## [1.5.1] - 2022-06-29
 ### Fixed
 - General: Fix caching of purchased plan features to reduce calls to wpcom api
