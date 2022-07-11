@@ -15,6 +15,9 @@ This is an alpha version! The changes listed here are not final.
 ### Changed
 - Updated package dependencies.
 
+### Fixed
+- E2E tests: fixed pretest cleanup script not running
+
 ## [1.5.1] - 2022-06-29
 ### Fixed
 - General: Fix caching of purchased plan features to reduce calls to wpcom api
