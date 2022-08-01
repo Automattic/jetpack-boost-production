@@ -17,6 +17,7 @@ This is an alpha version! The changes listed here are not final.
 
 ### Fixed
 - E2E tests: fixed pretest cleanup script not running
+- Fixed detection of application/json scripts for exclusion from deferred JS
 
 ## [1.5.1] - 2022-06-29
 ### Fixed
