@@ -13,6 +13,7 @@ This is an alpha version! The changes listed here are not final.
 - Keep Critical CSS status in sync with Cloud CSS for better experience in Cloud CSS subscription expiration
 
 ### Changed
+- E2E tests: bump dependencies
 - Updated package dependencies.
 
 ### Fixed
