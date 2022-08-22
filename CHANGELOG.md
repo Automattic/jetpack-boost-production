@@ -11,6 +11,7 @@ This is an alpha version! The changes listed here are not final.
 
 ### Added
 - Keep Critical CSS status in sync with Cloud CSS for better experience in Cloud CSS subscription expiration
+- My Jetpack includes JITMs
 
 ### Changed
 - E2E tests: bump dependencies
