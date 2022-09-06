@@ -62,9 +62,9 @@ return array(
 		'version' => '1.5.2.0-alpha',
 		'path'    => $baseDir . '/app/admin/class-config.php'
 	),
-	'Automattic\\Jetpack_Boost\\Admin\\Admin_Notice' => array(
+	'Automattic\\Jetpack_Boost\\Admin\\Regenerate_Admin_Notice' => array(
 		'version' => '1.5.2.0-alpha',
-		'path'    => $baseDir . '/app/admin/class-admin-notice.php'
+		'path'    => $baseDir . '/app/admin/class-regenerate-admin-notice.php'
 	),
 	'Automattic\\Jetpack_Boost\\Admin\\Admin' => array(
 		'version' => '1.5.2.0-alpha',
@@ -317,10 +317,6 @@ return array(
 	'Automattic\\Jetpack_Boost\\Features\\Optimizations\\Critical_CSS\\CSS_Proxy' => array(
 		'version' => '1.5.2.0-alpha',
 		'path'    => $baseDir . '/app/features/optimizations/critical-css/CSS_Proxy.php'
-	),
-	'Automattic\\Jetpack_Boost\\Features\\Optimizations\\Critical_CSS\\Regenerate_Admin_Notice' => array(
-		'version' => '1.5.2.0-alpha',
-		'path'    => $baseDir . '/app/features/optimizations/critical-css/Regenerate_Admin_Notice.php'
 	),
 	'Automattic\\Jetpack_Boost\\Features\\Optimizations\\Critical_CSS\\Generator' => array(
 		'version' => '1.5.2.0-alpha',

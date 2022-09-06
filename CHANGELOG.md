@@ -15,6 +15,7 @@ This is an alpha version! The changes listed here are not final.
 
 ### Changed
 - E2E tests: bump dependencies
+- Refactor Critical CSS regeneration notice
 - Updated package dependencies.
 
 ### Fixed
