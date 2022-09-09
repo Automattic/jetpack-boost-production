@@ -10,6 +10,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 This is an alpha version! The changes listed here are not final.
 
 ### Added
+- Adds ability to autotag, autorelease and autopublish releases
 - Boost: Add Automattic link to footer airline image
 - Keep Critical CSS status in sync with Cloud CSS for better experience in Cloud CSS subscription expiration
 - My Jetpack includes JITMs
