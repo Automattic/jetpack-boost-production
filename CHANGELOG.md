@@ -20,6 +20,9 @@ This is an alpha version! The changes listed here are not final.
 - Refactor Critical CSS regeneration notice
 - Updated package dependencies.
 
+### Removed
+- E2E tests: removed deprecated Slack notification code
+
 ### Fixed
 - Dismiss the admin notice when the plugin is deactivated
 - E2E tests: fixed pretest cleanup script not running
