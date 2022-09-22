@@ -12,6 +12,7 @@ This is an alpha version! The changes listed here are not final.
 ### Added
 - Adds ability to autotag, autorelease and autopublish releases
 - Boost: Add Automattic link to footer airline image
+- E2E tests: use CI build artifacts in e2e tests
 - Keep Critical CSS status in sync with Cloud CSS for better experience in Cloud CSS subscription expiration
 - My Jetpack includes JITMs
 
