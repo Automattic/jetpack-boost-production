@@ -443,7 +443,7 @@ return array(
 		'path'    => $baseDir . '/jetpack_vendor/automattic/jetpack-lazy-images/src/lazy-images.php'
 	),
 	'Automattic\\Jetpack\\Config' => array(
-		'version' => '1.9.9999999.9999999-dev',
+		'version' => '1.10.9999999.9999999-dev',
 		'path'    => $baseDir . '/jetpack_vendor/automattic/jetpack-config/src/class-config.php'
 	),
 	'Automattic\\Jetpack\\Composer\\Manager' => array(
