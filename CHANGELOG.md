@@ -10,6 +10,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 This is an alpha version! The changes listed here are not final.
 
 ### Added
+- Add compatibility module for WP Super Cache
 - Adds ability to autotag, autorelease and autopublish releases
 - Boost: Add Automattic link to footer airline image
 - E2E tests: use CI build artifacts in e2e tests
