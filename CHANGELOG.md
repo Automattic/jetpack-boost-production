@@ -29,6 +29,7 @@ This is an alpha version! The changes listed here are not final.
 - Dismiss the admin notice when the plugin is deactivated
 - E2E tests: fixed pretest cleanup script not running
 - Fixed detection of application/json scripts for exclusion from deferred JS
+- Fixed lazy image toggle breaking if it was also used in Jetpack dashboard while Boost is active.
 
 ## [1.5.1] - 2022-06-29
 ### Fixed
