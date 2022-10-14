@@ -11,6 +11,7 @@ This is an alpha version! The changes listed here are not final.
 
 ### Added
 - Add compatibility module for WP Super Cache
+- Added tracking to purchase CTA
 - Adds ability to autotag, autorelease and autopublish releases
 - Boost: Add Automattic link to footer airline image
 - E2E tests: use CI build artifacts in e2e tests
