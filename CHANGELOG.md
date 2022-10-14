@@ -16,6 +16,7 @@ This is an alpha version! The changes listed here are not final.
 - E2E tests: use CI build artifacts in e2e tests
 - Keep Critical CSS status in sync with Cloud CSS for better experience in Cloud CSS subscription expiration
 - My Jetpack includes JITMs
+- Tested with v6.1 of WordPress
 
 ### Changed
 - E2E tests: bump dependencies
