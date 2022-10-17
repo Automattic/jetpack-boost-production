@@ -38,7 +38,7 @@ return array(
     ),
     'jetpack-my-jetpack' => array(
       'path' => 'jetpack_vendor/automattic/jetpack-my-jetpack',
-      'ver' => '2.2.9999999-dev',
+      'ver' => '2.3.9999999-dev',
     ),
   ),
 );
