@@ -258,6 +258,10 @@ return array(
 		'version' => '1.5.2.0-alpha',
 		'path'    => $baseDir . '/app/rest-api/endpoints/Config_State.php'
 	),
+	'Automattic\\Jetpack_Boost\\REST_API\\Endpoints\\Get_Started' => array(
+		'version' => '1.5.2.0-alpha',
+		'path'    => $baseDir . '/app/rest-api/endpoints/Get_Started.php'
+	),
 	'Automattic\\Jetpack_Boost\\REST_API\\Endpoints\\Update_Cloud_CSS' => array(
 		'version' => '1.5.2.0-alpha',
 		'path'    => $baseDir . '/app/rest-api/endpoints/Update_Cloud_CSS.php'

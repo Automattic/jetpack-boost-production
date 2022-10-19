@@ -153,6 +153,7 @@ return array(
     'Automattic\\Jetpack_Boost\\REST_API\\Endpoints\\Generator_Request' => $baseDir . '/app/rest-api/endpoints/Generator_Request.php',
     'Automattic\\Jetpack_Boost\\REST_API\\Endpoints\\Generator_Status' => $baseDir . '/app/rest-api/endpoints/Generator_Status.php',
     'Automattic\\Jetpack_Boost\\REST_API\\Endpoints\\Generator_Success' => $baseDir . '/app/rest-api/endpoints/Generator_Success.php',
+    'Automattic\\Jetpack_Boost\\REST_API\\Endpoints\\Get_Started' => $baseDir . '/app/rest-api/endpoints/Get_Started.php',
     'Automattic\\Jetpack_Boost\\REST_API\\Endpoints\\Optimization_Status' => $baseDir . '/app/rest-api/endpoints/Optimization_Status.php',
     'Automattic\\Jetpack_Boost\\REST_API\\Endpoints\\Optimizations_Status' => $baseDir . '/app/rest-api/endpoints/Optimizations_Status.php',
     'Automattic\\Jetpack_Boost\\REST_API\\Endpoints\\Recommendations_Dismiss' => $baseDir . '/app/rest-api/endpoints/Recommendations_Dismiss.php',

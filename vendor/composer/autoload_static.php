@@ -182,6 +182,7 @@ class ComposerStaticInitb1e77e6231d50e7663f84529b6a3dfda_jetpack_boostⓥ1_5_2_a
         'Automattic\\Jetpack_Boost\\REST_API\\Endpoints\\Generator_Request' => __DIR__ . '/../..' . '/app/rest-api/endpoints/Generator_Request.php',
         'Automattic\\Jetpack_Boost\\REST_API\\Endpoints\\Generator_Status' => __DIR__ . '/../..' . '/app/rest-api/endpoints/Generator_Status.php',
         'Automattic\\Jetpack_Boost\\REST_API\\Endpoints\\Generator_Success' => __DIR__ . '/../..' . '/app/rest-api/endpoints/Generator_Success.php',
+        'Automattic\\Jetpack_Boost\\REST_API\\Endpoints\\Get_Started' => __DIR__ . '/../..' . '/app/rest-api/endpoints/Get_Started.php',
         'Automattic\\Jetpack_Boost\\REST_API\\Endpoints\\Optimization_Status' => __DIR__ . '/../..' . '/app/rest-api/endpoints/Optimization_Status.php',
         'Automattic\\Jetpack_Boost\\REST_API\\Endpoints\\Optimizations_Status' => __DIR__ . '/../..' . '/app/rest-api/endpoints/Optimizations_Status.php',
         'Automattic\\Jetpack_Boost\\REST_API\\Endpoints\\Recommendations_Dismiss' => __DIR__ . '/../..' . '/app/rest-api/endpoints/Recommendations_Dismiss.php',
