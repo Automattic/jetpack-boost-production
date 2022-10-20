@@ -5,35 +5,18 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
-## [1.5.2-alpha] - unreleased
-
-This is an alpha version! The changes listed here are not final.
-
+## [1.5.2-beta] - 2022-10-20
 ### Added
-- Add compatibility module for WP Super Cache
-- Added tracking to purchase CTA
-- Add first user flow
-- Adds ability to autotag, autorelease and autopublish releases
-- Boost: Add Automattic link to footer airline image
-- E2E tests: use CI build artifacts in e2e tests
-- Keep Critical CSS status in sync with Cloud CSS for better experience in Cloud CSS subscription expiration
-- My Jetpack includes JITMs
-- Tested with v6.1 of WordPress
-
-### Changed
-- E2E tests: bump dependencies
-- Refactor Critical CSS regeneration notice
-- Updated package dependencies.
-
-### Removed
-- E2E tests: removed deprecated Slack notification code
+- Compatibility: Added a compatibility module for WP Super Cache.
+- Compatibility: Tested with v6.1 of WordPress.
+- General: Added tracking to purchase flows.
+- User Experience: Added a flow for first-time users.
 
 ### Fixed
-- Dismiss the admin notice when the plugin is deactivated
-- E2E tests: fixed pretest cleanup script not running
-- Fixed detection of application/json scripts for exclusion from deferred JS
-- Fixed lazy image toggle breaking if it was also used in Jetpack dashboard while Boost is active.
-- Fix tracks on upgrade cta click
+- Critical CSS: Keep Critical CSS and Cloud CSS status in sync.
+- Deferred JS: Fix detection of application/json scripts to auto-exclude them from deferral.
+- Lazy Loading: Fix desynchronization of Lazy Loading features between Boost and Jetpack.
+- Speed Scores: Fixed issues dismissing notifications on speed score improvements.
 
 ## [1.5.1] - 2022-06-29
 ### Fixed
@@ -191,7 +174,7 @@ This is an alpha version! The changes listed here are not final.
 [1.3.0-beta]: https://github.com/Automattic/jetpack-boost-production/compare/v1.2.0...v1.3.0-beta
 [1.2.0]: https://github.com/Automattic/jetpack-boost-production/compare/v1.1.0...v1.2.0-beta
 [1.4.3-beta]: https://github.com/Automattic/jetpack-boost-production/compare/v1.4.2...v1.4.3-beta
-[1.5.2-alpha]: https://github.com/Automattic/jetpack-boost-production/compare/v1.5.1...v1.5.2-alpha
+[1.5.2-beta]: https://github.com/Automattic/jetpack-boost-production/compare/v1.5.1...v1.5.2-beta
 [1.5.1]: https://github.com/Automattic/jetpack-boost-production/compare/v1.5.0...v1.5.1
 [1.5.0]: https://github.com/Automattic/jetpack-boost-production/compare/v1.4.1...v1.5.0
 [1.4.2]: https://github.com/Automattic/jetpack-boost-production/compare/v1.4.1...v1.4.2
