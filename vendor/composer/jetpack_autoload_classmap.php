@@ -402,6 +402,10 @@ return array(
 		'version' => '1.5.4.0-alpha',
 		'path'    => $baseDir . '/app/features/optimizations/render-blocking-js/class-render-blocking-js.php'
 	),
+	'Automattic\\Jetpack_Boost\\Features\\Setup_Prompt\\Setup_Prompt' => array(
+		'version' => '1.5.4.0-alpha',
+		'path'    => $baseDir . '/app/features/setup-prompt/Setup_Prompt.php'
+	),
 	'Automattic\\Jetpack_Boost\\Features\\Speed_Score\\Speed_Score' => array(
 		'version' => '1.5.4.0-alpha',
 		'path'    => $baseDir . '/app/features/speed-score/Speed_Score.php'
@@ -593,10 +597,6 @@ return array(
 	'Automattic\\Jetpack_Boost\\REST_API\\Endpoints\\Generator_Success' => array(
 		'version' => '1.5.4.0-alpha',
 		'path'    => $baseDir . '/app/rest-api/endpoints/Generator_Success.php'
-	),
-	'Automattic\\Jetpack_Boost\\REST_API\\Endpoints\\Get_Started' => array(
-		'version' => '1.5.4.0-alpha',
-		'path'    => $baseDir . '/app/rest-api/endpoints/Get_Started.php'
 	),
 	'Automattic\\Jetpack_Boost\\REST_API\\Endpoints\\Optimization_Status' => array(
 		'version' => '1.5.4.0-alpha',
