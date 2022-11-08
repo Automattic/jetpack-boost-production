@@ -46,6 +46,5 @@ module.exports = {
 		],
 
 		'prettier/prettier': 0,
-		camelcase: 0,
 	},
 };

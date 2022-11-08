@@ -4,7 +4,7 @@
 
 namespace Composer\Autoload;
 
-class ComposerStaticInitb1e77e6231d50e7663f84529b6a3dfda_jetpack_boostⓥ1_5_4_alpha
+class ComposerStaticInitb1e77e6231d50e7663f84529b6a3dfda_jetpack_boostⓥ1_5_4
 {
     public static $files = array (
         '3773ef3f09c37da5478d578e32b03a4b' => __DIR__ . '/../..' . '/jetpack_vendor/automattic/jetpack-assets/actions.php',
@@ -134,7 +134,6 @@ class ComposerStaticInitb1e77e6231d50e7663f84529b6a3dfda_jetpack_boostⓥ1_5_4_a
         'Automattic\\Jetpack_Boost\\Features\\Optimizations\\Optimization' => __DIR__ . '/../..' . '/app/features/optimizations/Optimization.php',
         'Automattic\\Jetpack_Boost\\Features\\Optimizations\\Optimizations' => __DIR__ . '/../..' . '/app/features/optimizations/Optimizations.php',
         'Automattic\\Jetpack_Boost\\Features\\Optimizations\\Render_Blocking_JS\\Render_Blocking_JS' => __DIR__ . '/../..' . '/app/features/optimizations/render-blocking-js/class-render-blocking-js.php',
-        'Automattic\\Jetpack_Boost\\Features\\Setup_Prompt\\Setup_Prompt' => __DIR__ . '/../..' . '/app/features/setup-prompt/Setup_Prompt.php',
         'Automattic\\Jetpack_Boost\\Features\\Speed_Score\\Speed_Score' => __DIR__ . '/../..' . '/app/features/speed-score/Speed_Score.php',
         'Automattic\\Jetpack_Boost\\Features\\Speed_Score\\Speed_Score_History' => __DIR__ . '/../..' . '/app/features/speed-score/Speed_Score_History.php',
         'Automattic\\Jetpack_Boost\\Features\\Speed_Score\\Speed_Score_Request' => __DIR__ . '/../..' . '/app/features/speed-score/Speed_Score_Request.php',
@@ -183,6 +182,7 @@ class ComposerStaticInitb1e77e6231d50e7663f84529b6a3dfda_jetpack_boostⓥ1_5_4_a
         'Automattic\\Jetpack_Boost\\REST_API\\Endpoints\\Generator_Request' => __DIR__ . '/../..' . '/app/rest-api/endpoints/Generator_Request.php',
         'Automattic\\Jetpack_Boost\\REST_API\\Endpoints\\Generator_Status' => __DIR__ . '/../..' . '/app/rest-api/endpoints/Generator_Status.php',
         'Automattic\\Jetpack_Boost\\REST_API\\Endpoints\\Generator_Success' => __DIR__ . '/../..' . '/app/rest-api/endpoints/Generator_Success.php',
+        'Automattic\\Jetpack_Boost\\REST_API\\Endpoints\\Get_Started' => __DIR__ . '/../..' . '/app/rest-api/endpoints/Get_Started.php',
         'Automattic\\Jetpack_Boost\\REST_API\\Endpoints\\Optimization_Status' => __DIR__ . '/../..' . '/app/rest-api/endpoints/Optimization_Status.php',
         'Automattic\\Jetpack_Boost\\REST_API\\Endpoints\\Optimizations_Status' => __DIR__ . '/../..' . '/app/rest-api/endpoints/Optimizations_Status.php',
         'Automattic\\Jetpack_Boost\\REST_API\\Endpoints\\Recommendations_Dismiss' => __DIR__ . '/../..' . '/app/rest-api/endpoints/Recommendations_Dismiss.php',
@@ -208,10 +208,10 @@ class ComposerStaticInitb1e77e6231d50e7663f84529b6a3dfda_jetpack_boostⓥ1_5_4_a
     public static function getInitializer(ClassLoader $loader)
     {
         return \Closure::bind(function () use ($loader) {
-            $loader->prefixLengthsPsr4 = ComposerStaticInitb1e77e6231d50e7663f84529b6a3dfda_jetpack_boostⓥ1_5_4_alpha::$prefixLengthsPsr4;
-            $loader->prefixDirsPsr4 = ComposerStaticInitb1e77e6231d50e7663f84529b6a3dfda_jetpack_boostⓥ1_5_4_alpha::$prefixDirsPsr4;
-            $loader->prefixesPsr0 = ComposerStaticInitb1e77e6231d50e7663f84529b6a3dfda_jetpack_boostⓥ1_5_4_alpha::$prefixesPsr0;
-            $loader->classMap = ComposerStaticInitb1e77e6231d50e7663f84529b6a3dfda_jetpack_boostⓥ1_5_4_alpha::$classMap;
+            $loader->prefixLengthsPsr4 = ComposerStaticInitb1e77e6231d50e7663f84529b6a3dfda_jetpack_boostⓥ1_5_4::$prefixLengthsPsr4;
+            $loader->prefixDirsPsr4 = ComposerStaticInitb1e77e6231d50e7663f84529b6a3dfda_jetpack_boostⓥ1_5_4::$prefixDirsPsr4;
+            $loader->prefixesPsr0 = ComposerStaticInitb1e77e6231d50e7663f84529b6a3dfda_jetpack_boostⓥ1_5_4::$prefixesPsr0;
+            $loader->classMap = ComposerStaticInitb1e77e6231d50e7663f84529b6a3dfda_jetpack_boostⓥ1_5_4::$classMap;
 
         }, null, ClassLoader::class);
     }
