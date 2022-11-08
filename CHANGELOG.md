@@ -15,6 +15,9 @@ This is an alpha version! The changes listed here are not final.
 ### Changed
 - Updated package dependencies.
 
+### Fixed
+- Fixed an issue that caused boost to break on offline sites
+
 ## [1.5.3] - 2022-10-25
 ### Added
 - Compatibility: Added a compatibility module for WP Super Cache.
