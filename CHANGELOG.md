@@ -17,6 +17,7 @@ This is an alpha version! The changes listed here are not final.
 
 ### Fixed
 - Fixed an issue that caused boost to break on offline sites
+- Fixed dismiss link not clickable in some cases
 
 ## [1.5.3] - 2022-10-25
 ### Added
