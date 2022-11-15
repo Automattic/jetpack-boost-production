@@ -542,6 +542,10 @@ return array(
 		'version' => '1.5.5.0-alpha',
 		'path'    => $baseDir . '/app/lib/class-storage-post-type.php'
 	),
+	'Automattic\\Jetpack_Boost\\Lib\\Super_Cache_Info' => array(
+		'version' => '1.5.5.0-alpha',
+		'path'    => $baseDir . '/app/lib/Super_Cache_Info.php'
+	),
 	'Automattic\\Jetpack_Boost\\Lib\\Transient' => array(
 		'version' => '1.5.5.0-alpha',
 		'path'    => $baseDir . '/app/lib/class-transient.php'

@@ -169,6 +169,7 @@ class ComposerStaticInitb1e77e6231d50e7663f84529b6a3dfda_jetpack_boostⓥ1_5_5_a
         'Automattic\\Jetpack_Boost\\Lib\\Setup' => __DIR__ . '/../..' . '/app/lib/Setup.php',
         'Automattic\\Jetpack_Boost\\Lib\\Status' => __DIR__ . '/../..' . '/app/lib/Status.php',
         'Automattic\\Jetpack_Boost\\Lib\\Storage_Post_Type' => __DIR__ . '/../..' . '/app/lib/class-storage-post-type.php',
+        'Automattic\\Jetpack_Boost\\Lib\\Super_Cache_Info' => __DIR__ . '/../..' . '/app/lib/Super_Cache_Info.php',
         'Automattic\\Jetpack_Boost\\Lib\\Transient' => __DIR__ . '/../..' . '/app/lib/class-transient.php',
         'Automattic\\Jetpack_Boost\\Lib\\Url' => __DIR__ . '/../..' . '/app/lib/class-url.php',
         'Automattic\\Jetpack_Boost\\Lib\\Utils' => __DIR__ . '/../..' . '/app/lib/class-utils.php',

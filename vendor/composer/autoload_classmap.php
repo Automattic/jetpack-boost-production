@@ -140,6 +140,7 @@ return array(
     'Automattic\\Jetpack_Boost\\Lib\\Setup' => $baseDir . '/app/lib/Setup.php',
     'Automattic\\Jetpack_Boost\\Lib\\Status' => $baseDir . '/app/lib/Status.php',
     'Automattic\\Jetpack_Boost\\Lib\\Storage_Post_Type' => $baseDir . '/app/lib/class-storage-post-type.php',
+    'Automattic\\Jetpack_Boost\\Lib\\Super_Cache_Info' => $baseDir . '/app/lib/Super_Cache_Info.php',
     'Automattic\\Jetpack_Boost\\Lib\\Transient' => $baseDir . '/app/lib/class-transient.php',
     'Automattic\\Jetpack_Boost\\Lib\\Url' => $baseDir . '/app/lib/class-url.php',
     'Automattic\\Jetpack_Boost\\Lib\\Utils' => $baseDir . '/app/lib/class-utils.php',
