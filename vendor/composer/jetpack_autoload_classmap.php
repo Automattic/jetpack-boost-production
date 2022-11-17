@@ -298,6 +298,10 @@ return array(
 		'version' => '1.15.9999999.9999999-dev',
 		'path'    => $baseDir . '/jetpack_vendor/automattic/jetpack-status/src/class-paths.php'
 	),
+	'Automattic\\Jetpack\\Plugin_Deactivation\\Deactivation_Handler' => array(
+		'version' => '0.1.9999999.9999999-dev',
+		'path'    => $baseDir . '/jetpack_vendor/automattic/jetpack-plugin-deactivation/src/class-deactivation-handler.php'
+	),
 	'Automattic\\Jetpack\\Plugins_Installer' => array(
 		'version' => '0.2.9999999.9999999-dev',
 		'path'    => $baseDir . '/jetpack_vendor/automattic/jetpack-plugins-installer/src/class-plugins-installer.php'
