@@ -19,6 +19,7 @@ This is an alpha version! The changes listed here are not final.
 
 ### Fixed
 - Fixed dismiss link not clickable in some cases
+- Prevent displaying of "discounted from" price when there is no discount
 
 ## [1.5.4] - 2022-11-09
 ### Fixed
