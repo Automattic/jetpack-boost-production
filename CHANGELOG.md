@@ -13,6 +13,7 @@ This is an alpha version! The changes listed here are not final.
 - Add a gadget for showing users how much good WP Super Cache is doing for their site.
 - Added a new feature: Jetpack Boost Image Guide
 - Added prompt to provide feedback before deactivating Jetpack Boost.
+- Add tracks events for viewing the Getting Started page, and for impressions of the upgrade CTA
 - Connection prompt to set up Boost after activation
 
 ### Changed
