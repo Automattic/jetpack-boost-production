@@ -96,6 +96,7 @@ return array(
     'Automattic\\Jetpack_Boost\\Contracts\\Feature' => $baseDir . '/app/contracts/Feature.php',
     'Automattic\\Jetpack_Boost\\Contracts\\Has_Setup' => $baseDir . '/app/contracts/Has_Setup.php',
     'Automattic\\Jetpack_Boost\\Contracts\\Has_Slug' => $baseDir . '/app/contracts/Has_Slug.php',
+    'Automattic\\Jetpack_Boost\\Features\\Image_Guide\\Image_Guide' => $baseDir . '/app/features/image-guide/Image_Guide.php',
     'Automattic\\Jetpack_Boost\\Features\\Optimizations\\Cloud_CSS\\Cloud_CSS' => $baseDir . '/app/features/optimizations/cloud-css/Cloud_CSS.php',
     'Automattic\\Jetpack_Boost\\Features\\Optimizations\\Cloud_CSS\\Cloud_CSS_Cron' => $baseDir . '/app/features/optimizations/cloud-css/Cloud_CSS_Cron.php',
     'Automattic\\Jetpack_Boost\\Features\\Optimizations\\Cloud_CSS\\Cloud_CSS_Request' => $baseDir . '/app/features/optimizations/cloud-css/Cloud_CSS_Request.php',

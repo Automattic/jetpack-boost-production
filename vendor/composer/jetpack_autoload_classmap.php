@@ -366,6 +366,10 @@ return array(
 		'version' => '1.5.5.0-alpha',
 		'path'    => $baseDir . '/app/contracts/Has_Slug.php'
 	),
+	'Automattic\\Jetpack_Boost\\Features\\Image_Guide\\Image_Guide' => array(
+		'version' => '1.5.5.0-alpha',
+		'path'    => $baseDir . '/app/features/image-guide/Image_Guide.php'
+	),
 	'Automattic\\Jetpack_Boost\\Features\\Optimizations\\Cloud_CSS\\Cloud_CSS' => array(
 		'version' => '1.5.5.0-alpha',
 		'path'    => $baseDir . '/app/features/optimizations/cloud-css/Cloud_CSS.php'
