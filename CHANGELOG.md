@@ -21,6 +21,7 @@ This is an alpha version! The changes listed here are not final.
 - Updated package dependencies.
 
 ### Fixed
+- Don't invite free users to contact premium support
 - Fixed dismiss link not clickable in some cases
 - Prevent displaying of "discounted from" price when there is no discount
 
