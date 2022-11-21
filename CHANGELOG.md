@@ -5,25 +5,17 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
-## [1.6.0-alpha] - unreleased
-
-This is an alpha version! The changes listed here are not final.
-
+## [1.6.0-beta] - 2022-11-21
 ### Added
-- Add a gadget for showing users how much good WP Super Cache is doing for their site.
-- Added a new feature: Jetpack Boost Image Guide
-- Added prompt to provide feedback before deactivating Jetpack Boost.
-- Add tracks events for viewing the Getting Started page, and for impressions of the upgrade CTA
-- Connection prompt to set up Boost after activation
-
-### Changed
-- JITMs: Moved location of Jetpack JITM container.
-- Updated package dependencies.
+- General: New deactivation survey.
+- General: New tracks events for upgrade CTA impressions.
+- Super Cache: Added a tool for measuring the impact of Super Cache on your site performance.
+- Usability: Prompt new users to setup Boost after plugin activation.
 
 ### Fixed
-- Don't invite free users to contact premium support
-- Fixed dismiss link not clickable in some cases
-- Prevent displaying of "discounted from" price when there is no discount
+- General: Fix showing discount markers on pricing options without a discount.
+- General: Remove invalid link to priority support for free users.
+- Speed Score: Fix unclickable link to dismiss speed score popups.
 
 ## [1.5.4] - 2022-11-09
 ### Fixed
@@ -198,7 +190,7 @@ This is an alpha version! The changes listed here are not final.
 [1.3.0-beta]: https://github.com/Automattic/jetpack-boost-production/compare/v1.2.0...v1.3.0-beta
 [1.2.0]: https://github.com/Automattic/jetpack-boost-production/compare/v1.1.0...v1.2.0-beta
 [1.4.3-beta]: https://github.com/Automattic/jetpack-boost-production/compare/v1.4.2...v1.4.3-beta
-[1.6.0-alpha]: https://github.com/Automattic/jetpack-boost-production/compare/v1.5.4...v1.6.0-alpha
+[1.6.0-beta]: https://github.com/Automattic/jetpack-boost-production/compare/v1.5.4...v1.6.0-beta
 [1.5.4]: https://github.com/Automattic/jetpack-boost-production/compare/v1.5.3...v1.5.4
 [1.5.3]: https://github.com/Automattic/jetpack-boost-production/compare/v1.5.1...v1.5.3
 [1.5.1]: https://github.com/Automattic/jetpack-boost-production/compare/v1.5.0...v1.5.1
