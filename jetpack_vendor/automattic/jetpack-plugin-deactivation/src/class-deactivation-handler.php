@@ -1,6 +1,6 @@
 <?php
 /**
- * Intercept deactivation of plugins.
+ * Intercept deactivation of plugins
  *
  * @package automattic/jetpack-plugin-deactivation
  */
