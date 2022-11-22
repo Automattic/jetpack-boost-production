@@ -1,6 +1,6 @@
 <?php
 /**
- * Intercept deactivation of plugins
+ * Intercept deactivation of plugins.
  *
  * @package automattic/jetpack-plugin-deactivation
  */
@@ -21,7 +21,7 @@ class Deactivation_Handler {
 	 *
 	 * @var string
 	 */
-	const PACKAGE_VERSION = '0.1.0';
+	const PACKAGE_VERSION = '0.1.1';
 
 	/**
 	 * Slug of the plugin to intercept deactivation for.

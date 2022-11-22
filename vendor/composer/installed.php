@@ -155,12 +155,12 @@
             'dev_requirement' => false,
         ),
         'automattic/jetpack-plugin-deactivation' => array(
-            'pretty_version' => 'v0.1.0',
-            'version' => '0.1.0.0',
+            'pretty_version' => 'v0.1.1',
+            'version' => '0.1.1.0',
             'type' => 'jetpack-library',
             'install_path' => __DIR__ . '/../../jetpack_vendor/automattic/jetpack-plugin-deactivation',
             'aliases' => array(),
-            'reference' => 'c91456501bd87f1f75c512f48817c86a2195916a',
+            'reference' => '39b2c2ff554863f91245ff206186f0f1402c98ae',
             'dev_requirement' => false,
         ),
         'automattic/jetpack-plugins-installer' => array(
