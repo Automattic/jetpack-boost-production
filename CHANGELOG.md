@@ -5,11 +5,7 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
-## [1.6.1-alpha] - unreleased
-
-This is an alpha version! The changes listed here are not final.
-
-## [1.6.0-beta] - 2022-11-21
+## [1.6.0-beta] - 2022-11-28
 ### Added
 - General: New deactivation survey.
 - General: New tracks events for upgrade CTA impressions.
@@ -194,7 +190,6 @@ This is an alpha version! The changes listed here are not final.
 [1.3.0-beta]: https://github.com/Automattic/jetpack-boost-production/compare/v1.2.0...v1.3.0-beta
 [1.2.0]: https://github.com/Automattic/jetpack-boost-production/compare/v1.1.0...v1.2.0-beta
 [1.4.3-beta]: https://github.com/Automattic/jetpack-boost-production/compare/v1.4.2...v1.4.3-beta
-[1.6.1-alpha]: https://github.com/Automattic/jetpack-boost-production/compare/v1.6.0-beta...v1.6.1-alpha
 [1.6.0-beta]: https://github.com/Automattic/jetpack-boost-production/compare/v1.5.4...v1.6.0-beta
 [1.5.4]: https://github.com/Automattic/jetpack-boost-production/compare/v1.5.3...v1.5.4
 [1.5.3]: https://github.com/Automattic/jetpack-boost-production/compare/v1.5.1...v1.5.3
