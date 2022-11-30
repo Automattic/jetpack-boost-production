@@ -12,6 +12,9 @@ This is an alpha version! The changes listed here are not final.
 ### Changed
 - Updated package dependencies.
 
+### Fixed
+- Fixed issues in Super Cache measurement tool on some URLs
+
 ## [1.6.0-beta] - 2022-11-21
 ### Added
 - General: New deactivation survey.
