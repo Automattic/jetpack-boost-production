@@ -14,23 +14,23 @@
 	"prefer-stable": true,
 	"require": {
 		"ext-json": "*",
-		"automattic/jetpack-admin-ui": "^0.2.13",
-		"automattic/jetpack-assets": "^1.17.27",
-		"automattic/jetpack-autoloader": "^2.11.12",
-		"automattic/jetpack-composer-plugin": "^1.1.6",
+		"automattic/jetpack-admin-ui": "^0.2.14-alpha",
+		"automattic/jetpack-assets": "^1.17.28-alpha",
+		"automattic/jetpack-autoloader": "^2.11.13-alpha",
+		"automattic/jetpack-composer-plugin": "^1.1.7-alpha",
 		"automattic/jetpack-config": "^1.11.1",
-		"automattic/jetpack-connection": "^1.47.0",
-		"automattic/jetpack-device-detection": "^1.4.21",
-		"automattic/jetpack-lazy-images": "^2.1.28",
-		"automattic/jetpack-my-jetpack": "^2.5.1",
+		"automattic/jetpack-connection": "^1.47.1-alpha",
+		"automattic/jetpack-device-detection": "^1.4.22-alpha",
+		"automattic/jetpack-lazy-images": "^2.1.29-alpha",
+		"automattic/jetpack-my-jetpack": "^2.5.2-alpha",
 		"automattic/jetpack-plugin-deactivation": "^0.1.2-alpha",
 		"tedivm/jshrink": "1.4.0"
 	},
 	"require-dev": {
-		"automattic/jetpack-changelogger": "^3.2.1",
+		"automattic/jetpack-changelogger": "^3.2.2-alpha",
 		"automattic/wordbless": "0.4.0",
 		"brain/monkey": "2.6.1",
-		"yoast/phpunit-polyfills": "1.0.3"
+		"yoast/phpunit-polyfills": "1.0.4"
 	},
 	"scripts": {
 		"phpunit": [
