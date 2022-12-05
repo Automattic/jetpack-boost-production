@@ -14,6 +14,7 @@ This is an alpha version! The changes listed here are not final.
 
 ### Fixed
 - Fixed issues in Super Cache measurement tool on some URLs
+- Fix error log on navigating to the getting-started page
 
 ## [1.6.0-beta] - 2022-11-21
 ### Added
