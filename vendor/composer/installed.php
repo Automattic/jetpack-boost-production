@@ -1,7 +1,7 @@
 <?php return array(
     'root' => array(
-        'pretty_version' => '1.6.0',
-        'version' => '1.6.0.0',
+        'pretty_version' => '1.6.0-beta7',
+        'version' => '1.6.0.0-beta7',
         'type' => 'library',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
@@ -47,8 +47,8 @@
             'dev_requirement' => false,
         ),
         'automattic/jetpack-boost' => array(
-            'pretty_version' => '1.6.0',
-            'version' => '1.6.0.0',
+            'pretty_version' => '1.6.0-beta7',
+            'version' => '1.6.0.0-beta7',
             'type' => 'library',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
