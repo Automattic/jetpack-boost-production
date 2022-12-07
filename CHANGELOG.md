@@ -12,11 +12,7 @@ This is an alpha version! The changes listed here are not final.
 ### Changed
 - Updated package dependencies.
 
-### Fixed
-- Fixed issues in Super Cache measurement tool on some URLs
-- Fix error log on navigating to the getting-started page
-
-## [1.6.0-beta] - 2022-11-21
+## [1.6.0] - 2022-12-05
 ### Added
 - General: New deactivation survey.
 - General: New tracks events for upgrade CTA impressions.
@@ -24,9 +20,11 @@ This is an alpha version! The changes listed here are not final.
 - Usability: Prompt new users to setup Boost after plugin activation.
 
 ### Fixed
+- Fixed an error on navigating to the getting-started page
+- Fixed issues in Super Cache measurement tool on some URLs
 - General: Fix showing discount markers on pricing options without a discount.
 - General: Remove invalid link to priority support for free users.
-- Speed Score: Fix unclickable link to dismiss speed score popups.
+- Speed Score: Fix un-clickable link to dismiss speed score popups.
 
 ## [1.5.4] - 2022-11-09
 ### Fixed
@@ -201,8 +199,8 @@ This is an alpha version! The changes listed here are not final.
 [1.3.0-beta]: https://github.com/Automattic/jetpack-boost-production/compare/v1.2.0...v1.3.0-beta
 [1.2.0]: https://github.com/Automattic/jetpack-boost-production/compare/v1.1.0...v1.2.0-beta
 [1.4.3-beta]: https://github.com/Automattic/jetpack-boost-production/compare/v1.4.2...v1.4.3-beta
-[1.6.1-alpha]: https://github.com/Automattic/jetpack-boost-production/compare/v1.6.0-beta...v1.6.1-alpha
-[1.6.0-beta]: https://github.com/Automattic/jetpack-boost-production/compare/v1.5.4...v1.6.0-beta
+[1.6.1-alpha]: https://github.com/Automattic/jetpack-boost-production/compare/v1.6.0...v1.6.1-alpha
+[1.6.0]: https://github.com/Automattic/jetpack-boost-production/compare/v1.5.4...v1.6.0
 [1.5.4]: https://github.com/Automattic/jetpack-boost-production/compare/v1.5.3...v1.5.4
 [1.5.3]: https://github.com/Automattic/jetpack-boost-production/compare/v1.5.1...v1.5.3
 [1.5.1]: https://github.com/Automattic/jetpack-boost-production/compare/v1.5.0...v1.5.1
