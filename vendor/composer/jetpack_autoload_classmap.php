@@ -554,6 +554,10 @@ return array(
 		'version' => '1.6.1.0-alpha',
 		'path'    => $baseDir . '/app/lib/Setup.php'
 	),
+	'Automattic\\Jetpack_Boost\\Lib\\Site_Urls' => array(
+		'version' => '1.6.1.0-alpha',
+		'path'    => $baseDir . '/app/lib/class-site-urls.php'
+	),
 	'Automattic\\Jetpack_Boost\\Lib\\Status' => array(
 		'version' => '1.6.1.0-alpha',
 		'path'    => $baseDir . '/app/lib/Status.php'
@@ -621,6 +625,10 @@ return array(
 	'Automattic\\Jetpack_Boost\\REST_API\\Endpoints\\Generator_Success' => array(
 		'version' => '1.6.1.0-alpha',
 		'path'    => $baseDir . '/app/rest-api/endpoints/Generator_Success.php'
+	),
+	'Automattic\\Jetpack_Boost\\REST_API\\Endpoints\\List_Site_Urls' => array(
+		'version' => '1.6.1.0-alpha',
+		'path'    => $baseDir . '/app/rest-api/endpoints/List_Site_Urls.php'
 	),
 	'Automattic\\Jetpack_Boost\\REST_API\\Endpoints\\Optimization_Status' => array(
 		'version' => '1.6.1.0-alpha',
