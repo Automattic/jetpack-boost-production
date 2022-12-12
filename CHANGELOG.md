@@ -13,6 +13,7 @@ This is an alpha version! The changes listed here are not final.
 - Add rest API endpoint to fetch site urls
 
 ### Changed
+- Disable Speed Score E2E tests
 - Updated package dependencies.
 
 ## [1.6.0] - 2022-12-05
