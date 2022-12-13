@@ -17,6 +17,7 @@ This is an alpha version! The changes listed here are not final.
 - Updated package dependencies.
 
 ### Fixed
+- Admin notices: only display regeneration notice to admins.
 - Compile with browser settings compatible with older versions of Safari
 
 ## [1.6.0] - 2022-12-05
