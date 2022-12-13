@@ -16,6 +16,9 @@ This is an alpha version! The changes listed here are not final.
 - Disable Speed Score E2E tests
 - Updated package dependencies.
 
+### Fixed
+- Compile with browser settings compatible with older versions of Safari
+
 ## [1.6.0] - 2022-12-05
 ### Added
 - General: New deactivation survey.
