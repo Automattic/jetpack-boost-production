@@ -17,6 +17,7 @@ This is an alpha version! The changes listed here are not final.
 - Disable Speed Score E2E tests
 - Updated e2e tests around the getting started page
 - Updated package dependencies.
+- Update variable names for dismissing modals.
 
 ### Fixed
 - Admin notices: only display regeneration notice to admins.
