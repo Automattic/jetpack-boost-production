@@ -14,6 +14,7 @@ This is an alpha version! The changes listed here are not final.
 
 ### Changed
 - Disable Speed Score E2E tests
+- Updated e2e tests around the getting started page
 - Updated package dependencies.
 
 ### Fixed
