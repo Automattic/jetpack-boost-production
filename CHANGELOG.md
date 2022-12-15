@@ -11,6 +11,7 @@ This is an alpha version! The changes listed here are not final.
 
 ### Added
 - Added new tracks events
+- Add redirect to Boost dashboard after activating Boost plugin.
 - Add rest API endpoint to fetch site urls
 
 ### Changed
