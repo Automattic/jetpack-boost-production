@@ -23,6 +23,7 @@ This is an alpha version! The changes listed here are not final.
 ### Fixed
 - Admin notices: only display regeneration notice to admins.
 - Compile with browser settings compatible with older versions of Safari
+- Quality of life imporvements
 
 ## [1.6.0] - 2022-12-05
 ### Added
