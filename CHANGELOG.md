@@ -12,6 +12,7 @@ This is an alpha version! The changes listed here are not final.
 ### Added
 - Add a notification bubble next to Boost in the WP-admin sidebar.
 - Added new tracks events
+- Added tracking that helps understand the effectiveness of image-guide
 - Add redirect to Boost dashboard after activating Boost plugin.
 - Add rest API endpoint to fetch site urls
 
