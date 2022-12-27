@@ -18,11 +18,11 @@ return array(
     ),
     'jetpack-connection' => array(
       'path' => 'jetpack_vendor/automattic/jetpack-connection',
-      'ver' => '1.48.1-alpha',
+      'ver' => '1.48.1',
     ),
     'jetpack-jitm' => array(
       'path' => 'jetpack_vendor/automattic/jetpack-jitm',
-      'ver' => '2.2.36-alpha',
+      'ver' => '2.2.36',
     ),
     'jetpack-lazy-images' => array(
       'path' => 'jetpack_vendor/automattic/jetpack-lazy-images',
@@ -34,7 +34,7 @@ return array(
     ),
     'jetpack-my-jetpack' => array(
       'path' => 'jetpack_vendor/automattic/jetpack-my-jetpack',
-      'ver' => '2.7.1-alpha',
+      'ver' => '2.7.1',
     ),
     'jetpack-plugin-deactivation' => array(
       'path' => 'jetpack_vendor/automattic/jetpack-plugin-deactivation',
