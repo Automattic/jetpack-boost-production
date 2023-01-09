@@ -21,6 +21,7 @@ This is an alpha version! The changes listed here are not final.
 - Disable Speed Score E2E tests
 - Updated e2e tests around the getting started page
 - Updated package dependencies.
+- Update playwright dependency
 - Update Speed_Score_Request to use Boost_API client, which will allow mocking requests to wp.com easier.
 - Update variable names for dismissing modals.
 
