@@ -29,6 +29,7 @@ This is an alpha version! The changes listed here are not final.
 - Admin notices: only display regeneration notice to admins.
 - Compile with browser settings compatible with older versions of Safari
 - Don't let analytics failures prevent features from functioning
+- Don't show <1x on images that are exactly the right size
 - Fixed an issue where notice to regenerate critical CSS were showing unnecessarily
 - Quality of life imporvements
 
