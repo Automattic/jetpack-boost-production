@@ -16,6 +16,7 @@ This is an alpha version! The changes listed here are not final.
 - Added tracking when speed score request fails
 - Add redirect to Boost dashboard after activating Boost plugin.
 - Add rest API endpoint to fetch site urls
+- Enable the Image Guide feature without a constant
 
 ### Changed
 - Disable Speed Score E2E tests
