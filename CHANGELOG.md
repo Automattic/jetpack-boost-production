@@ -25,6 +25,7 @@ This is an alpha version! The changes listed here are not final.
 - Updated package dependencies.
 - Update playwright dependency
 - Update Speed_Score_Request to use Boost_API client, which will allow mocking requests to wp.com easier.
+- Update text (only on wordpress.com) on purchase successful page to include link to live support.
 - Update variable names for dismissing modals.
 
 ### Fixed
