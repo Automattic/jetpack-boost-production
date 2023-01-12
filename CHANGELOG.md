@@ -21,6 +21,7 @@ This is an alpha version! The changes listed here are not final.
 ### Changed
 - Disable Speed Score E2E tests
 - Updated e2e tests around the getting started page
+- Updated image guide tooltip link position, text and included an icon. Also updated description text for small images.
 - Updated package dependencies.
 - Update playwright dependency
 - Update Speed_Score_Request to use Boost_API client, which will allow mocking requests to wp.com easier.
