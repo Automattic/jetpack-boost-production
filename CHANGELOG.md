@@ -35,6 +35,7 @@ This is an alpha version! The changes listed here are not final.
 - Fixed an issue where notice to regenerate critical CSS were showing unnecessarily
 - Fix enabling/disabling image guide from the Settings page requesting a page speed score refresh.
 - Quality of life imporvements
+- Updated image guide front-end tooltip link to use jetpack redirect.
 
 ## [1.6.0] - 2022-12-05
 ### Added
