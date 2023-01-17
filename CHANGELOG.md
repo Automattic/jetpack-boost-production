@@ -5,40 +5,19 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
-## [1.7.0-alpha] - unreleased
-
-This is an alpha version! The changes listed here are not final.
-
+## [1.7.0] - 2023-01-17
 ### Added
-- Add a notification bubble next to Boost in the WP-admin sidebar.
-- Added new tracks events
-- Added tracking that helps understand the effectiveness of image-guide
-- Added tracking when speed score request fails
-- Add redirect to Boost dashboard after activating Boost plugin.
-- Add rest API endpoint to fetch site urls
-- Enable the Image Guide feature without a constant
-- New Feature: Jetpack Boost Image Guide
-
-### Changed
-- Disable Speed Score E2E tests
-- Updated e2e tests around the getting started page
-- Updated image guide tooltip link position, text and included an icon. Also updated description text for small images.
-- Updated package dependencies.
-- Update playwright dependency
-- Update Speed_Score_Request to use Boost_API client, which will allow mocking requests to wp.com easier.
-- Update text (only on wordpress.com) on purchase successful page to include link to live support.
-- Update variable names for dismissing modals.
+- New Feature: Jetpack Boost Image Guide.
+- General: Add a notification bubble next to Boost in the WP-admin sidebar.
+- General: Added new tracks events.
+- User Experience: Add redirect to Boost dashboard after activating Boost plugin.
 
 ### Fixed
 - Admin notices: only display regeneration notice to admins.
-- Compile with browser settings compatible with older versions of Safari
-- Don't let analytics failures prevent features from functioning
-- Don't show <1x on images that are exactly the right size
-- Fixed an issue where notice to regenerate critical CSS were showing unnecessarily
-- Fix enabling/disabling image guide from the Settings page requesting a page speed score refresh.
-- Fix woocommerce deprecation warning
-- Quality of life imporvements
-- Updated image guide front-end tooltip link to use jetpack redirect.
+- Compatibility: Improve critical CSS compatibility with older Safari browsers.
+- General: Don't let analytics failures prevent features from functioning.
+- Critical CSS: Fixed an issue where notices to regenerate critical CSS were showing unnecessarily.
+- General: Fix woocommerce deprecation warning.
 
 ## [1.6.0] - 2022-12-05
 ### Added
@@ -227,7 +206,7 @@ This is an alpha version! The changes listed here are not final.
 [1.3.0-beta]: https://github.com/Automattic/jetpack-boost-production/compare/v1.2.0...v1.3.0-beta
 [1.2.0]: https://github.com/Automattic/jetpack-boost-production/compare/v1.1.0...v1.2.0-beta
 [1.4.3-beta]: https://github.com/Automattic/jetpack-boost-production/compare/v1.4.2...v1.4.3-beta
-[1.7.0-alpha]: https://github.com/Automattic/jetpack-boost-production/compare/v1.6.0...v1.7.0-alpha
+[1.7.0]: https://github.com/Automattic/jetpack-boost-production/compare/v1.6.0...v1.7.0
 [1.6.0]: https://github.com/Automattic/jetpack-boost-production/compare/v1.5.4...v1.6.0
 [1.5.4]: https://github.com/Automattic/jetpack-boost-production/compare/v1.5.3...v1.5.4
 [1.5.3]: https://github.com/Automattic/jetpack-boost-production/compare/v1.5.1...v1.5.3
