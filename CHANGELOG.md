@@ -35,6 +35,7 @@ This is an alpha version! The changes listed here are not final.
 - Don't show <1x on images that are exactly the right size
 - Fixed an issue where notice to regenerate critical CSS were showing unnecessarily
 - Fix enabling/disabling image guide from the Settings page requesting a page speed score refresh.
+- Fix woocommerce deprecation warning
 - Quality of life imporvements
 - Updated image guide front-end tooltip link to use jetpack redirect.
 
