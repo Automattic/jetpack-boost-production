@@ -12,6 +12,7 @@ This is an alpha version! The changes listed here are not final.
 ### Fixed
 - Add missing closing tag.
 - Clean up JavaScript eslint issues.
+- Fix warning on deleting stored Critical CSS
 - Update requesting a page speed refresh to force wpcom into making a new page speed request.
 
 ## [1.7.0] - 2023-01-17
