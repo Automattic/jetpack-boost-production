@@ -133,7 +133,7 @@ return array(
     'Automattic\\Jetpack_Boost\\Lib\\Critical_CSS\\Source_Providers\\Providers\\WP_Core_Provider' => $baseDir . '/app/lib/critical-css/source-providers/providers/WP_Core_Provider.php',
     'Automattic\\Jetpack_Boost\\Lib\\Critical_CSS\\Source_Providers\\Source_Providers' => $baseDir . '/app/lib/critical-css/source-providers/Source_Providers.php',
     'Automattic\\Jetpack_Boost\\Lib\\Debug' => $baseDir . '/app/lib/class-debug.php',
-    'Automattic\\Jetpack_Boost\\Lib\\Environment_Change_Detector' => $baseDir . '/app/lib/class-environment-change-detector.php',
+    'Automattic\\Jetpack_Boost\\Lib\\Environment_Change_Detector' => $baseDir . '/app/lib/Environment_Change_Detector.php',
     'Automattic\\Jetpack_Boost\\Lib\\Minify' => $baseDir . '/app/lib/class-minify.php',
     'Automattic\\Jetpack_Boost\\Lib\\Nonce' => $baseDir . '/app/lib/class-nonce.php',
     'Automattic\\Jetpack_Boost\\Lib\\Output_Filter' => $baseDir . '/app/lib/class-output-filter.php',

@@ -162,7 +162,7 @@ class ComposerStaticInitb1e77e6231d50e7663f84529b6a3dfda_jetpack_boostⓥ1_7_1_a
         'Automattic\\Jetpack_Boost\\Lib\\Critical_CSS\\Source_Providers\\Providers\\WP_Core_Provider' => __DIR__ . '/../..' . '/app/lib/critical-css/source-providers/providers/WP_Core_Provider.php',
         'Automattic\\Jetpack_Boost\\Lib\\Critical_CSS\\Source_Providers\\Source_Providers' => __DIR__ . '/../..' . '/app/lib/critical-css/source-providers/Source_Providers.php',
         'Automattic\\Jetpack_Boost\\Lib\\Debug' => __DIR__ . '/../..' . '/app/lib/class-debug.php',
-        'Automattic\\Jetpack_Boost\\Lib\\Environment_Change_Detector' => __DIR__ . '/../..' . '/app/lib/class-environment-change-detector.php',
+        'Automattic\\Jetpack_Boost\\Lib\\Environment_Change_Detector' => __DIR__ . '/../..' . '/app/lib/Environment_Change_Detector.php',
         'Automattic\\Jetpack_Boost\\Lib\\Minify' => __DIR__ . '/../..' . '/app/lib/class-minify.php',
         'Automattic\\Jetpack_Boost\\Lib\\Nonce' => __DIR__ . '/../..' . '/app/lib/class-nonce.php',
         'Automattic\\Jetpack_Boost\\Lib\\Output_Filter' => __DIR__ . '/../..' . '/app/lib/class-output-filter.php',

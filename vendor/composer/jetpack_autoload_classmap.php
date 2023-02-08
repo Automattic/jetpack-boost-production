@@ -528,7 +528,7 @@ return array(
 	),
 	'Automattic\\Jetpack_Boost\\Lib\\Environment_Change_Detector' => array(
 		'version' => '1.7.1.0-alpha',
-		'path'    => $baseDir . '/app/lib/class-environment-change-detector.php'
+		'path'    => $baseDir . '/app/lib/Environment_Change_Detector.php'
 	),
 	'Automattic\\Jetpack_Boost\\Lib\\Minify' => array(
 		'version' => '1.7.1.0-alpha',
