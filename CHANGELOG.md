@@ -19,6 +19,7 @@ This is an alpha version! The changes listed here are not final.
 ### Fixed
 - Add missing closing tag.
 - Clean up JavaScript eslint issues.
+- Fixed the GET params sent to WordPress.com during signup
 - Fix warning on deleting stored Critical CSS
 - Update requesting a page speed refresh to force wpcom into making a new page speed request.
 
