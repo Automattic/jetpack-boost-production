@@ -13,6 +13,7 @@ This is an alpha version! The changes listed here are not final.
 - Added notice to regenerate critical CSS on Boost dashboard
 
 ### Changed
+- Update contributors list.
 - Updated package dependencies.
 - Update to React 18.
 
