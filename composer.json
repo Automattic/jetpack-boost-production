@@ -18,7 +18,7 @@
 		"automattic/jetpack-assets": "^1.17.31",
 		"automattic/jetpack-autoloader": "^2.11.15",
 		"automattic/jetpack-composer-plugin": "^1.1.9",
-		"automattic/jetpack-config": "^1.13.0",
+		"automattic/jetpack-config": "^1.14.0-alpha",
 		"automattic/jetpack-connection": "^1.51.0-alpha",
 		"automattic/jetpack-device-detection": "^1.4.23",
 		"automattic/jetpack-lazy-images": "^2.1.31",
