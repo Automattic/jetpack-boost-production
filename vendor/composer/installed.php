@@ -1,8 +1,8 @@
 <?php return array(
     'root' => array(
         'name' => 'automattic/jetpack-boost',
-        'pretty_version' => '1.7.1-alpha',
-        'version' => '1.7.1.0-alpha',
+        'pretty_version' => '1.8.0-alpha',
+        'version' => '1.8.0.0-alpha',
         'reference' => NULL,
         'type' => 'library',
         'install_path' => __DIR__ . '/../../',
@@ -47,8 +47,8 @@
             'dev_requirement' => false,
         ),
         'automattic/jetpack-boost' => array(
-            'pretty_version' => '1.7.1-alpha',
-            'version' => '1.7.1.0-alpha',
+            'pretty_version' => '1.8.0-alpha',
+            'version' => '1.8.0.0-alpha',
             'reference' => NULL,
             'type' => 'library',
             'install_path' => __DIR__ . '/../../',
@@ -205,6 +205,15 @@
             'reference' => '0513ba1407b1f235518a939455855e6952a48bbc',
             'type' => 'library',
             'install_path' => __DIR__ . '/../tedivm/jshrink',
+            'aliases' => array(),
+            'dev_requirement' => false,
+        ),
+        'tubalmartin/cssmin' => array(
+            'pretty_version' => 'v4.1.1',
+            'version' => '4.1.1.0',
+            'reference' => '3cbf557f4079d83a06f9c3ff9b957c022d7805cf',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../tubalmartin/cssmin',
             'aliases' => array(),
             'dev_requirement' => false,
         ),

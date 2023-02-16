@@ -5,12 +5,13 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
-## [1.7.1-alpha] - unreleased
+## [1.8.0-alpha] - unreleased
 
 This is an alpha version! The changes listed here are not final.
 
 ### Added
 - Added notice to regenerate critical CSS on Boost dashboard
+- Add page optimizer functionality.
 
 ### Changed
 - Remove `ci.targets` from package.json. Better scoping of e2e tests.
@@ -226,7 +227,7 @@ This is an alpha version! The changes listed here are not final.
 [1.3.0-beta]: https://github.com/Automattic/jetpack-boost-production/compare/v1.2.0...v1.3.0-beta
 [1.2.0]: https://github.com/Automattic/jetpack-boost-production/compare/v1.1.0...v1.2.0-beta
 [1.4.3-beta]: https://github.com/Automattic/jetpack-boost-production/compare/v1.4.2...v1.4.3-beta
-[1.7.1-alpha]: https://github.com/Automattic/jetpack-boost-production/compare/v1.7.0...v1.7.1-alpha
+[1.8.0-alpha]: https://github.com/Automattic/jetpack-boost-production/compare/v1.7.0...v1.8.0-alpha
 [1.7.0]: https://github.com/Automattic/jetpack-boost-production/compare/v1.6.0...v1.7.0
 [1.6.0]: https://github.com/Automattic/jetpack-boost-production/compare/v1.5.4...v1.6.0
 [1.5.4]: https://github.com/Automattic/jetpack-boost-production/compare/v1.5.3...v1.5.4

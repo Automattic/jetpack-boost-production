@@ -4,13 +4,17 @@
 
 namespace Composer\Autoload;
 
-class ComposerStaticInitb1e77e6231d50e7663f84529b6a3dfda_jetpack_boostⓥ1_7_1_alpha
+class ComposerStaticInitb1e77e6231d50e7663f84529b6a3dfda_jetpack_boostⓥ1_8_0_alpha
 {
     public static $files = array (
         '3773ef3f09c37da5478d578e32b03a4b' => __DIR__ . '/../..' . '/jetpack_vendor/automattic/jetpack-assets/actions.php',
     );
 
     public static $prefixLengthsPsr4 = array (
+        't' => 
+        array (
+            'tubalmartin\\CssMin\\' => 19,
+        ),
         'A' => 
         array (
             'Automattic\\Jetpack\\Autoloader\\' => 30,
@@ -18,6 +22,10 @@ class ComposerStaticInitb1e77e6231d50e7663f84529b6a3dfda_jetpack_boostⓥ1_7_1_a
     );
 
     public static $prefixDirsPsr4 = array (
+        'tubalmartin\\CssMin\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/tubalmartin/cssmin/src',
+        ),
         'Automattic\\Jetpack\\Autoloader\\' => 
         array (
             0 => __DIR__ . '/..' . '/automattic/jetpack-autoloader/src',
@@ -134,6 +142,11 @@ class ComposerStaticInitb1e77e6231d50e7663f84529b6a3dfda_jetpack_boostⓥ1_7_1_a
         'Automattic\\Jetpack_Boost\\Features\\Optimizations\\Critical_CSS\\Critical_CSS' => __DIR__ . '/../..' . '/app/features/optimizations/critical-css/Critical_CSS.php',
         'Automattic\\Jetpack_Boost\\Features\\Optimizations\\Critical_CSS\\Generator' => __DIR__ . '/../..' . '/app/features/optimizations/critical-css/Generator.php',
         'Automattic\\Jetpack_Boost\\Features\\Optimizations\\Lazy_Images\\Lazy_Images' => __DIR__ . '/../..' . '/app/features/optimizations/lazy-images/class-lazy-images.php',
+        'Automattic\\Jetpack_Boost\\Features\\Optimizations\\Minify\\Concatenate_CSS' => __DIR__ . '/../..' . '/app/features/optimizations/minify/Concatenate_CSS.php',
+        'Automattic\\Jetpack_Boost\\Features\\Optimizations\\Minify\\Concatenate_JS' => __DIR__ . '/../..' . '/app/features/optimizations/minify/Concatenate_JS.php',
+        'Automattic\\Jetpack_Boost\\Features\\Optimizations\\Minify\\Config' => __DIR__ . '/../..' . '/app/features/optimizations/minify/Config.php',
+        'Automattic\\Jetpack_Boost\\Features\\Optimizations\\Minify\\Dependency_Path_Mapping' => __DIR__ . '/../..' . '/app/features/optimizations/minify/Dependency_Path_Mapping.php',
+        'Automattic\\Jetpack_Boost\\Features\\Optimizations\\Minify\\Minify' => __DIR__ . '/../..' . '/app/features/optimizations/minify/Minify.php',
         'Automattic\\Jetpack_Boost\\Features\\Optimizations\\Optimization' => __DIR__ . '/../..' . '/app/features/optimizations/Optimization.php',
         'Automattic\\Jetpack_Boost\\Features\\Optimizations\\Optimizations' => __DIR__ . '/../..' . '/app/features/optimizations/Optimizations.php',
         'Automattic\\Jetpack_Boost\\Features\\Optimizations\\Render_Blocking_JS\\Render_Blocking_JS' => __DIR__ . '/../..' . '/app/features/optimizations/render-blocking-js/class-render-blocking-js.php',
@@ -209,15 +222,19 @@ class ComposerStaticInitb1e77e6231d50e7663f84529b6a3dfda_jetpack_boostⓥ1_7_1_a
         'Jetpack_Tracks_Client' => __DIR__ . '/../..' . '/jetpack_vendor/automattic/jetpack-connection/legacy/class-jetpack-tracks-client.php',
         'Jetpack_Tracks_Event' => __DIR__ . '/../..' . '/jetpack_vendor/automattic/jetpack-connection/legacy/class-jetpack-tracks-event.php',
         'Jetpack_XMLRPC_Server' => __DIR__ . '/../..' . '/jetpack_vendor/automattic/jetpack-connection/legacy/class-jetpack-xmlrpc-server.php',
+        'tubalmartin\\CssMin\\Colors' => __DIR__ . '/..' . '/tubalmartin/cssmin/src/Colors.php',
+        'tubalmartin\\CssMin\\Command' => __DIR__ . '/..' . '/tubalmartin/cssmin/src/Command.php',
+        'tubalmartin\\CssMin\\Minifier' => __DIR__ . '/..' . '/tubalmartin/cssmin/src/Minifier.php',
+        'tubalmartin\\CssMin\\Utils' => __DIR__ . '/..' . '/tubalmartin/cssmin/src/Utils.php',
     );
 
     public static function getInitializer(ClassLoader $loader)
     {
         return \Closure::bind(function () use ($loader) {
-            $loader->prefixLengthsPsr4 = ComposerStaticInitb1e77e6231d50e7663f84529b6a3dfda_jetpack_boostⓥ1_7_1_alpha::$prefixLengthsPsr4;
-            $loader->prefixDirsPsr4 = ComposerStaticInitb1e77e6231d50e7663f84529b6a3dfda_jetpack_boostⓥ1_7_1_alpha::$prefixDirsPsr4;
-            $loader->prefixesPsr0 = ComposerStaticInitb1e77e6231d50e7663f84529b6a3dfda_jetpack_boostⓥ1_7_1_alpha::$prefixesPsr0;
-            $loader->classMap = ComposerStaticInitb1e77e6231d50e7663f84529b6a3dfda_jetpack_boostⓥ1_7_1_alpha::$classMap;
+            $loader->prefixLengthsPsr4 = ComposerStaticInitb1e77e6231d50e7663f84529b6a3dfda_jetpack_boostⓥ1_8_0_alpha::$prefixLengthsPsr4;
+            $loader->prefixDirsPsr4 = ComposerStaticInitb1e77e6231d50e7663f84529b6a3dfda_jetpack_boostⓥ1_8_0_alpha::$prefixDirsPsr4;
+            $loader->prefixesPsr0 = ComposerStaticInitb1e77e6231d50e7663f84529b6a3dfda_jetpack_boostⓥ1_8_0_alpha::$prefixesPsr0;
+            $loader->classMap = ComposerStaticInitb1e77e6231d50e7663f84529b6a3dfda_jetpack_boostⓥ1_8_0_alpha::$classMap;
 
         }, null, ClassLoader::class);
     }
