@@ -514,10 +514,6 @@ return array(
 		'version' => '1.8.0.0-alpha',
 		'path'    => $baseDir . '/app/lib/critical-css/Display_Critical_CSS.php'
 	),
-	'Automattic\\Jetpack_Boost\\Lib\\Critical_CSS\\Recommendations' => array(
-		'version' => '1.8.0.0-alpha',
-		'path'    => $baseDir . '/app/lib/critical-css/Recommendations.php'
-	),
 	'Automattic\\Jetpack_Boost\\Lib\\Critical_CSS\\Source_Providers\\Providers\\Archive_Provider' => array(
 		'version' => '1.8.0.0-alpha',
 		'path'    => $baseDir . '/app/lib/critical-css/source-providers/providers/Archive_Provider.php'
