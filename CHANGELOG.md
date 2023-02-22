@@ -24,6 +24,7 @@ This is an alpha version! The changes listed here are not final.
 - Clean up JavaScript eslint issues.
 - Fixed the GET params sent to WordPress.com during signup
 - Fix feature/optimization initialization happening always on plugins_loaded, due to setup_trigger not getting respected.
+- Fix layout of the upgrade CTA
 - Fix warning on deleting stored Critical CSS
 - Update requesting a page speed refresh to force wpcom into making a new page speed request.
 
