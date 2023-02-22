@@ -23,6 +23,7 @@ This is an alpha version! The changes listed here are not final.
 - Add missing closing tag.
 - Clean up JavaScript eslint issues.
 - Fixed the GET params sent to WordPress.com during signup
+- Fixed Undefined array key "post" warning
 - Fix feature/optimization initialization happening always on plugins_loaded, due to setup_trigger not getting respected.
 - Fix layout of the upgrade CTA
 - Fix warning on deleting stored Critical CSS
