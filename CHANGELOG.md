@@ -27,6 +27,7 @@ This is an alpha version! The changes listed here are not final.
 - Fix feature/optimization initialization happening always on plugins_loaded, due to setup_trigger not getting respected.
 - Fix layout of the upgrade CTA
 - Fix warning on deleting stored Critical CSS
+- Revise Jetpack connection agreement text to comply with our User Agreement
 - Turn off Deferred JS in the customizer preview, fixing compatibility with some page builders
 - Update requesting a page speed refresh to force wpcom into making a new page speed request.
 
