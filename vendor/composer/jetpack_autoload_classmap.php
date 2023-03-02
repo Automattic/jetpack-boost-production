@@ -354,6 +354,42 @@ return array(
 		'version' => '1.51.1.0-alpha',
 		'path'    => $baseDir . '/jetpack_vendor/automattic/jetpack-connection/src/class-tracking.php'
 	),
+	'Automattic\\Jetpack\\WP_JS_Data_Sync\\Boolean_Entry' => array(
+		'version' => '0.1.0.0-alpha',
+		'path'    => $baseDir . '/jetpack_vendor/automattic/jetpack-wp-js-data-sync/src/entry-handlers/class-boolean-entry.php'
+	),
+	'Automattic\\Jetpack\\WP_JS_Data_Sync\\Data_Sync' => array(
+		'version' => '0.1.0.0-alpha',
+		'path'    => $baseDir . '/jetpack_vendor/automattic/jetpack-wp-js-data-sync/src/class-data-sync.php'
+	),
+	'Automattic\\Jetpack\\WP_JS_Data_Sync\\Data_Sync_Entry' => array(
+		'version' => '0.1.0.0-alpha',
+		'path'    => $baseDir . '/jetpack_vendor/automattic/jetpack-wp-js-data-sync/src/class-data-sync-entry.php'
+	),
+	'Automattic\\Jetpack\\WP_JS_Data_Sync\\Data_Sync_Entry_Handler' => array(
+		'version' => '0.1.0.0-alpha',
+		'path'    => $baseDir . '/jetpack_vendor/automattic/jetpack-wp-js-data-sync/src/entry-handlers/class-data-sync-entry-handler.php'
+	),
+	'Automattic\\Jetpack\\WP_JS_Data_Sync\\Endpoints\\Authenticated_Nonce' => array(
+		'version' => '0.1.0.0-alpha',
+		'path'    => $baseDir . '/jetpack_vendor/automattic/jetpack-wp-js-data-sync/src/endpoints/class-authenticated-nonce.php'
+	),
+	'Automattic\\Jetpack\\WP_JS_Data_Sync\\Endpoints\\Endpoint' => array(
+		'version' => '0.1.0.0-alpha',
+		'path'    => $baseDir . '/jetpack_vendor/automattic/jetpack-wp-js-data-sync/src/endpoints/class-endpoint.php'
+	),
+	'Automattic\\Jetpack\\WP_JS_Data_Sync\\Registry' => array(
+		'version' => '0.1.0.0-alpha',
+		'path'    => $baseDir . '/jetpack_vendor/automattic/jetpack-wp-js-data-sync/src/class-registry.php'
+	),
+	'Automattic\\Jetpack\\WP_JS_Data_Sync\\Storage_Drivers\\Storage_Driver' => array(
+		'version' => '0.1.0.0-alpha',
+		'path'    => $baseDir . '/jetpack_vendor/automattic/jetpack-wp-js-data-sync/src/storage-drivers/class-storage-driver.php'
+	),
+	'Automattic\\Jetpack\\WP_JS_Data_Sync\\Storage_Drivers\\WP_Option_Storage' => array(
+		'version' => '0.1.0.0-alpha',
+		'path'    => $baseDir . '/jetpack_vendor/automattic/jetpack-wp-js-data-sync/src/storage-drivers/class-wp-option-storage.php'
+	),
 	'Automattic\\Jetpack_Boost\\Admin\\Admin' => array(
 		'version' => '1.8.0.0-alpha',
 		'path'    => $baseDir . '/app/admin/class-admin.php'
@@ -382,6 +418,14 @@ return array(
 		'version' => '1.8.0.0-alpha',
 		'path'    => $baseDir . '/app/contracts/Has_Slug.php'
 	),
+	'Automattic\\Jetpack_Boost\\Data_Sync\\Cloud_CSS_Sync' => array(
+		'version' => '1.8.0.0-alpha',
+		'path'    => $baseDir . '/app/data-sync/cloud-css-sync.php'
+	),
+	'Automattic\\Jetpack_Boost\\Data_Sync\\Critical_CSS_Sync' => array(
+		'version' => '1.8.0.0-alpha',
+		'path'    => $baseDir . '/app/data-sync/critical-css-sync.php'
+	),
 	'Automattic\\Jetpack_Boost\\Features\\Image_Guide\\Image_Guide' => array(
 		'version' => '1.8.0.0-alpha',
 		'path'    => $baseDir . '/app/features/image-guide/Image_Guide.php'
@@ -394,9 +438,9 @@ return array(
 		'version' => '1.8.0.0-alpha',
 		'path'    => $baseDir . '/app/features/optimizations/cloud-css/Cloud_CSS_Cron.php'
 	),
-	'Automattic\\Jetpack_Boost\\Features\\Optimizations\\Cloud_CSS\\Cloud_CSS_Request' => array(
+	'Automattic\\Jetpack_Boost\\Features\\Optimizations\\Cloud_CSS\\Cloud_CSS_State' => array(
 		'version' => '1.8.0.0-alpha',
-		'path'    => $baseDir . '/app/features/optimizations/cloud-css/Cloud_CSS_Request.php'
+		'path'    => $baseDir . '/app/features/optimizations/cloud-css/Cloud_CSS_State.php'
 	),
 	'Automattic\\Jetpack_Boost\\Features\\Optimizations\\Critical_CSS\\CSS_Proxy' => array(
 		'version' => '1.8.0.0-alpha',
@@ -622,29 +666,17 @@ return array(
 		'version' => '1.8.0.0-alpha',
 		'path'    => $baseDir . '/app/rest-api/contracts/Permission.php'
 	),
-	'Automattic\\Jetpack_Boost\\REST_API\\Endpoints\\Cloud_CSS_Status' => array(
-		'version' => '1.8.0.0-alpha',
-		'path'    => $baseDir . '/app/rest-api/endpoints/Cloud_CSS_Status.php'
-	),
 	'Automattic\\Jetpack_Boost\\REST_API\\Endpoints\\Config_State' => array(
 		'version' => '1.8.0.0-alpha',
 		'path'    => $baseDir . '/app/rest-api/endpoints/Config_State.php'
 	),
-	'Automattic\\Jetpack_Boost\\REST_API\\Endpoints\\Generator_Error' => array(
+	'Automattic\\Jetpack_Boost\\REST_API\\Endpoints\\Critical_CSS_Insert' => array(
 		'version' => '1.8.0.0-alpha',
-		'path'    => $baseDir . '/app/rest-api/endpoints/Generator_Error.php'
+		'path'    => $baseDir . '/app/rest-api/endpoints/Critical_CSS_Insert.php'
 	),
-	'Automattic\\Jetpack_Boost\\REST_API\\Endpoints\\Generator_Request' => array(
+	'Automattic\\Jetpack_Boost\\REST_API\\Endpoints\\Critical_CSS_Start' => array(
 		'version' => '1.8.0.0-alpha',
-		'path'    => $baseDir . '/app/rest-api/endpoints/Generator_Request.php'
-	),
-	'Automattic\\Jetpack_Boost\\REST_API\\Endpoints\\Generator_Status' => array(
-		'version' => '1.8.0.0-alpha',
-		'path'    => $baseDir . '/app/rest-api/endpoints/Generator_Status.php'
-	),
-	'Automattic\\Jetpack_Boost\\REST_API\\Endpoints\\Generator_Success' => array(
-		'version' => '1.8.0.0-alpha',
-		'path'    => $baseDir . '/app/rest-api/endpoints/Generator_Success.php'
+		'path'    => $baseDir . '/app/rest-api/endpoints/Critical_CSS_Start.php'
 	),
 	'Automattic\\Jetpack_Boost\\REST_API\\Endpoints\\List_Site_Urls' => array(
 		'version' => '1.8.0.0-alpha',
@@ -657,18 +689,6 @@ return array(
 	'Automattic\\Jetpack_Boost\\REST_API\\Endpoints\\Optimizations_Status' => array(
 		'version' => '1.8.0.0-alpha',
 		'path'    => $baseDir . '/app/rest-api/endpoints/Optimizations_Status.php'
-	),
-	'Automattic\\Jetpack_Boost\\REST_API\\Endpoints\\Recommendations_Dismiss' => array(
-		'version' => '1.8.0.0-alpha',
-		'path'    => $baseDir . '/app/rest-api/endpoints/Recommendations_Dismiss.php'
-	),
-	'Automattic\\Jetpack_Boost\\REST_API\\Endpoints\\Recommendations_Reset' => array(
-		'version' => '1.8.0.0-alpha',
-		'path'    => $baseDir . '/app/rest-api/endpoints/Recommendations_Reset.php'
-	),
-	'Automattic\\Jetpack_Boost\\REST_API\\Endpoints\\Request_Cloud_CSS' => array(
-		'version' => '1.8.0.0-alpha',
-		'path'    => $baseDir . '/app/rest-api/endpoints/Request_Cloud_CSS.php'
 	),
 	'Automattic\\Jetpack_Boost\\REST_API\\Endpoints\\Update_Cloud_CSS' => array(
 		'version' => '1.8.0.0-alpha',

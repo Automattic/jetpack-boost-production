@@ -44,5 +44,9 @@ return array(
       'path' => 'jetpack_vendor/automattic/jetpack-plugins-installer',
       'ver' => '0.2.3',
     ),
+    'jetpack-wp-js-data-sync' => array(
+      'path' => 'jetpack_vendor/automattic/jetpack-wp-js-data-sync',
+      'ver' => '0.1.0-alpha',
+    ),
   ),
 );
