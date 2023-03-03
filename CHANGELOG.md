@@ -30,6 +30,7 @@ This is an alpha version! The changes listed here are not final.
 - Revise Jetpack connection agreement text to comply with our User Agreement
 - Turn off Deferred JS in the customizer preview, fixing compatibility with some page builders
 - Update requesting a page speed refresh to force wpcom into making a new page speed request.
+- Use snake_case for tracks event props
 
 ## [1.7.0] - 2023-01-17
 ### Added
