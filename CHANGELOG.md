@@ -22,6 +22,7 @@ This is an alpha version! The changes listed here are not final.
 ### Fixed
 - Add missing closing tag.
 - Clean up JavaScript eslint issues.
+- Fixed images sometimes failing to Lazy-load in Safari.
 - Fixed the GET params sent to WordPress.com during signup
 - Fixed Undefined array key "post" warning
 - Fix feature/optimization initialization happening always on plugins_loaded, due to setup_trigger not getting respected.
