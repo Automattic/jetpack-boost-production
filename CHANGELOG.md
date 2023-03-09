@@ -14,6 +14,7 @@ This is an alpha version! The changes listed here are not final.
 - Add page optimizer functionality.
 
 ### Changed
+- General: indicate full compatibility with the latest version of WordPress, 6.2.
 - Remove `ci.targets` from package.json. Better scoping of e2e tests.
 - Update contributors list.
 - Updated package dependencies.
