@@ -6,7 +6,7 @@ use Automattic\Jetpack_Boost\Lib\Status;
 use Automattic\Jetpack_Boost\REST_API\Contracts\Endpoint;
 use Automattic\Jetpack_Boost\REST_API\Permissions\Current_User_Admin;
 
-class Optimization_Status implements Endpoint {
+class Feature_Status implements Endpoint {
 
 	public function request_methods() {
 		return \WP_REST_Server::EDITABLE;
@@ -22,15 +22,15 @@ class Optimization_Status implements Endpoint {
 			);
 		}
 		$module_slug = $request['slug'];
-		$state       = new Status( $module_slug );
+		$status      = new Status( $module_slug );
 
 		// @TODO: Validate that the module exists?
 
 		$new_status = (bool) $params['status'];
-		$success    = $state->update( (bool) $params['status'] );
+		$success    = $status->update( (bool) $params['status'] );
 
 		return rest_ensure_response(
-			$success ? $new_status : $state->is_enabled()
+			$success ? $new_status : $status->is_enabled()
 		);
 	}
 

@@ -1,6 +1,6 @@
 <?php
 
-namespace Automattic\Jetpack_Boost\Features\Optimizations\Minify;
+namespace Automattic\Jetpack_Boost\Modules\Optimizations\Minify;
 
 use Automattic\Jetpack_Boost\Contracts\Feature;
 
@@ -38,6 +38,10 @@ class Minify implements Feature {
 
 	public static function get_slug() {
 		return 'minify';
+	}
+
+	public static function is_available() {
+		return defined( 'JETPACK_BOOST_MINIFY' ) && true === JETPACK_BOOST_MINIFY;
 	}
 
 	public function setup_trigger() {

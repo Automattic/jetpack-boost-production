@@ -1,15 +1,15 @@
 <?php
 
-namespace Automattic\Jetpack_Boost\Features\Optimizations;
+namespace Automattic\Jetpack_Boost\Modules;
 
 use Automattic\Jetpack_Boost\Contracts\Feature;
 use Automattic\Jetpack_Boost\Lib\Status;
 
-class Optimization {
+class Feature_Module {
 	/**
 	 * @var Status
 	 */
-	public $status;
+	private $status;
 
 	/**
 	 * @var Feature
@@ -18,6 +18,11 @@ class Optimization {
 
 	public function __construct( Feature $feature ) {
 		$this->feature = $feature;
-		$this->status  = new Status( $feature->get_slug() );
+		$this->status  = new Status( $feature::get_slug() );
 	}
+
+	public function is_enabled() {
+		return $this->status->is_enabled();
+	}
+
 }

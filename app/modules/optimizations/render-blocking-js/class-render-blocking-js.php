@@ -7,7 +7,7 @@
  * @package    automattic/jetpack-boost
  */
 
-namespace Automattic\Jetpack_Boost\Features\Optimizations\Render_Blocking_JS;
+namespace Automattic\Jetpack_Boost\Modules\Optimizations\Render_Blocking_JS;
 
 use Automattic\Jetpack_Boost\Contracts\Feature;
 use Automattic\Jetpack_Boost\Lib\Output_Filter;
@@ -60,6 +60,10 @@ class Render_Blocking_JS implements Feature {
 		$this->ignore_attribute = apply_filters( 'jetpack_boost_render_blocking_js_ignore_attribute', 'data-jetpack-boost' );
 
 		add_action( 'template_redirect', array( $this, 'start_output_filtering' ), -999999 );
+	}
+
+	public static function is_available() {
+		return true;
 	}
 
 	/**

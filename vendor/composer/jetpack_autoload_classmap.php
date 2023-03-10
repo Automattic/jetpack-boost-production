@@ -428,67 +428,11 @@ return array(
 	),
 	'Automattic\\Jetpack_Boost\\Features\\Image_Guide\\Image_Guide' => array(
 		'version' => '1.8.0.0-alpha',
-		'path'    => $baseDir . '/app/features/image-guide/Image_Guide.php'
+		'path'    => $baseDir . '/app/modules/image-guide/Image_Guide.php'
 	),
-	'Automattic\\Jetpack_Boost\\Features\\Optimizations\\Cloud_CSS\\Cloud_CSS' => array(
+	'Automattic\\Jetpack_Boost\\Features\\Image_Size_Analysis\\Image_Size_Analysis' => array(
 		'version' => '1.8.0.0-alpha',
-		'path'    => $baseDir . '/app/features/optimizations/cloud-css/Cloud_CSS.php'
-	),
-	'Automattic\\Jetpack_Boost\\Features\\Optimizations\\Cloud_CSS\\Cloud_CSS_Cron' => array(
-		'version' => '1.8.0.0-alpha',
-		'path'    => $baseDir . '/app/features/optimizations/cloud-css/Cloud_CSS_Cron.php'
-	),
-	'Automattic\\Jetpack_Boost\\Features\\Optimizations\\Cloud_CSS\\Cloud_CSS_State' => array(
-		'version' => '1.8.0.0-alpha',
-		'path'    => $baseDir . '/app/features/optimizations/cloud-css/Cloud_CSS_State.php'
-	),
-	'Automattic\\Jetpack_Boost\\Features\\Optimizations\\Critical_CSS\\CSS_Proxy' => array(
-		'version' => '1.8.0.0-alpha',
-		'path'    => $baseDir . '/app/features/optimizations/critical-css/CSS_Proxy.php'
-	),
-	'Automattic\\Jetpack_Boost\\Features\\Optimizations\\Critical_CSS\\Critical_CSS' => array(
-		'version' => '1.8.0.0-alpha',
-		'path'    => $baseDir . '/app/features/optimizations/critical-css/Critical_CSS.php'
-	),
-	'Automattic\\Jetpack_Boost\\Features\\Optimizations\\Critical_CSS\\Generator' => array(
-		'version' => '1.8.0.0-alpha',
-		'path'    => $baseDir . '/app/features/optimizations/critical-css/Generator.php'
-	),
-	'Automattic\\Jetpack_Boost\\Features\\Optimizations\\Lazy_Images\\Lazy_Images' => array(
-		'version' => '1.8.0.0-alpha',
-		'path'    => $baseDir . '/app/features/optimizations/lazy-images/class-lazy-images.php'
-	),
-	'Automattic\\Jetpack_Boost\\Features\\Optimizations\\Minify\\Concatenate_CSS' => array(
-		'version' => '1.8.0.0-alpha',
-		'path'    => $baseDir . '/app/features/optimizations/minify/Concatenate_CSS.php'
-	),
-	'Automattic\\Jetpack_Boost\\Features\\Optimizations\\Minify\\Concatenate_JS' => array(
-		'version' => '1.8.0.0-alpha',
-		'path'    => $baseDir . '/app/features/optimizations/minify/Concatenate_JS.php'
-	),
-	'Automattic\\Jetpack_Boost\\Features\\Optimizations\\Minify\\Config' => array(
-		'version' => '1.8.0.0-alpha',
-		'path'    => $baseDir . '/app/features/optimizations/minify/Config.php'
-	),
-	'Automattic\\Jetpack_Boost\\Features\\Optimizations\\Minify\\Dependency_Path_Mapping' => array(
-		'version' => '1.8.0.0-alpha',
-		'path'    => $baseDir . '/app/features/optimizations/minify/Dependency_Path_Mapping.php'
-	),
-	'Automattic\\Jetpack_Boost\\Features\\Optimizations\\Minify\\Minify' => array(
-		'version' => '1.8.0.0-alpha',
-		'path'    => $baseDir . '/app/features/optimizations/minify/Minify.php'
-	),
-	'Automattic\\Jetpack_Boost\\Features\\Optimizations\\Optimization' => array(
-		'version' => '1.8.0.0-alpha',
-		'path'    => $baseDir . '/app/features/optimizations/Optimization.php'
-	),
-	'Automattic\\Jetpack_Boost\\Features\\Optimizations\\Optimizations' => array(
-		'version' => '1.8.0.0-alpha',
-		'path'    => $baseDir . '/app/features/optimizations/Optimizations.php'
-	),
-	'Automattic\\Jetpack_Boost\\Features\\Optimizations\\Render_Blocking_JS\\Render_Blocking_JS' => array(
-		'version' => '1.8.0.0-alpha',
-		'path'    => $baseDir . '/app/features/optimizations/render-blocking-js/class-render-blocking-js.php'
+		'path'    => $baseDir . '/app/modules/image-size-analysis/Image_Size_Analysis.php'
 	),
 	'Automattic\\Jetpack_Boost\\Features\\Setup_Prompt\\Setup_Prompt' => array(
 		'version' => '1.8.0.0-alpha',
@@ -654,6 +598,66 @@ return array(
 		'version' => '1.8.0.0-alpha',
 		'path'    => $baseDir . '/app/lib/WPCOM_Boost_API_Client.php'
 	),
+	'Automattic\\Jetpack_Boost\\Modules\\Feature_Module' => array(
+		'version' => '1.8.0.0-alpha',
+		'path'    => $baseDir . '/app/modules/Feature_Module.php'
+	),
+	'Automattic\\Jetpack_Boost\\Modules\\Features' => array(
+		'version' => '1.8.0.0-alpha',
+		'path'    => $baseDir . '/app/modules/Features.php'
+	),
+	'Automattic\\Jetpack_Boost\\Modules\\Optimizations\\Cloud_CSS\\Cloud_CSS' => array(
+		'version' => '1.8.0.0-alpha',
+		'path'    => $baseDir . '/app/modules/optimizations/cloud-css/Cloud_CSS.php'
+	),
+	'Automattic\\Jetpack_Boost\\Modules\\Optimizations\\Cloud_CSS\\Cloud_CSS_Cron' => array(
+		'version' => '1.8.0.0-alpha',
+		'path'    => $baseDir . '/app/modules/optimizations/cloud-css/Cloud_CSS_Cron.php'
+	),
+	'Automattic\\Jetpack_Boost\\Modules\\Optimizations\\Cloud_CSS\\Cloud_CSS_State' => array(
+		'version' => '1.8.0.0-alpha',
+		'path'    => $baseDir . '/app/modules/optimizations/cloud-css/Cloud_CSS_State.php'
+	),
+	'Automattic\\Jetpack_Boost\\Modules\\Optimizations\\Critical_CSS\\CSS_Proxy' => array(
+		'version' => '1.8.0.0-alpha',
+		'path'    => $baseDir . '/app/modules/optimizations/critical-css/CSS_Proxy.php'
+	),
+	'Automattic\\Jetpack_Boost\\Modules\\Optimizations\\Critical_CSS\\Critical_CSS' => array(
+		'version' => '1.8.0.0-alpha',
+		'path'    => $baseDir . '/app/modules/optimizations/critical-css/Critical_CSS.php'
+	),
+	'Automattic\\Jetpack_Boost\\Modules\\Optimizations\\Critical_CSS\\Generator' => array(
+		'version' => '1.8.0.0-alpha',
+		'path'    => $baseDir . '/app/modules/optimizations/critical-css/Generator.php'
+	),
+	'Automattic\\Jetpack_Boost\\Modules\\Optimizations\\Lazy_Images\\Lazy_Images' => array(
+		'version' => '1.8.0.0-alpha',
+		'path'    => $baseDir . '/app/modules/optimizations/lazy-images/class-lazy-images.php'
+	),
+	'Automattic\\Jetpack_Boost\\Modules\\Optimizations\\Minify\\Concatenate_CSS' => array(
+		'version' => '1.8.0.0-alpha',
+		'path'    => $baseDir . '/app/modules/optimizations/minify/Concatenate_CSS.php'
+	),
+	'Automattic\\Jetpack_Boost\\Modules\\Optimizations\\Minify\\Concatenate_JS' => array(
+		'version' => '1.8.0.0-alpha',
+		'path'    => $baseDir . '/app/modules/optimizations/minify/Concatenate_JS.php'
+	),
+	'Automattic\\Jetpack_Boost\\Modules\\Optimizations\\Minify\\Config' => array(
+		'version' => '1.8.0.0-alpha',
+		'path'    => $baseDir . '/app/modules/optimizations/minify/Config.php'
+	),
+	'Automattic\\Jetpack_Boost\\Modules\\Optimizations\\Minify\\Dependency_Path_Mapping' => array(
+		'version' => '1.8.0.0-alpha',
+		'path'    => $baseDir . '/app/modules/optimizations/minify/Dependency_Path_Mapping.php'
+	),
+	'Automattic\\Jetpack_Boost\\Modules\\Optimizations\\Minify\\Minify' => array(
+		'version' => '1.8.0.0-alpha',
+		'path'    => $baseDir . '/app/modules/optimizations/minify/Minify.php'
+	),
+	'Automattic\\Jetpack_Boost\\Modules\\Optimizations\\Render_Blocking_JS\\Render_Blocking_JS' => array(
+		'version' => '1.8.0.0-alpha',
+		'path'    => $baseDir . '/app/modules/optimizations/render-blocking-js/class-render-blocking-js.php'
+	),
 	'Automattic\\Jetpack_Boost\\REST_API\\Contracts\\Endpoint' => array(
 		'version' => '1.8.0.0-alpha',
 		'path'    => $baseDir . '/app/rest-api/contracts/Endpoint.php'
@@ -678,13 +682,13 @@ return array(
 		'version' => '1.8.0.0-alpha',
 		'path'    => $baseDir . '/app/rest-api/endpoints/Critical_CSS_Start.php'
 	),
+	'Automattic\\Jetpack_Boost\\REST_API\\Endpoints\\Feature_Status' => array(
+		'version' => '1.8.0.0-alpha',
+		'path'    => $baseDir . '/app/rest-api/endpoints/Feature_Status.php'
+	),
 	'Automattic\\Jetpack_Boost\\REST_API\\Endpoints\\List_Site_Urls' => array(
 		'version' => '1.8.0.0-alpha',
 		'path'    => $baseDir . '/app/rest-api/endpoints/List_Site_Urls.php'
-	),
-	'Automattic\\Jetpack_Boost\\REST_API\\Endpoints\\Optimization_Status' => array(
-		'version' => '1.8.0.0-alpha',
-		'path'    => $baseDir . '/app/rest-api/endpoints/Optimization_Status.php'
 	),
 	'Automattic\\Jetpack_Boost\\REST_API\\Endpoints\\Optimizations_Status' => array(
 		'version' => '1.8.0.0-alpha',

@@ -1,25 +1,39 @@
 <?php
 
-namespace Automattic\Jetpack_Boost\Features\Optimizations;
+namespace Automattic\Jetpack_Boost\Modules;
 
+use Automattic\Jetpack_Boost\Contracts\Feature;
 use Automattic\Jetpack_Boost\Contracts\Has_Setup;
 use Automattic\Jetpack_Boost\Features\Image_Guide\Image_Guide;
-use Automattic\Jetpack_Boost\Features\Optimizations\Cloud_CSS\Cloud_CSS;
-use Automattic\Jetpack_Boost\Features\Optimizations\Critical_CSS\Critical_CSS;
-use Automattic\Jetpack_Boost\Features\Optimizations\Lazy_Images\Lazy_Images;
-use Automattic\Jetpack_Boost\Features\Optimizations\Minify\Minify;
-use Automattic\Jetpack_Boost\Features\Optimizations\Render_Blocking_JS\Render_Blocking_JS;
-use Automattic\Jetpack_Boost\Lib\Premium_Features;
+use Automattic\Jetpack_Boost\Features\Image_Size_Analysis\Image_Size_Analysis;
 use Automattic\Jetpack_Boost\Lib\Setup;
+use Automattic\Jetpack_Boost\Modules\Optimizations\Cloud_CSS\Cloud_CSS;
+use Automattic\Jetpack_Boost\Modules\Optimizations\Critical_CSS\Critical_CSS;
+use Automattic\Jetpack_Boost\Modules\Optimizations\Lazy_Images\Lazy_Images;
+use Automattic\Jetpack_Boost\Modules\Optimizations\Minify\Minify;
+use Automattic\Jetpack_Boost\Modules\Optimizations\Render_Blocking_JS\Render_Blocking_JS;
 use Automattic\Jetpack_Boost\REST_API\Contracts\Has_Endpoints;
 use Automattic\Jetpack_Boost\REST_API\REST_API;
 
-class Optimizations implements Has_Setup {
+class Features implements Has_Setup {
 
 	/**
-	 * @var Optimization[] - Optimization modules
+	 * @var Feature_Module[] - Optimization modules
 	 */
 	protected $features = array();
+
+	/**
+	 * @var Feature[] - Classes that handle all Jetpack Boost featues.
+	 */
+	const FEATURES = array(
+		Critical_CSS::class,
+		Cloud_CSS::class,
+		Image_Size_Analysis::class,
+		Lazy_Images::class,
+		Minify::class,
+		Render_Blocking_JS::class,
+		Image_Guide::class,
+	);
 
 	/**
 	 * Initialize modules.
@@ -29,25 +43,11 @@ class Optimizations implements Has_Setup {
 	 */
 	public function __construct() {
 
-		$critical_css_class = Critical_CSS::class;
-		if ( Premium_Features::has_feature( Premium_Features::CLOUD_CSS ) ) {
-			$critical_css_class = Cloud_CSS::class;
-		}
-
-		$features = array(
-			new $critical_css_class(),
-			new Lazy_Images(),
-			new Render_Blocking_JS(),
-			new Image_Guide(),
-		);
-
-		if ( defined( 'JETPACK_BOOST_MINIFY' ) && JETPACK_BOOST_MINIFY ) {
-			$features[] = new Minify();
-		}
-
-		foreach ( $features as $feature ) {
-			$slug                    = $feature->get_slug();
-			$this->features[ $slug ] = new Optimization( $feature );
+		foreach ( self::FEATURES as $feature ) {
+			if ( $feature::is_available() ) {
+				$slug                    = $feature::get_slug();
+				$this->features[ $slug ] = new Feature_Module( new $feature() );
+			}
 		}
 	}
 
@@ -73,8 +73,8 @@ class Optimizations implements Has_Setup {
 	}
 
 	public function have_enabled_modules() {
-		foreach ( $this->features as $optimization ) {
-			if ( $optimization->status->is_enabled() ) {
+		foreach ( $this->features as $feature_module ) {
+			if ( $feature_module->is_enabled() ) {
 				return true;
 			}
 		}
@@ -83,8 +83,8 @@ class Optimizations implements Has_Setup {
 
 	public function get_status() {
 		$status = array();
-		foreach ( $this->features as $slug => $optimization ) {
-			$status[ $slug ] = $optimization->status->is_enabled();
+		foreach ( $this->features as $slug => $feature_module ) {
+			$status[ $slug ] = $feature_module->is_enabled();
 		}
 		return $status;
 	}
@@ -103,15 +103,15 @@ class Optimizations implements Has_Setup {
 
 	public function init_features() {
 
-		foreach ( $this->available_modules() as $slug => $optimization ) {
+		foreach ( $this->available_modules() as $slug => $feature_module ) {
 
-			if ( ! $optimization->status->is_enabled() ) {
+			if ( ! $feature_module->is_enabled() ) {
 				continue;
 			}
 
-			Setup::add( $optimization->feature );
+			Setup::add( $feature_module->feature );
 
-			$this->register_endpoints( $optimization->feature );
+			$this->register_endpoints( $feature_module->feature );
 
 			do_action( "jetpack_boost_{$slug}_initialized", $this );
 
