@@ -406,10 +406,6 @@ return array(
 		'version' => '1.8.0.0-alpha',
 		'path'    => $baseDir . '/app/contracts/Boost_API_Client.php'
 	),
-	'Automattic\\Jetpack_Boost\\Contracts\\Feature' => array(
-		'version' => '1.8.0.0-alpha',
-		'path'    => $baseDir . '/app/contracts/Feature.php'
-	),
 	'Automattic\\Jetpack_Boost\\Contracts\\Has_Setup' => array(
 		'version' => '1.8.0.0-alpha',
 		'path'    => $baseDir . '/app/contracts/Has_Setup.php'
@@ -417,6 +413,10 @@ return array(
 	'Automattic\\Jetpack_Boost\\Contracts\\Has_Slug' => array(
 		'version' => '1.8.0.0-alpha',
 		'path'    => $baseDir . '/app/contracts/Has_Slug.php'
+	),
+	'Automattic\\Jetpack_Boost\\Contracts\\Pluggable' => array(
+		'version' => '1.8.0.0-alpha',
+		'path'    => $baseDir . '/app/contracts/Pluggable.php'
 	),
 	'Automattic\\Jetpack_Boost\\Data_Sync\\Cloud_CSS_Sync' => array(
 		'version' => '1.8.0.0-alpha',
@@ -598,13 +598,13 @@ return array(
 		'version' => '1.8.0.0-alpha',
 		'path'    => $baseDir . '/app/lib/WPCOM_Boost_API_Client.php'
 	),
-	'Automattic\\Jetpack_Boost\\Modules\\Feature_Module' => array(
+	'Automattic\\Jetpack_Boost\\Modules\\Module' => array(
 		'version' => '1.8.0.0-alpha',
-		'path'    => $baseDir . '/app/modules/Feature_Module.php'
+		'path'    => $baseDir . '/app/modules/Module.php'
 	),
-	'Automattic\\Jetpack_Boost\\Modules\\Features' => array(
+	'Automattic\\Jetpack_Boost\\Modules\\Modules' => array(
 		'version' => '1.8.0.0-alpha',
-		'path'    => $baseDir . '/app/modules/Features.php'
+		'path'    => $baseDir . '/app/modules/Modules.php'
 	),
 	'Automattic\\Jetpack_Boost\\Modules\\Optimizations\\Cloud_CSS\\Cloud_CSS' => array(
 		'version' => '1.8.0.0-alpha',
@@ -682,13 +682,13 @@ return array(
 		'version' => '1.8.0.0-alpha',
 		'path'    => $baseDir . '/app/rest-api/endpoints/Critical_CSS_Start.php'
 	),
-	'Automattic\\Jetpack_Boost\\REST_API\\Endpoints\\Feature_Status' => array(
-		'version' => '1.8.0.0-alpha',
-		'path'    => $baseDir . '/app/rest-api/endpoints/Feature_Status.php'
-	),
 	'Automattic\\Jetpack_Boost\\REST_API\\Endpoints\\List_Site_Urls' => array(
 		'version' => '1.8.0.0-alpha',
 		'path'    => $baseDir . '/app/rest-api/endpoints/List_Site_Urls.php'
+	),
+	'Automattic\\Jetpack_Boost\\REST_API\\Endpoints\\Module_Status' => array(
+		'version' => '1.8.0.0-alpha',
+		'path'    => $baseDir . '/app/rest-api/endpoints/Module_Status.php'
 	),
 	'Automattic\\Jetpack_Boost\\REST_API\\Endpoints\\Optimizations_Status' => array(
 		'version' => '1.8.0.0-alpha',
