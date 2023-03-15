@@ -16,6 +16,7 @@ This is an alpha version! The changes listed here are not final.
 
 ### Changed
 - Add various fixes to Critical CSS related elements in the UI.
+- Changed the way status toggle is saved in database
 - General: indicate full compatibility with the latest version of WordPress, 6.2.
 - Improved getting started experience
 - Remove `ci.targets` from package.json. Better scoping of e2e tests.
