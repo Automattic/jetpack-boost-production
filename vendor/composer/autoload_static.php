@@ -191,7 +191,7 @@ class ComposerStaticInitb1e77e6231d50e7663f84529b6a3dfda_jetpack_boostⓥ1_8_0_a
         'Automattic\\Jetpack_Boost\\Modules\\Module' => __DIR__ . '/../..' . '/app/modules/Module.php',
         'Automattic\\Jetpack_Boost\\Modules\\Modules' => __DIR__ . '/../..' . '/app/modules/Modules.php',
         'Automattic\\Jetpack_Boost\\Modules\\Optimizations\\Cloud_CSS\\Cloud_CSS' => __DIR__ . '/../..' . '/app/modules/optimizations/cloud-css/Cloud_CSS.php',
-        'Automattic\\Jetpack_Boost\\Modules\\Optimizations\\Cloud_CSS\\Cloud_CSS_Cron' => __DIR__ . '/../..' . '/app/modules/optimizations/cloud-css/Cloud_CSS_Cron.php',
+        'Automattic\\Jetpack_Boost\\Modules\\Optimizations\\Cloud_CSS\\Cloud_CSS_Followup' => __DIR__ . '/../..' . '/app/modules/optimizations/cloud-css/Cloud_CSS_Followup.php',
         'Automattic\\Jetpack_Boost\\Modules\\Optimizations\\Cloud_CSS\\Cloud_CSS_State' => __DIR__ . '/../..' . '/app/modules/optimizations/cloud-css/Cloud_CSS_State.php',
         'Automattic\\Jetpack_Boost\\Modules\\Optimizations\\Critical_CSS\\CSS_Proxy' => __DIR__ . '/../..' . '/app/modules/optimizations/critical-css/CSS_Proxy.php',
         'Automattic\\Jetpack_Boost\\Modules\\Optimizations\\Critical_CSS\\Critical_CSS' => __DIR__ . '/../..' . '/app/modules/optimizations/critical-css/Critical_CSS.php',

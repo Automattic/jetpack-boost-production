@@ -154,7 +154,7 @@ return array(
     'Automattic\\Jetpack_Boost\\Modules\\Module' => $baseDir . '/app/modules/Module.php',
     'Automattic\\Jetpack_Boost\\Modules\\Modules' => $baseDir . '/app/modules/Modules.php',
     'Automattic\\Jetpack_Boost\\Modules\\Optimizations\\Cloud_CSS\\Cloud_CSS' => $baseDir . '/app/modules/optimizations/cloud-css/Cloud_CSS.php',
-    'Automattic\\Jetpack_Boost\\Modules\\Optimizations\\Cloud_CSS\\Cloud_CSS_Cron' => $baseDir . '/app/modules/optimizations/cloud-css/Cloud_CSS_Cron.php',
+    'Automattic\\Jetpack_Boost\\Modules\\Optimizations\\Cloud_CSS\\Cloud_CSS_Followup' => $baseDir . '/app/modules/optimizations/cloud-css/Cloud_CSS_Followup.php',
     'Automattic\\Jetpack_Boost\\Modules\\Optimizations\\Cloud_CSS\\Cloud_CSS_State' => $baseDir . '/app/modules/optimizations/cloud-css/Cloud_CSS_State.php',
     'Automattic\\Jetpack_Boost\\Modules\\Optimizations\\Critical_CSS\\CSS_Proxy' => $baseDir . '/app/modules/optimizations/critical-css/CSS_Proxy.php',
     'Automattic\\Jetpack_Boost\\Modules\\Optimizations\\Critical_CSS\\Critical_CSS' => $baseDir . '/app/modules/optimizations/critical-css/Critical_CSS.php',

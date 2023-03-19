@@ -28,6 +28,7 @@ This is an alpha version! The changes listed here are not final.
 ### Fixed
 - Add missing closing tag.
 - Clean up JavaScript eslint issues.
+- Cloud CSS: Refactor the follow-up process.
 - Ensure changes to visible posts / other post types which affect the ui get caught
 - Fixed images sometimes failing to Lazy-load in Safari.
 - Fixed the GET params sent to WordPress.com during signup
