@@ -13,6 +13,7 @@ This is an alpha version! The changes listed here are not final.
 - Added notice to regenerate critical CSS on Boost dashboard
 - Add page optimizer functionality.
 - Introduce Jetpack Boost Image Size Analysis feature
+- Jetpack Boost: Add Critical CSS State schema validation
 
 ### Changed
 - Add various fixes to Critical CSS related elements in the UI.
