@@ -658,10 +658,6 @@ return array(
 		'version' => '1.8.0.0-alpha',
 		'path'    => $baseDir . '/app/modules/optimizations/cloud-css/Cloud_CSS_Followup.php'
 	),
-	'Automattic\\Jetpack_Boost\\Modules\\Optimizations\\Cloud_CSS\\Cloud_CSS_State' => array(
-		'version' => '1.8.0.0-alpha',
-		'path'    => $baseDir . '/app/modules/optimizations/cloud-css/Cloud_CSS_State.php'
-	),
 	'Automattic\\Jetpack_Boost\\Modules\\Optimizations\\Critical_CSS\\CSS_Proxy' => array(
 		'version' => '1.8.0.0-alpha',
 		'path'    => $baseDir . '/app/modules/optimizations/critical-css/CSS_Proxy.php'
