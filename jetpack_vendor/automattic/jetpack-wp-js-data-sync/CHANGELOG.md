@@ -18,3 +18,6 @@ This is an alpha version! The changes listed here are not final.
 ### Changed
 - Auto-formatting files.
 - Auto-formatting of the package.json.
+
+### Fixed
+- Jetpack Boost: Fix assoc_array schema validation

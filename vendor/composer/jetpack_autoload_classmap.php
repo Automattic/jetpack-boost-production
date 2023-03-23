@@ -394,6 +394,10 @@ return array(
 		'version' => '0.1.0.0-alpha',
 		'path'    => $baseDir . '/jetpack_vendor/automattic/jetpack-wp-js-data-sync/src/schema/interface-schema-type.php'
 	),
+	'Automattic\\Jetpack\\WP_JS_Data_Sync\\Schema\\Types\\Type_Any_JSON' => array(
+		'version' => '0.1.0.0-alpha',
+		'path'    => $baseDir . '/jetpack_vendor/automattic/jetpack-wp-js-data-sync/src/schema/types/class-type-any-json.php'
+	),
 	'Automattic\\Jetpack\\WP_JS_Data_Sync\\Schema\\Types\\Type_Array' => array(
 		'version' => '0.1.0.0-alpha',
 		'path'    => $baseDir . '/jetpack_vendor/automattic/jetpack-wp-js-data-sync/src/schema/types/class-type-array.php'

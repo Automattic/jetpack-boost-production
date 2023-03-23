@@ -100,6 +100,7 @@ return array(
     'Automattic\\Jetpack\\WP_JS_Data_Sync\\Schema\\Modifiers\\Decorate_With_Default' => $baseDir . '/jetpack_vendor/automattic/jetpack-wp-js-data-sync/src/schema/modifiers/class-decorate-with-default.php',
     'Automattic\\Jetpack\\WP_JS_Data_Sync\\Schema\\Schema' => $baseDir . '/jetpack_vendor/automattic/jetpack-wp-js-data-sync/src/schema/class-schema.php',
     'Automattic\\Jetpack\\WP_JS_Data_Sync\\Schema\\Schema_Type' => $baseDir . '/jetpack_vendor/automattic/jetpack-wp-js-data-sync/src/schema/interface-schema-type.php',
+    'Automattic\\Jetpack\\WP_JS_Data_Sync\\Schema\\Types\\Type_Any_JSON' => $baseDir . '/jetpack_vendor/automattic/jetpack-wp-js-data-sync/src/schema/types/class-type-any-json.php',
     'Automattic\\Jetpack\\WP_JS_Data_Sync\\Schema\\Types\\Type_Array' => $baseDir . '/jetpack_vendor/automattic/jetpack-wp-js-data-sync/src/schema/types/class-type-array.php',
     'Automattic\\Jetpack\\WP_JS_Data_Sync\\Schema\\Types\\Type_Assoc_Array' => $baseDir . '/jetpack_vendor/automattic/jetpack-wp-js-data-sync/src/schema/types/class-type-assoc-array.php',
     'Automattic\\Jetpack\\WP_JS_Data_Sync\\Schema\\Types\\Type_Boolean' => $baseDir . '/jetpack_vendor/automattic/jetpack-wp-js-data-sync/src/schema/types/class-type-boolean.php',
