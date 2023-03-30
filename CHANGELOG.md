@@ -12,6 +12,7 @@ This is an alpha version! The changes listed here are not final.
 ### Added
 - (Backup, Boost, Search, Social) Add links on upgrade pages to activate a license key, if you already have one.
 - Added notice to regenerate critical CSS on Boost dashboard
+- Add image CDN to Boost.
 - Add page optimizer functionality.
 - Introduce Jetpack Boost Image Size Analysis feature
 - Jetpack Boost: Add Critical CSS State schema validation

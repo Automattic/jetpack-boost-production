@@ -190,6 +190,26 @@ return array(
 		'version' => '1.51.5.0',
 		'path'    => $baseDir . '/jetpack_vendor/automattic/jetpack-connection/src/class-heartbeat.php'
 	),
+	'Automattic\\Jetpack\\Image_CDN\\Image_CDN' => array(
+		'version' => '0.1.0.0-alpha',
+		'path'    => $baseDir . '/jetpack_vendor/automattic/jetpack-image-cdn/src/class-image-cdn.php'
+	),
+	'Automattic\\Jetpack\\Image_CDN\\Image_CDN_Core' => array(
+		'version' => '0.1.0.0-alpha',
+		'path'    => $baseDir . '/jetpack_vendor/automattic/jetpack-image-cdn/src/class-image-cdn-core.php'
+	),
+	'Automattic\\Jetpack\\Image_CDN\\Image_CDN_Image' => array(
+		'version' => '0.1.0.0-alpha',
+		'path'    => $baseDir . '/jetpack_vendor/automattic/jetpack-image-cdn/src/class-image-cdn-image.php'
+	),
+	'Automattic\\Jetpack\\Image_CDN\\Image_CDN_Image_Sizes' => array(
+		'version' => '0.1.0.0-alpha',
+		'path'    => $baseDir . '/jetpack_vendor/automattic/jetpack-image-cdn/src/class-image-cdn-image-sizes.php'
+	),
+	'Automattic\\Jetpack\\Image_CDN\\Image_CDN_Setup' => array(
+		'version' => '0.1.0.0-alpha',
+		'path'    => $baseDir . '/jetpack_vendor/automattic/jetpack-image-cdn/src/class-image-cdn-setup.php'
+	),
 	'Automattic\\Jetpack\\JITMS\\JITM' => array(
 		'version' => '2.3.5.0-alpha',
 		'path'    => $baseDir . '/jetpack_vendor/automattic/jetpack-jitm/src/class-jitm.php'
@@ -673,6 +693,10 @@ return array(
 	'Automattic\\Jetpack_Boost\\Modules\\Optimizations\\Critical_CSS\\Generator' => array(
 		'version' => '1.8.0.0-alpha',
 		'path'    => $baseDir . '/app/modules/optimizations/critical-css/Generator.php'
+	),
+	'Automattic\\Jetpack_Boost\\Modules\\Optimizations\\Image_CDN\\Image_CDN' => array(
+		'version' => '1.8.0.0-alpha',
+		'path'    => $baseDir . '/app/modules/optimizations/image-cdn/class-image-cdn.php'
 	),
 	'Automattic\\Jetpack_Boost\\Modules\\Optimizations\\Lazy_Images\\Lazy_Images' => array(
 		'version' => '1.8.0.0-alpha',
