@@ -11,6 +11,7 @@ This is an alpha version! The changes listed here are not final.
 
 ### Added
 - (Backup, Boost, Search, Social) Add links on upgrade pages to activate a license key, if you already have one.
+- Added information about Image Guide to the readme
 - Added notice to regenerate critical CSS on Boost dashboard
 - Add image CDN to Boost.
 - Add page optimizer functionality.
