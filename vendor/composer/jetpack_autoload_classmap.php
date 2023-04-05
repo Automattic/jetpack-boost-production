@@ -374,9 +374,25 @@ return array(
 		'version' => '1.51.6.0',
 		'path'    => $baseDir . '/jetpack_vendor/automattic/jetpack-connection/src/class-tracking.php'
 	),
-	'Automattic\\Jetpack\\WP_JS_Data_Sync\\Boolean_Entry' => array(
+	'Automattic\\Jetpack\\WP_JS_Data_Sync\\Contracts\\Data_Sync_Entry_Adapter' => array(
 		'version' => '0.1.0.0-alpha',
-		'path'    => $baseDir . '/jetpack_vendor/automattic/jetpack-wp-js-data-sync/src/entry-handlers/class-boolean-entry.php'
+		'path'    => $baseDir . '/jetpack_vendor/automattic/jetpack-wp-js-data-sync/src/contracts/interface-data-sync-entry-adapter.php'
+	),
+	'Automattic\\Jetpack\\WP_JS_Data_Sync\\Contracts\\Entry_Can_Delete' => array(
+		'version' => '0.1.0.0-alpha',
+		'path'    => $baseDir . '/jetpack_vendor/automattic/jetpack-wp-js-data-sync/src/contracts/interface-entry-can-delete.php'
+	),
+	'Automattic\\Jetpack\\WP_JS_Data_Sync\\Contracts\\Entry_Can_Get' => array(
+		'version' => '0.1.0.0-alpha',
+		'path'    => $baseDir . '/jetpack_vendor/automattic/jetpack-wp-js-data-sync/src/contracts/interface-entry-can-get.php'
+	),
+	'Automattic\\Jetpack\\WP_JS_Data_Sync\\Contracts\\Entry_Can_Merge' => array(
+		'version' => '0.1.0.0-alpha',
+		'path'    => $baseDir . '/jetpack_vendor/automattic/jetpack-wp-js-data-sync/src/contracts/interface-entry-can-merge.php'
+	),
+	'Automattic\\Jetpack\\WP_JS_Data_Sync\\Contracts\\Entry_Can_Set' => array(
+		'version' => '0.1.0.0-alpha',
+		'path'    => $baseDir . '/jetpack_vendor/automattic/jetpack-wp-js-data-sync/src/contracts/interface-entry-can-set.php'
 	),
 	'Automattic\\Jetpack\\WP_JS_Data_Sync\\Data_Sync' => array(
 		'version' => '0.1.0.0-alpha',
@@ -386,9 +402,9 @@ return array(
 		'version' => '0.1.0.0-alpha',
 		'path'    => $baseDir . '/jetpack_vendor/automattic/jetpack-wp-js-data-sync/src/class-data-sync-entry.php'
 	),
-	'Automattic\\Jetpack\\WP_JS_Data_Sync\\Data_Sync_Entry_Handler' => array(
+	'Automattic\\Jetpack\\WP_JS_Data_Sync\\Data_Sync_Option' => array(
 		'version' => '0.1.0.0-alpha',
-		'path'    => $baseDir . '/jetpack_vendor/automattic/jetpack-wp-js-data-sync/src/entry-handlers/class-data-sync-entry-handler.php'
+		'path'    => $baseDir . '/jetpack_vendor/automattic/jetpack-wp-js-data-sync/src/class-data-sync-option.php'
 	),
 	'Automattic\\Jetpack\\WP_JS_Data_Sync\\Endpoints\\Authenticated_Nonce' => array(
 		'version' => '0.1.0.0-alpha',
@@ -450,14 +466,6 @@ return array(
 		'version' => '0.1.0.0-alpha',
 		'path'    => $baseDir . '/jetpack_vendor/automattic/jetpack-wp-js-data-sync/src/schema/class-validation-rule.php'
 	),
-	'Automattic\\Jetpack\\WP_JS_Data_Sync\\Storage_Drivers\\Storage_Driver' => array(
-		'version' => '0.1.0.0-alpha',
-		'path'    => $baseDir . '/jetpack_vendor/automattic/jetpack-wp-js-data-sync/src/storage-drivers/class-storage-driver.php'
-	),
-	'Automattic\\Jetpack\\WP_JS_Data_Sync\\Storage_Drivers\\WP_Option_Storage' => array(
-		'version' => '0.1.0.0-alpha',
-		'path'    => $baseDir . '/jetpack_vendor/automattic/jetpack-wp-js-data-sync/src/storage-drivers/class-wp-option-storage.php'
-	),
 	'Automattic\\Jetpack_Boost\\Admin\\Admin' => array(
 		'version' => '1.8.0.0-alpha',
 		'path'    => $baseDir . '/app/admin/class-admin.php'
@@ -485,14 +493,6 @@ return array(
 	'Automattic\\Jetpack_Boost\\Contracts\\Pluggable' => array(
 		'version' => '1.8.0.0-alpha',
 		'path'    => $baseDir . '/app/contracts/Pluggable.php'
-	),
-	'Automattic\\Jetpack_Boost\\Data_Sync\\Cloud_CSS_Sync' => array(
-		'version' => '1.8.0.0-alpha',
-		'path'    => $baseDir . '/app/data-sync/cloud-css-sync.php'
-	),
-	'Automattic\\Jetpack_Boost\\Data_Sync\\Critical_CSS_State_Handler' => array(
-		'version' => '1.8.0.0-alpha',
-		'path'    => $baseDir . '/app/data-sync/critical-css-state-handler.php'
 	),
 	'Automattic\\Jetpack_Boost\\Features\\Image_Guide\\Image_Guide' => array(
 		'version' => '1.8.0.0-alpha',

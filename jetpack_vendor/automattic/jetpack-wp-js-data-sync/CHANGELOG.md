@@ -18,6 +18,7 @@ This is an alpha version! The changes listed here are not final.
 ### Changed
 - Auto-formatting files.
 - Auto-formatting of the package.json.
+- Refactored WP JS Data Sync to a more flexible approach and use schemas for ensuring the data is the correct shape.
 
 ### Fixed
 - Jetpack Boost: Fix assoc_array schema validation

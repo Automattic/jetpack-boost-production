@@ -29,6 +29,7 @@ This is an alpha version! The changes listed here are not final.
 - Update contributors list.
 - Updated package dependencies.
 - Update to React 18.
+- Use the updated DataSync package.
 
 ### Fixed
 - Add missing closing tag.
