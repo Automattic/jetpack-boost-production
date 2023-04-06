@@ -13,6 +13,9 @@ This is an alpha version! The changes listed here are not final.
 - Improved Image CDN description
 - Improved the way modules are toggled
 
+### Fixed
+- Don't run local regenerate automagically when using cloud css
+
 ## [1.8.0-beta] - 2023-04-06
 ### Added
 - Critical CSS: Added a notice to regenerate Critical CSS to the Boost dashboard. [#28858]
