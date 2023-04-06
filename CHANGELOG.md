@@ -25,6 +25,7 @@ This is an alpha version! The changes listed here are not final.
 - General: indicate full compatibility with the latest version of WordPress, 6.2.
 - Improved getting started experience
 - Improved Image CDN description
+- Improved the way modules are toggled
 - Remove `ci.targets` from package.json. Better scoping of e2e tests.
 - Update auto-labeling rules for Boost features and rename "Feature" to "Pluggable"
 - Update contributors list.

@@ -10,6 +10,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 This is an alpha version! The changes listed here are not final.
 
 ### Added
+- Added action hooks to fire during store value update
 - Added Schema class to help parsing data
 - Add initial skeleton for the package.y
 - First release
