@@ -494,13 +494,9 @@ return array(
 		'version' => '1.8.0.0-beta',
 		'path'    => $baseDir . '/app/contracts/Pluggable.php'
 	),
-	'Automattic\\Jetpack_Boost\\Features\\Image_Guide\\Image_Guide' => array(
+	'Automattic\\Jetpack_Boost\\Data_Sync\\Modules_Status_Entry' => array(
 		'version' => '1.8.0.0-beta',
-		'path'    => $baseDir . '/app/modules/image-guide/Image_Guide.php'
-	),
-	'Automattic\\Jetpack_Boost\\Features\\Image_Size_Analysis\\Image_Size_Analysis' => array(
-		'version' => '1.8.0.0-beta',
-		'path'    => $baseDir . '/app/modules/image-size-analysis/Image_Size_Analysis.php'
+		'path'    => $baseDir . '/app/data-sync/Modules_Status_Entry.php'
 	),
 	'Automattic\\Jetpack_Boost\\Features\\Setup_Prompt\\Setup_Prompt' => array(
 		'version' => '1.8.0.0-beta',
@@ -666,13 +662,25 @@ return array(
 		'version' => '1.8.0.0-beta',
 		'path'    => $baseDir . '/app/lib/WPCOM_Boost_API_Client.php'
 	),
+	'Automattic\\Jetpack_Boost\\Modules\\Image_Guide\\Image_Guide' => array(
+		'version' => '1.8.0.0-beta',
+		'path'    => $baseDir . '/app/modules/image-guide/Image_Guide.php'
+	),
+	'Automattic\\Jetpack_Boost\\Modules\\Image_Size_Analysis\\Image_Size_Analysis' => array(
+		'version' => '1.8.0.0-beta',
+		'path'    => $baseDir . '/app/modules/image-size-analysis/Image_Size_Analysis.php'
+	),
 	'Automattic\\Jetpack_Boost\\Modules\\Module' => array(
 		'version' => '1.8.0.0-beta',
 		'path'    => $baseDir . '/app/modules/Module.php'
 	),
-	'Automattic\\Jetpack_Boost\\Modules\\Modules' => array(
+	'Automattic\\Jetpack_Boost\\Modules\\Modules_Index' => array(
 		'version' => '1.8.0.0-beta',
-		'path'    => $baseDir . '/app/modules/Modules.php'
+		'path'    => $baseDir . '/app/modules/Modules_Index.php'
+	),
+	'Automattic\\Jetpack_Boost\\Modules\\Modules_Setup' => array(
+		'version' => '1.8.0.0-beta',
+		'path'    => $baseDir . '/app/modules/Modules_Setup.php'
 	),
 	'Automattic\\Jetpack_Boost\\Modules\\Optimizations\\Cloud_CSS\\Cloud_CSS' => array(
 		'version' => '1.8.0.0-beta',
@@ -753,14 +761,6 @@ return array(
 	'Automattic\\Jetpack_Boost\\REST_API\\Endpoints\\List_Site_Urls' => array(
 		'version' => '1.8.0.0-beta',
 		'path'    => $baseDir . '/app/rest-api/endpoints/List_Site_Urls.php'
-	),
-	'Automattic\\Jetpack_Boost\\REST_API\\Endpoints\\Module_Status' => array(
-		'version' => '1.8.0.0-beta',
-		'path'    => $baseDir . '/app/rest-api/endpoints/Module_Status.php'
-	),
-	'Automattic\\Jetpack_Boost\\REST_API\\Endpoints\\Optimizations_Status' => array(
-		'version' => '1.8.0.0-beta',
-		'path'    => $baseDir . '/app/rest-api/endpoints/Optimizations_Status.php'
 	),
 	'Automattic\\Jetpack_Boost\\REST_API\\Endpoints\\Update_Cloud_CSS' => array(
 		'version' => '1.8.0.0-beta',

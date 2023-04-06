@@ -11,6 +11,7 @@ This is an alpha version! The changes listed here are not final.
 
 ### Changed
 - Improved Image CDN description
+- Improved the way modules are toggled
 
 ## [1.8.0-beta] - 2023-04-06
 ### Added
