@@ -39,6 +39,7 @@ This is an alpha version! The changes listed here are not final.
 - Cloud CSS: Refactor the follow-up process.
 - Don't run local regenerate automagically when using cloud css
 - Ensure changes to visible posts / other post types which affect the ui get caught
+- Fixed a mismatch in cloud-css key
 - Fixed images sometimes failing to Lazy-load in Safari.
 - Fixed the GET params sent to WordPress.com during signup
 - Fixed Undefined array key "post" warning

@@ -22,4 +22,5 @@ This is an alpha version! The changes listed here are not final.
 - Refactored WP JS Data Sync to a more flexible approach and use schemas for ensuring the data is the correct shape.
 
 ### Fixed
+- Fixed errors on GET requests
 - Jetpack Boost: Fix assoc_array schema validation
