@@ -15,6 +15,7 @@ This is an alpha version! The changes listed here are not final.
 
 ### Fixed
 - Don't run local regenerate automagically when using cloud css
+- Fixed a mismatch in cloud-css key
 
 ## [1.8.0-beta] - 2023-04-06
 ### Added
