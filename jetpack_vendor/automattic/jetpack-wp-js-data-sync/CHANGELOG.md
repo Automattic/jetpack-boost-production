@@ -12,6 +12,9 @@ This is an alpha version! The changes listed here are not final.
 ### Added
 - Added action hooks to fire during store value update
 
+### Changed
+- Ensure most up-to-date package version is in use.
+
 ### Fixed
 - Fixed errors on GET requests
 
