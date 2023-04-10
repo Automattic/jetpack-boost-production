@@ -11,6 +11,7 @@ This is an alpha version! The changes listed here are not final.
 
 ### Added
 - Added action hooks to fire during store value update
+- Add Jetpack Autoloader package suggestion.
 
 ### Changed
 - Ensure most up-to-date package version is in use.
