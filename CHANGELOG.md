@@ -12,6 +12,7 @@ This is an alpha version! The changes listed here are not final.
 ### Changed
 - Improved Image CDN description
 - Improved the way modules are toggled
+- Updated package dependencies.
 
 ### Fixed
 - Don't run local regenerate automagically when using cloud css
