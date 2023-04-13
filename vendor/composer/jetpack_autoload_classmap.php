@@ -494,9 +494,9 @@ return array(
 		'version' => '1.8.1.0-alpha',
 		'path'    => $baseDir . '/app/contracts/Pluggable.php'
 	),
-	'Automattic\\Jetpack_Boost\\Data_Sync\\Modules_Status_Entry' => array(
+	'Automattic\\Jetpack_Boost\\Data_Sync\\Modules_State_Entry' => array(
 		'version' => '1.8.1.0-alpha',
-		'path'    => $baseDir . '/app/data-sync/Modules_Status_Entry.php'
+		'path'    => $baseDir . '/app/data-sync/Modules_State_Entry.php'
 	),
 	'Automattic\\Jetpack_Boost\\Features\\Setup_Prompt\\Setup_Prompt' => array(
 		'version' => '1.8.1.0-alpha',
