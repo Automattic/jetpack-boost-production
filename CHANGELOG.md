@@ -17,6 +17,7 @@ This is an alpha version! The changes listed here are not final.
 - Don't run local regenerate automagically when using cloud css
 - Fixed a mismatch in cloud-css key
 - Fixed some language choices around Boost popups
+- Jetpack Boost: Fix Critical CSS Requests on page load
 
 ## [1.8.0-beta] - 2023-04-06
 ### Added
