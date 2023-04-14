@@ -17,6 +17,7 @@ This is an alpha version! The changes listed here are not final.
 - Deferred JS: Fix for some extremely short pages (such as WooCommerce Box Office tickets being printed) from resulting in a blank page
 - Don't run local regenerate automagically when using cloud css
 - Fixed a mismatch in cloud-css key
+- Fixed an issue causing reactiveness of module toggle if the state failed to update
 - Fixed some language choices around Boost popups
 - Jetpack Boost: Fix Critical CSS Requests on page load
 
