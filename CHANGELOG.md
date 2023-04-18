@@ -21,7 +21,7 @@ This is an alpha version! The changes listed here are not final.
 - Fixed some language choices around Boost popups
 - Jetpack Boost: Fix Critical CSS Requests on page load
 
-## [1.8.0-beta] - 2023-04-06
+## [1.8.0] - 2023-04-06
 ### Added
 - Critical CSS: Added a notice to regenerate Critical CSS to the Boost dashboard. [#28858]
 - General: Added a link to activate a license key. [#29443]
@@ -252,8 +252,8 @@ This is an alpha version! The changes listed here are not final.
 [1.3.0-beta]: https://github.com/Automattic/jetpack-boost-production/compare/v1.2.0...v1.3.0-beta
 [1.2.0]: https://github.com/Automattic/jetpack-boost-production/compare/v1.1.0...v1.2.0-beta
 [1.4.3-beta]: https://github.com/Automattic/jetpack-boost-production/compare/v1.4.2...v1.4.3-beta
-[1.8.1-alpha]: https://github.com/Automattic/jetpack-boost-production/compare/v1.8.0-beta...v1.8.1-alpha
-[1.8.0-beta]: https://github.com/Automattic/jetpack-boost-production/compare/v1.7.0...v1.8.0-beta
+[1.8.1-alpha]: https://github.com/Automattic/jetpack-boost-production/compare/v1.8.0...v1.8.1-alpha
+[1.8.0]: https://github.com/Automattic/jetpack-boost-production/compare/v1.7.0...v1.8.0
 [1.7.0]: https://github.com/Automattic/jetpack-boost-production/compare/v1.6.0...v1.7.0
 [1.6.0]: https://github.com/Automattic/jetpack-boost-production/compare/v1.5.4...v1.6.0
 [1.5.4]: https://github.com/Automattic/jetpack-boost-production/compare/v1.5.3...v1.5.4
