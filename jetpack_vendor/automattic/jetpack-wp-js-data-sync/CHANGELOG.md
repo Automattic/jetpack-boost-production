@@ -18,6 +18,7 @@ This is an alpha version! The changes listed here are not final.
 
 ### Fixed
 - Fixed errors on GET requests
+- Jetpack Boost: Fix PHP 8.2 Warnings
 
 ## 0.1.0 - 2023-04-06
 ### Added

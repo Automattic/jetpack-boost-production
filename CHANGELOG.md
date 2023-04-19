@@ -21,6 +21,7 @@ This is an alpha version! The changes listed here are not final.
 - Fixed an issue causing reactiveness of module toggle if the state failed to update
 - Fixed some language choices around Boost popups
 - Jetpack Boost: Fix Critical CSS Requests on page load
+- Jetpack Boost: Fix PHP 8.2 Warnings
 
 ## [1.8.0-beta] - 2023-04-06
 ### Added
