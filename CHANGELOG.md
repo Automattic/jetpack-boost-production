@@ -14,6 +14,9 @@ This is an alpha version! The changes listed here are not final.
 - Improved the way modules are toggled
 - Updated package dependencies.
 
+### Removed
+- Removed back button from purchase success page
+
 ### Fixed
 - Deferred JS: Fix for some extremely short pages (such as WooCommerce Box Office tickets being printed) from resulting in a blank page
 - Don't run local regenerate automagically when using cloud css
