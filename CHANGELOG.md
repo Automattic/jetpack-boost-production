@@ -5,7 +5,7 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
-## [1.8.1-alpha] - unreleased
+## [1.9.0-alpha] - unreleased
 
 This is an alpha version! The changes listed here are not final.
 
@@ -15,6 +15,7 @@ This is an alpha version! The changes listed here are not final.
 ### Changed
 - Improved Image CDN description
 - Improved the way modules are toggled
+- Remove conditional rendering from zendesk chat widget component due to it being handled by an api endpoint now
 - Updated package dependencies.
 
 ### Removed
@@ -260,7 +261,7 @@ This is an alpha version! The changes listed here are not final.
 [1.3.0-beta]: https://github.com/Automattic/jetpack-boost-production/compare/v1.2.0...v1.3.0-beta
 [1.2.0]: https://github.com/Automattic/jetpack-boost-production/compare/v1.1.0...v1.2.0-beta
 [1.4.3-beta]: https://github.com/Automattic/jetpack-boost-production/compare/v1.4.2...v1.4.3-beta
-[1.8.1-alpha]: https://github.com/Automattic/jetpack-boost-production/compare/v1.8.0-beta...v1.8.1-alpha
+[1.9.0-alpha]: https://github.com/Automattic/jetpack-boost-production/compare/v1.8.0-beta...v1.9.0-alpha
 [1.8.0-beta]: https://github.com/Automattic/jetpack-boost-production/compare/v1.7.0...v1.8.0-beta
 [1.7.0]: https://github.com/Automattic/jetpack-boost-production/compare/v1.6.0...v1.7.0
 [1.6.0]: https://github.com/Automattic/jetpack-boost-production/compare/v1.5.4...v1.6.0
