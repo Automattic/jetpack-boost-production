@@ -12,6 +12,9 @@ This is an alpha version! The changes listed here are not final.
 ### Added
 - Add Jetpack Autoloader package suggestion.
 
+### Changed
+- Updated package dependencies.
+
 ## [0.1.3] - 2023-04-06
 ### Changed
 - Updated package dependencies. [#29471]
