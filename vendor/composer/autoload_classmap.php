@@ -126,6 +126,7 @@ return array(
     'Automattic\\Jetpack_Boost\\Contracts\\Has_Setup' => $baseDir . '/app/contracts/Has_Setup.php',
     'Automattic\\Jetpack_Boost\\Contracts\\Has_Slug' => $baseDir . '/app/contracts/Has_Slug.php',
     'Automattic\\Jetpack_Boost\\Contracts\\Pluggable' => $baseDir . '/app/contracts/Pluggable.php',
+    'Automattic\\Jetpack_Boost\\Data_Sync\\Image_Size_Analysis_Entry' => $baseDir . '/app/data-sync/Image_Size_Analysis_Entry.php',
     'Automattic\\Jetpack_Boost\\Data_Sync\\Modules_State_Entry' => $baseDir . '/app/data-sync/Modules_State_Entry.php',
     'Automattic\\Jetpack_Boost\\Features\\Setup_Prompt\\Setup_Prompt' => $baseDir . '/app/features/setup-prompt/Setup_Prompt.php',
     'Automattic\\Jetpack_Boost\\Features\\Speed_Score\\Speed_Score' => $baseDir . '/app/features/speed-score/Speed_Score.php',

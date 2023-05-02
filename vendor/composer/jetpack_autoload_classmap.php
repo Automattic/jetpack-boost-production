@@ -498,6 +498,10 @@ return array(
 		'version' => '1.9.0.0-alpha',
 		'path'    => $baseDir . '/app/contracts/Pluggable.php'
 	),
+	'Automattic\\Jetpack_Boost\\Data_Sync\\Image_Size_Analysis_Entry' => array(
+		'version' => '1.9.0.0-alpha',
+		'path'    => $baseDir . '/app/data-sync/Image_Size_Analysis_Entry.php'
+	),
 	'Automattic\\Jetpack_Boost\\Data_Sync\\Modules_State_Entry' => array(
 		'version' => '1.9.0.0-alpha',
 		'path'    => $baseDir . '/app/data-sync/Modules_State_Entry.php'

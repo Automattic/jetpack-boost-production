@@ -163,6 +163,7 @@ class ComposerStaticInitb1e77e6231d50e7663f84529b6a3dfda_jetpack_boostⓥ1_9_0_a
         'Automattic\\Jetpack_Boost\\Contracts\\Has_Setup' => __DIR__ . '/../..' . '/app/contracts/Has_Setup.php',
         'Automattic\\Jetpack_Boost\\Contracts\\Has_Slug' => __DIR__ . '/../..' . '/app/contracts/Has_Slug.php',
         'Automattic\\Jetpack_Boost\\Contracts\\Pluggable' => __DIR__ . '/../..' . '/app/contracts/Pluggable.php',
+        'Automattic\\Jetpack_Boost\\Data_Sync\\Image_Size_Analysis_Entry' => __DIR__ . '/../..' . '/app/data-sync/Image_Size_Analysis_Entry.php',
         'Automattic\\Jetpack_Boost\\Data_Sync\\Modules_State_Entry' => __DIR__ . '/../..' . '/app/data-sync/Modules_State_Entry.php',
         'Automattic\\Jetpack_Boost\\Features\\Setup_Prompt\\Setup_Prompt' => __DIR__ . '/../..' . '/app/features/setup-prompt/Setup_Prompt.php',
         'Automattic\\Jetpack_Boost\\Features\\Speed_Score\\Speed_Score' => __DIR__ . '/../..' . '/app/features/speed-score/Speed_Score.php',
