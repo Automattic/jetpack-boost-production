@@ -515,7 +515,7 @@
             "dist": {
                 "type": "path",
                 "url": "/tmp/jetpack-build/Automattic/jetpack-image-cdn",
-                "reference": "49232f276dbc97dffbf88dd971f8a384d4f8e28e"
+                "reference": "4af89385bf8bb9afca47a04c8abf1b6560e3ac02"
             },
             "require": {
                 "automattic/jetpack-assets": "^1.18.2",
@@ -564,10 +564,10 @@
                     "WorDBless\\Composer\\InstallDropin::copy"
                 ],
                 "build-production": [
-                    "echo 'Add your build step to composer.json, please!'"
+                    "pnpm run build-production"
                 ],
                 "build-development": [
-                    "echo 'Add your build step to composer.json, please!'"
+                    "pnpm run build"
                 ]
             },
             "license": [

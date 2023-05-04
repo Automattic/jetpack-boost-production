@@ -12,6 +12,9 @@ This is an alpha version! The changes listed here are not final.
 ### Added
 - Add Jetpack Autoloader package suggestion.
 
+### Changed
+- Update photon compatibility to allow using the package in Jetpack
+
 ### Removed
 - Remove unused method used to update images in Open Graph Meta tags.
 
