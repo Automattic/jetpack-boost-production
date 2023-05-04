@@ -18,6 +18,7 @@ This is an alpha version! The changes listed here are not final.
 - Improved the way modules are toggled
 - Remove conditional rendering from zendesk chat widget component due to it being handled by an api endpoint now
 - Updated package dependencies.
+- Update minify feature to have two separate toggles - one for JS and one for CSS.
 
 ### Removed
 - Removed back button from purchase success page

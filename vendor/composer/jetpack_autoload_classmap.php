@@ -502,6 +502,10 @@ return array(
 		'version' => '1.9.0.0-alpha',
 		'path'    => $baseDir . '/app/data-sync/Image_Size_Analysis_Entry.php'
 	),
+	'Automattic\\Jetpack_Boost\\Data_Sync\\Minify_Excludes_State_Entry' => array(
+		'version' => '1.9.0.0-alpha',
+		'path'    => $baseDir . '/app/data-sync/Minify_Excludes_State_Entry.php'
+	),
 	'Automattic\\Jetpack_Boost\\Data_Sync\\Modules_State_Entry' => array(
 		'version' => '1.9.0.0-alpha',
 		'path'    => $baseDir . '/app/data-sync/Modules_State_Entry.php'
@@ -614,6 +618,22 @@ return array(
 		'version' => '1.9.0.0-alpha',
 		'path'    => $baseDir . '/app/lib/class-minify.php'
 	),
+	'Automattic\\Jetpack_Boost\\Lib\\Minify\\Concatenate_CSS' => array(
+		'version' => '1.9.0.0-alpha',
+		'path'    => $baseDir . '/app/lib/minify/Concatenate_CSS.php'
+	),
+	'Automattic\\Jetpack_Boost\\Lib\\Minify\\Concatenate_JS' => array(
+		'version' => '1.9.0.0-alpha',
+		'path'    => $baseDir . '/app/lib/minify/Concatenate_JS.php'
+	),
+	'Automattic\\Jetpack_Boost\\Lib\\Minify\\Config' => array(
+		'version' => '1.9.0.0-alpha',
+		'path'    => $baseDir . '/app/lib/minify/Config.php'
+	),
+	'Automattic\\Jetpack_Boost\\Lib\\Minify\\Dependency_Path_Mapping' => array(
+		'version' => '1.9.0.0-alpha',
+		'path'    => $baseDir . '/app/lib/minify/Dependency_Path_Mapping.php'
+	),
 	'Automattic\\Jetpack_Boost\\Lib\\Nonce' => array(
 		'version' => '1.9.0.0-alpha',
 		'path'    => $baseDir . '/app/lib/class-nonce.php'
@@ -718,25 +738,13 @@ return array(
 		'version' => '1.9.0.0-alpha',
 		'path'    => $baseDir . '/app/modules/optimizations/lazy-images/class-lazy-images.php'
 	),
-	'Automattic\\Jetpack_Boost\\Modules\\Optimizations\\Minify\\Concatenate_CSS' => array(
+	'Automattic\\Jetpack_Boost\\Modules\\Optimizations\\Minify\\Minify_CSS' => array(
 		'version' => '1.9.0.0-alpha',
-		'path'    => $baseDir . '/app/modules/optimizations/minify/Concatenate_CSS.php'
+		'path'    => $baseDir . '/app/modules/optimizations/minify/class-minify-css.php'
 	),
-	'Automattic\\Jetpack_Boost\\Modules\\Optimizations\\Minify\\Concatenate_JS' => array(
+	'Automattic\\Jetpack_Boost\\Modules\\Optimizations\\Minify\\Minify_JS' => array(
 		'version' => '1.9.0.0-alpha',
-		'path'    => $baseDir . '/app/modules/optimizations/minify/Concatenate_JS.php'
-	),
-	'Automattic\\Jetpack_Boost\\Modules\\Optimizations\\Minify\\Config' => array(
-		'version' => '1.9.0.0-alpha',
-		'path'    => $baseDir . '/app/modules/optimizations/minify/Config.php'
-	),
-	'Automattic\\Jetpack_Boost\\Modules\\Optimizations\\Minify\\Dependency_Path_Mapping' => array(
-		'version' => '1.9.0.0-alpha',
-		'path'    => $baseDir . '/app/modules/optimizations/minify/Dependency_Path_Mapping.php'
-	),
-	'Automattic\\Jetpack_Boost\\Modules\\Optimizations\\Minify\\Minify' => array(
-		'version' => '1.9.0.0-alpha',
-		'path'    => $baseDir . '/app/modules/optimizations/minify/Minify.php'
+		'path'    => $baseDir . '/app/modules/optimizations/minify/class-minify-js.php'
 	),
 	'Automattic\\Jetpack_Boost\\Modules\\Optimizations\\Render_Blocking_JS\\Render_Blocking_JS' => array(
 		'version' => '1.9.0.0-alpha',
