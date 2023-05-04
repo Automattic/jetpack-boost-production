@@ -12,6 +12,7 @@ This is an alpha version! The changes listed here are not final.
 ### Added
 - Jetpack Boost: Add image guide pagination
 - Jetpack Boost: Image Guide UI
+- Update list-site-urls endpoint records to include groups.
 
 ### Changed
 - Improved Image CDN description
