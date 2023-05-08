@@ -17,6 +17,7 @@ This is an alpha version! The changes listed here are not final.
 ### Changed
 - Improved Image CDN description
 - Improved the way modules are toggled
+- Jetpack Boost: Image Guide UI: Phase 4
 - Remove conditional rendering from zendesk chat widget component due to it being handled by an api endpoint now
 - Updated package dependencies.
 - Update minify feature to have two separate toggles - one for JS and one for CSS.
