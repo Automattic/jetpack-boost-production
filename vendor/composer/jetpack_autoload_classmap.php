@@ -378,9 +378,9 @@ return array(
 		'version' => '1.51.8.0',
 		'path'    => $baseDir . '/jetpack_vendor/automattic/jetpack-connection/src/class-tracking.php'
 	),
-	'Automattic\\Jetpack\\WP_JS_Data_Sync\\Contracts\\Data_Sync_Entry_Adapter' => array(
+	'Automattic\\Jetpack\\WP_JS_Data_Sync\\Contracts\\Data_Sync_Entry' => array(
 		'version' => '0.2.0.0-alpha',
-		'path'    => $baseDir . '/jetpack_vendor/automattic/jetpack-wp-js-data-sync/src/contracts/interface-data-sync-entry-adapter.php'
+		'path'    => $baseDir . '/jetpack_vendor/automattic/jetpack-wp-js-data-sync/src/contracts/interface-data-sync-entry.php'
 	),
 	'Automattic\\Jetpack\\WP_JS_Data_Sync\\Contracts\\Entry_Can_Delete' => array(
 		'version' => '0.2.0.0-alpha',
@@ -398,13 +398,21 @@ return array(
 		'version' => '0.2.0.0-alpha',
 		'path'    => $baseDir . '/jetpack_vendor/automattic/jetpack-wp-js-data-sync/src/contracts/interface-entry-can-set.php'
 	),
+	'Automattic\\Jetpack\\WP_JS_Data_Sync\\Contracts\\Entry_Has_Custom_Endpoints' => array(
+		'version' => '0.2.0.0-alpha',
+		'path'    => $baseDir . '/jetpack_vendor/automattic/jetpack-wp-js-data-sync/src/contracts/interface-entry-custom-endpoint.php'
+	),
+	'Automattic\\Jetpack\\WP_JS_Data_Sync\\Contracts\\Lazy_Entry' => array(
+		'version' => '0.2.0.0-alpha',
+		'path'    => $baseDir . '/jetpack_vendor/automattic/jetpack-wp-js-data-sync/src/contracts/interface-lazy-entry.php'
+	),
 	'Automattic\\Jetpack\\WP_JS_Data_Sync\\Data_Sync' => array(
 		'version' => '0.2.0.0-alpha',
 		'path'    => $baseDir . '/jetpack_vendor/automattic/jetpack-wp-js-data-sync/src/class-data-sync.php'
 	),
-	'Automattic\\Jetpack\\WP_JS_Data_Sync\\Data_Sync_Entry' => array(
+	'Automattic\\Jetpack\\WP_JS_Data_Sync\\Data_Sync_Entry_Adapter' => array(
 		'version' => '0.2.0.0-alpha',
-		'path'    => $baseDir . '/jetpack_vendor/automattic/jetpack-wp-js-data-sync/src/class-data-sync-entry.php'
+		'path'    => $baseDir . '/jetpack_vendor/automattic/jetpack-wp-js-data-sync/src/class-data-sync-entry-adapter.php'
 	),
 	'Automattic\\Jetpack\\WP_JS_Data_Sync\\Data_Sync_Option' => array(
 		'version' => '0.2.0.0-alpha',
@@ -426,13 +434,13 @@ return array(
 		'version' => '0.2.0.0-alpha',
 		'path'    => $baseDir . '/jetpack_vendor/automattic/jetpack-wp-js-data-sync/src/schema/modifiers/class-decorate-with-default.php'
 	),
+	'Automattic\\Jetpack\\WP_JS_Data_Sync\\Schema\\Parser' => array(
+		'version' => '0.2.0.0-alpha',
+		'path'    => $baseDir . '/jetpack_vendor/automattic/jetpack-wp-js-data-sync/src/schema/interface-parser.php'
+	),
 	'Automattic\\Jetpack\\WP_JS_Data_Sync\\Schema\\Schema' => array(
 		'version' => '0.2.0.0-alpha',
 		'path'    => $baseDir . '/jetpack_vendor/automattic/jetpack-wp-js-data-sync/src/schema/class-schema.php'
-	),
-	'Automattic\\Jetpack\\WP_JS_Data_Sync\\Schema\\Schema_Type' => array(
-		'version' => '0.2.0.0-alpha',
-		'path'    => $baseDir . '/jetpack_vendor/automattic/jetpack-wp-js-data-sync/src/schema/interface-schema-type.php'
 	),
 	'Automattic\\Jetpack\\WP_JS_Data_Sync\\Schema\\Types\\Type_Any_JSON' => array(
 		'version' => '0.2.0.0-alpha',
@@ -465,10 +473,6 @@ return array(
 	'Automattic\\Jetpack\\WP_JS_Data_Sync\\Schema\\Types\\Type_String' => array(
 		'version' => '0.2.0.0-alpha',
 		'path'    => $baseDir . '/jetpack_vendor/automattic/jetpack-wp-js-data-sync/src/schema/types/class-type-string.php'
-	),
-	'Automattic\\Jetpack\\WP_JS_Data_Sync\\Schema\\Validation_Rule' => array(
-		'version' => '0.2.0.0-alpha',
-		'path'    => $baseDir . '/jetpack_vendor/automattic/jetpack-wp-js-data-sync/src/schema/class-validation-rule.php'
 	),
 	'Automattic\\Jetpack_Boost\\Admin\\Admin' => array(
 		'version' => '1.9.0.0-alpha',
@@ -505,6 +509,10 @@ return array(
 	'Automattic\\Jetpack_Boost\\Data_Sync\\Image_Size_Analysis_Groups' => array(
 		'version' => '1.9.0.0-alpha',
 		'path'    => $baseDir . '/app/data-sync/Image_Size_Analysis_Groups.php'
+	),
+	'Automattic\\Jetpack_Boost\\Data_Sync\\Image_Size_Analysis_Ignored_Images' => array(
+		'version' => '1.9.0.0-alpha',
+		'path'    => $baseDir . '/app/data-sync/Image_Size_Analysis_Ignored_Images.php'
 	),
 	'Automattic\\Jetpack_Boost\\Data_Sync\\Minify_Excludes_State_Entry' => array(
 		'version' => '1.9.0.0-alpha',

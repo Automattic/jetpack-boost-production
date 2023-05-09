@@ -14,6 +14,8 @@ This is an alpha version! The changes listed here are not final.
 - Add Jetpack Autoloader package suggestion.
 
 ### Changed
+- Added lazy entry loading
+- Changed the Data Sync Entry terminology and updated inline documentation
 - Ensure most up-to-date package version is in use.
 - No longer auto-loading DataSync Options
 

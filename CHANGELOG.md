@@ -15,6 +15,7 @@ This is an alpha version! The changes listed here are not final.
 - Update list-site-urls endpoint records to include groups.
 
 ### Changed
+- Image Size Analysis: Phase 5
 - Improved Image CDN description
 - Improved the way modules are toggled
 - Jetpack Boost: Image Guide UI: Phase 4
