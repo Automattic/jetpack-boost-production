@@ -13,6 +13,7 @@ This is an alpha version! The changes listed here are not final.
 - Jetpack Boost: Add image guide pagination
 - Jetpack Boost: Image Guide UI
 - Update list-site-urls endpoint records to include groups.
+- Update Minify codebase to include latest updates from Page Optimize.
 
 ### Changed
 - Image Size Analysis: Phase 5
