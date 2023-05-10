@@ -30,7 +30,7 @@ return array(
     ),
     'jetpack-lazy-images' => array(
       'path' => 'jetpack_vendor/automattic/jetpack-lazy-images',
-      'ver' => '2.1.37',
+      'ver' => '2.1.38-alpha',
     ),
     'jetpack-licensing' => array(
       'path' => 'jetpack_vendor/automattic/jetpack-licensing',
