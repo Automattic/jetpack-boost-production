@@ -9,6 +9,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 This is an alpha version! The changes listed here are not final.
 
+### Changed
+- General: update link references to releases in changelog.
+
 ## [1.9.0-beta] - 2023-05-11
 ### Added
 - New Feature: Added JS and CSS file minification [#30005]
@@ -253,7 +256,7 @@ This is an alpha version! The changes listed here are not final.
 
 - First public alpha release
 
-[1.9.1-alpha]: https://github.com/Automattic/jetpack-boost-production/compare/v1.9.0-beta...v1.9.1-alpha
+[1.9.1-alpha]: https://github.com/Automattic/jetpack-boost-production/compare/1.9.0-beta...1.9.1-alpha
 [1.9.0-beta]: https://github.com/Automattic/jetpack-boost-production/compare/boost/branch-1.8.0...boost/branch-1.9.0-beta
 [1.8.0]: https://github.com/Automattic/jetpack-boost-production/compare/boost/branch-1.7.0...boost/branch-1.8.0
 [1.7.0]: https://github.com/Automattic/jetpack-boost-production/compare/boost/branch-1.6.0...boost/branch-1.7.0
