@@ -5,39 +5,25 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
-## [1.9.0-alpha] - unreleased
-
-This is an alpha version! The changes listed here are not final.
-
+## [1.9.0-beta] - 2023-05-11
 ### Added
-- Jetpack Boost: Add image guide pagination
-- Jetpack Boost: Image Guide UI
-- Update list-site-urls endpoint records to include groups.
-- Update Minify codebase to include latest updates from Page Optimize.
+- New Feature: Added JS and CSS file minification [#30005]
 
 ### Changed
-- Image Size Analysis: Phase 5
-- Improved Image CDN description
-- Improved the way modules are toggled
-- Jetpack Boost: Image Guide UI: Phase 4
-- Remove conditional rendering from zendesk chat widget component due to it being handled by an api endpoint now
-- Updated package dependencies.
-- Update minify feature to have two separate toggles - one for JS and one for CSS.
-
-### Removed
-- Removed back button from purchase success page
+- Image CDN: Improved Image CDN description [#29962]
+- User Experience: Removed back button from purchase success page [#30180]
+- General: Improved the way modules are toggled internally [#29451]
+- General: Updated package dependencies
 
 ### Fixed
-- Deferred JS: Fix for some extremely short pages (such as WooCommerce Box Office tickets being printed) from resulting in a blank page
-- Don't run local regenerate automagically when using cloud css
-- Fixed a mismatch in cloud-css key
-- Fixed an issue causing reactiveness of module toggle if the state failed to update
-- Fixed some language choices around Boost popups
-- Jetpack Boost: Fix Critical CSS Requests on page load
-- Jetpack Boost: Fix PHP 8.2 Warnings
-- Jetpack Boost: Module toggles now can handle multiple rapid clicks
+- Deferred JS: Fixed some extremely short pages (such as WooCommerce Box Office tickets being printed) from resulting in a blank page [#30025]
+- Cloud CSS: Don't run local regenerate automagically when using cloud css [#29968]
+- Cloud CSS: Fixed a mismatch in cloud-css key [#29972]
+- Critical CSS: Fixed Critical CSS from making redundant requests on page load [#30053]
+- User Experience: Fixed some language choices around Boost popups [#30048]
+- General: Fixed some PHP 8.2 Warnings [#30150]
 
-## [1.8.0-beta] - 2023-04-06
+## [1.8.0] - 2023-04-06
 ### Added
 - Critical CSS: Added a notice to regenerate Critical CSS to the Boost dashboard. [#28858]
 - General: Added a link to activate a license key. [#29443]
@@ -263,17 +249,13 @@ This is an alpha version! The changes listed here are not final.
 
 - First public alpha release
 
-[1.3.1-beta]: https://github.com/Automattic/jetpack-boost-production/compare/v1.3.0-beta...v1.3.1-beta
-[1.3.0-beta]: https://github.com/Automattic/jetpack-boost-production/compare/v1.2.0...v1.3.0-beta
-[1.2.0]: https://github.com/Automattic/jetpack-boost-production/compare/v1.1.0...v1.2.0-beta
-[1.4.3-beta]: https://github.com/Automattic/jetpack-boost-production/compare/v1.4.2...v1.4.3-beta
-[1.9.0-alpha]: https://github.com/Automattic/jetpack-boost-production/compare/v1.8.0-beta...v1.9.0-alpha
-[1.8.0-beta]: https://github.com/Automattic/jetpack-boost-production/compare/v1.7.0...v1.8.0-beta
-[1.7.0]: https://github.com/Automattic/jetpack-boost-production/compare/v1.6.0...v1.7.0
-[1.6.0]: https://github.com/Automattic/jetpack-boost-production/compare/v1.5.4...v1.6.0
-[1.5.4]: https://github.com/Automattic/jetpack-boost-production/compare/v1.5.3...v1.5.4
-[1.5.3]: https://github.com/Automattic/jetpack-boost-production/compare/v1.5.1...v1.5.3
-[1.5.1]: https://github.com/Automattic/jetpack-boost-production/compare/v1.5.0...v1.5.1
-[1.5.0]: https://github.com/Automattic/jetpack-boost-production/compare/v1.4.1...v1.5.0
-[1.4.2]: https://github.com/Automattic/jetpack-boost-production/compare/v1.4.1...v1.4.2
-[1.4.1]: https://github.com/Automattic/jetpack-boost-production/compare/v1.4.0...v1.4.1
+[1.9.0-beta]: https://github.com/Automattic/jetpack-boost-production/compare/boost/branch-1.8.0...boost/branch-1.9.0-beta
+[1.8.0]: https://github.com/Automattic/jetpack-boost-production/compare/boost/branch-1.7.0...boost/branch-1.8.0
+[1.7.0]: https://github.com/Automattic/jetpack-boost-production/compare/boost/branch-1.6.0...boost/branch-1.7.0
+[1.6.0]: https://github.com/Automattic/jetpack-boost-production/compare/boost/branch-1.5.4...boost/branch-1.6.0
+[1.5.4]: https://github.com/Automattic/jetpack-boost-production/compare/boost/branch-1.5.3...boost/branch-1.5.4
+[1.5.3]: https://github.com/Automattic/jetpack-boost-production/compare/boost/branch-1.5.1...boost/branch-1.5.3
+[1.5.1]: https://github.com/Automattic/jetpack-boost-production/compare/boost/branch-1.5.0...boost/branch-1.5.0
+[1.5.0]: https://github.com/Automattic/jetpack-boost-production/compare/boost/branch-1.4.2...boost/branch-1.5.0
+[1.4.2]: https://github.com/Automattic/jetpack-boost-production/compare/boost/branch-1.4.1...boost/branch-1.4.2
+[1.4.1]: https://github.com/Automattic/jetpack-boost-production/compare/boost/branch-1.3.1...boost/branch-1.4.1
