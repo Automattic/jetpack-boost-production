@@ -31,7 +31,7 @@
 		"tubalmartin/cssmin": "^4.1"
 	},
 	"require-dev": {
-		"automattic/jetpack-changelogger": "^3.3.3-alpha",
+		"automattic/jetpack-changelogger": "^3.3.3",
 		"automattic/wordbless": "0.4.2",
 		"brain/monkey": "2.6.1",
 		"yoast/phpunit-polyfills": "1.0.4"
