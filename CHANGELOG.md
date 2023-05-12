@@ -12,6 +12,9 @@ This is an alpha version! The changes listed here are not final.
 ### Changed
 - General: update link references to releases in changelog.
 
+### Fixed
+- Jetpack Boost: Image Size Analysis, Phase 6
+
 ## [1.9.0-beta] - 2023-05-11
 ### Added
 - New Feature: Added JS and CSS file minification [#30005]

@@ -502,18 +502,6 @@ return array(
 		'version' => '1.9.1.0-alpha',
 		'path'    => $baseDir . '/app/contracts/Pluggable.php'
 	),
-	'Automattic\\Jetpack_Boost\\Data_Sync\\Image_Size_Analysis_Entry' => array(
-		'version' => '1.9.1.0-alpha',
-		'path'    => $baseDir . '/app/data-sync/Image_Size_Analysis_Entry.php'
-	),
-	'Automattic\\Jetpack_Boost\\Data_Sync\\Image_Size_Analysis_Groups' => array(
-		'version' => '1.9.1.0-alpha',
-		'path'    => $baseDir . '/app/data-sync/Image_Size_Analysis_Groups.php'
-	),
-	'Automattic\\Jetpack_Boost\\Data_Sync\\Image_Size_Analysis_Ignored_Images' => array(
-		'version' => '1.9.1.0-alpha',
-		'path'    => $baseDir . '/app/data-sync/Image_Size_Analysis_Ignored_Images.php'
-	),
 	'Automattic\\Jetpack_Boost\\Data_Sync\\Minify_Excludes_State_Entry' => array(
 		'version' => '1.9.1.0-alpha',
 		'path'    => $baseDir . '/app/data-sync/Minify_Excludes_State_Entry.php'
@@ -705,6 +693,18 @@ return array(
 	'Automattic\\Jetpack_Boost\\Modules\\Image_Guide\\Image_Guide' => array(
 		'version' => '1.9.1.0-alpha',
 		'path'    => $baseDir . '/app/modules/image-guide/Image_Guide.php'
+	),
+	'Automattic\\Jetpack_Boost\\Modules\\Image_Size_Analysis\\Data_Sync\\Image_Size_Analysis_Entry' => array(
+		'version' => '1.9.1.0-alpha',
+		'path'    => $baseDir . '/app/modules/image-size-analysis/data-sync/Image_Size_Analysis_Entry.php'
+	),
+	'Automattic\\Jetpack_Boost\\Modules\\Image_Size_Analysis\\Data_Sync\\Image_Size_Analysis_Groups' => array(
+		'version' => '1.9.1.0-alpha',
+		'path'    => $baseDir . '/app/modules/image-size-analysis/data-sync/Image_Size_Analysis_Groups.php'
+	),
+	'Automattic\\Jetpack_Boost\\Modules\\Image_Size_Analysis\\Data_Sync\\Image_Size_Analysis_Ignored_Images' => array(
+		'version' => '1.9.1.0-alpha',
+		'path'    => $baseDir . '/app/modules/image-size-analysis/data-sync/Image_Size_Analysis_Ignored_Images.php'
 	),
 	'Automattic\\Jetpack_Boost\\Modules\\Image_Size_Analysis\\Image_Size_Analysis' => array(
 		'version' => '1.9.1.0-alpha',
