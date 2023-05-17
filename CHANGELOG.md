@@ -14,6 +14,7 @@ This is an alpha version! The changes listed here are not final.
 
 ### Fixed
 - Jetpack Boost: Image Size Analysis, Phase 6
+- Various UI fixes.
 
 ## [1.9.0-beta] - 2023-05-11
 ### Added
