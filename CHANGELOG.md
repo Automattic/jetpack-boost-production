@@ -9,6 +9,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 This is an alpha version! The changes listed here are not final.
 
+### Fixed
+- Various UI fixes.
+
 ## [1.9.0-beta] - 2023-05-11
 ### Added
 - New Feature: Added JS and CSS file minification [#30005]
