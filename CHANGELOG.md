@@ -12,7 +12,6 @@ This is an alpha version! The changes listed here are not final.
 ### Changed
 - General: update link references to releases in changelog.
 - Jetpack Boost: Image Size Analysis - Phase 7
-- Update site urls rest api endpoint, to return 'other' for custom post type posts.
 
 ### Fixed
 - Jetpack Boost: Image Size Analysis, Phase 6
