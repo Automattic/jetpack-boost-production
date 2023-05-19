@@ -706,17 +706,9 @@ return array(
 		'version' => '1.9.1.0-alpha',
 		'path'    => $baseDir . '/app/modules/image-size-analysis/data-sync/Image_Size_Analysis_Groups.php'
 	),
-	'Automattic\\Jetpack_Boost\\Modules\\Image_Size_Analysis\\Data_Sync\\Image_Size_Analysis_Ignored_Images' => array(
-		'version' => '1.9.1.0-alpha',
-		'path'    => $baseDir . '/app/modules/image-size-analysis/data-sync/Image_Size_Analysis_Ignored_Images.php'
-	),
 	'Automattic\\Jetpack_Boost\\Modules\\Image_Size_Analysis\\Image_Size_Analysis' => array(
 		'version' => '1.9.1.0-alpha',
 		'path'    => $baseDir . '/app/modules/image-size-analysis/Image_Size_Analysis.php'
-	),
-	'Automattic\\Jetpack_Boost\\Modules\\Image_Size_Analysis\\WPCOM_API_Image_Size_Analysis' => array(
-		'version' => '1.9.1.0-alpha',
-		'path'    => $baseDir . '/app/modules/image-size-analysis/WPCOM_API_Image_Size_Analysis.php'
 	),
 	'Automattic\\Jetpack_Boost\\Modules\\Module' => array(
 		'version' => '1.9.1.0-alpha',

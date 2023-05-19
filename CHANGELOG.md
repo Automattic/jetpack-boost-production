@@ -11,6 +11,7 @@ This is an alpha version! The changes listed here are not final.
 
 ### Changed
 - General: update link references to releases in changelog.
+- Jetpack Boost: Image Size Analysis - Phase 7
 
 ### Fixed
 - Jetpack Boost: Image Size Analysis, Phase 6
