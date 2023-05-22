@@ -5,13 +5,14 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
-## [1.9.1-alpha] - unreleased
+## [1.10.0-alpha] - unreleased
 
 This is an alpha version! The changes listed here are not final.
 
 ### Changed
 - General: update link references to releases in changelog.
 - Jetpack Boost: Image Size Analysis - Phase 7
+- Replace Boost ScoreBar Svelte component with React package component and remove unused code
 - Update site urls rest api endpoint, to return 'other' for custom post type posts.
 
 ### Fixed
@@ -262,7 +263,7 @@ This is an alpha version! The changes listed here are not final.
 
 - First public alpha release
 
-[1.9.1-alpha]: https://github.com/Automattic/jetpack-boost-production/compare/1.9.0-beta...1.9.1-alpha
+[1.10.0-alpha]: https://github.com/Automattic/jetpack-boost-production/compare/1.9.0-beta...1.10.0-alpha
 [1.9.0-beta]: https://github.com/Automattic/jetpack-boost-production/compare/boost/branch-1.8.0...boost/branch-1.9.0-beta
 [1.8.0]: https://github.com/Automattic/jetpack-boost-production/compare/boost/branch-1.7.0...boost/branch-1.8.0
 [1.7.0]: https://github.com/Automattic/jetpack-boost-production/compare/boost/branch-1.6.0...boost/branch-1.7.0
