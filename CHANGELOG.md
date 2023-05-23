@@ -13,6 +13,7 @@ This is an alpha version! The changes listed here are not final.
 - General: update link references to releases in changelog.
 - Jetpack Boost: Image Size Analysis - Phase 7
 - Replace Boost ScoreBar Svelte component with React package component and remove unused code
+- Update Minify to use original Page Optimize file_get/put_contents instead of WP File System.
 - Update site urls rest api endpoint, to return 'other' for custom post type posts.
 
 ### Fixed
