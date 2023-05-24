@@ -646,6 +646,10 @@ return array(
 		'version' => '1.9.0.0-beta',
 		'path'    => $baseDir . '/app/lib/minify/Dependency_Path_Mapping.php'
 	),
+	'Automattic\\Jetpack_Boost\\Lib\\Minify\\Utils' => array(
+		'version' => '1.9.0.0-beta',
+		'path'    => $baseDir . '/app/lib/minify/Utils.php'
+	),
 	'Automattic\\Jetpack_Boost\\Lib\\Nonce' => array(
 		'version' => '1.9.0.0-beta',
 		'path'    => $baseDir . '/app/lib/class-nonce.php'

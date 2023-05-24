@@ -200,6 +200,7 @@ class ComposerStaticInitb1e77e6231d50e7663f84529b6a3dfda_jetpack_boostⓥ1_9_0_b
         'Automattic\\Jetpack_Boost\\Lib\\Minify\\Concatenate_JS' => __DIR__ . '/../..' . '/app/lib/minify/Concatenate_JS.php',
         'Automattic\\Jetpack_Boost\\Lib\\Minify\\Config' => __DIR__ . '/../..' . '/app/lib/minify/Config.php',
         'Automattic\\Jetpack_Boost\\Lib\\Minify\\Dependency_Path_Mapping' => __DIR__ . '/../..' . '/app/lib/minify/Dependency_Path_Mapping.php',
+        'Automattic\\Jetpack_Boost\\Lib\\Minify\\Utils' => __DIR__ . '/../..' . '/app/lib/minify/Utils.php',
         'Automattic\\Jetpack_Boost\\Lib\\Nonce' => __DIR__ . '/../..' . '/app/lib/class-nonce.php',
         'Automattic\\Jetpack_Boost\\Lib\\Output_Filter' => __DIR__ . '/../..' . '/app/lib/class-output-filter.php',
         'Automattic\\Jetpack_Boost\\Lib\\Premium_Features' => __DIR__ . '/../..' . '/app/lib/Premium_Features.php',

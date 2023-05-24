@@ -9,7 +9,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 This is an alpha version! The changes listed here are not final.
 
+### Changed
+- Update Minify concat service to not rely on WordPress, so nginx can call it directly without the WordPress overhead.
+- Update Minify to use original Page Optimize file_get/put_contents instead of WP File System.
+
 ### Fixed
+- Fixed concatenation not working when WordPress is installed in a sub-directory on the server.
 - Various UI fixes.
 
 ## [1.9.0-beta] - 2023-05-11
