@@ -17,6 +17,7 @@ This is an alpha version! The changes listed here are not final.
 - Update site urls rest api endpoint, to return 'other' for custom post type posts.
 
 ### Fixed
+- Fixed concatenation not working when WordPress is installed in a sub-directory on the server.
 - Jetpack Boost: Image Size Analysis, Phase 6
 - Various UI fixes.
 
