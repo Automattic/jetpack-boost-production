@@ -2,27 +2,42 @@
 /**
  * Speed Score API endpoints.
  *
- * @link       https://automattic.com
- * @since      1.0.0
- * @package    automattic/jetpack-boost
+ * @package automattic/jetpack-boost-speed-score
  */
 
-namespace Automattic\Jetpack_Boost\Features\Speed_Score;
+namespace Automattic\Jetpack\Boost_Speed_Score;
 
-use Automattic\Jetpack_Boost\Lib\Utils;
-use Automattic\Jetpack_Boost\Modules\Modules_Setup;
+use Automattic\Jetpack\Boost_Speed_Score\Lib\Utils;
+
+if ( ! defined( 'JETPACK_BOOST_REST_NAMESPACE' ) ) {
+	define( 'JETPACK_BOOST_REST_NAMESPACE', 'jetpack-boost/v1' );
+}
+
+// For use in situations where you want additional namespacing.
+if ( ! defined( 'JETPACK_BOOST_REST_PREFIX' ) ) {
+	define( 'JETPACK_BOOST_REST_PREFIX', '' );
+}
 
 /**
  * Class Speed_Score
  */
 class Speed_Score {
 
+	const PACKAGE_VERSION = '0.1.0-alpha';
+
 	/**
+	 * An instance of Automatic\Jetpack_Boost\Modules\Modules_Setup passed to the constructor
+	 *
 	 * @var Modules_Setup
 	 */
 	protected $modules;
 
-	public function __construct( Modules_Setup $modules ) {
+	/**
+	 * Constructor.
+	 *
+	 * @param Modules_Setup $modules - An instance of Automatic\Jetpack_Boost\Modules\Modules_Setup.
+	 */
+	public function __construct( $modules ) {
 		$this->modules = $modules;
 
 		add_action( 'rest_api_init', array( $this, 'register_rest_routes' ) );
@@ -72,7 +87,7 @@ class Speed_Score {
 				'invalid_parameter',
 				__(
 					'The url parameter is required',
-					'jetpack-boost'
+					'jetpack-boost-speed-score'
 				),
 				array( 'status' => 400 )
 			);

@@ -62,6 +62,50 @@ return array(
 		'version' => '0.2.4.0',
 		'path'    => $baseDir . '/jetpack_vendor/automattic/jetpack-plugins-installer/src/class-automatic-install-skin.php'
 	),
+	'Automattic\\Jetpack\\Boost_Speed_Score' => array(
+		'version' => '0.1.0.0-alpha',
+		'path'    => $baseDir . '/jetpack_vendor/automattic/jetpack-boost-speed-score/src/class-boost-speed-score.php'
+	),
+	'Automattic\\Jetpack\\Boost_Speed_Score\\Contracts\\Boost_API_Client' => array(
+		'version' => '0.1.0.0-alpha',
+		'path'    => $baseDir . '/jetpack_vendor/automattic/jetpack-boost-speed-score/src/contracts/boost-api-client.php'
+	),
+	'Automattic\\Jetpack\\Boost_Speed_Score\\Lib\\Boost_API' => array(
+		'version' => '0.1.0.0-alpha',
+		'path'    => $baseDir . '/jetpack_vendor/automattic/jetpack-boost-speed-score/src/lib/class-boost-api.php'
+	),
+	'Automattic\\Jetpack\\Boost_Speed_Score\\Lib\\Cacheable' => array(
+		'version' => '0.1.0.0-alpha',
+		'path'    => $baseDir . '/jetpack_vendor/automattic/jetpack-boost-speed-score/src/lib/class-cacheable.php'
+	),
+	'Automattic\\Jetpack\\Boost_Speed_Score\\Lib\\Transient' => array(
+		'version' => '0.1.0.0-alpha',
+		'path'    => $baseDir . '/jetpack_vendor/automattic/jetpack-boost-speed-score/src/lib/class-transient.php'
+	),
+	'Automattic\\Jetpack\\Boost_Speed_Score\\Lib\\Url' => array(
+		'version' => '0.1.0.0-alpha',
+		'path'    => $baseDir . '/jetpack_vendor/automattic/jetpack-boost-speed-score/src/lib/class-url.php'
+	),
+	'Automattic\\Jetpack\\Boost_Speed_Score\\Lib\\Utils' => array(
+		'version' => '0.1.0.0-alpha',
+		'path'    => $baseDir . '/jetpack_vendor/automattic/jetpack-boost-speed-score/src/lib/class-utils.php'
+	),
+	'Automattic\\Jetpack\\Boost_Speed_Score\\Lib\\WPCOM_Boost_API_Client' => array(
+		'version' => '0.1.0.0-alpha',
+		'path'    => $baseDir . '/jetpack_vendor/automattic/jetpack-boost-speed-score/src/lib/class-wpcom-boost-api-client.php'
+	),
+	'Automattic\\Jetpack\\Boost_Speed_Score\\Speed_Score' => array(
+		'version' => '0.1.0.0-alpha',
+		'path'    => $baseDir . '/jetpack_vendor/automattic/jetpack-boost-speed-score/src/class-speed-score.php'
+	),
+	'Automattic\\Jetpack\\Boost_Speed_Score\\Speed_Score_History' => array(
+		'version' => '0.1.0.0-alpha',
+		'path'    => $baseDir . '/jetpack_vendor/automattic/jetpack-boost-speed-score/src/class-speed-score-history.php'
+	),
+	'Automattic\\Jetpack\\Boost_Speed_Score\\Speed_Score_Request' => array(
+		'version' => '0.1.0.0-alpha',
+		'path'    => $baseDir . '/jetpack_vendor/automattic/jetpack-boost-speed-score/src/class-speed-score-request.php'
+	),
 	'Automattic\\Jetpack\\Composer\\Manager' => array(
 		'version' => '1.1.11.0',
 		'path'    => $vendorDir . '/automattic/jetpack-composer-plugin/src/class-manager.php'
@@ -490,10 +534,6 @@ return array(
 		'version' => '2.0.0.0-alpha',
 		'path'    => $baseDir . '/app/admin/class-regenerate-admin-notice.php'
 	),
-	'Automattic\\Jetpack_Boost\\Contracts\\Boost_API_Client' => array(
-		'version' => '2.0.0.0-alpha',
-		'path'    => $baseDir . '/app/contracts/Boost_API_Client.php'
-	),
 	'Automattic\\Jetpack_Boost\\Contracts\\Has_Setup' => array(
 		'version' => '2.0.0.0-alpha',
 		'path'    => $baseDir . '/app/contracts/Has_Setup.php'
@@ -518,18 +558,6 @@ return array(
 		'version' => '2.0.0.0-alpha',
 		'path'    => $baseDir . '/app/features/setup-prompt/Setup_Prompt.php'
 	),
-	'Automattic\\Jetpack_Boost\\Features\\Speed_Score\\Speed_Score' => array(
-		'version' => '2.0.0.0-alpha',
-		'path'    => $baseDir . '/app/features/speed-score/Speed_Score.php'
-	),
-	'Automattic\\Jetpack_Boost\\Features\\Speed_Score\\Speed_Score_History' => array(
-		'version' => '2.0.0.0-alpha',
-		'path'    => $baseDir . '/app/features/speed-score/Speed_Score_History.php'
-	),
-	'Automattic\\Jetpack_Boost\\Features\\Speed_Score\\Speed_Score_Request' => array(
-		'version' => '2.0.0.0-alpha',
-		'path'    => $baseDir . '/app/features/speed-score/Speed_Score_Request.php'
-	),
 	'Automattic\\Jetpack_Boost\\Jetpack_Boost' => array(
 		'version' => '2.0.0.0-alpha',
 		'path'    => $baseDir . '/app/class-jetpack-boost.php'
@@ -542,17 +570,9 @@ return array(
 		'version' => '2.0.0.0-alpha',
 		'path'    => $baseDir . '/app/lib/class-assets.php'
 	),
-	'Automattic\\Jetpack_Boost\\Lib\\Boost_API' => array(
-		'version' => '2.0.0.0-alpha',
-		'path'    => $baseDir . '/app/lib/Boost_API.php'
-	),
 	'Automattic\\Jetpack_Boost\\Lib\\CLI' => array(
 		'version' => '2.0.0.0-alpha',
 		'path'    => $baseDir . '/app/lib/class-cli.php'
-	),
-	'Automattic\\Jetpack_Boost\\Lib\\Cacheable' => array(
-		'version' => '2.0.0.0-alpha',
-		'path'    => $baseDir . '/app/lib/class-cacheable.php'
 	),
 	'Automattic\\Jetpack_Boost\\Lib\\Collection' => array(
 		'version' => '2.0.0.0-alpha',
@@ -678,25 +698,9 @@ return array(
 		'version' => '2.0.0.0-alpha',
 		'path'    => $baseDir . '/app/lib/Super_Cache_Info.php'
 	),
-	'Automattic\\Jetpack_Boost\\Lib\\Transient' => array(
-		'version' => '2.0.0.0-alpha',
-		'path'    => $baseDir . '/app/lib/class-transient.php'
-	),
-	'Automattic\\Jetpack_Boost\\Lib\\Url' => array(
-		'version' => '2.0.0.0-alpha',
-		'path'    => $baseDir . '/app/lib/class-url.php'
-	),
-	'Automattic\\Jetpack_Boost\\Lib\\Utils' => array(
-		'version' => '2.0.0.0-alpha',
-		'path'    => $baseDir . '/app/lib/class-utils.php'
-	),
 	'Automattic\\Jetpack_Boost\\Lib\\Viewport' => array(
 		'version' => '2.0.0.0-alpha',
 		'path'    => $baseDir . '/app/lib/class-viewport.php'
-	),
-	'Automattic\\Jetpack_Boost\\Lib\\WPCOM_Boost_API_Client' => array(
-		'version' => '2.0.0.0-alpha',
-		'path'    => $baseDir . '/app/lib/WPCOM_Boost_API_Client.php'
 	),
 	'Automattic\\Jetpack_Boost\\Modules\\Image_Guide\\Image_Guide' => array(
 		'version' => '2.0.0.0-alpha',
@@ -829,14 +833,6 @@ return array(
 	'Automattic\\Jetpack_Boost\\Tests\\Lib\\WP_Test_Minify' => array(
 		'version' => '2.0.0.0-alpha',
 		'path'    => $baseDir . '/tests/php/lib/test-class-minify.php'
-	),
-	'Automattic\\Jetpack_Boost\\Tests\\Lib\\WP_Test_Speed_Score_History' => array(
-		'version' => '2.0.0.0-alpha',
-		'path'    => $baseDir . '/tests/php/lib/test-class-speed-score-history.php'
-	),
-	'Automattic\\Jetpack_Boost\\Tests\\Lib\\WP_Test_Url' => array(
-		'version' => '2.0.0.0-alpha',
-		'path'    => $baseDir . '/tests/php/lib/test-class-url.php'
 	),
 	'Automattic\\Jetpack_Boost\\Tests\\Lib\\WP_Test_Viewport' => array(
 		'version' => '2.0.0.0-alpha',

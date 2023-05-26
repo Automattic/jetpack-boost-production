@@ -2,12 +2,10 @@
 /**
  * Implement the URL normalizer.
  *
- * @link       https://automattic.com
- * @since      1.0.0
- * @package    automattic/jetpack-boost
+ * @package automattic/jetpack-boost-speed-score
  */
 
-namespace Automattic\Jetpack_Boost\Lib;
+namespace Automattic\Jetpack\Boost_Speed_Score\Lib;
 
 /**
  * Class Url

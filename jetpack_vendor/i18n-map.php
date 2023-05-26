@@ -12,6 +12,10 @@ return array(
       'path' => 'jetpack_vendor/automattic/jetpack-assets',
       'ver' => '1.18.3',
     ),
+    'jetpack-boost-speed-score' => array(
+      'path' => 'jetpack_vendor/automattic/jetpack-boost-speed-score',
+      'ver' => '0.1.0-alpha',
+    ),
     'jetpack-config' => array(
       'path' => 'jetpack_vendor/automattic/jetpack-config',
       'ver' => '1.15.2',

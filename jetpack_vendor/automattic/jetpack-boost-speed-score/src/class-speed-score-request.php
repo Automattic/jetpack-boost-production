@@ -2,16 +2,14 @@
 /**
  * Represents a request to generate a pair of speed scores.
  *
- * @link       https://automattic.com
- * @since      1.0.0
- * @package    automattic/jetpack-boost
+ * @package automattic/jetpack-boost-speed-score
  */
 
-namespace Automattic\Jetpack_Boost\Features\Speed_Score;
+namespace Automattic\Jetpack\Boost_Speed_Score;
 
-use Automattic\Jetpack_Boost\Lib\Boost_API;
-use Automattic\Jetpack_Boost\Lib\Cacheable;
-use Automattic\Jetpack_Boost\Lib\Url;
+use Automattic\Jetpack\Boost_Speed_Score\Lib\Boost_API;
+use Automattic\Jetpack\Boost_Speed_Score\Lib\Cacheable;
+use Automattic\Jetpack\Boost_Speed_Score\Lib\Url;
 
 /**
  * Class Speed_Score_Request
@@ -242,7 +240,7 @@ class Speed_Score_Request extends Cacheable {
 					'invalid_response',
 					__(
 						'Invalid response from WPCOM API while polling for speed scores',
-						'jetpack-boost'
+						'jetpack-boost-speed-score'
 					),
 					$response
 				);
@@ -303,6 +301,11 @@ class Speed_Score_Request extends Cacheable {
 		}
 	}
 
+	/**
+	 * Instantiate the API client.
+	 *
+	 * @return Boost_API_Client
+	 */
 	private function get_client() {
 		return Boost_API::get_client();
 	}

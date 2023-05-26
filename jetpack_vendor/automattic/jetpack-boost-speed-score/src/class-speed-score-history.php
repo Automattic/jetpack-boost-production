@@ -2,18 +2,17 @@
 /**
  * Speed score history after Jetpack Boost
  *
- * @link       https://automattic.com
- * @package    automattic/jetpack-boost
+ * @package automattic/jetpack-boost-speed-score
  */
 
-namespace Automattic\Jetpack_Boost\Features\Speed_Score;
+namespace Automattic\Jetpack\Boost_Speed_Score;
 
-use Automattic\Jetpack_Boost\Lib\Transient;
+use Automattic\Jetpack\Boost_Speed_Score\Lib\Transient;
 
 /**
  * Class Speed_Score_History
  *
- * @package Automattic\Jetpack_Boost\Lib
+ * @package Automattic\Jetpack\Boost_Speed_Score\Lib
  */
 class Speed_Score_History {
 	const OPTION_PREFIX       = 'jetpack_boost_speed_score_history_';

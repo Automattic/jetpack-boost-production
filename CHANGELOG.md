@@ -17,6 +17,7 @@ This is an alpha version! The changes listed here are not final.
 - Update Minify concat service to not rely on WordPress, so nginx can call it directly without the WordPress overhead.
 - Update Minify to use original Page Optimize file_get/put_contents instead of WP File System.
 - Update site urls rest api endpoint, to return 'other' for custom post type posts.
+- Update the Boost plugin to use code from the Boost Speed Score package
 
 ### Fixed
 - Fixed concatenation not working when WordPress is installed in a sub-directory on the server.
