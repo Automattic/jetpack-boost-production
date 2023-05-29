@@ -9,6 +9,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 This is an alpha version! The changes listed here are not final.
 
+### Added
+- Add a new argument to Speed_Score to identify where the request was made from (e.g. 'boost-plugin', 'jetpack-dashboard', etc).
+
 ### Changed
 - General: update link references to releases in changelog.
 - Jetpack Boost: Image Size Analysis - Phase 7

@@ -17,7 +17,6 @@ return array(
     'Automattic\\Jetpack\\Autoloader\\CustomAutoloaderPlugin' => $vendorDir . '/automattic/jetpack-autoloader/src/CustomAutoloaderPlugin.php',
     'Automattic\\Jetpack\\Autoloader\\ManifestGenerator' => $vendorDir . '/automattic/jetpack-autoloader/src/ManifestGenerator.php',
     'Automattic\\Jetpack\\Automatic_Install_Skin' => $baseDir . '/jetpack_vendor/automattic/jetpack-plugins-installer/src/class-automatic-install-skin.php',
-    'Automattic\\Jetpack\\Boost_Speed_Score' => $baseDir . '/jetpack_vendor/automattic/jetpack-boost-speed-score/src/class-boost-speed-score.php',
     'Automattic\\Jetpack\\Boost_Speed_Score\\Contracts\\Boost_API_Client' => $baseDir . '/jetpack_vendor/automattic/jetpack-boost-speed-score/src/contracts/boost-api-client.php',
     'Automattic\\Jetpack\\Boost_Speed_Score\\Lib\\Boost_API' => $baseDir . '/jetpack_vendor/automattic/jetpack-boost-speed-score/src/lib/class-boost-api.php',
     'Automattic\\Jetpack\\Boost_Speed_Score\\Lib\\Cacheable' => $baseDir . '/jetpack_vendor/automattic/jetpack-boost-speed-score/src/lib/class-cacheable.php',
