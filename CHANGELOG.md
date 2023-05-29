@@ -15,6 +15,7 @@ This is an alpha version! The changes listed here are not final.
 
 ### Fixed
 - Fixed concatenation not working when WordPress is installed in a sub-directory on the server.
+- Fixed resource URLs generated on sites in a subdir
 - Various UI fixes.
 
 ## [1.9.0-beta] - 2023-05-11
