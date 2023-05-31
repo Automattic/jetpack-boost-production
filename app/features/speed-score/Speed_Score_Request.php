@@ -2,14 +2,16 @@
 /**
  * Represents a request to generate a pair of speed scores.
  *
- * @package automattic/jetpack-boost-speed-score
+ * @link       https://automattic.com
+ * @since      1.0.0
+ * @package    automattic/jetpack-boost
  */
 
-namespace Automattic\Jetpack\Boost_Speed_Score;
+namespace Automattic\Jetpack_Boost\Features\Speed_Score;
 
-use Automattic\Jetpack\Boost_Speed_Score\Lib\Boost_API;
-use Automattic\Jetpack\Boost_Speed_Score\Lib\Cacheable;
-use Automattic\Jetpack\Boost_Speed_Score\Lib\Url;
+use Automattic\Jetpack_Boost\Lib\Boost_API;
+use Automattic\Jetpack_Boost\Lib\Cacheable;
+use Automattic\Jetpack_Boost\Lib\Url;
 
 /**
  * Class Speed_Score_Request
@@ -63,13 +65,6 @@ class Speed_Score_Request extends Cacheable {
 	private $error;
 
 	/**
-	 * Where the Speed Scores request was made from.
-	 *
-	 * @var string $client A string passed to Speed_Score to identify where the request was made from.
-	 */
-	private $client;
-
-	/**
 	 * Constructor.
 	 *
 	 * @param string $url The URL to get the Speed Scores for.
@@ -77,9 +72,8 @@ class Speed_Score_Request extends Cacheable {
 	 * @param null   $created When the Speed Scores request was created, in seconds since epoch.
 	 * @param string $status Status of the Speed Scores request.
 	 * @param null   $error The Speed Scores error.
-	 * @param string $client A string identifying where the request was made from.
 	 */
-	public function __construct( $url, $active_modules = array(), $created = null, $status = 'pending', $error = null, $client = null ) {
+	public function __construct( $url, $active_modules = array(), $created = null, $status = 'pending', $error = null ) {
 		$this->set_cache_id( self::generate_cache_id_from_url( $url ) );
 
 		$this->url            = $url;
@@ -87,7 +81,6 @@ class Speed_Score_Request extends Cacheable {
 		$this->created        = $created === null ? microtime( true ) : $created;
 		$this->status         = $status;
 		$this->error          = $error;
-		$this->client         = $client;
 		$this->retry_count    = 0;
 	}
 
@@ -114,7 +107,6 @@ class Speed_Score_Request extends Cacheable {
 			'created'        => $this->created,
 			'status'         => $this->status,
 			'error'          => $this->error,
-			'client'         => $this->client,
 			'retry_count'    => $this->retry_count,
 		);
 	}
@@ -132,8 +124,7 @@ class Speed_Score_Request extends Cacheable {
 			$data['active_modules'],
 			$data['created'],
 			$data['status'],
-			$data['error'],
-			$data['client']
+			$data['error']
 		);
 
 		if ( ! empty( $data['id'] ) ) {
@@ -168,7 +159,6 @@ class Speed_Score_Request extends Cacheable {
 				'request_id'     => $this->get_cache_id(),
 				'url'            => Url::normalize( $this->url ),
 				'active_modules' => $this->active_modules,
-				'client'         => $this->client,
 			)
 		);
 
@@ -252,7 +242,7 @@ class Speed_Score_Request extends Cacheable {
 					'invalid_response',
 					__(
 						'Invalid response from WPCOM API while polling for speed scores',
-						'jetpack-boost-speed-score'
+						'jetpack-boost'
 					),
 					$response
 				);
@@ -313,11 +303,6 @@ class Speed_Score_Request extends Cacheable {
 		}
 	}
 
-	/**
-	 * Instantiate the API client.
-	 *
-	 * @return Boost_API_Client
-	 */
 	private function get_client() {
 		return Boost_API::get_client();
 	}

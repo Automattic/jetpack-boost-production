@@ -1,11 +1,6 @@
 <?php
-/**
- * Boost API Client interface.
- *
- * @package automattic/jetpack-boost-speed-score
- */
 
-namespace Automattic\Jetpack\Boost_Speed_Score\Contracts;
+namespace Automattic\Jetpack_Boost\Contracts;
 
 /**
  * An interface to build Boost API client.
@@ -17,8 +12,9 @@ interface Boost_API_Client {
 	/**
 	 * Submit a request to boost API and return response.
 	 *
-	 * @param string  $path - Request path.
-	 * @param mixed[] $payload - Request arguments.
+	 * @param $method string Request method POST|GET|PUT|PATCH|DELETE
+	 * @param $path string Request path
+	 * @param $args mixed[] Request arguments
 	 * @return mixed
 	 */
 	public function post( $path, $payload = array() );
@@ -26,8 +22,8 @@ interface Boost_API_Client {
 	/**
 	 * Make a get request to boost API and return response.
 	 *
-	 * @param string  $path - Request path.
-	 * @param mixed[] $query - Query parameters.
+	 * @param $path string Request path
+	 * @param $query mixed[] Query parameters
 	 */
 	public function get( $path, $query = array() );
 }

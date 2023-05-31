@@ -282,7 +282,7 @@ class Assets {
 				++$i;
 			}
 		}
-		$ret .= implode( '/', $pp );
+		$ret .= join( '/', $pp );
 
 		$ret .= isset( $parts['query'] ) ? '?' . $parts['query'] : '';
 		$ret .= isset( $parts['fragment'] ) ? '#' . $parts['fragment'] : '';

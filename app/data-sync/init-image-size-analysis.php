@@ -1,24 +1,13 @@
 <?php
 
 use Automattic\Jetpack\WP_JS_Data_Sync\Schema\Schema;
-use Automattic\Jetpack_Boost\Modules\Image_Size_Analysis\Data_Sync\Image_Size_Analysis_Entry;
-use Automattic\Jetpack_Boost\Modules\Image_Size_Analysis\Data_Sync\Image_Size_Analysis_Groups;
+use Automattic\Jetpack_Boost\Data_Sync\Image_Size_Analysis_Entry;
+use Automattic\Jetpack_Boost\Data_Sync\Image_Size_Analysis_Groups;
+use Automattic\Jetpack_Boost\Data_Sync\Image_Size_Analysis_Ignored_Images;
 
 $image_data = Schema::as_assoc_array(
 	array(
-		'id'           => Schema::as_string(),
 		'thumbnail'    => Schema::as_string(),
-		'device_type'  => Schema::enum( array( 'phone', 'desktop' ) ),
-		'status'       => Schema::enum( array( 'active', 'ignored' ) )->fallback( 'active' ),
-		'instructions' => Schema::as_string(),
-		'edit_url'     => Schema::as_string(),
-		'page'         => Schema::as_assoc_array(
-			array(
-				'id'    => Schema::as_number(),
-				'url'   => Schema::as_string(),
-				'title' => Schema::as_string(),
-			)
-		),
 		'image'        => Schema::as_assoc_array(
 			array(
 				'url'        => Schema::as_string(),
@@ -52,7 +41,15 @@ $image_data = Schema::as_assoc_array(
 				),
 			)
 		),
-
+		'page'         => Schema::as_assoc_array(
+			array(
+				'id'    => Schema::as_number(),
+				'url'   => Schema::as_string(),
+				'title' => Schema::as_string(),
+			)
+		),
+		'device_type'  => Schema::enum( array( 'phone', 'desktop' ) ),
+		'instructions' => Schema::as_string(),
 	)
 );
 
@@ -90,4 +87,14 @@ jetpack_boost_register_option(
 	'image_size_analysis_groups',
 	Schema::as_array( $group_schema ),
 	new Image_Size_Analysis_Groups()
+);
+
+// @TODO
+// Implement using class Storage_Post_Type
+jetpack_boost_register_option(
+	'image_size_analysis_ignored_images',
+	Schema::as_array(
+		$image_data
+	)->fallback( array() ),
+	new Image_Size_Analysis_Ignored_Images()
 );

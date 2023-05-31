@@ -3,7 +3,7 @@
 	"description": "Boost your WordPress site's performance, from the creators of Jetpack",
 	"type": "library",
 	"license": "GPL-2.0-or-later",
-	"version": "2.0.0-alpha",
+	"version": "1.9.1",
 	"authors": [
 		{
 			"name": "Automattic, Inc.",
@@ -15,16 +15,15 @@
 	"require": {
 		"ext-json": "*",
 		"automattic/jetpack-admin-ui": "^0.2.20",
-		"automattic/jetpack-assets": "^1.18.3",
-		"automattic/jetpack-autoloader": "^2.11.21",
-		"automattic/jetpack-boost-speed-score": "^0.1.0",
-		"automattic/jetpack-composer-plugin": "^1.1.11",
+		"automattic/jetpack-assets": "^1.18.2",
+		"automattic/jetpack-autoloader": "^2.11.20",
+		"automattic/jetpack-composer-plugin": "^1.1.10",
 		"automattic/jetpack-config": "^1.15.2",
-		"automattic/jetpack-connection": "^1.52.1",
+		"automattic/jetpack-connection": "^1.51.8",
 		"automattic/jetpack-device-detection": "^1.4.25",
-		"automattic/jetpack-image-cdn": "^0.2.3-alpha",
+		"automattic/jetpack-image-cdn": "^0.2.1",
 		"automattic/jetpack-lazy-images": "^2.1.38",
-		"automattic/jetpack-my-jetpack": "^2.14.1",
+		"automattic/jetpack-my-jetpack": "^2.12.2",
 		"automattic/jetpack-plugin-deactivation": "^0.1.4",
 		"automattic/jetpack-plugins-installer": "^0.2.4",
 		"automattic/jetpack-wp-js-data-sync": "^0.2.0",
@@ -32,7 +31,7 @@
 		"tubalmartin/cssmin": "^4.1"
 	},
 	"require-dev": {
-		"automattic/jetpack-changelogger": "^3.3.4",
+		"automattic/jetpack-changelogger": "^3.3.2",
 		"automattic/wordbless": "0.4.2",
 		"brain/monkey": "2.6.1",
 		"yoast/phpunit-polyfills": "1.0.4"
@@ -72,13 +71,14 @@
 		"platform": {
 			"ext-intl": "0.0.0"
 		},
-		"autoloader-suffix": "b1e77e6231d50e7663f84529b6a3dfda_jetpack_boostⓥ2_0_0_alpha",
+		"autoloader-suffix": "b1e77e6231d50e7663f84529b6a3dfda_jetpack_boostⓥ1_9_1",
 		"allow-plugins": {
 			"roots/wordpress-core-installer": true,
 			"automattic/jetpack-autoloader": true,
 			"automattic/jetpack-composer-plugin": true
 		}
 	},
+	"repositories": [],
 	"extra": {
 		"mirror-repo": "Automattic/jetpack-boost-production",
 		"autorelease": true,
@@ -92,7 +92,7 @@
 		"wp-plugin-slug": "jetpack-boost",
 		"wp-svn-autopublish": true,
 		"changelogger": {
-			"link-template": "https://github.com/Automattic/jetpack-boost-production/compare/${old}...${new}"
+			"link-template": "https://github.com/Automattic/jetpack-boost-production/compare/v${old}...v${new}"
 		}
 	}
 }

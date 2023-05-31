@@ -552,7 +552,7 @@ class Tokens {
 			$nonce = substr( sha1( wp_rand( 0, 1000000 ) ), 0, 10 );
 		}
 
-		$normalized_request_string = implode(
+		$normalized_request_string = join(
 			"\n",
 			array(
 				$token_key,
@@ -576,7 +576,7 @@ class Tokens {
 			$header_pieces[] = sprintf( '%s="%s"', $key, $value );
 		}
 
-		return implode( ' ', $header_pieces );
+		return join( ' ', $header_pieces );
 	}
 
 	/**

@@ -2,52 +2,28 @@
 /**
  * Speed Score API endpoints.
  *
- * @package automattic/jetpack-boost-speed-score
+ * @link       https://automattic.com
+ * @since      1.0.0
+ * @package    automattic/jetpack-boost
  */
 
-namespace Automattic\Jetpack\Boost_Speed_Score;
+namespace Automattic\Jetpack_Boost\Features\Speed_Score;
 
-use Automattic\Jetpack\Boost_Speed_Score\Lib\Utils;
-
-if ( ! defined( 'JETPACK_BOOST_REST_NAMESPACE' ) ) {
-	define( 'JETPACK_BOOST_REST_NAMESPACE', 'jetpack-boost/v1' );
-}
-
-// For use in situations where you want additional namespacing.
-if ( ! defined( 'JETPACK_BOOST_REST_PREFIX' ) ) {
-	define( 'JETPACK_BOOST_REST_PREFIX', '' );
-}
+use Automattic\Jetpack_Boost\Lib\Utils;
+use Automattic\Jetpack_Boost\Modules\Modules_Setup;
 
 /**
  * Class Speed_Score
  */
 class Speed_Score {
 
-	const PACKAGE_VERSION = '0.1.0';
-
 	/**
-	 * An instance of Automatic\Jetpack_Boost\Modules\Modules_Setup passed to the constructor
-	 *
 	 * @var Modules_Setup
 	 */
 	protected $modules;
 
-	/**
-	 * A string representing the client making the request (e.g. 'boost-plugin', 'jetpack-dashboard', etc).
-	 *
-	 * @var string
-	 */
-	protected $client;
-
-	/**
-	 * Constructor.
-	 *
-	 * @param Modules_Setup $modules - An instance of Automatic\Jetpack_Boost\Modules\Modules_Setup.
-	 * @param string        $client  - A string representing the client making the request.
-	 */
-	public function __construct( $modules, $client ) {
+	public function __construct( Modules_Setup $modules ) {
 		$this->modules = $modules;
-		$this->client  = $client;
 
 		add_action( 'rest_api_init', array( $this, 'register_rest_routes' ) );
 		add_action( 'jetpack_boost_deactivate', array( $this, 'clear_speed_score_request_cache' ) );
@@ -96,7 +72,7 @@ class Speed_Score {
 				'invalid_parameter',
 				__(
 					'The url parameter is required',
-					'jetpack-boost-speed-score'
+					'jetpack-boost'
 				),
 				array( 'status' => 400 )
 			);
@@ -120,7 +96,7 @@ class Speed_Score {
 
 		// Create and store the Speed Score request.
 		$active_modules = array_keys( array_filter( $this->modules->get_status(), 'strlen' ) );
-		$score_request  = new Speed_Score_Request( $url, $active_modules, null, 'pending', null, $this->client );
+		$score_request  = new Speed_Score_Request( $url, $active_modules );
 		$score_request->store( 1800 ); // Keep the request for 30 minutes even if no one access the results.
 
 		// Send the request.
@@ -211,7 +187,7 @@ class Speed_Score {
 			&& $this->modules->have_enabled_modules()
 			&& $history->is_stale()
 		) {
-			$score_request = new Speed_Score_Request( $url_no_boost, array(), null, 'pending', null, $this->client ); // Dispatch a new speed score request to measure score without boost.
+			$score_request = new Speed_Score_Request( $url_no_boost ); // Dispatch a new speed score request to measure score without boost.
 			$score_request->store( 3600 ); // Keep the request for 1 hour even if no one access the results. The value is persisted for 1 hour in wp.com from initial request.
 
 			// Send the request.

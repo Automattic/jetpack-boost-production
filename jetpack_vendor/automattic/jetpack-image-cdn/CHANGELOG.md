@@ -5,17 +5,6 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
-## [0.2.3-alpha] - unreleased
-
-This is an alpha version! The changes listed here are not final.
-
-### Fixed
-- Photon: fix potential bug where two "?" characters might be added to a url
-
-## [0.2.2] - 2023-05-15
-### Added
-- Add compatibility layer for the ActivityPub plugin [#30298]
-
 ## [0.2.1] - 2023-05-11
 ### Added
 - Added `is_enabled()` method to check if image CDN is enabled by any plugin' [#30582]
@@ -34,7 +23,5 @@ This is an alpha version! The changes listed here are not final.
 ### Added
 - Add image CDN package. [#29561]
 
-[0.2.3-alpha]: https://github.com/Automattic/jetpack-image-cdn/compare/v0.2.2...v0.2.3-alpha
-[0.2.2]: https://github.com/Automattic/jetpack-image-cdn/compare/v0.2.1...v0.2.2
 [0.2.1]: https://github.com/Automattic/jetpack-image-cdn/compare/v0.2.0...v0.2.1
 [0.2.0]: https://github.com/Automattic/jetpack-image-cdn/compare/v0.1.0...v0.2.0

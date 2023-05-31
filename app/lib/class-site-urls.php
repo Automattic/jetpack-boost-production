@@ -86,7 +86,7 @@ class Site_Urls {
 			$urls[ 'post_id_' . $result->ID ] = array(
 				'url'      => get_permalink( $result->ID ),
 				'modified' => get_post_modified_time( 'Y-m-d H:i:s', false, $result ),
-				'group'    => self::get_post_group( $result ),
+				'group'    => get_post_type( $result->ID ),
 			);
 		}
 
@@ -130,21 +130,5 @@ class Site_Urls {
 				'is_post_type_viewable'
 			)
 		);
-	}
-
-	/**
-	 * Returns the group for the post.
-	 *
-	 * @param $p Post object.
-	 *
-	 * @return string
-	 */
-	private static function get_post_group( $p ) {
-		$post_type = get_post_type( $p->ID );
-		if ( 'post' === $post_type || 'page' === $post_type ) {
-			return $post_type;
-		}
-
-		return 'other';
 	}
 }
