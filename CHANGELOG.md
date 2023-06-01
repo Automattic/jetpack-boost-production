@@ -17,7 +17,6 @@ This is an alpha version! The changes listed here are not final.
 - Jetpack Boost: Image Size Analysis - Phase 7
 - Replace API code for boost scores with the Boost Score API package
 - Replace Boost ScoreBar Svelte component with React package component and remove unused code
-- Updated readme
 - Update Minify concat service to not rely on WordPress, so nginx can call it directly without the WordPress overhead.
 - Update Minify to use original Page Optimize file_get/put_contents instead of WP File System.
 - Update site urls rest api endpoint, to return 'other' for custom post type posts.
@@ -27,25 +26,24 @@ This is an alpha version! The changes listed here are not final.
 - Fixed concatenation not working when WordPress is installed in a sub-directory on the server.
 - Fixed resource URLs generated on sites in a subdir
 - Jetpack Boost: Image Size Analysis, Phase 6
-- Various UI fixes.
 
-## [1.9.0-beta] - 2023-05-11
+## [1.9.1] - 2023-05-11
 ### Added
 - New Feature: Added JS and CSS file minification [#30005]
 
 ### Changed
-- Image CDN: Improved Image CDN description [#29962]
-- User Experience: Removed back button from purchase success page [#30180]
 - General: Improved the way modules are toggled internally [#29451]
 - General: Updated package dependencies
+- Image CDN: Improved Image CDN description [#29962]
+- User Experience: Removed back button from purchase success page [#30180]
 
 ### Fixed
-- Deferred JS: Fixed some extremely short pages (such as WooCommerce Box Office tickets being printed) from resulting in a blank page [#30025]
 - Cloud CSS: Don't run local regenerate automagically when using cloud css [#29968]
 - Cloud CSS: Fixed a mismatch in cloud-css key [#29972]
 - Critical CSS: Fixed Critical CSS from making redundant requests on page load [#30053]
-- User Experience: Fixed some language choices around Boost popups [#30048]
+- Deferred JS: Fixed some extremely short pages (such as WooCommerce Box Office tickets being printed) from resulting in a blank page [#30025]
 - General: Fixed some PHP 8.2 Warnings [#30150]
+- User Experience: Fixed some language choices around Boost popups [#30048]
 
 ## [1.8.0] - 2023-04-06
 ### Added
@@ -273,8 +271,8 @@ This is an alpha version! The changes listed here are not final.
 
 - First public alpha release
 
-[2.0.0-alpha]: https://github.com/Automattic/jetpack-boost-production/compare/1.9.0-beta...2.0.0-alpha
-[1.9.0-beta]: https://github.com/Automattic/jetpack-boost-production/compare/boost/branch-1.8.0...boost/branch-1.9.0-beta
+[2.0.0-alpha]: https://github.com/Automattic/jetpack-boost-production/compare/1.9.1...2.0.0-alpha
+[1.9.1]: https://github.com/Automattic/jetpack-boost-production/compare/boost/branch-1.8.0...boost/branch-1.9.1
 [1.8.0]: https://github.com/Automattic/jetpack-boost-production/compare/boost/branch-1.7.0...boost/branch-1.8.0
 [1.7.0]: https://github.com/Automattic/jetpack-boost-production/compare/boost/branch-1.6.0...boost/branch-1.7.0
 [1.6.0]: https://github.com/Automattic/jetpack-boost-production/compare/boost/branch-1.5.4...boost/branch-1.6.0
