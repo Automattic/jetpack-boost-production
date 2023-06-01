@@ -18,6 +18,7 @@ This is an alpha version! The changes listed here are not final.
 - Replace API code for boost scores with the Boost Score API package
 - Replace Boost ScoreBar Svelte component with React package component and remove unused code
 - Update checklist spacing and button font size and line height.
+- Updated package dependencies.
 - Update Image Guide tracking in front-end, to use Pixel tracking, instead of AJAX requests to the server.
 - Update Minify concat service to not rely on WordPress, so nginx can call it directly without the WordPress overhead.
 - Update Minify to use original Page Optimize file_get/put_contents instead of WP File System.
