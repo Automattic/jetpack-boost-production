@@ -15,6 +15,7 @@ This is an alpha version! The changes listed here are not final.
 ### Changed
 - General: update link references to releases in changelog.
 - Jetpack Boost: Image Size Analysis - Phase 7
+- Moved boost core classes to boost-core package
 - Replace API code for boost scores with the Boost Score API package
 - Replace Boost ScoreBar Svelte component with React package component and remove unused code
 - Update checklist spacing and button font size and line height.
