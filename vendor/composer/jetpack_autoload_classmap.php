@@ -566,6 +566,10 @@ return array(
 		'version' => '2.0.0.0-alpha',
 		'path'    => $baseDir . '/app/lib/class-assets.php'
 	),
+	'Automattic\\Jetpack_Boost\\Lib\\Boost_Health' => array(
+		'version' => '2.0.0.0-alpha',
+		'path'    => $baseDir . '/app/lib/Boost_Health.php'
+	),
 	'Automattic\\Jetpack_Boost\\Lib\\CLI' => array(
 		'version' => '2.0.0.0-alpha',
 		'path'    => $baseDir . '/app/lib/class-cli.php'
@@ -677,6 +681,10 @@ return array(
 	'Automattic\\Jetpack_Boost\\Lib\\Setup' => array(
 		'version' => '2.0.0.0-alpha',
 		'path'    => $baseDir . '/app/lib/Setup.php'
+	),
+	'Automattic\\Jetpack_Boost\\Lib\\Site_Health' => array(
+		'version' => '2.0.0.0-alpha',
+		'path'    => $baseDir . '/app/lib/Site_Health.php'
 	),
 	'Automattic\\Jetpack_Boost\\Lib\\Site_Urls' => array(
 		'version' => '2.0.0.0-alpha',
