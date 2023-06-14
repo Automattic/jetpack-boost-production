@@ -179,6 +179,7 @@ return array(
     'Automattic\\Jetpack_Boost\\Lib\\Super_Cache_Info' => $baseDir . '/app/lib/Super_Cache_Info.php',
     'Automattic\\Jetpack_Boost\\Lib\\Viewport' => $baseDir . '/app/lib/class-viewport.php',
     'Automattic\\Jetpack_Boost\\Modules\\Image_Guide\\Image_Guide' => $baseDir . '/app/modules/image-guide/Image_Guide.php',
+    'Automattic\\Jetpack_Boost\\Modules\\Image_Guide\\Image_Guide_Proxy' => $baseDir . '/app/modules/image-guide/Image_Guide_Proxy.php',
     'Automattic\\Jetpack_Boost\\Modules\\Image_Size_Analysis\\Data_Sync\\Image_Size_Analysis_Entry' => $baseDir . '/app/modules/image-size-analysis/data-sync/Image_Size_Analysis_Entry.php',
     'Automattic\\Jetpack_Boost\\Modules\\Image_Size_Analysis\\Data_Sync\\Image_Size_Analysis_Groups' => $baseDir . '/app/modules/image-size-analysis/data-sync/Image_Size_Analysis_Groups.php',
     'Automattic\\Jetpack_Boost\\Modules\\Image_Size_Analysis\\Image_Size_Analysis' => $baseDir . '/app/modules/image-size-analysis/Image_Size_Analysis.php',

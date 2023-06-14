@@ -710,6 +710,10 @@ return array(
 		'version' => '2.0.0.0-alpha',
 		'path'    => $baseDir . '/app/modules/image-guide/Image_Guide.php'
 	),
+	'Automattic\\Jetpack_Boost\\Modules\\Image_Guide\\Image_Guide_Proxy' => array(
+		'version' => '2.0.0.0-alpha',
+		'path'    => $baseDir . '/app/modules/image-guide/Image_Guide_Proxy.php'
+	),
 	'Automattic\\Jetpack_Boost\\Modules\\Image_Size_Analysis\\Data_Sync\\Image_Size_Analysis_Entry' => array(
 		'version' => '2.0.0.0-alpha',
 		'path'    => $baseDir . '/app/modules/image-size-analysis/data-sync/Image_Size_Analysis_Entry.php'
