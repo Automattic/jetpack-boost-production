@@ -5,6 +5,13 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [0.2.1-alpha] - unreleased
+
+This is an alpha version! The changes listed here are not final.
+
+### Added
+- Fetch reports from IG back-end
+
 ## 0.2.0 - 2023-05-11
 ### Added
 - Added action hooks to fire during store value update [#29451]
@@ -31,3 +38,5 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Fixed
 - Jetpack Boost: Fix assoc_array schema validation. [#29611]
+
+[0.2.1-alpha]: https://github.com/Automattic/jetpack-wp-js-data-sync/compare/v0.2.0...v0.2.1-alpha
