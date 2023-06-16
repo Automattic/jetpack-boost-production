@@ -32,6 +32,7 @@ This is an alpha version! The changes listed here are not final.
 ### Fixed
 - Fixed concatenation not working when WordPress is installed in a sub-directory on the server.
 - Fixed resource URLs generated on sites in a subdir
+- Image Guide: Fixed some issues with image guide placement in UI.
 - Jetpack Boost: Image Size Analysis, Phase 6
 
 ## [1.9.1] - 2023-05-11
