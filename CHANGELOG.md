@@ -15,6 +15,7 @@ This is an alpha version! The changes listed here are not final.
 - Jetpack Boost: add a proxy to Image Guide so it can load remote images.
 
 ### Changed
+- Fix Image Size Analysis pagination links not clickable. Change label for "other" group.
 - General: update link references to releases in changelog.
 - Jetpack Boost: Image Size Analysis - Phase 7
 - Moved boost core classes to boost-core package
