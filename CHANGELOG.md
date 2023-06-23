@@ -5,6 +5,13 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.9.3-alpha] - unreleased
+
+This is an alpha version! The changes listed here are not final.
+
+### Fixed
+- Critical CSS: On sites with fewer than 10 pages/posts, ensure that pages and posts are not skipped during Critical CSS generation
+
 ## [1.9.2-beta] - 2023-06-23
 ### Added
 - Speed Scores: Added an internal argument to record the source of each Speed Score request. [#31012]
@@ -264,6 +271,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 - First public alpha release
 
+[1.9.3-alpha]: https://github.com/Automattic/jetpack-boost-production/compare/1.9.2-beta...1.9.3-alpha
 [1.9.2-beta]: https://github.com/Automattic/jetpack-boost-production/compare/1.9.1...1.9.2-beta
 [1.9.1]: https://github.com/Automattic/jetpack-boost-production/compare/boost/branch-1.8.0...boost/branch-1.9.1
 [1.8.0]: https://github.com/Automattic/jetpack-boost-production/compare/boost/branch-1.7.0...boost/branch-1.8.0
