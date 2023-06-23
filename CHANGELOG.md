@@ -21,6 +21,7 @@ This is an alpha version! The changes listed here are not final.
 - Moved boost core classes to boost-core package
 - Replace API code for boost scores with the Boost Score API package
 - Replace Boost ScoreBar Svelte component with React package component and remove unused code
+- Tracking: Improved getting-started usage tracking
 - Update checklist spacing and button font size and line height.
 - Update CSS regeneration notice to include a more descriptive text, based on what triggered it to show.
 - Updated package dependencies.
