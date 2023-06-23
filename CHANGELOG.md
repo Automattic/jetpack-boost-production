@@ -9,6 +9,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 This is an alpha version! The changes listed here are not final.
 
+### Changed
+- Tracking: Improved getting-started usage tracking
+
 ### Fixed
 - Critical CSS: On sites with fewer than 10 pages/posts, ensure that pages and posts are not skipped during Critical CSS generation
 
