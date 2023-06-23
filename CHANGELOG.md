@@ -31,6 +31,7 @@ This is an alpha version! The changes listed here are not final.
 - Update the Boost plugin to use code from the Boost Speed Score package
 
 ### Fixed
+- Critical CSS: On sites with fewer than 10 pages/posts, ensure that pages and posts are not skipped during Critical CSS generation
 - Fixed concatenation not working when WordPress is installed in a sub-directory on the server.
 - Fixed resource URLs generated on sites in a subdir
 - Fix not loading report items if one of them was missing the edit_url property.
