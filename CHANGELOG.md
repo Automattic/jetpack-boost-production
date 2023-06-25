@@ -11,6 +11,7 @@ This is an alpha version! The changes listed here are not final.
 
 ### Added
 - Add a new argument to Speed_Score to identify where the request was made from (e.g. 'boost-plugin', 'jetpack-dashboard', etc).
+- Add authentication to zendesk chat widget
 - Fetch reports from IG back-end
 - Jetpack Boost: add a proxy to Image Guide so it can load remote images.
 
