@@ -10,35 +10,28 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 This is an alpha version! The changes listed here are not final.
 
 ### Added
-- Add a new argument to Speed_Score to identify where the request was made from (e.g. 'boost-plugin', 'jetpack-dashboard', etc).
 - Add authentication to zendesk chat widget
-- Fetch reports from IG back-end
-- Jetpack Boost: add a proxy to Image Guide so it can load remote images.
 
 ### Changed
-- Fix Image Size Analysis pagination links not clickable. Change label for "other" group.
-- General: update link references to releases in changelog.
-- Jetpack Boost: Image Size Analysis - Phase 7
-- Moved boost core classes to boost-core package
-- Replace API code for boost scores with the Boost Score API package
-- Replace Boost ScoreBar Svelte component with React package component and remove unused code
 - Tracking: Improved getting-started usage tracking
-- Update checklist spacing and button font size and line height.
-- Update CSS regeneration notice to include a more descriptive text, based on what triggered it to show.
-- Updated package dependencies.
-- Update Image Guide tracking in front-end, to use Pixel tracking, instead of AJAX requests to the server.
-- Update Minify concat service to not rely on WordPress, so nginx can call it directly without the WordPress overhead.
-- Update Minify to use original Page Optimize file_get/put_contents instead of WP File System.
-- Update site urls rest api endpoint, to return 'other' for custom post type posts.
-- Update the Boost plugin to use code from the Boost Speed Score package
 
 ### Fixed
 - Critical CSS: On sites with fewer than 10 pages/posts, ensure that pages and posts are not skipped during Critical CSS generation
-- Fixed concatenation not working when WordPress is installed in a sub-directory on the server.
-- Fixed resource URLs generated on sites in a subdir
-- Fix not loading report items if one of them was missing the edit_url property.
-- Image Guide: Fixed some issues with image guide placement in UI.
-- Jetpack Boost: Image Size Analysis, Phase 6
+
+## [1.9.2-beta] - 2023-06-23
+### Added
+- Speed Scores: Added an internal argument to record the source of each Speed Score request. [#31012]
+- Image Guide: Added a proxy to allow the Image Guide UI to load the size of remote images. [#31145]
+- Minify CSS: Added an endpoint for fetching minfied content which does not rely on loading WordPress, allowing hosts to more efficiently fetch minified content. [#30825]
+
+### Changed
+- Critical CSS: Updated the regeneration notice to include more descriptive text, explaining the trigger. [#31101]
+- General: Updated checklist spacing and button font size and line height. [#31098]
+- Image Guide: Switch to loading an invisible pixel for tracking Image Guide results, avoiding unnecessary traffic to admin-ajax. [#30983]
+
+### Fixed
+- Minify CSS: Fixed issues with relative paths when WordPress is installed in a sub-directory. [#30863]
+- Image Guide: Fixed issues with Image Guide placement on the page with some themes. [#31410]
 
 ## [1.9.1] - 2023-05-11
 ### Added
@@ -284,7 +277,8 @@ This is an alpha version! The changes listed here are not final.
 
 - First public alpha release
 
-[2.0.0-alpha]: https://github.com/Automattic/jetpack-boost-production/compare/1.9.1...2.0.0-alpha
+[2.0.0-alpha]: https://github.com/Automattic/jetpack-boost-production/compare/1.9.2-beta...2.0.0-alpha
+[1.9.2-beta]: https://github.com/Automattic/jetpack-boost-production/compare/1.9.1...1.9.2-beta
 [1.9.1]: https://github.com/Automattic/jetpack-boost-production/compare/boost/branch-1.8.0...boost/branch-1.9.1
 [1.8.0]: https://github.com/Automattic/jetpack-boost-production/compare/boost/branch-1.7.0...boost/branch-1.8.0
 [1.7.0]: https://github.com/Automattic/jetpack-boost-production/compare/boost/branch-1.6.0...boost/branch-1.7.0
