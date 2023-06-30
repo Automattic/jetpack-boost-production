@@ -11,6 +11,7 @@ This is an alpha version! The changes listed here are not final.
 
 ### Added
 - Add authentication to zendesk chat widget
+- Minify CSS/JS: Added a new way for site owners to override the default _jb_static/ path prefix for Boost's Minified CSS and JS URLs
 
 ### Changed
 - Tracking: Improved getting-started usage tracking
