@@ -18,6 +18,7 @@ This is an alpha version! The changes listed here are not final.
 - Tracking: Improved getting-started usage tracking
 
 ### Fixed
+- Add missing dependency to our build process
 - Critical CSS: On sites with fewer than 10 pages/posts, ensure that pages and posts are not skipped during Critical CSS generation
 
 ## [1.9.2-beta] - 2023-06-23
