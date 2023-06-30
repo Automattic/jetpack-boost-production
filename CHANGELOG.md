@@ -20,6 +20,7 @@ This is an alpha version! The changes listed here are not final.
 ### Fixed
 - Add missing dependency to our build process
 - Critical CSS: On sites with fewer than 10 pages/posts, ensure that pages and posts are not skipped during Critical CSS generation
+- Fix a potential 'loop' getting stuck in Getting started state.
 
 ## [1.9.2-beta] - 2023-06-23
 ### Added
