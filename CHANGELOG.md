@@ -16,6 +16,7 @@ This is an alpha version! The changes listed here are not final.
 
 ### Changed
 - Tracking: Improved getting-started usage tracking
+- Updated package dependencies.
 
 ### Fixed
 - Add missing dependency to our build process
