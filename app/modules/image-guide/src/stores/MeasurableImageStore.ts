@@ -83,17 +83,7 @@ export class MeasurableImageStore {
 		this.loading.set( true );
 
 		this.currentSrc = this.image.getURL();
-		let fileSize;
-
-		try {
-			fileSize = await this.image.getFileSize( this.currentSrc );
-		} catch ( error ) {
-			fileSize = {
-				weight: -1,
-				height: -1,
-				width: -1,
-			};
-		}
+		const fileSize = await this.image.getFileSize( this.currentSrc );
 
 		this.url.set( this.currentSrc );
 		this.fileSize.set( fileSize );

@@ -5,42 +5,34 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
-## [2.0.0-alpha] - unreleased
-
-This is an alpha version! The changes listed here are not final.
-
-### Added
-- Add authentication to zendesk chat widget
-- Boost: Cut off image titles at 20 characters in the Image Guide Analysis report
-- Jetpack Boost: Image Guide loads images to get actual dimensions rather than just looking at "on page" dimensions.
-- Make progress report UI groups clickable.
-- Minify CSS/JS: Added a new way for site owners to override the default _jb_static/ path prefix for Boost's Minified CSS and JS URLs
-
-### Changed
-- Tracking: Improved getting-started usage tracking
-- Updated package dependencies.
-- Update the way missing images are handled, to be up to date with the image-guide package update.
-
+## [1.9.4] - 2023-07-05
 ### Fixed
-- Add missing dependency to our build process
-- Critical CSS: On sites with fewer than 10 pages/posts, ensure that pages and posts are not skipped during Critical CSS generation
-- Fix a potential 'loop' getting stuck in Getting started state.
-- Minify CSS/JS: Fixed an odd caching issue on Atomic hosts
+- Minify CSS/JS: Removed Content-Length from cached minified content to avoid potential cache mangling on some hosts [#31692]
 
-## [1.9.2-beta] - 2023-06-23
+## [1.9.3] - 2023-07-03
+### Fixed
+- General: Bumped version to fix a versioning glitch in the WordPress.org repository.
+
+## [1.9.2] - 2023-07-03
 ### Added
-- Speed Scores: Added an internal argument to record the source of each Speed Score request. [#31012]
 - Image Guide: Added a proxy to allow the Image Guide UI to load the size of remote images. [#31145]
-- Minify CSS: Added an endpoint for fetching minfied content which does not rely on loading WordPress, allowing hosts to more efficiently fetch minified content. [#30825]
+- Minify CSS/JS: Added an endpoint for fetching minfied content which does not rely on loading WordPress, allowing hosts to more efficiently fetch minified content. [#30825]
+- Speed Scores: Added an internal argument to record the source of each Speed Score request. [#31012]
+- Speed Scores: Added a notice to the Site Health panel when speed scores need updating. [#31101]
 
 ### Changed
 - Critical CSS: Updated the regeneration notice to include more descriptive text, explaining the trigger. [#31101]
 - General: Updated checklist spacing and button font size and line height. [#31098]
 - Image Guide: Switch to loading an invisible pixel for tracking Image Guide results, avoiding unnecessary traffic to admin-ajax. [#30983]
+- Minify CSS: Moved the default URL base of minified CSS files to /_jb_static, and added a constant to override it. [#31631]
 
 ### Fixed
-- Minify CSS: Fixed issues with relative paths when WordPress is installed in a sub-directory. [#30863]
+- Critical CSS: Critical CSS Generation was skipping posts and pages on sites with fewer than 10 of either. [#31506]
+- General: Compatibility fixes for older versions of Safari [#31534]
+- General: Fixed a potential loop which repeatedly showed the Getting Started page. [#31648]
+- General: Fixed incorrect tracks events around plugin connection [#31233]
 - Image Guide: Fixed issues with Image Guide placement on the page with some themes. [#31410]
+- Minify CSS: Fixed issues with relative paths when WordPress is installed in a sub-directory. [30863]
 
 ## [1.9.1] - 2023-05-11
 ### Added
@@ -286,8 +278,8 @@ This is an alpha version! The changes listed here are not final.
 
 - First public alpha release
 
-[2.0.0-alpha]: https://github.com/Automattic/jetpack-boost-production/compare/1.9.2-beta...2.0.0-alpha
-[1.9.2-beta]: https://github.com/Automattic/jetpack-boost-production/compare/1.9.1...1.9.2-beta
+[1.9.3]: https://github.com/Automattic/jetpack-boost-production/compare/1.9.2...1.9.3
+[1.9.2]: https://github.com/Automattic/jetpack-boost-production/compare/1.9.1...1.9.2
 [1.9.1]: https://github.com/Automattic/jetpack-boost-production/compare/boost/branch-1.8.0...boost/branch-1.9.1
 [1.8.0]: https://github.com/Automattic/jetpack-boost-production/compare/boost/branch-1.7.0...boost/branch-1.8.0
 [1.7.0]: https://github.com/Automattic/jetpack-boost-production/compare/boost/branch-1.6.0...boost/branch-1.7.0

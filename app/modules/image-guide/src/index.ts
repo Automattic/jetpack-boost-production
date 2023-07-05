@@ -7,6 +7,27 @@ import { attachGuides } from './initialize';
 import { guideState } from './stores/GuideState';
 import AdminBarToggle from './ui/AdminBarToggle.svelte';
 import type { MeasurableImageStore } from './stores/MeasurableImageStore';
+import type { MeasurableImage } from '@automattic/jetpack-image-guide';
+
+/**
+ * A helper function to filter out images
+ * that are too small, for example
+ * avatars, icons, etc.
+ *
+ * @param images An array of images to filter
+ */
+function discardSmallImages( images: MeasurableImage[] ) {
+	const minSize = 65;
+	const elements = images.filter( image => {
+		const { width, height } = image.getSizeOnPage();
+		if ( ! width || ! height ) {
+			return false;
+		}
+		return width >= minSize && height >= minSize;
+	} );
+
+	return elements;
+}
 
 /**
  * Fetches the weight of a resource using a proxy if the resource is not on the same origin.
@@ -121,7 +142,7 @@ function initialize() {
 		if ( $state === 'paused' ) {
 			return;
 		}
-		const measurableImages = await getMeasurableImages(
+		const measurableImages = getMeasurableImages(
 			Array.from(
 				document.querySelectorAll(
 					'body *:not(.jetpack-boost-guide > *):not(.jetpack-boost-guide)'
@@ -129,12 +150,8 @@ function initialize() {
 			),
 			fetchWeightUsingProxy
 		);
-
-		// wait for isImageTiny() to return true/false for each image.
-		const tinyImages = await Promise.all( measurableImages.map( image => image.isImageTiny() ) );
-		stores.push(
-			...attachGuides( measurableImages.filter( ( _, index ) => tinyImages[ index ] ) )
-		);
+		const filteredImages = discardSmallImages( measurableImages );
+		stores.push( ...attachGuides( filteredImages ) );
 
 		ImageGuideAnalytics.trackPage( stores );
 	} );
