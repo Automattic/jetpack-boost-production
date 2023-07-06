@@ -26,6 +26,7 @@ This is an alpha version! The changes listed here are not final.
 - Add missing dependency to our build process
 - Critical CSS: On sites with fewer than 10 pages/posts, ensure that pages and posts are not skipped during Critical CSS generation
 - Fix a potential 'loop' getting stuck in Getting started state.
+- Fixed snackbar showing under UI separators on getting started page.
 - Minify CSS/JS: Fixed an odd caching issue on Atomic hosts
 
 ## [1.9.2-beta] - 2023-06-23
