@@ -20,6 +20,7 @@ This is an alpha version! The changes listed here are not final.
 ### Changed
 - Tracking: Improved getting-started usage tracking
 - Updated package dependencies.
+- Update hard-coded timestamp to use actual value from wpcom.
 - Update the way missing images are handled, to be up to date with the image-guide package update.
 
 ### Fixed
