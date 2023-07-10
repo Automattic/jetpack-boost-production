@@ -546,6 +546,10 @@ return array(
 		'version' => '2.0.0.0-alpha',
 		'path'    => $baseDir . '/app/contracts/Has_Slug.php'
 	),
+	'Automattic\\Jetpack_Boost\\Contracts\\Is_Always_On' => array(
+		'version' => '2.0.0.0-alpha',
+		'path'    => $baseDir . '/app/contracts/Is_Always_On.php'
+	),
 	'Automattic\\Jetpack_Boost\\Contracts\\Pluggable' => array(
 		'version' => '2.0.0.0-alpha',
 		'path'    => $baseDir . '/app/contracts/Pluggable.php'

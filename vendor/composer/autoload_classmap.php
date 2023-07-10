@@ -138,6 +138,7 @@ return array(
     'Automattic\\Jetpack_Boost\\Admin\\Regenerate_Admin_Notice' => $baseDir . '/app/admin/class-regenerate-admin-notice.php',
     'Automattic\\Jetpack_Boost\\Contracts\\Has_Setup' => $baseDir . '/app/contracts/Has_Setup.php',
     'Automattic\\Jetpack_Boost\\Contracts\\Has_Slug' => $baseDir . '/app/contracts/Has_Slug.php',
+    'Automattic\\Jetpack_Boost\\Contracts\\Is_Always_On' => $baseDir . '/app/contracts/Is_Always_On.php',
     'Automattic\\Jetpack_Boost\\Contracts\\Pluggable' => $baseDir . '/app/contracts/Pluggable.php',
     'Automattic\\Jetpack_Boost\\Data_Sync\\Minify_Excludes_State_Entry' => $baseDir . '/app/data-sync/Minify_Excludes_State_Entry.php',
     'Automattic\\Jetpack_Boost\\Data_Sync\\Modules_State_Entry' => $baseDir . '/app/data-sync/Modules_State_Entry.php',
