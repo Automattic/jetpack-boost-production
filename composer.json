@@ -25,7 +25,7 @@
 		"automattic/jetpack-device-detection": "^1.4.26",
 		"automattic/jetpack-image-cdn": "^0.2.3",
 		"automattic/jetpack-lazy-images": "^2.1.41",
-		"automattic/jetpack-my-jetpack": "^3.1.1-alpha",
+		"automattic/jetpack-my-jetpack": "^3.1.1",
 		"automattic/jetpack-plugin-deactivation": "^0.1.4",
 		"automattic/jetpack-plugins-installer": "^0.2.4",
 		"automattic/jetpack-wp-js-data-sync": "^0.2.1",
@@ -33,7 +33,7 @@
 		"tubalmartin/cssmin": "^4.1"
 	},
 	"require-dev": {
-		"automattic/jetpack-changelogger": "^3.3.6-alpha",
+		"automattic/jetpack-changelogger": "^3.3.6",
 		"automattic/wordbless": "0.4.2",
 		"brain/monkey": "2.6.1",
 		"yoast/phpunit-polyfills": "1.0.4"
