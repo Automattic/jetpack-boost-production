@@ -14,6 +14,7 @@ This is an alpha version! The changes listed here are not final.
 - Added UI handling for Image Guide reports getting 'stuck'
 - Boost: Cut off image titles at 20 characters in the Image Guide Analysis report
 - Image Size Analyzer: Added report row types for missing images, and failed-to-load bad data
+- Image Size Analyzer: New feature for Premium users which scans their site for image issues
 - Jetpack Boost: Image Guide loads images to get actual dimensions rather than just looking at "on page" dimensions.
 - Make progress report UI groups clickable.
 - Minify CSS/JS: Added a new way for site owners to override the default _jb_static/ path prefix for Boost's Minified CSS and JS URLs
