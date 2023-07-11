@@ -5,34 +5,25 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
-## [2.0.0-alpha] - unreleased
+## [2.1.0-alpha] - unreleased
 
 This is an alpha version! The changes listed here are not final.
 
 ### Added
-- Add authentication to zendesk chat widget
-- Added UI handling for Image Guide reports getting 'stuck'
-- Boost: Cut off image titles at 20 characters in the Image Guide Analysis report
-- Image Size Analyzer: Added report row types for missing images, and failed-to-load bad data
 - Image Size Analyzer: New feature for Premium users which scans their site for image issues
-- Jetpack Boost: Image Guide loads images to get actual dimensions rather than just looking at "on page" dimensions.
-- Make progress report UI groups clickable.
-- Minify CSS/JS: Added a new way for site owners to override the default _jb_static/ path prefix for Boost's Minified CSS and JS URLs
 
 ### Changed
 - Boost: truncate titles in the ISA report
-- Jetpack Boost: take beta tag off Concatenate CSS/JS and Image settings
-- Tracking: Improved getting-started usage tracking
-- Updated package dependencies.
-- Update hard-coded timestamp to use actual value from wpcom.
-- Update the way missing images are handled, to be up to date with the image-guide package update.
+
+## [2.0.0-beta] - 2023-07-11
+### Added
+- Image Size Analyzer: A new premium feature which searches your site for images loaded at incorrect sizes.
+
+### Changed
+- Jetpack Boost: Beta tags removed from Concatenate CSS/JS and Image CDN. [#31777]
 
 ### Fixed
-- Add missing dependency to our build process
-- Critical CSS: On sites with fewer than 10 pages/posts, ensure that pages and posts are not skipped during Critical CSS generation
-- Fix a potential 'loop' getting stuck in Getting started state.
-- Fixed snackbar showing under UI separators on getting started page.
-- Minify CSS/JS: Fixed an odd caching issue on Atomic hosts
+- General: Fixed error snackbar from showing under UI separators on the Getting Started page. [#31706]
 
 ## [1.9.2-beta] - 2023-06-23
 ### Added
@@ -293,7 +284,8 @@ This is an alpha version! The changes listed here are not final.
 
 - First public alpha release
 
-[2.0.0-alpha]: https://github.com/Automattic/jetpack-boost-production/compare/1.9.2-beta...2.0.0-alpha
+[2.1.0-alpha]: https://github.com/Automattic/jetpack-boost-production/compare/2.0.0-beta...2.1.0-alpha
+[2.0.0-beta]: https://github.com/Automattic/jetpack-boost-production/compare/1.9.2-beta...2.0.0-beta
 [1.9.2-beta]: https://github.com/Automattic/jetpack-boost-production/compare/1.9.1...1.9.2-beta
 [1.9.1]: https://github.com/Automattic/jetpack-boost-production/compare/boost/branch-1.8.0...boost/branch-1.9.1
 [1.8.0]: https://github.com/Automattic/jetpack-boost-production/compare/boost/branch-1.7.0...boost/branch-1.8.0
