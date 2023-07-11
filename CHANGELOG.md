@@ -20,6 +20,7 @@ This is an alpha version! The changes listed here are not final.
 - Minify CSS/JS: Added a new way for site owners to override the default _jb_static/ path prefix for Boost's Minified CSS and JS URLs
 
 ### Changed
+- Boost: truncate titles in the ISA report
 - Jetpack Boost: take beta tag off Concatenate CSS/JS and Image settings
 - Tracking: Improved getting-started usage tracking
 - Updated package dependencies.
