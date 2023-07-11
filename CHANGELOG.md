@@ -5,6 +5,13 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [2.1.0-alpha] - unreleased
+
+This is an alpha version! The changes listed here are not final.
+
+### Added
+- Image Size Analyzer: New feature for Premium users which scans their site for image issues
+
 ## [2.0.0-beta] - 2023-07-11
 ### Added
 - Image Size Analyzer: A new premium feature which searches your site for images loaded at incorrect sizes.
@@ -274,6 +281,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 - First public alpha release
 
+[2.1.0-alpha]: https://github.com/Automattic/jetpack-boost-production/compare/2.0.0-beta...2.1.0-alpha
 [2.0.0-beta]: https://github.com/Automattic/jetpack-boost-production/compare/1.9.2-beta...2.0.0-beta
 [1.9.2-beta]: https://github.com/Automattic/jetpack-boost-production/compare/1.9.1...1.9.2-beta
 [1.9.1]: https://github.com/Automattic/jetpack-boost-production/compare/boost/branch-1.8.0...boost/branch-1.9.1
