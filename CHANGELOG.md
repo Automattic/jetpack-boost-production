@@ -12,6 +12,9 @@ This is an alpha version! The changes listed here are not final.
 ### Added
 - Image Size Analyzer: New feature for Premium users which scans their site for image issues
 
+### Changed
+- Boost: truncate titles in the ISA report
+
 ## [2.0.0-beta] - 2023-07-11
 ### Added
 - Image Size Analyzer: A new premium feature which searches your site for images loaded at incorrect sizes.
