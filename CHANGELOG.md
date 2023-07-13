@@ -17,6 +17,7 @@ This is an alpha version! The changes listed here are not final.
 
 ### Fixed
 - Fixed popups showing under next section. Updated custom post types list for "Other" group.
+- Super Cache Measurement Tool: Fixed the use of the donotcachepage option during tests, which may have produced understated results
 
 ## [2.0.0-beta] - 2023-07-11
 ### Added
