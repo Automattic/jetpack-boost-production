@@ -15,6 +15,7 @@ This is an alpha version! The changes listed here are not final.
 
 ### Changed
 - Boost: truncate titles in the ISA report
+- Updated package dependencies.
 
 ### Fixed
 - Fixed popups showing under next section. Updated custom post types list for "Other" group.
