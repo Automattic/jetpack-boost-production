@@ -15,6 +15,9 @@ This is an alpha version! The changes listed here are not final.
 ### Changed
 - Boost: truncate titles in the ISA report
 
+### Fixed
+- Fixed popups showing under next section. Updated custom post types list for "Other" group.
+
 ## [2.0.0-beta] - 2023-07-11
 ### Added
 - Image Size Analyzer: A new premium feature which searches your site for images loaded at incorrect sizes.
