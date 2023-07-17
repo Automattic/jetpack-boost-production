@@ -15,6 +15,7 @@ This is an alpha version! The changes listed here are not final.
 
 ### Changed
 - Boost: truncate titles in the ISA report
+- General: indicate full compatibility with the latest version of WordPress, 6.3.
 - Updated package dependencies.
 
 ### Fixed
