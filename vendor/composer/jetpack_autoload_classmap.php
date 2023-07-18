@@ -614,6 +614,10 @@ return array(
 		'version' => '2.1.0.0-alpha',
 		'path'    => $baseDir . '/app/lib/critical-css/Display_Critical_CSS.php'
 	),
+	'Automattic\\Jetpack_Boost\\Lib\\Critical_CSS\\Regenerate' => array(
+		'version' => '2.1.0.0-alpha',
+		'path'    => $baseDir . '/app/lib/critical-css/Regenerate.php'
+	),
 	'Automattic\\Jetpack_Boost\\Lib\\Critical_CSS\\Source_Providers\\Providers\\Archive_Provider' => array(
 		'version' => '2.1.0.0-alpha',
 		'path'    => $baseDir . '/app/lib/critical-css/source-providers/providers/Archive_Provider.php'
