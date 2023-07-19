@@ -10,10 +10,19 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 This is an alpha version! The changes listed here are not final.
 
 ### Added
+- Image Guide: Added an upgrade CTA
+- Image Size Analysis: Included the number of scanned pages in the summary message
 - Image Size Analyzer: New feature for Premium users which scans their site for image issues
 
 ### Changed
 - Boost: truncate titles in the ISA report
+- General: indicate full compatibility with the latest version of WordPress, 6.3.
+
+### Fixed
+- Cloud CSS: Fixed automatic start of cloud CSS regeneration when module is toggled on
+- Fixed popups showing under next section. Updated custom post types list for "Other" group.
+- Prevented page speed scores from auto refreshing on page load.
+- Super Cache Measurement Tool: Fixed the use of the donotcachepage option during tests, which may have produced understated results
 
 ## [2.0.0-beta] - 2023-07-11
 ### Added

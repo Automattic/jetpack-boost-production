@@ -192,6 +192,7 @@ class ComposerStaticInitb1e77e6231d50e7663f84529b6a3dfda_jetpack_boostⓥ2_0_0_b
         'Automattic\\Jetpack_Boost\\Lib\\Critical_CSS\\Critical_CSS_State' => __DIR__ . '/../..' . '/app/lib/critical-css/Critical_CSS_State.php',
         'Automattic\\Jetpack_Boost\\Lib\\Critical_CSS\\Critical_CSS_Storage' => __DIR__ . '/../..' . '/app/lib/critical-css/Critical_CSS_Storage.php',
         'Automattic\\Jetpack_Boost\\Lib\\Critical_CSS\\Display_Critical_CSS' => __DIR__ . '/../..' . '/app/lib/critical-css/Display_Critical_CSS.php',
+        'Automattic\\Jetpack_Boost\\Lib\\Critical_CSS\\Regenerate' => __DIR__ . '/../..' . '/app/lib/critical-css/Regenerate.php',
         'Automattic\\Jetpack_Boost\\Lib\\Critical_CSS\\Source_Providers\\Providers\\Archive_Provider' => __DIR__ . '/../..' . '/app/lib/critical-css/source-providers/providers/Archive_Provider.php',
         'Automattic\\Jetpack_Boost\\Lib\\Critical_CSS\\Source_Providers\\Providers\\Post_ID_Provider' => __DIR__ . '/../..' . '/app/lib/critical-css/source-providers/providers/Post_ID_Provider.php',
         'Automattic\\Jetpack_Boost\\Lib\\Critical_CSS\\Source_Providers\\Providers\\Provider' => __DIR__ . '/../..' . '/app/lib/critical-css/source-providers/providers/Provider.php',

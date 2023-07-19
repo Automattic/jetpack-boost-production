@@ -155,6 +155,7 @@ return array(
     'Automattic\\Jetpack_Boost\\Lib\\Critical_CSS\\Critical_CSS_State' => $baseDir . '/app/lib/critical-css/Critical_CSS_State.php',
     'Automattic\\Jetpack_Boost\\Lib\\Critical_CSS\\Critical_CSS_Storage' => $baseDir . '/app/lib/critical-css/Critical_CSS_Storage.php',
     'Automattic\\Jetpack_Boost\\Lib\\Critical_CSS\\Display_Critical_CSS' => $baseDir . '/app/lib/critical-css/Display_Critical_CSS.php',
+    'Automattic\\Jetpack_Boost\\Lib\\Critical_CSS\\Regenerate' => $baseDir . '/app/lib/critical-css/Regenerate.php',
     'Automattic\\Jetpack_Boost\\Lib\\Critical_CSS\\Source_Providers\\Providers\\Archive_Provider' => $baseDir . '/app/lib/critical-css/source-providers/providers/Archive_Provider.php',
     'Automattic\\Jetpack_Boost\\Lib\\Critical_CSS\\Source_Providers\\Providers\\Post_ID_Provider' => $baseDir . '/app/lib/critical-css/source-providers/providers/Post_ID_Provider.php',
     'Automattic\\Jetpack_Boost\\Lib\\Critical_CSS\\Source_Providers\\Providers\\Provider' => $baseDir . '/app/lib/critical-css/source-providers/providers/Provider.php',
