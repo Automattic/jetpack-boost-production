@@ -11,6 +11,7 @@ This is an alpha version! The changes listed here are not final.
 
 ### Added
 - Image Guide: Added an upgrade CTA
+- Image Size Analysis: Included the number of scanned pages in the summary message
 - Image Size Analyzer: New feature for Premium users which scans their site for image issues
 
 ### Changed
