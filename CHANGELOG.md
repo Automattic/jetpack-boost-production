@@ -17,6 +17,7 @@ This is an alpha version! The changes listed here are not final.
 ### Changed
 - Boost: truncate titles in the ISA report
 - General: indicate full compatibility with the latest version of WordPress, 6.3.
+- Update 'score dropped' card copy, change button URL and make card show up for free users as well.
 - Updated package dependencies.
 
 ### Fixed
