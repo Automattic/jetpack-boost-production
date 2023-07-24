@@ -5,6 +5,13 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [2.1.0-alpha] - unreleased
+
+This is an alpha version! The changes listed here are not final.
+
+### Changed
+- Update 'score dropped' card copy, change button URL and make card show up for free users as well.
+
 ## [2.0.0-beta.2] - 2023-07-19
 ### Added
 - Image Size Analyzer: New feature for Premium users which scans their site for image issues [#31794]
@@ -40,6 +47,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - General: Updated checklist spacing and button font size and line height. [#31098]
 - Image Guide: Switch to loading an invisible pixel for tracking Image Guide results, avoiding unnecessary traffic to admin-ajax. [#30983]
 - Minify CSS: Moved the default URL base of minified CSS files to /_jb_static, and added a constant to override it. [#31631]
+- Critical CSS: Updated the regeneration notice to include more descriptive text, explaining the trigger. [#31101]
+- General: Updated checklist spacing and button font size and line height. [#31098]
+- Image Guide: Switch to loading an invisible pixel for tracking Image Guide results, avoiding unnecessary traffic to admin-ajax. [#30983]
 
 ### Fixed
 - Critical CSS: Critical CSS Generation was skipping posts and pages on sites with fewer than 10 of either. [#31506]
@@ -48,14 +58,6 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - General: Fixed incorrect tracks events around plugin connection [#31233]
 - Image Guide: Fixed issues with Image Guide placement on the page with some themes. [#31410]
 - Minify CSS: Fixed issues with relative paths when WordPress is installed in a sub-directory. [30863]
-
-
-### Changed
-- Critical CSS: Updated the regeneration notice to include more descriptive text, explaining the trigger. [#31101]
-- General: Updated checklist spacing and button font size and line height. [#31098]
-- Image Guide: Switch to loading an invisible pixel for tracking Image Guide results, avoiding unnecessary traffic to admin-ajax. [#30983]
-
-### Fixed
 - Minify CSS: Fixed issues with relative paths when WordPress is installed in a sub-directory. [#30863]
 - Image Guide: Fixed issues with Image Guide placement on the page with some themes. [#31410]
 
@@ -303,6 +305,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 - First public alpha release
 
+[2.1.0-alpha]: https://github.com/Automattic/jetpack-boost-production/compare/2.0.0-beta.2...2.1.0-alpha
 [2.0.0-beta.2]: https://github.com/Automattic/jetpack-boost-production/compare/1.9.4...2.0.0-beta
 [1.9.4]: https://github.com/Automattic/jetpack-boost-production/compare/1.9.3...1.9.4
 [1.9.3]: https://github.com/Automattic/jetpack-boost-production/compare/1.9.2...1.9.3
