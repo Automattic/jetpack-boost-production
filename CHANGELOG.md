@@ -9,7 +9,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 This is an alpha version! The changes listed here are not final.
 
-## [2.0.0-beta.2] - 2023-07-24
+## [2.0.0] - 2023-07-24
 ### Added
 - Image Size Analyzer: New feature for Premium users which scans their site for image issues [#31794]
 
@@ -302,8 +302,8 @@ This is an alpha version! The changes listed here are not final.
 
 - First public alpha release
 
-[2.0.1-alpha]: https://github.com/Automattic/jetpack-boost-production/compare/2.0.0-beta.2...2.0.1-alpha
-[2.0.0-beta.2]: https://github.com/Automattic/jetpack-boost-production/compare/1.9.4...2.0.0-beta
+[2.0.1-alpha]: https://github.com/Automattic/jetpack-boost-production/compare/2.0.0...2.0.1-alpha
+[2.0.0]: https://github.com/Automattic/jetpack-boost-production/compare/1.9.4...2.0.0
 [1.9.4]: https://github.com/Automattic/jetpack-boost-production/compare/1.9.3...1.9.4
 [1.9.3]: https://github.com/Automattic/jetpack-boost-production/compare/1.9.2...1.9.3
 [1.9.2]: https://github.com/Automattic/jetpack-boost-production/compare/1.9.1...1.9.2
