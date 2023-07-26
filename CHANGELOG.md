@@ -12,6 +12,9 @@ This is an alpha version! The changes listed here are not final.
 ### Changed
 - Updated package dependencies.
 
+### Fixed
+- Image Guide: Fixed grammar issue in the feature description on the Boost dashboard.
+
 ## [2.0.0] - 2023-07-24
 ### Added
 - Image Size Analyzer: New feature for Premium users which scans their site for image issues [#31794]
