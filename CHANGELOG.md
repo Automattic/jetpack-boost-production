@@ -13,6 +13,7 @@ This is an alpha version! The changes listed here are not final.
 - Updated package dependencies.
 
 ### Fixed
+- Critical CSS: Improved the regenerate button to eleminate the possibility of accidental parallel regeneration
 - Image Guide: Fixed grammar issue in the feature description on the Boost dashboard.
 
 ## [2.0.0] - 2023-07-24
