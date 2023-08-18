@@ -562,6 +562,10 @@ return array(
 		'version' => '2.0.1.0-alpha',
 		'path'    => $baseDir . '/app/contracts/Pluggable.php'
 	),
+	'Automattic\\Jetpack_Boost\\Data_Sync\\Critical_CSS_Meta_Entry' => array(
+		'version' => '2.0.1.0-alpha',
+		'path'    => $baseDir . '/app/data-sync/Critical_CSS_Meta_Entry.php'
+	),
 	'Automattic\\Jetpack_Boost\\Data_Sync\\Minify_Excludes_State_Entry' => array(
 		'version' => '2.0.1.0-alpha',
 		'path'    => $baseDir . '/app/data-sync/Minify_Excludes_State_Entry.php'

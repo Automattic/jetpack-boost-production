@@ -14,6 +14,7 @@ This is an alpha version! The changes listed here are not final.
 - Updated package dependencies.
 
 ### Fixed
+- Critical CSS: Fixed manual critical CSS generation failure
 - Critical CSS: Improved the regenerate button to eleminate the possibility of accidental parallel regeneration
 - Fixed not being able to defer concatenated stylesheets, causing them to be render-blocking when used with Critical CSS.
 - Image Guide: Fixed grammar issue in the feature description on the Boost dashboard.
