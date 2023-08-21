@@ -4,8 +4,8 @@
 	"type": "jetpack-library",
 	"license": "GPL-2.0-or-later",
 	"require-dev": {
-		"yoast/phpunit-polyfills": "1.0.4",
-		"automattic/jetpack-changelogger": "^3.3.7",
+		"yoast/phpunit-polyfills": "1.1.0",
+		"automattic/jetpack-changelogger": "^3.3.8-alpha",
 		"brain/monkey": "^2.6"
 	},
 	"autoload-dev": {
@@ -14,7 +14,7 @@
 		}
 	},
 	"require": {
-		"automattic/jetpack-boost-core": "^0.1.0"
+		"automattic/jetpack-boost-core": "^0.1.1-alpha"
 	},
 	"autoload": {
 		"classmap": [
