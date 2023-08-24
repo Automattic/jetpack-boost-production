@@ -15,6 +15,7 @@ This is an alpha version! The changes listed here are not final.
 
 ### Fixed
 - Add the footer back on the getting started page.
+- Critical CSS: Improved compatibility with Yoast SEO and All in One SEO to ensure smooth Critical CSS generation.
 - Critical CSS: Improved the regenerate button to eleminate the possibility of accidental parallel regeneration
 - Handle zero dimensions in getOversizedRatio
 - Image Guide: Fixed grammar issue in the feature description on the Boost dashboard.
