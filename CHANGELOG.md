@@ -9,6 +9,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 This is an alpha version! The changes listed here are not final.
 
+### Added
+- New section to display boost history on jetpack boost admin page
+
 ### Changed
 - Removed get parameters from image URLs on ISA report details page.
 - UI: Improve discount elements for pricing section
