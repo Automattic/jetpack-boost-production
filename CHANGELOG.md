@@ -11,6 +11,7 @@ This is an alpha version! The changes listed here are not final.
 
 ### Changed
 - Removed get parameters from image URLs on ISA report details page.
+- UI: Improve discount elements for pricing section
 - Updated package dependencies.
 
 ### Fixed
