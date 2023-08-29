@@ -13,6 +13,7 @@ This is an alpha version! The changes listed here are not final.
 - New section to display boost history on jetpack boost admin page
 
 ### Changed
+- Critical CSS: Updated critical CSS url parameter to avoid redirect caching
 - Removed get parameters from image URLs on ISA report details page.
 - UI: Improve discount elements for pricing section
 - Updated package dependencies.
