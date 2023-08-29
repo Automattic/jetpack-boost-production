@@ -17,9 +17,8 @@ class Image_Size_Analysis_Entry implements Lazy_Entry, Entry_Can_Get, Entry_Can_
 	private $search_query = '';
 
 	public function get() {
-		$report_id = defined( 'JETPACK_BOOST_FORCE_REPORT_ID' ) ? JETPACK_BOOST_FORCE_REPORT_ID : 'latest';
-		$data      = Boost_API::get(
-			'image-guide/reports/' . $report_id . '/issues',
+		$data = Boost_API::get(
+			'image-guide/reports/latest/issues',
 			array(
 				'page'     => $this->page,
 				'group'    => $this->group,

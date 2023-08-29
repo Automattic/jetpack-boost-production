@@ -4,20 +4,20 @@
 	"type": "jetpack-library",
 	"license": "GPL-2.0-or-later",
 	"require": {
-		"automattic/jetpack-admin-ui": "^0.2.21",
-		"automattic/jetpack-assets": "^1.18.9",
-		"automattic/jetpack-connection": "^1.57.1",
-		"automattic/jetpack-jitm": "^2.3.17",
-		"automattic/jetpack-licensing": "^1.8.3",
-		"automattic/jetpack-plugins-installer": "^0.2.5",
-		"automattic/jetpack-redirect": "^1.7.26",
-		"automattic/jetpack-constants": "^1.6.23"
+		"automattic/jetpack-admin-ui": "^0.2.20",
+		"automattic/jetpack-assets": "^1.18.7",
+		"automattic/jetpack-connection": "^1.53.3",
+		"automattic/jetpack-jitm": "^2.3.12",
+		"automattic/jetpack-licensing": "^1.8.2",
+		"automattic/jetpack-plugins-installer": "^0.2.4",
+		"automattic/jetpack-redirect": "^1.7.25",
+		"automattic/jetpack-constants": "^1.6.22"
 	},
 	"require-dev": {
-		"yoast/phpunit-polyfills": "1.1.0",
-		"automattic/jetpack-changelogger": "^3.3.8",
+		"yoast/phpunit-polyfills": "1.0.4",
+		"automattic/jetpack-changelogger": "^3.3.6",
 		"automattic/wordbless": "@dev",
-		"automattic/jetpack-videopress": "^0.15.1"
+		"automattic/jetpack-videopress": "^0.14.9"
 	},
 	"suggest": {
 		"automattic/jetpack-autoloader": "Allow for better interoperability with other plugins that use this package."
@@ -65,7 +65,7 @@
 			"link-template": "https://github.com/Automattic/jetpack-my-jetpack/compare/${old}...${new}"
 		},
 		"branch-alias": {
-			"dev-trunk": "3.4.x-dev"
+			"dev-trunk": "3.1.x-dev"
 		},
 		"version-constants": {
 			"::PACKAGE_VERSION": "src/class-initializer.php"

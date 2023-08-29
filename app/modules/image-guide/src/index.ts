@@ -140,13 +140,12 @@ function initialize() {
 	} );
 }
 
-// Only show the image guide when not in the customizer (or any other iframe).
+/**
+ * Initialize the guides after window has loaded,
+ * we don't need the guides sooner because
+ * images have likely not loaded yet.
+ */
 if ( ! window.frameElement ) {
-	/**
-	 * Initialize the guides after window has loaded,
-	 * we don't need the guides sooner because
-	 * images have likely not loaded yet.
-	 */
 	window.addEventListener( 'load', () => {
 		initialize();
 		window.addEventListener( 'resize', debounceDimensionUpdates() );

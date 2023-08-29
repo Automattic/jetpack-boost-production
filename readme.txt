@@ -1,5 +1,5 @@
 === Jetpack Boost - Website Speed, Performance and Critical CSS  ===
-Contributors: automattic, xwp, adnan007, bjorsch, danwalmsley, davidlonjon, dilirity, ebinnion, exelero, jeherve, jpolakovic, karthikbhatb, kraftbj, luchad0res, pyronaur, rheinardkorf, scruffian, thingalon
+Contributors: automattic, xwp, adnan007, bjorsch, danwalmsley, davidlonjon, ebinnion, exelero, jeherve, jpolakovic, karthikbhatb, kraftbj, luchad0res, ppetrov2c, pyronaur, rheinardkorf, scruffian, thingalon
 Donate link: https://automattic.com
 Tags: performance, speed, pagespeed, web vitals, critical css, optimize, defer
 Requires at least: 5.5
@@ -187,10 +187,12 @@ If you run into compatibility issues, please do let us know. You can drop us a l
 2. Jetpack Boost Speed Improvement
 
 == Changelog ==
-### 2.0.1 - 2023-08-18
+### 2.0.2 - 2023-08-29
+#### Changed
+- Critical CSS: Updated critical CSS url parameter to avoid redirect caching
+
 #### Fixed
-- Critical CSS: Fixed manual critical CSS generation failure
-- Concatenate CSS: Fixed concatenated CSS being render-blocking when used with Critical CSS.
+- Critical CSS: Improved compatibility with Yoast SEO and All in One SEO to ensure smooth Critical CSS generation.
 
 --------
 

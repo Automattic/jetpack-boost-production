@@ -31,12 +31,7 @@ class Initializer {
 	 *
 	 * @var string
 	 */
-	const PACKAGE_VERSION = '3.4.2';
-
-	/**
-	 * HTML container ID for the IDC screen on My Jetpack page.
-	 */
-	const IDC_CONTAINER_ID = 'my-jetpack-identity-crisis-container';
+	const PACKAGE_VERSION = '3.1.2';
 
 	/**
 	 * Initialize My Jetpack
@@ -64,10 +59,10 @@ class Initializer {
 		$page_suffix = Admin_Menu::add_menu(
 			__( 'My Jetpack', 'jetpack-my-jetpack' ),
 			__( 'My Jetpack', 'jetpack-my-jetpack' ),
-			'edit_posts',
+			'manage_options',
 			'my-jetpack',
 			array( __CLASS__, 'admin_page' ),
-			0
+			999
 		);
 
 		add_action( 'load-' . $page_suffix, array( __CLASS__, 'admin_init' ) );
@@ -122,7 +117,6 @@ class Initializer {
 	 * @return void
 	 */
 	public static function admin_init() {
-		add_filter( 'identity_crisis_container_id', array( static::class, 'get_idc_container_id' ) );
 		add_action( 'admin_enqueue_scripts', array( __CLASS__, 'enqueue_scripts' ) );
 		// Product statuses are constantly changing, so we never want to cache the page.
 		header( 'Cache-Control: no-cache, no-store, must-revalidate' );
@@ -176,8 +170,6 @@ class Initializer {
 				'fileSystemWriteAccess' => self::has_file_system_write_access(),
 				'loadAddLicenseScreen'  => self::is_licensing_ui_enabled(),
 				'adminUrl'              => esc_url( admin_url() ),
-				'IDCContainerID'        => static::get_idc_container_id(),
-				'userIsAdmin'           => current_user_can( 'manage_options' ),
 			)
 		);
 
@@ -191,7 +183,7 @@ class Initializer {
 		);
 
 		// Connection Initial State.
-		Connection_Initial_State::render_script( 'my_jetpack_main_app' );
+		wp_add_inline_script( 'my_jetpack_main_app', Connection_Initial_State::render(), 'before' );
 
 		// Required for Analytics.
 		if ( self::can_use_analytics() ) {
@@ -231,7 +223,6 @@ class Initializer {
 		new REST_Products();
 		new REST_Purchases();
 		new REST_Zendesk_Chat();
-		new REST_AI();
 
 		register_rest_route(
 			'my-jetpack/v1',
@@ -335,15 +326,6 @@ class Initializer {
 		set_transient( 'my_jetpack_write_access', $write_access, 30 * MINUTE_IN_SECONDS );
 
 		return $write_access;
-	}
-
-	/**
-	 * Get container IDC for the IDC screen.
-	 *
-	 * @return string
-	 */
-	public static function get_idc_container_id() {
-		return static::IDC_CONTAINER_ID;
 	}
 
 }

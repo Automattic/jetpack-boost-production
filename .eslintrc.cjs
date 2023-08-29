@@ -8,7 +8,7 @@ module.exports = {
 		require.resolve( 'jetpack-js-tools/eslintrc/wp-eslint-plugin/recommended' ),
 		require.resolve( 'jetpack-js-tools/eslintrc/svelte' ),
 	],
-	ignorePatterns: [ '**/stories/*.stories.tsx', ...loadIgnorePatterns( __dirname ) ],
+	ignorePatterns: loadIgnorePatterns( __dirname ),
 	parserOptions: {
 		babelOptions: {
 			configFile: require.resolve( './babel.config.js' ),
