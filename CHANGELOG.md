@@ -22,6 +22,7 @@ This is an alpha version! The changes listed here are not final.
 - Critical CSS: Improved the regenerate button to eleminate the possibility of accidental parallel regeneration
 - Handle zero dimensions in getOversizedRatio
 - Image Guide: Fixed grammar issue in the feature description on the Boost dashboard.
+- Jetpack Boost: Split and Parallelize Jetpack Boost Tests
 
 ## [2.0.2] - 2023-08-29
 ### Changed
