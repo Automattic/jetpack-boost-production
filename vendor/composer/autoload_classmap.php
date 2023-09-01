@@ -205,6 +205,7 @@ return array(
     'Automattic\\Jetpack_Boost\\Modules\\Optimizations\\Minify\\Minify_CSS' => $baseDir . '/app/modules/optimizations/minify/class-minify-css.php',
     'Automattic\\Jetpack_Boost\\Modules\\Optimizations\\Minify\\Minify_JS' => $baseDir . '/app/modules/optimizations/minify/class-minify-js.php',
     'Automattic\\Jetpack_Boost\\Modules\\Optimizations\\Render_Blocking_JS\\Render_Blocking_JS' => $baseDir . '/app/modules/optimizations/render-blocking-js/class-render-blocking-js.php',
+    'Automattic\\Jetpack_Boost\\Modules\\Performance_History\\Performance_History' => $baseDir . '/app/modules/performance-history/Performance_History.php',
     'Automattic\\Jetpack_Boost\\REST_API\\Contracts\\Endpoint' => $baseDir . '/app/rest-api/contracts/Endpoint.php',
     'Automattic\\Jetpack_Boost\\REST_API\\Contracts\\Has_Endpoints' => $baseDir . '/app/rest-api/contracts/Has_Endpoints.php',
     'Automattic\\Jetpack_Boost\\REST_API\\Contracts\\Permission' => $baseDir . '/app/rest-api/contracts/Permission.php',

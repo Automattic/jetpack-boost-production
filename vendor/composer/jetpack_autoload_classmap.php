@@ -814,6 +814,10 @@ return array(
 		'version' => '2.1.0.0-alpha',
 		'path'    => $baseDir . '/app/modules/optimizations/render-blocking-js/class-render-blocking-js.php'
 	),
+	'Automattic\\Jetpack_Boost\\Modules\\Performance_History\\Performance_History' => array(
+		'version' => '2.1.0.0-alpha',
+		'path'    => $baseDir . '/app/modules/performance-history/Performance_History.php'
+	),
 	'Automattic\\Jetpack_Boost\\REST_API\\Contracts\\Endpoint' => array(
 		'version' => '2.1.0.0-alpha',
 		'path'    => $baseDir . '/app/rest-api/contracts/Endpoint.php'
