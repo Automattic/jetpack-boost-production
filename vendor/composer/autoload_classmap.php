@@ -146,6 +146,7 @@ return array(
     'Automattic\\Jetpack_Boost\\Data_Sync\\Critical_CSS_Meta_Entry' => $baseDir . '/app/data-sync/Critical_CSS_Meta_Entry.php',
     'Automattic\\Jetpack_Boost\\Data_Sync\\Minify_Excludes_State_Entry' => $baseDir . '/app/data-sync/Minify_Excludes_State_Entry.php',
     'Automattic\\Jetpack_Boost\\Data_Sync\\Modules_State_Entry' => $baseDir . '/app/data-sync/Modules_State_Entry.php',
+    'Automattic\\Jetpack_Boost\\Data_Sync\\Premium_Features_Entry' => $baseDir . '/app/data-sync/Premium_Features_Entry.php',
     'Automattic\\Jetpack_Boost\\Features\\Setup_Prompt\\Setup_Prompt' => $baseDir . '/app/features/setup-prompt/Setup_Prompt.php',
     'Automattic\\Jetpack_Boost\\Jetpack_Boost' => $baseDir . '/app/class-jetpack-boost.php',
     'Automattic\\Jetpack_Boost\\Lib\\Analytics' => $baseDir . '/app/lib/class-analytics.php',

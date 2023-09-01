@@ -578,6 +578,10 @@ return array(
 		'version' => '2.1.0.0-alpha',
 		'path'    => $baseDir . '/app/data-sync/Modules_State_Entry.php'
 	),
+	'Automattic\\Jetpack_Boost\\Data_Sync\\Premium_Features_Entry' => array(
+		'version' => '2.1.0.0-alpha',
+		'path'    => $baseDir . '/app/data-sync/Premium_Features_Entry.php'
+	),
 	'Automattic\\Jetpack_Boost\\Features\\Setup_Prompt\\Setup_Prompt' => array(
 		'version' => '2.1.0.0-alpha',
 		'path'    => $baseDir . '/app/features/setup-prompt/Setup_Prompt.php'

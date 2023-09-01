@@ -183,6 +183,7 @@ class ComposerStaticInitb1e77e6231d50e7663f84529b6a3dfda_jetpack_boostⓥ2_1_0_a
         'Automattic\\Jetpack_Boost\\Data_Sync\\Critical_CSS_Meta_Entry' => __DIR__ . '/../..' . '/app/data-sync/Critical_CSS_Meta_Entry.php',
         'Automattic\\Jetpack_Boost\\Data_Sync\\Minify_Excludes_State_Entry' => __DIR__ . '/../..' . '/app/data-sync/Minify_Excludes_State_Entry.php',
         'Automattic\\Jetpack_Boost\\Data_Sync\\Modules_State_Entry' => __DIR__ . '/../..' . '/app/data-sync/Modules_State_Entry.php',
+        'Automattic\\Jetpack_Boost\\Data_Sync\\Premium_Features_Entry' => __DIR__ . '/../..' . '/app/data-sync/Premium_Features_Entry.php',
         'Automattic\\Jetpack_Boost\\Features\\Setup_Prompt\\Setup_Prompt' => __DIR__ . '/../..' . '/app/features/setup-prompt/Setup_Prompt.php',
         'Automattic\\Jetpack_Boost\\Jetpack_Boost' => __DIR__ . '/../..' . '/app/class-jetpack-boost.php',
         'Automattic\\Jetpack_Boost\\Lib\\Analytics' => __DIR__ . '/../..' . '/app/lib/class-analytics.php',
