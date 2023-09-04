@@ -9,7 +9,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 This is an alpha version! The changes listed here are not final.
 
-## [2.1.0-beta] - 2023-09-01
+## [2.1.0-beta-2] - 2023-09-04
 ### Added
 - Image CDN: Added quality settings for premium users. [#32780]
 - Performance History: New section to display historical performance. [#32759]
@@ -20,10 +20,10 @@ This is an alpha version! The changes listed here are not final.
 - UI: Update Image Size Analyzer error feedback. [#32685]
 
 ### Fixed
-- UI: Add the footer back on the getting started page. [#32549]
 - Critical CSS: Improved the regenerate button to eliminate the possibility of accidental parallel regeneration. [#32011]
-- Image Guide: Fix oversize ratio in some cases. [#32548]
 - Image Guide: Fixed grammar issue in the feature description on the Boost dashboard. [#32072]
+- Image Guide: Fix oversize ratio in some cases. [#32548]
+- UI: Add the footer back on the getting started page. [#32549]
 
 ## [2.0.2] - 2023-08-29
 ### Changed
@@ -330,8 +330,8 @@ This is an alpha version! The changes listed here are not final.
 
 - First public alpha release
 
-[2.1.1-alpha]: https://github.com/Automattic/jetpack-boost-production/compare/2.1.0-beta...2.1.1-alpha
-[2.1.0-beta]: https://github.com/Automattic/jetpack-boost-production/compare/2.0.2...2.1.0-beta
+[2.1.1-alpha]: https://github.com/Automattic/jetpack-boost-production/compare/2.1.0-beta-2...2.1.1-alpha
+[2.1.0-beta-2]: https://github.com/Automattic/jetpack-boost-production/compare/2.0.2...2.1.0-beta-2
 [2.0.2]: https://github.com/Automattic/jetpack-boost-production/compare/2.0.1...2.0.2
 [2.0.1]: https://github.com/Automattic/jetpack-boost-production/compare/2.0.0...2.0.1
 [2.0.0]: https://github.com/Automattic/jetpack-boost-production/compare/1.9.4...2.0.0
