@@ -21,7 +21,7 @@
 		"automattic/jetpack-boost-speed-score": "^0.2.1",
 		"automattic/jetpack-composer-plugin": "^1.1.13",
 		"automattic/jetpack-config": "^1.15.3",
-		"automattic/jetpack-connection": "^1.57.3",
+		"automattic/jetpack-connection": "^1.57.4-alpha",
 		"automattic/jetpack-device-detection": "^1.4.27",
 		"automattic/jetpack-image-cdn": "^0.2.4",
 		"automattic/jetpack-lazy-images": "^2.1.45",
