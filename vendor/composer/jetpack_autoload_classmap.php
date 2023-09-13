@@ -275,7 +275,7 @@ return array(
 		'path'    => $baseDir . '/jetpack_vendor/automattic/jetpack-jitm/src/class-rest-api-endpoints.php'
 	),
 	'Automattic\\Jetpack\\Jetpack_Lazy_Images' => array(
-		'version' => '2.1.45.0',
+		'version' => '2.2.0.0-alpha1694618390',
 		'path'    => $baseDir . '/jetpack_vendor/automattic/jetpack-lazy-images/src/lazy-images.php'
 	),
 	'Automattic\\Jetpack\\Licensing' => array(
