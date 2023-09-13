@@ -4,8 +4,8 @@
 	"type": "jetpack-library",
 	"license": "GPL-2.0-or-later",
 	"require": {
-		"automattic/jetpack-assets": "^1.18.10",
-		"automattic/jetpack-status": "^1.18.3"
+		"automattic/jetpack-assets": "^1.18.9",
+		"automattic/jetpack-status": "^1.18.1"
 	},
 	"require-dev": {
 		"automattic/wordbless": "dev-master",
