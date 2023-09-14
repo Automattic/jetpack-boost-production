@@ -9,6 +9,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 This is an alpha version! The changes listed here are not final.
 
+### Changed
+- Jetpack Boost: Removed global state from MultiProgress bar
+
 ## [2.1.1] - 2023-09-13
 ### Added
 - Image CDN: Added quality settings for premium users. [#32780]
