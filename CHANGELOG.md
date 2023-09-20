@@ -13,6 +13,9 @@ This is an alpha version! The changes listed here are not final.
 - Jetpack Booost: Refactor Recommendations Meta
 - Jetpack Boost: Removed global state from MultiProgress bar
 
+### Fixed
+- Jetpack Boost: Refactor the connection
+
 ## [2.1.1] - 2023-09-13
 ### Added
 - Image CDN: Added quality settings for premium users. [#32780]
