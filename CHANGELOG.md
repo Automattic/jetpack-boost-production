@@ -14,6 +14,7 @@ This is an alpha version! The changes listed here are not final.
 - Jetpack Boost: Removed global state from MultiProgress bar
 
 ### Fixed
+- Fixed generating invalid html ID values for concatenated stylesheets.
 - Jetpack Boost: Refactor the connection
 
 ## [2.1.1] - 2023-09-13
