@@ -13,6 +13,7 @@ This is an alpha version! The changes listed here are not final.
 - Jetpack Booost: Refactor Recommendations Meta
 - Jetpack Boost: Removed global state from MultiProgress bar
 - Lazy Images: do not display the feature if the site uses an incompatible version of WordPress (this includes future versions of WordPress as well as sites running the latest version of the Gutenberg plugin).
+- Updated package dependencies.
 
 ### Fixed
 - Fixed generating invalid html ID values for concatenated stylesheets.
