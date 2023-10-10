@@ -182,6 +182,7 @@ class ComposerStaticInitb1e77e6231d50e7663f84529b6a3dfda_jetpack_boostⓥ2_1_2_a
         'Automattic\\Jetpack_Boost\\Contracts\\Is_Always_On' => __DIR__ . '/../..' . '/app/contracts/Is_Always_On.php',
         'Automattic\\Jetpack_Boost\\Contracts\\Pluggable' => __DIR__ . '/../..' . '/app/contracts/Pluggable.php',
         'Automattic\\Jetpack_Boost\\Data_Sync\\Critical_CSS_Meta_Entry' => __DIR__ . '/../..' . '/app/data-sync/Critical_CSS_Meta_Entry.php',
+        'Automattic\\Jetpack_Boost\\Data_Sync\\Mergeable_Array_Entry' => __DIR__ . '/../..' . '/app/data-sync/Mergeable_Array_Entry.php',
         'Automattic\\Jetpack_Boost\\Data_Sync\\Minify_Excludes_State_Entry' => __DIR__ . '/../..' . '/app/data-sync/Minify_Excludes_State_Entry.php',
         'Automattic\\Jetpack_Boost\\Data_Sync\\Modules_State_Entry' => __DIR__ . '/../..' . '/app/data-sync/Modules_State_Entry.php',
         'Automattic\\Jetpack_Boost\\Data_Sync\\Premium_Features_Entry' => __DIR__ . '/../..' . '/app/data-sync/Premium_Features_Entry.php',

@@ -58,7 +58,7 @@ return array(
     ),
     'jetpack-wp-js-data-sync' => array(
       'path' => 'jetpack_vendor/automattic/jetpack-wp-js-data-sync',
-      'ver' => '0.2.3-alpha1694712909',
+      'ver' => '0.3.0-alpha1696945167',
     ),
   ),
 );
