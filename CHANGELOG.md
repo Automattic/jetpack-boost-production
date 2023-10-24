@@ -5,7 +5,7 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
-## [2.1.2-alpha] - unreleased
+## [2.2.0-alpha] - unreleased
 
 This is an alpha version! The changes listed here are not final.
 
@@ -15,6 +15,9 @@ This is an alpha version! The changes listed here are not final.
 - Lazy Images: do not display the feature if the site uses an incompatible version of WordPress (this includes future versions of WordPress as well as sites running the latest version of the Gutenberg plugin).
 - Performance History: Improvements in design
 - Updated package dependencies.
+
+### Deprecated
+- Lazy Loading: Added a notice mentioning that the feature is being deprecated
 
 ### Fixed
 - Fixed generating invalid html ID values for concatenated stylesheets.
@@ -343,7 +346,7 @@ This is an alpha version! The changes listed here are not final.
 
 - First public alpha release
 
-[2.1.2-alpha]: https://github.com/Automattic/jetpack-boost-production/compare/2.1.1...2.1.2-alpha
+[2.2.0-alpha]: https://github.com/Automattic/jetpack-boost-production/compare/2.1.1...2.2.0-alpha
 [2.1.1]: https://github.com/Automattic/jetpack-boost-production/compare/2.0.2...2.1.1
 [2.0.2]: https://github.com/Automattic/jetpack-boost-production/compare/2.0.1...2.0.2
 [2.0.1]: https://github.com/Automattic/jetpack-boost-production/compare/2.0.0...2.0.1
