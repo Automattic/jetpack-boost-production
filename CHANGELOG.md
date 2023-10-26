@@ -5,26 +5,19 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
-## [2.2.0-alpha] - unreleased
-
-This is an alpha version! The changes listed here are not final.
-
+## [2.2.0-beta] - 2023-10-26
 ### Changed
-- General: indicate full compatibility with the latest version of WordPress, 6.4.
-- Getting Started: Improved how features are sorted in the getting started page.
-- Jetpack Booost: Refactor Recommendations Meta
-- Jetpack Boost: Removed global state from MultiProgress bar
-- Lazy Images: do not display the feature if the site uses an incompatible version of WordPress (this includes future versions of WordPress as well as sites running the latest version of the Gutenberg plugin).
-- Performance History: Improvements in design
-- Updated package dependencies.
+- General: Indicate full compatibility with the latest version of WordPress, 6.4. [#33776]
+- Getting Started: Improved how features are sorted in the getting started page. [#33766]
+- Performance History: Improvements in design. [#33133]
 
 ### Deprecated
-- Lazy Loading: Added a notice mentioning that the feature is being deprecated
+- Lazy Images: Added deprecation notice. [#33749]
+- Lazy Images: Force disable feature to avoid conflict with new version of Gutenberg and WordPress 6.4. [#33208]
 
 ### Fixed
-- Fixed generating invalid html ID values for concatenated stylesheets.
-- Jetpack Boost: Refactor the connection
-- Jetpack Boost: Update Image CDN slider quality UI
+- Concatenate JS/CSS: Fixed generating invalid html ID values for concatenated stylesheets. [#33002]
+- Image CDN: Update quality slider UI. [#33300]
 
 ## [2.1.1] - 2023-09-13
 ### Added
@@ -348,7 +341,7 @@ This is an alpha version! The changes listed here are not final.
 
 - First public alpha release
 
-[2.2.0-alpha]: https://github.com/Automattic/jetpack-boost-production/compare/2.1.1...2.2.0-alpha
+[2.2.0-beta]: https://github.com/Automattic/jetpack-boost-production/compare/2.1.1...2.2.0-beta
 [2.1.1]: https://github.com/Automattic/jetpack-boost-production/compare/2.0.2...2.1.1
 [2.0.2]: https://github.com/Automattic/jetpack-boost-production/compare/2.0.1...2.0.2
 [2.0.1]: https://github.com/Automattic/jetpack-boost-production/compare/2.0.0...2.0.1
