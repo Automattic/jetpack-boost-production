@@ -11,6 +11,7 @@ This is an alpha version! The changes listed here are not final.
 
 ### Changed
 - Updated package dependencies.
+- Update lockfile
 
 ## [2.2.0-beta] - 2023-10-26
 ### Changed
