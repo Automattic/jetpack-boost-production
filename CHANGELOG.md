@@ -11,6 +11,7 @@ This is an alpha version! The changes listed here are not final.
 
 ### Changed
 - Jetpack Boost: Extract Image Size Analyzer styles to dedicated files
+- Updated e2e test to account for recent updates to the lazy loading module.
 - Updated package dependencies.
 - Update lockfile
 
