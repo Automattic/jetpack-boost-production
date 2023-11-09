@@ -22,7 +22,7 @@
 		"automattic/jetpack-composer-plugin": "^1.1.14",
 		"automattic/jetpack-config": "^1.15.4",
 		"automattic/jetpack-connection": "^1.59.0",
-		"automattic/jetpack-device-detection": "^1.4.27",
+		"automattic/jetpack-device-detection": "^1.5.0-alpha",
 		"automattic/jetpack-image-cdn": "^0.2.8",
 		"automattic/jetpack-lazy-images": "^2.3.3-alpha",
 		"automattic/jetpack-my-jetpack": "^3.12.0",
