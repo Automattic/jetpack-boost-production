@@ -12,6 +12,7 @@ This is an alpha version! The changes listed here are not final.
 ### Changed
 - Jetpack Boost: Extract Image Size Analyzer styles to dedicated files
 - Refactor svelte components to react.
+- Updated Benefits Interstitial to react. Also, renamed it to Upgrade.
 - Updated e2e test to account for recent updates to the lazy loading module.
 - Updated package dependencies.
 - Update lockfile
