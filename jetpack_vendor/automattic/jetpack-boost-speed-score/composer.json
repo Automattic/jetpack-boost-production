@@ -14,7 +14,8 @@
 		}
 	},
 	"require": {
-		"automattic/jetpack-boost-core": "^0.1.4-alpha"
+		"php": ">=7.0",
+		"automattic/jetpack-boost-core": "^0.2.0-alpha"
 	},
 	"autoload": {
 		"classmap": [
@@ -47,7 +48,7 @@
 		},
 		"autotagger": true,
 		"branch-alias": {
-			"dev-trunk": "0.2.x-dev"
+			"dev-trunk": "0.3.x-dev"
 		},
 		"textdomain": "jetpack-boost-speed-score",
 		"version-constants": {

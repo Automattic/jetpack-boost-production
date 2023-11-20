@@ -4,8 +4,9 @@
 	"type": "jetpack-library",
 	"license": "GPL-2.0-or-later",
 	"require": {
-		"automattic/jetpack-assets": "^1.18.16-alpha",
-		"automattic/jetpack-status": "^1.19.0"
+		"php": ">=7.0",
+		"automattic/jetpack-assets": "^2.0.0-alpha",
+		"automattic/jetpack-status": "^2.0.0-alpha"
 	},
 	"require-dev": {
 		"automattic/wordbless": "dev-master",
@@ -41,7 +42,7 @@
 		},
 		"autotagger": true,
 		"branch-alias": {
-			"dev-trunk": "0.2.x-dev"
+			"dev-trunk": "0.3.x-dev"
 		},
 		"textdomain": "jetpack-image-cdn",
 		"version-constants": {
