@@ -18,6 +18,7 @@ This is an alpha version! The changes listed here are not final.
 - Updated Benefits Interstitial to react. Also, renamed it to Upgrade.
 - Updated e2e test to account for recent updates to the lazy loading module.
 - Updated package dependencies.
+- Update Getting Started page to react.
 - Update lockfile
 
 ## [2.2.0-beta] - 2023-10-26
