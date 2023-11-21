@@ -15,13 +15,13 @@
 	"require": {
 		"ext-json": "*",
 		"automattic/jetpack-admin-ui": "^0.3.0",
-		"automattic/jetpack-assets": "^2.0.0",
-		"automattic/jetpack-autoloader": "^3.0.0",
+		"automattic/jetpack-assets": "^2.0.1-alpha",
+		"automattic/jetpack-autoloader": "^3.0.1-alpha",
 		"automattic/jetpack-boost-core": "^0.2.1-alpha",
 		"automattic/jetpack-boost-speed-score": "^0.3.0",
 		"automattic/jetpack-composer-plugin": "^2.0.0",
 		"automattic/jetpack-config": "^2.0.0",
-		"automattic/jetpack-connection": "^2.0.0",
+		"automattic/jetpack-connection": "^2.0.1-alpha",
 		"automattic/jetpack-device-detection": "^2.0.0",
 		"automattic/jetpack-image-cdn": "^0.3.0",
 		"automattic/jetpack-lazy-images": "^3.0.0-alpha",
@@ -33,7 +33,7 @@
 		"tubalmartin/cssmin": "^4.1"
 	},
 	"require-dev": {
-		"automattic/jetpack-changelogger": "^4.0.0",
+		"automattic/jetpack-changelogger": "^4.0.1-alpha",
 		"automattic/wordbless": "0.4.2",
 		"brain/monkey": "2.6.1",
 		"yoast/phpunit-polyfills": "1.1.0"
