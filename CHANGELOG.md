@@ -13,6 +13,7 @@ This is an alpha version! The changes listed here are not final.
 - Code Modernization: Replace usage of strpos() with str_starts_with().
 - General: updated PHP requirement to PHP 7.0+
 - Jetpack Boost: Extract Image Size Analyzer styles to dedicated files
+- Migrate AdvancedCriticalCss and several other components to react.
 - Refactor svelte components to react.
 - Updated Benefits Interstitial to react. Also, renamed it to Upgrade.
 - Updated e2e test to account for recent updates to the lazy loading module.
