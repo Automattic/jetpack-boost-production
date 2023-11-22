@@ -790,6 +790,10 @@ return array(
 		'version' => '3.0.0.0-alpha',
 		'path'    => $baseDir . '/app/modules/image-size-analysis/Image_Size_Analysis.php'
 	),
+	'Automattic\\Jetpack_Boost\\Modules\\Image_Size_Analysis\\Image_Size_Analysis_Fixer' => array(
+		'version' => '3.0.0.0-alpha',
+		'path'    => $baseDir . '/app/modules/image-size-analysis/Image_Size_Analysis_Fixer.php'
+	),
 	'Automattic\\Jetpack_Boost\\Modules\\Module' => array(
 		'version' => '3.0.0.0-alpha',
 		'path'    => $baseDir . '/app/modules/Module.php'
@@ -869,6 +873,10 @@ return array(
 	'Automattic\\Jetpack_Boost\\REST_API\\Endpoints\\Critical_CSS_Start' => array(
 		'version' => '3.0.0.0-alpha',
 		'path'    => $baseDir . '/app/rest-api/endpoints/Critical_CSS_Start.php'
+	),
+	'Automattic\\Jetpack_Boost\\REST_API\\Endpoints\\Image_Analysis_Fix' => array(
+		'version' => '3.0.0.0-alpha',
+		'path'    => $baseDir . '/app/rest-api/endpoints/Image_Analysis_Fix.php'
 	),
 	'Automattic\\Jetpack_Boost\\REST_API\\Endpoints\\Image_Analysis_Start' => array(
 		'version' => '3.0.0.0-alpha',
