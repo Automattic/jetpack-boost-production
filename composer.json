@@ -21,7 +21,7 @@
 		"automattic/jetpack-boost-speed-score": "^0.3.0",
 		"automattic/jetpack-composer-plugin": "^2.0.0",
 		"automattic/jetpack-config": "^2.0.0",
-		"automattic/jetpack-connection": "^2.0.3",
+		"automattic/jetpack-connection": "^2.0.4-alpha",
 		"automattic/jetpack-device-detection": "^2.0.1",
 		"automattic/jetpack-image-cdn": "^0.3.2-alpha",
 		"automattic/jetpack-lazy-images": "^3.0.0-alpha",
@@ -33,7 +33,7 @@
 		"tubalmartin/cssmin": "^4.1"
 	},
 	"require-dev": {
-		"automattic/jetpack-changelogger": "^4.0.3",
+		"automattic/jetpack-changelogger": "^4.0.4-alpha",
 		"automattic/wordbless": "0.4.2",
 		"brain/monkey": "2.6.1",
 		"yoast/phpunit-polyfills": "1.1.0"
