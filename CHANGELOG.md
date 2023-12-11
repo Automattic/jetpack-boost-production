@@ -18,6 +18,7 @@ This is an alpha version! The changes listed here are not final.
 - Code Modernization: Replace usage of substr() with str_starts_with() and str_ends_with().
 - General: updated PHP requirement to PHP 7.0+
 - Jetpack Boost: Extract Image Size Analyzer styles to dedicated files
+- Jetpack Boost: Migrate Premium Tooltip component
 - Jetpack Boost: Use the new datasync interface
 - Migrate AdvancedCriticalCss and several other components to react.
 - Refactor svelte components to react.
