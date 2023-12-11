@@ -240,6 +240,7 @@ return array(
     'Jetpack_Tracks_Client' => $baseDir . '/jetpack_vendor/automattic/jetpack-connection/legacy/class-jetpack-tracks-client.php',
     'Jetpack_Tracks_Event' => $baseDir . '/jetpack_vendor/automattic/jetpack-connection/legacy/class-jetpack-tracks-event.php',
     'Jetpack_XMLRPC_Server' => $baseDir . '/jetpack_vendor/automattic/jetpack-connection/legacy/class-jetpack-xmlrpc-server.php',
+    'Performance_History_Entry' => $baseDir . '/app/data-sync/Performance_History_Entry.php',
     'tubalmartin\\CssMin\\Colors' => $vendorDir . '/tubalmartin/cssmin/src/Colors.php',
     'tubalmartin\\CssMin\\Command' => $vendorDir . '/tubalmartin/cssmin/src/Command.php',
     'tubalmartin\\CssMin\\Minifier' => $vendorDir . '/tubalmartin/cssmin/src/Minifier.php',

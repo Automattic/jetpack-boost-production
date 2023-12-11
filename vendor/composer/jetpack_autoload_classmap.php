@@ -990,6 +990,10 @@ return array(
 		'version' => '3.0.2',
 		'path'    => $vendorDir . '/automattic/jetpack-autoloader/src/class-path-processor.php'
 	),
+	'Performance_History_Entry' => array(
+		'version' => '3.0.0.0-alpha',
+		'path'    => $baseDir . '/app/data-sync/Performance_History_Entry.php'
+	),
 	'Plugin_Locator' => array(
 		'version' => '3.0.2',
 		'path'    => $vendorDir . '/automattic/jetpack-autoloader/src/class-plugin-locator.php'
