@@ -22,6 +22,7 @@ This is an alpha version! The changes listed here are not final.
 - Jetpack Boost: Use the new datasync interface
 - Migrate AdvancedCriticalCss and several other components to react.
 - Refactor svelte components to react.
+- Rewrite SuperCacheInfo component in React
 - Updated Benefits Interstitial to react. Also, renamed it to Upgrade.
 - Updated e2e test to account for recent updates to the lazy loading module.
 - Updated package dependencies.
