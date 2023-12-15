@@ -30,6 +30,9 @@ This is an alpha version! The changes listed here are not final.
 - Update Getting Started page to react.
 - Update lockfile
 
+### Fixed
+- Exclude @charset and @import statements from Critical CSS
+
 ## [2.2.0-beta] - 2023-10-26
 ### Changed
 - General: Indicate full compatibility with the latest version of WordPress, 6.4. [#33776]
