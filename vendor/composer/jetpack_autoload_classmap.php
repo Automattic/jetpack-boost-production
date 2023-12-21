@@ -602,6 +602,10 @@ return array(
 		'version' => '3.0.0.0-alpha',
 		'path'    => $baseDir . '/app/data-sync/Critical_CSS_Meta_Entry.php'
 	),
+	'Automattic\\Jetpack_Boost\\Data_Sync\\Getting_Started_Entry' => array(
+		'version' => '3.0.0.0-alpha',
+		'path'    => $baseDir . '/app/data-sync/Getting_Started_Entry.php'
+	),
 	'Automattic\\Jetpack_Boost\\Data_Sync\\Mergeable_Array_Entry' => array(
 		'version' => '3.0.0.0-alpha',
 		'path'    => $baseDir . '/app/data-sync/Mergeable_Array_Entry.php'
