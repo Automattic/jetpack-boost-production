@@ -5,36 +5,11 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
-## [3.0.0-alpha] - unreleased
-
-This is an alpha version! The changes listed here are not final.
-
-### Added
-- Boost: Add a fix button on each problem image in the Size Analyzer to fix the display of the image
-
-### Changed
-- Code Modernization: Replace usage of strpos() with str_contains()
-- Code Modernization: Replace usage of strpos() with str_starts_with().
-- Code Modernization: Replace usage of substr() with str_starts_with() and str_ends_with().
-- General: updated PHP requirement to PHP 7.0+
-- Jetpack Boost: Enable TypeScript Strict mode
-- Jetpack Boost: Extract Image Size Analyzer styles to dedicated files
-- Jetpack Boost: Migrate Premium Tooltip component
-- Jetpack Boost: Use the new datasync interface
-- Migrate AdvancedCriticalCss and several other components to react.
-- Refactor svelte components to react.
-- Rewrite SuperCacheInfo component in React
-- Updated Benefits Interstitial to react. Also, renamed it to Upgrade.
-- Updated e2e test to account for recent updates to the lazy loading module.
-- Updated package dependencies.
-- Update Getting Started page to react.
-- Update lockfile
-
+## [2.2.1] - 2023-12-21
 ### Fixed
-- Defer JS: added importmap to the exclusion list to fix compatibility issues.
-- Exclude @charset and @import statements from Critical CSS
+- Defer JS: added importmap to the exclusion list to fix compatibility issues. [#34746]
 
-## [2.2.0-beta] - 2023-10-26
+## [2.2.0] - 2023-10-31
 ### Changed
 - General: Indicate full compatibility with the latest version of WordPress, 6.4. [#33776]
 - Getting Started: Improved how features are sorted in the getting started page. [#33766]
@@ -370,8 +345,8 @@ This is an alpha version! The changes listed here are not final.
 
 - First public alpha release
 
-[3.0.0-alpha]: https://github.com/Automattic/jetpack-boost-production/compare/2.2.0-beta...3.0.0-alpha
-[2.2.0-beta]: https://github.com/Automattic/jetpack-boost-production/compare/2.1.1...2.2.0-beta
+[2.2.1]: https://github.com/Automattic/jetpack-boost-production/compare/2.2.0...2.2.1
+[2.2.0]: https://github.com/Automattic/jetpack-boost-production/compare/2.1.1...2.2.0
 [2.1.1]: https://github.com/Automattic/jetpack-boost-production/compare/2.0.2...2.1.1
 [2.0.2]: https://github.com/Automattic/jetpack-boost-production/compare/2.0.1...2.0.2
 [2.0.1]: https://github.com/Automattic/jetpack-boost-production/compare/2.0.0...2.0.1

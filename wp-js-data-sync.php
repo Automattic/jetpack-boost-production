@@ -2,14 +2,12 @@
 
 use Automattic\Jetpack\WP_JS_Data_Sync\Contracts\Data_Sync_Entry;
 use Automattic\Jetpack\WP_JS_Data_Sync\Data_Sync;
-use Automattic\Jetpack\WP_JS_Data_Sync\Data_Sync_Readonly;
 use Automattic\Jetpack\WP_JS_Data_Sync\Schema\Schema;
 use Automattic\Jetpack_Boost\Data_Sync\Critical_CSS_Meta_Entry;
 use Automattic\Jetpack_Boost\Data_Sync\Mergeable_Array_Entry;
 use Automattic\Jetpack_Boost\Data_Sync\Minify_Excludes_State_Entry;
 use Automattic\Jetpack_Boost\Data_Sync\Modules_State_Entry;
 use Automattic\Jetpack_Boost\Data_Sync\Premium_Features_Entry;
-use Automattic\Jetpack_Boost\Lib\Premium_Pricing;
 use Automattic\Jetpack_Boost\Modules\Optimizations\Minify\Minify_CSS;
 use Automattic\Jetpack_Boost\Modules\Optimizations\Minify\Minify_JS;
 
@@ -21,19 +19,12 @@ if ( ! defined( 'JETPACK_BOOST_DATASYNC_NAMESPACE' ) ) {
  * Make it easier to register a Jetpack Boost Data-Sync option.
  *
  * @param $key    string - The key for this option.
- * @param $parser Automattic\Jetpack\WP_JS_Data_Sync\Schema\Parser - The schema for this option.
+ * @param $schema Schema - The schema for this option.
  * @param $entry  Automattic\Jetpack\WP_JS_Data_Sync\Contracts\Data_Sync_Entry|null - The entry handler for this option.
  */
-function jetpack_boost_register_option( $key, $parser, $entry = null ) {
+function jetpack_boost_register_option( $key, $schema, $entry = null ) {
 	Data_Sync::get_instance( JETPACK_BOOST_DATASYNC_NAMESPACE )
-			->register( $key, $parser, $entry );
-}
-
-/**
- * Make it easier to register a Jetpack Boost Read-only Data-Sync option.
- */
-function jetpack_boost_register_readonly_option( $key, $callback ) {
-	jetpack_boost_register_option( $key, Schema::as_unsafe_any(), new Data_Sync_Readonly( $callback ) );
+			->register( $key, $schema, $entry );
 }
 
 /**
@@ -219,35 +210,6 @@ jetpack_boost_register_option(
 jetpack_boost_register_option( 'premium_features', $premium_features_schema, new Premium_Features_Entry() );
 
 jetpack_boost_register_option( 'performance_history_toggle', Schema::as_boolean()->fallback( false ) );
-jetpack_boost_register_option(
-	'performance_history',
-	Schema::as_assoc_array(
-		array(
-			'periods'   => Schema::as_array(
-				Schema::as_assoc_array(
-					array(
-						'timestamp'  => Schema::as_number(),
-						'dimensions' => Schema::as_assoc_array(
-							array(
-								'desktop_overall_score' => Schema::as_number(),
-								'mobile_overall_score'  => Schema::as_number(),
-								'desktop_cls'           => Schema::as_number(),
-								'desktop_lcp'           => Schema::as_number(),
-								'desktop_tbt'           => Schema::as_number(),
-								'mobile_cls'            => Schema::as_number(),
-								'mobile_lcp'            => Schema::as_number(),
-								'mobile_tbt'            => Schema::as_number(),
-							)
-						),
-					)
-				)
-			),
-			'startDate' => Schema::as_number(),
-			'endDate'   => Schema::as_number(),
-		)
-	),
-	new Performance_History_Entry()
-);
 
 /**
  * Register Super Cache Notice Disabled store.
@@ -278,15 +240,3 @@ jetpack_boost_register_option(
 	'dismissed_score_prompt',
 	Schema::as_array( Schema::as_string() )->fallback( array() )
 );
-
-/**
- * Deliver static, read-only values to the UI.
- * @return array
- */
-function jetpack_boost_ui_config() {
-	return array(
-		'plugin_dir_url' => untrailingslashit( JETPACK_BOOST_PLUGINS_DIR_URL ),
-		'pricing'        => Premium_Pricing::get_yearly_pricing(),
-	);
-}
-jetpack_boost_register_readonly_option( 'config', 'jetpack_boost_ui_config' );

@@ -75,11 +75,7 @@ class Backup extends Hybrid_Product {
 	 * @return string
 	 */
 	public static function get_description() {
-		if ( static::is_active() ) {
-			return __( 'Save every change', 'jetpack-my-jetpack' );
-		}
-
-		return __( 'Your site is not backed up', 'jetpack-my-jetpack' );
+		return __( 'Save every change', 'jetpack-my-jetpack' );
 	}
 
 	/**

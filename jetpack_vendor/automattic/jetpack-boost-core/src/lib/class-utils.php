@@ -53,7 +53,7 @@ class Utils {
 	 * @return string
 	 */
 	public static function force_url_to_absolute( $url ) {
-		if ( str_starts_with( $url, '/' ) ) {
+		if ( substr( $url, 0, 1 ) === '/' ) {
 			return get_site_url( null, $url );
 		}
 
