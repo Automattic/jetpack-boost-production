@@ -31,6 +31,7 @@ This is an alpha version! The changes listed here are not final.
 - Update lockfile
 
 ### Fixed
+- Defer JS: added importmap to the exclusion list to fix compatibility issues.
 - Exclude @charset and @import statements from Critical CSS
 
 ## [2.2.0-beta] - 2023-10-26
