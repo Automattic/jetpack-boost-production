@@ -30,6 +30,9 @@ This is an alpha version! The changes listed here are not final.
 - Update Getting Started page to react.
 - Update lockfile
 
+### Removed
+- Remove Boost setup prompt/banner on wp-admin plugins page.
+
 ### Fixed
 - Exclude @charset and @import statements from Critical CSS
 
