@@ -10,6 +10,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 This is an alpha version! The changes listed here are not final.
 
 ### Changed
+- Add DataSync Actions
 - The package now requires PHP >= 7.0.
 
 ## [0.3.0] - 2023-10-26
