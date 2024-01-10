@@ -38,6 +38,7 @@ This is an alpha version! The changes listed here are not final.
 ### Fixed
 - Exclude @charset and @import statements from Critical CSS
 - Fix a bug in image generation request after purchase
+- Fixed an infinite loop in the getting started page
 
 ## [2.2.1] - 2023-12-21
 ### Fixed
