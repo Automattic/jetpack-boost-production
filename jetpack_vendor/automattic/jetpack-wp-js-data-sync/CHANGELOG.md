@@ -11,6 +11,7 @@ This is an alpha version! The changes listed here are not final.
 
 ### Changed
 - Add DataSync Actions
+- Improved error handling in DataSync.
 - The package now requires PHP >= 7.0.
 
 ## [0.3.0] - 2023-10-26
