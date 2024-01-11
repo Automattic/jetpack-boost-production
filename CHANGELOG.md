@@ -11,6 +11,7 @@ This is an alpha version! The changes listed here are not final.
 
 ### Added
 - Boost: Add a fix button on each problem image in the Size Analyzer to fix the display of the image
+- Sync: Added jetpack-sync for better debugging during support
 
 ### Changed
 - Code Modernization: Replace usage of strpos() with str_contains()
