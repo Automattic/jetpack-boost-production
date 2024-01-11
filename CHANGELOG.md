@@ -34,6 +34,7 @@ This is an alpha version! The changes listed here are not final.
 
 ### Removed
 - Remove Boost setup prompt/banner on wp-admin plugins page.
+- Removed deprecated code
 
 ### Fixed
 - Exclude @charset and @import statements from Critical CSS
