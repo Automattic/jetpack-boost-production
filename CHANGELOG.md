@@ -25,6 +25,7 @@ This is an alpha version! The changes listed here are not final.
 - Jetpack Boost: Use the new datasync interface
 - Migrate AdvancedCriticalCss and several other components to react.
 - Migrated Image Size Analysis to React.js
+- Port Critical CSS stores to React.
 - Refactor svelte components to react.
 - Rewrite SuperCacheInfo component in React
 - Updated Benefits Interstitial to react. Also, renamed it to Upgrade.
