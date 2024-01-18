@@ -894,10 +894,6 @@ return array(
 		'version' => '3.0.0.0-alpha',
 		'path'    => $baseDir . '/app/data-sync/Modules_State_Entry.php'
 	),
-	'Automattic\\Jetpack_Boost\\Data_Sync\\Premium_Features_Entry' => array(
-		'version' => '3.0.0.0-alpha',
-		'path'    => $baseDir . '/app/data-sync/Premium_Features_Entry.php'
-	),
 	'Automattic\\Jetpack_Boost\\Features\\Setup_Prompt\\Setup_Prompt' => array(
 		'version' => '3.0.0.0-alpha',
 		'path'    => $baseDir . '/app/features/setup-prompt/Setup_Prompt.php'
@@ -1165,10 +1161,6 @@ return array(
 	'Automattic\\Jetpack_Boost\\REST_API\\Contracts\\Permission' => array(
 		'version' => '3.0.0.0-alpha',
 		'path'    => $baseDir . '/app/rest-api/contracts/Permission.php'
-	),
-	'Automattic\\Jetpack_Boost\\REST_API\\Endpoints\\Config_State' => array(
-		'version' => '3.0.0.0-alpha',
-		'path'    => $baseDir . '/app/rest-api/endpoints/Config_State.php'
 	),
 	'Automattic\\Jetpack_Boost\\REST_API\\Endpoints\\Image_Analysis_Action_Fix' => array(
 		'version' => '3.0.0.0-alpha',
