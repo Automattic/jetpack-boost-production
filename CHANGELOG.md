@@ -22,6 +22,7 @@ This is an alpha version! The changes listed here are not final.
 - Jetpack Boost: Enable TypeScript Strict mode
 - Jetpack Boost: Extract Image Size Analyzer styles to dedicated files
 - Jetpack Boost: Migrate Premium Tooltip component
+- Jetpack Boost: Updated DataSync and json_decode calls
 - Jetpack Boost: Use the new datasync interface
 - Migrate AdvancedCriticalCss and several other components to react.
 - Migrated Image Size Analysis to React.js

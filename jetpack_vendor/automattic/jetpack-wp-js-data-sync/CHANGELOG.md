@@ -14,6 +14,7 @@ This is an alpha version! The changes listed here are not final.
 
 ### Changed
 - Add DataSync Actions
+- DataSync: Improved exception handling and JSON decoding consistency across multiple classe
 - Improved error handling in DataSync.
 - The package now requires PHP >= 7.0.
 
