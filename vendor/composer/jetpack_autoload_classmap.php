@@ -302,10 +302,6 @@ return array(
 		'version' => '3.0.2.0',
 		'path'    => $baseDir . '/jetpack_vendor/automattic/jetpack-jitm/src/class-rest-api-endpoints.php'
 	),
-	'Automattic\\Jetpack\\Jetpack_Lazy_Images' => array(
-		'version' => '3.0.0.0-alpha1704298857',
-		'path'    => $baseDir . '/jetpack_vendor/automattic/jetpack-lazy-images/src/lazy-images.php'
-	),
 	'Automattic\\Jetpack\\Licensing' => array(
 		'version' => '2.0.1.0',
 		'path'    => $baseDir . '/jetpack_vendor/automattic/jetpack-licensing/src/class-licensing.php'
@@ -1129,10 +1125,6 @@ return array(
 	'Automattic\\Jetpack_Boost\\Modules\\Optimizations\\Image_CDN\\Image_CDN' => array(
 		'version' => '3.0.0.0-alpha',
 		'path'    => $baseDir . '/app/modules/optimizations/image-cdn/class-image-cdn.php'
-	),
-	'Automattic\\Jetpack_Boost\\Modules\\Optimizations\\Lazy_Images\\Lazy_Images' => array(
-		'version' => '3.0.0.0-alpha',
-		'path'    => $baseDir . '/app/modules/optimizations/lazy-images/class-lazy-images.php'
 	),
 	'Automattic\\Jetpack_Boost\\Modules\\Optimizations\\Minify\\Minify_CSS' => array(
 		'version' => '3.0.0.0-alpha',

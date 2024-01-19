@@ -38,6 +38,7 @@ This is an alpha version! The changes listed here are not final.
 ### Removed
 - Remove Boost setup prompt/banner on wp-admin plugins page.
 - Removed deprecated code
+- Remove lazy-loading module and it's references
 
 ### Fixed
 - Allow ISA Report object without groups - to account for errors
