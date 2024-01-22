@@ -12,6 +12,7 @@ This is an alpha version! The changes listed here are not final.
 ### Added
 - Boost: Add a fix button on each problem image in the Size Analyzer to fix the display of the image
 - Cloud CSS: Added custom query parameter support for more reliable cloud CSS generation
+- Send current boost version with API requests to handle requests accordingly
 - Sync: Added jetpack-sync for better debugging during support
 
 ### Changed
