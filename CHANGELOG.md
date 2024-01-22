@@ -42,6 +42,7 @@ This is an alpha version! The changes listed here are not final.
 
 ### Fixed
 - Allow ISA Report object without groups - to account for errors
+- Concatenate JS: Output inline before/after scripts for handles with `src` false.
 - Exclude @charset and @import statements from Critical CSS
 - Fix a bug in image generation request after purchase
 - Fixed an infinite loop in the getting started page
