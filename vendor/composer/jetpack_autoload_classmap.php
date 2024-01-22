@@ -958,6 +958,10 @@ return array(
 		'version' => '3.0.0.0-alpha',
 		'path'    => $baseDir . '/app/lib/critical-css/Display_Critical_CSS.php'
 	),
+	'Automattic\\Jetpack_Boost\\Lib\\Critical_CSS\\Generator' => array(
+		'version' => '3.0.0.0-alpha',
+		'path'    => $baseDir . '/app/lib/critical-css/Generator.php'
+	),
 	'Automattic\\Jetpack_Boost\\Lib\\Critical_CSS\\Regenerate' => array(
 		'version' => '3.0.0.0-alpha',
 		'path'    => $baseDir . '/app/lib/critical-css/Regenerate.php'
@@ -1117,10 +1121,6 @@ return array(
 	'Automattic\\Jetpack_Boost\\Modules\\Optimizations\\Critical_CSS\\Critical_CSS' => array(
 		'version' => '3.0.0.0-alpha',
 		'path'    => $baseDir . '/app/modules/optimizations/critical-css/Critical_CSS.php'
-	),
-	'Automattic\\Jetpack_Boost\\Modules\\Optimizations\\Critical_CSS\\Generator' => array(
-		'version' => '3.0.0.0-alpha',
-		'path'    => $baseDir . '/app/modules/optimizations/critical-css/Generator.php'
 	),
 	'Automattic\\Jetpack_Boost\\Modules\\Optimizations\\Image_CDN\\Image_CDN' => array(
 		'version' => '3.0.0.0-alpha',
