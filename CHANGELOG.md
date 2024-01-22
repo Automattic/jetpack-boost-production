@@ -5,51 +5,26 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
-## [3.0.0-alpha] - unreleased
-
-This is an alpha version! The changes listed here are not final.
-
+## [3.0.0-beta] - 2024-01-22
 ### Added
-- Boost: Add a fix button on each problem image in the Size Analyzer to fix the display of the image
-- Cloud CSS: Added custom query parameter support for more reliable cloud CSS generation
-- Send current boost version with API requests to handle requests accordingly
-- Sync: Added jetpack-sync for better debugging during support
+- Cloud CSS: Added internal support for custom CSS Generation parametr for more reliable Cloud CSS generation. [#35129]
+- General: Added Jetpack Sync to allow for better support. [#34825]
 
 ### Changed
-- Code Modernization: Replace usage of strpos() with str_contains()
-- Code Modernization: Replace usage of strpos() with str_starts_with().
-- Code Modernization: Replace usage of substr() with str_starts_with() and str_ends_with().
-- General: Cleanup unused JS constants
-- General: updated PHP requirement to PHP 7.0+
-- Jetpack Boost: Enable TypeScript Strict mode
-- Jetpack Boost: Extract Image Size Analyzer styles to dedicated files
-- Jetpack Boost: Migrate Premium Tooltip component
-- Jetpack Boost: Updated DataSync and json_decode calls
-- Jetpack Boost: Use the new datasync interface
-- Migrate AdvancedCriticalCss and several other components to react.
-- Migrated Image Size Analysis to React.js
-- Port Critical CSS stores to React.
-- Refactor svelte components to react.
-- Rewrite SuperCacheInfo component in React
-- Updated Benefits Interstitial to react. Also, renamed it to Upgrade.
-- Updated e2e test to account for recent updates to the lazy loading module.
-- Updated package dependencies.
-- Update Getting Started page to react.
-- Update lockfile
+- Code Modernization: Replace usage of strpos() with str_contains(), str_starts_with, and std_ends. [#34137]
+- Code Modernization: Replace usage of strpos() with str_starts_with(). [#34135]
+- Code Modernization: Replace usage of substr() with str_starts_with() and str_ends_with(). [#34207]
+- General: Cleanup unused JS constants on Boost admin page. [#34823]
+- General: Migrated Admin UI from Svlete to React, for consistency with the rest of Jetpack.
+- General: Updated PHP requirement to PHP 7.0+ [#34126]
 
 ### Removed
-- Remove Boost setup prompt/banner on wp-admin plugins page.
-- Removed deprecated code
-- Remove lazy-loading module and it's references
+- Removed Boost setup prompt/banner on wp-admin plugins page. [#34771]
+- Removed lazy-loading module. [#35100]
 
 ### Fixed
-- Allow ISA Report object without groups - to account for errors
-- Concatenate JS: Output inline before/after scripts for handles with `src` false.
-- Exclude @charset and @import statements from Critical CSS
-- Fix a bug in image generation request after purchase
-- Fixed an infinite loop in the getting started page
-- Jetpack Boost: Allow file extensions in TypeScript imports
-- Prevent refetching Critical CSS state when off
+- Concatenate JS: Output inline before/after scripts for handles with `src` false. [#35121]
+- Critical CSS: Exclude @charset and @import statements from Critical CSS. [#34660]
 
 ## [2.2.1] - 2023-12-21
 ### Fixed
@@ -391,7 +366,7 @@ This is an alpha version! The changes listed here are not final.
 
 - First public alpha release
 
-[3.0.0-alpha]: https://github.com/Automattic/jetpack-boost-production/compare/2.2.1...3.0.0-alpha
+[3.0.0-beta]: https://github.com/Automattic/jetpack-boost-production/compare/2.2.1...3.0.0-beta
 [2.2.1]: https://github.com/Automattic/jetpack-boost-production/compare/2.2.0...2.2.1
 [2.2.0]: https://github.com/Automattic/jetpack-boost-production/compare/2.1.1...2.2.0
 [2.1.1]: https://github.com/Automattic/jetpack-boost-production/compare/2.0.2...2.1.1
