@@ -12,6 +12,9 @@ This is an alpha version! The changes listed here are not final.
 ### Changed
 - Update Purchase Successful page copy and spacing.
 
+### Fixed
+- Jetpack Boost: Fix fatal fallbacks
+
 ## [3.0.0-beta] - 2024-01-22
 ### Added
 - Cloud CSS: Added internal support for custom CSS Generation parametr for more reliable Cloud CSS generation. [#35129]
