@@ -20,6 +20,7 @@ This is an alpha version! The changes listed here are not final.
 - Jetpack Boost: Fix fatal fallbacks
 - Jetpack Boost: Remove DataSync Debouncing, instead use abortControllers
 - Site Health: Fixed showing critical CSS issue in site-health if module is disabled
+- Speed Scores: Fix score auto-refresh
 
 ## [3.0.0-beta] - 2024-01-22
 ### Added
