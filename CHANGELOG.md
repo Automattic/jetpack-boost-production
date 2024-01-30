@@ -22,6 +22,7 @@ This is an alpha version! The changes listed here are not final.
 - Speed Scores: Temporarily removed the score change popout.
 
 ### Fixed
+- Fix pricing bug.
 - Jetpack Boost: Enhanced image quality control behavior and wrapped main component in StrictMode
 - Jetpack Boost: Enhanced performance by debouncing QualityControl properties
 - Jetpack Boost: Fix fatal fallbacks
