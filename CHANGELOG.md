@@ -14,6 +14,7 @@ This is an alpha version! The changes listed here are not final.
 - Super Cache: Add full page caching
 
 ### Changed
+- Update cloud css regenerate button to always be visible, but disable it when generation is running.
 - Update Purchase Successful page copy and spacing.
 
 ### Removed
