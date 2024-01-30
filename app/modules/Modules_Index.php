@@ -11,7 +11,6 @@ use Automattic\Jetpack_Boost\Modules\Optimizations\Image_CDN\Image_CDN;
 use Automattic\Jetpack_Boost\Modules\Optimizations\Minify\Minify_CSS;
 use Automattic\Jetpack_Boost\Modules\Optimizations\Minify\Minify_JS;
 use Automattic\Jetpack_Boost\Modules\Optimizations\Render_Blocking_JS\Render_Blocking_JS;
-use Automattic\Jetpack_Boost\Modules\Page_Cache\Page_Cache;
 use Automattic\Jetpack_Boost\Modules\Performance_History\Performance_History;
 
 class Modules_Index {
@@ -35,7 +34,6 @@ class Modules_Index {
 		Image_Guide::class,
 		Image_CDN::class,
 		Performance_History::class,
-		Page_Cache::class,
 	);
 
 	/**
