@@ -56,9 +56,9 @@
             'dev_requirement' => false,
         ),
         'automattic/jetpack-boost-core' => array(
-            'pretty_version' => 'v0.2.3',
-            'version' => '0.2.3.0',
-            'reference' => '7ca1e47e9ae908aa4ad2fd40acde3744be1cdff3',
+            'pretty_version' => 'v0.2.4',
+            'version' => '0.2.4.0',
+            'reference' => '7d771cf8b99a5e88da473ddad019d608feeaf6c4',
             'type' => 'jetpack-library',
             'install_path' => __DIR__ . '/../../jetpack_vendor/automattic/jetpack-boost-core',
             'aliases' => array(),
