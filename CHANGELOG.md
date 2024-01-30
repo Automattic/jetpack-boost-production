@@ -16,6 +16,9 @@ This is an alpha version! The changes listed here are not final.
 ### Changed
 - Update Purchase Successful page copy and spacing.
 
+### Removed
+- Speed Scores: Temporarily removed the score change popout.
+
 ### Fixed
 - Jetpack Boost: Enhanced image quality control behavior and wrapped main component in StrictMode
 - Jetpack Boost: Enhanced performance by debouncing QualityControl properties
