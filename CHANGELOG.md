@@ -17,6 +17,7 @@ This is an alpha version! The changes listed here are not final.
 - Update Purchase Successful page copy and spacing.
 
 ### Fixed
+- Jetpack Boost: Enhanced image quality control behavior and wrapped main component in StrictMode
 - Jetpack Boost: Enhanced performance by debouncing QualityControl properties
 - Jetpack Boost: Fix fatal fallbacks
 - Jetpack Boost: Remove DataSync Debouncing, instead use abortControllers
