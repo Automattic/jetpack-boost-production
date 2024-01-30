@@ -16,6 +16,7 @@ This is an alpha version! The changes listed here are not final.
 ### Changed
 - Update cloud css regenerate button to always be visible, but disable it when generation is running.
 - Update Purchase Successful page copy and spacing.
+- Use Blog ID in links to WPCOM instead of site slug.
 
 ### Removed
 - Speed Scores: Temporarily removed the score change popout.
