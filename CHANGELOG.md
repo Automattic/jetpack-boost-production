@@ -17,8 +17,15 @@ This is an alpha version! The changes listed here are not final.
 - Use Blog ID in links to WPCOM instead of site slug.
 
 ### Fixed
-- Fixed: Compatibility file
 - Fix pricing bug.
+
+## [3.0.2] - 2024-01-31
+### Fixed
+- General: Fixed an issue with compatibility file [#35358]
+
+## [3.0.1] - 2024-01-30
+### Fixed
+- Fix pricing bug. [#35347]
 
 ## [3.0.0] - 2024-01-30
 ### Added
@@ -383,7 +390,9 @@ This is an alpha version! The changes listed here are not final.
 
 - First public alpha release
 
-[3.1.0-alpha]: https://github.com/Automattic/jetpack-boost-production/compare/3.0.0...3.1.0-alpha
+[3.1.0-alpha]: https://github.com/Automattic/jetpack-boost-production/compare/3.0.2...3.1.0-alpha
+[3.0.2]: https://github.com/Automattic/jetpack-boost-production/compare/3.0.1...3.0.2
+[3.0.1]: https://github.com/Automattic/jetpack-boost-production/compare/3.0.0...3.0.1
 [3.0.0]: https://github.com/Automattic/jetpack-boost-production/compare/2.2.1...3.0.0
 [2.2.1]: https://github.com/Automattic/jetpack-boost-production/compare/2.2.0...2.2.1
 [2.2.0]: https://github.com/Automattic/jetpack-boost-production/compare/2.1.1...2.2.0
