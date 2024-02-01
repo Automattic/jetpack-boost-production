@@ -14,6 +14,7 @@ This is an alpha version! The changes listed here are not final.
 - Super Cache: Add full page caching
 
 ### Changed
+- Jetpack Boost: Wrapped the main component in React.StrictMode
 - Use Blog ID in links to WPCOM instead of site slug.
 
 ### Fixed
