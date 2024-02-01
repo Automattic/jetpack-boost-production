@@ -10,6 +10,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 This is an alpha version! The changes listed here are not final.
 
 ### Added
+- Boost: Add settings code to Boost Cache.
 - Boost: add support for DONOTCACHEPAGE to Cache module
 - Boost: do not cache pages with internal fatal errors.
 - Super Cache: Add full page caching
