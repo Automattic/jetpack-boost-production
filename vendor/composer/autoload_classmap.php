@@ -290,6 +290,7 @@ return array(
     'Automattic\\Jetpack_Boost\\Modules\\Optimizations\\Render_Blocking_JS\\Render_Blocking_JS' => $baseDir . '/app/modules/optimizations/render-blocking-js/class-render-blocking-js.php',
     'Automattic\\Jetpack_Boost\\Modules\\Page_Cache\\Boost_Cache' => $baseDir . '/app/modules/cache/Boost_Cache.php',
     'Automattic\\Jetpack_Boost\\Modules\\Page_Cache\\Boost_Cache_Settings' => $baseDir . '/app/modules/cache/Boost_Cache_Settings.php',
+    'Automattic\\Jetpack_Boost\\Modules\\Page_Cache\\Boost_Cache_Utils' => $baseDir . '/app/modules/cache/Boost_Cache_Utils.php',
     'Automattic\\Jetpack_Boost\\Modules\\Page_Cache\\Boost_File_Cache' => $baseDir . '/app/modules/cache/Boost_File_Cache.php',
     'Automattic\\Jetpack_Boost\\Modules\\Page_Cache\\Page_Cache' => $baseDir . '/app/modules/cache/Page_Cache.php',
     'Automattic\\Jetpack_Boost\\Modules\\Performance_History\\Performance_History' => $baseDir . '/app/modules/performance-history/Performance_History.php',

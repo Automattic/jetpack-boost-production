@@ -1154,6 +1154,10 @@ return array(
 		'version' => '3.1.0.0-alpha',
 		'path'    => $baseDir . '/app/modules/cache/Boost_Cache_Settings.php'
 	),
+	'Automattic\\Jetpack_Boost\\Modules\\Page_Cache\\Boost_Cache_Utils' => array(
+		'version' => '3.1.0.0-alpha',
+		'path'    => $baseDir . '/app/modules/cache/Boost_Cache_Utils.php'
+	),
 	'Automattic\\Jetpack_Boost\\Modules\\Page_Cache\\Boost_File_Cache' => array(
 		'version' => '3.1.0.0-alpha',
 		'path'    => $baseDir . '/app/modules/cache/Boost_File_Cache.php'
