@@ -14,6 +14,7 @@ This is an alpha version! The changes listed here are not final.
 - Boost: Add settings code to Boost Cache.
 - Boost: add support for DONOTCACHEPAGE to Cache module
 - Boost: do not cache pages with internal fatal errors.
+- Defer JS: Skip JSON-LD schemas.
 - Super Cache: Add full page caching
 
 ### Changed
