@@ -21,6 +21,7 @@ This is an alpha version! The changes listed here are not final.
 - Jetpack Boost: Wrapped the main component in React.StrictMode
 - Updated package dependencies.
 - Use Blog ID in links to WPCOM instead of site slug.
+- WP JS DataSync: Try to prevent fatal errors in production as much as possible.
 
 ### Fixed
 - Fix pricing bug.

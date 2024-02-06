@@ -70,7 +70,7 @@ return array(
     ),
     'jetpack-wp-js-data-sync' => array(
       'path' => 'jetpack_vendor/automattic/jetpack-wp-js-data-sync',
-      'ver' => '0.4.2-alpha1706702787',
+      'ver' => '0.4.2-alpha1707218175',
     ),
   ),
 );
