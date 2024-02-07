@@ -18,6 +18,7 @@ This is an alpha version! The changes listed here are not final.
 - Super Cache: Add full page caching
 
 ### Changed
+- Boost: consolidate writing to files in one function, write_to_file()
 - Jetpack Boost: Wrapped the main component in React.StrictMode
 - Updated package dependencies.
 - Use Blog ID in links to WPCOM instead of site slug.
