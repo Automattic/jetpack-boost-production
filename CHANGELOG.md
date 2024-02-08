@@ -27,6 +27,7 @@ This is an alpha version! The changes listed here are not final.
 ### Fixed
 - Fix pricing bug.
 - Image Size Analysis: Update summary groups to align with status icons.
+- JS and CSS concat: Fix minification
 
 ## [3.0.2] - 2024-01-31
 ### Fixed
