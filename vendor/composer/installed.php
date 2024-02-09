@@ -3,7 +3,7 @@
         'name' => 'automattic/jetpack-boost',
         'pretty_version' => '3.1.0-alpha',
         'version' => '3.1.0.0-alpha',
-        'reference' => NULL,
+        'reference' => null,
         'type' => 'library',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
@@ -49,7 +49,7 @@
         'automattic/jetpack-boost' => array(
             'pretty_version' => '3.1.0-alpha',
             'version' => '3.1.0.0-alpha',
-            'reference' => NULL,
+            'reference' => null,
             'type' => 'library',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
