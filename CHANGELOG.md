@@ -27,6 +27,7 @@ This is an alpha version! The changes listed here are not final.
 - WP JS DataSync: Try to prevent fatal errors in production as much as possible.
 
 ### Fixed
+- Critical CSS: Prevent missing archive pages from breaking generation process
 - Fix pricing bug.
 - Image Size Analysis: Update summary groups to align with status icons.
 - Jetpack Boost: Improved error handling
