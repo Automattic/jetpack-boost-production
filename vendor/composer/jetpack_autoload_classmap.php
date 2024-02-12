@@ -1158,13 +1158,17 @@ return array(
 		'version' => '3.1.0.0-alpha',
 		'path'    => $baseDir . '/app/modules/cache/Boost_Cache_Utils.php'
 	),
-	'Automattic\\Jetpack_Boost\\Modules\\Page_Cache\\Boost_File_Cache' => array(
-		'version' => '3.1.0.0-alpha',
-		'path'    => $baseDir . '/app/modules/cache/Boost_File_Cache.php'
-	),
 	'Automattic\\Jetpack_Boost\\Modules\\Page_Cache\\Page_Cache' => array(
 		'version' => '3.1.0.0-alpha',
 		'path'    => $baseDir . '/app/modules/cache/Page_Cache.php'
+	),
+	'Automattic\\Jetpack_Boost\\Modules\\Page_Cache\\Storage\\File_Storage' => array(
+		'version' => '3.1.0.0-alpha',
+		'path'    => $baseDir . '/app/modules/cache/storage/File_Storage.php'
+	),
+	'Automattic\\Jetpack_Boost\\Modules\\Page_Cache\\Storage\\Storage' => array(
+		'version' => '3.1.0.0-alpha',
+		'path'    => $baseDir . '/app/modules/cache/storage/Storage.php'
 	),
 	'Automattic\\Jetpack_Boost\\Modules\\Performance_History\\Performance_History' => array(
 		'version' => '3.1.0.0-alpha',
