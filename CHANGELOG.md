@@ -16,6 +16,7 @@ This is an alpha version! The changes listed here are not final.
 - Boost: do not cache pages for logged in users.
 - Boost: do not cache pages with internal fatal errors.
 - Defer JS: Skip JSON-LD schemas.
+- New setting in /sties/$site/settings that is not relevant to this plugin.
 - Super Cache: Add full page caching
 
 ### Changed
