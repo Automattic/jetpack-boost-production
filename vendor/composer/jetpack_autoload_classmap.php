@@ -862,6 +862,14 @@ return array(
 		'version' => '3.1.0.0-alpha',
 		'path'    => $baseDir . '/app/admin/class-regenerate-admin-notice.php'
 	),
+	'Automattic\\Jetpack_Boost\\Contracts\\Has_Activate' => array(
+		'version' => '3.1.0.0-alpha',
+		'path'    => $baseDir . '/app/contracts/Has_Activate.php'
+	),
+	'Automattic\\Jetpack_Boost\\Contracts\\Has_Deactivate' => array(
+		'version' => '3.1.0.0-alpha',
+		'path'    => $baseDir . '/app/contracts/Has_Deactivate.php'
+	),
 	'Automattic\\Jetpack_Boost\\Contracts\\Has_Setup' => array(
 		'version' => '3.1.0.0-alpha',
 		'path'    => $baseDir . '/app/contracts/Has_Setup.php'
@@ -1158,9 +1166,17 @@ return array(
 		'version' => '3.1.0.0-alpha',
 		'path'    => $baseDir . '/app/modules/cache/Boost_Cache_Utils.php'
 	),
+	'Automattic\\Jetpack_Boost\\Modules\\Page_Cache\\Data_Sync_Actions\\Run_Setup' => array(
+		'version' => '3.1.0.0-alpha',
+		'path'    => $baseDir . '/app/modules/cache/data-sync-actions/run-setup.php'
+	),
 	'Automattic\\Jetpack_Boost\\Modules\\Page_Cache\\Page_Cache' => array(
 		'version' => '3.1.0.0-alpha',
 		'path'    => $baseDir . '/app/modules/cache/Page_Cache.php'
+	),
+	'Automattic\\Jetpack_Boost\\Modules\\Page_Cache\\Page_Cache_Setup' => array(
+		'version' => '3.1.0.0-alpha',
+		'path'    => $baseDir . '/app/modules/cache/Page_Cache_Setup.php'
 	),
 	'Automattic\\Jetpack_Boost\\Modules\\Page_Cache\\Storage\\File_Storage' => array(
 		'version' => '3.1.0.0-alpha',
