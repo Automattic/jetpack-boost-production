@@ -18,6 +18,7 @@ This is an alpha version! The changes listed here are not final.
 - Defer JS: Skip JSON-LD schemas.
 - New setting in /sties/$site/settings that is not relevant to this plugin.
 - Super Cache: Add full page caching
+- [Boost] add the hostname to the cache path.
 
 ### Changed
 - Boost: consolidate writing to files in one function, write_to_file()
