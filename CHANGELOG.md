@@ -10,6 +10,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 This is an alpha version! The changes listed here are not final.
 
 ### Added
+- Added support for annotations in graph
 - Boost: added deactivate hook to Cache engine to clean up.
 - Boost: Add settings code to Boost Cache.
 - Boost: add support for DONOTCACHEPAGE to Cache module
