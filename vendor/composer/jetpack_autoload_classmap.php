@@ -1154,25 +1154,9 @@ return array(
 		'version' => '3.1.0.0-alpha',
 		'path'    => $baseDir . '/app/modules/optimizations/render-blocking-js/class-render-blocking-js.php'
 	),
-	'Automattic\\Jetpack_Boost\\Modules\\Page_Cache\\Boost_Cache' => array(
-		'version' => '3.1.0.0-alpha',
-		'path'    => $baseDir . '/app/modules/cache/Boost_Cache.php'
-	),
-	'Automattic\\Jetpack_Boost\\Modules\\Page_Cache\\Boost_Cache_Settings' => array(
-		'version' => '3.1.0.0-alpha',
-		'path'    => $baseDir . '/app/modules/cache/Boost_Cache_Settings.php'
-	),
-	'Automattic\\Jetpack_Boost\\Modules\\Page_Cache\\Boost_Cache_Utils' => array(
-		'version' => '3.1.0.0-alpha',
-		'path'    => $baseDir . '/app/modules/cache/Boost_Cache_Utils.php'
-	),
 	'Automattic\\Jetpack_Boost\\Modules\\Page_Cache\\Data_Sync_Actions\\Run_Setup' => array(
 		'version' => '3.1.0.0-alpha',
 		'path'    => $baseDir . '/app/modules/cache/data-sync-actions/run-setup.php'
-	),
-	'Automattic\\Jetpack_Boost\\Modules\\Page_Cache\\Logger' => array(
-		'version' => '3.1.0.0-alpha',
-		'path'    => $baseDir . '/app/modules/cache/Logger.php'
 	),
 	'Automattic\\Jetpack_Boost\\Modules\\Page_Cache\\Page_Cache' => array(
 		'version' => '3.1.0.0-alpha',
@@ -1182,17 +1166,33 @@ return array(
 		'version' => '3.1.0.0-alpha',
 		'path'    => $baseDir . '/app/modules/cache/Page_Cache_Setup.php'
 	),
-	'Automattic\\Jetpack_Boost\\Modules\\Page_Cache\\Request' => array(
+	'Automattic\\Jetpack_Boost\\Modules\\Page_Cache\\Pre_WordPress\\Boost_Cache' => array(
 		'version' => '3.1.0.0-alpha',
-		'path'    => $baseDir . '/app/modules/cache/Request.php'
+		'path'    => $baseDir . '/app/modules/cache/pre-wordpress/Boost_Cache.php'
 	),
-	'Automattic\\Jetpack_Boost\\Modules\\Page_Cache\\Storage\\File_Storage' => array(
+	'Automattic\\Jetpack_Boost\\Modules\\Page_Cache\\Pre_WordPress\\Boost_Cache_Settings' => array(
 		'version' => '3.1.0.0-alpha',
-		'path'    => $baseDir . '/app/modules/cache/storage/File_Storage.php'
+		'path'    => $baseDir . '/app/modules/cache/pre-wordpress/Boost_Cache_Settings.php'
 	),
-	'Automattic\\Jetpack_Boost\\Modules\\Page_Cache\\Storage\\Storage' => array(
+	'Automattic\\Jetpack_Boost\\Modules\\Page_Cache\\Pre_WordPress\\Boost_Cache_Utils' => array(
 		'version' => '3.1.0.0-alpha',
-		'path'    => $baseDir . '/app/modules/cache/storage/Storage.php'
+		'path'    => $baseDir . '/app/modules/cache/pre-wordpress/Boost_Cache_Utils.php'
+	),
+	'Automattic\\Jetpack_Boost\\Modules\\Page_Cache\\Pre_WordPress\\Logger' => array(
+		'version' => '3.1.0.0-alpha',
+		'path'    => $baseDir . '/app/modules/cache/pre-wordpress/Logger.php'
+	),
+	'Automattic\\Jetpack_Boost\\Modules\\Page_Cache\\Pre_WordPress\\Request' => array(
+		'version' => '3.1.0.0-alpha',
+		'path'    => $baseDir . '/app/modules/cache/pre-wordpress/Request.php'
+	),
+	'Automattic\\Jetpack_Boost\\Modules\\Page_Cache\\Pre_WordPress\\Storage\\File_Storage' => array(
+		'version' => '3.1.0.0-alpha',
+		'path'    => $baseDir . '/app/modules/cache/pre-wordpress/storage/File_Storage.php'
+	),
+	'Automattic\\Jetpack_Boost\\Modules\\Page_Cache\\Pre_WordPress\\Storage\\Storage' => array(
+		'version' => '3.1.0.0-alpha',
+		'path'    => $baseDir . '/app/modules/cache/pre-wordpress/storage/Storage.php'
 	),
 	'Automattic\\Jetpack_Boost\\Modules\\Performance_History\\Performance_History' => array(
 		'version' => '3.1.0.0-alpha',
