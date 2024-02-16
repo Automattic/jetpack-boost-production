@@ -11,6 +11,7 @@ This is an alpha version! The changes listed here are not final.
 
 ### Added
 - Added support for annotations in graph
+- Boost: add an excluded URL list to container regex to exclude URLs to cache.
 - Boost: added deactivate hook to Cache engine to clean up.
 - Boost: Add settings code to Boost Cache.
 - Boost: add support for DONOTCACHEPAGE to Cache module
