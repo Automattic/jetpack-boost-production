@@ -1170,6 +1170,10 @@ return array(
 		'version' => '3.1.0.0-alpha',
 		'path'    => $baseDir . '/app/modules/cache/data-sync-actions/run-setup.php'
 	),
+	'Automattic\\Jetpack_Boost\\Modules\\Page_Cache\\Logger' => array(
+		'version' => '3.1.0.0-alpha',
+		'path'    => $baseDir . '/app/modules/cache/Logger.php'
+	),
 	'Automattic\\Jetpack_Boost\\Modules\\Page_Cache\\Page_Cache' => array(
 		'version' => '3.1.0.0-alpha',
 		'path'    => $baseDir . '/app/modules/cache/Page_Cache.php'
@@ -1177,6 +1181,10 @@ return array(
 	'Automattic\\Jetpack_Boost\\Modules\\Page_Cache\\Page_Cache_Setup' => array(
 		'version' => '3.1.0.0-alpha',
 		'path'    => $baseDir . '/app/modules/cache/Page_Cache_Setup.php'
+	),
+	'Automattic\\Jetpack_Boost\\Modules\\Page_Cache\\Request' => array(
+		'version' => '3.1.0.0-alpha',
+		'path'    => $baseDir . '/app/modules/cache/Request.php'
 	),
 	'Automattic\\Jetpack_Boost\\Modules\\Page_Cache\\Storage\\File_Storage' => array(
 		'version' => '3.1.0.0-alpha',

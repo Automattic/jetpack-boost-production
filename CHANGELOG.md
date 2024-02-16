@@ -10,6 +10,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 This is an alpha version! The changes listed here are not final.
 
 ### Added
+- Add debug logs for cache
 - Added support for annotations in graph
 - Boost: add an excluded URL list to container regex to exclude URLs to cache.
 - Boost: added deactivate hook to Cache engine to clean up.
