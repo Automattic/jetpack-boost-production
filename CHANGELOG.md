@@ -29,6 +29,7 @@ This is an alpha version! The changes listed here are not final.
 - Boost: mirror the REQUEST_URI when storing cache files.
 - Jetpack Boost: Improved error handling with ErrorBoundary around SpeedScore and Module components
 - Jetpack Boost: Wrapped the main component in React.StrictMode
+- plugins/boost
 - Updated package dependencies.
 - Use Blog ID in links to WPCOM instead of site slug.
 - WP JS DataSync: Try to prevent fatal errors in production as much as possible.
