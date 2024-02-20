@@ -1086,6 +1086,10 @@ return array(
 		'version' => '3.1.0.0-alpha',
 		'path'    => $baseDir . '/app/lib/class-viewport.php'
 	),
+	'Automattic\\Jetpack_Boost\\Modules\\Cache\\Pre_WordPress\\Filesystem_Utils' => array(
+		'version' => '3.1.0.0-alpha',
+		'path'    => $baseDir . '/app/modules/cache/pre-wordpress/Filesystem_Utils.php'
+	),
 	'Automattic\\Jetpack_Boost\\Modules\\Image_Guide\\Image_Guide' => array(
 		'version' => '3.1.0.0-alpha',
 		'path'    => $baseDir . '/app/modules/image-guide/Image_Guide.php'
@@ -1157,6 +1161,10 @@ return array(
 	'Automattic\\Jetpack_Boost\\Modules\\Page_Cache\\Data_Sync_Actions\\Run_Setup' => array(
 		'version' => '3.1.0.0-alpha',
 		'path'    => $baseDir . '/app/modules/cache/data-sync-actions/run-setup.php'
+	),
+	'Automattic\\Jetpack_Boost\\Modules\\Page_Cache\\Garbage_Collection' => array(
+		'version' => '3.1.0.0-alpha',
+		'path'    => $baseDir . '/app/modules/cache/Garbage_Collection.php'
 	),
 	'Automattic\\Jetpack_Boost\\Modules\\Page_Cache\\Page_Cache' => array(
 		'version' => '3.1.0.0-alpha',
