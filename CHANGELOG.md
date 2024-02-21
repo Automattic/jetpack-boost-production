@@ -30,6 +30,7 @@ This is an alpha version! The changes listed here are not final.
 - Boost: mirror the REQUEST_URI when storing cache files.
 - Boost: rearrange how Storage invalidate() function operates
 - General: indicate compatibility with the upcoming version of WordPress, 6.5.
+- Jetpack Boost: Implemented a customizable Notice.
 - Jetpack Boost: Improved error handling with ErrorBoundary around SpeedScore and Module components
 - Jetpack Boost: Wrapped the main component in React.StrictMode
 - plugins/boost
