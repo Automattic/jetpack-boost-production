@@ -1166,6 +1166,10 @@ return array(
 		'version' => '3.1.0.0-alpha',
 		'path'    => $baseDir . '/app/modules/cache/data-sync/Page_Cache_Entry.php'
 	),
+	'Automattic\\Jetpack_Boost\\Modules\\Page_Cache\\Data_Sync_Actions\\Clear_Page_Cache' => array(
+		'version' => '3.1.0.0-alpha',
+		'path'    => $baseDir . '/app/modules/cache/data-sync-actions/clear-page-cache.php'
+	),
 	'Automattic\\Jetpack_Boost\\Modules\\Page_Cache\\Data_Sync_Actions\\Run_Setup' => array(
 		'version' => '3.1.0.0-alpha',
 		'path'    => $baseDir . '/app/modules/cache/data-sync-actions/run-setup.php'

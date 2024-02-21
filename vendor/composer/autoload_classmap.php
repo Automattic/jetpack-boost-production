@@ -293,6 +293,7 @@ return array(
     'Automattic\\Jetpack_Boost\\Modules\\Optimizations\\Minify\\Minify_JS' => $baseDir . '/app/modules/optimizations/minify/class-minify-js.php',
     'Automattic\\Jetpack_Boost\\Modules\\Optimizations\\Render_Blocking_JS\\Render_Blocking_JS' => $baseDir . '/app/modules/optimizations/render-blocking-js/class-render-blocking-js.php',
     'Automattic\\Jetpack_Boost\\Modules\\Page_Cache\\Data_Sync\\Page_Cache_Entry' => $baseDir . '/app/modules/cache/data-sync/Page_Cache_Entry.php',
+    'Automattic\\Jetpack_Boost\\Modules\\Page_Cache\\Data_Sync_Actions\\Clear_Page_Cache' => $baseDir . '/app/modules/cache/data-sync-actions/clear-page-cache.php',
     'Automattic\\Jetpack_Boost\\Modules\\Page_Cache\\Data_Sync_Actions\\Run_Setup' => $baseDir . '/app/modules/cache/data-sync-actions/run-setup.php',
     'Automattic\\Jetpack_Boost\\Modules\\Page_Cache\\Garbage_Collection' => $baseDir . '/app/modules/cache/Garbage_Collection.php',
     'Automattic\\Jetpack_Boost\\Modules\\Page_Cache\\Page_Cache' => $baseDir . '/app/modules/cache/Page_Cache.php',
