@@ -25,6 +25,7 @@ This is an alpha version! The changes listed here are not final.
 - [Boost] add the hostname to the cache path.
 
 ### Changed
+- Boost - use wp_trash_post when clearing the cache so the permalink is preserved and cache files cleared.
 - Boost: consolidate writing to files in one function, write_to_file()
 - Boost: mirror the REQUEST_URI when storing cache files.
 - Boost: rearrange how Storage invalidate() function operates
