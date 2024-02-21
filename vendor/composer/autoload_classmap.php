@@ -217,6 +217,7 @@ return array(
     'Automattic\\Jetpack_Boost\\Admin\\Admin' => $baseDir . '/app/admin/class-admin.php',
     'Automattic\\Jetpack_Boost\\Admin\\Config' => $baseDir . '/app/admin/class-config.php',
     'Automattic\\Jetpack_Boost\\Admin\\Regenerate_Admin_Notice' => $baseDir . '/app/admin/class-regenerate-admin-notice.php',
+    'Automattic\\Jetpack_Boost\\Contracts\\Changes_Page_Output' => $baseDir . '/app/contracts/Changes_Output.php',
     'Automattic\\Jetpack_Boost\\Contracts\\Has_Activate' => $baseDir . '/app/contracts/Has_Activate.php',
     'Automattic\\Jetpack_Boost\\Contracts\\Has_Deactivate' => $baseDir . '/app/contracts/Has_Deactivate.php',
     'Automattic\\Jetpack_Boost\\Contracts\\Has_Setup' => $baseDir . '/app/contracts/Has_Setup.php',

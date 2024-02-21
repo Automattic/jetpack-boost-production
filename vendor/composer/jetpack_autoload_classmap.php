@@ -862,6 +862,10 @@ return array(
 		'version' => '3.1.0.0-alpha',
 		'path'    => $baseDir . '/app/admin/class-regenerate-admin-notice.php'
 	),
+	'Automattic\\Jetpack_Boost\\Contracts\\Changes_Page_Output' => array(
+		'version' => '3.1.0.0-alpha',
+		'path'    => $baseDir . '/app/contracts/Changes_Output.php'
+	),
 	'Automattic\\Jetpack_Boost\\Contracts\\Has_Activate' => array(
 		'version' => '3.1.0.0-alpha',
 		'path'    => $baseDir . '/app/contracts/Has_Activate.php'
