@@ -12,6 +12,9 @@ This is an alpha version! The changes listed here are not final.
 ### Changed
 - Image Guide: Removed beta flag
 
+### Fixed
+- Jetpack Boost: Enhanced error handling for page cache setup and refactored related code for clarity.
+
 ## [3.1.0-beta] - 2024-02-22
 ### Added
 - Cache: Added a Page Cache module. [#35042]
