@@ -44,6 +44,7 @@ This is an alpha version! The changes listed here are not final.
 - Critical CSS: Prevent missing archive pages from breaking generation process
 - Fix pricing bug.
 - Image Size Analysis: Update summary groups to align with status icons.
+- Jetpack Boost: Enhanced error handling for page cache setup and refactored related code for clarity.
 - Jetpack Boost: Improved error handling
 - JS and CSS concat: Fix minification
 
