@@ -5,48 +5,34 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
-## [3.1.0-alpha] - unreleased
+## [3.1.1-alpha] - unreleased
 
 This is an alpha version! The changes listed here are not final.
 
-### Added
-- Add debug logs for cache
-- Added support for annotations in graph
-- Boost: add an excluded URL list to container regex to exclude URLs to cache.
-- Boost: added deactivate hook to Cache engine to clean up.
-- Boost: Add settings code to Boost Cache.
-- Boost: add support for DONOTCACHEPAGE to Cache module
-- Boost: delete the cache when posts are edited or comments made.
-- Boost: do not cache pages for logged in users.
-- Boost: do not cache pages with internal fatal errors.
-- Defer JS: Skip JSON-LD schemas.
-- New setting in /sties/$site/settings that is not relevant to this plugin.
-- Super Cache: Add full page caching
-- [Boost] add the hostname to the cache path.
-
 ### Changed
-- Boost - use wp_trash_post when clearing the cache so the permalink is preserved and cache files cleared.
-- Boost: consolidate writing to files in one function, write_to_file()
-- Boost: mirror the REQUEST_URI when storing cache files.
-- Boost: rearrange how Storage invalidate() function operates
-- General: indicate compatibility with the upcoming version of WordPress, 6.5.
 - Image Guide: Removed beta flag
-- Jetpack Boost: Implemented a customizable Notice.
-- Jetpack Boost: Improved error handling with ErrorBoundary around SpeedScore and Module components
-- Jetpack Boost: Wrapped the main component in React.StrictMode
-- plugins/boost
-- Updated package dependencies.
-- Use Blog ID in links to WPCOM instead of site slug.
-- WP JS DataSync: Try to prevent fatal errors in production as much as possible.
 
 ### Fixed
-- Boost - catch fatal errors and don't cache them.
-- Critical CSS: Prevent missing archive pages from breaking generation process
-- Fix pricing bug.
-- Image Size Analysis: Update summary groups to align with status icons.
 - Jetpack Boost: Enhanced error handling for page cache setup and refactored related code for clarity.
-- Jetpack Boost: Improved error handling
-- JS and CSS concat: Fix minification
+
+## [3.1.0-beta] - 2024-02-22
+### Added
+- Cache: Added a Page Cache module. [#35042]
+- Defer JS: Automatically exclude JSON-LD schemas. [#35417]
+- Speed Scores: Added support for annotating points of time in the speed score history graph. [#34978]
+
+### Changed
+- General: Better error handling for invalid data when running wp-admin pages. [#35361]
+- General: Improved error handling with ErrorBoundary around SpeedScore and Module components. [#35543]
+- General: Indicate compatibility with the upcoming version of WordPress, 6.5. [#35820]
+- General: Enabled React.StrictMode for development. [#35330]
+- General: Switch to using Blog ID links instead of site slugs in checkout flow. [#35002]
+
+### Fixed
+- Critical CSS: Prevent missing archive pages from breaking the generation process. [#35561]
+- General: Prevent missing pricing information from affecting the getting started flow. [#35347]
+- Image Size Analysis: Update summary groups to align with status icons. [#35419]
+- JS and CSS concat: Ensure minification is enabled. [#35498]
 
 ## [3.0.2] - 2024-01-31
 ### Fixed
@@ -419,7 +405,8 @@ This is an alpha version! The changes listed here are not final.
 
 - First public alpha release
 
-[3.1.0-alpha]: https://github.com/Automattic/jetpack-boost-production/compare/3.0.2...3.1.0-alpha
+[3.1.1-alpha]: https://github.com/Automattic/jetpack-boost-production/compare/3.1.0-beta...3.1.1-alpha
+[3.1.0-beta]: https://github.com/Automattic/jetpack-boost-production/compare/3.0.2...3.1.0-beta
 [3.0.2]: https://github.com/Automattic/jetpack-boost-production/compare/3.0.1...3.0.2
 [3.0.1]: https://github.com/Automattic/jetpack-boost-production/compare/3.0.0...3.0.1
 [3.0.0]: https://github.com/Automattic/jetpack-boost-production/compare/2.2.1...3.0.0
