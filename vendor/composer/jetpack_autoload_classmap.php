@@ -1214,10 +1214,6 @@ return array(
 		'version' => '3.1.1.0-alpha',
 		'path'    => $baseDir . '/app/modules/optimizations/render-blocking-js/class-render-blocking-js.php'
 	),
-	'Automattic\\Jetpack_Boost\\Modules\\Page_Cache\\Page_Cache_Setup' => array(
-		'version' => '3.1.1.0-alpha',
-		'path'    => $baseDir . '/app/modules/page-cache/Page_Cache_Setup.php'
-	),
 	'Automattic\\Jetpack_Boost\\Modules\\Performance_History\\Performance_History' => array(
 		'version' => '3.1.1.0-alpha',
 		'path'    => $baseDir . '/app/modules/performance-history/Performance_History.php'
