@@ -305,7 +305,6 @@ return array(
     'Automattic\\Jetpack_Boost\\Modules\\Optimizations\\Page_Cache\\Pre_WordPress\\Storage\\File_Storage' => $baseDir . '/app/modules/optimizations/page-cache/pre-wordpress/storage/File_Storage.php',
     'Automattic\\Jetpack_Boost\\Modules\\Optimizations\\Page_Cache\\Pre_WordPress\\Storage\\Storage' => $baseDir . '/app/modules/optimizations/page-cache/pre-wordpress/storage/Storage.php',
     'Automattic\\Jetpack_Boost\\Modules\\Optimizations\\Render_Blocking_JS\\Render_Blocking_JS' => $baseDir . '/app/modules/optimizations/render-blocking-js/class-render-blocking-js.php',
-    'Automattic\\Jetpack_Boost\\Modules\\Page_Cache\\Page_Cache_Setup' => $baseDir . '/app/modules/page-cache/Page_Cache_Setup.php',
     'Automattic\\Jetpack_Boost\\Modules\\Performance_History\\Performance_History' => $baseDir . '/app/modules/performance-history/Performance_History.php',
     'Automattic\\Jetpack_Boost\\REST_API\\Contracts\\Endpoint' => $baseDir . '/app/rest-api/contracts/Endpoint.php',
     'Automattic\\Jetpack_Boost\\REST_API\\Contracts\\Has_Endpoints' => $baseDir . '/app/rest-api/contracts/Has_Endpoints.php',
