@@ -9,13 +9,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 This is an alpha version! The changes listed here are not final.
 
-### Changed
-- Image Guide: Removed beta flag
-
-### Fixed
-- Jetpack Boost: Enhanced error handling for page cache setup and refactored related code for clarity.
-
-## [3.1.0-beta] - 2024-02-22
+## [3.1.0-beta-2] - 2024-02-23
 ### Added
 - Cache: Added a Page Cache module. [#35042]
 - Defer JS: Automatically exclude JSON-LD schemas. [#35417]
@@ -23,10 +17,11 @@ This is an alpha version! The changes listed here are not final.
 
 ### Changed
 - General: Better error handling for invalid data when running wp-admin pages. [#35361]
+- General: Enabled React.StrictMode for development. [#35330]
 - General: Improved error handling with ErrorBoundary around SpeedScore and Module components. [#35543]
 - General: Indicate compatibility with the upcoming version of WordPress, 6.5. [#35820]
-- General: Enabled React.StrictMode for development. [#35330]
 - General: Switch to using Blog ID links instead of site slugs in checkout flow. [#35002]
+- Image Guide: Removed beta flag
 
 ### Fixed
 - Critical CSS: Prevent missing archive pages from breaking the generation process. [#35561]
@@ -405,8 +400,8 @@ This is an alpha version! The changes listed here are not final.
 
 - First public alpha release
 
-[3.1.1-alpha]: https://github.com/Automattic/jetpack-boost-production/compare/3.1.0-beta...3.1.1-alpha
-[3.1.0-beta]: https://github.com/Automattic/jetpack-boost-production/compare/3.0.2...3.1.0-beta
+[3.1.1-alpha]: https://github.com/Automattic/jetpack-boost-production/compare/3.1.0-beta-2...3.1.1-alpha
+[3.1.0-beta-2]: https://github.com/Automattic/jetpack-boost-production/compare/3.0.2...3.1.0-beta-2
 [3.0.2]: https://github.com/Automattic/jetpack-boost-production/compare/3.0.1...3.0.2
 [3.0.1]: https://github.com/Automattic/jetpack-boost-production/compare/3.0.0...3.0.1
 [3.0.0]: https://github.com/Automattic/jetpack-boost-production/compare/2.2.1...3.0.0
