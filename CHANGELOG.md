@@ -12,6 +12,9 @@ This is an alpha version! The changes listed here are not final.
 ### Changed
 - Fix code formatting/linting
 
+### Fixed
+- Boost: delete cached Author pages when pages are edited
+
 ## [3.1.0-beta] - 2024-02-22
 ### Added
 - Cache: Added a Page Cache module. [#35042]
