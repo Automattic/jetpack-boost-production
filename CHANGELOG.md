@@ -13,6 +13,7 @@ This is an alpha version! The changes listed here are not final.
 - Cache: Added page-cache to the feature list in getting-started page.
 
 ### Changed
+- Cache: Save log lines as json for better presentation
 - Fix code formatting/linting
 
 ### Fixed
