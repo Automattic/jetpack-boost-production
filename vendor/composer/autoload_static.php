@@ -334,6 +334,7 @@ class ComposerStaticInitb1e77e6231d50e7663f84529b6a3dfda_jetpack_boostⓥ3_1_1_a
         'Automattic\\Jetpack_Boost\\Modules\\Optimizations\\Page_Cache\\Page_Cache' => __DIR__ . '/../..' . '/app/modules/optimizations/page-cache/Page_Cache.php',
         'Automattic\\Jetpack_Boost\\Modules\\Optimizations\\Page_Cache\\Page_Cache_Setup' => __DIR__ . '/../..' . '/app/modules/optimizations/page-cache/Page_Cache_Setup.php',
         'Automattic\\Jetpack_Boost\\Modules\\Optimizations\\Page_Cache\\Pre_WordPress\\Boost_Cache' => __DIR__ . '/../..' . '/app/modules/optimizations/page-cache/pre-wordpress/Boost_Cache.php',
+        'Automattic\\Jetpack_Boost\\Modules\\Optimizations\\Page_Cache\\Pre_WordPress\\Boost_Cache_Error' => __DIR__ . '/../..' . '/app/modules/optimizations/page-cache/pre-wordpress/Boost_Cache_Error.php',
         'Automattic\\Jetpack_Boost\\Modules\\Optimizations\\Page_Cache\\Pre_WordPress\\Boost_Cache_Settings' => __DIR__ . '/../..' . '/app/modules/optimizations/page-cache/pre-wordpress/Boost_Cache_Settings.php',
         'Automattic\\Jetpack_Boost\\Modules\\Optimizations\\Page_Cache\\Pre_WordPress\\Boost_Cache_Utils' => __DIR__ . '/../..' . '/app/modules/optimizations/page-cache/pre-wordpress/Boost_Cache_Utils.php',
         'Automattic\\Jetpack_Boost\\Modules\\Optimizations\\Page_Cache\\Pre_WordPress\\Filesystem_Utils' => __DIR__ . '/../..' . '/app/modules/optimizations/page-cache/pre-wordpress/Filesystem_Utils.php',

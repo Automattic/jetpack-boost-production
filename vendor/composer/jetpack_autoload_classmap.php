@@ -1182,6 +1182,10 @@ return array(
 		'version' => '3.1.1.0-alpha',
 		'path'    => $baseDir . '/app/modules/optimizations/page-cache/pre-wordpress/Boost_Cache.php'
 	),
+	'Automattic\\Jetpack_Boost\\Modules\\Optimizations\\Page_Cache\\Pre_WordPress\\Boost_Cache_Error' => array(
+		'version' => '3.1.1.0-alpha',
+		'path'    => $baseDir . '/app/modules/optimizations/page-cache/pre-wordpress/Boost_Cache_Error.php'
+	),
 	'Automattic\\Jetpack_Boost\\Modules\\Optimizations\\Page_Cache\\Pre_WordPress\\Boost_Cache_Settings' => array(
 		'version' => '3.1.1.0-alpha',
 		'path'    => $baseDir . '/app/modules/optimizations/page-cache/pre-wordpress/Boost_Cache_Settings.php'
