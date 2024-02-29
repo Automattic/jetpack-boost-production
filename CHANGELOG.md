@@ -18,6 +18,7 @@ This is an alpha version! The changes listed here are not final.
 
 ### Changed
 - Cache: Save log lines as json for better presentation
+- Cache: Updated error messages to make them user-friendlier
 - Fix code formatting/linting
 
 ### Fixed
