@@ -15,6 +15,7 @@ This is an alpha version! The changes listed here are not final.
 
 ### Fixed
 - Boost: delete cached Author pages when pages are edited
+- Improved error handling and response formatting in DataSync client and PHP classes. Simplified page cache setup in Jetpack Boost.
 
 ## [3.1.0-beta-2] - 2024-02-23
 ### Added
