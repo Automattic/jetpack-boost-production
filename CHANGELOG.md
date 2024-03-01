@@ -11,6 +11,7 @@ This is an alpha version! The changes listed here are not final.
 
 ### Added
 - Cache: Added actions that third party code can trigger to clear cache.
+- Cache: Added page-cache to the feature list in getting-started page.
 
 ### Fixed
 - Boost: delete cached Author pages when pages are edited
