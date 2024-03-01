@@ -297,6 +297,7 @@ return array(
     'Automattic\\Jetpack_Boost\\Modules\\Optimizations\\Page_Cache\\Page_Cache' => $baseDir . '/app/modules/optimizations/page-cache/Page_Cache.php',
     'Automattic\\Jetpack_Boost\\Modules\\Optimizations\\Page_Cache\\Page_Cache_Setup' => $baseDir . '/app/modules/optimizations/page-cache/Page_Cache_Setup.php',
     'Automattic\\Jetpack_Boost\\Modules\\Optimizations\\Page_Cache\\Pre_WordPress\\Boost_Cache' => $baseDir . '/app/modules/optimizations/page-cache/pre-wordpress/Boost_Cache.php',
+    'Automattic\\Jetpack_Boost\\Modules\\Optimizations\\Page_Cache\\Pre_WordPress\\Boost_Cache_Error' => $baseDir . '/app/modules/optimizations/page-cache/pre-wordpress/Boost_Cache_Error.php',
     'Automattic\\Jetpack_Boost\\Modules\\Optimizations\\Page_Cache\\Pre_WordPress\\Boost_Cache_Settings' => $baseDir . '/app/modules/optimizations/page-cache/pre-wordpress/Boost_Cache_Settings.php',
     'Automattic\\Jetpack_Boost\\Modules\\Optimizations\\Page_Cache\\Pre_WordPress\\Boost_Cache_Utils' => $baseDir . '/app/modules/optimizations/page-cache/pre-wordpress/Boost_Cache_Utils.php',
     'Automattic\\Jetpack_Boost\\Modules\\Optimizations\\Page_Cache\\Pre_WordPress\\Filesystem_Utils' => $baseDir . '/app/modules/optimizations/page-cache/pre-wordpress/Filesystem_Utils.php',
