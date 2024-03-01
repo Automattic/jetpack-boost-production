@@ -12,6 +12,7 @@ This is an alpha version! The changes listed here are not final.
 ### Added
 - Boost: add the $_GET parameters to the data logged
 - Cache: Added actions that third party code can trigger to clear cache.
+- Cache: Added header indicating cache hit or miss
 - Cache: Added page-cache to the feature list in getting-started page.
 
 ### Fixed
