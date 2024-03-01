@@ -15,6 +15,9 @@ This is an alpha version! The changes listed here are not final.
 - Cache: Added header indicating cache hit or miss
 - Cache: Added page-cache to the feature list in getting-started page.
 
+### Changed
+- Cache: Save log lines as json for better presentation
+
 ### Fixed
 - Boost: delete cached Author pages when pages are edited
 - Cache: Stop serving expired cache files
