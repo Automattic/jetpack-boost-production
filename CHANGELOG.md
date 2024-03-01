@@ -15,6 +15,7 @@ This is an alpha version! The changes listed here are not final.
 - Cache: Added header indicating cache hit or miss
 - Cache: Added page-cache to the feature list in getting-started page.
 - Cache: Detect WP Super Cache and customize advanced-cache.php exists message.
+- Cache: Prevent directory listing in cache directories
 
 ### Changed
 - Cache: Save log lines as json for better presentation
