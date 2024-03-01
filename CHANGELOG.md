@@ -5,32 +5,7 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
-## [3.1.1-alpha] - unreleased
-
-This is an alpha version! The changes listed here are not final.
-
-### Added
-- Boost: add the $_GET parameters to the data logged
-- Cache: Added actions that third party code can trigger to clear cache.
-- Cache: Added header indicating cache hit or miss
-- Cache: Added page-cache to the feature list in getting-started page.
-- Cache: Detect WP Super Cache and customize advanced-cache.php exists message.
-- Cache: Prevent directory listing in cache directories
-
-### Changed
-- Cache: Save log lines as json for better presentation
-- Cache: Updated error messages to make them user-friendlier
-- Fix code formatting/linting
-
-### Fixed
-- Boost: delete cached Author pages when pages are edited
-- Cache: Restore error message formatting
-- Cache: Stop serving expired cache files
-- Critical CSS: Prevent errors when page_for_posts misconfigured.
-- Improved error handling and response formatting in DataSync client and PHP classes. Simplified page cache setup in Jetpack Boost.
-- Jetpack Boost: Enhanced page cache module state management and error messaging
-
-## [3.1.0-beta] - 2024-02-22
+## [3.1.1-beta] - 2024-03-01
 ### Added
 - Cache: Added a Page Cache module. [#35042]
 - Defer JS: Automatically exclude JSON-LD schemas. [#35417]
@@ -39,12 +14,13 @@ This is an alpha version! The changes listed here are not final.
 ### Changed
 - Image Guide: Removed beta flag [#35846]
 - General: Better error handling for invalid data when running wp-admin pages. [#35361]
-- General: Improved error handling with ErrorBoundary around SpeedScore and Module components. [#35543]
+- General: Improved error handling. [#35543]
 - General: Indicate compatibility with the upcoming version of WordPress, 6.5. [#35820]
 - General: Enabled React.StrictMode for development. [#35330]
 - General: Switch to using Blog ID links instead of site slugs in checkout flow. [#35002]
 
 ### Fixed
+- Critical CSS: Prevent errors when page_for_posts misconfigured. [#36007]
 - Critical CSS: Prevent missing archive pages from breaking the generation process. [#35561]
 - General: Prevent missing pricing information from affecting the getting started flow. [#35347]
 - Image Size Analysis: Update summary groups to align with status icons. [#35419]
@@ -421,7 +397,7 @@ This is an alpha version! The changes listed here are not final.
 
 - First public alpha release
 
-[3.1.1-alpha]: https://github.com/Automattic/jetpack-boost-production/compare/3.1.0-beta...3.1.1-alpha
+[3.1.1-beta]: https://github.com/Automattic/jetpack-boost-production/compare/3.1.0-beta...3.1.1-beta
 [3.1.0-beta]: https://github.com/Automattic/jetpack-boost-production/compare/3.0.2...3.1.0-beta
 [3.0.2]: https://github.com/Automattic/jetpack-boost-production/compare/3.0.1...3.0.2
 [3.0.1]: https://github.com/Automattic/jetpack-boost-production/compare/3.0.0...3.0.1

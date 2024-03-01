@@ -3,7 +3,7 @@
 	"description": "Boost your WordPress site's performance, from the creators of Jetpack",
 	"type": "library",
 	"license": "GPL-2.0-or-later",
-	"version": "3.1.1-alpha",
+	"version": "3.1.1-beta",
 	"authors": [
 		{
 			"name": "Automattic, Inc.",
@@ -14,21 +14,21 @@
 	"prefer-stable": true,
 	"require": {
 		"ext-json": "*",
-		"automattic/jetpack-admin-ui": "^0.4.0-alpha",
+		"automattic/jetpack-admin-ui": "^0.4.0",
 		"automattic/jetpack-assets": "^2.1.1",
 		"automattic/jetpack-autoloader": "^3.0.2",
 		"automattic/jetpack-boost-core": "^0.2.4",
-		"automattic/jetpack-boost-speed-score": "^0.3.5-alpha",
+		"automattic/jetpack-boost-speed-score": "^0.3.5",
 		"automattic/jetpack-composer-plugin": "^2.0.0",
 		"automattic/jetpack-config": "^2.0.0",
-		"automattic/jetpack-connection": "^2.3.3-alpha",
+		"automattic/jetpack-connection": "^2.3.3",
 		"automattic/jetpack-device-detection": "^2.1.0",
 		"automattic/jetpack-image-cdn": "^0.3.2",
-		"automattic/jetpack-my-jetpack": "^4.13.0-alpha",
+		"automattic/jetpack-my-jetpack": "^4.13.0",
 		"automattic/jetpack-plugin-deactivation": "^0.2.0",
 		"automattic/jetpack-plugins-installer": "^0.3.1",
-		"automattic/jetpack-sync": "^2.8.1-alpha",
-		"automattic/jetpack-wp-js-data-sync": "^0.4.3-alpha",
+		"automattic/jetpack-sync": "^2.8.1",
+		"automattic/jetpack-wp-js-data-sync": "^0.4.3",
 		"tedivm/jshrink": "1.4.0",
 		"tubalmartin/cssmin": "^4.1"
 	},
@@ -73,13 +73,14 @@
 		"platform": {
 			"ext-intl": "0.0.0"
 		},
-		"autoloader-suffix": "b1e77e6231d50e7663f84529b6a3dfda_jetpack_boostⓥ3_1_1_alpha",
+		"autoloader-suffix": "b1e77e6231d50e7663f84529b6a3dfda_jetpack_boostⓥ3_1_1_beta",
 		"allow-plugins": {
 			"roots/wordpress-core-installer": true,
 			"automattic/jetpack-autoloader": true,
 			"automattic/jetpack-composer-plugin": true
 		}
 	},
+	"repositories": [],
 	"extra": {
 		"mirror-repo": "Automattic/jetpack-boost-production",
 		"autorelease": true,
