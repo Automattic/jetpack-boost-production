@@ -27,6 +27,7 @@ This is an alpha version! The changes listed here are not final.
 - Cache: Stop serving expired cache files
 - Critical CSS: Prevent errors when page_for_posts misconfigured.
 - Improved error handling and response formatting in DataSync client and PHP classes. Simplified page cache setup in Jetpack Boost.
+- Jetpack Boost: Enhanced page cache module state management and error messaging
 
 ## [3.1.0-beta] - 2024-02-22
 ### Added
