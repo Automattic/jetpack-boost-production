@@ -9,6 +9,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 This is an alpha version! The changes listed here are not final.
 
+### Changed
+- Updated package dependencies.
+
 ## [3.1.1-beta] - 2024-03-01
 ### Added
 - Cache: Added a Page Cache module. [#35042]
