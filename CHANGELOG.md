@@ -13,6 +13,7 @@ This is an alpha version! The changes listed here are not final.
 - Updated package dependencies.
 
 ### Fixed
+- Boost: added Cache activation function to set up caching if it's enabled
 - Jetpack Boost: Remove Header form storybook
 
 ## [3.1.1-beta] - 2024-03-01
