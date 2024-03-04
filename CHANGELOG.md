@@ -12,6 +12,9 @@ This is an alpha version! The changes listed here are not final.
 ### Changed
 - Updated package dependencies.
 
+### Fixed
+- Jetpack Boost: Remove Header form storybook
+
 ## [3.1.1-beta] - 2024-03-01
 ### Added
 - Cache: Added a Page Cache module. [#35042]
