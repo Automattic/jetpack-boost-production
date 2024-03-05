@@ -12,6 +12,7 @@ This is an alpha version! The changes listed here are not final.
 ### Fixed
 - Boost: added Cache activation function to set up caching if it's enabled
 - Boost: hide warnings when checking if a directory is RO or not.
+- Boost: remove the ABSPATH from log messages in case the logs are made public
 
 ## [3.1.1-beta] - 2024-03-01
 ### Added
