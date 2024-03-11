@@ -9,6 +9,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 This is an alpha version! The changes listed here are not final.
 
+### Added
+- Cache: Disable caching when boost query parameters are present.
+
 ### Fixed
 - Boost: added Cache activation function to set up caching if it's enabled
 - Boost: hide warnings when checking if a directory is RO or not.
