@@ -5,20 +5,11 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
-## [3.2.0-alpha] - unreleased
-
-This is an alpha version! The changes listed here are not final.
-
-### Added
-- WP Super Cache: only save a cached file if the Page_Cache module is enabled
-
-### Changed
-- Updated package dependencies.
-
+## [3.2.0] - 2024-03-15
 ### Fixed
-- Boost: added filter documentation
-- General: Removed duplicate uninstall hook
-- Jetpack Boost: Remove Header form storybook
+- Cache: Verify cache enabled on current site before saving cached data [#36350]
+- General: Added filter documentation [#36226]
+- General: Removed duplicate uninstall hook, fixing unnecessary database writes [#36403]
 
 ## [3.1.1] - 2024-03-11
 ### Added
@@ -412,7 +403,7 @@ This is an alpha version! The changes listed here are not final.
 
 - First public alpha release
 
-[3.2.0-alpha]: https://github.com/Automattic/jetpack-boost-production/compare/3.1.1...3.2.0-alpha
+[3.2.0]: https://github.com/Automattic/jetpack-boost-production/compare/3.1.1...3.2.0
 [3.1.1]: https://github.com/Automattic/jetpack-boost-production/compare/3.0.2...3.1.1
 [3.0.2]: https://github.com/Automattic/jetpack-boost-production/compare/3.0.1...3.0.2
 [3.0.1]: https://github.com/Automattic/jetpack-boost-production/compare/3.0.0...3.0.1
