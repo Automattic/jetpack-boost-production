@@ -17,6 +17,7 @@ This is an alpha version! The changes listed here are not final.
 
 ### Fixed
 - Boost: added filter documentation
+- General: Removed duplicate uninstall hook
 - Jetpack Boost: Remove Header form storybook
 
 ## [3.1.1] - 2024-03-11
