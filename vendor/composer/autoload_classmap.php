@@ -309,6 +309,7 @@ return array(
     'Automattic\\Jetpack_Boost\\Modules\\Optimizations\\Render_Blocking_JS\\Render_Blocking_JS' => $baseDir . '/app/modules/optimizations/render-blocking-js/class-render-blocking-js.php',
     'Automattic\\Jetpack_Boost\\Modules\\Performance_History\\Performance_History' => $baseDir . '/app/modules/performance-history/Performance_History.php',
     'Automattic\\Jetpack_Boost\\REST_API\\Contracts\\Endpoint' => $baseDir . '/app/rest-api/contracts/Endpoint.php',
+    'Automattic\\Jetpack_Boost\\REST_API\\Contracts\\Has_Always_Available_Endpoints' => $baseDir . '/app/rest-api/contracts/Has_Always_Available_Endpoints.php',
     'Automattic\\Jetpack_Boost\\REST_API\\Contracts\\Has_Endpoints' => $baseDir . '/app/rest-api/contracts/Has_Endpoints.php',
     'Automattic\\Jetpack_Boost\\REST_API\\Contracts\\Permission' => $baseDir . '/app/rest-api/contracts/Permission.php',
     'Automattic\\Jetpack_Boost\\REST_API\\Endpoints\\Image_Analysis_Action_Fix' => $baseDir . '/app/modules/image-size-analysis/data-sync/Image_Size_Analysis_Action_Fix.php',

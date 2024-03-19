@@ -1230,6 +1230,10 @@ return array(
 		'version' => '3.2.1.0-alpha',
 		'path'    => $baseDir . '/app/rest-api/contracts/Endpoint.php'
 	),
+	'Automattic\\Jetpack_Boost\\REST_API\\Contracts\\Has_Always_Available_Endpoints' => array(
+		'version' => '3.2.1.0-alpha',
+		'path'    => $baseDir . '/app/rest-api/contracts/Has_Always_Available_Endpoints.php'
+	),
 	'Automattic\\Jetpack_Boost\\REST_API\\Contracts\\Has_Endpoints' => array(
 		'version' => '3.2.1.0-alpha',
 		'path'    => $baseDir . '/app/rest-api/contracts/Has_Endpoints.php'

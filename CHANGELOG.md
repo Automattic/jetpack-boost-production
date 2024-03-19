@@ -13,6 +13,7 @@ This is an alpha version! The changes listed here are not final.
 - Cache: Check cache engine status on Settings page load
 
 ### Changed
+- Cloud CSS: Update REST API endpoint to be available even if the module is turned off.
 - Only show installation errors on plugins page
 
 ## [3.2.0] - 2024-03-15

@@ -346,6 +346,7 @@ class ComposerStaticInitb1e77e6231d50e7663f84529b6a3dfda_jetpack_boostⓥ3_2_1_a
         'Automattic\\Jetpack_Boost\\Modules\\Optimizations\\Render_Blocking_JS\\Render_Blocking_JS' => __DIR__ . '/../..' . '/app/modules/optimizations/render-blocking-js/class-render-blocking-js.php',
         'Automattic\\Jetpack_Boost\\Modules\\Performance_History\\Performance_History' => __DIR__ . '/../..' . '/app/modules/performance-history/Performance_History.php',
         'Automattic\\Jetpack_Boost\\REST_API\\Contracts\\Endpoint' => __DIR__ . '/../..' . '/app/rest-api/contracts/Endpoint.php',
+        'Automattic\\Jetpack_Boost\\REST_API\\Contracts\\Has_Always_Available_Endpoints' => __DIR__ . '/../..' . '/app/rest-api/contracts/Has_Always_Available_Endpoints.php',
         'Automattic\\Jetpack_Boost\\REST_API\\Contracts\\Has_Endpoints' => __DIR__ . '/../..' . '/app/rest-api/contracts/Has_Endpoints.php',
         'Automattic\\Jetpack_Boost\\REST_API\\Contracts\\Permission' => __DIR__ . '/../..' . '/app/rest-api/contracts/Permission.php',
         'Automattic\\Jetpack_Boost\\REST_API\\Endpoints\\Image_Analysis_Action_Fix' => __DIR__ . '/../..' . '/app/modules/image-size-analysis/data-sync/Image_Size_Analysis_Action_Fix.php',
