@@ -15,6 +15,7 @@ This is an alpha version! The changes listed here are not final.
 ### Changed
 - Cloud CSS: Update REST API endpoint to be available even if the module is turned off.
 - Only show installation errors on plugins page
+- Performance History: Sanitize graph annotation text
 
 ## [3.2.0] - 2024-03-15
 ### Fixed
