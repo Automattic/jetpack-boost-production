@@ -11,6 +11,7 @@ This is an alpha version! The changes listed here are not final.
 
 ### Added
 - Cache: Check cache engine status on Settings page load
+- Trigger red bubble notification when bad install is detected
 
 ### Changed
 - Cloud CSS: Update REST API endpoint to be available even if the module is turned off.
