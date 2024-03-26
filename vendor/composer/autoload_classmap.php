@@ -224,6 +224,7 @@ return array(
     'Automattic\\Jetpack_Boost\\Contracts\\Has_Setup' => $baseDir . '/app/contracts/Has_Setup.php',
     'Automattic\\Jetpack_Boost\\Contracts\\Has_Slug' => $baseDir . '/app/contracts/Has_Slug.php',
     'Automattic\\Jetpack_Boost\\Contracts\\Is_Always_On' => $baseDir . '/app/contracts/Is_Always_On.php',
+    'Automattic\\Jetpack_Boost\\Contracts\\Optimization' => $baseDir . '/app/contracts/Optimization.php',
     'Automattic\\Jetpack_Boost\\Contracts\\Pluggable' => $baseDir . '/app/contracts/Pluggable.php',
     'Automattic\\Jetpack_Boost\\Data_Sync\\Critical_CSS_Meta_Entry' => $baseDir . '/app/data-sync/Critical_CSS_Meta_Entry.php',
     'Automattic\\Jetpack_Boost\\Data_Sync\\Getting_Started_Entry' => $baseDir . '/app/data-sync/Getting_Started_Entry.php',

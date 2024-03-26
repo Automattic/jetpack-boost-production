@@ -18,6 +18,7 @@ This is an alpha version! The changes listed here are not final.
 - Cloud CSS: Update REST API endpoint to be available even if the module is turned off.
 - Only show installation errors on plugins page
 - Performance History: Sanitize graph annotation text
+- Speed Score: More accurately detect which modules are active when a speed score is requested.
 - Updated package dependencies.
 - Update getting started and upgrade copies.
 

@@ -261,6 +261,7 @@ class ComposerStaticInitb1e77e6231d50e7663f84529b6a3dfda_jetpack_boostⓥ3_2_1_a
         'Automattic\\Jetpack_Boost\\Contracts\\Has_Setup' => __DIR__ . '/../..' . '/app/contracts/Has_Setup.php',
         'Automattic\\Jetpack_Boost\\Contracts\\Has_Slug' => __DIR__ . '/../..' . '/app/contracts/Has_Slug.php',
         'Automattic\\Jetpack_Boost\\Contracts\\Is_Always_On' => __DIR__ . '/../..' . '/app/contracts/Is_Always_On.php',
+        'Automattic\\Jetpack_Boost\\Contracts\\Optimization' => __DIR__ . '/../..' . '/app/contracts/Optimization.php',
         'Automattic\\Jetpack_Boost\\Contracts\\Pluggable' => __DIR__ . '/../..' . '/app/contracts/Pluggable.php',
         'Automattic\\Jetpack_Boost\\Data_Sync\\Critical_CSS_Meta_Entry' => __DIR__ . '/../..' . '/app/data-sync/Critical_CSS_Meta_Entry.php',
         'Automattic\\Jetpack_Boost\\Data_Sync\\Getting_Started_Entry' => __DIR__ . '/../..' . '/app/data-sync/Getting_Started_Entry.php',
