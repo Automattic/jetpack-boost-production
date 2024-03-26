@@ -11,6 +11,7 @@ This is an alpha version! The changes listed here are not final.
 
 ### Added
 - Cache: Check cache engine status on Settings page load
+- Cache: Clear cache if Boost module settings are changed
 - Trigger red bubble notification when bad install is detected
 
 ### Changed
