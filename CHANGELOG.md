@@ -14,6 +14,7 @@ This is an alpha version! The changes listed here are not final.
 - Cache: Clear cache if Boost module settings are changed
 - Cloud CSS: Optimize regeneration time.
 - Compatibility: Improved compatibility with SEO plugins for smoother Cloud CSS generation
+- Packages: add version tracking for identity-crisis package.
 - Trigger red bubble notification when bad install is detected
 
 ### Changed
