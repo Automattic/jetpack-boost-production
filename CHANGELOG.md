@@ -9,6 +9,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 This is an alpha version! The changes listed here are not final.
 
+### Added
+- Speed Score: Add the speed changed popup back.
+
 ## [3.2.2] - 2024-04-02
 ### Added
 - Cache: Ensure cache engine is loading every time the Settings page loads. [#36339]
