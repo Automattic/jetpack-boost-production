@@ -354,6 +354,7 @@ class ComposerStaticInitb1e77e6231d50e7663f84529b6a3dfda_jetpack_boostⓥ3_2_3_a
         'Automattic\\Jetpack_Boost\\REST_API\\Endpoints\\Image_Size_Analysis_Summary_Action_Paginate' => __DIR__ . '/../..' . '/app/modules/image-size-analysis/data-sync/Image_Size_Analysis_Action_Paginate.php',
         'Automattic\\Jetpack_Boost\\REST_API\\Endpoints\\Image_Size_Analysis_Summary_Action_Start' => __DIR__ . '/../..' . '/app/modules/image-size-analysis/data-sync/Image_Size_Analysis_Summary_Action_Start.php',
         'Automattic\\Jetpack_Boost\\REST_API\\Endpoints\\List_Site_Urls' => __DIR__ . '/../..' . '/app/rest-api/endpoints/List_Site_Urls.php',
+        'Automattic\\Jetpack_Boost\\REST_API\\Endpoints\\List_Source_Providers' => __DIR__ . '/../..' . '/app/rest-api/endpoints/List_Source_Providers.php',
         'Automattic\\Jetpack_Boost\\REST_API\\Endpoints\\Update_Cloud_CSS' => __DIR__ . '/../..' . '/app/rest-api/endpoints/Update_Cloud_CSS.php',
         'Automattic\\Jetpack_Boost\\REST_API\\Permissions\\Current_User_Admin' => __DIR__ . '/../..' . '/app/rest-api/permissions/Current_User_Admin.php',
         'Automattic\\Jetpack_Boost\\REST_API\\Permissions\\Nonce' => __DIR__ . '/../..' . '/app/rest-api/permissions/Nonce.php',

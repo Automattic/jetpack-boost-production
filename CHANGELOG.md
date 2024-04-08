@@ -10,6 +10,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 This is an alpha version! The changes listed here are not final.
 
 ### Added
+- Add endpoint to list source providers.
 - Add end to end tests for modules.
 - Speed Score: Add the speed changed popup back.
 

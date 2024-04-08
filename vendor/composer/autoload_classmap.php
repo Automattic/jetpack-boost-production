@@ -317,6 +317,7 @@ return array(
     'Automattic\\Jetpack_Boost\\REST_API\\Endpoints\\Image_Size_Analysis_Summary_Action_Paginate' => $baseDir . '/app/modules/image-size-analysis/data-sync/Image_Size_Analysis_Action_Paginate.php',
     'Automattic\\Jetpack_Boost\\REST_API\\Endpoints\\Image_Size_Analysis_Summary_Action_Start' => $baseDir . '/app/modules/image-size-analysis/data-sync/Image_Size_Analysis_Summary_Action_Start.php',
     'Automattic\\Jetpack_Boost\\REST_API\\Endpoints\\List_Site_Urls' => $baseDir . '/app/rest-api/endpoints/List_Site_Urls.php',
+    'Automattic\\Jetpack_Boost\\REST_API\\Endpoints\\List_Source_Providers' => $baseDir . '/app/rest-api/endpoints/List_Source_Providers.php',
     'Automattic\\Jetpack_Boost\\REST_API\\Endpoints\\Update_Cloud_CSS' => $baseDir . '/app/rest-api/endpoints/Update_Cloud_CSS.php',
     'Automattic\\Jetpack_Boost\\REST_API\\Permissions\\Current_User_Admin' => $baseDir . '/app/rest-api/permissions/Current_User_Admin.php',
     'Automattic\\Jetpack_Boost\\REST_API\\Permissions\\Nonce' => $baseDir . '/app/rest-api/permissions/Nonce.php',

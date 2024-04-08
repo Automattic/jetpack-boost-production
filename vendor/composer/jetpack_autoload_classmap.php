@@ -1262,6 +1262,10 @@ return array(
 		'version' => '3.2.3.0-alpha',
 		'path'    => $baseDir . '/app/rest-api/endpoints/List_Site_Urls.php'
 	),
+	'Automattic\\Jetpack_Boost\\REST_API\\Endpoints\\List_Source_Providers' => array(
+		'version' => '3.2.3.0-alpha',
+		'path'    => $baseDir . '/app/rest-api/endpoints/List_Source_Providers.php'
+	),
 	'Automattic\\Jetpack_Boost\\REST_API\\Endpoints\\Update_Cloud_CSS' => array(
 		'version' => '3.2.3.0-alpha',
 		'path'    => $baseDir . '/app/rest-api/endpoints/Update_Cloud_CSS.php'
