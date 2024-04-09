@@ -12,6 +12,7 @@ This is an alpha version! The changes listed here are not final.
 ### Added
 - Add endpoint to list source providers.
 - Add end to end tests for modules.
+- JS Concatenation: Added compatibility with event-tickets by The Events Calendar.
 - Speed Score: Add the speed changed popup back.
 
 ### Changed
