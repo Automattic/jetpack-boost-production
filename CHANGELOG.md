@@ -16,6 +16,7 @@ This is an alpha version! The changes listed here are not final.
 - Speed Score: Add the speed changed popup back.
 
 ### Changed
+- General: use wp_admin_notice function introduced in WP 6.4 to display notices.
 - Updated package dependencies.
 
 ## [3.2.2] - 2024-04-02
