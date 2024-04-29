@@ -19,6 +19,9 @@ This is an alpha version! The changes listed here are not final.
 - General: use wp_admin_notice function introduced in WP 6.4 to display notices.
 - Updated package dependencies.
 
+### Fixed
+- CLI: Fix fatal error when using 'activate' without a module name.
+
 ## [3.2.2] - 2024-04-02
 ### Added
 - Cache: Ensure cache engine is loading every time the Settings page loads. [#36339]
