@@ -23,6 +23,7 @@ This is an alpha version! The changes listed here are not final.
 
 ### Fixed
 - CLI: Fix fatal error when using 'activate' without a module name.
+- Critical CSS: Update the way generation library is loaded.
 
 ## [3.2.2] - 2024-04-02
 ### Added
