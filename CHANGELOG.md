@@ -5,26 +5,22 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
-## [3.3.0-alpha] - unreleased
-
-This is an alpha version! The changes listed here are not final.
-
+## [3.3.0] - 2024-05-08
 ### Added
-- Add endpoint to list source providers.
-- Add end to end tests for modules.
-- Jetpack Boost: Added the Lazy Image Auto Resizer feature to optimize lazy loading image performance
-- JS Concatenation: Added compatibility with event-tickets by The Events Calendar.
-- Speed Score: Add the speed changed popup back.
+- General: Add endpoint to list source providers. [#36373]
+- General: Add end to end tests for modules. [#36501]
+- Auto-Resize Lazy Images: Added feature to optimize lazy loading image performance [#36987]
+- JS Concatenation: Added compatibility with event-tickets by The Events Calendar. [#36750]
+- Speed Score: Add the speed changed popup back. [#36432]
 
 ### Changed
-- Boost: remove Beta tag from Cache module
-- General: use wp_admin_notice function introduced in WP 6.4 to display notices.
-- Image CDN: Update UI.
-- Updated package dependencies.
+- Cache: remove Beta tag [#37261]
+- General: improved compatibility with WP 6.4. [#37051]
+- Image CDN: Update UI. [#37263]
 
 ### Fixed
-- CLI: Fix fatal error when using 'activate' without a module name.
-- Critical CSS: Update the way generation library is loaded.
+- CLI: Fix fatal error when using 'activate' without a module name. [#36873]
+- Critical CSS: Update the way generation library is loaded. [#37118]
 
 ## [3.2.2] - 2024-04-02
 ### Added
@@ -440,7 +436,7 @@ This is an alpha version! The changes listed here are not final.
 
 - First public alpha release
 
-[3.3.0-alpha]: https://github.com/Automattic/jetpack-boost-production/compare/3.2.2...3.3.0-alpha
+[3.3.0]: https://github.com/Automattic/jetpack-boost-production/compare/3.2.2...3.3.0
 [3.2.2]: https://github.com/Automattic/jetpack-boost-production/compare/3.2.0...3.2.2
 [3.2.0]: https://github.com/Automattic/jetpack-boost-production/compare/3.1.1...3.2.0
 [3.1.1]: https://github.com/Automattic/jetpack-boost-production/compare/3.0.2...3.1.1
