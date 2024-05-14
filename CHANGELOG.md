@@ -12,6 +12,9 @@ This is an alpha version! The changes listed here are not final.
 ### Added
 - Boost: added cache rebuild functionality
 
+### Fixed
+- Hotfix: Remove post types with empty Critical CSS URLs
+
 ## [3.3.0] - 2024-05-08
 ### Added
 - General: Add endpoint to list source providers. [#36373]
