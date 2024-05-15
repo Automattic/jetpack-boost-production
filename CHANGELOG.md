@@ -12,6 +12,9 @@ This is an alpha version! The changes listed here are not final.
 ### Added
 - Boost: added cache rebuild functionality
 
+### Changed
+- Updated package dependencies.
+
 ### Fixed
 - Concatenate JS: Added compatibility with WooCommerce 8.9
 - Hotfix: Remove post types with empty Critical CSS URLs
