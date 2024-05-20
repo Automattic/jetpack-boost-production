@@ -13,6 +13,7 @@ This is an alpha version! The changes listed here are not final.
 - Boost: added cache rebuild functionality
 
 ### Changed
+- Remove the explicit Plugin Install dependency.
 - Updated package dependencies.
 
 ### Fixed
