@@ -11,6 +11,7 @@ This is an alpha version! The changes listed here are not final.
 
 ### Added
 - Boost: added cache rebuild functionality
+- Critical CSS: Add a friendly error if css gen library is broken/missing.
 
 ### Changed
 - Remove the explicit Plugin Install dependency.
