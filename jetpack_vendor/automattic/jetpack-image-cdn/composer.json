@@ -6,7 +6,7 @@
 	"require": {
 		"php": ">=7.0",
 		"automattic/jetpack-assets": "^2.1.11",
-		"automattic/jetpack-status": "^3.2.0-alpha"
+		"automattic/jetpack-status": "^3.2.0"
 	},
 	"require-dev": {
 		"automattic/wordbless": "dev-master",
