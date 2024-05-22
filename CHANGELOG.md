@@ -14,6 +14,7 @@ This is an alpha version! The changes listed here are not final.
 - Critical CSS: Add a friendly error if css gen library is broken/missing.
 
 ### Changed
+- Critical CSS: Improve source providers collecting logic.
 - Remove the explicit Plugin Install dependency.
 - Updated package dependencies.
 
