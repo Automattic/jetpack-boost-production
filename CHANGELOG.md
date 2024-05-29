@@ -11,6 +11,7 @@ This is an alpha version! The changes listed here are not final.
 
 ### Added
 - Boost: added cache rebuild functionality
+- Cache: Allow easy migration from WPSC to Boost Cache
 - Critical CSS: Add a friendly error if css gen library is broken/missing.
 
 ### Changed

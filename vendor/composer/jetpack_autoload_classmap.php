@@ -1114,6 +1114,10 @@ return array(
 		'version' => '3.4.0.0-alpha',
 		'path'    => $baseDir . '/app/lib/class-storage-post-type.php'
 	),
+	'Automattic\\Jetpack_Boost\\Lib\\Super_Cache_Config_Compatibility' => array(
+		'version' => '3.4.0.0-alpha',
+		'path'    => $baseDir . '/app/lib/Super_Cache_Config_Compatibility.php'
+	),
 	'Automattic\\Jetpack_Boost\\Lib\\Super_Cache_Info' => array(
 		'version' => '3.4.0.0-alpha',
 		'path'    => $baseDir . '/app/lib/Super_Cache_Info.php'
@@ -1193,6 +1197,10 @@ return array(
 	'Automattic\\Jetpack_Boost\\Modules\\Optimizations\\Page_Cache\\Data_Sync_Actions\\Clear_Page_Cache' => array(
 		'version' => '3.4.0.0-alpha',
 		'path'    => $baseDir . '/app/modules/optimizations/page-cache/data-sync-actions/clear-page-cache.php'
+	),
+	'Automattic\\Jetpack_Boost\\Modules\\Optimizations\\Page_Cache\\Data_Sync_Actions\\Deactivate_WPSC' => array(
+		'version' => '3.4.0.0-alpha',
+		'path'    => $baseDir . '/app/modules/optimizations/page-cache/data-sync-actions/deactivate-wpsc.php'
 	),
 	'Automattic\\Jetpack_Boost\\Modules\\Optimizations\\Page_Cache\\Data_Sync_Actions\\Run_Setup' => array(
 		'version' => '3.4.0.0-alpha',
@@ -1329,6 +1337,10 @@ return array(
 	'Automattic\\Jetpack_Boost\\Tests\\Lib\\WP_Test_Viewport' => array(
 		'version' => '3.4.0.0-alpha',
 		'path'    => $baseDir . '/tests/php/lib/test-class-viewport.php'
+	),
+	'Automattic\\Jetpack_Boost\\Tests\\Super_Cache_Compatibility_Checker_Test_Case' => array(
+		'version' => '3.4.0.0-alpha',
+		'path'    => $baseDir . '/tests/php/class-super-cache-compatibility-checker-test-case.php'
 	),
 	'Container' => array(
 		'version' => '3.0.8',
