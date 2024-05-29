@@ -1122,10 +1122,6 @@ return array(
 		'version' => '3.4.0.0-alpha',
 		'path'    => $baseDir . '/app/lib/Super_Cache_Info.php'
 	),
-	'Automattic\\Jetpack_Boost\\Lib\\Viewport' => array(
-		'version' => '3.4.0.0-alpha',
-		'path'    => $baseDir . '/app/lib/class-viewport.php'
-	),
 	'Automattic\\Jetpack_Boost\\Modules\\Image_Guide\\Image_Guide' => array(
 		'version' => '3.4.0.0-alpha',
 		'path'    => $baseDir . '/app/modules/image-guide/Image_Guide.php'
@@ -1333,10 +1329,6 @@ return array(
 	'Automattic\\Jetpack_Boost\\Tests\\Lib\\WP_Test_Minify' => array(
 		'version' => '3.4.0.0-alpha',
 		'path'    => $baseDir . '/tests/php/lib/test-class-minify.php'
-	),
-	'Automattic\\Jetpack_Boost\\Tests\\Lib\\WP_Test_Viewport' => array(
-		'version' => '3.4.0.0-alpha',
-		'path'    => $baseDir . '/tests/php/lib/test-class-viewport.php'
 	),
 	'Automattic\\Jetpack_Boost\\Tests\\Super_Cache_Compatibility_Checker_Test_Case' => array(
 		'version' => '3.4.0.0-alpha',
