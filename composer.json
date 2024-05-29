@@ -19,7 +19,7 @@
 		"automattic/jetpack-autoloader": "^3.0.8",
 		"automattic/jetpack-boost-core": "^0.2.7",
 		"automattic/jetpack-boost-speed-score": "^0.3.11",
-		"automattic/jetpack-composer-plugin": "^2.0.1",
+		"automattic/jetpack-composer-plugin": "^2.0.2-alpha",
 		"automattic/jetpack-config": "^2.0.2",
 		"automattic/jetpack-connection": "^2.9.0",
 		"automattic/jetpack-device-detection": "^2.1.3",
