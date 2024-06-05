@@ -16,6 +16,7 @@ This is an alpha version! The changes listed here are not final.
 
 ### Changed
 - Critical CSS: Improve source providers collecting logic.
+- Minification: Skip files ending in `.min.js` and `.min.css` from minification
 - Remove the explicit Plugin Install dependency.
 - Updated package dependencies.
 
