@@ -1342,10 +1342,6 @@ return array(
 		'version' => '3.0.8',
 		'path'    => $vendorDir . '/automattic/jetpack-autoloader/src/class-hook-manager.php'
 	),
-	'JShrink\\Minifier' => array(
-		'version' => '1.4.0.0',
-		'path'    => $vendorDir . '/tedivm/jshrink/src/JShrink/Minifier.php'
-	),
 	'Jetpack_IXR_Client' => array(
 		'version' => '2.9.2.0',
 		'path'    => $baseDir . '/jetpack_vendor/automattic/jetpack-connection/legacy/class-jetpack-ixr-client.php'
@@ -1381,6 +1377,46 @@ return array(
 	'Manifest_Reader' => array(
 		'version' => '3.0.8',
 		'path'    => $vendorDir . '/automattic/jetpack-autoloader/src/class-manifest-reader.php'
+	),
+	'MatthiasMullie\\Minify\\CSS' => array(
+		'version' => '1.3.73.0',
+		'path'    => $vendorDir . '/matthiasmullie/minify/src/CSS.php'
+	),
+	'MatthiasMullie\\Minify\\Exception' => array(
+		'version' => '1.3.73.0',
+		'path'    => $vendorDir . '/matthiasmullie/minify/src/Exception.php'
+	),
+	'MatthiasMullie\\Minify\\Exceptions\\BasicException' => array(
+		'version' => '1.3.73.0',
+		'path'    => $vendorDir . '/matthiasmullie/minify/src/Exceptions/BasicException.php'
+	),
+	'MatthiasMullie\\Minify\\Exceptions\\FileImportException' => array(
+		'version' => '1.3.73.0',
+		'path'    => $vendorDir . '/matthiasmullie/minify/src/Exceptions/FileImportException.php'
+	),
+	'MatthiasMullie\\Minify\\Exceptions\\IOException' => array(
+		'version' => '1.3.73.0',
+		'path'    => $vendorDir . '/matthiasmullie/minify/src/Exceptions/IOException.php'
+	),
+	'MatthiasMullie\\Minify\\JS' => array(
+		'version' => '1.3.73.0',
+		'path'    => $vendorDir . '/matthiasmullie/minify/src/JS.php'
+	),
+	'MatthiasMullie\\Minify\\Minify' => array(
+		'version' => '1.3.73.0',
+		'path'    => $vendorDir . '/matthiasmullie/minify/src/Minify.php'
+	),
+	'MatthiasMullie\\PathConverter\\Converter' => array(
+		'version' => '1.1.3.0',
+		'path'    => $vendorDir . '/matthiasmullie/path-converter/src/Converter.php'
+	),
+	'MatthiasMullie\\PathConverter\\ConverterInterface' => array(
+		'version' => '1.1.3.0',
+		'path'    => $vendorDir . '/matthiasmullie/path-converter/src/ConverterInterface.php'
+	),
+	'MatthiasMullie\\PathConverter\\NoConverter' => array(
+		'version' => '1.1.3.0',
+		'path'    => $vendorDir . '/matthiasmullie/path-converter/src/NoConverter.php'
 	),
 	'PHP_Autoloader' => array(
 		'version' => '3.0.8',
