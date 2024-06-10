@@ -11,6 +11,7 @@ This is an alpha version! The changes listed here are not final.
 
 ### Changed
 - Change codebase to use clsx instead of classnames.
+- Updated package dependencies.
 
 ## [3.4.0] - 2024-06-10
 ### Added
