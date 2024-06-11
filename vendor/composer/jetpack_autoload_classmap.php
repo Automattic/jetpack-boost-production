@@ -1122,6 +1122,10 @@ return array(
 		'version' => '3.4.1.0-alpha',
 		'path'    => $baseDir . '/app/lib/Super_Cache_Info.php'
 	),
+	'Automattic\\Jetpack_Boost\\Lib\\Super_Cache_Tracking' => array(
+		'version' => '3.4.1.0-alpha',
+		'path'    => $baseDir . '/app/lib/Super_Cache_Tracking.php'
+	),
 	'Automattic\\Jetpack_Boost\\Modules\\Image_Guide\\Image_Guide' => array(
 		'version' => '3.4.1.0-alpha',
 		'path'    => $baseDir . '/app/modules/image-guide/Image_Guide.php'
