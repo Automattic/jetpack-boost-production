@@ -910,6 +910,10 @@ return array(
 		'version' => '3.4.2.0-alpha',
 		'path'    => $baseDir . '/app/contracts/Has_Slug.php'
 	),
+	'Automattic\\Jetpack_Boost\\Contracts\\Has_Submodules' => array(
+		'version' => '3.4.2.0-alpha',
+		'path'    => $baseDir . '/app/contracts/Has_Submodules.php'
+	),
 	'Automattic\\Jetpack_Boost\\Contracts\\Is_Always_On' => array(
 		'version' => '3.4.2.0-alpha',
 		'path'    => $baseDir . '/app/contracts/Is_Always_On.php'
@@ -1181,6 +1185,14 @@ return array(
 	'Automattic\\Jetpack_Boost\\Modules\\Optimizations\\Image_CDN\\Image_CDN' => array(
 		'version' => '3.4.2.0-alpha',
 		'path'    => $baseDir . '/app/modules/optimizations/image-cdn/class-image-cdn.php'
+	),
+	'Automattic\\Jetpack_Boost\\Modules\\Optimizations\\Image_CDN\\Liar' => array(
+		'version' => '3.4.2.0-alpha',
+		'path'    => $baseDir . '/app/modules/optimizations/image-cdn/class-liar.php'
+	),
+	'Automattic\\Jetpack_Boost\\Modules\\Optimizations\\Image_CDN\\Quality_Settings' => array(
+		'version' => '3.4.2.0-alpha',
+		'path'    => $baseDir . '/app/modules/optimizations/image-cdn/class-quality-settings.php'
 	),
 	'Automattic\\Jetpack_Boost\\Modules\\Optimizations\\Minify\\Minify_CSS' => array(
 		'version' => '3.4.2.0-alpha',
