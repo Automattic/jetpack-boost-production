@@ -12,6 +12,9 @@ This is an alpha version! The changes listed here are not final.
 ### Changed
 - Updated package dependencies.
 
+### Fixed
+- Compatibility: Include a missing dependency required for Compatibility with WP Optimize
+
 ## [3.4.2] - 2024-06-13
 ### Added
 - Critical CSS: Add a friendly error if css gen library is broken or missing. [#37283]
