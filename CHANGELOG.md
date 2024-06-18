@@ -5,12 +5,16 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
-## [3.4.4-alpha] - unreleased
+## [3.4.5-alpha] - unreleased
 
 This is an alpha version! The changes listed here are not final.
 
 ### Changed
 - Updated package dependencies.
+
+## [3.4.4] - 2024-06-18
+### Fixes
+- My Jetpack: Update My Jetpack to a more stable version. [#37911]
 
 ## [3.4.3] - 2024-06-14
 ### Fixed
@@ -467,7 +471,8 @@ This is an alpha version! The changes listed here are not final.
 
 - First public alpha release
 
-[3.4.4-alpha]: https://github.com/Automattic/jetpack-boost-production/compare/3.4.3...3.4.4-alpha
+[3.4.5-alpha]: https://github.com/Automattic/jetpack-boost-production/compare/3.4.4...3.4.5-alpha
+[3.4.4]: https://github.com/Automattic/jetpack-boost-production/compare/3.4.3...3.4.4
 [3.4.3]: https://github.com/Automattic/jetpack-boost-production/compare/3.4.2...3.4.3
 [3.4.2]: https://github.com/Automattic/jetpack-boost-production/compare/3.3.1...3.4.2
 [3.3.1]: https://github.com/Automattic/jetpack-boost-production/compare/3.3.0...3.3.1
