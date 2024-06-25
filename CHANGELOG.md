@@ -11,6 +11,7 @@ This is an alpha version! The changes listed here are not final.
 
 ### Fixed
 - Detect when WP_CACHE is defined with "const" in wp-config.php
+- General: Fix instance where Boost can break caching for other caching plugins when getting deactivated.
 
 ## [3.4.5-beta] - 2024-06-21
 ### Added
