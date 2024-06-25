@@ -9,6 +9,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 This is an alpha version! The changes listed here are not final.
 
+### Fixed
+- Detect when WP_CACHE is defined with "const" in wp-config.php
+
 ## [3.4.5-beta] - 2024-06-21
 ### Added
 - Jetpack Boost: Automatically enables Page Cache when migrating from WP Super Cache. [#37963]
