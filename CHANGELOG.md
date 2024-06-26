@@ -9,6 +9,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 This is an alpha version! The changes listed here are not final.
 
+### Added
+- Jetpack Boost: ensure that "init" fires before allowing a page to be cached to avoid caching error pages
+
 ### Fixed
 - Detect when WP_CACHE is defined with "const" in wp-config.php
 - General: Fix instance where Boost can break caching for other caching plugins when getting deactivated.
