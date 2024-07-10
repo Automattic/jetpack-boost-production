@@ -5,15 +5,9 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
-## [3.4.7-alpha] - unreleased
-
-This is an alpha version! The changes listed here are not final.
-
+## [3.4.7] - 2024-07-10
 ### Security
-- Jetpack Boost: Improved image and CSS proxy functionalities with CDN support, caching, and other enhancements.
-
-### Changed
-- Updated package dependencies.
+- General: Improved image and CSS proxy functionalities with CDN support, caching, and other enhancements. [#38252]
 
 ## [3.4.6] - 2024-06-26
 ### Added
@@ -486,7 +480,7 @@ This is an alpha version! The changes listed here are not final.
 
 - First public alpha release
 
-[3.4.7-alpha]: https://github.com/Automattic/jetpack-boost-production/compare/3.4.6...3.4.7-alpha
+[3.4.7]: https://github.com/Automattic/jetpack-boost-production/compare/3.4.6...3.4.7
 [3.4.6]: https://github.com/Automattic/jetpack-boost-production/compare/3.4.4...3.4.6
 [3.4.4]: https://github.com/Automattic/jetpack-boost-production/compare/3.4.3...3.4.4
 [3.4.3]: https://github.com/Automattic/jetpack-boost-production/compare/3.4.2...3.4.3
