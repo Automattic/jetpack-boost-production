@@ -9,6 +9,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 This is an alpha version! The changes listed here are not final.
 
+### Fixed
+- Updated package dependencies.
+
 ## [3.4.7] - 2024-07-10
 ### Security
 - General: Improved image and CSS proxy functionalities with CDN support, caching, and other enhancements. [#38252]
