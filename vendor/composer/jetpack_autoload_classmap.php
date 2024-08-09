@@ -507,19 +507,23 @@ return array(
 		'path'    => $baseDir . '/jetpack_vendor/automattic/jetpack-plugins-installer/src/class-plugins-installer.php'
 	),
 	'Automattic\\Jetpack\\Protect_Models' => array(
-		'version' => '0.1.0.0',
+		'version' => '0.2.0.0-alpha1723230984',
 		'path'    => $baseDir . '/jetpack_vendor/automattic/jetpack-protect-models/src/class-protect-models.php'
 	),
 	'Automattic\\Jetpack\\Protect_Models\\Extension_Model' => array(
-		'version' => '0.1.0.0',
+		'version' => '0.2.0.0-alpha1723230984',
 		'path'    => $baseDir . '/jetpack_vendor/automattic/jetpack-protect-models/src/class-extension-model.php'
 	),
+	'Automattic\\Jetpack\\Protect_Models\\History_Model' => array(
+		'version' => '0.2.0.0-alpha1723230984',
+		'path'    => $baseDir . '/jetpack_vendor/automattic/jetpack-protect-models/src/class-history-model.php'
+	),
 	'Automattic\\Jetpack\\Protect_Models\\Status_Model' => array(
-		'version' => '0.1.0.0',
+		'version' => '0.2.0.0-alpha1723230984',
 		'path'    => $baseDir . '/jetpack_vendor/automattic/jetpack-protect-models/src/class-status-model.php'
 	),
 	'Automattic\\Jetpack\\Protect_Models\\Threat_Model' => array(
-		'version' => '0.1.0.0',
+		'version' => '0.2.0.0-alpha1723230984',
 		'path'    => $baseDir . '/jetpack_vendor/automattic/jetpack-protect-models/src/class-threat-model.php'
 	),
 	'Automattic\\Jetpack\\Protect_Status\\Plan' => array(

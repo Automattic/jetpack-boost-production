@@ -130,6 +130,7 @@ return array(
     'Automattic\\Jetpack\\Plugins_Installer' => $baseDir . '/jetpack_vendor/automattic/jetpack-plugins-installer/src/class-plugins-installer.php',
     'Automattic\\Jetpack\\Protect_Models' => $baseDir . '/jetpack_vendor/automattic/jetpack-protect-models/src/class-protect-models.php',
     'Automattic\\Jetpack\\Protect_Models\\Extension_Model' => $baseDir . '/jetpack_vendor/automattic/jetpack-protect-models/src/class-extension-model.php',
+    'Automattic\\Jetpack\\Protect_Models\\History_Model' => $baseDir . '/jetpack_vendor/automattic/jetpack-protect-models/src/class-history-model.php',
     'Automattic\\Jetpack\\Protect_Models\\Status_Model' => $baseDir . '/jetpack_vendor/automattic/jetpack-protect-models/src/class-status-model.php',
     'Automattic\\Jetpack\\Protect_Models\\Threat_Model' => $baseDir . '/jetpack_vendor/automattic/jetpack-protect-models/src/class-threat-model.php',
     'Automattic\\Jetpack\\Protect_Status\\Plan' => $baseDir . '/jetpack_vendor/automattic/jetpack-protect-status/src/class-plan.php',
