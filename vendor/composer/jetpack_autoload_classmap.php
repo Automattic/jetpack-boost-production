@@ -35,15 +35,19 @@ return array(
 		'path'    => $baseDir . '/jetpack_vendor/automattic/jetpack-admin-ui/src/class-admin-menu.php'
 	),
 	'Automattic\\Jetpack\\Assets' => array(
-		'version' => '2.3.0.0',
+		'version' => '2.3.1.0-alpha1723460403',
 		'path'    => $baseDir . '/jetpack_vendor/automattic/jetpack-assets/src/class-assets.php'
 	),
 	'Automattic\\Jetpack\\Assets\\Logo' => array(
 		'version' => '2.0.3.0',
 		'path'    => $baseDir . '/jetpack_vendor/automattic/jetpack-logo/src/class-logo.php'
 	),
+	'Automattic\\Jetpack\\Assets\\Script_Data' => array(
+		'version' => '2.3.1.0-alpha1723460403',
+		'path'    => $baseDir . '/jetpack_vendor/automattic/jetpack-assets/src/class-script-data.php'
+	),
 	'Automattic\\Jetpack\\Assets\\Semver' => array(
-		'version' => '2.3.0.0',
+		'version' => '2.3.1.0-alpha1723460403',
 		'path'    => $baseDir . '/jetpack_vendor/automattic/jetpack-assets/src/class-semver.php'
 	),
 	'Automattic\\Jetpack\\Autoloader\\AutoloadFileWriter' => array(
@@ -553,10 +557,6 @@ return array(
 	'Automattic\\Jetpack\\Roles' => array(
 		'version' => '2.0.2.0',
 		'path'    => $baseDir . '/jetpack_vendor/automattic/jetpack-roles/src/class-roles.php'
-	),
-	'Automattic\\Jetpack\\Script_Data' => array(
-		'version' => '2.3.0.0',
-		'path'    => $baseDir . '/jetpack_vendor/automattic/jetpack-assets/src/class-script-data.php'
 	),
 	'Automattic\\Jetpack\\Status' => array(
 		'version' => '3.3.2.0',
