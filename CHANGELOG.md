@@ -13,6 +13,7 @@ This is an alpha version! The changes listed here are not final.
 - React: Changing global JSX namespace to React.JSX
 
 ### Fixed
+- Lossless image optimization for images (should improve performance with no visible changes).
 - Lossless image optimization of images in projects/plugins [subdirectories from a* through social]
 - Misc: Fix PHP warning when generating critical css for some taxonomy pages.
 - Updated package dependencies.
