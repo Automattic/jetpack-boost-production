@@ -11,6 +11,7 @@ This is an alpha version! The changes listed here are not final.
 
 ### Changed
 - React: Changing global JSX namespace to React.JSX
+- Update composer lock file
 
 ### Fixed
 - Lossless image optimization for images (should improve performance with no visible changes).
