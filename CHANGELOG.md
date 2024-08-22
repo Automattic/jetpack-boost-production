@@ -14,6 +14,7 @@ This is an alpha version! The changes listed here are not final.
 - Update composer lock file
 
 ### Fixed
+- Cloud CSS: Fixed not properly storing CSS returned from the cloud after a theme switch.
 - Lossless image optimization for images (should improve performance with no visible changes).
 - Lossless image optimization of images in projects/plugins [subdirectories from a* through social]
 - Misc: Fix PHP warning when generating critical css for some taxonomy pages.
