@@ -19,6 +19,7 @@ This is an alpha version! The changes listed here are not final.
 - Lossless image optimization of images in projects/plugins [subdirectories from a* through social]
 - Misc: Fix PHP warning when generating critical css for some taxonomy pages.
 - Revert recent SVG image optimizations.
+- UI: Fix inconsistencies.
 - Updated package dependencies.
 
 ## [3.4.7] - 2024-07-10
