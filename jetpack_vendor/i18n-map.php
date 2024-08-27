@@ -72,13 +72,17 @@ return array(
       'path' => 'jetpack_vendor/automattic/jetpack-protect-status',
       'ver' => '0.1.3',
     ),
+    'jetpack-schema' => array(
+      'path' => 'jetpack_vendor/automattic/jetpack-schema',
+      'ver' => '0.1.1-alpha1724744088',
+    ),
     'jetpack-sync' => array(
       'path' => 'jetpack_vendor/automattic/jetpack-sync',
       'ver' => '3.8.0',
     ),
     'jetpack-wp-js-data-sync' => array(
       'path' => 'jetpack_vendor/automattic/jetpack-wp-js-data-sync',
-      'ver' => '0.4.6-alpha1724273335',
+      'ver' => '0.5.0-alpha1724744088',
     ),
   ),
 );

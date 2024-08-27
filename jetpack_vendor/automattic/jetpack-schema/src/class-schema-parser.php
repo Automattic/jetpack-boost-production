@@ -1,11 +1,10 @@
 <?php
 
-namespace Automattic\Jetpack\WP_JS_Data_Sync\Schema;
+namespace Automattic\Jetpack\Schema;
 
-use Automattic\Jetpack\WP_JS_Data_Sync\DS_Utils;
-use Automattic\Jetpack\WP_JS_Data_Sync\Schema\Modifiers\Modifier_Fallback;
-use Automattic\Jetpack\WP_JS_Data_Sync\Schema\Types\Type_Literal;
-use Automattic\Jetpack\WP_JS_Data_Sync\Schema\Types\Type_Void;
+use Automattic\Jetpack\Schema\Modifiers\Modifier_Fallback;
+use Automattic\Jetpack\Schema\Types\Type_Literal;
+use Automattic\Jetpack\Schema\Types\Type_Void;
 
 class Schema_Parser implements Parser {
 	/**
@@ -71,7 +70,7 @@ class Schema_Parser implements Parser {
 	public function fallback( $default_value ) {
 
 		// In debug mode: Ensure that the fallback value can be parsed.
-		if ( DS_Utils::is_debug() ) {
+		if ( Utils::is_debug() ) {
 			$this->parse( $default_value );
 		}
 

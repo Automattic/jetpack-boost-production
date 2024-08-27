@@ -1,8 +1,6 @@
 <?php
 
-namespace Automattic\Jetpack\WP_JS_Data_Sync\Schema;
-
-use Automattic\Jetpack\WP_JS_Data_Sync\DS_Utils;
+namespace Automattic\Jetpack\Schema;
 
 class Schema_Context {
 
@@ -28,12 +26,12 @@ class Schema_Context {
 
 	private function trace( $depth_limit = 15 ) {
 
-		if ( ! DS_Utils::is_debug() ) {
+		if ( ! Utils::is_debug() ) {
 			return;
 		}
 
 		$trace = array();
-		// This is fine, it's guarded by `DATASYNC_TRACE` constant.
+		// This is fine, it's guarded by `SCHEMA_TRACE` constant.
 		// phpcs:ignore WordPress.PHP.DevelopmentFunctions.error_log_debug_backtrace
 		foreach ( debug_backtrace() as $stack_frame ) {
 			if ( isset( $stack_frame['line'], $stack_frame['file'] ) ) {
@@ -52,7 +50,7 @@ class Schema_Context {
 	}
 
 	public function log( $message, $data, $error = null ) {
-		if ( ! DS_Utils::is_debug() ) {
+		if ( ! Utils::is_debug() ) {
 			return;
 		}
 
@@ -61,7 +59,7 @@ class Schema_Context {
 			'path' => $this->get_path(),
 		);
 
-		$trace = defined( 'DATASYNC_TRACE' ) && DATASYNC_TRACE > 0 ? $this->trace( DATASYNC_TRACE ) : null;
+		$trace = defined( 'SCHEMA_TRACE' ) && \SCHEMA_TRACE > 0 ? $this->trace( \SCHEMA_TRACE ) : null;
 		if ( $trace ) {
 			$meta['trace'] = $trace;
 		}
@@ -78,7 +76,7 @@ class Schema_Context {
 	}
 
 	public function verbose_log( $message, $data ) {
-		if ( ! DS_Utils::is_verbose() ) {
+		if ( ! Utils::is_verbose() ) {
 			return;
 		}
 		$this->log( $message, $data );

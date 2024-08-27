@@ -1,6 +1,6 @@
 <?php
 
-namespace Automattic\Jetpack\WP_JS_Data_Sync\Schema;
+namespace Automattic\Jetpack\Schema;
 
 /**
  * The Parser interface defines the contract for schema type classes.

@@ -1,18 +1,18 @@
 <?php
 
-namespace Automattic\Jetpack\WP_JS_Data_Sync\Schema;
+namespace Automattic\Jetpack\Schema;
 
-use Automattic\Jetpack\WP_JS_Data_Sync\Schema\Modifiers\Modifier_Fallback;
-use Automattic\Jetpack\WP_JS_Data_Sync\Schema\Types\Type_Any;
-use Automattic\Jetpack\WP_JS_Data_Sync\Schema\Types\Type_Any_JSON;
-use Automattic\Jetpack\WP_JS_Data_Sync\Schema\Types\Type_Array;
-use Automattic\Jetpack\WP_JS_Data_Sync\Schema\Types\Type_Assoc_Array;
-use Automattic\Jetpack\WP_JS_Data_Sync\Schema\Types\Type_Boolean;
-use Automattic\Jetpack\WP_JS_Data_Sync\Schema\Types\Type_Enum;
-use Automattic\Jetpack\WP_JS_Data_Sync\Schema\Types\Type_Float;
-use Automattic\Jetpack\WP_JS_Data_Sync\Schema\Types\Type_Number;
-use Automattic\Jetpack\WP_JS_Data_Sync\Schema\Types\Type_String;
-use Automattic\Jetpack\WP_JS_Data_Sync\Schema\Types\Type_Void;
+use Automattic\Jetpack\Schema\Modifiers\Modifier_Fallback;
+use Automattic\Jetpack\Schema\Types\Type_Any;
+use Automattic\Jetpack\Schema\Types\Type_Any_JSON;
+use Automattic\Jetpack\Schema\Types\Type_Array;
+use Automattic\Jetpack\Schema\Types\Type_Assoc_Array;
+use Automattic\Jetpack\Schema\Types\Type_Boolean;
+use Automattic\Jetpack\Schema\Types\Type_Enum;
+use Automattic\Jetpack\Schema\Types\Type_Float;
+use Automattic\Jetpack\Schema\Types\Type_Number;
+use Automattic\Jetpack\Schema\Types\Type_String;
+use Automattic\Jetpack\Schema\Types\Type_Void;
 
 /**
  * The Schema class is a factory for creating and managing validation rules based on specific
@@ -65,6 +65,7 @@ use Automattic\Jetpack\WP_JS_Data_Sync\Schema\Types\Type_Void;
  * $parsed_data = $my_schema->parse($input_data);
  */
 class Schema {
+	const PACKAGE_VERSION = '0.1.1-alpha';
 
 	public static function as_string() {
 		return new Schema_Parser( new Type_String() );
@@ -132,7 +133,7 @@ class Schema {
 	}
 
 	/**
-	 * @var \Automattic\Jetpack\WP_JS_Data_Sync\Schema\Parser $parser - The parser to apply to each array item when $data is parsed.
+	 * @var \Automattic\Jetpack\Schema\Parser $parser - The parser to apply to each array item when $data is parsed.
 	 */
 	public static function either( ...$parsers ) {
 		$or = new Modifier_Fallback();

@@ -1,9 +1,9 @@
 <?php
 
-namespace Automattic\Jetpack\WP_JS_Data_Sync\Schema\Types;
+namespace Automattic\Jetpack\Schema\Types;
 
-use Automattic\Jetpack\WP_JS_Data_Sync\Schema\Parser;
-use Automattic\Jetpack\WP_JS_Data_Sync\Schema\Schema_Error;
+use Automattic\Jetpack\Schema\Parser;
+use Automattic\Jetpack\Schema\Schema_Error;
 
 class Type_Enum implements Parser {
 

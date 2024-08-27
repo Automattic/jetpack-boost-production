@@ -1,10 +1,10 @@
 <?php
 
-namespace Automattic\Jetpack\WP_JS_Data_Sync\Schema\Modifiers;
+namespace Automattic\Jetpack\Schema\Modifiers;
 
-use Automattic\Jetpack\WP_JS_Data_Sync\DS_Utils;
-use Automattic\Jetpack\WP_JS_Data_Sync\Schema\Parser;
-use Automattic\Jetpack\WP_JS_Data_Sync\Schema\Schema_Error;
+use Automattic\Jetpack\Schema\Parser;
+use Automattic\Jetpack\Schema\Schema_Error;
+use Automattic\Jetpack\Schema\Utils;
 
 class Modifier_Fallback implements Parser {
 	private $parsers = array();
@@ -21,7 +21,7 @@ class Modifier_Fallback implements Parser {
 				return $parser->parse( $value, $context );
 			} catch ( Schema_Error $error ) {
 
-				if ( DS_Utils::is_debug() ) {
+				if ( Utils::is_debug() ) {
 					$next_parser = $this->parsers[ $key + 1 ] ?? 'none';
 					$data        = array(
 						'parser'            => (string) $parser,

@@ -1,10 +1,10 @@
 <?php
 
-namespace Automattic\Jetpack\WP_JS_Data_Sync\Schema\Types;
+namespace Automattic\Jetpack\Schema\Types;
 
-use Automattic\Jetpack\WP_JS_Data_Sync\DS_Utils;
-use Automattic\Jetpack\WP_JS_Data_Sync\Schema\Parser;
-use Automattic\Jetpack\WP_JS_Data_Sync\Schema\Schema_Error;
+use Automattic\Jetpack\Schema\Parser;
+use Automattic\Jetpack\Schema\Schema_Error;
+use Automattic\Jetpack\Schema\Utils;
 
 class Type_Assoc_Array implements Parser {
 	private $parser;
@@ -18,7 +18,7 @@ class Type_Assoc_Array implements Parser {
 	 */
 	public function __construct( $assoc_parser_array ) {
 		$this->parser = $assoc_parser_array;
-		if ( ! is_array( $assoc_parser_array ) && DS_Utils::is_debug() ) {
+		if ( ! is_array( $assoc_parser_array ) && Utils::is_debug() ) {
 			$message = "Expected an associative array of parsers, received '" . gettype( $assoc_parser_array ) . "'";
 			throw new Schema_Error( $message, $assoc_parser_array );
 		}

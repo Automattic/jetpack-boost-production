@@ -4,7 +4,8 @@
 	"type": "jetpack-library",
 	"license": "GPL-2.0-or-later",
 	"require": {
-		"php": ">=7.0"
+		"php": ">=7.0",
+		"automattic/jetpack-schema": "^0.1.1-alpha"
 	},
 	"require-dev": {
 		"yoast/phpunit-polyfills": "^1.1.1",
@@ -40,7 +41,7 @@
 		},
 		"autotagger": true,
 		"branch-alias": {
-			"dev-trunk": "0.4.x-dev"
+			"dev-trunk": "0.5.x-dev"
 		},
 		"textdomain": "jetpack-wp-js-data-sync",
 		"version-constants": {
