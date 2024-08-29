@@ -5,23 +5,18 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
-## [3.4.8-alpha] - unreleased
-
-This is an alpha version! The changes listed here are not final.
-
+## [3.4.8-beta] - 2024-08-29
 ### Changed
-- Admin menu: change order of Jetpack sub-menu items
-- React: Changing global JSX namespace to React.JSX
-- Update composer lock file
+- Admin menu: change order of Jetpack sub-menu items [#39095]
+- React: Changing global JSX namespace to React.JSX [#38585]
 
 ### Fixed
-- Cloud CSS: Fixed not properly storing CSS returned from the cloud after a theme switch.
-- Lossless image optimization for images (should improve performance with no visible changes).
-- Lossless image optimization of images in projects/plugins [subdirectories from a* through social]
-- Misc: Fix PHP warning when generating critical css for some taxonomy pages.
-- Revert recent SVG image optimizations.
-- UI: Fix inconsistencies.
-- Updated package dependencies.
+- Cloud CSS: Fixed not properly storing CSS returned from the cloud after a theme switch. [#38985]
+- Lossless image optimization for images (should improve performance with no visible changes). [#38750]
+- Misc: Fix PHP warning when generating critical css for some taxonomy pages. [#38807]
+- Revert recent SVG image optimizations. [#38981]
+- UI: Fix inconsistencies. [#39072]
+- Updated package dependencies. [#38464]
 
 ## [3.4.7] - 2024-07-10
 ### Security
@@ -498,7 +493,7 @@ This is an alpha version! The changes listed here are not final.
 
 - First public alpha release
 
-[3.4.8-alpha]: https://github.com/Automattic/jetpack-boost-production/compare/3.4.7...3.4.8-alpha
+[3.4.8-beta]: https://github.com/Automattic/jetpack-boost-production/compare/3.4.7...3.4.8-beta
 [3.4.7]: https://github.com/Automattic/jetpack-boost-production/compare/3.4.6...3.4.7
 [3.4.6]: https://github.com/Automattic/jetpack-boost-production/compare/3.4.4...3.4.6
 [3.4.4]: https://github.com/Automattic/jetpack-boost-production/compare/3.4.3...3.4.4
