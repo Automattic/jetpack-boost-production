@@ -5,6 +5,13 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [3.4.9-alpha] - unreleased
+
+This is an alpha version! The changes listed here are not final.
+
+### Changed
+- Page Cache: Update notice for WP Cloud clients.
+
 ## [3.4.8-beta] - 2024-08-29
 ### Changed
 - Admin menu: change order of Jetpack sub-menu items [#39095]
@@ -493,6 +500,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 - First public alpha release
 
+[3.4.9-alpha]: https://github.com/Automattic/jetpack-boost-production/compare/3.4.8-beta...3.4.9-alpha
 [3.4.8-beta]: https://github.com/Automattic/jetpack-boost-production/compare/3.4.7...3.4.8-beta
 [3.4.7]: https://github.com/Automattic/jetpack-boost-production/compare/3.4.6...3.4.7
 [3.4.6]: https://github.com/Automattic/jetpack-boost-production/compare/3.4.4...3.4.6
