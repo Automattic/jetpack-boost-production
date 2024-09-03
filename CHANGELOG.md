@@ -11,6 +11,7 @@ This is an alpha version! The changes listed here are not final.
 
 ### Changed
 - Page Cache: Update notice for WP Cloud clients.
+- Updated package dependencies.
 
 ## [3.4.8] - 2024-09-02
 ### Changed
