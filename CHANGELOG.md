@@ -5,12 +5,15 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
-## [3.4.10-alpha] - unreleased
+## [3.5.0-alpha] - unreleased
 
 This is an alpha version! The changes listed here are not final.
 
 ### Changed
 - Updated package dependencies.
+
+### Removed
+- Boost: removed WP Super Cache promos from settings page as well as related code
 
 ## [3.4.9] - 2024-09-03
 ### Fixed
@@ -505,7 +508,7 @@ This is an alpha version! The changes listed here are not final.
 
 - First public alpha release
 
-[3.4.10-alpha]: https://github.com/Automattic/jetpack-boost-production/compare/3.4.9...3.4.10-alpha
+[3.5.0-alpha]: https://github.com/Automattic/jetpack-boost-production/compare/3.4.9...3.5.0-alpha
 [3.4.9]: https://github.com/Automattic/jetpack-boost-production/compare/3.4.8...3.4.9
 [3.4.8]: https://github.com/Automattic/jetpack-boost-production/compare/3.4.7...3.4.8
 [3.4.7]: https://github.com/Automattic/jetpack-boost-production/compare/3.4.6...3.4.7

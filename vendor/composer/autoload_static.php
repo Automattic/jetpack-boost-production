@@ -4,7 +4,7 @@
 
 namespace Composer\Autoload;
 
-class ComposerStaticInitb1e77e6231d50e7663f84529b6a3dfda_jetpack_boostⓥ3_4_10_alpha
+class ComposerStaticInitb1e77e6231d50e7663f84529b6a3dfda_jetpack_boostⓥ3_5_0_alpha
 {
     public static $files = array (
         '3773ef3f09c37da5478d578e32b03a4b' => __DIR__ . '/../..' . '/jetpack_vendor/automattic/jetpack-assets/actions.php',
@@ -339,7 +339,6 @@ class ComposerStaticInitb1e77e6231d50e7663f84529b6a3dfda_jetpack_boostⓥ3_4_10_
         'Automattic\\Jetpack_Boost\\Lib\\Status' => __DIR__ . '/../..' . '/app/lib/Status.php',
         'Automattic\\Jetpack_Boost\\Lib\\Storage_Post_Type' => __DIR__ . '/../..' . '/app/lib/class-storage-post-type.php',
         'Automattic\\Jetpack_Boost\\Lib\\Super_Cache_Config_Compatibility' => __DIR__ . '/../..' . '/app/lib/Super_Cache_Config_Compatibility.php',
-        'Automattic\\Jetpack_Boost\\Lib\\Super_Cache_Info' => __DIR__ . '/../..' . '/app/lib/Super_Cache_Info.php',
         'Automattic\\Jetpack_Boost\\Lib\\Super_Cache_Tracking' => __DIR__ . '/../..' . '/app/lib/Super_Cache_Tracking.php',
         'Automattic\\Jetpack_Boost\\Modules\\Image_Guide\\Image_Guide' => __DIR__ . '/../..' . '/app/modules/image-guide/Image_Guide.php',
         'Automattic\\Jetpack_Boost\\Modules\\Image_Guide\\Image_Guide_Proxy' => __DIR__ . '/../..' . '/app/modules/image-guide/Image_Guide_Proxy.php',
@@ -420,9 +419,9 @@ class ComposerStaticInitb1e77e6231d50e7663f84529b6a3dfda_jetpack_boostⓥ3_4_10_
     public static function getInitializer(ClassLoader $loader)
     {
         return \Closure::bind(function () use ($loader) {
-            $loader->prefixLengthsPsr4 = ComposerStaticInitb1e77e6231d50e7663f84529b6a3dfda_jetpack_boostⓥ3_4_10_alpha::$prefixLengthsPsr4;
-            $loader->prefixDirsPsr4 = ComposerStaticInitb1e77e6231d50e7663f84529b6a3dfda_jetpack_boostⓥ3_4_10_alpha::$prefixDirsPsr4;
-            $loader->classMap = ComposerStaticInitb1e77e6231d50e7663f84529b6a3dfda_jetpack_boostⓥ3_4_10_alpha::$classMap;
+            $loader->prefixLengthsPsr4 = ComposerStaticInitb1e77e6231d50e7663f84529b6a3dfda_jetpack_boostⓥ3_5_0_alpha::$prefixLengthsPsr4;
+            $loader->prefixDirsPsr4 = ComposerStaticInitb1e77e6231d50e7663f84529b6a3dfda_jetpack_boostⓥ3_5_0_alpha::$prefixDirsPsr4;
+            $loader->classMap = ComposerStaticInitb1e77e6231d50e7663f84529b6a3dfda_jetpack_boostⓥ3_5_0_alpha::$classMap;
 
         }, null, ClassLoader::class);
     }

@@ -298,7 +298,6 @@ return array(
     'Automattic\\Jetpack_Boost\\Lib\\Status' => $baseDir . '/app/lib/Status.php',
     'Automattic\\Jetpack_Boost\\Lib\\Storage_Post_Type' => $baseDir . '/app/lib/class-storage-post-type.php',
     'Automattic\\Jetpack_Boost\\Lib\\Super_Cache_Config_Compatibility' => $baseDir . '/app/lib/Super_Cache_Config_Compatibility.php',
-    'Automattic\\Jetpack_Boost\\Lib\\Super_Cache_Info' => $baseDir . '/app/lib/Super_Cache_Info.php',
     'Automattic\\Jetpack_Boost\\Lib\\Super_Cache_Tracking' => $baseDir . '/app/lib/Super_Cache_Tracking.php',
     'Automattic\\Jetpack_Boost\\Modules\\Image_Guide\\Image_Guide' => $baseDir . '/app/modules/image-guide/Image_Guide.php',
     'Automattic\\Jetpack_Boost\\Modules\\Image_Guide\\Image_Guide_Proxy' => $baseDir . '/app/modules/image-guide/Image_Guide_Proxy.php',
