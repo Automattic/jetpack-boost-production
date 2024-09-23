@@ -14,6 +14,7 @@ This is an alpha version! The changes listed here are not final.
 
 ### Removed
 - Boost: removed WP Super Cache promos from settings page as well as related code
+- Connection: Removed deprecated method features_available
 
 ## [3.4.9] - 2024-09-03
 ### Fixed
