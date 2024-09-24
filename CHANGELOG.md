@@ -17,6 +17,9 @@ This is an alpha version! The changes listed here are not final.
 - Connection: Removed deprecated method features_available
 - Connection: Removed features_enabled deprecated method
 
+### Fixed
+- Critical CSS: Make sure all URLs that are being processed are absolute instead of relative.
+
 ## [3.4.9] - 2024-09-03
 ### Fixed
 - Update `automattic/jetpack-image-cdn` package to resolve a PHP fatal error.
