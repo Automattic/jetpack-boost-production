@@ -18,6 +18,7 @@ This is an alpha version! The changes listed here are not final.
 - Connection: Removed features_enabled deprecated method
 
 ### Fixed
+- Compatibility: Ensure React JSX polyfill is loaded for pre WP 6.6 support
 - Critical CSS: Make sure all URLs that are being processed are absolute instead of relative.
 
 ## [3.4.9] - 2024-09-03
