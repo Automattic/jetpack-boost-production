@@ -5,23 +5,17 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
-## [3.5.0-alpha] - unreleased
-
-This is an alpha version! The changes listed here are not final.
-
+## [3.5.0] - 2024-09-25
 ### Changed
-- Boost: show a simplified getting started page if the pricing is not available
-- Boost: Skip the pricing page if the site is private, just like if offline
-- Updated package dependencies.
+- General: Show a simplified getting started page if the pricing is not available [#39526]
+- General: Skip the pricing page if the site is private, just like if offline [#39523]
 
 ### Removed
-- Boost: removed WP Super Cache promos from settings page as well as related code
-- Connection: Removed deprecated method features_available
-- Connection: Removed features_enabled deprecated method
+- General: Removed WP Super Cache promos from settings page as well as related code [#39202]
 
 ### Fixed
-- Compatibility: Ensure React JSX polyfill is loaded for pre WP 6.6 support
-- Critical CSS: Make sure all URLs that are being processed are absolute instead of relative.
+- Compatibility: Ensure React JSX polyfill is loaded for pre WP 6.6 support [#39521]
+- Critical CSS: Make sure all URLs that are being processed are absolute instead of relative. [#39456]
 
 ## [3.4.9] - 2024-09-03
 ### Fixed
@@ -516,7 +510,7 @@ This is an alpha version! The changes listed here are not final.
 
 - First public alpha release
 
-[3.5.0-alpha]: https://github.com/Automattic/jetpack-boost-production/compare/3.4.9...3.5.0-alpha
+[3.5.0]: https://github.com/Automattic/jetpack-boost-production/compare/3.4.9...3.5.0
 [3.4.9]: https://github.com/Automattic/jetpack-boost-production/compare/3.4.8...3.4.9
 [3.4.8]: https://github.com/Automattic/jetpack-boost-production/compare/3.4.7...3.4.8
 [3.4.7]: https://github.com/Automattic/jetpack-boost-production/compare/3.4.6...3.4.7

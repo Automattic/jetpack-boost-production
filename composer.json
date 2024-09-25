@@ -3,7 +3,7 @@
 	"description": "Boost your WordPress site's performance, from the creators of Jetpack",
 	"type": "library",
 	"license": "GPL-2.0-or-later",
-	"version": "3.5.0-alpha",
+	"version": "3.5.0",
 	"authors": [
 		{
 			"name": "Automattic, Inc.",
@@ -21,10 +21,10 @@
 		"automattic/jetpack-boost-speed-score": "^0.3.12",
 		"automattic/jetpack-composer-plugin": "^2.0.3",
 		"automattic/jetpack-config": "^2.0.4",
-		"automattic/jetpack-connection": "^5.1.0-alpha",
+		"automattic/jetpack-connection": "^5.1.0",
 		"automattic/jetpack-device-detection": "^2.1.5",
 		"automattic/jetpack-image-cdn": "^0.4.9",
-		"automattic/jetpack-my-jetpack": "^4.35.7",
+		"automattic/jetpack-my-jetpack": "^4.35.8",
 		"automattic/jetpack-plugin-deactivation": "^0.2.2",
 		"automattic/jetpack-schema": "^0.1.1",
 		"automattic/jetpack-status": "^4.0.2",
@@ -74,13 +74,14 @@
 		"platform": {
 			"ext-intl": "0.0.0"
 		},
-		"autoloader-suffix": "b1e77e6231d50e7663f84529b6a3dfda_jetpack_boostⓥ3_5_0_alpha",
+		"autoloader-suffix": "b1e77e6231d50e7663f84529b6a3dfda_jetpack_boostⓥ3_5_0",
 		"allow-plugins": {
 			"roots/wordpress-core-installer": true,
 			"automattic/jetpack-autoloader": true,
 			"automattic/jetpack-composer-plugin": true
 		}
 	},
+	"repositories": [],
 	"extra": {
 		"mirror-repo": "Automattic/jetpack-boost-production",
 		"autorelease": true,
