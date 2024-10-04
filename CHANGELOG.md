@@ -14,6 +14,7 @@ This is an alpha version! The changes listed here are not final.
 - Updated package dependencies.
 
 ### Fixed
+- Image Guide: Improve check for Jetpack Image CDN URLs
 - My Jetpack: visual update to the GlobalNotice component look better on mobile.
 
 ## [3.5.1] - 2024-09-26
