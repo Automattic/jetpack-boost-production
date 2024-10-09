@@ -288,6 +288,7 @@ return array(
     'Automattic\\Jetpack_Boost\\Lib\\Minify\\Config' => $baseDir . '/app/lib/minify/Config.php',
     'Automattic\\Jetpack_Boost\\Lib\\Minify\\Dependency_Path_Mapping' => $baseDir . '/app/lib/minify/Dependency_Path_Mapping.php',
     'Automattic\\Jetpack_Boost\\Lib\\Minify\\Utils' => $baseDir . '/app/lib/minify/Utils.php',
+    'Automattic\\Jetpack_Boost\\Lib\\My_Jetpack' => $baseDir . '/app/lib/My_Jetpack.php',
     'Automattic\\Jetpack_Boost\\Lib\\Nonce' => $baseDir . '/app/lib/class-nonce.php',
     'Automattic\\Jetpack_Boost\\Lib\\Output_Filter' => $baseDir . '/app/lib/class-output-filter.php',
     'Automattic\\Jetpack_Boost\\Lib\\Premium_Features' => $baseDir . '/app/lib/Premium_Features.php',

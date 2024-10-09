@@ -11,6 +11,7 @@ This is an alpha version! The changes listed here are not final.
 
 ### Changed
 - Deferred JS: Exclude all scripts produced by a shortcode.
+- General: Sync Boost's Getting Started page with My Jetpack's version.
 - Updated package dependencies.
 
 ### Fixed
