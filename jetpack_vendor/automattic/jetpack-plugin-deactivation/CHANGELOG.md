@@ -5,6 +5,13 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [0.2.3-alpha] - unreleased
+
+This is an alpha version! The changes listed here are not final.
+
+### Changed
+- Only include `wp-polyfill` as a script dependency when needed.
+
 ## [0.2.2] - 2024-08-29
 ### Changed
 - Updated package dependencies. [#39004]
@@ -52,6 +59,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Added
 - Added package to intercept plugin deactivation [#27081]
 
+[0.2.3-alpha]: https://github.com/Automattic/jetpack-plugin-deactivation/compare/v0.2.2...v0.2.3-alpha
 [0.2.2]: https://github.com/Automattic/jetpack-plugin-deactivation/compare/v0.2.1...v0.2.2
 [0.2.1]: https://github.com/Automattic/jetpack-plugin-deactivation/compare/v0.2.0...v0.2.1
 [0.2.0]: https://github.com/Automattic/jetpack-plugin-deactivation/compare/v0.1.6...v0.2.0
