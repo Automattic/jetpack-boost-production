@@ -12,6 +12,7 @@ This is an alpha version! The changes listed here are not final.
 ### Changed
 - Deferred JS: Exclude all scripts produced by a shortcode.
 - General: Sync Boost's Getting Started page with My Jetpack's version.
+- General: Update minimum required WordPress version to 6.5 in main plugin file. Previous release only changed plugin readme.
 - Updated package dependencies.
 
 ### Fixed
