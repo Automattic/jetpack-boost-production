@@ -1010,10 +1010,6 @@ return array(
 		'version' => '3.5.3.0-alpha',
 		'path'    => $baseDir . '/app/data-sync/Modules_State_Entry.php'
 	),
-	'Automattic\\Jetpack_Boost\\Features\\Setup_Prompt\\Setup_Prompt' => array(
-		'version' => '3.5.3.0-alpha',
-		'path'    => $baseDir . '/app/features/setup-prompt/Setup_Prompt.php'
-	),
 	'Automattic\\Jetpack_Boost\\Jetpack_Boost' => array(
 		'version' => '3.5.3.0-alpha',
 		'path'    => $baseDir . '/app/class-jetpack-boost.php'
