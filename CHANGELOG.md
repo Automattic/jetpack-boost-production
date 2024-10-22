@@ -10,6 +10,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 This is an alpha version! The changes listed here are not final.
 
 ### Changed
+- Critical CSS: Make the list of critical CSS URLs more efficient.
 - Only include `wp-polyfill` as a script dependency when needed.
 
 ## [3.5.2] - 2024-10-15
