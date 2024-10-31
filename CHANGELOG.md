@@ -9,6 +9,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 This is an alpha version! The changes listed here are not final.
 
+### Added
+- Enable test coverage.
+
 ### Changed
 - Components: Add __nextHasNoMarginBottom to BaseControl-based components, preventing deprecation notices.
 - Critical CSS: Make the list of critical CSS URLs more efficient.

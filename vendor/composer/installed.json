@@ -2,18 +2,18 @@
     "packages": [
         {
             "name": "automattic/jetpack-a8c-mc-stats",
-            "version": "2.0.3",
-            "version_normalized": "2.0.3.0",
+            "version": "2.0.4-alpha.1730371893",
+            "version_normalized": "2.0.4.0-alpha1730371893",
             "dist": {
                 "type": "path",
                 "url": "/tmp/jetpack-build/Automattic/jetpack-a8c-mc-stats",
-                "reference": "04011f4379736dac326f20cae12775961341aea8"
+                "reference": "299dafa565f85303086ea8a3d203647d041d4bc6"
             },
             "require": {
                 "php": ">=7.0"
             },
             "require-dev": {
-                "automattic/jetpack-changelogger": "^4.2.7",
+                "automattic/jetpack-changelogger": "^4.2.8-alpha",
                 "yoast/phpunit-polyfills": "^1.1.1"
             },
             "suggest": {
@@ -40,6 +40,9 @@
                 "phpunit": [
                     "./vendor/phpunit/phpunit/phpunit --colors=always"
                 ],
+                "test-coverage": [
+                    "php -dpcov.directory=. ./vendor/bin/phpunit --coverage-clover \"$COVERAGE_DIR/php/clover.xml\""
+                ],
                 "test-php": [
                     "@composer phpunit"
                 ]
@@ -55,19 +58,19 @@
         },
         {
             "name": "automattic/jetpack-admin-ui",
-            "version": "0.4.5",
-            "version_normalized": "0.4.5.0",
+            "version": "0.4.6-alpha.1730371893",
+            "version_normalized": "0.4.6.0-alpha1730371893",
             "dist": {
                 "type": "path",
                 "url": "/tmp/jetpack-build/Automattic/jetpack-admin-ui",
-                "reference": "9db9cf5326f67b6abf13e16540bbe3b6b148a237"
+                "reference": "b7a844f52524c2d7c6545ee2183dc075460b1d93"
             },
             "require": {
                 "php": ">=7.0"
             },
             "require-dev": {
-                "automattic/jetpack-changelogger": "^4.2.7",
-                "automattic/jetpack-logo": "^2.0.4",
+                "automattic/jetpack-changelogger": "^4.2.8-alpha",
+                "automattic/jetpack-logo": "^2.0.5-alpha",
                 "automattic/wordbless": "dev-master",
                 "yoast/phpunit-polyfills": "^1.1.1"
             },
@@ -99,6 +102,9 @@
                 "phpunit": [
                     "./vendor/phpunit/phpunit/phpunit --colors=always"
                 ],
+                "test-coverage": [
+                    "php -dpcov.directory=. ./vendor/bin/phpunit --coverage-clover \"$COVERAGE_DIR/php/clover.xml\""
+                ],
                 "test-php": [
                     "@composer phpunit"
                 ],
@@ -120,19 +126,19 @@
         },
         {
             "name": "automattic/jetpack-assets",
-            "version": "2.3.12",
-            "version_normalized": "2.3.12.0",
+            "version": "2.3.13-alpha.1730371893",
+            "version_normalized": "2.3.13.0-alpha1730371893",
             "dist": {
                 "type": "path",
                 "url": "/tmp/jetpack-build/Automattic/jetpack-assets",
-                "reference": "9fca67ff20d90306efa67dc774c507956bf3298d"
+                "reference": "e6a1c209c3df6e61af6319fd57a1f3c3978d73fc"
             },
             "require": {
-                "automattic/jetpack-constants": "^2.0.4",
+                "automattic/jetpack-constants": "^2.0.5-alpha",
                 "php": ">=7.0"
             },
             "require-dev": {
-                "automattic/jetpack-changelogger": "^4.2.7",
+                "automattic/jetpack-changelogger": "^4.2.8-alpha",
                 "brain/monkey": "2.6.1",
                 "wikimedia/testing-access-wrapper": "^1.0 || ^2.0 || ^3.0",
                 "yoast/phpunit-polyfills": "^1.1.1"
@@ -171,6 +177,10 @@
                 "phpunit": [
                     "./vendor/phpunit/phpunit/phpunit --colors=always"
                 ],
+                "test-coverage": [
+                    "php -dpcov.directory=. ./vendor/bin/phpunit --coverage-clover \"$COVERAGE_DIR/php/clover.xml\"",
+                    "pnpm run test-coverage"
+                ],
                 "test-js": [
                     "pnpm run test"
                 ],
@@ -189,19 +199,19 @@
         },
         {
             "name": "automattic/jetpack-autoloader",
-            "version": "3.1.2",
-            "version_normalized": "3.1.2.0",
+            "version": "3.1.3-alpha.1730371893",
+            "version_normalized": "3.1.3.0-alpha1730371893",
             "dist": {
                 "type": "path",
                 "url": "/tmp/jetpack-build/Automattic/jetpack-autoloader",
-                "reference": "685136c89a223f71c07b71624842e71769549992"
+                "reference": "ecfb04d1b97d77befc0217f5de515f715476b249"
             },
             "require": {
                 "composer-plugin-api": "^1.1 || ^2.0",
                 "php": ">=7.0"
             },
             "require-dev": {
-                "automattic/jetpack-changelogger": "^4.2.7",
+                "automattic/jetpack-changelogger": "^4.2.8-alpha",
                 "composer/composer": "^1.1 || ^2.0",
                 "yoast/phpunit-polyfills": "^1.1.1"
             },
@@ -233,6 +243,10 @@
                 "phpunit": [
                     "./vendor/phpunit/phpunit/phpunit --colors=always"
                 ],
+                "test-coverage": [
+                    "php -dpcov.directory=. ./vendor/bin/phpunit --coverage-php \"./tests/php/tmp/coverage-report.php\"",
+                    "php ./tests/php/bin/test-coverage.php \"$COVERAGE_DIR/php/clover.xml\""
+                ],
                 "test-php": [
                     "@composer phpunit"
                 ]
@@ -256,19 +270,19 @@
         },
         {
             "name": "automattic/jetpack-boost-core",
-            "version": "0.2.13",
-            "version_normalized": "0.2.13.0",
+            "version": "0.2.14-alpha.1730371893",
+            "version_normalized": "0.2.14.0-alpha1730371893",
             "dist": {
                 "type": "path",
                 "url": "/tmp/jetpack-build/Automattic/jetpack-boost-core",
-                "reference": "520ee0433859a68b05349d2c3efe85566b96b6e8"
+                "reference": "04b43033d7ec2aa4e47635c743e62ea38c28fdd0"
             },
             "require": {
-                "automattic/jetpack-connection": "^5.1.5",
+                "automattic/jetpack-connection": "^5.1.6-alpha",
                 "php": ">=7.0"
             },
             "require-dev": {
-                "automattic/jetpack-changelogger": "^4.2.7",
+                "automattic/jetpack-changelogger": "^4.2.8-alpha",
                 "automattic/wordbless": "dev-master",
                 "yoast/phpunit-polyfills": "^1.1.1"
             },
@@ -297,6 +311,9 @@
                 "phpunit": [
                     "./vendor/phpunit/phpunit/phpunit --colors=always"
                 ],
+                "test-coverage": [
+                    "php -dpcov.directory=. ./vendor/bin/phpunit --coverage-clover \"$COVERAGE_DIR/php/clover.xml\""
+                ],
                 "test-php": [
                     "@composer phpunit"
                 ],
@@ -324,19 +341,19 @@
         },
         {
             "name": "automattic/jetpack-boost-speed-score",
-            "version": "0.3.13",
-            "version_normalized": "0.3.13.0",
+            "version": "0.3.14-alpha.1730371893",
+            "version_normalized": "0.3.14.0-alpha1730371893",
             "dist": {
                 "type": "path",
                 "url": "/tmp/jetpack-build/Automattic/jetpack-boost-speed-score",
-                "reference": "1a267d7a2f96f87af68372e6fb62c98abcfa98dc"
+                "reference": "8e55a39596295cc0ad9f2a9e299a8967ccfc66a6"
             },
             "require": {
-                "automattic/jetpack-boost-core": "^0.2.13",
+                "automattic/jetpack-boost-core": "^0.2.14-alpha",
                 "php": ">=7.0"
             },
             "require-dev": {
-                "automattic/jetpack-changelogger": "^4.2.7",
+                "automattic/jetpack-changelogger": "^4.2.8-alpha",
                 "brain/monkey": "^2.6",
                 "yoast/phpunit-polyfills": "^1.1.1"
             },
@@ -373,6 +390,9 @@
                 "phpunit": [
                     "./vendor/phpunit/phpunit/phpunit --colors=always"
                 ],
+                "test-coverage": [
+                    "php -dpcov.directory=. ./vendor/bin/phpunit --coverage-clover \"$COVERAGE_DIR/php/clover.xml\""
+                ],
                 "test-php": [
                     "@composer phpunit"
                 ],
@@ -400,19 +420,19 @@
         },
         {
             "name": "automattic/jetpack-composer-plugin",
-            "version": "2.0.3",
-            "version_normalized": "2.0.3.0",
+            "version": "2.0.4-alpha.1730371893",
+            "version_normalized": "2.0.4.0-alpha1730371893",
             "dist": {
                 "type": "path",
                 "url": "/tmp/jetpack-build/Automattic/jetpack-composer-plugin",
-                "reference": "242fe1f7f0230fad60a46481a4c0057ccf9fe40d"
+                "reference": "085d2bf6d708f422cd0c35eeb2d32a06b2544f9b"
             },
             "require": {
                 "composer-plugin-api": "^2.1.0",
                 "php": ">=7.0"
             },
             "require-dev": {
-                "automattic/jetpack-changelogger": "^4.2.7",
+                "automattic/jetpack-changelogger": "^4.2.8-alpha",
                 "composer/composer": "^2.2 || ^2.4",
                 "yoast/phpunit-polyfills": "^1.1.1"
             },
@@ -438,6 +458,9 @@
             "scripts": {
                 "phpunit": [
                     "./vendor/phpunit/phpunit/phpunit --colors=always"
+                ],
+                "test-coverage": [
+                    "php -dpcov.directory=. ./vendor/bin/phpunit --coverage-clover \"$COVERAGE_DIR/php/clover.xml\""
                 ],
                 "test-php": [
                     "@composer phpunit"
@@ -465,13 +488,13 @@
             "dist": {
                 "type": "path",
                 "url": "/tmp/jetpack-build/Automattic/jetpack-config",
-                "reference": "d0435a0c2eef7026296363d183bfbc8957f3f8d2"
+                "reference": "2ae1c2627c58c7dac750b1a69bca66810afc8d01"
             },
             "require": {
                 "php": ">=7.0"
             },
             "require-dev": {
-                "automattic/jetpack-changelogger": "^4.2.7",
+                "automattic/jetpack-changelogger": "^4.2.8-alpha",
                 "automattic/jetpack-connection": "@dev",
                 "automattic/jetpack-import": "@dev",
                 "automattic/jetpack-jitm": "@dev",
@@ -535,25 +558,25 @@
         },
         {
             "name": "automattic/jetpack-connection",
-            "version": "5.1.5",
-            "version_normalized": "5.1.5.0",
+            "version": "5.1.6-alpha.1730371893",
+            "version_normalized": "5.1.6.0-alpha1730371893",
             "dist": {
                 "type": "path",
                 "url": "/tmp/jetpack-build/Automattic/jetpack-connection",
-                "reference": "3d403b24dcb7167228d0aa0bc09798798b8a0762"
+                "reference": "04837df0890d81a225892c3a0fddbf088dea8eff"
             },
             "require": {
-                "automattic/jetpack-a8c-mc-stats": "^2.0.3",
-                "automattic/jetpack-admin-ui": "^0.4.5",
-                "automattic/jetpack-assets": "^2.3.12",
-                "automattic/jetpack-constants": "^2.0.4",
-                "automattic/jetpack-redirect": "^2.0.4",
-                "automattic/jetpack-roles": "^2.0.3",
-                "automattic/jetpack-status": "^4.0.2",
+                "automattic/jetpack-a8c-mc-stats": "^2.0.4-alpha",
+                "automattic/jetpack-admin-ui": "^0.4.6-alpha",
+                "automattic/jetpack-assets": "^2.3.13-alpha",
+                "automattic/jetpack-constants": "^2.0.5-alpha",
+                "automattic/jetpack-redirect": "^2.0.5-alpha",
+                "automattic/jetpack-roles": "^2.0.4-alpha",
+                "automattic/jetpack-status": "^4.0.3-alpha",
                 "php": ">=7.0"
             },
             "require-dev": {
-                "automattic/jetpack-changelogger": "^4.2.7",
+                "automattic/jetpack-changelogger": "^4.2.8-alpha",
                 "automattic/wordbless": "@dev",
                 "brain/monkey": "2.6.1",
                 "yoast/phpunit-polyfills": "^1.1.1"
@@ -610,6 +633,9 @@
                 "post-update-cmd": [
                     "WorDBless\\Composer\\InstallDropin::copy"
                 ],
+                "test-coverage": [
+                    "php -dpcov.directory=. ./vendor/bin/phpunit --coverage-clover \"$COVERAGE_DIR/php/clover.xml\""
+                ],
                 "test-php": [
                     "@composer phpunit"
                 ]
@@ -625,18 +651,18 @@
         },
         {
             "name": "automattic/jetpack-constants",
-            "version": "2.0.4",
-            "version_normalized": "2.0.4.0",
+            "version": "2.0.5-alpha.1730371893",
+            "version_normalized": "2.0.5.0-alpha1730371893",
             "dist": {
                 "type": "path",
                 "url": "/tmp/jetpack-build/Automattic/jetpack-constants",
-                "reference": "84e970100b2ea1aca2e252de102270f91b78ce62"
+                "reference": "7a0b1eeeab7f003e95fdc04714868da947922290"
             },
             "require": {
                 "php": ">=7.0"
             },
             "require-dev": {
-                "automattic/jetpack-changelogger": "^4.2.7",
+                "automattic/jetpack-changelogger": "^4.2.8-alpha",
                 "brain/monkey": "2.6.1",
                 "yoast/phpunit-polyfills": "^1.1.1"
             },
@@ -664,6 +690,9 @@
                 "phpunit": [
                     "./vendor/phpunit/phpunit/phpunit --colors=always"
                 ],
+                "test-coverage": [
+                    "php -dpcov.directory=. ./vendor/bin/phpunit --coverage-clover \"$COVERAGE_DIR/php/clover.xml\""
+                ],
                 "test-php": [
                     "@composer phpunit"
                 ]
@@ -679,18 +708,18 @@
         },
         {
             "name": "automattic/jetpack-device-detection",
-            "version": "2.1.5",
-            "version_normalized": "2.1.5.0",
+            "version": "2.1.6-alpha.1730371893",
+            "version_normalized": "2.1.6.0-alpha1730371893",
             "dist": {
                 "type": "path",
                 "url": "/tmp/jetpack-build/Automattic/jetpack-device-detection",
-                "reference": "c64167825f8f8e25d1859cd1fbe04a53318b52a9"
+                "reference": "9f386080e45971a59ebb0c8918e93efd196236c1"
             },
             "require": {
                 "php": ">=7.0"
             },
             "require-dev": {
-                "automattic/jetpack-changelogger": "^4.2.7",
+                "automattic/jetpack-changelogger": "^4.2.8-alpha",
                 "yoast/phpunit-polyfills": "^1.1.1"
             },
             "suggest": {
@@ -717,6 +746,9 @@
                 "phpunit": [
                     "./vendor/phpunit/phpunit/phpunit --colors=always"
                 ],
+                "test-coverage": [
+                    "php -dpcov.directory=. ./vendor/bin/phpunit --coverage-clover \"$COVERAGE_DIR/php/clover.xml\""
+                ],
                 "test-php": [
                     "@composer phpunit"
                 ]
@@ -732,19 +764,19 @@
         },
         {
             "name": "automattic/jetpack-explat",
-            "version": "0.1.13",
-            "version_normalized": "0.1.13.0",
+            "version": "0.1.14-alpha.1730371893",
+            "version_normalized": "0.1.14.0-alpha1730371893",
             "dist": {
                 "type": "path",
                 "url": "/tmp/jetpack-build/Automattic/jetpack-explat",
-                "reference": "d94cd811009abf59eacf2aa1b86578a067bc92b6"
+                "reference": "1e40aafbf99cffdc2d159646c8d0d14179f51915"
             },
             "require": {
-                "automattic/jetpack-connection": "^5.1.5",
+                "automattic/jetpack-connection": "^5.1.6-alpha",
                 "php": ">=7.0"
             },
             "require-dev": {
-                "automattic/jetpack-changelogger": "^4.2.7",
+                "automattic/jetpack-changelogger": "^4.2.8-alpha",
                 "yoast/phpunit-polyfills": "^1.1.1"
             },
             "suggest": {
@@ -775,11 +807,15 @@
                 "phpunit": [
                     "./vendor/phpunit/phpunit/phpunit --colors=always"
                 ],
+                "test-coverage": [
+                    "php -dpcov.directory=. ./vendor/bin/phpunit --coverage-clover \"$COVERAGE_DIR/php/clover.xml\"",
+                    "pnpm run test-coverage"
+                ],
                 "test-php": [
                     "@composer phpunit"
                 ],
                 "test-js": [
-                    "echo 'Run `pnpm run test` when ready'"
+                    "pnpm run test"
                 ],
                 "test-js-watch": [
                     "Composer\\Config::disableProcessTimeout",
@@ -807,20 +843,20 @@
         },
         {
             "name": "automattic/jetpack-image-cdn",
-            "version": "0.5.2",
-            "version_normalized": "0.5.2.0",
+            "version": "0.5.3-alpha.1730371893",
+            "version_normalized": "0.5.3.0-alpha1730371893",
             "dist": {
                 "type": "path",
                 "url": "/tmp/jetpack-build/Automattic/jetpack-image-cdn",
-                "reference": "af54d21bf72daac7840646f10adf4cdfb3ecc48d"
+                "reference": "0fa4515c890a6dd53836a4ccd8b87e3c95e84503"
             },
             "require": {
-                "automattic/jetpack-assets": "^2.3.12",
-                "automattic/jetpack-status": "^4.0.2",
+                "automattic/jetpack-assets": "^2.3.13-alpha",
+                "automattic/jetpack-status": "^4.0.3-alpha",
                 "php": ">=7.0"
             },
             "require-dev": {
-                "automattic/jetpack-changelogger": "^4.2.7",
+                "automattic/jetpack-changelogger": "^4.2.8-alpha",
                 "automattic/wordbless": "dev-master",
                 "yoast/phpunit-polyfills": "^1.1.1"
             },
@@ -852,6 +888,9 @@
                 "phpunit": [
                     "./vendor/phpunit/phpunit/phpunit --colors=always"
                 ],
+                "test-coverage": [
+                    "php -dpcov.directory=. ./vendor/bin/phpunit --coverage-clover \"$COVERAGE_DIR/php/clover.xml\""
+                ],
                 "test-php": [
                     "@composer phpunit"
                 ],
@@ -873,18 +912,18 @@
         },
         {
             "name": "automattic/jetpack-ip",
-            "version": "0.3.0",
-            "version_normalized": "0.3.0.0",
+            "version": "0.3.1-alpha.1730371893",
+            "version_normalized": "0.3.1.0-alpha1730371893",
             "dist": {
                 "type": "path",
                 "url": "/tmp/jetpack-build/Automattic/jetpack-ip",
-                "reference": "dacfe061282658632017981d3cffd60a644fab8f"
+                "reference": "e65e119dc6f4117b37d78a69dc1d0fc1855dabe8"
             },
             "require": {
                 "php": ">=7.0"
             },
             "require-dev": {
-                "automattic/jetpack-changelogger": "^4.2.7",
+                "automattic/jetpack-changelogger": "^4.2.8-alpha",
                 "brain/monkey": "2.6.1",
                 "yoast/phpunit-polyfills": "^1.1.1"
             },
@@ -916,6 +955,9 @@
                 "phpunit": [
                     "./vendor/phpunit/phpunit/phpunit --colors=always"
                 ],
+                "test-coverage": [
+                    "php -dpcov.directory=. ./vendor/bin/phpunit --coverage-clover \"$COVERAGE_DIR/php/clover.xml\""
+                ],
                 "test-php": [
                     "@composer phpunit"
                 ]
@@ -931,25 +973,25 @@
         },
         {
             "name": "automattic/jetpack-jitm",
-            "version": "3.1.27",
-            "version_normalized": "3.1.27.0",
+            "version": "3.1.28-alpha.1730371893",
+            "version_normalized": "3.1.28.0-alpha1730371893",
             "dist": {
                 "type": "path",
                 "url": "/tmp/jetpack-build/Automattic/jetpack-jitm",
-                "reference": "7ecc857d435561c01ea3eb272ec2a7a2bb2580f4"
+                "reference": "fb7d48e053688ef6ae9dd7fe34b8fb08e000dcf3"
             },
             "require": {
-                "automattic/jetpack-a8c-mc-stats": "^2.0.3",
-                "automattic/jetpack-assets": "^2.3.12",
-                "automattic/jetpack-connection": "^5.1.5",
-                "automattic/jetpack-device-detection": "^2.1.5",
-                "automattic/jetpack-logo": "^2.0.4",
-                "automattic/jetpack-redirect": "^2.0.4",
-                "automattic/jetpack-status": "^4.0.2",
+                "automattic/jetpack-a8c-mc-stats": "^2.0.4-alpha",
+                "automattic/jetpack-assets": "^2.3.13-alpha",
+                "automattic/jetpack-connection": "^5.1.6-alpha",
+                "automattic/jetpack-device-detection": "^2.1.6-alpha",
+                "automattic/jetpack-logo": "^2.0.5-alpha",
+                "automattic/jetpack-redirect": "^2.0.5-alpha",
+                "automattic/jetpack-status": "^4.0.3-alpha",
                 "php": ">=7.0"
             },
             "require-dev": {
-                "automattic/jetpack-changelogger": "^4.2.7",
+                "automattic/jetpack-changelogger": "^4.2.8-alpha",
                 "brain/monkey": "2.6.1",
                 "yoast/phpunit-polyfills": "^1.1.1"
             },
@@ -987,6 +1029,9 @@
                 "phpunit": [
                     "./vendor/phpunit/phpunit/phpunit --colors=always"
                 ],
+                "test-coverage": [
+                    "php -dpcov.directory=. ./vendor/bin/phpunit --coverage-clover \"$COVERAGE_DIR/php/clover.xml\""
+                ],
                 "test-php": [
                     "@composer phpunit"
                 ],
@@ -1006,19 +1051,19 @@
         },
         {
             "name": "automattic/jetpack-licensing",
-            "version": "2.0.11",
-            "version_normalized": "2.0.11.0",
+            "version": "2.0.12-alpha.1730371893",
+            "version_normalized": "2.0.12.0-alpha1730371893",
             "dist": {
                 "type": "path",
                 "url": "/tmp/jetpack-build/Automattic/jetpack-licensing",
-                "reference": "8856ddc3270d15d57f4c20fc3f415956067e382c"
+                "reference": "5a4e75d3e42f3f043b7732f077ba2053ed5f7721"
             },
             "require": {
-                "automattic/jetpack-connection": "^5.1.5",
+                "automattic/jetpack-connection": "^5.1.6-alpha",
                 "php": ">=7.0"
             },
             "require-dev": {
-                "automattic/jetpack-changelogger": "^4.2.7",
+                "automattic/jetpack-changelogger": "^4.2.8-alpha",
                 "automattic/wordbless": "@dev",
                 "yoast/phpunit-polyfills": "^1.1.1"
             },
@@ -1053,6 +1098,9 @@
                 "post-update-cmd": [
                     "WorDBless\\Composer\\InstallDropin::copy"
                 ],
+                "test-coverage": [
+                    "php -dpcov.directory=. ./vendor/bin/phpunit --coverage-clover \"$COVERAGE_DIR/php/clover.xml\""
+                ],
                 "test-php": [
                     "@composer phpunit"
                 ]
@@ -1068,18 +1116,18 @@
         },
         {
             "name": "automattic/jetpack-logo",
-            "version": "2.0.4",
-            "version_normalized": "2.0.4.0",
+            "version": "2.0.5-alpha.1730371893",
+            "version_normalized": "2.0.5.0-alpha1730371893",
             "dist": {
                 "type": "path",
                 "url": "/tmp/jetpack-build/Automattic/jetpack-logo",
-                "reference": "3150bd4d719e556a92d7ba9bc98f7ac865d6dccf"
+                "reference": "5271a7d07010ab25d505bb1a4b5f28c8345d5429"
             },
             "require": {
                 "php": ">=7.0"
             },
             "require-dev": {
-                "automattic/jetpack-changelogger": "^4.2.7",
+                "automattic/jetpack-changelogger": "^4.2.8-alpha",
                 "yoast/phpunit-polyfills": "^1.1.1"
             },
             "suggest": {
@@ -1106,6 +1154,9 @@
                 "phpunit": [
                     "./vendor/phpunit/phpunit/phpunit --colors=always"
                 ],
+                "test-coverage": [
+                    "php -dpcov.directory=. ./vendor/bin/phpunit --coverage-clover \"$COVERAGE_DIR/php/clover.xml\""
+                ],
                 "test-php": [
                     "@composer phpunit"
                 ]
@@ -1121,32 +1172,32 @@
         },
         {
             "name": "automattic/jetpack-my-jetpack",
-            "version": "4.36.0-alpha.1730233245",
-            "version_normalized": "4.36.0.0-alpha1730233245",
+            "version": "4.36.0-alpha.1730371893",
+            "version_normalized": "4.36.0.0-alpha1730371893",
             "dist": {
                 "type": "path",
                 "url": "/tmp/jetpack-build/Automattic/jetpack-my-jetpack",
-                "reference": "69595bb7e28034b434e0594e59611e3ea09d236b"
+                "reference": "9b8a3489a75366184e22f6cc84d04518d0fc8c6e"
             },
             "require": {
-                "automattic/jetpack-admin-ui": "^0.4.5",
-                "automattic/jetpack-assets": "^2.3.12",
-                "automattic/jetpack-boost-speed-score": "^0.3.13",
-                "automattic/jetpack-connection": "^5.1.5",
-                "automattic/jetpack-constants": "^2.0.4",
-                "automattic/jetpack-explat": "^0.1.13",
-                "automattic/jetpack-jitm": "^3.1.27",
-                "automattic/jetpack-licensing": "^2.0.11",
-                "automattic/jetpack-plans": "^0.4.12",
-                "automattic/jetpack-plugins-installer": "^0.4.3",
-                "automattic/jetpack-protect-status": "^0.2.1",
-                "automattic/jetpack-redirect": "^2.0.4",
-                "automattic/jetpack-status": "^4.0.2",
-                "automattic/jetpack-sync": "^3.14.3",
+                "automattic/jetpack-admin-ui": "^0.4.6-alpha",
+                "automattic/jetpack-assets": "^2.3.13-alpha",
+                "automattic/jetpack-boost-speed-score": "^0.3.14-alpha",
+                "automattic/jetpack-connection": "^5.1.6-alpha",
+                "automattic/jetpack-constants": "^2.0.5-alpha",
+                "automattic/jetpack-explat": "^0.1.14-alpha",
+                "automattic/jetpack-jitm": "^3.1.28-alpha",
+                "automattic/jetpack-licensing": "^2.0.12-alpha",
+                "automattic/jetpack-plans": "^0.4.13-alpha",
+                "automattic/jetpack-plugins-installer": "^0.4.4-alpha",
+                "automattic/jetpack-protect-status": "^0.2.2-alpha",
+                "automattic/jetpack-redirect": "^2.0.5-alpha",
+                "automattic/jetpack-status": "^4.0.3-alpha",
+                "automattic/jetpack-sync": "^3.14.4-alpha",
                 "php": ">=7.0"
             },
             "require-dev": {
-                "automattic/jetpack-changelogger": "^4.2.7",
+                "automattic/jetpack-changelogger": "^4.2.8-alpha",
                 "automattic/wordbless": "@dev",
                 "yoast/phpunit-polyfills": "^1.1.1"
             },
@@ -1184,6 +1235,10 @@
             "scripts": {
                 "phpunit": [
                     "./vendor/phpunit/phpunit/phpunit --colors=always"
+                ],
+                "test-coverage": [
+                    "php -dpcov.directory=. ./vendor/bin/phpunit --coverage-clover \"$COVERAGE_DIR/php/clover.xml\"",
+                    "pnpm run test-coverage"
                 ],
                 "test-php": [
                     "@composer phpunit"
@@ -1223,18 +1278,18 @@
         },
         {
             "name": "automattic/jetpack-password-checker",
-            "version": "0.3.2",
-            "version_normalized": "0.3.2.0",
+            "version": "0.3.3-alpha.1730371893",
+            "version_normalized": "0.3.3.0-alpha1730371893",
             "dist": {
                 "type": "path",
                 "url": "/tmp/jetpack-build/Automattic/jetpack-password-checker",
-                "reference": "e016efe00ad75d8b8521ac3aeac16bc6538c9cba"
+                "reference": "0293204d739d3d8a594b6981705fa4388dc2a38b"
             },
             "require": {
                 "php": ">=7.0"
             },
             "require-dev": {
-                "automattic/jetpack-changelogger": "^4.2.7",
+                "automattic/jetpack-changelogger": "^4.2.8-alpha",
                 "automattic/wordbless": "@dev",
                 "yoast/phpunit-polyfills": "^1.1.1"
             },
@@ -1263,6 +1318,9 @@
                 "phpunit": [
                     "./vendor/phpunit/phpunit/phpunit --colors=always"
                 ],
+                "test-coverage": [
+                    "php -dpcov.directory=. ./vendor/bin/phpunit --coverage-clover \"$COVERAGE_DIR/php/clover.xml\""
+                ],
                 "test-php": [
                     "@composer phpunit"
                 ],
@@ -1284,20 +1342,20 @@
         },
         {
             "name": "automattic/jetpack-plans",
-            "version": "0.4.12",
-            "version_normalized": "0.4.12.0",
+            "version": "0.4.13-alpha.1730371893",
+            "version_normalized": "0.4.13.0-alpha1730371893",
             "dist": {
                 "type": "path",
                 "url": "/tmp/jetpack-build/Automattic/jetpack-plans",
-                "reference": "3e9e6038d5aea8cb68cb1be0767f09c38ee53aa2"
+                "reference": "7226b06a9edf43234da2d5ee916e2b8625e42848"
             },
             "require": {
-                "automattic/jetpack-connection": "^5.1.5",
+                "automattic/jetpack-connection": "^5.1.6-alpha",
                 "php": ">=7.0"
             },
             "require-dev": {
-                "automattic/jetpack-changelogger": "^4.2.7",
-                "automattic/jetpack-status": "^4.0.2",
+                "automattic/jetpack-changelogger": "^4.2.8-alpha",
+                "automattic/jetpack-status": "^4.0.3-alpha",
                 "automattic/wordbless": "@dev",
                 "yoast/phpunit-polyfills": "^1.1.1"
             },
@@ -1324,6 +1382,9 @@
             "scripts": {
                 "phpunit": [
                     "./vendor/phpunit/phpunit/phpunit --colors=always"
+                ],
+                "test-coverage": [
+                    "php -dpcov.directory=. ./vendor/bin/phpunit --coverage-clover \"$COVERAGE_DIR/php/clover.xml\""
                 ],
                 "test-php": [
                     "@composer phpunit"
@@ -1352,19 +1413,19 @@
         },
         {
             "name": "automattic/jetpack-plugin-deactivation",
-            "version": "0.2.3",
-            "version_normalized": "0.2.3.0",
+            "version": "0.2.4-alpha.1730371893",
+            "version_normalized": "0.2.4.0-alpha1730371893",
             "dist": {
                 "type": "path",
                 "url": "/tmp/jetpack-build/Automattic/jetpack-plugin-deactivation",
-                "reference": "229883335ce97e3f3e296e32272c8c9fc83b9074"
+                "reference": "75b55fa9b9fef42bad396b66aa738b15eea911c4"
             },
             "require": {
-                "automattic/jetpack-assets": "^2.3.12",
+                "automattic/jetpack-assets": "^2.3.13-alpha",
                 "php": ">=7.0"
             },
             "require-dev": {
-                "automattic/jetpack-changelogger": "^4.2.7",
+                "automattic/jetpack-changelogger": "^4.2.8-alpha",
                 "yoast/phpunit-polyfills": "^1.1.1"
             },
             "suggest": {
@@ -1395,6 +1456,9 @@
                 "phpunit": [
                     "./vendor/phpunit/phpunit/phpunit --colors=always"
                 ],
+                "test-coverage": [
+                    "php -dpcov.directory=. ./vendor/bin/phpunit --coverage-clover \"$COVERAGE_DIR/php/clover.xml\""
+                ],
                 "test-php": [
                     "@composer phpunit"
                 ],
@@ -1420,20 +1484,20 @@
         },
         {
             "name": "automattic/jetpack-plugins-installer",
-            "version": "0.4.3",
-            "version_normalized": "0.4.3.0",
+            "version": "0.4.4-alpha.1730371893",
+            "version_normalized": "0.4.4.0-alpha1730371893",
             "dist": {
                 "type": "path",
                 "url": "/tmp/jetpack-build/Automattic/jetpack-plugins-installer",
-                "reference": "3c7c12ddc42d66350da16a2b121f724c98543b0b"
+                "reference": "bf28e98d18fad13d9515491c6403bc558a5d043b"
             },
             "require": {
-                "automattic/jetpack-a8c-mc-stats": "^2.0.3",
-                "automattic/jetpack-status": "^4.0.2",
+                "automattic/jetpack-a8c-mc-stats": "^2.0.4-alpha",
+                "automattic/jetpack-status": "^4.0.3-alpha",
                 "php": ">=7.0"
             },
             "require-dev": {
-                "automattic/jetpack-changelogger": "^4.2.7",
+                "automattic/jetpack-changelogger": "^4.2.8-alpha",
                 "yoast/phpunit-polyfills": "^1.1.1"
             },
             "suggest": {
@@ -1461,6 +1525,9 @@
                 "phpunit": [
                     "./vendor/phpunit/phpunit/phpunit --colors=always"
                 ],
+                "test-coverage": [
+                    "php -dpcov.directory=. ./vendor/bin/phpunit --coverage-clover \"$COVERAGE_DIR/php/clover.xml\""
+                ],
                 "test-php": [
                     "@composer phpunit"
                 ]
@@ -1476,18 +1543,18 @@
         },
         {
             "name": "automattic/jetpack-protect-models",
-            "version": "0.3.0",
-            "version_normalized": "0.3.0.0",
+            "version": "0.3.1-alpha.1730371893",
+            "version_normalized": "0.3.1.0-alpha1730371893",
             "dist": {
                 "type": "path",
                 "url": "/tmp/jetpack-build/Automattic/jetpack-protect-models",
-                "reference": "b454fbc7ca83b3e32472c37e5f3b1ba2b0797f64"
+                "reference": "695c75a768a710b4279358ccf52ed773b09a3e69"
             },
             "require": {
                 "php": ">=7.0"
             },
             "require-dev": {
-                "automattic/jetpack-changelogger": "^4.2.7",
+                "automattic/jetpack-changelogger": "^4.2.8-alpha",
                 "automattic/wordbless": "0.4.2",
                 "yoast/phpunit-polyfills": "^1.1.1"
             },
@@ -1525,6 +1592,9 @@
                 "phpunit": [
                     "./vendor/phpunit/phpunit/phpunit --colors=always"
                 ],
+                "test-coverage": [
+                    "php -dpcov.directory=. ./vendor/bin/phpunit --coverage-clover \"$COVERAGE_DIR/php/clover.xml\""
+                ],
                 "test-php": [
                     "@composer phpunit"
                 ],
@@ -1546,23 +1616,23 @@
         },
         {
             "name": "automattic/jetpack-protect-status",
-            "version": "0.2.1",
-            "version_normalized": "0.2.1.0",
+            "version": "0.2.2-alpha.1730371893",
+            "version_normalized": "0.2.2.0-alpha1730371893",
             "dist": {
                 "type": "path",
                 "url": "/tmp/jetpack-build/Automattic/jetpack-protect-status",
-                "reference": "e72cfc5a9498f7bb4be7339e9d710e5fd9b38143"
+                "reference": "4332415c8b6c3826239345a5d99031ffb9d6bd15"
             },
             "require": {
-                "automattic/jetpack-connection": "^5.1.5",
-                "automattic/jetpack-plans": "^0.4.12",
-                "automattic/jetpack-plugins-installer": "^0.4.3",
-                "automattic/jetpack-protect-models": "^0.3.0",
-                "automattic/jetpack-sync": "^3.14.3",
+                "automattic/jetpack-connection": "^5.1.6-alpha",
+                "automattic/jetpack-plans": "^0.4.13-alpha",
+                "automattic/jetpack-plugins-installer": "^0.4.4-alpha",
+                "automattic/jetpack-protect-models": "^0.3.1-alpha",
+                "automattic/jetpack-sync": "^3.14.4-alpha",
                 "php": ">=7.0"
             },
             "require-dev": {
-                "automattic/jetpack-changelogger": "^4.2.7",
+                "automattic/jetpack-changelogger": "^4.2.8-alpha",
                 "automattic/wordbless": "dev-master",
                 "yoast/phpunit-polyfills": "^1.1.1"
             },
@@ -1606,6 +1676,9 @@
                 "post-update-cmd": [
                     "WorDBless\\Composer\\InstallDropin::copy"
                 ],
+                "test-coverage": [
+                    "php -dpcov.directory=. ./vendor/bin/phpunit --coverage-clover \"$COVERAGE_DIR/php/clover.xml\""
+                ],
                 "test-php": [
                     "@composer phpunit"
                 ]
@@ -1621,19 +1694,19 @@
         },
         {
             "name": "automattic/jetpack-redirect",
-            "version": "2.0.4",
-            "version_normalized": "2.0.4.0",
+            "version": "2.0.5-alpha.1730371893",
+            "version_normalized": "2.0.5.0-alpha1730371893",
             "dist": {
                 "type": "path",
                 "url": "/tmp/jetpack-build/Automattic/jetpack-redirect",
-                "reference": "0c39ac55c7283259a13b156af0a639f2a723e32e"
+                "reference": "0b260b924b2f91dd890d32038ea532dd5660565c"
             },
             "require": {
-                "automattic/jetpack-status": "^4.0.2",
+                "automattic/jetpack-status": "^4.0.3-alpha",
                 "php": ">=7.0"
             },
             "require-dev": {
-                "automattic/jetpack-changelogger": "^4.2.7",
+                "automattic/jetpack-changelogger": "^4.2.8-alpha",
                 "brain/monkey": "2.6.1",
                 "yoast/phpunit-polyfills": "^1.1.1"
             },
@@ -1661,6 +1734,9 @@
                 "phpunit": [
                     "./vendor/phpunit/phpunit/phpunit --colors=always"
                 ],
+                "test-coverage": [
+                    "php -dpcov.directory=. ./vendor/bin/phpunit --coverage-clover \"$COVERAGE_DIR/php/clover.xml\""
+                ],
                 "test-php": [
                     "@composer phpunit"
                 ]
@@ -1676,18 +1752,18 @@
         },
         {
             "name": "automattic/jetpack-roles",
-            "version": "2.0.3",
-            "version_normalized": "2.0.3.0",
+            "version": "2.0.4-alpha.1730371893",
+            "version_normalized": "2.0.4.0-alpha1730371893",
             "dist": {
                 "type": "path",
                 "url": "/tmp/jetpack-build/Automattic/jetpack-roles",
-                "reference": "f638ead3e3f81cc2519ffe6d643ea66098b03b3d"
+                "reference": "eb77c357b14cb7b7add708c89381bd247bbf94f1"
             },
             "require": {
                 "php": ">=7.0"
             },
             "require-dev": {
-                "automattic/jetpack-changelogger": "^4.2.7",
+                "automattic/jetpack-changelogger": "^4.2.8-alpha",
                 "brain/monkey": "2.6.1",
                 "yoast/phpunit-polyfills": "^1.1.1"
             },
@@ -1715,6 +1791,9 @@
                 "phpunit": [
                     "./vendor/phpunit/phpunit/phpunit --colors=always"
                 ],
+                "test-coverage": [
+                    "php -dpcov.directory=. ./vendor/bin/phpunit --coverage-clover \"$COVERAGE_DIR/php/clover.xml\""
+                ],
                 "test-php": [
                     "@composer phpunit"
                 ]
@@ -1730,18 +1809,18 @@
         },
         {
             "name": "automattic/jetpack-schema",
-            "version": "0.1.2",
-            "version_normalized": "0.1.2.0",
+            "version": "0.1.3-alpha.1730371893",
+            "version_normalized": "0.1.3.0-alpha1730371893",
             "dist": {
                 "type": "path",
                 "url": "/tmp/jetpack-build/Automattic/jetpack-schema",
-                "reference": "f8714908d1eddbf112e363182ddd2af8d2b187b7"
+                "reference": "17ad2f110e1d2aa8863725d15c42878615860805"
             },
             "require": {
                 "php": ">=7.0"
             },
             "require-dev": {
-                "automattic/jetpack-changelogger": "^4.2.7",
+                "automattic/jetpack-changelogger": "^4.2.8-alpha",
                 "automattic/wordbless": "dev-master",
                 "yoast/phpunit-polyfills": "^1.1.1"
             },
@@ -1779,6 +1858,9 @@
                 "phpunit": [
                     "./vendor/phpunit/phpunit/phpunit --colors=always"
                 ],
+                "test-coverage": [
+                    "php -dpcov.directory=. ./vendor/bin/phpunit --coverage-clover \"$COVERAGE_DIR/php/clover.xml\""
+                ],
                 "test-php": [
                     "@composer phpunit"
                 ],
@@ -1800,21 +1882,21 @@
         },
         {
             "name": "automattic/jetpack-status",
-            "version": "4.0.2",
-            "version_normalized": "4.0.2.0",
+            "version": "4.0.3-alpha.1730371893",
+            "version_normalized": "4.0.3.0-alpha1730371893",
             "dist": {
                 "type": "path",
                 "url": "/tmp/jetpack-build/Automattic/jetpack-status",
-                "reference": "8279fde65eb8212a301a8c8b524dea2bf534e32f"
+                "reference": "4081cea9d10936a279ad68189f40eaa9800e8168"
             },
             "require": {
-                "automattic/jetpack-constants": "^2.0.4",
+                "automattic/jetpack-constants": "^2.0.5-alpha",
                 "php": ">=7.0"
             },
             "require-dev": {
-                "automattic/jetpack-changelogger": "^4.2.7",
+                "automattic/jetpack-changelogger": "^4.2.8-alpha",
                 "automattic/jetpack-connection": "@dev",
-                "automattic/jetpack-ip": "^0.3.0",
+                "automattic/jetpack-ip": "^0.3.1-alpha",
                 "automattic/jetpack-plans": "@dev",
                 "brain/monkey": "2.6.1",
                 "yoast/phpunit-polyfills": "^1.1.1"
@@ -1849,6 +1931,9 @@
                 "phpunit": [
                     "./vendor/phpunit/phpunit/phpunit --colors=always"
                 ],
+                "test-coverage": [
+                    "php -dpcov.directory=. ./vendor/bin/phpunit --coverage-clover \"$COVERAGE_DIR/php/clover.xml\""
+                ],
                 "test-php": [
                     "@composer phpunit"
                 ]
@@ -1864,26 +1949,26 @@
         },
         {
             "name": "automattic/jetpack-sync",
-            "version": "3.14.3",
-            "version_normalized": "3.14.3.0",
+            "version": "3.14.4-alpha.1730371893",
+            "version_normalized": "3.14.4.0-alpha1730371893",
             "dist": {
                 "type": "path",
                 "url": "/tmp/jetpack-build/Automattic/jetpack-sync",
-                "reference": "d3b7a834f2722d85a1a065886dc7d092011dd7d2"
+                "reference": "54234d5f7fbef17bd8dfa82f36028b9db64a66cd"
             },
             "require": {
-                "automattic/jetpack-connection": "^5.1.5",
-                "automattic/jetpack-constants": "^2.0.4",
-                "automattic/jetpack-ip": "^0.3.0",
-                "automattic/jetpack-password-checker": "^0.3.2",
-                "automattic/jetpack-roles": "^2.0.3",
-                "automattic/jetpack-status": "^4.0.2",
+                "automattic/jetpack-connection": "^5.1.6-alpha",
+                "automattic/jetpack-constants": "^2.0.5-alpha",
+                "automattic/jetpack-ip": "^0.3.1-alpha",
+                "automattic/jetpack-password-checker": "^0.3.3-alpha",
+                "automattic/jetpack-roles": "^2.0.4-alpha",
+                "automattic/jetpack-status": "^4.0.3-alpha",
                 "php": ">=7.0"
             },
             "require-dev": {
-                "automattic/jetpack-changelogger": "^4.2.7",
+                "automattic/jetpack-changelogger": "^4.2.8-alpha",
                 "automattic/jetpack-search": "@dev",
-                "automattic/jetpack-waf": "^0.22.2",
+                "automattic/jetpack-waf": "^0.22.3-alpha",
                 "automattic/wordbless": "@dev",
                 "yoast/phpunit-polyfills": "^1.1.1"
             },
@@ -1921,6 +2006,9 @@
                 "phpunit": [
                     "./vendor/phpunit/phpunit/phpunit --colors=always"
                 ],
+                "test-coverage": [
+                    "php -dpcov.directory=. ./vendor/bin/phpunit --coverage-clover \"$COVERAGE_DIR/php/clover.xml\""
+                ],
                 "test-php": [
                     "@composer phpunit"
                 ],
@@ -1942,19 +2030,19 @@
         },
         {
             "name": "automattic/jetpack-wp-js-data-sync",
-            "version": "0.5.1",
-            "version_normalized": "0.5.1.0",
+            "version": "0.5.2-alpha.1730371893",
+            "version_normalized": "0.5.2.0-alpha1730371893",
             "dist": {
                 "type": "path",
                 "url": "/tmp/jetpack-build/Automattic/jetpack-wp-js-data-sync",
-                "reference": "1e32021273fdbe4eb3a22ad0331fabbc659f92c0"
+                "reference": "fdb14e6f68b357a745aebde91629e9d542bb367b"
             },
             "require": {
-                "automattic/jetpack-schema": "^0.1.2",
+                "automattic/jetpack-schema": "^0.1.3-alpha",
                 "php": ">=7.0"
             },
             "require-dev": {
-                "automattic/jetpack-changelogger": "^4.2.7",
+                "automattic/jetpack-changelogger": "^4.2.8-alpha",
                 "automattic/wordbless": "dev-master",
                 "yoast/phpunit-polyfills": "^1.1.1"
             },
@@ -1985,6 +2073,9 @@
             "scripts": {
                 "phpunit": [
                     "./vendor/phpunit/phpunit/phpunit --colors=always"
+                ],
+                "test-coverage": [
+                    "php -dpcov.directory=. ./vendor/bin/phpunit --coverage-clover \"$COVERAGE_DIR/php/clover.xml\""
                 ],
                 "test-php": [
                     "@composer phpunit"
