@@ -990,6 +990,10 @@ return array(
 		'version' => '3.6.0.0-alpha',
 		'path'    => $baseDir . '/app/contracts/Pluggable.php'
 	),
+	'Automattic\\Jetpack_Boost\\Data_Sync\\Cornerstone_Pages_Entry' => array(
+		'version' => '3.6.0.0-alpha',
+		'path'    => $baseDir . '/app/data-sync/Cornerstone_Pages_Entry.php'
+	),
 	'Automattic\\Jetpack_Boost\\Data_Sync\\Critical_CSS_Meta_Entry' => array(
 		'version' => '3.6.0.0-alpha',
 		'path'    => $baseDir . '/app/data-sync/Critical_CSS_Meta_Entry.php'
@@ -1038,6 +1042,10 @@ return array(
 		'version' => '3.6.0.0-alpha',
 		'path'    => $baseDir . '/app/lib/class-connection.php'
 	),
+	'Automattic\\Jetpack_Boost\\Lib\\Cornerstone_Pages' => array(
+		'version' => '3.6.0.0-alpha',
+		'path'    => $baseDir . '/app/lib/Cornerstone_Pages.php'
+	),
 	'Automattic\\Jetpack_Boost\\Lib\\Critical_CSS\\Admin_Bar_Compatibility' => array(
 		'version' => '3.6.0.0-alpha',
 		'path'    => $baseDir . '/app/lib/critical-css/Admin_Bar_Compatibilty.php'
@@ -1085,6 +1093,10 @@ return array(
 	'Automattic\\Jetpack_Boost\\Lib\\Critical_CSS\\Source_Providers\\Providers\\Archive_Provider' => array(
 		'version' => '3.6.0.0-alpha',
 		'path'    => $baseDir . '/app/lib/critical-css/source-providers/providers/Archive_Provider.php'
+	),
+	'Automattic\\Jetpack_Boost\\Lib\\Critical_CSS\\Source_Providers\\Providers\\Cornerstone_Provider' => array(
+		'version' => '3.6.0.0-alpha',
+		'path'    => $baseDir . '/app/lib/critical-css/source-providers/providers/Cornerstone_Provider.php'
 	),
 	'Automattic\\Jetpack_Boost\\Lib\\Critical_CSS\\Source_Providers\\Providers\\Post_ID_Provider' => array(
 		'version' => '3.6.0.0-alpha',
