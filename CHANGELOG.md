@@ -23,6 +23,9 @@ This is an alpha version! The changes listed here are not final.
 ### Removed
 - Image Guide: Remove URL parameter based override.
 
+### Fixed
+- UI: fix typo in Overall Score tooltip
+
 ## [3.5.2] - 2024-10-15
 ### Changed
 - Deferred JS: Exclude all scripts produced by a shortcode. [#39616]
