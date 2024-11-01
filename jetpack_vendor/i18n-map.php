@@ -34,11 +34,11 @@ return array(
     ),
     'jetpack-image-cdn' => array(
       'path' => 'jetpack_vendor/automattic/jetpack-image-cdn',
-      'ver' => '0.5.3-alpha1730371893',
+      'ver' => '0.5.3-alpha1730451818',
     ),
     'jetpack-ip' => array(
       'path' => 'jetpack_vendor/automattic/jetpack-ip',
-      'ver' => '0.3.1-alpha1730371893',
+      'ver' => '0.3.1-alpha1730451818',
     ),
     'jetpack-jitm' => array(
       'path' => 'jetpack_vendor/automattic/jetpack-jitm',
