@@ -24,6 +24,7 @@ This is an alpha version! The changes listed here are not final.
 - Image Guide: Remove URL parameter based override.
 
 ### Fixed
+- Performance History: Fixed tooltip behavior
 - UI: fix typo in Overall Score tooltip
 
 ## [3.5.2] - 2024-10-15
