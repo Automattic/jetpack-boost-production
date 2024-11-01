@@ -1374,6 +1374,10 @@ return array(
 		'version' => '3.6.0.0-alpha',
 		'path'    => $baseDir . '/app/modules/image-size-analysis/data-sync/Image_Size_Analysis_Summary_Action_Start.php'
 	),
+	'Automattic\\Jetpack_Boost\\REST_API\\Endpoints\\List_Cornerstone_Pages' => array(
+		'version' => '3.6.0.0-alpha',
+		'path'    => $baseDir . '/app/rest-api/endpoints/List_Cornerstone_Pages.php'
+	),
 	'Automattic\\Jetpack_Boost\\REST_API\\Endpoints\\List_Site_Urls' => array(
 		'version' => '3.6.0.0-alpha',
 		'path'    => $baseDir . '/app/rest-api/endpoints/List_Site_Urls.php'
