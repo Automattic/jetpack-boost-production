@@ -58,7 +58,7 @@ return array(
     ),
     'jetpack-plugin-deactivation' => array(
       'path' => 'jetpack_vendor/automattic/jetpack-plugin-deactivation',
-      'ver' => '0.2.4-alpha1730548010',
+      'ver' => '0.2.4',
     ),
     'jetpack-plugins-installer' => array(
       'path' => 'jetpack_vendor/automattic/jetpack-plugins-installer',
@@ -74,7 +74,7 @@ return array(
     ),
     'jetpack-schema' => array(
       'path' => 'jetpack_vendor/automattic/jetpack-schema',
-      'ver' => '0.1.3-alpha1730548010',
+      'ver' => '0.1.3',
     ),
     'jetpack-sync' => array(
       'path' => 'jetpack_vendor/automattic/jetpack-sync',
@@ -82,7 +82,7 @@ return array(
     ),
     'jetpack-wp-js-data-sync' => array(
       'path' => 'jetpack_vendor/automattic/jetpack-wp-js-data-sync',
-      'ver' => '0.5.2-alpha1730548010',
+      'ver' => '0.5.2',
     ),
   ),
 );
