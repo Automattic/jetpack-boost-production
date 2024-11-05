@@ -12,6 +12,9 @@ This is an alpha version! The changes listed here are not final.
 ### Added
 - My Jetpack: update the recommendations section in My Jetpack to include a slider interaction for the cards.
 
+### Changed
+- Updated package dependencies.
+
 ## [3.6.0-beta] - 2024-11-04
 ### Added
 - Cornerstone Pages: Added feature to allow selecting important pages. [#39863]
