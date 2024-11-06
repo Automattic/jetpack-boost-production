@@ -14,6 +14,7 @@ This is an alpha version! The changes listed here are not final.
 
 ### Changed
 - Updated package dependencies.
+- Use preconnect instead of dns-prefetch to improve performance.
 
 ## [3.6.0-beta] - 2024-11-04
 ### Added
