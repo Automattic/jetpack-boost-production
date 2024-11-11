@@ -16,6 +16,9 @@ This is an alpha version! The changes listed here are not final.
 - Updated package dependencies.
 - Use preconnect instead of dns-prefetch to improve performance.
 
+### Fixed
+- Image Size Analysis: Fix UI not properly reflecting current state after interaction.
+
 ## [3.6.0-beta] - 2024-11-04
 ### Added
 - Cornerstone Pages: Added feature to allow selecting important pages. [#39863]
