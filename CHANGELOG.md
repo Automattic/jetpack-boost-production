@@ -18,6 +18,7 @@ This is an alpha version! The changes listed here are not final.
 
 ### Fixed
 - Image Size Analysis: Fix UI not properly reflecting current state after interaction.
+- UI: Fix Boost's menu counter sometimes displaying incorrectly.
 
 ## [3.6.0-beta] - 2024-11-04
 ### Added
