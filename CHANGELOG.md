@@ -17,6 +17,7 @@ This is an alpha version! The changes listed here are not final.
 - Use preconnect instead of dns-prefetch to improve performance.
 
 ### Removed
+- General: Update minimum PHP version to 7.2.
 - General: Update minimum WordPress version to 6.6.
 
 ### Fixed
