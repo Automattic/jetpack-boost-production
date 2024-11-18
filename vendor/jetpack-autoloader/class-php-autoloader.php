@@ -5,7 +5,7 @@
  * @package automattic/jetpack-autoloader
  */
 
-namespace Automattic\Jetpack\Autoloader\jpb1e77e6231d50e7663f84529b6a3dfda_jetpack_boostⓥ4_0_0_alpha\al4_0_0;
+namespace Automattic\Jetpack\Autoloader\jpb1e77e6231d50e7663f84529b6a3dfda_jetpack_boostⓥ4_0_0_alpha\al5_0_0_alpha;
 
  // phpcs:ignore
 
@@ -96,13 +96,7 @@ class PHP_Autoloader {
 		) {
 			// phpcs:ignore WordPress.PHP.DevelopmentFunctions.error_log_wp_debug_backtrace_summary -- This is a debug log message.
 			$msg = "Jetpack Autoloader: Autoloading `$class_name` before the plugins_loaded hook may cause strange and confusing problems. " . wp_debug_backtrace_summary( '', 1 );
-			// @todo Remove the is_callable check once we drop support for WP 6.5.
-			if ( is_callable( 'wp_trigger_error' ) ) {
-				wp_trigger_error( '', $msg );
-			} else {
-				// phpcs:ignore WordPress.PHP.DevelopmentFunctions.error_log_trigger_error
-				trigger_error( $msg );
-			}
+			wp_trigger_error( '', $msg );
 		}
 
 		require $file;
