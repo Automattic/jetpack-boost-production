@@ -13,6 +13,7 @@ This is an alpha version! The changes listed here are not final.
 - My Jetpack: update the recommendations section in My Jetpack to include a slider interaction for the cards.
 
 ### Changed
+- Updated dependencies.
 - Updated package dependencies.
 - Use preconnect instead of dns-prefetch to improve performance.
 

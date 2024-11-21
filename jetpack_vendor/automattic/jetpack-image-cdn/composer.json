@@ -9,7 +9,7 @@
 		"automattic/jetpack-status": "^5.0.1-alpha"
 	},
 	"require-dev": {
-		"automattic/wordbless": "dev-master",
+		"automattic/wordbless": "^0.4.2",
 		"yoast/phpunit-polyfills": "^1.1.1",
 		"automattic/jetpack-changelogger": "^5.1.0-alpha"
 	},
