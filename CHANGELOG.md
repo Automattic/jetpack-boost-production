@@ -21,7 +21,7 @@ This is an alpha version! The changes listed here are not final.
 - General: Update minimum PHP version to 7.2.
 - General: Update minimum WordPress version to 6.6.
 
-## [3.6.0-beta2] - 2024-11-20
+## [3.6.0] - 2024-11-22
 ### Added
 - Cornerstone Pages: Added setting to allow selecting important pages. [#39863]
 
@@ -559,8 +559,8 @@ This is an alpha version! The changes listed here are not final.
 
 - First public alpha release
 
-[4.0.0-alpha]: https://github.com/Automattic/jetpack-boost-production/compare/3.6.0-beta2...4.0.0-alpha
-[3.6.0-beta2]: https://github.com/Automattic/jetpack-boost-production/compare/3.5.2...3.6.0-beta
+[4.0.0-alpha]: https://github.com/Automattic/jetpack-boost-production/compare/3.6.0...4.0.0-alpha
+[3.6.0]: https://github.com/Automattic/jetpack-boost-production/compare/3.5.2...3.6.0
 [3.5.2]: https://github.com/Automattic/jetpack-boost-production/compare/3.5.1...3.5.2
 [3.5.1]: https://github.com/Automattic/jetpack-boost-production/compare/3.5.0...3.5.1
 [3.5.0]: https://github.com/Automattic/jetpack-boost-production/compare/3.4.9...3.5.0
