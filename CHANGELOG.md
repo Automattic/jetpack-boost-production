@@ -5,25 +5,14 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
-## [4.0.0-alpha] - unreleased
-
-This is an alpha version! The changes listed here are not final.
-
-### Added
-- My Jetpack: update the recommendations section in My Jetpack to include a slider interaction for the cards.
-
+## [3.6.1] - 2024-11-28
 ### Changed
-- Social | Changed My Jetpack CTA for Social from "Learn more" to "Activate"
-- Updated dependencies.
-- Updated package dependencies.
-- Use preconnect instead of dns-prefetch to improve performance.
-
-### Removed
-- General: Update minimum PHP version to 7.2.
-- General: Update minimum WordPress version to 6.6.
+- Image CDN: Improve performance. [#39883]
+- General: Update minimum PHP version to 7.2. [#40147]
+- General: Update minimum WordPress version to 6.6. [#40146]
 
 ### Fixed
-- Compatibility: Fixed situations where minify could break due to too many files being enqueued in the elementor editor.
+- Compatibility: Fixed situations where minify could break due to too many files being enqueued in the elementor editor. [#40339]
 
 ## [3.6.0] - 2024-11-22
 ### Added
@@ -563,7 +552,7 @@ This is an alpha version! The changes listed here are not final.
 
 - First public alpha release
 
-[4.0.0-alpha]: https://github.com/Automattic/jetpack-boost-production/compare/3.6.0...4.0.0-alpha
+[3.6.1]: https://github.com/Automattic/jetpack-boost-production/compare/3.6.0...3.6.1
 [3.6.0]: https://github.com/Automattic/jetpack-boost-production/compare/3.5.2...3.6.0
 [3.5.2]: https://github.com/Automattic/jetpack-boost-production/compare/3.5.1...3.5.2
 [3.5.1]: https://github.com/Automattic/jetpack-boost-production/compare/3.5.0...3.5.1
