@@ -291,6 +291,7 @@ return array(
     'Automattic\\Jetpack_Boost\\Lib\\Minify\\Concatenate_JS' => $baseDir . '/app/lib/minify/Concatenate_JS.php',
     'Automattic\\Jetpack_Boost\\Lib\\Minify\\Config' => $baseDir . '/app/lib/minify/Config.php',
     'Automattic\\Jetpack_Boost\\Lib\\Minify\\Dependency_Path_Mapping' => $baseDir . '/app/lib/minify/Dependency_Path_Mapping.php',
+    'Automattic\\Jetpack_Boost\\Lib\\Minify\\File_Paths' => $baseDir . '/app/lib/minify/File_Paths.php',
     'Automattic\\Jetpack_Boost\\Lib\\Minify\\Utils' => $baseDir . '/app/lib/minify/Utils.php',
     'Automattic\\Jetpack_Boost\\Lib\\My_Jetpack' => $baseDir . '/app/lib/My_Jetpack.php',
     'Automattic\\Jetpack_Boost\\Lib\\Nonce' => $baseDir . '/app/lib/class-nonce.php',

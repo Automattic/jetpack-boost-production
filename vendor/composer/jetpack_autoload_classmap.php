@@ -67,31 +67,31 @@ return array(
 		'path'    => $baseDir . '/jetpack_vendor/automattic/jetpack-plugins-installer/src/class-automatic-install-skin.php'
 	),
 	'Automattic\\Jetpack\\Boost_Core\\Contracts\\Boost_API_Client' => array(
-		'version' => '0.3.1.0',
+		'version' => '0.3.2.0-alpha1732789065',
 		'path'    => $baseDir . '/jetpack_vendor/automattic/jetpack-boost-core/src/contracts/boost-api-client.php'
 	),
 	'Automattic\\Jetpack\\Boost_Core\\Lib\\Boost_API' => array(
-		'version' => '0.3.1.0',
+		'version' => '0.3.2.0-alpha1732789065',
 		'path'    => $baseDir . '/jetpack_vendor/automattic/jetpack-boost-core/src/lib/class-boost-api.php'
 	),
 	'Automattic\\Jetpack\\Boost_Core\\Lib\\Cacheable' => array(
-		'version' => '0.3.1.0',
+		'version' => '0.3.2.0-alpha1732789065',
 		'path'    => $baseDir . '/jetpack_vendor/automattic/jetpack-boost-core/src/lib/class-cacheable.php'
 	),
 	'Automattic\\Jetpack\\Boost_Core\\Lib\\Transient' => array(
-		'version' => '0.3.1.0',
+		'version' => '0.3.2.0-alpha1732789065',
 		'path'    => $baseDir . '/jetpack_vendor/automattic/jetpack-boost-core/src/lib/class-transient.php'
 	),
 	'Automattic\\Jetpack\\Boost_Core\\Lib\\Url' => array(
-		'version' => '0.3.1.0',
+		'version' => '0.3.2.0-alpha1732789065',
 		'path'    => $baseDir . '/jetpack_vendor/automattic/jetpack-boost-core/src/lib/class-url.php'
 	),
 	'Automattic\\Jetpack\\Boost_Core\\Lib\\Utils' => array(
-		'version' => '0.3.1.0',
+		'version' => '0.3.2.0-alpha1732789065',
 		'path'    => $baseDir . '/jetpack_vendor/automattic/jetpack-boost-core/src/lib/class-utils.php'
 	),
 	'Automattic\\Jetpack\\Boost_Core\\Lib\\WPCOM_Boost_API_Client' => array(
-		'version' => '0.3.1.0',
+		'version' => '0.3.2.0-alpha1732789065',
 		'path'    => $baseDir . '/jetpack_vendor/automattic/jetpack-boost-core/src/lib/class-wpcom-boost-api-client.php'
 	),
 	'Automattic\\Jetpack\\Boost_Speed_Score\\Jetpack_Boost_Modules' => array(
@@ -1157,6 +1157,10 @@ return array(
 	'Automattic\\Jetpack_Boost\\Lib\\Minify\\Dependency_Path_Mapping' => array(
 		'version' => '4.0.0.0-alpha',
 		'path'    => $baseDir . '/app/lib/minify/Dependency_Path_Mapping.php'
+	),
+	'Automattic\\Jetpack_Boost\\Lib\\Minify\\File_Paths' => array(
+		'version' => '4.0.0.0-alpha',
+		'path'    => $baseDir . '/app/lib/minify/File_Paths.php'
 	),
 	'Automattic\\Jetpack_Boost\\Lib\\Minify\\Utils' => array(
 		'version' => '4.0.0.0-alpha',
