@@ -11,6 +11,7 @@ This is an alpha version! The changes listed here are not final.
 
 ### Changed
 - Resolved an issue where revoked licenses were incorrectly treated as unattached. This caused users to be redirected to the license activation page after site connection, even when unattached licenses were not valid for activation.
+- Updated package dependencies.
 
 ## [3.6.1] - 2024-11-28
 ### Changed
