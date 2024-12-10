@@ -9,6 +9,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 This is an alpha version! The changes listed here are not final.
 
+### Added
+- General: Add WordPress filters to allow Cornerstone Pages list and Image Size Analyzer source data to be updated.
+
 ### Changed
 - Resolved an issue where revoked licenses were incorrectly treated as unattached. This caused users to be redirected to the license activation page after site connection, even when unattached licenses were not valid for activation.
 - Settings Page: Give Page Cache, Concatenate JS/CSS and Image CDN - Image Quality modules a more unifed look.
