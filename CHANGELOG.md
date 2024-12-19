@@ -5,7 +5,7 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
-## [3.6.2-alpha] - unreleased
+## [3.7.0-alpha] - unreleased
 
 This is an alpha version! The changes listed here are not final.
 
@@ -13,6 +13,7 @@ This is an alpha version! The changes listed here are not final.
 - Concatenate JS/CSS: Add a button that allows loading default excludes.
 - General: Added tracks events to clickable elements on the settings page.
 - General: Add WordPress filters to allow Cornerstone Pages list and Image Size Analyzer source data to be updated.
+- UI: Add notifications when interacting with dashboard settings.
 
 ### Changed
 - Resolved an issue where revoked licenses were incorrectly treated as unattached. This caused users to be redirected to the license activation page after site connection, even when unattached licenses were not valid for activation.
@@ -566,7 +567,7 @@ This is an alpha version! The changes listed here are not final.
 
 - First public alpha release
 
-[3.6.2-alpha]: https://github.com/Automattic/jetpack-boost-production/compare/3.6.1...3.6.2-alpha
+[3.7.0-alpha]: https://github.com/Automattic/jetpack-boost-production/compare/3.6.1...3.7.0-alpha
 [3.6.1]: https://github.com/Automattic/jetpack-boost-production/compare/3.6.0...3.6.1
 [3.6.0]: https://github.com/Automattic/jetpack-boost-production/compare/3.5.2...3.6.0
 [3.5.2]: https://github.com/Automattic/jetpack-boost-production/compare/3.5.1...3.5.2
