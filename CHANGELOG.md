@@ -20,6 +20,9 @@ This is an alpha version! The changes listed here are not final.
 - Settings Page: Give Page Cache, Concatenate JS/CSS and Image CDN - Image Quality modules a more unifed look.
 - Updated package dependencies.
 
+### Fixed
+- UI: Fixed showing an error if no ISA report was found.
+
 ## [3.6.1] - 2024-11-28
 ### Changed
 - Image CDN: Improve performance. [#39883]
