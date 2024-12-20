@@ -22,6 +22,7 @@ This is an alpha version! The changes listed here are not final.
 - Updated package dependencies.
 
 ### Fixed
+- Critical CSS: Improved UI responsiveness during a retry after failed generation.
 - UI: Fixed showing an error if no ISA report was found.
 
 ## [3.6.1] - 2024-11-28
