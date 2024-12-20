@@ -13,6 +13,7 @@ This is an alpha version! The changes listed here are not final.
 - Concatenate JS/CSS: Add a button that allows loading default excludes.
 - General: Added tracks events to clickable elements on the settings page.
 - General: Add WordPress filters to allow Cornerstone Pages list and Image Size Analyzer source data to be updated.
+- Minify: Added HTTP header to take advantage of WordPress.com edge caching
 - UI: Add notifications when interacting with dashboard settings.
 
 ### Changed
