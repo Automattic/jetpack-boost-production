@@ -23,6 +23,7 @@ This is an alpha version! The changes listed here are not final.
 
 ### Fixed
 - Critical CSS: Improved UI responsiveness during a retry after failed generation.
+- E2E Tests: Only install single browser used by Playwright.
 - UI: Fixed showing an error if no ISA report was found.
 
 ## [3.6.1] - 2024-11-28
