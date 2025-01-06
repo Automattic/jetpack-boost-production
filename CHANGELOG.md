@@ -5,26 +5,20 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
-## [3.7.0-alpha] - unreleased
-
-This is an alpha version! The changes listed here are not final.
-
+## [3.7.0] - 2025-01-06
 ### Added
-- Concatenate JS/CSS: Add a button that allows loading default excludes.
-- General: Added tracks events to clickable elements on the settings page.
-- General: Add WordPress filters to allow Cornerstone Pages list and Image Size Analyzer source data to be updated.
-- Minify: Added HTTP header to take advantage of WordPress.com edge caching
-- UI: Add notifications when interacting with dashboard settings.
+- Concatenate JS/CSS: Added a button that allows loading default excludes. [#40496]
+- General: Added tracks events to clickable elements on the settings page. [#40246]
+- General: Added WordPress filters to allow Cornerstone Pages list and Image Size Analyzer source data to be updated. [#40442]
+- Concatenate JS/CSS: Added HTTP header to take advantage of WordPress.com edge caching [#40557]
+- UI: Added notifications when interacting with dashboard settings. [#40593]
 
 ### Changed
-- Resolved an issue where revoked licenses were incorrectly treated as unattached. This caused users to be redirected to the license activation page after site connection, even when unattached licenses were not valid for activation.
-- Settings Page: Give Page Cache, Concatenate JS/CSS and Image CDN - Image Quality modules a more unifed look.
-- Updated package dependencies.
+- UI: Gave Page Cache, Concatenate JS/CSS and Image CDN - Image Quality modules a more unifed look. [#40224]
 
 ### Fixed
-- Critical CSS: Improved UI responsiveness during a retry after failed generation.
-- E2E Tests: Only install single browser used by Playwright.
-- UI: Fixed showing an error if no ISA report was found.
+- Critical CSS: Improved UI responsiveness during a retry after failed generation. [#40675]
+- UI: Fixed showing an error if no ISA report was found. [#40660]
 
 ## [3.6.1] - 2024-11-28
 ### Changed
@@ -573,7 +567,7 @@ This is an alpha version! The changes listed here are not final.
 
 - First public alpha release
 
-[3.7.0-alpha]: https://github.com/Automattic/jetpack-boost-production/compare/3.6.1...3.7.0-alpha
+[3.7.0]: https://github.com/Automattic/jetpack-boost-production/compare/3.6.1...3.7.0
 [3.6.1]: https://github.com/Automattic/jetpack-boost-production/compare/3.6.0...3.6.1
 [3.6.0]: https://github.com/Automattic/jetpack-boost-production/compare/3.5.2...3.6.0
 [3.5.2]: https://github.com/Automattic/jetpack-boost-production/compare/3.5.1...3.5.2
