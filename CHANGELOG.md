@@ -12,6 +12,9 @@ This is an alpha version! The changes listed here are not final.
 ### Added
 - Cache: added extra PHP file the site owner can use to modify how the cache works.
 
+### Fixed
+- Concatenate JS: Improve compatibility with WooCommerce shipping.
+
 ## [3.7.0] - 2025-01-06
 ### Added
 - Concatenate JS/CSS: Added a button that allows loading default excludes. [#40496]
