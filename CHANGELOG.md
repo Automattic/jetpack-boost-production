@@ -12,6 +12,9 @@ This is an alpha version! The changes listed here are not final.
 ### Added
 - Cache: added extra PHP file the site owner can use to modify how the cache works.
 
+### Changed
+- Updated package dependencies.
+
 ### Fixed
 - Concatenate JS: Improve compatibility with WooCommerce shipping.
 
