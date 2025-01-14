@@ -13,6 +13,7 @@ This is an alpha version! The changes listed here are not final.
 - Cache: added extra PHP file the site owner can use to modify how the cache works.
 
 ### Changed
+- Concatenate CSS: Fixed cases where minification might cause a file to load slower.
 - Updated package dependencies.
 
 ### Fixed

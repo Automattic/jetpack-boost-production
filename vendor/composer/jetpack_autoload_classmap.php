@@ -1570,20 +1570,4 @@ return array(
 		'version' => '5.0.0',
 		'path'    => $vendorDir . '/automattic/jetpack-autoloader/src/class-version-selector.php'
 	),
-	'tubalmartin\\CssMin\\Colors' => array(
-		'version' => '4.1.1.0',
-		'path'    => $vendorDir . '/tubalmartin/cssmin/src/Colors.php'
-	),
-	'tubalmartin\\CssMin\\Command' => array(
-		'version' => '4.1.1.0',
-		'path'    => $vendorDir . '/tubalmartin/cssmin/src/Command.php'
-	),
-	'tubalmartin\\CssMin\\Minifier' => array(
-		'version' => '4.1.1.0',
-		'path'    => $vendorDir . '/tubalmartin/cssmin/src/Minifier.php'
-	),
-	'tubalmartin\\CssMin\\Utils' => array(
-		'version' => '4.1.1.0',
-		'path'    => $vendorDir . '/tubalmartin/cssmin/src/Utils.php'
-	),
 );

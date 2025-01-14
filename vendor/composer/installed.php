@@ -307,14 +307,5 @@
             'aliases' => array(),
             'dev_requirement' => false,
         ),
-        'tubalmartin/cssmin' => array(
-            'pretty_version' => 'v4.1.1',
-            'version' => '4.1.1.0',
-            'reference' => '3cbf557f4079d83a06f9c3ff9b957c022d7805cf',
-            'type' => 'library',
-            'install_path' => __DIR__ . '/../tubalmartin/cssmin',
-            'aliases' => array(),
-            'dev_requirement' => false,
-        ),
     ),
 );

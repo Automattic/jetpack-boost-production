@@ -379,8 +379,4 @@ return array(
     'MatthiasMullie\\PathConverter\\ConverterInterface' => $vendorDir . '/matthiasmullie/path-converter/src/ConverterInterface.php',
     'MatthiasMullie\\PathConverter\\NoConverter' => $vendorDir . '/matthiasmullie/path-converter/src/NoConverter.php',
     'Performance_History_Entry' => $baseDir . '/app/data-sync/Performance_History_Entry.php',
-    'tubalmartin\\CssMin\\Colors' => $vendorDir . '/tubalmartin/cssmin/src/Colors.php',
-    'tubalmartin\\CssMin\\Command' => $vendorDir . '/tubalmartin/cssmin/src/Command.php',
-    'tubalmartin\\CssMin\\Minifier' => $vendorDir . '/tubalmartin/cssmin/src/Minifier.php',
-    'tubalmartin\\CssMin\\Utils' => $vendorDir . '/tubalmartin/cssmin/src/Utils.php',
 );
