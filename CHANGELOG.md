@@ -19,6 +19,7 @@ This is an alpha version! The changes listed here are not final.
 ### Fixed
 - Concatenate JS: Improve compatibility with WooCommerce shipping.
 - Image CDN: Ensure that double encoding doesn't happen.
+- Page Cache: Fixed bypass patterns getting applied to the whole URL instead of the start.
 
 ## [3.7.0] - 2025-01-06
 ### Added
