@@ -11,6 +11,7 @@ This is an alpha version! The changes listed here are not final.
 
 ### Added
 - Cache: added extra PHP file the site owner can use to modify how the cache works.
+- Critical CSS: Flag a site-health issue if critical CSS is not fresh after cornerstone pages changed.
 
 ### Changed
 - Concatenate CSS: Fixed cases where minification might cause a file to load slower.
