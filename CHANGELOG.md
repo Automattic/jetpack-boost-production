@@ -15,6 +15,7 @@ This is an alpha version! The changes listed here are not final.
 
 ### Changed
 - Concatenate CSS: Fixed cases where minification might cause a file to load slower.
+- Critical CSS: Reduce unnecessary regenerations.
 - Updated package dependencies.
 
 ### Fixed
