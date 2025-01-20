@@ -15,6 +15,7 @@ This is an alpha version! The changes listed here are not final.
 
 ### Changed
 - Cloud CSS: Added the success ratio required for Cloud CSS to succeed
+- Code: Use function-style exit() and die() with a default status code of 0.
 - Concatenate CSS: Fixed cases where minification might cause a file to load slower.
 - Critical CSS: Reduce unnecessary regenerations.
 - Updated package dependencies.
