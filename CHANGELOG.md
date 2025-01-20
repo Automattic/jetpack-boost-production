@@ -14,6 +14,7 @@ This is an alpha version! The changes listed here are not final.
 - Critical CSS: Flag a site-health issue if critical CSS is not fresh after cornerstone pages changed.
 
 ### Changed
+- Cloud CSS: Added the success ratio required for Cloud CSS to succeed
 - Concatenate CSS: Fixed cases where minification might cause a file to load slower.
 - Critical CSS: Reduce unnecessary regenerations.
 - Updated package dependencies.
