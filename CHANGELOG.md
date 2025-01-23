@@ -11,6 +11,7 @@ This is an alpha version! The changes listed here are not final.
 
 ### Added
 - Cache: added extra PHP file the site owner can use to modify how the cache works.
+- Cache: filter cookies and GET parameters so they do not cause a cache miss.
 - Critical CSS: Flag a site-health issue if critical CSS is not fresh after cornerstone pages changed.
 
 ### Changed
