@@ -12,6 +12,9 @@ This is an alpha version! The changes listed here are not final.
 ### Changed
 - Updated package dependencies.
 
+### Fixed
+- Code: Remove extra params on function calls.
+
 ## [3.8.0] - 2025-01-23
 ### Added
 - Critical CSS: Flag a site-health issue for Critical CSS when a page from the Cornerstone Pages list is modified. [#41006]
