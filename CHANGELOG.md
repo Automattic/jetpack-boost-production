@@ -14,6 +14,7 @@ This is an alpha version! The changes listed here are not final.
 - jetpack-components: Export the getRedirectUrl function with subpath
 
 ### Changed
+- Concatenate JS/CSS: Update concatenated assets to be stored on the server as files.
 - Updated package dependencies.
 
 ### Fixed
