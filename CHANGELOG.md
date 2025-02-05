@@ -11,6 +11,7 @@ This is an alpha version! The changes listed here are not final.
 
 ### Added
 - Cloud CSS: Handle prioritized cloud CSS regeneration for cornerstone pages updates.
+- jetpack-components: Export the getRedirectUrl function with subpath
 
 ### Changed
 - Updated package dependencies.
