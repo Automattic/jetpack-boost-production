@@ -19,6 +19,7 @@ This is an alpha version! The changes listed here are not final.
 
 ### Fixed
 - Code: Remove extra params on function calls.
+- UI: Fix UI discrepancy in Boost settings page upon toggling multiple Modules at same time.
 
 ## [3.8.0] - 2025-01-23
 ### Added
