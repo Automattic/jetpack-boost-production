@@ -12,6 +12,7 @@ This is an alpha version! The changes listed here are not final.
 ### Added
 - Cloud CSS: Handle prioritized cloud CSS regeneration for cornerstone pages updates.
 - jetpack-components: Export the getRedirectUrl function with subpath
+- Speed Scores: add tracking for speed score pop-out CTA.
 
 ### Changed
 - Concatenate JS/CSS: Update concatenated assets to be stored on the server as files.
