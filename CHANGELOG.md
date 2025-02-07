@@ -11,6 +11,7 @@ This is an alpha version! The changes listed here are not final.
 
 ### Added
 - Cloud CSS: Handle prioritized cloud CSS regeneration for cornerstone pages updates.
+- Concatenate JS: Add compatibility with "Depay Payments for WooCommerce".
 - jetpack-components: Export the getRedirectUrl function with subpath
 - Speed Scores: add tracking for speed score pop-out CTA.
 
