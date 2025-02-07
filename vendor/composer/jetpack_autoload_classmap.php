@@ -1446,6 +1446,10 @@ return array(
 		'version' => '3.9.0.0-alpha',
 		'path'    => $baseDir . '/tests/php/class-base-test-case.php'
 	),
+	'Automattic\\Jetpack_Boost\\Tests\\Lib\\Minify\\Test_Functions_Service' => array(
+		'version' => '3.9.0.0-alpha',
+		'path'    => $baseDir . '/tests/php/lib/minify/test-functions-service.php'
+	),
 	'Automattic\\Jetpack_Boost\\Tests\\Lib\\WP_Test_Analytics' => array(
 		'version' => '3.9.0.0-alpha',
 		'path'    => $baseDir . '/tests/php/lib/test-class-analytics.php'
