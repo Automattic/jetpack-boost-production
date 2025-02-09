@@ -18,6 +18,7 @@ This is an alpha version! The changes listed here are not final.
 ### Changed
 - Concatenate JS/CSS: Update concatenated assets to be stored on the server as files.
 - Move global styles to module styles for components
+- Updated composer.lock
 - Updated package dependencies.
 - Update the unowned section from a product grid to a product list
 
