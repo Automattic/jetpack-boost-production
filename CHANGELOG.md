@@ -11,6 +11,7 @@ This is an alpha version! The changes listed here are not final.
 
 ### Changed
 - Connection: Display connection status on Users page independent of the SSO module.
+- Performance: only look for specific hosting providers in admin page.
 
 ## [3.9.0] - 2025-02-17
 ### Added
