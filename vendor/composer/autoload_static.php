@@ -282,6 +282,7 @@ class ComposerStaticInitb1e77e6231d50e7663f84529b6a3dfda_jetpack_boostⓥ3_10_0_
         'Automattic\\Jetpack_Boost\\Admin\\Regenerate_Admin_Notice' => __DIR__ . '/../..' . '/app/admin/class-regenerate-admin-notice.php',
         'Automattic\\Jetpack_Boost\\Contracts\\Changes_Page_Output' => __DIR__ . '/../..' . '/app/contracts/Changes_Output.php',
         'Automattic\\Jetpack_Boost\\Contracts\\Has_Activate' => __DIR__ . '/../..' . '/app/contracts/Has_Activate.php',
+        'Automattic\\Jetpack_Boost\\Contracts\\Has_Data_Sync' => __DIR__ . '/../..' . '/app/contracts/Has_Data_Sync.php',
         'Automattic\\Jetpack_Boost\\Contracts\\Has_Deactivate' => __DIR__ . '/../..' . '/app/contracts/Has_Deactivate.php',
         'Automattic\\Jetpack_Boost\\Contracts\\Has_Setup' => __DIR__ . '/../..' . '/app/contracts/Has_Setup.php',
         'Automattic\\Jetpack_Boost\\Contracts\\Has_Slug' => __DIR__ . '/../..' . '/app/contracts/Has_Slug.php',
@@ -295,6 +296,7 @@ class ComposerStaticInitb1e77e6231d50e7663f84529b6a3dfda_jetpack_boostⓥ3_10_0_
         'Automattic\\Jetpack_Boost\\Data_Sync\\Mergeable_Array_Entry' => __DIR__ . '/../..' . '/app/data-sync/Mergeable_Array_Entry.php',
         'Automattic\\Jetpack_Boost\\Data_Sync\\Minify_Excludes_State_Entry' => __DIR__ . '/../..' . '/app/data-sync/Minify_Excludes_State_Entry.php',
         'Automattic\\Jetpack_Boost\\Data_Sync\\Modules_State_Entry' => __DIR__ . '/../..' . '/app/data-sync/Modules_State_Entry.php',
+        'Automattic\\Jetpack_Boost\\Data_Sync\\Performance_History_Entry' => __DIR__ . '/../..' . '/app/data-sync/Performance_History_Entry.php',
         'Automattic\\Jetpack_Boost\\Jetpack_Boost' => __DIR__ . '/../..' . '/app/class-jetpack-boost.php',
         'Automattic\\Jetpack_Boost\\Lib\\Analytics' => __DIR__ . '/../..' . '/app/lib/class-analytics.php',
         'Automattic\\Jetpack_Boost\\Lib\\Assets' => __DIR__ . '/../..' . '/app/lib/class-assets.php',
@@ -308,6 +310,7 @@ class ComposerStaticInitb1e77e6231d50e7663f84529b6a3dfda_jetpack_boostⓥ3_10_0_
         'Automattic\\Jetpack_Boost\\Lib\\Critical_CSS\\Critical_CSS_Invalidator' => __DIR__ . '/../..' . '/app/lib/critical-css/Critical_CSS_Invalidator.php',
         'Automattic\\Jetpack_Boost\\Lib\\Critical_CSS\\Critical_CSS_State' => __DIR__ . '/../..' . '/app/lib/critical-css/Critical_CSS_State.php',
         'Automattic\\Jetpack_Boost\\Lib\\Critical_CSS\\Critical_CSS_Storage' => __DIR__ . '/../..' . '/app/lib/critical-css/Critical_CSS_Storage.php',
+        'Automattic\\Jetpack_Boost\\Lib\\Critical_CSS\\Data_Sync\\Data_Sync_Schema' => __DIR__ . '/../..' . '/app/lib/critical-css/data-sync/Data_Sync_Setup.php',
         'Automattic\\Jetpack_Boost\\Lib\\Critical_CSS\\Data_Sync_Actions\\Regenerate_CSS' => __DIR__ . '/../..' . '/app/lib/critical-css/data-sync-actions/Regenerate_CSS.php',
         'Automattic\\Jetpack_Boost\\Lib\\Critical_CSS\\Data_Sync_Actions\\Set_Provider_CSS' => __DIR__ . '/../..' . '/app/lib/critical-css/data-sync-actions/Set_Provider_CSS.php',
         'Automattic\\Jetpack_Boost\\Lib\\Critical_CSS\\Data_Sync_Actions\\Set_Provider_Error_Dismissed' => __DIR__ . '/../..' . '/app/lib/critical-css/data-sync-actions/Set_Provider_Error_Dismissed.php',
@@ -346,6 +349,7 @@ class ComposerStaticInitb1e77e6231d50e7663f84529b6a3dfda_jetpack_boostⓥ3_10_0_
         'Automattic\\Jetpack_Boost\\Lib\\Super_Cache_Tracking' => __DIR__ . '/../..' . '/app/lib/Super_Cache_Tracking.php',
         'Automattic\\Jetpack_Boost\\Modules\\Image_Guide\\Image_Guide' => __DIR__ . '/../..' . '/app/modules/image-guide/Image_Guide.php',
         'Automattic\\Jetpack_Boost\\Modules\\Image_Guide\\Image_Guide_Proxy' => __DIR__ . '/../..' . '/app/modules/image-guide/Image_Guide_Proxy.php',
+        'Automattic\\Jetpack_Boost\\Modules\\Image_Size_Analysis\\Data_Sync\\Data_Sync_Schema' => __DIR__ . '/../..' . '/app/modules/image-size-analysis/data-sync/Data_Sync_Setup.php',
         'Automattic\\Jetpack_Boost\\Modules\\Image_Size_Analysis\\Data_Sync\\Image_Size_Analysis_Entry' => __DIR__ . '/../..' . '/app/modules/image-size-analysis/data-sync/Image_Size_Analysis_Entry.php',
         'Automattic\\Jetpack_Boost\\Modules\\Image_Size_Analysis\\Data_Sync\\Image_Size_Analysis_Summary' => __DIR__ . '/../..' . '/app/modules/image-size-analysis/data-sync/Image_Size_Analysis_Summary.php',
         'Automattic\\Jetpack_Boost\\Modules\\Image_Size_Analysis\\Image_Size_Analysis' => __DIR__ . '/../..' . '/app/modules/image-size-analysis/Image_Size_Analysis.php',
@@ -414,7 +418,6 @@ class ComposerStaticInitb1e77e6231d50e7663f84529b6a3dfda_jetpack_boostⓥ3_10_0_
         'MatthiasMullie\\PathConverter\\Converter' => __DIR__ . '/..' . '/matthiasmullie/path-converter/src/Converter.php',
         'MatthiasMullie\\PathConverter\\ConverterInterface' => __DIR__ . '/..' . '/matthiasmullie/path-converter/src/ConverterInterface.php',
         'MatthiasMullie\\PathConverter\\NoConverter' => __DIR__ . '/..' . '/matthiasmullie/path-converter/src/NoConverter.php',
-        'Performance_History_Entry' => __DIR__ . '/../..' . '/app/data-sync/Performance_History_Entry.php',
     );
 
     public static function getInitializer(ClassLoader $loader)

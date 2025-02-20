@@ -29,7 +29,7 @@
 		"automattic/jetpack-schema": "^0.2.1",
 		"automattic/jetpack-status": "^5.0.4-alpha",
 		"automattic/jetpack-sync": "^4.8.1",
-		"automattic/jetpack-wp-js-data-sync": "^0.6.1",
+		"automattic/jetpack-wp-js-data-sync": "^0.6.2-alpha",
 		"matthiasmullie/minify": "^1.3"
 	},
 	"require-dev": {
