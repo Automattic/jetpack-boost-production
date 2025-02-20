@@ -9,6 +9,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 This is an alpha version! The changes listed here are not final.
 
+### Added
+- Concatenation: create invisible "minify module" that handles deactivation of both modules.
+
 ### Changed
 - Connection: Display connection status on Users page independent of the SSO module.
 - General: Improved the way modules are configured internally [#39859]

@@ -1318,6 +1318,10 @@ return array(
 		'version' => '3.10.0.0-alpha',
 		'path'    => $baseDir . '/app/modules/optimizations/image-cdn/class-quality-settings.php'
 	),
+	'Automattic\\Jetpack_Boost\\Modules\\Optimizations\\Minify\\Minify' => array(
+		'version' => '3.10.0.0-alpha',
+		'path'    => $baseDir . '/app/modules/optimizations/minify/Minify.php'
+	),
 	'Automattic\\Jetpack_Boost\\Modules\\Optimizations\\Minify\\Minify_CSS' => array(
 		'version' => '3.10.0.0-alpha',
 		'path'    => $baseDir . '/app/modules/optimizations/minify/class-minify-css.php'

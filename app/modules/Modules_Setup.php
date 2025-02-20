@@ -191,6 +191,19 @@ class Modules_Setup implements Has_Setup, Has_Data_Sync {
 			$module->on_deactivate();
 		}
 
+		if ( $module ) {
+			$submodules = $module->get_available_submodules();
+			if ( is_array( $submodules ) && ! empty( $submodules ) ) {
+				foreach ( $submodules as $sub_module ) {
+					if ( $is_activated ) {
+						$sub_module->on_activate();
+					} else {
+						$sub_module->on_deactivate();
+					}
+				}
+			}
+		}
+
 		if ( $module_slug === Cloud_CSS::get_slug() && $is_activated ) {
 			( new Regenerate() )->start();
 		}
