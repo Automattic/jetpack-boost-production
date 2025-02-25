@@ -6,7 +6,7 @@
 	"require": {
 		"php": ">=7.2",
 		"automattic/jetpack-assets": "^4.0.8",
-		"automattic/jetpack-status": "^5.0.4"
+		"automattic/jetpack-status": "^5.0.5-alpha"
 	},
 	"require-dev": {
 		"automattic/jetpack-test-environment": "@dev",
