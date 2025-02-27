@@ -1468,11 +1468,11 @@ return array(
 	),
 	'Automattic\\Jetpack_Boost\\Tests\\Base_TestCase' => array(
 		'version' => '3.10.0.0-alpha',
-		'path'    => $baseDir . '/tests/php/class-base-testcase.php'
+		'path'    => $baseDir . '/tests/php/Base_TestCase.php'
 	),
-	'Automattic\\Jetpack_Boost\\Tests\\Lib\\Minify\\Test_Functions_Service' => array(
+	'Automattic\\Jetpack_Boost\\Tests\\Lib\\Minify\\Functions_Service_Test' => array(
 		'version' => '3.10.0.0-alpha',
-		'path'    => $baseDir . '/tests/php/lib/minify/test-functions-service.php'
+		'path'    => $baseDir . '/tests/php/lib/minify/Functions_Service_Test.php'
 	),
 	'Automattic\\Jetpack_Boost\\Tests\\Lib\\WP_Test_Analytics' => array(
 		'version' => '3.10.0.0-alpha',
@@ -1484,11 +1484,11 @@ return array(
 	),
 	'Automattic\\Jetpack_Boost\\Tests\\My_Jetpack_Test' => array(
 		'version' => '3.10.0.0-alpha',
-		'path'    => $baseDir . '/tests/php/class-my-jetpack.php'
+		'path'    => $baseDir . '/tests/php/My_Jetpack_Test.php'
 	),
 	'Automattic\\Jetpack_Boost\\Tests\\Super_Cache_Compatibility_Checker_Test' => array(
 		'version' => '3.10.0.0-alpha',
-		'path'    => $baseDir . '/tests/php/class-super-cache-compatibility-checker-test.php'
+		'path'    => $baseDir . '/tests/php/Super_Cache_Compatibility_Checker_Test.php'
 	),
 	'Container' => array(
 		'version' => '5.0.2',
