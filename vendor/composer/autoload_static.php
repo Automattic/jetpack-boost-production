@@ -127,6 +127,7 @@ class ComposerStaticInitb1e77e6231d50e7663f84529b6a3dfda_jetpack_boostⓥ3_10_0_
         'Automattic\\Jetpack\\Licensing\\Endpoints' => __DIR__ . '/../..' . '/jetpack_vendor/automattic/jetpack-licensing/src/class-endpoints.php',
         'Automattic\\Jetpack\\Modules' => __DIR__ . '/../..' . '/jetpack_vendor/automattic/jetpack-status/src/class-modules.php',
         'Automattic\\Jetpack\\My_Jetpack\\Activitylog' => __DIR__ . '/../..' . '/jetpack_vendor/automattic/jetpack-my-jetpack/src/class-activitylog.php',
+        'Automattic\\Jetpack\\My_Jetpack\\Historically_Active_Modules' => __DIR__ . '/../..' . '/jetpack_vendor/automattic/jetpack-my-jetpack/src/class-historically-active-modules.php',
         'Automattic\\Jetpack\\My_Jetpack\\Hybrid_Product' => __DIR__ . '/../..' . '/jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-hybrid-product.php',
         'Automattic\\Jetpack\\My_Jetpack\\Initializer' => __DIR__ . '/../..' . '/jetpack_vendor/automattic/jetpack-my-jetpack/src/class-initializer.php',
         'Automattic\\Jetpack\\My_Jetpack\\Jetpack_Manage' => __DIR__ . '/../..' . '/jetpack_vendor/automattic/jetpack-my-jetpack/src/class-jetpack-manage.php',
