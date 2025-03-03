@@ -1490,9 +1490,9 @@ return array(
 		'version' => '3.10.0.0-alpha',
 		'path'    => $baseDir . '/tests/php/lib/test-class-minify.php'
 	),
-	'Automattic\\Jetpack_Boost\\Tests\\Modules\\Optimizations\\Speculation_Rules\\Test_Speculation_Rules' => array(
+	'Automattic\\Jetpack_Boost\\Tests\\Modules\\Optimizations\\Speculation_Rules\\Speculation_Rules_Test' => array(
 		'version' => '3.10.0.0-alpha',
-		'path'    => $baseDir . '/tests/php/modules/optimizations/speculation-rules/test-speculation-rules.php'
+		'path'    => $baseDir . '/tests/php/modules/optimizations/speculation-rules/Speculation_Rules_Test.php'
 	),
 	'Automattic\\Jetpack_Boost\\Tests\\My_Jetpack_Test' => array(
 		'version' => '3.10.0.0-alpha',
