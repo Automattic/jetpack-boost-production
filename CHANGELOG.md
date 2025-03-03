@@ -12,6 +12,7 @@ This is an alpha version! The changes listed here are not final.
 ### Added
 - Concatenation: create invisible "minify module" that handles deactivation of both modules.
 - Connection: Disconnecting a connection owner account will disconnect all other users first.
+- Speculation Rules: initial import of previous work to add speculation rules to Boost
 
 ### Changed
 - Connection: Display connection status on Users page independent of the SSO module.

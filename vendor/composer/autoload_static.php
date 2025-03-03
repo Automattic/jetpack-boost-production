@@ -385,6 +385,7 @@ class ComposerStaticInitb1e77e6231d50e7663f84529b6a3dfda_jetpack_boostⓥ3_10_0_
         'Automattic\\Jetpack_Boost\\Modules\\Optimizations\\Page_Cache\\Pre_WordPress\\Storage\\File_Storage' => __DIR__ . '/../..' . '/app/modules/optimizations/page-cache/pre-wordpress/storage/File_Storage.php',
         'Automattic\\Jetpack_Boost\\Modules\\Optimizations\\Page_Cache\\Pre_WordPress\\Storage\\Storage' => __DIR__ . '/../..' . '/app/modules/optimizations/page-cache/pre-wordpress/storage/Storage.php',
         'Automattic\\Jetpack_Boost\\Modules\\Optimizations\\Render_Blocking_JS\\Render_Blocking_JS' => __DIR__ . '/../..' . '/app/modules/optimizations/render-blocking-js/class-render-blocking-js.php',
+        'Automattic\\Jetpack_Boost\\Modules\\Optimizations\\Speculation_Rules\\Speculation_Rules' => __DIR__ . '/../..' . '/app/modules/optimizations/speculation-rules/Speculation_Rules.php',
         'Automattic\\Jetpack_Boost\\Modules\\Performance_History\\Performance_History' => __DIR__ . '/../..' . '/app/modules/performance-history/Performance_History.php',
         'Automattic\\Jetpack_Boost\\REST_API\\Contracts\\Endpoint' => __DIR__ . '/../..' . '/app/rest-api/contracts/Endpoint.php',
         'Automattic\\Jetpack_Boost\\REST_API\\Contracts\\Has_Always_Available_Endpoints' => __DIR__ . '/../..' . '/app/rest-api/contracts/Has_Always_Available_Endpoints.php',

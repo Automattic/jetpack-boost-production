@@ -1402,6 +1402,10 @@ return array(
 		'version' => '3.10.0.0-alpha',
 		'path'    => $baseDir . '/app/modules/optimizations/render-blocking-js/class-render-blocking-js.php'
 	),
+	'Automattic\\Jetpack_Boost\\Modules\\Optimizations\\Speculation_Rules\\Speculation_Rules' => array(
+		'version' => '3.10.0.0-alpha',
+		'path'    => $baseDir . '/app/modules/optimizations/speculation-rules/Speculation_Rules.php'
+	),
 	'Automattic\\Jetpack_Boost\\Modules\\Performance_History\\Performance_History' => array(
 		'version' => '3.10.0.0-alpha',
 		'path'    => $baseDir . '/app/modules/performance-history/Performance_History.php'
@@ -1485,6 +1489,10 @@ return array(
 	'Automattic\\Jetpack_Boost\\Tests\\Lib\\WP_Test_Minify' => array(
 		'version' => '3.10.0.0-alpha',
 		'path'    => $baseDir . '/tests/php/lib/test-class-minify.php'
+	),
+	'Automattic\\Jetpack_Boost\\Tests\\Modules\\Optimizations\\Speculation_Rules\\Test_Speculation_Rules' => array(
+		'version' => '3.10.0.0-alpha',
+		'path'    => $baseDir . '/tests/php/modules/optimizations/speculation-rules/test-speculation-rules.php'
 	),
 	'Automattic\\Jetpack_Boost\\Tests\\My_Jetpack_Test' => array(
 		'version' => '3.10.0.0-alpha',
