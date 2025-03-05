@@ -74,7 +74,7 @@ class Config {
 	 * Retrieves the hosting provider.
 	 * We're only interested in 'atomic' or 'woa' for now.
 	 *
-	 * @since 3.10.0-alpha
+	 * @since 3.10.0
 	 *
 	 * @return string The hosting provider.
 	 */
