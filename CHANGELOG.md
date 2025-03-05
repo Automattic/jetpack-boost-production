@@ -22,6 +22,7 @@ This is an alpha version! The changes listed here are not final.
 
 ### Fixed
 - Critical CSS: Fix showing empty error in some cases, when generation failed.
+- Critical CSS: Prevent invalid URLs from breaking the whole process.
 
 ## [3.9.0] - 2025-02-17
 ### Added
