@@ -5,24 +5,18 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
-## [3.10.0-alpha] - unreleased
-
-This is an alpha version! The changes listed here are not final.
-
+## [3.10.0] - 2025-03-05
 ### Added
-- Concatenation: create invisible "minify module" that handles deactivation of both modules.
-- Connection: Disconnecting a connection owner account will disconnect all other users first.
-- Speculation Rules: initial import of previous work to add speculation rules to Boost
+- Concatenate JS/CSS: Show a notice if legacy files are being served. [#41604]
 
 ### Changed
-- Connection: Display connection status on Users page independent of the SSO module.
-- General: Improved the way modules are configured internally [#39859]
-- Performance: only look for specific hosting providers in admin page.
-- Update package dependencies.
+- Concatenate JS/CSS: Improved handling of minification settings. [#41716]
+- General: Improved the way modules are configured internally [#39859] [#41673]
+- Update package dependencies. [#41955] [#42163] [#42180]
 
 ### Fixed
-- Critical CSS: Fix showing empty error in some cases, when generation failed.
-- Critical CSS: Prevent invalid URLs from breaking the whole process.
+- Critical CSS: Fix showing empty error in some cases, when generation failed. [#42026]
+- Critical CSS: Prevent invalid URLs from breaking the whole process. [#41946]
 
 ## [3.9.0] - 2025-02-17
 ### Added
@@ -616,7 +610,7 @@ This is an alpha version! The changes listed here are not final.
 
 - First public alpha release
 
-[3.10.0-alpha]: https://github.com/Automattic/jetpack-boost-production/compare/3.9.0...3.10.0-alpha
+[3.10.0]: https://github.com/Automattic/jetpack-boost-production/compare/3.9.0...3.10.0
 [3.9.0]: https://github.com/Automattic/jetpack-boost-production/compare/3.8.0...3.9.0
 [3.8.0]: https://github.com/Automattic/jetpack-boost-production/compare/3.7.0...3.8.0
 [3.7.0]: https://github.com/Automattic/jetpack-boost-production/compare/3.6.1...3.7.0
