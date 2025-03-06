@@ -11,6 +11,7 @@ This is an alpha version! The changes listed here are not final.
 
 ### Fixed
 - Critical CSS: Implement a workaround for WAF interfering with critical CSS.
+- Fix for unreleased update.
 
 ## [3.10.0] - 2025-03-05
 ### Added
