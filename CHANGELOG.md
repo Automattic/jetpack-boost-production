@@ -5,6 +5,13 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [3.10.4-alpha] - unreleased
+
+This is an alpha version! The changes listed here are not final.
+
+### Changed
+- Concatenate JS/CSS: Ensure delivery method tester is only tested once per network on Multisites
+
 ## [3.10.3] - 2025-03-06
 ### Fixed
 - Critical CSS: Fix generation. [#42263]
@@ -619,6 +626,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 - First public alpha release
 
+[3.10.4-alpha]: https://github.com/Automattic/jetpack-boost-production/compare/3.10.3...3.10.4-alpha
 [3.10.3]: https://github.com/Automattic/jetpack-boost-production/compare/3.10.2...3.10.3
 [3.10.2]: https://github.com/Automattic/jetpack-boost-production/compare/3.10.1...3.10.2
 [3.10.1]: https://github.com/Automattic/jetpack-boost-production/compare/3.9.0...3.10.1
