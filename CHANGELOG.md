@@ -12,6 +12,9 @@ This is an alpha version! The changes listed here are not final.
 ### Changed
 - Concatenate JS/CSS: Ensure delivery method tester is only tested once per network on Multisites
 
+### Fixed
+- Critical CSS: Mask CSS to prevent WAF false-positives during generation.
+
 ## [3.10.3] - 2025-03-06
 ### Fixed
 - Critical CSS: Fix generation. [#42263]
