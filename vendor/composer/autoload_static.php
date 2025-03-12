@@ -4,7 +4,7 @@
 
 namespace Composer\Autoload;
 
-class ComposerStaticInitb1e77e6231d50e7663f84529b6a3dfda_jetpack_boostⓥ3_10_4_alpha
+class ComposerStaticInitb1e77e6231d50e7663f84529b6a3dfda_jetpack_boostⓥ3_11_0_alpha
 {
     public static $files = array (
         '3773ef3f09c37da5478d578e32b03a4b' => __DIR__ . '/../..' . '/jetpack_vendor/automattic/jetpack-assets/actions.php',
@@ -385,7 +385,6 @@ class ComposerStaticInitb1e77e6231d50e7663f84529b6a3dfda_jetpack_boostⓥ3_10_4_
         'Automattic\\Jetpack_Boost\\Modules\\Optimizations\\Page_Cache\\Pre_WordPress\\Storage\\File_Storage' => __DIR__ . '/../..' . '/app/modules/optimizations/page-cache/pre-wordpress/storage/File_Storage.php',
         'Automattic\\Jetpack_Boost\\Modules\\Optimizations\\Page_Cache\\Pre_WordPress\\Storage\\Storage' => __DIR__ . '/../..' . '/app/modules/optimizations/page-cache/pre-wordpress/storage/Storage.php',
         'Automattic\\Jetpack_Boost\\Modules\\Optimizations\\Render_Blocking_JS\\Render_Blocking_JS' => __DIR__ . '/../..' . '/app/modules/optimizations/render-blocking-js/class-render-blocking-js.php',
-        'Automattic\\Jetpack_Boost\\Modules\\Optimizations\\Speculation_Rules\\Speculation_Rules' => __DIR__ . '/../..' . '/app/modules/optimizations/speculation-rules/Speculation_Rules.php',
         'Automattic\\Jetpack_Boost\\Modules\\Performance_History\\Performance_History' => __DIR__ . '/../..' . '/app/modules/performance-history/Performance_History.php',
         'Automattic\\Jetpack_Boost\\REST_API\\Contracts\\Endpoint' => __DIR__ . '/../..' . '/app/rest-api/contracts/Endpoint.php',
         'Automattic\\Jetpack_Boost\\REST_API\\Contracts\\Has_Always_Available_Endpoints' => __DIR__ . '/../..' . '/app/rest-api/contracts/Has_Always_Available_Endpoints.php',
@@ -426,9 +425,9 @@ class ComposerStaticInitb1e77e6231d50e7663f84529b6a3dfda_jetpack_boostⓥ3_10_4_
     public static function getInitializer(ClassLoader $loader)
     {
         return \Closure::bind(function () use ($loader) {
-            $loader->prefixLengthsPsr4 = ComposerStaticInitb1e77e6231d50e7663f84529b6a3dfda_jetpack_boostⓥ3_10_4_alpha::$prefixLengthsPsr4;
-            $loader->prefixDirsPsr4 = ComposerStaticInitb1e77e6231d50e7663f84529b6a3dfda_jetpack_boostⓥ3_10_4_alpha::$prefixDirsPsr4;
-            $loader->classMap = ComposerStaticInitb1e77e6231d50e7663f84529b6a3dfda_jetpack_boostⓥ3_10_4_alpha::$classMap;
+            $loader->prefixLengthsPsr4 = ComposerStaticInitb1e77e6231d50e7663f84529b6a3dfda_jetpack_boostⓥ3_11_0_alpha::$prefixLengthsPsr4;
+            $loader->prefixDirsPsr4 = ComposerStaticInitb1e77e6231d50e7663f84529b6a3dfda_jetpack_boostⓥ3_11_0_alpha::$prefixDirsPsr4;
+            $loader->classMap = ComposerStaticInitb1e77e6231d50e7663f84529b6a3dfda_jetpack_boostⓥ3_11_0_alpha::$classMap;
 
         }, null, ClassLoader::class);
     }
