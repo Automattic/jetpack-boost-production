@@ -33,8 +33,8 @@
 		"matthiasmullie/minify": "^1.3"
 	},
 	"require-dev": {
-		"automattic/jetpack-changelogger": "^6.0.1-alpha",
-		"automattic/phpunit-select-config": "^1.0.1-alpha",
+		"automattic/jetpack-changelogger": "^6.0.1",
+		"automattic/phpunit-select-config": "^1.0.0",
 		"brain/monkey": "^2.6.2",
 		"yoast/phpunit-polyfills": "^1.1.1"
 	},
