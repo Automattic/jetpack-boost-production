@@ -19,6 +19,10 @@ This is an alpha version! The changes listed here are not final.
 ### Fixed
 - Critical CSS: Mask CSS to prevent WAF false-positives during generation.
 
+## [3.10.4] - 2025-03-12
+### Fixed
+- Critical CSS: Mask CSS to prevent WAF false-positives during generation. [#42320]
+
 ## [3.10.3] - 2025-03-06
 ### Fixed
 - Critical CSS: Fix generation. [#42263]
@@ -633,7 +637,8 @@ This is an alpha version! The changes listed here are not final.
 
 - First public alpha release
 
-[3.11.0-alpha]: https://github.com/Automattic/jetpack-boost-production/compare/3.10.3...3.11.0-alpha
+[3.11.0-alpha]: https://github.com/Automattic/jetpack-boost-production/compare/3.10.4...3.11.0-alpha
+[3.10.4]: https://github.com/Automattic/jetpack-boost-production/compare/3.10.3...3.10.4
 [3.10.3]: https://github.com/Automattic/jetpack-boost-production/compare/3.10.2...3.10.3
 [3.10.2]: https://github.com/Automattic/jetpack-boost-production/compare/3.10.1...3.10.2
 [3.10.1]: https://github.com/Automattic/jetpack-boost-production/compare/3.9.0...3.10.1
