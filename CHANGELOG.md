@@ -15,6 +15,7 @@ This is an alpha version! The changes listed here are not final.
 ### Changed
 - Concatenate JS/CSS: Ensure delivery method tester is only tested once per network on Multisites
 - Speculation Rules: remove module as it will be replaced by a toggle in the Cornerstone Pages module
+- UI: replace old upgrade page with a new modal.
 - UI: Upgrade CTAs on the Jetpack Boost admin now opens a modal instead of navigating to the upgrade page.
 
 ### Fixed
