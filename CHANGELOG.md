@@ -10,12 +10,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 This is an alpha version! The changes listed here are not final.
 
 ### Added
-- Jetpack Boost: add product interstitial modal for boost
 - Page Cache: Add more cookies to the ignore-list for better caching.
 
 ### Changed
 - Concatenate JS/CSS: Ensure delivery method tester is only tested once per network on Multisites
 - Speculation Rules: remove module as it will be replaced by a toggle in the Cornerstone Pages module
+- UI: Upgrade CTAs on the Jetpack Boost admin now opens a modal instead of navigating to the upgrade page.
 
 ### Fixed
 - Critical CSS: Mask CSS to prevent WAF false-positives during generation.
