@@ -19,6 +19,7 @@ This is an alpha version! The changes listed here are not final.
 - UI: Change style of pills.
 - UI: replace old upgrade page with a new modal.
 - UI: Upgrade CTAs on the Jetpack Boost admin now opens a modal instead of navigating to the upgrade page.
+- Update package dependencies.
 
 ### Fixed
 - Critical CSS: Mask CSS to prevent WAF false-positives during generation.
