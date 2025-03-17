@@ -13,6 +13,7 @@ This is an alpha version! The changes listed here are not final.
 - Page Cache: Add more cookies to the ignore-list for better caching.
 
 ### Changed
+- Cache: Hide conflicting notice about cache setup on WoA.
 - Concatenate JS/CSS: Ensure delivery method tester is only tested once per network on Multisites
 - Speculation Rules: remove module as it will be replaced by a toggle in the Cornerstone Pages module
 - UI: Change style of pills.
