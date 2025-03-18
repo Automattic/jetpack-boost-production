@@ -1338,6 +1338,10 @@ return array(
 		'version' => '3.11.0.0-alpha',
 		'path'    => $baseDir . '/app/modules/optimizations/minify/class-minify-js.php'
 	),
+	'Automattic\\Jetpack_Boost\\Modules\\Optimizations\\Page_Cache\\Cache_Preload' => array(
+		'version' => '3.11.0.0-alpha',
+		'path'    => $baseDir . '/app/modules/optimizations/page-cache/class-cache-preload.php'
+	),
 	'Automattic\\Jetpack_Boost\\Modules\\Optimizations\\Page_Cache\\Data_Sync\\Page_Cache_Entry' => array(
 		'version' => '3.11.0.0-alpha',
 		'path'    => $baseDir . '/app/modules/optimizations/page-cache/data-sync/Page_Cache_Entry.php'
@@ -1489,6 +1493,10 @@ return array(
 	'Automattic\\Jetpack_Boost\\Tests\\Lib\\Minify_Test' => array(
 		'version' => '3.11.0.0-alpha',
 		'path'    => $baseDir . '/tests/php/lib/Minify_Test.php'
+	),
+	'Automattic\\Jetpack_Boost\\Tests\\Modules\\Optimizations\\Page_Cache\\Cache_Preload_Test' => array(
+		'version' => '3.11.0.0-alpha',
+		'path'    => $baseDir . '/tests/php/modules/optimizations/page-cache/Cache_Preload_Test.php'
 	),
 	'Automattic\\Jetpack_Boost\\Tests\\My_Jetpack_Test' => array(
 		'version' => '3.11.0.0-alpha',

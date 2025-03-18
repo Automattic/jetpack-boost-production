@@ -336,6 +336,7 @@ return array(
     'Automattic\\Jetpack_Boost\\Modules\\Optimizations\\Minify\\Minify' => $baseDir . '/app/modules/optimizations/minify/Minify.php',
     'Automattic\\Jetpack_Boost\\Modules\\Optimizations\\Minify\\Minify_CSS' => $baseDir . '/app/modules/optimizations/minify/class-minify-css.php',
     'Automattic\\Jetpack_Boost\\Modules\\Optimizations\\Minify\\Minify_JS' => $baseDir . '/app/modules/optimizations/minify/class-minify-js.php',
+    'Automattic\\Jetpack_Boost\\Modules\\Optimizations\\Page_Cache\\Cache_Preload' => $baseDir . '/app/modules/optimizations/page-cache/class-cache-preload.php',
     'Automattic\\Jetpack_Boost\\Modules\\Optimizations\\Page_Cache\\Data_Sync\\Page_Cache_Entry' => $baseDir . '/app/modules/optimizations/page-cache/data-sync/Page_Cache_Entry.php',
     'Automattic\\Jetpack_Boost\\Modules\\Optimizations\\Page_Cache\\Data_Sync_Actions\\Clear_Page_Cache' => $baseDir . '/app/modules/optimizations/page-cache/data-sync-actions/clear-page-cache.php',
     'Automattic\\Jetpack_Boost\\Modules\\Optimizations\\Page_Cache\\Data_Sync_Actions\\Deactivate_WPSC' => $baseDir . '/app/modules/optimizations/page-cache/data-sync-actions/deactivate-wpsc.php',

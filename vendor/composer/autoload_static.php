@@ -369,6 +369,7 @@ class ComposerStaticInitb1e77e6231d50e7663f84529b6a3dfda_jetpack_boostⓥ3_11_0_
         'Automattic\\Jetpack_Boost\\Modules\\Optimizations\\Minify\\Minify' => __DIR__ . '/../..' . '/app/modules/optimizations/minify/Minify.php',
         'Automattic\\Jetpack_Boost\\Modules\\Optimizations\\Minify\\Minify_CSS' => __DIR__ . '/../..' . '/app/modules/optimizations/minify/class-minify-css.php',
         'Automattic\\Jetpack_Boost\\Modules\\Optimizations\\Minify\\Minify_JS' => __DIR__ . '/../..' . '/app/modules/optimizations/minify/class-minify-js.php',
+        'Automattic\\Jetpack_Boost\\Modules\\Optimizations\\Page_Cache\\Cache_Preload' => __DIR__ . '/../..' . '/app/modules/optimizations/page-cache/class-cache-preload.php',
         'Automattic\\Jetpack_Boost\\Modules\\Optimizations\\Page_Cache\\Data_Sync\\Page_Cache_Entry' => __DIR__ . '/../..' . '/app/modules/optimizations/page-cache/data-sync/Page_Cache_Entry.php',
         'Automattic\\Jetpack_Boost\\Modules\\Optimizations\\Page_Cache\\Data_Sync_Actions\\Clear_Page_Cache' => __DIR__ . '/../..' . '/app/modules/optimizations/page-cache/data-sync-actions/clear-page-cache.php',
         'Automattic\\Jetpack_Boost\\Modules\\Optimizations\\Page_Cache\\Data_Sync_Actions\\Deactivate_WPSC' => __DIR__ . '/../..' . '/app/modules/optimizations/page-cache/data-sync-actions/deactivate-wpsc.php',

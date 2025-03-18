@@ -10,6 +10,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 This is an alpha version! The changes listed here are not final.
 
 ### Added
+- Page Cache: Add Cache Preloading for Cornerstone Pages
 - Page Cache: Add more cookies to the ignore-list for better caching.
 
 ### Changed
