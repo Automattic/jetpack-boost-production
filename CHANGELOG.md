@@ -23,6 +23,7 @@ This is an alpha version! The changes listed here are not final.
 
 ### Fixed
 - Critical CSS: Mask CSS to prevent WAF false-positives during generation.
+- Critical CSS: Prevent the process from failing when a single provider fails storing its CSS.
 
 ## [3.10.4] - 2025-03-12
 ### Fixed
