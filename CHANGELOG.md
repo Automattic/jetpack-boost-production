@@ -5,26 +5,19 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
-## [3.11.0-alpha] - unreleased
-
-This is an alpha version! The changes listed here are not final.
-
+## [3.11.0-beta] - 2025-03-18
 ### Added
-- Page Cache: Add Cache Preloading for Cornerstone Pages
-- Page Cache: Add more cookies to the ignore-list for better caching.
+- Page Cache: Add more cookies to the ignore-list for better caching. [#42365]
 
 ### Changed
-- Cache: Hide conflicting notice about cache setup on WoA.
-- Concatenate JS/CSS: Ensure delivery method tester is only tested once per network on Multisites
-- Speculation Rules: remove module as it will be replaced by a toggle in the Cornerstone Pages module
-- UI: Change style of pills.
-- UI: replace old upgrade page with a new modal.
-- UI: Upgrade CTAs on the Jetpack Boost admin now opens a modal instead of navigating to the upgrade page.
-- Update package dependencies.
+- Cache: Hide conflicting notice about cache setup on WoA. [#42466]
+- Concatenate JS/CSS: Ensure delivery method tester is only tested once per network on Multisite. [#41918]
+- UI: Change style of pills. [#42460]
+- UI: Upgrade CTAs on the Jetpack Boost admin now opens a modal instead of navigating to the upgrade page. [#42309] [#42416]
+- Update package dependencies. [#42511] [#42509]
 
 ### Fixed
-- Critical CSS: Mask CSS to prevent WAF false-positives during generation.
-- Critical CSS: Prevent the process from failing when a single provider fails storing its CSS.
+- Critical CSS: Prevent the process from failing when a single provider fails storing its CSS. [#42110]
 
 ## [3.10.4] - 2025-03-12
 ### Fixed
@@ -644,7 +637,7 @@ This is an alpha version! The changes listed here are not final.
 
 - First public alpha release
 
-[3.11.0-alpha]: https://github.com/Automattic/jetpack-boost-production/compare/3.10.4...3.11.0-alpha
+[3.11.0-beta]: https://github.com/Automattic/jetpack-boost-production/compare/3.10.4...3.11.0-beta
 [3.10.4]: https://github.com/Automattic/jetpack-boost-production/compare/3.10.3...3.10.4
 [3.10.3]: https://github.com/Automattic/jetpack-boost-production/compare/3.10.2...3.10.3
 [3.10.2]: https://github.com/Automattic/jetpack-boost-production/compare/3.10.1...3.10.2
