@@ -5,6 +5,10 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [3.11.1-alpha] - unreleased
+
+This is an alpha version! The changes listed here are not final.
+
 ## [3.11.0-beta] - 2025-03-18
 ### Added
 - Page Cache: Add more cookies to the ignore-list for better caching. [#42365]
@@ -637,6 +641,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 - First public alpha release
 
+[3.11.1-alpha]: https://github.com/Automattic/jetpack-boost-production/compare/3.11.0-beta...3.11.1-alpha
 [3.11.0-beta]: https://github.com/Automattic/jetpack-boost-production/compare/3.10.4...3.11.0-beta
 [3.10.4]: https://github.com/Automattic/jetpack-boost-production/compare/3.10.3...3.10.4
 [3.10.3]: https://github.com/Automattic/jetpack-boost-production/compare/3.10.2...3.10.3
