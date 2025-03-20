@@ -54,7 +54,7 @@ class Cache_Preload implements Pluggable, Has_Activate, Is_Always_On {
 	 * As this is a submodule, this activate is triggered when the parent module is activated,
 	 * despite the module having Is_Always_On.
 	 *
-	 * @since 3.11.1-alpha
+	 * @since 3.12.0-alpha
 	 */
 	public static function activate() {
 		$instance = new self();

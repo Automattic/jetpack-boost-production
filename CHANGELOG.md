@@ -5,9 +5,12 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
-## [3.11.1-alpha] - unreleased
+## [3.12.0-alpha] - unreleased
 
 This is an alpha version! The changes listed here are not final.
+
+### Added
+- My Jetpack: An onboarding screen has been implemented to provide clear, step-by-step instructions for new users connecting to Jetpack.
 
 ## [3.11.0] - 2025-03-19
 ### Added
@@ -641,7 +644,7 @@ This is an alpha version! The changes listed here are not final.
 
 - First public alpha release
 
-[3.11.1-alpha]: https://github.com/Automattic/jetpack-boost-production/compare/3.11.0...3.11.1-alpha
+[3.12.0-alpha]: https://github.com/Automattic/jetpack-boost-production/compare/3.11.0...3.12.0-alpha
 [3.11.0]: https://github.com/Automattic/jetpack-boost-production/compare/3.10.4...3.11.0
 [3.10.4]: https://github.com/Automattic/jetpack-boost-production/compare/3.10.3...3.10.4
 [3.10.3]: https://github.com/Automattic/jetpack-boost-production/compare/3.10.2...3.10.3
