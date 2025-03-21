@@ -12,6 +12,9 @@ This is an alpha version! The changes listed here are not final.
 ### Added
 - My Jetpack: An onboarding screen has been implemented to provide clear, step-by-step instructions for new users connecting to Jetpack.
 
+### Removed
+- Compatibility: Remove redundant compatibility code.
+
 ## [3.11.0] - 2025-03-19
 ### Added
 - Page Cache: Add more cookies to the ignore-list for better caching. [#42365]
