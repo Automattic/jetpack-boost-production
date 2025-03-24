@@ -1334,13 +1334,13 @@ return array(
 		'version' => '3.12.0.0-alpha',
 		'path'    => $baseDir . '/app/modules/optimizations/image-cdn/class-quality-settings.php'
 	),
-	'Automattic\\Jetpack_Boost\\Modules\\Optimizations\\Minify\\Minify' => array(
-		'version' => '3.12.0.0-alpha',
-		'path'    => $baseDir . '/app/modules/optimizations/minify/Minify.php'
-	),
 	'Automattic\\Jetpack_Boost\\Modules\\Optimizations\\Minify\\Minify_CSS' => array(
 		'version' => '3.12.0.0-alpha',
 		'path'    => $baseDir . '/app/modules/optimizations/minify/class-minify-css.php'
+	),
+	'Automattic\\Jetpack_Boost\\Modules\\Optimizations\\Minify\\Minify_Common' => array(
+		'version' => '3.12.0.0-alpha',
+		'path'    => $baseDir . '/app/modules/optimizations/minify/class-minify-common.php'
 	),
 	'Automattic\\Jetpack_Boost\\Modules\\Optimizations\\Minify\\Minify_JS' => array(
 		'version' => '3.12.0.0-alpha',
