@@ -16,6 +16,9 @@ This is an alpha version! The changes listed here are not final.
 ### Removed
 - Compatibility: Remove redundant compatibility code.
 
+### Fixed
+- Critical CSS: Prevent the generation process from failing when an individual page fails to load.
+
 ## [3.11.0] - 2025-03-19
 ### Added
 - Page Cache: Add more cookies to the ignore-list for better caching. [#42365]
