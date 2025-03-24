@@ -4,6 +4,7 @@ namespace Automattic\Jetpack_Boost\Modules;
 
 use Automattic\Jetpack\Schema\Schema;
 use Automattic\Jetpack\WP_JS_Data_Sync\Data_Sync;
+use Automattic\Jetpack_Boost\Contracts\Changes_Output_After_Activation;
 use Automattic\Jetpack_Boost\Contracts\Has_Data_Sync;
 use Automattic\Jetpack_Boost\Contracts\Has_Setup;
 use Automattic\Jetpack_Boost\Data_Sync\Modules_State_Entry;
@@ -168,6 +169,27 @@ class Modules_Setup implements Has_Setup, Has_Data_Sync {
 		$this->setup_modules_data_sync( $this->modules_index->get_modules() );
 		add_action( 'plugins_loaded', array( $this, 'load_modules' ) );
 		add_action( 'jetpack_boost_module_status_updated', array( $this, 'on_module_status_update' ), 10, 2 );
+
+		// Add a hook to fire page output changed action when a module that Changes_Output_After_Activation indicates something has changed.
+		foreach ( $this->available_modules as $module ) {
+			if ( ! $module->is_enabled() ) {
+				continue;
+			}
+
+			$feature = $module->feature;
+			if ( ! ( $feature instanceof Changes_Output_After_Activation ) ) {
+				continue;
+			}
+
+			$action_names = $feature::get_change_output_action_names();
+			if ( empty( $action_names ) ) {
+				continue;
+			}
+
+			foreach ( $action_names as $action ) {
+				add_action( $action, array( $module, 'indicate_page_output_changed' ), 10, 1 );
+			}
+		}
 	}
 
 	/**

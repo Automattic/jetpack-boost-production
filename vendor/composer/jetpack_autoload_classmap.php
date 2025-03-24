@@ -990,9 +990,13 @@ return array(
 		'version' => '3.12.0.0-alpha',
 		'path'    => $baseDir . '/app/admin/class-regenerate-admin-notice.php'
 	),
-	'Automattic\\Jetpack_Boost\\Contracts\\Changes_Page_Output' => array(
+	'Automattic\\Jetpack_Boost\\Contracts\\Changes_Output_After_Activation' => array(
 		'version' => '3.12.0.0-alpha',
-		'path'    => $baseDir . '/app/contracts/Changes_Output.php'
+		'path'    => $baseDir . '/app/contracts/interface-changes-output-after-activation.php'
+	),
+	'Automattic\\Jetpack_Boost\\Contracts\\Changes_Output_On_Activation' => array(
+		'version' => '3.12.0.0-alpha',
+		'path'    => $baseDir . '/app/contracts/interface-changes-output-on-activation.php'
 	),
 	'Automattic\\Jetpack_Boost\\Contracts\\Has_Activate' => array(
 		'version' => '3.12.0.0-alpha',
@@ -1021,6 +1025,10 @@ return array(
 	'Automattic\\Jetpack_Boost\\Contracts\\Is_Always_On' => array(
 		'version' => '3.12.0.0-alpha',
 		'path'    => $baseDir . '/app/contracts/Is_Always_On.php'
+	),
+	'Automattic\\Jetpack_Boost\\Contracts\\Needs_To_Be_Ready' => array(
+		'version' => '3.12.0.0-alpha',
+		'path'    => $baseDir . '/app/contracts/interface-needs-to-be-ready.php'
 	),
 	'Automattic\\Jetpack_Boost\\Contracts\\Optimization' => array(
 		'version' => '3.12.0.0-alpha',
