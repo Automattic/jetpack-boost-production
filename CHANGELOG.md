@@ -14,6 +14,9 @@ This is an alpha version! The changes listed here are not final.
 - Adds Account Protection initialization
 - My Jetpack: An onboarding screen has been implemented to provide clear, step-by-step instructions for new users connecting to Jetpack.
 
+### Changed
+- Connection: Allow pre-selected login providers
+
 ### Removed
 - Compatibility: Remove redundant compatibility code.
 
