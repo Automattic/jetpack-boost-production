@@ -13,7 +13,9 @@ This is an alpha version! The changes listed here are not final.
 - Cornerstone Pages: add speculation rules toggle to prerender those URLs
 
 ### Changed
+- Critical CSS: Improve reliability of generation by running hooks after saving the state.
 - General: indicate compatibility with the upcoming version of WordPress - 6.8.
+- UI: Show module loading errors with details.
 
 ## [3.12.0-beta] - 2025-03-26
 ### Added
