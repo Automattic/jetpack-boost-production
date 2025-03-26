@@ -12,6 +12,9 @@ This is an alpha version! The changes listed here are not final.
 ### Added
 - Cornerstone Pages: add speculation rules toggle to prerender those URLs
 
+### Changed
+- General: indicate compatibility with the upcoming version of WordPress - 6.8.
+
 ## [3.12.0-beta] - 2025-03-26
 ### Added
 - Cache: Add Page Cache Preloading for Cornerstone Pages [#42549]
