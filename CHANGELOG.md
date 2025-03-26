@@ -10,6 +10,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 This is an alpha version! The changes listed here are not final.
 
 ### Changed
+- Critical CSS: Improve reliability of generation by running hooks after saving the state.
 - UI: Show module loading errors with details.
 
 ## [3.12.0-beta] - 2025-03-26
