@@ -11,6 +11,7 @@ This is an alpha version! The changes listed here are not final.
 
 ### Added
 - Cornerstone Pages: add speculation rules toggle to prerender those URLs
+- Speculation rules: Added Cornerstone Pages to the WP speculation rules for displaying
 
 ### Changed
 - Critical CSS: Improve reliability of generation by running hooks after saving the state.

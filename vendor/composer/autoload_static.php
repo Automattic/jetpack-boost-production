@@ -347,6 +347,7 @@ class ComposerStaticInitb1e77e6231d50e7663f84529b6a3dfda_jetpack_boostⓥ3_13_0_
         'Automattic\\Jetpack_Boost\\Lib\\Setup' => __DIR__ . '/../..' . '/app/lib/Setup.php',
         'Automattic\\Jetpack_Boost\\Lib\\Site_Health' => __DIR__ . '/../..' . '/app/lib/Site_Health.php',
         'Automattic\\Jetpack_Boost\\Lib\\Site_Urls' => __DIR__ . '/../..' . '/app/lib/class-site-urls.php',
+        'Automattic\\Jetpack_Boost\\Lib\\Speculation_Rules\\Speculation_Rules' => __DIR__ . '/../..' . '/app/lib/speculation-rules/Speculation_Rules.php',
         'Automattic\\Jetpack_Boost\\Lib\\Status' => __DIR__ . '/../..' . '/app/lib/Status.php',
         'Automattic\\Jetpack_Boost\\Lib\\Storage_Post_Type' => __DIR__ . '/../..' . '/app/lib/class-storage-post-type.php',
         'Automattic\\Jetpack_Boost\\Lib\\Super_Cache_Config_Compatibility' => __DIR__ . '/../..' . '/app/lib/Super_Cache_Config_Compatibility.php',
@@ -424,6 +425,7 @@ class ComposerStaticInitb1e77e6231d50e7663f84529b6a3dfda_jetpack_boostⓥ3_13_0_
         'MatthiasMullie\\PathConverter\\Converter' => __DIR__ . '/..' . '/matthiasmullie/path-converter/src/Converter.php',
         'MatthiasMullie\\PathConverter\\ConverterInterface' => __DIR__ . '/..' . '/matthiasmullie/path-converter/src/ConverterInterface.php',
         'MatthiasMullie\\PathConverter\\NoConverter' => __DIR__ . '/..' . '/matthiasmullie/path-converter/src/NoConverter.php',
+        'WP_Speculation_Rules' => __DIR__ . '/../..' . '/app/lib/speculation-rules/WP_Speculation_Rules.php',
     );
 
     public static function getInitializer(ClassLoader $loader)

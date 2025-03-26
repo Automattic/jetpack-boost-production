@@ -1250,6 +1250,10 @@ return array(
 		'version' => '3.13.0.0-alpha',
 		'path'    => $baseDir . '/app/lib/class-site-urls.php'
 	),
+	'Automattic\\Jetpack_Boost\\Lib\\Speculation_Rules\\Speculation_Rules' => array(
+		'version' => '3.13.0.0-alpha',
+		'path'    => $baseDir . '/app/lib/speculation-rules/Speculation_Rules.php'
+	),
 	'Automattic\\Jetpack_Boost\\Lib\\Status' => array(
 		'version' => '3.13.0.0-alpha',
 		'path'    => $baseDir . '/app/lib/Status.php'
@@ -1514,6 +1518,10 @@ return array(
 		'version' => '3.13.0.0-alpha',
 		'path'    => $baseDir . '/tests/php/lib/mocks/Mock_Premium_Features.php'
 	),
+	'Automattic\\Jetpack_Boost\\Tests\\Lib\\Speculation_Rules\\Speculation_Rules_Test' => array(
+		'version' => '3.13.0.0-alpha',
+		'path'    => $baseDir . '/tests/php/lib/speculation-rules/Speculation_Rules_Test.php'
+	),
 	'Automattic\\Jetpack_Boost\\Tests\\Modules\\Optimizations\\Page_Cache\\Cache_Preload_Test' => array(
 		'version' => '3.13.0.0-alpha',
 		'path'    => $baseDir . '/tests/php/modules/optimizations/page-cache/Cache_Preload_Test.php'
@@ -1637,5 +1645,9 @@ return array(
 	'Version_Selector' => array(
 		'version' => '5.0.6-alpha',
 		'path'    => $vendorDir . '/automattic/jetpack-autoloader/src/class-version-selector.php'
+	),
+	'WP_Speculation_Rules' => array(
+		'version' => '3.13.0.0-alpha',
+		'path'    => $baseDir . '/app/lib/speculation-rules/WP_Speculation_Rules.php'
 	),
 );
