@@ -18,10 +18,11 @@ This is an alpha version! The changes listed here are not final.
 - General: indicate compatibility with the upcoming version of WordPress - 6.8.
 - UI: Show module loading errors with details.
 
+## [3.12.1] - 2025-03-27
 ### Fixed
-- General: Fixed intermittent error during module loading.
+- General: Fixed intermittent error during module loading. [#42742]
 
-## [3.12.0-beta] - 2025-03-26
+## [3.12.0] - 2025-03-27
 ### Added
 - Cache: Add Page Cache Preloading for Cornerstone Pages [#42549]
 - Add Account Protection initialization [#40925]
@@ -668,8 +669,9 @@ This is an alpha version! The changes listed here are not final.
 
 - First public alpha release
 
-[3.13.0-alpha]: https://github.com/Automattic/jetpack-boost-production/compare/3.12.0-beta...3.13.0-alpha
-[3.12.0-beta]: https://github.com/Automattic/jetpack-boost-production/compare/3.11.0...3.12.0-beta
+[3.13.0-alpha]: https://github.com/Automattic/jetpack-boost-production/compare/3.12.1...3.13.0-alpha
+[3.12.1]: https://github.com/Automattic/jetpack-boost-production/compare/3.12.0...3.12.1
+[3.12.0]: https://github.com/Automattic/jetpack-boost-production/compare/3.11.0...3.12.0
 [3.11.0]: https://github.com/Automattic/jetpack-boost-production/compare/3.10.4...3.11.0
 [3.10.4]: https://github.com/Automattic/jetpack-boost-production/compare/3.10.3...3.10.4
 [3.10.3]: https://github.com/Automattic/jetpack-boost-production/compare/3.10.2...3.10.3
