@@ -18,6 +18,9 @@ This is an alpha version! The changes listed here are not final.
 - General: indicate compatibility with the upcoming version of WordPress - 6.8.
 - UI: Show module loading errors with details.
 
+### Fixed
+- General: Fixed intermittent error during module loading.
+
 ## [3.12.0-beta] - 2025-03-26
 ### Added
 - Cache: Add Page Cache Preloading for Cornerstone Pages [#42549]
