@@ -998,6 +998,10 @@ return array(
 		'version' => '3.13.0.0-alpha',
 		'path'    => $baseDir . '/app/contracts/interface-changes-output-on-activation.php'
 	),
+	'Automattic\\Jetpack_Boost\\Contracts\\Feature' => array(
+		'version' => '3.13.0.0-alpha',
+		'path'    => $baseDir . '/app/contracts/interface-feature.php'
+	),
 	'Automattic\\Jetpack_Boost\\Contracts\\Has_Activate' => array(
 		'version' => '3.13.0.0-alpha',
 		'path'    => $baseDir . '/app/contracts/Has_Activate.php'
@@ -1018,10 +1022,6 @@ return array(
 		'version' => '3.13.0.0-alpha',
 		'path'    => $baseDir . '/app/contracts/Has_Slug.php'
 	),
-	'Automattic\\Jetpack_Boost\\Contracts\\Has_Submodules' => array(
-		'version' => '3.13.0.0-alpha',
-		'path'    => $baseDir . '/app/contracts/Has_Submodules.php'
-	),
 	'Automattic\\Jetpack_Boost\\Contracts\\Is_Always_On' => array(
 		'version' => '3.13.0.0-alpha',
 		'path'    => $baseDir . '/app/contracts/Is_Always_On.php'
@@ -1032,11 +1032,11 @@ return array(
 	),
 	'Automattic\\Jetpack_Boost\\Contracts\\Optimization' => array(
 		'version' => '3.13.0.0-alpha',
-		'path'    => $baseDir . '/app/contracts/Optimization.php'
+		'path'    => $baseDir . '/app/contracts/interface-optimization.php'
 	),
-	'Automattic\\Jetpack_Boost\\Contracts\\Pluggable' => array(
+	'Automattic\\Jetpack_Boost\\Contracts\\Sub_Feature' => array(
 		'version' => '3.13.0.0-alpha',
-		'path'    => $baseDir . '/app/contracts/Pluggable.php'
+		'path'    => $baseDir . '/app/contracts/interface-sub-feature.php'
 	),
 	'Automattic\\Jetpack_Boost\\Data_Sync\\Cornerstone_Pages_Entry' => array(
 		'version' => '3.13.0.0-alpha',
@@ -1266,6 +1266,10 @@ return array(
 		'version' => '3.13.0.0-alpha',
 		'path'    => $baseDir . '/app/lib/Super_Cache_Tracking.php'
 	),
+	'Automattic\\Jetpack_Boost\\Modules\\Features_Index' => array(
+		'version' => '3.13.0.0-alpha',
+		'path'    => $baseDir . '/app/modules/class-features-index.php'
+	),
 	'Automattic\\Jetpack_Boost\\Modules\\Image_Guide\\Image_Guide' => array(
 		'version' => '3.13.0.0-alpha',
 		'path'    => $baseDir . '/app/modules/image-guide/Image_Guide.php'
@@ -1297,10 +1301,6 @@ return array(
 	'Automattic\\Jetpack_Boost\\Modules\\Module' => array(
 		'version' => '3.13.0.0-alpha',
 		'path'    => $baseDir . '/app/modules/Module.php'
-	),
-	'Automattic\\Jetpack_Boost\\Modules\\Modules_Index' => array(
-		'version' => '3.13.0.0-alpha',
-		'path'    => $baseDir . '/app/modules/Modules_Index.php'
 	),
 	'Automattic\\Jetpack_Boost\\Modules\\Modules_Setup' => array(
 		'version' => '3.13.0.0-alpha',
@@ -1517,6 +1517,18 @@ return array(
 	'Automattic\\Jetpack_Boost\\Tests\\Lib\\Mocks\\Mock_Premium_Features' => array(
 		'version' => '3.13.0.0-alpha',
 		'path'    => $baseDir . '/tests/php/lib/mocks/Mock_Premium_Features.php'
+	),
+	'Automattic\\Jetpack_Boost\\Tests\\Modules\\Features_Index_Test' => array(
+		'version' => '3.13.0.0-alpha',
+		'path'    => $baseDir . '/tests/php/modules/Features_Index_Test.php'
+	),
+	'Automattic\\Jetpack_Boost\\Tests\\Modules\\Force_Disabled_Test' => array(
+		'version' => '3.13.0.0-alpha',
+		'path'    => $baseDir . '/tests/php/modules/Force_Disabled_Test.php'
+	),
+	'Automattic\\Jetpack_Boost\\Tests\\Modules\\Module_Test' => array(
+		'version' => '3.13.0.0-alpha',
+		'path'    => $baseDir . '/tests/php/modules/Module_Test.php'
 	),
 	'Automattic\\Jetpack_Boost\\Tests\\Modules\\Optimizations\\Page_Cache\\Cache_Preload_Test' => array(
 		'version' => '3.13.0.0-alpha',
