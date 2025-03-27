@@ -1250,10 +1250,6 @@ return array(
 		'version' => '3.13.0.0-alpha',
 		'path'    => $baseDir . '/app/lib/class-site-urls.php'
 	),
-	'Automattic\\Jetpack_Boost\\Lib\\Speculation_Rules\\Speculation_Rules' => array(
-		'version' => '3.13.0.0-alpha',
-		'path'    => $baseDir . '/app/lib/speculation-rules/Speculation_Rules.php'
-	),
 	'Automattic\\Jetpack_Boost\\Lib\\Status' => array(
 		'version' => '3.13.0.0-alpha',
 		'path'    => $baseDir . '/app/lib/Status.php'
@@ -1422,6 +1418,10 @@ return array(
 		'version' => '3.13.0.0-alpha',
 		'path'    => $baseDir . '/app/modules/optimizations/render-blocking-js/class-render-blocking-js.php'
 	),
+	'Automattic\\Jetpack_Boost\\Modules\\Optimizations\\Speculation_Rules\\Speculation_Rules' => array(
+		'version' => '3.13.0.0-alpha',
+		'path'    => $baseDir . '/app/modules/optimizations/speculation-rules/Speculation_Rules.php'
+	),
 	'Automattic\\Jetpack_Boost\\Modules\\Performance_History\\Performance_History' => array(
 		'version' => '3.13.0.0-alpha',
 		'path'    => $baseDir . '/app/modules/performance-history/Performance_History.php'
@@ -1518,13 +1518,13 @@ return array(
 		'version' => '3.13.0.0-alpha',
 		'path'    => $baseDir . '/tests/php/lib/mocks/Mock_Premium_Features.php'
 	),
-	'Automattic\\Jetpack_Boost\\Tests\\Lib\\Speculation_Rules\\Speculation_Rules_Test' => array(
-		'version' => '3.13.0.0-alpha',
-		'path'    => $baseDir . '/tests/php/lib/speculation-rules/Speculation_Rules_Test.php'
-	),
 	'Automattic\\Jetpack_Boost\\Tests\\Modules\\Optimizations\\Page_Cache\\Cache_Preload_Test' => array(
 		'version' => '3.13.0.0-alpha',
 		'path'    => $baseDir . '/tests/php/modules/optimizations/page-cache/Cache_Preload_Test.php'
+	),
+	'Automattic\\Jetpack_Boost\\Tests\\Modules\\Optimizations\\Speculation_Rules\\Speculation_Rules_Test' => array(
+		'version' => '3.13.0.0-alpha',
+		'path'    => $baseDir . '/tests/php/modules/optimizations/speculation-rules/Speculation_Rules_Test.php'
 	),
 	'Automattic\\Jetpack_Boost\\Tests\\My_Jetpack_Test' => array(
 		'version' => '3.13.0.0-alpha',
@@ -1648,6 +1648,6 @@ return array(
 	),
 	'WP_Speculation_Rules' => array(
 		'version' => '3.13.0.0-alpha',
-		'path'    => $baseDir . '/app/lib/speculation-rules/WP_Speculation_Rules.php'
+		'path'    => $baseDir . '/app/modules/optimizations/speculation-rules/WP_Speculation_Rules.php'
 	),
 );

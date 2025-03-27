@@ -314,7 +314,6 @@ return array(
     'Automattic\\Jetpack_Boost\\Lib\\Setup' => $baseDir . '/app/lib/Setup.php',
     'Automattic\\Jetpack_Boost\\Lib\\Site_Health' => $baseDir . '/app/lib/Site_Health.php',
     'Automattic\\Jetpack_Boost\\Lib\\Site_Urls' => $baseDir . '/app/lib/class-site-urls.php',
-    'Automattic\\Jetpack_Boost\\Lib\\Speculation_Rules\\Speculation_Rules' => $baseDir . '/app/lib/speculation-rules/Speculation_Rules.php',
     'Automattic\\Jetpack_Boost\\Lib\\Status' => $baseDir . '/app/lib/Status.php',
     'Automattic\\Jetpack_Boost\\Lib\\Storage_Post_Type' => $baseDir . '/app/lib/class-storage-post-type.php',
     'Automattic\\Jetpack_Boost\\Lib\\Super_Cache_Config_Compatibility' => $baseDir . '/app/lib/Super_Cache_Config_Compatibility.php',
@@ -357,6 +356,7 @@ return array(
     'Automattic\\Jetpack_Boost\\Modules\\Optimizations\\Page_Cache\\Pre_WordPress\\Storage\\File_Storage' => $baseDir . '/app/modules/optimizations/page-cache/pre-wordpress/storage/File_Storage.php',
     'Automattic\\Jetpack_Boost\\Modules\\Optimizations\\Page_Cache\\Pre_WordPress\\Storage\\Storage' => $baseDir . '/app/modules/optimizations/page-cache/pre-wordpress/storage/Storage.php',
     'Automattic\\Jetpack_Boost\\Modules\\Optimizations\\Render_Blocking_JS\\Render_Blocking_JS' => $baseDir . '/app/modules/optimizations/render-blocking-js/class-render-blocking-js.php',
+    'Automattic\\Jetpack_Boost\\Modules\\Optimizations\\Speculation_Rules\\Speculation_Rules' => $baseDir . '/app/modules/optimizations/speculation-rules/Speculation_Rules.php',
     'Automattic\\Jetpack_Boost\\Modules\\Performance_History\\Performance_History' => $baseDir . '/app/modules/performance-history/Performance_History.php',
     'Automattic\\Jetpack_Boost\\REST_API\\Contracts\\Endpoint' => $baseDir . '/app/rest-api/contracts/Endpoint.php',
     'Automattic\\Jetpack_Boost\\REST_API\\Contracts\\Has_Always_Available_Endpoints' => $baseDir . '/app/rest-api/contracts/Has_Always_Available_Endpoints.php',
@@ -392,5 +392,5 @@ return array(
     'MatthiasMullie\\PathConverter\\Converter' => $vendorDir . '/matthiasmullie/path-converter/src/Converter.php',
     'MatthiasMullie\\PathConverter\\ConverterInterface' => $vendorDir . '/matthiasmullie/path-converter/src/ConverterInterface.php',
     'MatthiasMullie\\PathConverter\\NoConverter' => $vendorDir . '/matthiasmullie/path-converter/src/NoConverter.php',
-    'WP_Speculation_Rules' => $baseDir . '/app/lib/speculation-rules/WP_Speculation_Rules.php',
+    'WP_Speculation_Rules' => $baseDir . '/app/modules/optimizations/speculation-rules/WP_Speculation_Rules.php',
 );

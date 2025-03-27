@@ -15,6 +15,7 @@ use Automattic\Jetpack_Boost\Modules\Optimizations\Minify\Minify_CSS;
 use Automattic\Jetpack_Boost\Modules\Optimizations\Minify\Minify_JS;
 use Automattic\Jetpack_Boost\Modules\Optimizations\Page_Cache\Page_Cache;
 use Automattic\Jetpack_Boost\Modules\Optimizations\Render_Blocking_JS\Render_Blocking_JS;
+use Automattic\Jetpack_Boost\Modules\Optimizations\Speculation_Rules\Speculation_Rules;
 use Automattic\Jetpack_Boost\Modules\Performance_History\Performance_History;
 
 class Modules_Index {
@@ -53,6 +54,7 @@ class Modules_Index {
 		Quality_Settings::class,
 		Performance_History::class,
 		Page_Cache::class,
+		Speculation_Rules::class,
 	);
 
 	const SUB_FEATURES = array(
