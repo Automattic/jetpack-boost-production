@@ -11,6 +11,7 @@ This is an alpha version! The changes listed here are not final.
 
 ### Added
 - Cornerstone Pages: add speculation rules toggle to prerender those URLs
+- Improve the onboarding experience of Jetpack guiding the users through a new onboarding process.
 - Speculation rules: Added Cornerstone Pages to the WP speculation rules for displaying
 
 ### Changed
