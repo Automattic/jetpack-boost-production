@@ -15,6 +15,7 @@ This is an alpha version! The changes listed here are not final.
 - Speculation rules: Added Cornerstone Pages to the WP speculation rules for displaying
 
 ### Changed
+- Boost: update interstitial modal secondary button to use URL from Jetpack Redirect
 - Critical CSS: Improve reliability of generation by running hooks after saving the state.
 - General: indicate compatibility with the upcoming version of WordPress - 6.8.
 - UI: Show module loading errors with details.
