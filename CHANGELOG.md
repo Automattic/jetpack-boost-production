@@ -19,6 +19,9 @@ This is an alpha version! The changes listed here are not final.
 - General: indicate compatibility with the upcoming version of WordPress - 6.8.
 - UI: Show module loading errors with details.
 
+### Fixed
+- Admin Menu: Ensure Akismet menu item display alongside standalone.
+
 ## [3.12.1] - 2025-03-27
 ### Fixed
 - General: Fixed intermittent error during module loading. [#42742]
