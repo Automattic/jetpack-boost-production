@@ -5,26 +5,23 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
-## [3.13.0-alpha] - unreleased
-
-This is an alpha version! The changes listed here are not final.
-
+## [3.13.0] - 2025-04-01
 ### Added
-- Cornerstone Pages: add speculation rules toggle to prerender those URLs
-- Improve the onboarding experience of Jetpack guiding the users through a new onboarding process.
-- Speculation rules: Added Cornerstone Pages to the WP speculation rules for displaying
+- Cornerstone Pages: Add speculation rules toggle to prerender those URLs [#42374]
+- Improve the onboarding experience of Jetpack guiding the users through a new onboarding process. [#42757]
+- Speculation rules: Add Cornerstone Pages to the WP speculation rules for displaying [#42428]
 
 ### Changed
-- Boost: update interstitial modal secondary button to use URL from Jetpack Redirect
-- Critical CSS: Improve reliability of generation by running hooks after saving the state.
-- General: indicate compatibility with the upcoming version of WordPress - 6.8.
-- General: Update Class/Interface file names to adhere to WordPress Convention
-- UI: Show module loading errors with details.
-- Update package dependencies.
+- General: Update interstitial modal secondary button to use URL from Jetpack Redirect [#42490]
+- Critical CSS: Improve reliability of generation by running hooks after saving the state. [#42723]
+- General: Indicate compatibility with the upcoming version of WordPress - 6.8. [#42701]
+- General: Update Class/Interface file names to adhere to WordPress Convention [#42784]
+- UI: Show module loading errors with details. [#42707]
+- Update package dependencies. [#42762]
 
 ### Fixed
-- Admin Menu: Ensure Akismet menu item display alongside standalone.
-- Misc: Fix incorrectly registering plugin text domain.
+- Admin Menu: Ensure Akismet menu item display alongside standalone. [#42776]
+- Misc: Fix incorrectly registering plugin text domain. [#42792]
 
 ## [3.12.1] - 2025-03-27
 ### Fixed
@@ -677,7 +674,7 @@ This is an alpha version! The changes listed here are not final.
 
 - First public alpha release
 
-[3.13.0-alpha]: https://github.com/Automattic/jetpack-boost-production/compare/3.12.1...3.13.0-alpha
+[3.13.0]: https://github.com/Automattic/jetpack-boost-production/compare/3.12.1...3.13.0
 [3.12.1]: https://github.com/Automattic/jetpack-boost-production/compare/3.12.0...3.12.1
 [3.12.0]: https://github.com/Automattic/jetpack-boost-production/compare/3.11.0...3.12.0
 [3.11.0]: https://github.com/Automattic/jetpack-boost-production/compare/3.10.4...3.11.0
