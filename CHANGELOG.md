@@ -18,6 +18,7 @@ This is an alpha version! The changes listed here are not final.
 - Boost: update interstitial modal secondary button to use URL from Jetpack Redirect
 - Critical CSS: Improve reliability of generation by running hooks after saving the state.
 - General: indicate compatibility with the upcoming version of WordPress - 6.8.
+- General: Update Class/Interface file names to adhere to WordPress Convention
 - UI: Show module loading errors with details.
 
 ### Fixed
