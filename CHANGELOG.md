@@ -20,6 +20,7 @@ This is an alpha version! The changes listed here are not final.
 - General: indicate compatibility with the upcoming version of WordPress - 6.8.
 - General: Update Class/Interface file names to adhere to WordPress Convention
 - UI: Show module loading errors with details.
+- Update package dependencies.
 
 ### Fixed
 - Admin Menu: Ensure Akismet menu item display alongside standalone.
