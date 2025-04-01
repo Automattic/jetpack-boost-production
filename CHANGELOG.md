@@ -24,6 +24,7 @@ This is an alpha version! The changes listed here are not final.
 
 ### Fixed
 - Admin Menu: Ensure Akismet menu item display alongside standalone.
+- Misc: Fix incorrectly registering plugin text domain.
 
 ## [3.12.1] - 2025-03-27
 ### Fixed
