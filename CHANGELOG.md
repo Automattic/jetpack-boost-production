@@ -12,6 +12,9 @@ This is an alpha version! The changes listed here are not final.
 ### Changed
 - Update package dependencies.
 
+### Fixed
+- Critical CSS: Fix not showing status code when generation fails for some pages.
+
 ## [3.13.0] - 2025-04-01
 ### Added
 - Cornerstone Pages: Add speculation rules toggle to prerender those URLs [#42374]
