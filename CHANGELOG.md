@@ -14,6 +14,7 @@ This is an alpha version! The changes listed here are not final.
 
 ### Fixed
 - Critical CSS: Fix not showing status code when generation fails for some pages.
+- Image Guide: Fix front-end state not being in sync with Boost settings.
 
 ## [3.13.0] - 2025-04-01
 ### Added
