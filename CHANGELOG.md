@@ -17,6 +17,7 @@ This is an alpha version! The changes listed here are not final.
 - Update package dependencies.
 
 ### Fixed
+- Code: Update stylesheets to use WordPress font styles.
 - Critical CSS: Fix not showing status code when generation fails for some pages.
 - Image Guide: Fix front-end state not being in sync with Boost settings.
 
