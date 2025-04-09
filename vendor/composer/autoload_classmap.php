@@ -336,6 +336,7 @@ return array(
     'Automattic\\Jetpack_Boost\\Modules\\Optimizations\\Image_CDN\\Image_CDN' => $baseDir . '/app/modules/optimizations/image-cdn/class-image-cdn.php',
     'Automattic\\Jetpack_Boost\\Modules\\Optimizations\\Image_CDN\\Liar' => $baseDir . '/app/modules/optimizations/image-cdn/class-liar.php',
     'Automattic\\Jetpack_Boost\\Modules\\Optimizations\\Image_CDN\\Quality_Settings' => $baseDir . '/app/modules/optimizations/image-cdn/class-quality-settings.php',
+    'Automattic\\Jetpack_Boost\\Modules\\Optimizations\\Lcp\\Lcp' => $baseDir . '/app/modules/optimizations/lcp/class-lcp.php',
     'Automattic\\Jetpack_Boost\\Modules\\Optimizations\\Minify\\Minify_CSS' => $baseDir . '/app/modules/optimizations/minify/class-minify-css.php',
     'Automattic\\Jetpack_Boost\\Modules\\Optimizations\\Minify\\Minify_Common' => $baseDir . '/app/modules/optimizations/minify/class-minify-common.php',
     'Automattic\\Jetpack_Boost\\Modules\\Optimizations\\Minify\\Minify_JS' => $baseDir . '/app/modules/optimizations/minify/class-minify-js.php',

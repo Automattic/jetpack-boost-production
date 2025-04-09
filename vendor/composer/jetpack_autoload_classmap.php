@@ -1338,6 +1338,10 @@ return array(
 		'version' => '3.13.1.0-alpha',
 		'path'    => $baseDir . '/app/modules/optimizations/image-cdn/class-quality-settings.php'
 	),
+	'Automattic\\Jetpack_Boost\\Modules\\Optimizations\\Lcp\\Lcp' => array(
+		'version' => '3.13.1.0-alpha',
+		'path'    => $baseDir . '/app/modules/optimizations/lcp/class-lcp.php'
+	),
 	'Automattic\\Jetpack_Boost\\Modules\\Optimizations\\Minify\\Minify_CSS' => array(
 		'version' => '3.13.1.0-alpha',
 		'path'    => $baseDir . '/app/modules/optimizations/minify/class-minify-css.php'
