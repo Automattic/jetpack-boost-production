@@ -22,6 +22,7 @@ This is an alpha version! The changes listed here are not final.
 - Code: Update stylesheets to use WordPress font styles.
 - Critical CSS: Fix not showing status code when generation fails for some pages.
 - Image Guide: Fix front-end state not being in sync with Boost settings.
+- Linting: Format SCSS imports consistently.
 - Linting: Use double colon notation for pseudo-element selectors.
 
 ## [3.13.0] - 2025-04-01
