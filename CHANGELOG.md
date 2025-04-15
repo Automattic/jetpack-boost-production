@@ -25,6 +25,7 @@ This is an alpha version! The changes listed here are not final.
 - Image Guide: Fix front-end state not being in sync with Boost settings.
 - Linting: Format SCSS imports consistently.
 - Linting: Use double colon notation for pseudo-element selectors.
+- Page Cache: Fix not clearing up preload schedule on deactivation.
 
 ## [3.13.0] - 2025-04-01
 ### Added
