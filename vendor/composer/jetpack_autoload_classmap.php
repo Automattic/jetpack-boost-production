@@ -1522,6 +1522,10 @@ return array(
 		'version' => '3.13.1.0-alpha',
 		'path'    => $baseDir . '/tests/php/lib/cornerstone/Cornerstone_Pages_Test.php'
 	),
+	'Automattic\\Jetpack_Boost\\Tests\\Lib\\Critical_CSS\\Display_Critical_CSS_Test' => array(
+		'version' => '3.13.1.0-alpha',
+		'path'    => $baseDir . '/tests/php/lib/critical-css/Display_Critical_CSS_Test.php'
+	),
 	'Automattic\\Jetpack_Boost\\Tests\\Lib\\Minify\\Functions_Service_Test' => array(
 		'version' => '3.13.1.0-alpha',
 		'path'    => $baseDir . '/tests/php/lib/minify/Functions_Service_Test.php'
