@@ -369,6 +369,8 @@ class ComposerStaticInitb1e77e6231d50e7663f84529b6a3dfda_jetpack_boostⓥ3_13_1_
         'Automattic\\Jetpack_Boost\\Modules\\Optimizations\\Image_CDN\\Image_CDN' => __DIR__ . '/../..' . '/app/modules/optimizations/image-cdn/class-image-cdn.php',
         'Automattic\\Jetpack_Boost\\Modules\\Optimizations\\Image_CDN\\Liar' => __DIR__ . '/../..' . '/app/modules/optimizations/image-cdn/class-liar.php',
         'Automattic\\Jetpack_Boost\\Modules\\Optimizations\\Image_CDN\\Quality_Settings' => __DIR__ . '/../..' . '/app/modules/optimizations/image-cdn/class-quality-settings.php',
+        'Automattic\\Jetpack_Boost\\Modules\\Optimizations\\Lcp\\LCP_Analyzer' => __DIR__ . '/../..' . '/app/modules/optimizations/lcp/class-lcp-analyzer.php',
+        'Automattic\\Jetpack_Boost\\Modules\\Optimizations\\Lcp\\LCP_State' => __DIR__ . '/../..' . '/app/modules/optimizations/lcp/class-lcp-state.php',
         'Automattic\\Jetpack_Boost\\Modules\\Optimizations\\Lcp\\Lcp' => __DIR__ . '/../..' . '/app/modules/optimizations/lcp/class-lcp.php',
         'Automattic\\Jetpack_Boost\\Modules\\Optimizations\\Minify\\Minify_CSS' => __DIR__ . '/../..' . '/app/modules/optimizations/minify/class-minify-css.php',
         'Automattic\\Jetpack_Boost\\Modules\\Optimizations\\Minify\\Minify_Common' => __DIR__ . '/../..' . '/app/modules/optimizations/minify/class-minify-common.php',
