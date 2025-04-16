@@ -11,8 +11,10 @@ use Automattic\Jetpack_Boost\Contracts\Has_Data_Sync;
 use Automattic\Jetpack_Boost\Contracts\Needs_To_Be_Ready;
 use Automattic\Jetpack_Boost\Contracts\Optimization;
 use Automattic\Jetpack_Boost\Lib\Output_Filter;
+use Automattic\Jetpack_Boost\REST_API\Contracts\Has_Always_Available_Endpoints;
+use Automattic\Jetpack_Boost\REST_API\Endpoints\Update_LCP;
 
-class Lcp implements Feature, Changes_Output_After_Activation, Optimization, Has_Activate, Needs_To_Be_Ready, Has_Data_Sync {
+class Lcp implements Feature, Changes_Output_After_Activation, Optimization, Has_Activate, Needs_To_Be_Ready, Has_Data_Sync, Has_Always_Available_Endpoints {
 	/**
 	 * Utility class that supports output filtering.
 	 *
@@ -41,6 +43,12 @@ class Lcp implements Feature, Changes_Output_After_Activation, Optimization, Has
 	 */
 	public static function get_slug() {
 		return 'lcp';
+	}
+
+	public function get_always_available_endpoints() {
+		return array(
+			new Update_LCP(),
+		);
 	}
 
 	/**

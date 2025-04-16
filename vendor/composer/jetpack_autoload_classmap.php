@@ -1346,6 +1346,10 @@ return array(
 		'version' => '3.13.1.0-alpha',
 		'path'    => $baseDir . '/app/modules/optimizations/lcp/class-lcp-state.php'
 	),
+	'Automattic\\Jetpack_Boost\\Modules\\Optimizations\\Lcp\\LCP_Storage' => array(
+		'version' => '3.13.1.0-alpha',
+		'path'    => $baseDir . '/app/modules/optimizations/lcp/class-lcp-storage.php'
+	),
 	'Automattic\\Jetpack_Boost\\Modules\\Optimizations\\Lcp\\Lcp' => array(
 		'version' => '3.13.1.0-alpha',
 		'path'    => $baseDir . '/app/modules/optimizations/lcp/class-lcp.php'
@@ -1485,6 +1489,10 @@ return array(
 	'Automattic\\Jetpack_Boost\\REST_API\\Endpoints\\Update_Cloud_CSS' => array(
 		'version' => '3.13.1.0-alpha',
 		'path'    => $baseDir . '/app/rest-api/endpoints/class-update-cloud-css.php'
+	),
+	'Automattic\\Jetpack_Boost\\REST_API\\Endpoints\\Update_LCP' => array(
+		'version' => '3.13.1.0-alpha',
+		'path'    => $baseDir . '/app/rest-api/endpoints/class-update-lcp.php'
 	),
 	'Automattic\\Jetpack_Boost\\REST_API\\Permissions\\Current_User_Admin' => array(
 		'version' => '3.13.1.0-alpha',
