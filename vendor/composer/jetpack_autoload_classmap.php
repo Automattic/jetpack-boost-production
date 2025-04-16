@@ -1422,6 +1422,22 @@ return array(
 		'version' => '3.13.1.0-alpha',
 		'path'    => $baseDir . '/app/modules/optimizations/page-cache/pre-wordpress/class-logger.php'
 	),
+	'Automattic\\Jetpack_Boost\\Modules\\Optimizations\\Page_Cache\\Pre_WordPress\\Path_Actions\\Filter_Older' => array(
+		'version' => '3.13.1.0-alpha',
+		'path'    => $baseDir . '/app/modules/optimizations/page-cache/pre-wordpress/path-actions/class-filter-older.php'
+	),
+	'Automattic\\Jetpack_Boost\\Modules\\Optimizations\\Page_Cache\\Pre_WordPress\\Path_Actions\\Path_Action' => array(
+		'version' => '3.13.1.0-alpha',
+		'path'    => $baseDir . '/app/modules/optimizations/page-cache/pre-wordpress/path-actions/interface-path-action.php'
+	),
+	'Automattic\\Jetpack_Boost\\Modules\\Optimizations\\Page_Cache\\Pre_WordPress\\Path_Actions\\Rebuild_File' => array(
+		'version' => '3.13.1.0-alpha',
+		'path'    => $baseDir . '/app/modules/optimizations/page-cache/pre-wordpress/path-actions/class-rebuild-file.php'
+	),
+	'Automattic\\Jetpack_Boost\\Modules\\Optimizations\\Page_Cache\\Pre_WordPress\\Path_Actions\\Simple_Delete' => array(
+		'version' => '3.13.1.0-alpha',
+		'path'    => $baseDir . '/app/modules/optimizations/page-cache/pre-wordpress/path-actions/class-simple-delete.php'
+	),
 	'Automattic\\Jetpack_Boost\\Modules\\Optimizations\\Page_Cache\\Pre_WordPress\\Request' => array(
 		'version' => '3.13.1.0-alpha',
 		'path'    => $baseDir . '/app/modules/optimizations/page-cache/pre-wordpress/class-request.php'
@@ -1561,6 +1577,14 @@ return array(
 	'Automattic\\Jetpack_Boost\\Tests\\Modules\\Optimizations\\Page_Cache\\Cache_Preload_Test' => array(
 		'version' => '3.13.1.0-alpha',
 		'path'    => $baseDir . '/tests/php/modules/optimizations/page-cache/Cache_Preload_Test.php'
+	),
+	'Automattic\\Jetpack_Boost\\Tests\\Modules\\Optimizations\\Page_Cache\\Filesystem_Utils_Test' => array(
+		'version' => '3.13.1.0-alpha',
+		'path'    => $baseDir . '/tests/php/modules/optimizations/page-cache/Filesystem_Utils_Test.php'
+	),
+	'Automattic\\Jetpack_Boost\\Tests\\Modules\\Optimizations\\Page_Cache\\Path_Actions_Test' => array(
+		'version' => '3.13.1.0-alpha',
+		'path'    => $baseDir . '/tests/php/modules/optimizations/page-cache/Path_Actions_Test.php'
 	),
 	'Automattic\\Jetpack_Boost\\Tests\\Modules\\Optimizations\\Speculation_Rules\\Speculation_Rules_Test' => array(
 		'version' => '3.13.1.0-alpha',
