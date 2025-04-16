@@ -10,6 +10,7 @@ use Automattic\Jetpack_Boost\Contracts\Has_Activate;
 use Automattic\Jetpack_Boost\Contracts\Has_Data_Sync;
 use Automattic\Jetpack_Boost\Contracts\Needs_To_Be_Ready;
 use Automattic\Jetpack_Boost\Contracts\Optimization;
+use Automattic\Jetpack_Boost\Lib\Cornerstone\Cornerstone_Utils;
 use Automattic\Jetpack_Boost\Lib\Output_Filter;
 use Automattic\Jetpack_Boost\REST_API\Contracts\Has_Always_Available_Endpoints;
 use Automattic\Jetpack_Boost\REST_API\Endpoints\Update_LCP;
@@ -130,8 +131,11 @@ class Lcp implements Feature, Changes_Output_After_Activation, Optimization, Has
 			return;
 		}
 
-		// If there's no LCP image tag set, don't proceed
-		if ( ! $this->get_lcp_image_tag() ) {
+		if ( ! Cornerstone_Utils::is_current_page_cornerstone() ) {
+			return;
+		}
+
+		if ( ! ( new LCP_State() )->is_analyzed() ) {
 			return;
 		}
 
@@ -203,36 +207,25 @@ class Lcp implements Feature, Changes_Output_After_Activation, Optimization, Has
 	 */
 	public function optimize( $buffer_start, $buffer_end ) {
 		// Get the LCP image tag from WP option
-		$lcp_image_tag = $this->get_lcp_image_tag();
+		$storage = new LCP_Storage();
 
-		// Early return if no tag is configured
-		if ( empty( $lcp_image_tag ) ) {
+		$lcp_storage = $storage->get_current_request_lcp();
+		// Early return if we don't have any LCP data
+		if ( empty( $lcp_storage ) ) {
 			return array( $buffer_start, $buffer_end );
 		}
 
 		// Combine the buffers for processing
 		$combined_buffer = $buffer_start . $buffer_end;
 
-		// Check if the tag exists in the combined buffer
-		if ( strpos( $combined_buffer, $lcp_image_tag ) === false ) {
-			return array( $buffer_start, $buffer_end );
+		foreach ( $lcp_storage as $lcp_data ) {
+			$combined_buffer = $this->optimize_viewport( $combined_buffer, $lcp_data );
 		}
-
-		// Create the optimized tag with required attributes
-		$optimized_tag = $this->optimize_image_tag( $lcp_image_tag );
-
-		// If no optimization was needed, return early
-		if ( $optimized_tag === $lcp_image_tag ) {
-			return array( $buffer_start, $buffer_end );
-		}
-
-		// Simple string replacement (since we're looking for an exact tag)
-		$modified_buffer = str_replace( $lcp_image_tag, $optimized_tag, $combined_buffer );
 
 		// Split the modified buffer back into two parts
 		$buffer_start_length = strlen( $buffer_start );
-		$new_buffer_start    = substr( $modified_buffer, 0, $buffer_start_length );
-		$new_buffer_end      = substr( $modified_buffer, $buffer_start_length );
+		$new_buffer_start    = substr( $combined_buffer, 0, $buffer_start_length );
+		$new_buffer_end      = substr( $combined_buffer, $buffer_start_length );
 
 		// Check for successful split
 		if ( false === $new_buffer_start || false === $new_buffer_end ) {
@@ -241,6 +234,44 @@ class Lcp implements Feature, Changes_Output_After_Activation, Optimization, Has
 		}
 
 		return array( $new_buffer_start, $new_buffer_end );
+	}
+
+	/**
+	 * Optimize a viewport
+	 *
+	 * @param string $buffer The buffer/html to optimize.
+	 * @param array  $lcp_data The LCP data returned from the Cloud.
+	 * @return string The optimized buffer, or the original buffer if no optimization was needed
+	 *
+	 * @since 3.13.1-alpha
+	 */
+	private function optimize_viewport( $buffer, $lcp_data ) {
+		if ( empty( $lcp_data ) || empty( $lcp_data['html'] ) ) {
+			return $buffer;
+		}
+
+		// Defensive check to ensure the LCP HTML is not empty.
+		if ( empty( $lcp_data['html'] ) ) {
+			return $buffer;
+		}
+
+		// Remove the last (closing) character from the LCP HTML in case the buffer adds a closing forward slash to the img tag. Which is not found by the Cloud.
+		$lcp_html = substr( $lcp_data['html'], 0, -1 );
+
+		// If the LCP HTML is not found in the buffer, return early.
+		if ( ! str_contains( $buffer, $lcp_html ) ) {
+			return $buffer;
+		}
+
+		// Create the optimized tag with required attributes.
+		$optimized_tag = $this->optimize_image_tag( $lcp_html );
+
+		// If no optimization was needed, return early.
+		if ( $optimized_tag === $lcp_html ) {
+			return $buffer;
+		}
+
+		return str_replace( $lcp_html, $optimized_tag, $buffer );
 	}
 
 	/**
@@ -263,17 +294,5 @@ class Lcp implements Feature, Changes_Output_After_Activation, Optimization, Has
 		}
 
 		return $tag;
-	}
-
-	/**
-	 * Get the LCP image tag from the option.
-	 *
-	 * @return string The LCP image HTML tag.
-	 *
-	 * @since 3.13.1-alpha
-	 */
-	private function get_lcp_image_tag() {
-		// TODO: We need to decide on how the data will be stored within Boost. For now, this is a simple option that returns a string.
-		return get_option( 'jetpack_boost_lcp_image_tag', '' );
 	}
 }
