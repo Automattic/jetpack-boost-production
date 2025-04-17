@@ -1354,6 +1354,10 @@ return array(
 		'version' => '3.13.2.0-alpha',
 		'path'    => $baseDir . '/app/modules/optimizations/lcp/class-lcp.php'
 	),
+	'Automattic\\Jetpack_Boost\\Modules\\Optimizations\\Lcp\\Optimize_LCP_Endpoint' => array(
+		'version' => '3.13.2.0-alpha',
+		'path'    => $baseDir . '/app/modules/optimizations/lcp/class-optimize-lcp-endpoint.php'
+	),
 	'Automattic\\Jetpack_Boost\\Modules\\Optimizations\\Minify\\Minify_CSS' => array(
 		'version' => '3.13.2.0-alpha',
 		'path'    => $baseDir . '/app/modules/optimizations/minify/class-minify-css.php'

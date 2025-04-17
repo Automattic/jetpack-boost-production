@@ -373,6 +373,7 @@ class ComposerStaticInitb1e77e6231d50e7663f84529b6a3dfda_jetpack_boostⓥ3_13_2_
         'Automattic\\Jetpack_Boost\\Modules\\Optimizations\\Lcp\\LCP_State' => __DIR__ . '/../..' . '/app/modules/optimizations/lcp/class-lcp-state.php',
         'Automattic\\Jetpack_Boost\\Modules\\Optimizations\\Lcp\\LCP_Storage' => __DIR__ . '/../..' . '/app/modules/optimizations/lcp/class-lcp-storage.php',
         'Automattic\\Jetpack_Boost\\Modules\\Optimizations\\Lcp\\Lcp' => __DIR__ . '/../..' . '/app/modules/optimizations/lcp/class-lcp.php',
+        'Automattic\\Jetpack_Boost\\Modules\\Optimizations\\Lcp\\Optimize_LCP_Endpoint' => __DIR__ . '/../..' . '/app/modules/optimizations/lcp/class-optimize-lcp-endpoint.php',
         'Automattic\\Jetpack_Boost\\Modules\\Optimizations\\Minify\\Minify_CSS' => __DIR__ . '/../..' . '/app/modules/optimizations/minify/class-minify-css.php',
         'Automattic\\Jetpack_Boost\\Modules\\Optimizations\\Minify\\Minify_Common' => __DIR__ . '/../..' . '/app/modules/optimizations/minify/class-minify-common.php',
         'Automattic\\Jetpack_Boost\\Modules\\Optimizations\\Minify\\Minify_JS' => __DIR__ . '/../..' . '/app/modules/optimizations/minify/class-minify-js.php',

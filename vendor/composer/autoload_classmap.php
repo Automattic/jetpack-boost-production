@@ -340,6 +340,7 @@ return array(
     'Automattic\\Jetpack_Boost\\Modules\\Optimizations\\Lcp\\LCP_State' => $baseDir . '/app/modules/optimizations/lcp/class-lcp-state.php',
     'Automattic\\Jetpack_Boost\\Modules\\Optimizations\\Lcp\\LCP_Storage' => $baseDir . '/app/modules/optimizations/lcp/class-lcp-storage.php',
     'Automattic\\Jetpack_Boost\\Modules\\Optimizations\\Lcp\\Lcp' => $baseDir . '/app/modules/optimizations/lcp/class-lcp.php',
+    'Automattic\\Jetpack_Boost\\Modules\\Optimizations\\Lcp\\Optimize_LCP_Endpoint' => $baseDir . '/app/modules/optimizations/lcp/class-optimize-lcp-endpoint.php',
     'Automattic\\Jetpack_Boost\\Modules\\Optimizations\\Minify\\Minify_CSS' => $baseDir . '/app/modules/optimizations/minify/class-minify-css.php',
     'Automattic\\Jetpack_Boost\\Modules\\Optimizations\\Minify\\Minify_Common' => $baseDir . '/app/modules/optimizations/minify/class-minify-common.php',
     'Automattic\\Jetpack_Boost\\Modules\\Optimizations\\Minify\\Minify_JS' => $baseDir . '/app/modules/optimizations/minify/class-minify-js.php',
