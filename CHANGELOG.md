@@ -9,6 +9,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 This is an alpha version! The changes listed here are not final.
 
+### Fixed
+- Use transients instead of cache to ensure persistance for sites without object caching
+
 ## [3.13.1] - 2025-04-16
 ### Fixed
 - Critical CSS: Fix cases where dismissing a recommendation would dismiss multiple ones. [#43047]
