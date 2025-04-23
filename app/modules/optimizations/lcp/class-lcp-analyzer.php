@@ -14,7 +14,7 @@ class LCP_Analyzer {
 	private $storage;
 
 	/**
-	 * @since 3.13.2-alpha
+	 * @since 4.0.0-alpha
 	 */
 	public function __construct() {
 		$this->state   = new LCP_State();
