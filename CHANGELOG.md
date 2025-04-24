@@ -11,6 +11,7 @@ This is an alpha version! The changes listed here are not final.
 
 ### Changed
 - General: run feature activation routines for active features when the plugin is deactivated, then reactivated.
+- My Jetpack: Updated the onboarding UI, changing it to a single button
 
 ### Removed
 - General: Update minimum WordPress version to 6.7.
