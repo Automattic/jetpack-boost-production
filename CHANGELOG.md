@@ -22,6 +22,7 @@ This is an alpha version! The changes listed here are not final.
 - Linting: Fix more Stylelint violations.
 - Minify CSS/JS: avoid fatal errors on feature activation
 - My Jetpack: Fix social login getting stuck when email input not empty
+- Page Cache: Handle garbage collection through cron-job on front-end update.
 - Use transients instead of cache to ensure persistance for sites without object caching
 
 ## [3.13.1] - 2025-04-16
