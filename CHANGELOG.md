@@ -12,6 +12,7 @@ This is an alpha version! The changes listed here are not final.
 ### Changed
 - Dashboard: indicate all external links with External icon.
 - General: run feature activation routines for active features when the plugin is deactivated, then reactivated.
+- jetpack-assets now requires jetpack-status so updating composer lock files.
 - My Jetpack: Updated the onboarding UI, changing it to a single button
 
 ### Removed
