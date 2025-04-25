@@ -10,6 +10,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 This is an alpha version! The changes listed here are not final.
 
 ### Changed
+- Dashboard: indicate all external links with External icon.
 - General: run feature activation routines for active features when the plugin is deactivated, then reactivated.
 - My Jetpack: Updated the onboarding UI, changing it to a single button
 
