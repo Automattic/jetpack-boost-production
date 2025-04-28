@@ -21,6 +21,7 @@ This is an alpha version! The changes listed here are not final.
 ### Fixed
 - Cornestone pages: avoid fatal errors when no pages are set.
 - Dashboard: properly display notice to purchase a plan in Critical CSS modal.
+- Linting: Do additional stylesheet cleanup.
 - Linting: Fix more Stylelint violations.
 - Minify CSS/JS: avoid fatal errors on feature activation
 - My Jetpack: Fix social login getting stuck when email input not empty
