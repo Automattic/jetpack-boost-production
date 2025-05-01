@@ -14,6 +14,7 @@ This is an alpha version! The changes listed here are not final.
 - General: run feature activation routines for active features when the plugin is deactivated, then reactivated.
 - jetpack-assets now requires jetpack-status so updating composer lock files.
 - My Jetpack: Updated the onboarding UI, changing it to a single button
+- Update package dependencies.
 
 ### Removed
 - General: Update minimum WordPress version to 6.7.
