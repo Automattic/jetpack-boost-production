@@ -22,6 +22,7 @@ This is an alpha version! The changes listed here are not final.
 ### Fixed
 - Cornestone pages: avoid fatal errors when no pages are set.
 - Dashboard: properly display notice to purchase a plan in Critical CSS modal.
+- JS Packages: Decrease CSS priority of global styles to prevent them from applying within the editor
 - Linting: Address final rules in WordPress Stylelint config.
 - Linting: Do additional stylesheet cleanup.
 - Linting: Fix more Stylelint violations.
