@@ -337,6 +337,7 @@ return array(
     'Automattic\\Jetpack_Boost\\Modules\\Optimizations\\Image_CDN\\Liar' => $baseDir . '/app/modules/optimizations/image-cdn/class-liar.php',
     'Automattic\\Jetpack_Boost\\Modules\\Optimizations\\Image_CDN\\Quality_Settings' => $baseDir . '/app/modules/optimizations/image-cdn/class-quality-settings.php',
     'Automattic\\Jetpack_Boost\\Modules\\Optimizations\\Lcp\\LCP_Analyzer' => $baseDir . '/app/modules/optimizations/lcp/class-lcp-analyzer.php',
+    'Automattic\\Jetpack_Boost\\Modules\\Optimizations\\Lcp\\LCP_Invalidator' => $baseDir . '/app/modules/optimizations/lcp/class-lcp-invalidator.php',
     'Automattic\\Jetpack_Boost\\Modules\\Optimizations\\Lcp\\LCP_State' => $baseDir . '/app/modules/optimizations/lcp/class-lcp-state.php',
     'Automattic\\Jetpack_Boost\\Modules\\Optimizations\\Lcp\\LCP_Storage' => $baseDir . '/app/modules/optimizations/lcp/class-lcp-storage.php',
     'Automattic\\Jetpack_Boost\\Modules\\Optimizations\\Lcp\\Lcp' => $baseDir . '/app/modules/optimizations/lcp/class-lcp.php',
