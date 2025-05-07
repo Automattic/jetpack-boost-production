@@ -16,6 +16,8 @@ class LCP_Invalidator {
 
 	/**
 	 * Reset any LCP analysis data (state and storage).
+	 *
+	 * @since 4.0.0-alpha
 	 */
 	public static function reset_data() {
 		$state = new LCP_State();
@@ -27,6 +29,8 @@ class LCP_Invalidator {
 
 	/**
 	 * Respond to environment changes; deciding whether or not to clear LCP analysis data.
+	 *
+	 * @since 4.0.0-alpha
 	 */
 	public static function handle_environment_change( $is_major_change ) {
 		if ( $is_major_change ) {
