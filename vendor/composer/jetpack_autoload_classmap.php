@@ -1350,6 +1350,10 @@ return array(
 		'version' => '4.0.0.0-alpha',
 		'path'    => $baseDir . '/app/modules/optimizations/lcp/class-lcp-invalidator.php'
 	),
+	'Automattic\\Jetpack_Boost\\Modules\\Optimizations\\Lcp\\LCP_Optimizer' => array(
+		'version' => '4.0.0.0-alpha',
+		'path'    => $baseDir . '/app/modules/optimizations/lcp/class-lcp-optimizer.php'
+	),
 	'Automattic\\Jetpack_Boost\\Modules\\Optimizations\\Lcp\\LCP_State' => array(
 		'version' => '4.0.0.0-alpha',
 		'path'    => $baseDir . '/app/modules/optimizations/lcp/class-lcp-state.php'
