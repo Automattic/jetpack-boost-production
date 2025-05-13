@@ -1358,6 +1358,10 @@ return array(
 		'version' => '4.0.0.0-alpha',
 		'path'    => $baseDir . '/app/modules/optimizations/lcp/class-lcp-storage.php'
 	),
+	'Automattic\\Jetpack_Boost\\Modules\\Optimizations\\Lcp\\LCP_Utils' => array(
+		'version' => '4.0.0.0-alpha',
+		'path'    => $baseDir . '/app/modules/optimizations/lcp/class-lcp-utils.php'
+	),
 	'Automattic\\Jetpack_Boost\\Modules\\Optimizations\\Lcp\\Lcp' => array(
 		'version' => '4.0.0.0-alpha',
 		'path'    => $baseDir . '/app/modules/optimizations/lcp/class-lcp.php'
@@ -1505,6 +1509,10 @@ return array(
 	'Automattic\\Jetpack_Boost\\REST_API\\Endpoints\\List_Cornerstone_Pages' => array(
 		'version' => '4.0.0.0-alpha',
 		'path'    => $baseDir . '/app/rest-api/endpoints/class-list-cornerstone-pages.php'
+	),
+	'Automattic\\Jetpack_Boost\\REST_API\\Endpoints\\List_LCP_Analysis' => array(
+		'version' => '4.0.0.0-alpha',
+		'path'    => $baseDir . '/app/rest-api/endpoints/class-list-lcp-analysis.php'
 	),
 	'Automattic\\Jetpack_Boost\\REST_API\\Endpoints\\List_Site_Urls' => array(
 		'version' => '4.0.0.0-alpha',
