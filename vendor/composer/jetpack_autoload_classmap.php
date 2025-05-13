@@ -1090,6 +1090,10 @@ return array(
 		'version' => '4.0.0.0-alpha',
 		'path'    => $baseDir . '/app/lib/class-cli.php'
 	),
+	'Automattic\\Jetpack_Boost\\Lib\\Cache_Compatibility' => array(
+		'version' => '4.0.0.0-alpha',
+		'path'    => $baseDir . '/app/lib/class-cache-compatibility.php'
+	),
 	'Automattic\\Jetpack_Boost\\Lib\\Collection' => array(
 		'version' => '4.0.0.0-alpha',
 		'path'    => $baseDir . '/app/lib/class-collection.php'
@@ -1549,6 +1553,10 @@ return array(
 	'Automattic\\Jetpack_Boost\\Tests\\Lib\\Analytics_Test' => array(
 		'version' => '4.0.0.0-alpha',
 		'path'    => $baseDir . '/tests/php/lib/Analytics_Test.php'
+	),
+	'Automattic\\Jetpack_Boost\\Tests\\Lib\\Cache_Compatibility_Test' => array(
+		'version' => '4.0.0.0-alpha',
+		'path'    => $baseDir . '/tests/php/lib/Cache_Compatibility_Test.php'
 	),
 	'Automattic\\Jetpack_Boost\\Tests\\Lib\\Cornerstone\\Cornerstone_Pages_Test' => array(
 		'version' => '4.0.0.0-alpha',

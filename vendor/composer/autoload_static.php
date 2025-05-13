@@ -307,6 +307,7 @@ class ComposerStaticInitb1e77e6231d50e7663f84529b6a3dfda_jetpack_boostⓥ4_0_0_a
         'Automattic\\Jetpack_Boost\\Lib\\Assets' => __DIR__ . '/../..' . '/app/lib/class-assets.php',
         'Automattic\\Jetpack_Boost\\Lib\\Boost_Health' => __DIR__ . '/../..' . '/app/lib/class-boost-health.php',
         'Automattic\\Jetpack_Boost\\Lib\\CLI' => __DIR__ . '/../..' . '/app/lib/class-cli.php',
+        'Automattic\\Jetpack_Boost\\Lib\\Cache_Compatibility' => __DIR__ . '/../..' . '/app/lib/class-cache-compatibility.php',
         'Automattic\\Jetpack_Boost\\Lib\\Collection' => __DIR__ . '/../..' . '/app/lib/class-collection.php',
         'Automattic\\Jetpack_Boost\\Lib\\Connection' => __DIR__ . '/../..' . '/app/lib/class-connection.php',
         'Automattic\\Jetpack_Boost\\Lib\\Cornerstone\\Cornerstone_Pages' => __DIR__ . '/../..' . '/app/lib/cornerstone/class-cornerstone-pages.php',

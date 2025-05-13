@@ -15,6 +15,7 @@ This is an alpha version! The changes listed here are not final.
 - jetpack-assets now requires jetpack-status so updating composer lock files.
 - My Jetpack: Updated the onboarding UI, changing it to a single button
 - Number-formatters: update formatCurrency() and getCurrencyObejct() calls to go through number-formatters package
+- Page Cache: improve compatibility with sites using Endurance Page Cache.
 - Update package dependencies.
 
 ### Removed
