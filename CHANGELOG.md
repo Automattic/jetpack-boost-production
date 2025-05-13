@@ -22,6 +22,7 @@ This is an alpha version! The changes listed here are not final.
 
 ### Fixed
 - Concatenate JS/CSS: Gracefully handle if there are too many files to concat.
+- Concatenate JS: ensure compatibility with the WooCommerce Bookings plugin.
 - Cornestone pages: avoid fatal errors when no pages are set.
 - Dashboard: properly display notice to purchase a plan in Critical CSS modal.
 - JS Packages: Decrease CSS priority of global styles to prevent them from applying within the editor
