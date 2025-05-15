@@ -15,7 +15,7 @@ class Cache_Compatibility {
 	 * Supports:
 	 * - Endurance Page Cache
 	 *
-	 * @since 4.0.0-alpha
+	 * @since 4.0.0
 	 *
 	 * @return bool True if the site has a caching plugin, false otherwise.
 	 */
@@ -24,7 +24,7 @@ class Cache_Compatibility {
 		 * Filters whether the site has a caching plugin.
 		 * Useful for testing.
 		 *
-		 * @since 4.0.0-alpha
+		 * @since 4.0.0
 		 *
 		 * @param bool $has_cache True if the site has a caching plugin, false otherwise.
 		 */

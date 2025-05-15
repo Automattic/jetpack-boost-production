@@ -3,7 +3,7 @@
 /**
  * Load minify library code.
  *
- * @since 4.0.0-alpha
+ * @since 4.0.0
  *
  * @return void
  */

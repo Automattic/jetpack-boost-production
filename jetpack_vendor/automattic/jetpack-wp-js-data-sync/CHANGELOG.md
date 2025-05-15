@@ -5,12 +5,9 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
-## [0.6.5-alpha] - unreleased
-
-This is an alpha version! The changes listed here are not final.
-
+## [0.6.5] - 2025-05-15
 ### Changed
-- Remove documentation references to deprecated svelte-data-sync-client package.
+- Remove documentation references to deprecated svelte-data-sync-client package. [#43449]
 
 ## [0.6.4] - 2025-03-26
 ### Changed
@@ -123,7 +120,7 @@ This is an alpha version! The changes listed here are not final.
 ### Fixed
 - Jetpack Boost: Fix assoc_array schema validation. [#29611]
 
-[0.6.5-alpha]: https://github.com/Automattic/jetpack-wp-js-data-sync/compare/v0.6.4...v0.6.5-alpha
+[0.6.5]: https://github.com/Automattic/jetpack-wp-js-data-sync/compare/v0.6.4...v0.6.5
 [0.6.4]: https://github.com/Automattic/jetpack-wp-js-data-sync/compare/v0.6.3...v0.6.4
 [0.6.3]: https://github.com/Automattic/jetpack-wp-js-data-sync/compare/v0.6.2...v0.6.3
 [0.6.2]: https://github.com/Automattic/jetpack-wp-js-data-sync/compare/v0.6.1...v0.6.2
