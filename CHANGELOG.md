@@ -5,36 +5,35 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
-## [4.0.0-alpha] - unreleased
+## [4.0.1-alpha] - unreleased
 
 This is an alpha version! The changes listed here are not final.
 
 ### Changed
-- Dashboard: indicate all external links with External icon.
-- General: run feature activation routines for active features when the plugin is deactivated, then reactivated.
-- jetpack-assets now requires jetpack-status so updating composer lock files.
 - My Jetpack: Optimize the images for onboarding slider for faster page load.
-- My Jetpack: Updated the onboarding UI, changing it to a single button
-- Number-formatters: update formatCurrency() and getCurrencyObejct() calls to go through number-formatters package
-- Page Cache: improve compatibility with sites using Endurance Page Cache.
-- Update package dependencies.
+
+## [4.0.0-beta] - 2025-05-15
+### Changed
+- Dashboard: Indicate all external links with External icon. [#43152]
+- General: Run feature activation routines for active features when the plugin is deactivated, then reactivated. [#43168]
+- My Jetpack: Updated the onboarding UI, changing it to a single button. [#43203]
+- UI: Updated currency formatting. [#42796]
+- Page Cache: Improve compatibility with sites using Endurance Page Cache. [#43416]
+- Update package dependencies. [#43326] [#43354] [#43355] [#43398] [#43400] [#43425] [#43085]
 
 ### Removed
-- General: Update minimum WordPress version to 6.7.
+- General: Update minimum WordPress version to 6.7. [#43192]
 
 ### Fixed
-- Concatenate JS/CSS: Gracefully handle if there are too many files to concat.
-- Concatenate JS: ensure compatibility with the WooCommerce Bookings plugin.
-- Cornestone pages: avoid fatal errors when no pages are set.
-- Dashboard: properly display notice to purchase a plan in Critical CSS modal.
-- JS Packages: Decrease CSS priority of global styles to prevent them from applying within the editor
-- Linting: Address final rules in WordPress Stylelint config.
-- Linting: Do additional stylesheet cleanup.
-- Linting: Fix more Stylelint violations.
-- Minify CSS/JS: avoid fatal errors on feature activation
-- My Jetpack: Fix social login getting stuck when email input not empty
-- Page Cache: Handle garbage collection through cron-job on front-end update.
-- Use transients instead of cache to ensure persistance for sites without object caching
+- Concatenate JS/CSS: Gracefully handle if there are too many files to concat. [#43176]
+- Concatenate JS: Ensure compatibility with the WooCommerce Bookings plugin. [#43431]
+- Cornerstone pages: Avoid fatal errors when no pages are set. [#43171]
+- Dashboard: Properly display notice to purchase a plan in Critical CSS modal. [#43153]
+- JS Packages: Decrease CSS priority of global styles to prevent them from applying within the editor. [#43035]
+- Concatenate JS/CSS: Avoid fatal errors on feature activation. [#43194]
+- My Jetpack: Fix social login getting stuck when email input is not empty. [#43158]
+- Page Cache: Handle garbage collection through cron-job on front-end update. [#42954]
+- Use transients instead of cache to ensure persistence for sites without object caching. [#43139]
 
 ## [3.13.1] - 2025-04-16
 ### Fixed
@@ -713,7 +712,8 @@ This is an alpha version! The changes listed here are not final.
 
 - First public alpha release
 
-[4.0.0-alpha]: https://github.com/Automattic/jetpack-boost-production/compare/3.13.1...4.0.0-alpha
+[4.0.1-alpha]: https://github.com/Automattic/jetpack-boost-production/compare/4.0.0-beta...4.0.1-alpha
+[4.0.0-beta]: https://github.com/Automattic/jetpack-boost-production/compare/3.13.1...4.0.0-beta
 [3.13.1]: https://github.com/Automattic/jetpack-boost-production/compare/3.13.0...3.13.1
 [3.13.0]: https://github.com/Automattic/jetpack-boost-production/compare/3.12.1...3.13.0
 [3.12.1]: https://github.com/Automattic/jetpack-boost-production/compare/3.12.0...3.12.1
