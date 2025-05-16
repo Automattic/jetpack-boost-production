@@ -12,6 +12,9 @@ This is an alpha version! The changes listed here are not final.
 ### Changed
 - My Jetpack: Optimize the images for onboarding slider for faster page load.
 
+### Removed
+- Cornerstone Pages: Remove "Experimental" tag from UI.
+
 ## [4.0.0-beta] - 2025-05-15
 ### Changed
 - Dashboard: Indicate all external links with External icon. [#43152]
