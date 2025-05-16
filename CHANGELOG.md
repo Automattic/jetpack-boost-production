@@ -13,6 +13,7 @@ This is an alpha version! The changes listed here are not final.
 - Dashboard: indicate all external links with External icon.
 - General: run feature activation routines for active features when the plugin is deactivated, then reactivated.
 - jetpack-assets now requires jetpack-status so updating composer lock files.
+- My Jetpack: Optimize the images for onboarding slider for faster page load.
 - My Jetpack: Updated the onboarding UI, changing it to a single button
 - Number-formatters: update formatCurrency() and getCurrencyObejct() calls to go through number-formatters package
 - Page Cache: improve compatibility with sites using Endurance Page Cache.
