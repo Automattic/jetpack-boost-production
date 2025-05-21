@@ -17,6 +17,9 @@ This is an alpha version! The changes listed here are not final.
 ### Removed
 - Cornerstone Pages: Remove "Experimental" tag from UI.
 
+### Fixed
+- My Jetpack: Fixed Onboarding UI responsiveness at 600px.
+
 ## [4.0.0-beta] - 2025-05-15
 ### Changed
 - Dashboard: Indicate all external links with External icon. [#43152]
