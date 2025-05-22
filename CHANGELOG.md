@@ -13,6 +13,7 @@ This is an alpha version! The changes listed here are not final.
 - Auto-resize lazy images: Remove beta tag.
 - E2E Tests: Update config file encryption algorithm.
 - My Jetpack: Optimize the images for onboarding slider for faster page load.
+- Update package dependencies.
 
 ### Removed
 - Cornerstone Pages: Remove "Experimental" tag from UI.
