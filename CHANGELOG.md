@@ -19,6 +19,7 @@ This is an alpha version! The changes listed here are not final.
 
 ### Fixed
 - My Jetpack: Fixed Onboarding UI responsiveness at 600px.
+- My Jetpack: Fix readability of license activation button on hover.
 
 ## [4.0.0-beta] - 2025-05-15
 ### Changed
