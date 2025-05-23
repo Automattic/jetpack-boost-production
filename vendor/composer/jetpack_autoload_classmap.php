@@ -1350,9 +1350,13 @@ return array(
 		'version' => '4.0.1.0-alpha',
 		'path'    => $baseDir . '/app/modules/optimizations/lcp/class-lcp-invalidator.php'
 	),
-	'Automattic\\Jetpack_Boost\\Modules\\Optimizations\\Lcp\\LCP_Optimizer' => array(
+	'Automattic\\Jetpack_Boost\\Modules\\Optimizations\\Lcp\\LCP_Optimization_Util' => array(
 		'version' => '4.0.1.0-alpha',
-		'path'    => $baseDir . '/app/modules/optimizations/lcp/class-lcp-optimizer.php'
+		'path'    => $baseDir . '/app/modules/optimizations/lcp/class-lcp-optimization-util.php'
+	),
+	'Automattic\\Jetpack_Boost\\Modules\\Optimizations\\Lcp\\LCP_Optimize_Img_Tag' => array(
+		'version' => '4.0.1.0-alpha',
+		'path'    => $baseDir . '/app/modules/optimizations/lcp/class-lcp-optimize-img-tag.php'
 	),
 	'Automattic\\Jetpack_Boost\\Modules\\Optimizations\\Lcp\\LCP_State' => array(
 		'version' => '4.0.1.0-alpha',
