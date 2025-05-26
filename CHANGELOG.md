@@ -12,6 +12,7 @@ This is an alpha version! The changes listed here are not final.
 ### Changed
 - Auto-resize lazy images: Remove beta tag.
 - E2E Tests: Update config file encryption algorithm.
+- My Jetpack: Hide backup failure notice when backups are deactivated.
 - My Jetpack: Optimize the images for onboarding slider for faster page load.
 - Update package dependencies.
 
