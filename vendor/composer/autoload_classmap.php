@@ -340,6 +340,7 @@ return array(
     'Automattic\\Jetpack_Boost\\Modules\\Optimizations\\Lcp\\LCP_Analyzer' => $baseDir . '/app/modules/optimizations/lcp/class-lcp-analyzer.php',
     'Automattic\\Jetpack_Boost\\Modules\\Optimizations\\Lcp\\LCP_Invalidator' => $baseDir . '/app/modules/optimizations/lcp/class-lcp-invalidator.php',
     'Automattic\\Jetpack_Boost\\Modules\\Optimizations\\Lcp\\LCP_Optimization_Util' => $baseDir . '/app/modules/optimizations/lcp/class-lcp-optimization-util.php',
+    'Automattic\\Jetpack_Boost\\Modules\\Optimizations\\Lcp\\LCP_Optimize_Bg_Image' => $baseDir . '/app/modules/optimizations/lcp/class-lcp-optimize-bg-image.php',
     'Automattic\\Jetpack_Boost\\Modules\\Optimizations\\Lcp\\LCP_Optimize_Img_Tag' => $baseDir . '/app/modules/optimizations/lcp/class-lcp-optimize-img-tag.php',
     'Automattic\\Jetpack_Boost\\Modules\\Optimizations\\Lcp\\LCP_State' => $baseDir . '/app/modules/optimizations/lcp/class-lcp-state.php',
     'Automattic\\Jetpack_Boost\\Modules\\Optimizations\\Lcp\\LCP_Storage' => $baseDir . '/app/modules/optimizations/lcp/class-lcp-storage.php',

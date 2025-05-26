@@ -373,6 +373,7 @@ class ComposerStaticInitb1e77e6231d50e7663f84529b6a3dfda_jetpack_boostⓥ4_0_1_a
         'Automattic\\Jetpack_Boost\\Modules\\Optimizations\\Lcp\\LCP_Analyzer' => __DIR__ . '/../..' . '/app/modules/optimizations/lcp/class-lcp-analyzer.php',
         'Automattic\\Jetpack_Boost\\Modules\\Optimizations\\Lcp\\LCP_Invalidator' => __DIR__ . '/../..' . '/app/modules/optimizations/lcp/class-lcp-invalidator.php',
         'Automattic\\Jetpack_Boost\\Modules\\Optimizations\\Lcp\\LCP_Optimization_Util' => __DIR__ . '/../..' . '/app/modules/optimizations/lcp/class-lcp-optimization-util.php',
+        'Automattic\\Jetpack_Boost\\Modules\\Optimizations\\Lcp\\LCP_Optimize_Bg_Image' => __DIR__ . '/../..' . '/app/modules/optimizations/lcp/class-lcp-optimize-bg-image.php',
         'Automattic\\Jetpack_Boost\\Modules\\Optimizations\\Lcp\\LCP_Optimize_Img_Tag' => __DIR__ . '/../..' . '/app/modules/optimizations/lcp/class-lcp-optimize-img-tag.php',
         'Automattic\\Jetpack_Boost\\Modules\\Optimizations\\Lcp\\LCP_State' => __DIR__ . '/../..' . '/app/modules/optimizations/lcp/class-lcp-state.php',
         'Automattic\\Jetpack_Boost\\Modules\\Optimizations\\Lcp\\LCP_Storage' => __DIR__ . '/../..' . '/app/modules/optimizations/lcp/class-lcp-storage.php',

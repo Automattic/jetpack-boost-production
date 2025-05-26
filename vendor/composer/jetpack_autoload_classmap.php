@@ -1354,6 +1354,10 @@ return array(
 		'version' => '4.0.1.0-alpha',
 		'path'    => $baseDir . '/app/modules/optimizations/lcp/class-lcp-optimization-util.php'
 	),
+	'Automattic\\Jetpack_Boost\\Modules\\Optimizations\\Lcp\\LCP_Optimize_Bg_Image' => array(
+		'version' => '4.0.1.0-alpha',
+		'path'    => $baseDir . '/app/modules/optimizations/lcp/class-lcp-optimize-bg-image.php'
+	),
 	'Automattic\\Jetpack_Boost\\Modules\\Optimizations\\Lcp\\LCP_Optimize_Img_Tag' => array(
 		'version' => '4.0.1.0-alpha',
 		'path'    => $baseDir . '/app/modules/optimizations/lcp/class-lcp-optimize-img-tag.php'
