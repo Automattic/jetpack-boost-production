@@ -18,6 +18,7 @@ return array(
     'Automattic\\Jetpack\\Autoloader\\CustomAutoloaderPlugin' => $vendorDir . '/automattic/jetpack-autoloader/src/CustomAutoloaderPlugin.php',
     'Automattic\\Jetpack\\Autoloader\\ManifestGenerator' => $vendorDir . '/automattic/jetpack-autoloader/src/ManifestGenerator.php',
     'Automattic\\Jetpack\\Automatic_Install_Skin' => $baseDir . '/jetpack_vendor/automattic/jetpack-plugins-installer/src/class-automatic-install-skin.php',
+    'Automattic\\Jetpack\\Boost\\App\\Contracts\\Is_Dev_Feature' => $baseDir . '/app/contracts/interface-is-dev-feature.php',
     'Automattic\\Jetpack\\Boost_Core\\Contracts\\Boost_API_Client' => $baseDir . '/jetpack_vendor/automattic/jetpack-boost-core/src/contracts/boost-api-client.php',
     'Automattic\\Jetpack\\Boost_Core\\Lib\\Boost_API' => $baseDir . '/jetpack_vendor/automattic/jetpack-boost-core/src/lib/class-boost-api.php',
     'Automattic\\Jetpack\\Boost_Core\\Lib\\Cacheable' => $baseDir . '/jetpack_vendor/automattic/jetpack-boost-core/src/lib/class-cacheable.php',

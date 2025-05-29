@@ -66,6 +66,10 @@ return array(
 		'version' => '0.5.5.0',
 		'path'    => $baseDir . '/jetpack_vendor/automattic/jetpack-plugins-installer/src/class-automatic-install-skin.php'
 	),
+	'Automattic\\Jetpack\\Boost\\App\\Contracts\\Is_Dev_Feature' => array(
+		'version' => '4.0.1.0-alpha',
+		'path'    => $baseDir . '/app/contracts/interface-is-dev-feature.php'
+	),
 	'Automattic\\Jetpack\\Boost_Core\\Contracts\\Boost_API_Client' => array(
 		'version' => '0.3.10.0',
 		'path'    => $baseDir . '/jetpack_vendor/automattic/jetpack-boost-core/src/contracts/boost-api-client.php'
