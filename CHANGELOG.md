@@ -20,6 +20,7 @@ This is an alpha version! The changes listed here are not final.
 - Cornerstone Pages: Remove "Experimental" tag from UI.
 
 ### Fixed
+- General: Fix storage data persisting after clear.
 - My Jetpack: Fixed Onboarding UI responsiveness at 600px.
 - My Jetpack: Fix readability of license activation button on hover.
 - Speed Scores: Fix not waiting for Cloud CSS to finish generating before refreshing the scores.
