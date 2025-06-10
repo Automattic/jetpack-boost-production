@@ -5,8 +5,8 @@
 	"license": "GPL-2.0-or-later",
 	"require": {
 		"php": ">=7.2",
-		"automattic/jetpack-assets": "^4.0.25",
-		"automattic/jetpack-status": "^5.2.0-alpha"
+		"automattic/jetpack-assets": "^4.0.26",
+		"automattic/jetpack-status": "^5.2.0"
 	},
 	"require-dev": {
 		"automattic/jetpack-test-environment": "@dev",
