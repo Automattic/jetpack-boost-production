@@ -120,7 +120,7 @@ class LCP_Optimize_Img_Tag {
 	 * @param string $original_url The original image URL.
 	 * @return string The srcset for the image.
 	 *
-	 * @since 4.0.1-alpha
+	 * @since 4.1.0-alpha
 	 */
 	private function get_srcset( $original_url ) {
 		$widths = array();
@@ -184,7 +184,7 @@ class LCP_Optimize_Img_Tag {
 	 *
 	 * @return string The sizes for the image.
 	 *
-	 * @since 4.0.1-alpha
+	 * @since 4.1.0-alpha
 	 */
 	private function get_sizes() {
 		$sizes = array();
