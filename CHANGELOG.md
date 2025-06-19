@@ -12,7 +12,7 @@ This is an alpha version! The changes listed here are not final.
 ### Changed
 - Update package dependencies.
 
-## [4.1.0-beta] - 2025-06-11
+## [4.1.0] - 2025-06-18
 ### Added
 - LCP Optimization: New Largest Contentful Paint (LCP) optimization feature to improve loading performance of Cornerstone pages. [#43684]
 
@@ -731,8 +731,8 @@ This is an alpha version! The changes listed here are not final.
 
 - First public alpha release
 
-[4.1.1-alpha]: https://github.com/Automattic/jetpack-boost-production/compare/4.1.0-beta...4.1.1-alpha
-[4.1.0-beta]: https://github.com/Automattic/jetpack-boost-production/compare/4.0.0...4.1.0-beta
+[4.1.1-alpha]: https://github.com/Automattic/jetpack-boost-production/compare/4.1.0...4.1.1-alpha
+[4.1.0]: https://github.com/Automattic/jetpack-boost-production/compare/4.0.0...4.1.0
 [4.0.0]: https://github.com/Automattic/jetpack-boost-production/compare/3.13.1...4.0.0
 [3.13.1]: https://github.com/Automattic/jetpack-boost-production/compare/3.13.0...3.13.1
 [3.13.0]: https://github.com/Automattic/jetpack-boost-production/compare/3.12.1...3.13.0

@@ -1687,31 +1687,35 @@ return array(
 		'path'    => $vendorDir . '/automattic/jetpack-autoloader/src/class-manifest-reader.php'
 	),
 	'MatthiasMullie\\Minify\\CSS' => array(
-		'version' => '1.3.73.0',
+		'version' => '1.3.74.0',
 		'path'    => $vendorDir . '/matthiasmullie/minify/src/CSS.php'
 	),
 	'MatthiasMullie\\Minify\\Exception' => array(
-		'version' => '1.3.73.0',
+		'version' => '1.3.74.0',
 		'path'    => $vendorDir . '/matthiasmullie/minify/src/Exception.php'
 	),
 	'MatthiasMullie\\Minify\\Exceptions\\BasicException' => array(
-		'version' => '1.3.73.0',
+		'version' => '1.3.74.0',
 		'path'    => $vendorDir . '/matthiasmullie/minify/src/Exceptions/BasicException.php'
 	),
 	'MatthiasMullie\\Minify\\Exceptions\\FileImportException' => array(
-		'version' => '1.3.73.0',
+		'version' => '1.3.74.0',
 		'path'    => $vendorDir . '/matthiasmullie/minify/src/Exceptions/FileImportException.php'
 	),
 	'MatthiasMullie\\Minify\\Exceptions\\IOException' => array(
-		'version' => '1.3.73.0',
+		'version' => '1.3.74.0',
 		'path'    => $vendorDir . '/matthiasmullie/minify/src/Exceptions/IOException.php'
 	),
+	'MatthiasMullie\\Minify\\Exceptions\\PatternMatchException' => array(
+		'version' => '1.3.74.0',
+		'path'    => $vendorDir . '/matthiasmullie/minify/src/Exceptions/PatternMatchException.php'
+	),
 	'MatthiasMullie\\Minify\\JS' => array(
-		'version' => '1.3.73.0',
+		'version' => '1.3.74.0',
 		'path'    => $vendorDir . '/matthiasmullie/minify/src/JS.php'
 	),
 	'MatthiasMullie\\Minify\\Minify' => array(
-		'version' => '1.3.73.0',
+		'version' => '1.3.74.0',
 		'path'    => $vendorDir . '/matthiasmullie/minify/src/Minify.php'
 	),
 	'MatthiasMullie\\PathConverter\\Converter' => array(
