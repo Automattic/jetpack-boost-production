@@ -5,16 +5,13 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
-## [4.1.1-alpha] - unreleased
-
-This is an alpha version! The changes listed here are not final.
-
+## [4.1.1] - 2025-06-23
 ### Changed
-- Update package dependencies.
+- Update package dependencies. [#43892] [#43951] [#44020] [#44040]
 
 ### Fixed
-- Defer JS: Fix duplicating deferred scripts on the page.
-- Image Guide: Fix reporting images in WordPress' admin bar.
+- Defer JS: Fix duplicating deferred scripts on the page when "Optimize LCP Images" is enabled. [#44041]
+- Image Guide: Fix reporting images in WordPress' admin bar. [#43964]
 
 ## [4.1.0] - 2025-06-18
 ### Added
@@ -735,7 +732,7 @@ This is an alpha version! The changes listed here are not final.
 
 - First public alpha release
 
-[4.1.1-alpha]: https://github.com/Automattic/jetpack-boost-production/compare/4.1.0...4.1.1-alpha
+[4.1.1]: https://github.com/Automattic/jetpack-boost-production/compare/4.1.0...4.1.1
 [4.1.0]: https://github.com/Automattic/jetpack-boost-production/compare/4.0.0...4.1.0
 [4.0.0]: https://github.com/Automattic/jetpack-boost-production/compare/3.13.1...4.0.0
 [3.13.1]: https://github.com/Automattic/jetpack-boost-production/compare/3.13.0...3.13.1
