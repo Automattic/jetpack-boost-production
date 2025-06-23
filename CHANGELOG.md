@@ -13,6 +13,7 @@ This is an alpha version! The changes listed here are not final.
 - Update package dependencies.
 
 ### Fixed
+- Defer JS: Fix duplicating deferred scripts on the page.
 - Image Guide: Fix reporting images in WordPress' admin bar.
 
 ## [4.1.0] - 2025-06-18
