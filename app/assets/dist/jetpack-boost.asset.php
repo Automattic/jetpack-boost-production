@@ -1,1 +1,1 @@
-<?php return array('dependencies' => array('jetpack-connection', 'react', 'react-dom', 'react-jsx-runtime', 'wp-api-fetch', 'wp-components', 'wp-compose', 'wp-date', 'wp-element', 'wp-i18n', 'wp-polyfill', 'wp-primitives'), 'version' => 'd3691b58d69dc05e1d5a');
+<?php return array('dependencies' => array('jetpack-connection', 'react', 'react-dom', 'react-jsx-runtime', 'wp-api-fetch', 'wp-components', 'wp-compose', 'wp-date', 'wp-element', 'wp-i18n', 'wp-polyfill', 'wp-primitives'), 'version' => 'f79b37edd0572e43d7f4');
