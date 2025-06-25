@@ -9,6 +9,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 This is an alpha version! The changes listed here are not final.
 
+### Fixed
+- LCP Optimization: Ensure new error types unsupported by the plugin version show as Unknown
+
 ## [4.1.1] - 2025-06-23
 ### Changed
 - Update package dependencies. [#43892] [#43951] [#44020] [#44040]
