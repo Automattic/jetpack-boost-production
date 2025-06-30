@@ -13,6 +13,7 @@ This is an alpha version! The changes listed here are not final.
 - LCP Optimization: Show errors not in the list of known errors, in the UI.
 
 ### Fixed
+- JITM: Fix ineffective caching due to expired plugin sync transient
 - LCP Optimization: Ensure new error types unsupported by the plugin version show as Unknown
 
 ## [4.1.1] - 2025-06-23
