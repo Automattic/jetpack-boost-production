@@ -11,7 +11,7 @@ return array(
 		'path'    => $baseDir . '/jetpack_vendor/automattic/jetpack-assets/actions.php'
 	),
 	'7372b7fb88a9723cf5b76d456eb0b738' => array(
-		'version' => '6.13.12.0-alpha1751378721',
+		'version' => '6.13.13.0-alpha1751380581',
 		'path'    => $baseDir . '/jetpack_vendor/automattic/jetpack-connection/actions.php'
 	),
 );
