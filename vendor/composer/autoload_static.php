@@ -337,6 +337,7 @@ class ComposerStaticInitb1e77e6231d50e7663f84529b6a3dfda_jetpack_boostⓥ4_1_2_a
         'Automattic\\Jetpack_Boost\\Lib\\Debug' => __DIR__ . '/../..' . '/app/lib/class-debug.php',
         'Automattic\\Jetpack_Boost\\Lib\\Environment_Change_Detector' => __DIR__ . '/../..' . '/app/lib/class-environment-change-detector.php',
         'Automattic\\Jetpack_Boost\\Lib\\Minify' => __DIR__ . '/../..' . '/app/lib/class-minify.php',
+        'Automattic\\Jetpack_Boost\\Lib\\Minify\\Cleanup_Stored_Paths' => __DIR__ . '/../..' . '/app/lib/minify/class-cleanup-stored-paths.php',
         'Automattic\\Jetpack_Boost\\Lib\\Minify\\Concatenate_CSS' => __DIR__ . '/../..' . '/app/lib/minify/class-concatenate-css.php',
         'Automattic\\Jetpack_Boost\\Lib\\Minify\\Concatenate_JS' => __DIR__ . '/../..' . '/app/lib/minify/class-concatenate-js.php',
         'Automattic\\Jetpack_Boost\\Lib\\Minify\\Config' => __DIR__ . '/../..' . '/app/lib/minify/class-config.php',

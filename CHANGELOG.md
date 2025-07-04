@@ -9,6 +9,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 This is an alpha version! The changes listed here are not final.
 
+### Added
+- Concatenate JS/CSS: Add cleanup for expired options in the database.
+
 ### Changed
 - LCP Optimization: Show errors not in the list of known errors, in the UI.
 - My Jetpack: Updating Stats card to include a chart for better analytics.

@@ -1210,6 +1210,10 @@ return array(
 		'version' => '4.1.2.0-alpha',
 		'path'    => $baseDir . '/app/lib/class-minify.php'
 	),
+	'Automattic\\Jetpack_Boost\\Lib\\Minify\\Cleanup_Stored_Paths' => array(
+		'version' => '4.1.2.0-alpha',
+		'path'    => $baseDir . '/app/lib/minify/class-cleanup-stored-paths.php'
+	),
 	'Automattic\\Jetpack_Boost\\Lib\\Minify\\Concatenate_CSS' => array(
 		'version' => '4.1.2.0-alpha',
 		'path'    => $baseDir . '/app/lib/minify/class-concatenate-css.php'

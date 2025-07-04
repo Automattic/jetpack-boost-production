@@ -304,6 +304,7 @@ return array(
     'Automattic\\Jetpack_Boost\\Lib\\Debug' => $baseDir . '/app/lib/class-debug.php',
     'Automattic\\Jetpack_Boost\\Lib\\Environment_Change_Detector' => $baseDir . '/app/lib/class-environment-change-detector.php',
     'Automattic\\Jetpack_Boost\\Lib\\Minify' => $baseDir . '/app/lib/class-minify.php',
+    'Automattic\\Jetpack_Boost\\Lib\\Minify\\Cleanup_Stored_Paths' => $baseDir . '/app/lib/minify/class-cleanup-stored-paths.php',
     'Automattic\\Jetpack_Boost\\Lib\\Minify\\Concatenate_CSS' => $baseDir . '/app/lib/minify/class-concatenate-css.php',
     'Automattic\\Jetpack_Boost\\Lib\\Minify\\Concatenate_JS' => $baseDir . '/app/lib/minify/class-concatenate-js.php',
     'Automattic\\Jetpack_Boost\\Lib\\Minify\\Config' => $baseDir . '/app/lib/minify/class-config.php',
