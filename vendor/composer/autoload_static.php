@@ -295,6 +295,7 @@ class ComposerStaticInitb1e77e6231d50e7663f84529b6a3dfda_jetpack_boostⓥ4_1_2_a
         'Automattic\\Jetpack_Boost\\Contracts\\Has_Slug' => __DIR__ . '/../..' . '/app/contracts/interface-has-slug.php',
         'Automattic\\Jetpack_Boost\\Contracts\\Is_Always_On' => __DIR__ . '/../..' . '/app/contracts/interface-is-always-on.php',
         'Automattic\\Jetpack_Boost\\Contracts\\Needs_To_Be_Ready' => __DIR__ . '/../..' . '/app/contracts/interface-needs-to-be-ready.php',
+        'Automattic\\Jetpack_Boost\\Contracts\\Needs_Website_To_Be_Public' => __DIR__ . '/../..' . '/app/contracts/interface-needs-website-to-be-public.php',
         'Automattic\\Jetpack_Boost\\Contracts\\Optimization' => __DIR__ . '/../..' . '/app/contracts/interface-optimization.php',
         'Automattic\\Jetpack_Boost\\Contracts\\Sub_Feature' => __DIR__ . '/../..' . '/app/contracts/interface-sub-feature.php',
         'Automattic\\Jetpack_Boost\\Data_Sync\\Cornerstone_Pages_Entry' => __DIR__ . '/../..' . '/app/data-sync/class-cornerstone-pages-entry.php',

@@ -262,6 +262,7 @@ return array(
     'Automattic\\Jetpack_Boost\\Contracts\\Has_Slug' => $baseDir . '/app/contracts/interface-has-slug.php',
     'Automattic\\Jetpack_Boost\\Contracts\\Is_Always_On' => $baseDir . '/app/contracts/interface-is-always-on.php',
     'Automattic\\Jetpack_Boost\\Contracts\\Needs_To_Be_Ready' => $baseDir . '/app/contracts/interface-needs-to-be-ready.php',
+    'Automattic\\Jetpack_Boost\\Contracts\\Needs_Website_To_Be_Public' => $baseDir . '/app/contracts/interface-needs-website-to-be-public.php',
     'Automattic\\Jetpack_Boost\\Contracts\\Optimization' => $baseDir . '/app/contracts/interface-optimization.php',
     'Automattic\\Jetpack_Boost\\Contracts\\Sub_Feature' => $baseDir . '/app/contracts/interface-sub-feature.php',
     'Automattic\\Jetpack_Boost\\Data_Sync\\Cornerstone_Pages_Entry' => $baseDir . '/app/data-sync/class-cornerstone-pages-entry.php',

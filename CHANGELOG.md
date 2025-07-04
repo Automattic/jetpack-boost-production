@@ -14,6 +14,7 @@ This is an alpha version! The changes listed here are not final.
 
 ### Changed
 - Concatenate JS/CSS: Cleanup static files when running garbage collection.
+- General: Update UI to show some features are unavailable if the website is offline.
 - LCP Optimization: Show errors not in the list of known errors, in the UI.
 - My Jetpack: Updating Stats card to include a chart for better analytics.
 - Update package dependencies.

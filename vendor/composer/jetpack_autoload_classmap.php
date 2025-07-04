@@ -1042,6 +1042,10 @@ return array(
 		'version' => '4.1.2.0-alpha',
 		'path'    => $baseDir . '/app/contracts/interface-needs-to-be-ready.php'
 	),
+	'Automattic\\Jetpack_Boost\\Contracts\\Needs_Website_To_Be_Public' => array(
+		'version' => '4.1.2.0-alpha',
+		'path'    => $baseDir . '/app/contracts/interface-needs-website-to-be-public.php'
+	),
 	'Automattic\\Jetpack_Boost\\Contracts\\Optimization' => array(
 		'version' => '4.1.2.0-alpha',
 		'path'    => $baseDir . '/app/contracts/interface-optimization.php'
