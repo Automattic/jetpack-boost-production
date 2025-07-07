@@ -17,6 +17,7 @@ This is an alpha version! The changes listed here are not final.
 - General: Update UI to show some features are unavailable if the website is offline.
 - LCP Optimization: Show errors not in the list of known errors, in the UI.
 - My Jetpack: Updating Stats card to include a chart for better analytics.
+- Sync: Ignore the ActivityPub Outbox CPT
 - Update package dependencies.
 
 ### Fixed
