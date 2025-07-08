@@ -21,6 +21,7 @@ This is an alpha version! The changes listed here are not final.
 - Update package dependencies.
 
 ### Fixed
+- Concatenate JS: Exclude scripts of type module from concatenation.
 - JITM: Fix ineffective caching due to expired plugin sync transient
 - LCP Optimization: Ensure new error types unsupported by the plugin version show as Unknown
 
