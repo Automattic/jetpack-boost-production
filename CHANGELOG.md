@@ -9,6 +9,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 This is an alpha version! The changes listed here are not final.
 
+### Changed
+- Update package dependencies.
+
 ## [4.1.2] - 2025-07-08
 ### Added
 - Concatenate JS/CSS: Add cleanup for expired options in the database. [#44134]
