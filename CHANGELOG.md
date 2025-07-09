@@ -5,6 +5,10 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [4.1.3-alpha] - unreleased
+
+This is an alpha version! The changes listed here are not final.
+
 ## [4.1.2] - 2025-07-08
 ### Added
 - Concatenate JS/CSS: Add cleanup for expired options in the database. [#44134]
@@ -748,6 +752,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 - First public alpha release
 
+[4.1.3-alpha]: https://github.com/Automattic/jetpack-boost-production/compare/4.1.2...4.1.3-alpha
 [4.1.2]: https://github.com/Automattic/jetpack-boost-production/compare/4.1.1...4.1.2
 [4.1.1]: https://github.com/Automattic/jetpack-boost-production/compare/4.1.0...4.1.1
 [4.1.0]: https://github.com/Automattic/jetpack-boost-production/compare/4.0.0...4.1.0
