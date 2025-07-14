@@ -10,6 +10,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 This is an alpha version! The changes listed here are not final.
 
 ### Added
+- Critical CSS: Exclude post types of popular builder plugins from generation.
 - General: Add WP filter (jetpack_boost_can_module_run) to allow more control over which modules can run their functionality.
 
 ### Changed
