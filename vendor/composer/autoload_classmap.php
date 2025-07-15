@@ -330,6 +330,7 @@ return array(
     'Automattic\\Jetpack_Boost\\Modules\\Image_Size_Analysis\\Data_Sync\\Data_Sync_Schema' => $baseDir . '/app/modules/image-size-analysis/data-sync/class-data-sync-schema.php',
     'Automattic\\Jetpack_Boost\\Modules\\Image_Size_Analysis\\Data_Sync\\Image_Size_Analysis_Entry' => $baseDir . '/app/modules/image-size-analysis/data-sync/class-image-size-analysis-entry.php',
     'Automattic\\Jetpack_Boost\\Modules\\Image_Size_Analysis\\Data_Sync\\Image_Size_Analysis_Summary' => $baseDir . '/app/modules/image-size-analysis/data-sync/class-image-size-analysis-summary.php',
+    'Automattic\\Jetpack_Boost\\Modules\\Image_Size_Analysis\\Data_Sync\\Image_Size_Analysis_UI_State' => $baseDir . '/app/modules/image-size-analysis/data-sync/class-image-size-analysis-ui-state.php',
     'Automattic\\Jetpack_Boost\\Modules\\Image_Size_Analysis\\Image_Size_Analysis' => $baseDir . '/app/modules/image-size-analysis/class-image-size-analysis.php',
     'Automattic\\Jetpack_Boost\\Modules\\Image_Size_Analysis\\Image_Size_Analysis_Fixer' => $baseDir . '/app/modules/image-size-analysis/class-image-size-analysis-fixer.php',
     'Automattic\\Jetpack_Boost\\Modules\\Module' => $baseDir . '/app/modules/class-module.php',
