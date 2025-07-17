@@ -1594,6 +1594,10 @@ return array(
 		'version' => '4.2.0.0-alpha',
 		'path'    => $baseDir . '/tests/php/Image_Size_Analysis_Deprecation_Test.php'
 	),
+	'Automattic\\Jetpack_Boost\\Tests\\Jetpack_Boost_Test' => array(
+		'version' => '4.2.0.0-alpha',
+		'path'    => $baseDir . '/tests/php/Jetpack_Boost_Test.php'
+	),
 	'Automattic\\Jetpack_Boost\\Tests\\Lib\\Analytics_Test' => array(
 		'version' => '4.2.0.0-alpha',
 		'path'    => $baseDir . '/tests/php/lib/Analytics_Test.php'

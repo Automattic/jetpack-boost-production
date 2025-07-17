@@ -14,6 +14,7 @@ This is an alpha version! The changes listed here are not final.
 - General: Add WP filter (jetpack_boost_can_module_run) to allow more control over which modules can run their functionality.
 
 ### Changed
+- Cornerstone Pages: Ensure Home URL is always a predefined Cornerstone Page
 - E2E tests: remove redundant logic in test fixture and converted the fixture to Typscript
 - My Jetpack: Enabled access to My Jetpack on WP Multisite.
 - Update package dependencies.
