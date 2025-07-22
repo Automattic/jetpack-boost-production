@@ -23,6 +23,9 @@ This is an alpha version! The changes listed here are not final.
 ### Deprecated
 - Image Size Analysis: Hide UI by default, pending future removal of feature. Allow UI to be shown via filter.
 
+### Fixed
+- General: Fix minor incompatibility with certain Boost labels and Gutenberg 21.2
+
 ## [4.1.2] - 2025-07-08
 ### Added
 - Concatenate JS/CSS: Add cleanup for expired options in the database. [#44134]
