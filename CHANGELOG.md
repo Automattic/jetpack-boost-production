@@ -12,6 +12,7 @@ This is an alpha version! The changes listed here are not final.
 ### Added
 - Critical CSS: Exclude post types of popular builder plugins from generation.
 - General: Add WP filter (jetpack_boost_can_module_run) to allow more control over which modules can run their functionality.
+- My Jetpack: Added analytics for empty product search results.
 
 ### Changed
 - Cornerstone Pages: Ensure Home URL is always a predefined Cornerstone Page
