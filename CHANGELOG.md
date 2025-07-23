@@ -26,6 +26,7 @@ This is an alpha version! The changes listed here are not final.
 
 ### Fixed
 - General: Fix minor incompatibility with certain Boost labels and Gutenberg 21.2
+- Update JITMs to remove jQuery dependency
 
 ## [4.1.2] - 2025-07-08
 ### Added
