@@ -12,6 +12,9 @@ This is an alpha version! The changes listed here are not final.
 ### Removed
 - Image Size Analysis: feature has been removed. Filter will no longer enable the ISA.
 
+### Fixed
+- Cornerstone Pages: Fix refreshing speed scores after updating the list if Critical CSS was disabled.
+
 ## [4.2.1] - 2025-07-24
 ### Removed
 - Admin: remove references to deprecated feature. [#44434]
