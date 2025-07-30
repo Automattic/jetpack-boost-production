@@ -16,6 +16,7 @@ This is an alpha version! The changes listed here are not final.
 - Cornerstone Pages: Fix refreshing speed scores after updating the list if Critical CSS was disabled.
 - LCP Optimization: Ensure pending Optimization message appears immediately when enabling Optimize LCP Images
 - My Jetpack: Fixing footer alignment for diconnected accounts.
+- My Jetpack: Restoring plan purchase link.
 
 ## [4.2.1] - 2025-07-24
 ### Removed
