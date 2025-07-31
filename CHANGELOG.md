@@ -9,6 +9,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 This is an alpha version! The changes listed here are not final.
 
+### Changed
+- My Jetpack: Unify the user connection flow with a unified screen.
+
 ### Removed
 - Image Size Analysis: feature has been removed. Filter will no longer enable the ISA.
 
