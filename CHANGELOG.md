@@ -26,6 +26,7 @@ This is an alpha version! The changes listed here are not final.
 - My Jetpack: Fixing footer alignment for diconnected accounts.
 - My Jetpack: Prevent expiration alerts for products covered by active bundles
 - My Jetpack: Restoring plan purchase link.
+- Page Cache: Fix php warnings related to opcache calls when API is disabled.
 
 ## [4.2.1] - 2025-07-24
 ### Removed
