@@ -5,29 +5,26 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
-## [4.3.0-alpha] - unreleased
-
-This is an alpha version! The changes listed here are not final.
-
+## [4.3.0-beta] - 2025-08-05
 ### Added
-- Page Cache: Ignore Yandex parameters so those visitors are served from the cache.
+- Page Cache: Ignore Yandex parameters so those visitors are served from the cache. [#44618]
 
 ### Changed
-- Image CDN: Ignore images from openlibrary.org.
-- Misc: Speed up uninstall process.
-- My Jetpack: Unify the user connection flow with a unified screen.
+- Image CDN: Ignore images from openlibrary.org. [#44627]
+- Misc: Speed up uninstall process. [#44549]
+- My Jetpack: Unify the user connection flow with a unified screen. [#44469]
 
 ### Removed
-- Image Size Analysis: feature has been removed. Filter will no longer enable the ISA.
+- Image Size Analysis: feature has been removed. Filter will no longer enable the ISA. [#44459]
 
 ### Fixed
-- Cornerstone Pages: Fix default pages including cornerpages from Yoast, when Yoast was inactive.
-- Cornerstone Pages: Fix refreshing speed scores after updating the list if Critical CSS was disabled.
-- LCP Optimization: Ensure pending Optimization message appears immediately when enabling Optimize LCP Images
-- My Jetpack: Fixing footer alignment for diconnected accounts.
-- My Jetpack: Prevent expiration alerts for products covered by active bundles
-- My Jetpack: Restoring plan purchase link.
-- Page Cache: Fix php warnings related to opcache calls when API is disabled.
+- Cornerstone Pages: Fix default pages including cornerpages from Yoast, when Yoast was inactive. [#44633]
+- Cornerstone Pages: Fix refreshing speed scores after updating the list if Critical CSS was disabled. [#44445]
+- LCP Optimization: Ensure pending Optimization message appears immediately when enabling Optimize LCP Images [#44496]
+- My Jetpack: Fixing footer alignment for diconnected accounts. [#44468]
+- My Jetpack: Prevent expiration alerts for products covered by active bundles [#44586]
+- My Jetpack: Restoring plan purchase link. [#44535]
+- Page Cache: Fix php warnings related to opcache calls when API is disabled. [#44629]
 
 ## [4.2.1] - 2025-07-24
 ### Removed
@@ -796,7 +793,7 @@ This is an alpha version! The changes listed here are not final.
 
 - First public alpha release
 
-[4.3.0-alpha]: https://github.com/Automattic/jetpack-boost-production/compare/4.2.1...4.3.0-alpha
+[4.3.0-beta]: https://github.com/Automattic/jetpack-boost-production/compare/4.2.1...4.3.0-beta
 [4.2.1]: https://github.com/Automattic/jetpack-boost-production/compare/4.2.0...4.2.1
 [4.2.0]: https://github.com/Automattic/jetpack-boost-production/compare/4.1.2...4.2.0
 [4.1.2]: https://github.com/Automattic/jetpack-boost-production/compare/4.1.1...4.1.2
