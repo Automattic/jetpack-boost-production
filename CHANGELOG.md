@@ -21,6 +21,7 @@ This is an alpha version! The changes listed here are not final.
 - Image Size Analysis: feature has been removed. Filter will no longer enable the ISA.
 
 ### Fixed
+- Cornerstone Pages: Fix default pages including cornerpages from Yoast, when Yoast was inactive.
 - Cornerstone Pages: Fix refreshing speed scores after updating the list if Critical CSS was disabled.
 - LCP Optimization: Ensure pending Optimization message appears immediately when enabling Optimize LCP Images
 - My Jetpack: Fixing footer alignment for diconnected accounts.
