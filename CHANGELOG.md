@@ -13,6 +13,7 @@ This is an alpha version! The changes listed here are not final.
 - Page Cache: Ignore Yandex parameters so those visitors are served from the cache.
 
 ### Changed
+- Image CDN: Ignore images from openlibrary.org.
 - Misc: Speed up uninstall process.
 - My Jetpack: Unify the user connection flow with a unified screen.
 
