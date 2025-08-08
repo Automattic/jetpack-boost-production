@@ -9,6 +9,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 This is an alpha version! The changes listed here are not final.
 
+### Changed
+- Update package dependencies.
+
 ## [4.3.0] - 2025-08-06
 ### Added
 - Page Cache: Ignore Yandex parameters so those visitors are served from the cache. [#44618]
