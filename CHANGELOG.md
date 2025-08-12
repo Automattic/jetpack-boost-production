@@ -13,6 +13,9 @@ This is an alpha version! The changes listed here are not final.
 - My Jetpack: Fixed multisite availability check for restricted products and modules
 - Update package dependencies.
 
+### Fixed
+- Critical CSS: Fix failing generation when a stylesheet had a more complex rel attribute.
+
 ## [4.3.0] - 2025-08-06
 ### Added
 - Page Cache: Ignore Yandex parameters so those visitors are served from the cache. [#44618]
