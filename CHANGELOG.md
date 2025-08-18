@@ -15,6 +15,7 @@ This is an alpha version! The changes listed here are not final.
 
 ### Changed
 - My Jetpack: Fixed multisite availability check for restricted products and modules
+- Tests: Ensure ABSPATH is set during test setup.
 - Update package dependencies.
 
 ### Fixed
