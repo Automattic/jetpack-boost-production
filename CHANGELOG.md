@@ -14,6 +14,7 @@ This is an alpha version! The changes listed here are not final.
 - Added typecheck support for E2E tests.
 
 ### Changed
+- Cornerstone Pages: Improve URL handling and validation for WordPress multisite subdirectory installations.
 - My Jetpack: Fixed multisite availability check for restricted products and modules
 - Tests: Ensure ABSPATH is set during test setup.
 - Update package dependencies.
