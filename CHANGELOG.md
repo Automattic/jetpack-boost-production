@@ -14,6 +14,7 @@ This is an alpha version! The changes listed here are not final.
 - Added typecheck support for E2E tests.
 
 ### Changed
+- Cornerstone Pages: Change "Load default pages" button text to "Include default pages", and improve UX with contextual tooltips and better user feedback for all interaction scenarios.
 - Cornerstone Pages: Improve URL handling and validation for WordPress multisite subdirectory installations.
 - My Jetpack: Fixed multisite availability check for restricted products and modules
 - Tests: Ensure ABSPATH is set during test setup.
