@@ -5,23 +5,20 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
-## [4.3.1-alpha] - unreleased
-
-This is an alpha version! The changes listed here are not final.
-
+## [4.3.1-beta] - 2025-08-21
 ### Added
-- Added typecheck placeholder to implement it later.
-- Added typecheck support for E2E tests.
+- Added typecheck placeholder to implement it later. [#44795]
+- Added typecheck support for E2E tests. [#44788]
 
 ### Changed
-- Cornerstone Pages: Change "Load default pages" button text to "Include default pages", and improve UX with contextual tooltips and better user feedback for all interaction scenarios.
-- Cornerstone Pages: Improve URL handling and validation for WordPress multisite subdirectory installations.
-- My Jetpack: Fixed multisite availability check for restricted products and modules
-- Tests: Ensure ABSPATH is set during test setup.
-- Update package dependencies.
+- Cornerstone Pages: Update "Load default pages" to be called "Include default pages" and change the behavior to reflect the name. [#44845]
+- Cornerstone Pages: Add tooltips to "Include default pages" button to better explain behavior. [#44845]
+- Cornerstone Pages: Improve behavior when running on WordPress MU installations. [#44824]
+- My Jetpack: Fixed multisite availability check for restricted products and modules. [#44710]
+- Update package dependencies. [#44677] [#44701] [#44725]
 
 ### Fixed
-- Critical CSS: Fix failing generation when a stylesheet had a more complex rel attribute.
+- Critical CSS: Fix failing generation when a stylesheet had a more complex rel attribute. [#44753]
 
 ## [4.3.0] - 2025-08-06
 ### Added
@@ -811,7 +808,7 @@ This is an alpha version! The changes listed here are not final.
 
 - First public alpha release
 
-[4.3.1-alpha]: https://github.com/Automattic/jetpack-boost-production/compare/4.3.0...4.3.1-alpha
+[4.3.1-beta]: https://github.com/Automattic/jetpack-boost-production/compare/4.3.0...4.3.1-beta
 [4.3.0]: https://github.com/Automattic/jetpack-boost-production/compare/4.2.1...4.3.0
 [4.2.1]: https://github.com/Automattic/jetpack-boost-production/compare/4.2.0...4.2.1
 [4.2.0]: https://github.com/Automattic/jetpack-boost-production/compare/4.1.2...4.2.0
