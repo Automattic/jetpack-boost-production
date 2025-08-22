@@ -13,6 +13,9 @@ This is an alpha version! The changes listed here are not final.
 - Critical CSS: Updated UI to indicate when generated CSS is too much.
 - Update package dependencies.
 
+### Fixed
+- Image CDN: gracefully handle an attempt to filter null.
+
 ## [4.3.1-beta] - 2025-08-21
 ### Changed
 - Cornerstone Pages: Update "Load default pages" to be called "Include default pages" and change the behavior to reflect the name. [#44845]
