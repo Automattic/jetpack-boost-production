@@ -26,7 +26,7 @@ return array(
     ),
     'jetpack-connection' => array(
       'path' => 'jetpack_vendor/automattic/jetpack-connection',
-      'ver' => '6.18.3',
+      'ver' => '6.18.4',
     ),
     'jetpack-explat' => array(
       'path' => 'jetpack_vendor/automattic/jetpack-explat',
@@ -34,7 +34,7 @@ return array(
     ),
     'jetpack-image-cdn' => array(
       'path' => 'jetpack_vendor/automattic/jetpack-image-cdn',
-      'ver' => '0.7.18-alpha1755875242',
+      'ver' => '0.7.18',
     ),
     'jetpack-ip' => array(
       'path' => 'jetpack_vendor/automattic/jetpack-ip',
@@ -50,7 +50,7 @@ return array(
     ),
     'jetpack-my-jetpack' => array(
       'path' => 'jetpack_vendor/automattic/jetpack-my-jetpack',
-      'ver' => '5.24.0-alpha1756126888',
+      'ver' => '5.24.0',
     ),
     'jetpack-password-checker' => array(
       'path' => 'jetpack_vendor/automattic/jetpack-password-checker',
