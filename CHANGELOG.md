@@ -14,6 +14,7 @@ This is an alpha version! The changes listed here are not final.
 
 ### Changed
 - Critical CSS: Updated UI to indicate when generated CSS is too much.
+- LCP Optimization: Add User-facing notice for unstable LCP elements (carousels)
 - Updated PNG import location after refactors in My Jetpack.
 - Update package dependencies.
 
