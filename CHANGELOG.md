@@ -5,7 +5,7 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
-## [4.3.2-alpha] - unreleased
+## [4.4.0-alpha] - unreleased
 
 This is an alpha version! The changes listed here are not final.
 
@@ -14,6 +14,7 @@ This is an alpha version! The changes listed here are not final.
 
 ### Changed
 - Critical CSS: Updated UI to indicate when generated CSS is too much.
+- Do not force CRM installation for Complete plan users
 - LCP Optimization: Add User-facing notice for unstable LCP elements (carousels)
 - Updated PNG import location after refactors in My Jetpack.
 - Update package dependencies.
@@ -821,7 +822,7 @@ This is an alpha version! The changes listed here are not final.
 
 - First public alpha release
 
-[4.3.2-alpha]: https://github.com/Automattic/jetpack-boost-production/compare/4.3.1...4.3.2-alpha
+[4.4.0-alpha]: https://github.com/Automattic/jetpack-boost-production/compare/4.3.1...4.4.0-alpha
 [4.3.1]: https://github.com/Automattic/jetpack-boost-production/compare/4.3.0...4.3.1
 [4.3.0]: https://github.com/Automattic/jetpack-boost-production/compare/4.2.1...4.3.0
 [4.2.1]: https://github.com/Automattic/jetpack-boost-production/compare/4.2.0...4.2.1
