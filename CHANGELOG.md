@@ -21,6 +21,7 @@ This is an alpha version! The changes listed here are not final.
 
 ### Fixed
 - E2E tests: improved connection flow
+- General: Fix translation warning when activating Boost.
 - Image CDN: gracefully handle an attempt to filter null.
 
 ## [4.3.1] - 2025-08-25
