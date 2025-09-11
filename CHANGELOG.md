@@ -25,6 +25,7 @@ This is an alpha version! The changes listed here are not final.
 - General: Fix translation warning when activating Boost.
 - Image CDN: Add support for images added via Breakdance blocks.
 - Image CDN: gracefully handle an attempt to filter null.
+- Page Cache: Fix fatal error when updating a page on multisite.
 
 ## [4.3.1] - 2025-08-25
 ### Changed
