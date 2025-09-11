@@ -23,6 +23,7 @@ This is an alpha version! The changes listed here are not final.
 - Cornerstone Pages: Fix validation error preventing URLs with GET parameters from being added to the cornerstone pages list.
 - E2E tests: improved connection flow
 - General: Fix translation warning when activating Boost.
+- Image CDN: Add support for images added via Breakdance blocks.
 - Image CDN: gracefully handle an attempt to filter null.
 
 ## [4.3.1] - 2025-08-25
