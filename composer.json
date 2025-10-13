@@ -24,7 +24,7 @@
 		"automattic/jetpack-connection": "^6.18.13",
 		"automattic/jetpack-device-detection": "^3.1.0",
 		"automattic/jetpack-image-cdn": "^0.7.21",
-		"automattic/jetpack-my-jetpack": "^5.27.4",
+		"automattic/jetpack-my-jetpack": "^5.27.5",
 		"automattic/jetpack-plugin-deactivation": "^0.3.18",
 		"automattic/jetpack-schema": "^0.2.6",
 		"automattic/jetpack-status": "^6.1.0-alpha",
