@@ -12,6 +12,9 @@ This is an alpha version! The changes listed here are not final.
 ### Changed
 - Update package dependencies.
 
+### Fixed
+- My Jetpack page: fix visual compatibility issue with Hello Dolly plugin.
+
 ## [4.4.0] - 2025-09-18
 ### Added
 - Cornerstone Pages: Add filter to allow the full list of pages to be changed. [#44907]
