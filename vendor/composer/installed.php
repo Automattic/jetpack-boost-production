@@ -1,8 +1,8 @@
 <?php return array(
     'root' => array(
         'name' => 'automattic/jetpack-boost',
-        'pretty_version' => '4.5.0-beta',
-        'version' => '4.5.0.0-beta',
+        'pretty_version' => '4.5.0',
+        'version' => '4.5.0.0',
         'reference' => null,
         'type' => 'library',
         'install_path' => __DIR__ . '/../../',
@@ -47,8 +47,8 @@
             'dev_requirement' => false,
         ),
         'automattic/jetpack-boost' => array(
-            'pretty_version' => '4.5.0-beta',
-            'version' => '4.5.0.0-beta',
+            'pretty_version' => '4.5.0',
+            'version' => '4.5.0.0',
             'reference' => null,
             'type' => 'library',
             'install_path' => __DIR__ . '/../../',
