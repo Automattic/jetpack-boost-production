@@ -15,6 +15,9 @@ This is an alpha version! The changes listed here are not final.
 ### Changed
 - Update package dependencies.
 
+### Fixed
+- Concatenate JS: Fix incompatibility with WooCommerce Analytics.
+
 ## [4.5.0] - 2025-10-15
 ### Added
 - Defer JS: Exclude Slider Revolution scripts to avoid broken sliders. [#45408]
