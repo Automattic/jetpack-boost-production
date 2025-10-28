@@ -5,18 +5,15 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
-## [4.5.1-alpha] - unreleased
-
-This is an alpha version! The changes listed here are not final.
-
+## [4.5.1-beta] - 2025-10-28
 ### Added
-- Tested up to WordPress 6.9
+- Tested up to WordPress 6.9 [#45571]
 
 ### Changed
-- Update package dependencies.
+- Update package dependencies. [#45652]
 
 ### Fixed
-- Concatenate JS: Fix incompatibility with WooCommerce Analytics.
+- Concatenate JS: Fix incompatibility with WooCommerce Analytics. [#45655]
 
 ## [4.5.0] - 2025-10-15
 ### Added
@@ -846,7 +843,7 @@ This is an alpha version! The changes listed here are not final.
 
 - First public alpha release
 
-[4.5.1-alpha]: https://github.com/Automattic/jetpack-boost-production/compare/4.5.0...4.5.1-alpha
+[4.5.1-beta]: https://github.com/Automattic/jetpack-boost-production/compare/4.5.0...4.5.1-beta
 [4.5.0]: https://github.com/Automattic/jetpack-boost-production/compare/4.4.0...4.5.0
 [4.4.0]: https://github.com/Automattic/jetpack-boost-production/compare/4.3.1...4.4.0
 [4.3.1]: https://github.com/Automattic/jetpack-boost-production/compare/4.3.0...4.3.1

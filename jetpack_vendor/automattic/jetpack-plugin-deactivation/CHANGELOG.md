@@ -5,12 +5,9 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
-## [0.3.19-alpha] - unreleased
-
-This is an alpha version! The changes listed here are not final.
-
+## [0.3.19] - 2025-10-28
 ### Changed
-- Update package dependencies.
+- Update package dependencies. [#45652]
 
 ## [0.3.18] - 2025-10-09
 ### Changed
@@ -146,7 +143,7 @@ This is an alpha version! The changes listed here are not final.
 ### Added
 - Added package to intercept plugin deactivation [#27081]
 
-[0.3.19-alpha]: https://github.com/Automattic/jetpack-plugin-deactivation/compare/v0.3.18...v0.3.19-alpha
+[0.3.19]: https://github.com/Automattic/jetpack-plugin-deactivation/compare/v0.3.18...v0.3.19
 [0.3.18]: https://github.com/Automattic/jetpack-plugin-deactivation/compare/v0.3.17...v0.3.18
 [0.3.17]: https://github.com/Automattic/jetpack-plugin-deactivation/compare/v0.3.16...v0.3.17
 [0.3.16]: https://github.com/Automattic/jetpack-plugin-deactivation/compare/v0.3.15...v0.3.16
