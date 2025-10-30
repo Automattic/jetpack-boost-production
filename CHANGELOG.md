@@ -9,6 +9,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 This is an alpha version! The changes listed here are not final.
 
+### Changed
+- Update package dependencies.
+
 ## [4.5.1] - 2025-10-29
 ### Added
 - Tested up to WordPress 6.9 [#45571]
