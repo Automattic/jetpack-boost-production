@@ -12,6 +12,9 @@ This is an alpha version! The changes listed here are not final.
 ### Changed
 - Update package dependencies.
 
+### Fixed
+- LCP Optimization: Prevent requesting analysis for the same pages multiple times.
+
 ## [4.5.1] - 2025-10-29
 ### Added
 - Tested up to WordPress 6.9 [#45571]
