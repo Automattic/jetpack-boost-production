@@ -7,8 +7,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [5.28.1] - 2025-11-10
 ### Changed
-- Use number formatting in pricing/plan features. [#45794]
-- Update package dependencies. [#45735] [#45737] [#45756]
+- number formatting in pricing/plan features [#45794]
+- Update package dependencies. [#45735]
+- Update package dependencies. [#45737]
+- Update package dependencies. [#45756]
 
 ### Fixed
 - Fix Protect card showing as active when Jetpack modules are disabled. [#45795]
