@@ -13,6 +13,9 @@ This is an alpha version! The changes listed here are not final.
 - Compatibility: Added compatibility with divi builder and Deferred JS.
 - General: added a daily cleanup of expired transients.
 
+### Changed
+- Update package dependencies.
+
 ## [4.5.2] - 2025-11-12
 ### Changed
 - Tests: Ensure PHP 8.5 compatibility. [#45769]
