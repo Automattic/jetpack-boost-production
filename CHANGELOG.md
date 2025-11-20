@@ -18,6 +18,7 @@ This is an alpha version! The changes listed here are not final.
 
 ### Fixed
 - Jetpack: remove getIconColor functions for block icons
+- My Jetpack: Fix expiring renewal prompt to show all products
 
 ## [4.5.2] - 2025-11-12
 ### Changed
