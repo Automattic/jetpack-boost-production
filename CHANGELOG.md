@@ -16,6 +16,9 @@ This is an alpha version! The changes listed here are not final.
 ### Changed
 - Update package dependencies.
 
+### Fixed
+- Jetpack: remove getIconColor functions for block icons
+
 ## [4.5.2] - 2025-11-12
 ### Changed
 - Tests: Ensure PHP 8.5 compatibility. [#45769]
