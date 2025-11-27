@@ -28,7 +28,7 @@
 		"automattic/jetpack-plugin-deactivation": "^0.3.20",
 		"automattic/jetpack-schema": "^0.2.6",
 		"automattic/jetpack-status": "^6.1.1",
-		"automattic/jetpack-sync": "^4.22.5",
+		"automattic/jetpack-sync": "^4.22.6-alpha",
 		"automattic/jetpack-wp-js-data-sync": "^0.6.8",
 		"matthiasmullie/minify": "^1.3"
 	},
