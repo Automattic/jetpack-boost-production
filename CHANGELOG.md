@@ -12,6 +12,9 @@ This is an alpha version! The changes listed here are not final.
 ### Changed
 - Update package dependencies.
 
+### Fixed
+- Ensure proper flags are used with `json_encode()`.
+
 ## [4.5.3] - 2025-11-27
 ### Added
 - Compatibility: Add compatibility with divi builder and Deferred JS. [#45896]
