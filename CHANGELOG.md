@@ -5,16 +5,13 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
-## [4.5.4-alpha] - unreleased
-
-This is an alpha version! The changes listed here are not final.
-
+## [4.5.4-beta] - 2025-12-11
 ### Changed
-- Image CDN: cache image quality settings per format to reduce repeated processing.
-- Update package dependencies.
+- Image CDN: cache image quality settings per format to reduce repeated processing. [#46205]
+- Update package dependencies. [#46143]
 
 ### Fixed
-- Ensure proper flags are used with `json_encode()`.
+- Ensure proper flags are used with `json_encode()`. [#46117]
 
 ## [4.5.3] - 2025-11-27
 ### Added
@@ -873,7 +870,7 @@ This is an alpha version! The changes listed here are not final.
 
 - First public alpha release
 
-[4.5.4-alpha]: https://github.com/Automattic/jetpack-boost-production/compare/4.5.3...4.5.4-alpha
+[4.5.4-beta]: https://github.com/Automattic/jetpack-boost-production/compare/4.5.3...4.5.4-beta
 [4.5.3]: https://github.com/Automattic/jetpack-boost-production/compare/4.5.2...4.5.3
 [4.5.2]: https://github.com/Automattic/jetpack-boost-production/compare/4.5.1...4.5.2
 [4.5.1]: https://github.com/Automattic/jetpack-boost-production/compare/4.5.0...4.5.1
