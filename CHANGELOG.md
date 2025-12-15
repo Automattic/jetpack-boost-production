@@ -9,7 +9,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 This is an alpha version! The changes listed here are not final.
 
-## [4.5.4-beta] - 2025-12-11
+## [4.5.4] - 2025-12-12
 ### Changed
 - Image CDN: cache image quality settings per format to reduce repeated processing. [#46205]
 - Update package dependencies. [#46143]
@@ -874,8 +874,8 @@ This is an alpha version! The changes listed here are not final.
 
 - First public alpha release
 
-[4.5.5-alpha]: https://github.com/Automattic/jetpack-boost-production/compare/4.5.4-beta...4.5.5-alpha
-[4.5.4-beta]: https://github.com/Automattic/jetpack-boost-production/compare/4.5.3...4.5.4-beta
+[4.5.5-alpha]: https://github.com/Automattic/jetpack-boost-production/compare/4.5.4...4.5.5-alpha
+[4.5.4]: https://github.com/Automattic/jetpack-boost-production/compare/4.5.3...4.5.4
 [4.5.3]: https://github.com/Automattic/jetpack-boost-production/compare/4.5.2...4.5.3
 [4.5.2]: https://github.com/Automattic/jetpack-boost-production/compare/4.5.1...4.5.2
 [4.5.1]: https://github.com/Automattic/jetpack-boost-production/compare/4.5.0...4.5.1
