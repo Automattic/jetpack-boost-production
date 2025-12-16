@@ -33,7 +33,7 @@
 		"matthiasmullie/minify": "^1.3"
 	},
 	"require-dev": {
-		"automattic/jetpack-changelogger": "^6.0.12-alpha",
+		"automattic/jetpack-changelogger": "^6.0.12",
 		"automattic/jetpack-test-environment": "@dev",
 		"automattic/phpunit-select-config": "^1.0.3",
 		"brain/monkey": "^2.6.2",
