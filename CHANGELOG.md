@@ -5,9 +5,12 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
-## [4.5.5-alpha] - unreleased
+## [4.6.0-alpha] - unreleased
 
 This is an alpha version! The changes listed here are not final.
+
+### Added
+- IDC: Add revalidation for IDCs.
 
 ### Changed
 - Update package dependencies.
@@ -877,7 +880,7 @@ This is an alpha version! The changes listed here are not final.
 
 - First public alpha release
 
-[4.5.5-alpha]: https://github.com/Automattic/jetpack-boost-production/compare/4.5.4...4.5.5-alpha
+[4.6.0-alpha]: https://github.com/Automattic/jetpack-boost-production/compare/4.5.4...4.6.0-alpha
 [4.5.4]: https://github.com/Automattic/jetpack-boost-production/compare/4.5.3...4.5.4
 [4.5.3]: https://github.com/Automattic/jetpack-boost-production/compare/4.5.2...4.5.3
 [4.5.2]: https://github.com/Automattic/jetpack-boost-production/compare/4.5.1...4.5.2
