@@ -15,6 +15,9 @@ This is an alpha version! The changes listed here are not final.
 ### Changed
 - Update package dependencies.
 
+### Fixed
+- Critical CSS: Fix breaking stylesheets without media attributes.
+
 ## [4.5.4] - 2025-12-12
 ### Changed
 - Image CDN: cache image quality settings per format to reduce repeated processing. [#46205]
