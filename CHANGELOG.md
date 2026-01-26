@@ -5,17 +5,14 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
-## [4.5.6-alpha] - unreleased
-
-This is an alpha version! The changes listed here are not final.
-
+## [4.5.6-beta] - 2026-01-26
 ### Changed
-- My Jetpack: Check red bubble notification async when cache is not available.
-- Update composer.lock.
-- Update package dependencies.
+- My Jetpack: Check red bubble notification async when cache is not available. [#46396]
+- Update composer.lock. [#46686]
+- Update package dependencies. [#46512] [#46552] [#46647]
 
 ### Fixed
-- LCP: Skip image optimizations that would break responsive backgrounds or custom focal points.
+- LCP: Skip image optimizations that would break responsive backgrounds or custom focal points under specific configurations. [#46683]
 
 ## [4.5.5] - 2026-01-08
 ### Added
@@ -892,7 +889,7 @@ This is an alpha version! The changes listed here are not final.
 
 - First public alpha release
 
-[4.5.6-alpha]: https://github.com/Automattic/jetpack-boost-production/compare/4.5.5...4.5.6-alpha
+[4.5.6-beta]: https://github.com/Automattic/jetpack-boost-production/compare/4.5.5...4.5.6-beta
 [4.5.5]: https://github.com/Automattic/jetpack-boost-production/compare/4.5.4...4.5.5
 [4.5.4]: https://github.com/Automattic/jetpack-boost-production/compare/4.5.3...4.5.4
 [4.5.3]: https://github.com/Automattic/jetpack-boost-production/compare/4.5.2...4.5.3
