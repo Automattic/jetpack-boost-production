@@ -14,6 +14,9 @@ This is an alpha version! The changes listed here are not final.
 - Update composer.lock.
 - Update package dependencies.
 
+### Fixed
+- LCP: Skip image optimizations that would break responsive backgrounds or custom focal points.
+
 ## [4.5.5] - 2026-01-08
 ### Added
 - Connection: Add revalidation for IDCs. [#46268]

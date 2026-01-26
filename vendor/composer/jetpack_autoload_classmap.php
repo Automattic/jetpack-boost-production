@@ -1610,6 +1610,14 @@ return array(
 		'version' => '4.5.6.0-alpha',
 		'path'    => $baseDir . '/tests/php/modules/Module_Test.php'
 	),
+	'Automattic\\Jetpack_Boost\\Tests\\Modules\\Optimizations\\Lcp\\LCP_Optimize_Bg_Image_Test' => array(
+		'version' => '4.5.6.0-alpha',
+		'path'    => $baseDir . '/tests/php/modules/optimizations/lcp/LCP_Optimize_Bg_Image_Test.php'
+	),
+	'Automattic\\Jetpack_Boost\\Tests\\Modules\\Optimizations\\Lcp\\LCP_Optimize_Img_Tag_Test' => array(
+		'version' => '4.5.6.0-alpha',
+		'path'    => $baseDir . '/tests/php/modules/optimizations/lcp/LCP_Optimize_Img_Tag_Test.php'
+	),
 	'Automattic\\Jetpack_Boost\\Tests\\Modules\\Optimizations\\Page_Cache\\Cache_Preload_Test' => array(
 		'version' => '4.5.6.0-alpha',
 		'path'    => $baseDir . '/tests/php/modules/optimizations/page-cache/Cache_Preload_Test.php'
