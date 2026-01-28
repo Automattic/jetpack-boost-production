@@ -5,6 +5,13 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [4.5.7-alpha] - unreleased
+
+This is an alpha version! The changes listed here are not final.
+
+### Changed
+- Update package dependencies.
+
 ## [4.5.6] - 2026-01-28
 ### Changed
 - My Jetpack: Check red bubble notification async when cache is not available. [#46396]
@@ -889,6 +896,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 - First public alpha release
 
+[4.5.7-alpha]: https://github.com/Automattic/jetpack-boost-production/compare/4.5.6...4.5.7-alpha
 [4.5.6]: https://github.com/Automattic/jetpack-boost-production/compare/4.5.5...4.5.6
 [4.5.5]: https://github.com/Automattic/jetpack-boost-production/compare/4.5.4...4.5.5
 [4.5.4]: https://github.com/Automattic/jetpack-boost-production/compare/4.5.3...4.5.4
