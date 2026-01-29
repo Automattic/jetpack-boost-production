@@ -410,5 +410,4 @@ return array(
     'MatthiasMullie\\PathConverter\\Converter' => $vendorDir . '/matthiasmullie/path-converter/src/Converter.php',
     'MatthiasMullie\\PathConverter\\ConverterInterface' => $vendorDir . '/matthiasmullie/path-converter/src/ConverterInterface.php',
     'MatthiasMullie\\PathConverter\\NoConverter' => $vendorDir . '/matthiasmullie/path-converter/src/NoConverter.php',
-    'WP_Speculation_Rules' => $baseDir . '/app/modules/optimizations/speculation-rules/class-wp-speculation-rules.php',
 );
