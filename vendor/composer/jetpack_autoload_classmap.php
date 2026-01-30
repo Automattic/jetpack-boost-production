@@ -1566,6 +1566,10 @@ return array(
 		'version' => '5.0.0.0-alpha',
 		'path'    => $baseDir . '/tests/php/Base_TestCase.php'
 	),
+	'Automattic\\Jetpack_Boost\\Tests\\Compatibility\\Beaver_Builder_Test' => array(
+		'version' => '5.0.0.0-alpha',
+		'path'    => $baseDir . '/tests/php/compatibility/Beaver_Builder_Test.php'
+	),
 	'Automattic\\Jetpack_Boost\\Tests\\Jetpack_Boost_Test' => array(
 		'version' => '5.0.0.0-alpha',
 		'path'    => $baseDir . '/tests/php/Jetpack_Boost_Test.php'

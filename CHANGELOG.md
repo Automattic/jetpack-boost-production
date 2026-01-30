@@ -18,6 +18,9 @@ This is an alpha version! The changes listed here are not final.
 ### Removed
 - General: Update minimum WordPress version to 6.8.
 
+### Fixed
+- Compatibility: Disable JS concatenation in Beaver Builder editor to prevent script execution order issues.
+
 ## [4.5.6] - 2026-01-28
 ### Changed
 - My Jetpack: Check red bubble notification async when cache is not available. [#46396]
