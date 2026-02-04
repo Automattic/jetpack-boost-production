@@ -12,7 +12,7 @@ This is an alpha version! The changes listed here are not final.
 ### Changed
 - Update dependencies.
 
-## [4.5.7-beta] - 2026-02-03
+## [4.5.7] - 2026-02-04
 ### Added
 - Add Jetpack Protect details page for users without the dedicated Jetpack Protect plugin. [#46630]
 
@@ -909,8 +909,8 @@ This is an alpha version! The changes listed here are not final.
 
 - First public alpha release
 
-[4.5.8-alpha]: https://github.com/Automattic/jetpack-boost-production/compare/4.5.7-beta...4.5.8-alpha
-[4.5.7-beta]: https://github.com/Automattic/jetpack-boost-production/compare/4.5.6...4.5.7-beta
+[4.5.8-alpha]: https://github.com/Automattic/jetpack-boost-production/compare/4.5.7...4.5.8-alpha
+[4.5.7]: https://github.com/Automattic/jetpack-boost-production/compare/4.5.6...4.5.7
 [4.5.6]: https://github.com/Automattic/jetpack-boost-production/compare/4.5.5...4.5.6
 [4.5.5]: https://github.com/Automattic/jetpack-boost-production/compare/4.5.4...4.5.5
 [4.5.4]: https://github.com/Automattic/jetpack-boost-production/compare/4.5.3...4.5.4
