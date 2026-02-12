@@ -13,6 +13,9 @@ This is an alpha version! The changes listed here are not final.
 - Update dependencies.
 - Update package dependencies.
 
+### Fixed
+- Compatibility: Clean up deprecated CSS.
+
 ## [4.5.7] - 2026-02-04
 ### Added
 - Add Jetpack Protect details page for users without the dedicated Jetpack Protect plugin. [#46630]
