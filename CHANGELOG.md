@@ -10,11 +10,14 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 This is an alpha version! The changes listed here are not final.
 
 ### Changed
+- Remove header border-bottom from the admin page for a cleaner unified header appearance.
+- Replaced the large Jetpack Boost logo header with a compact unified header pattern (Jetpack icon + title + subtitle) for consistent product identity.
 - Update dependencies.
 - Update package dependencies.
 
 ### Fixed
 - Compatibility: Clean up deprecated CSS.
+- Fix Hello Dolly banner background color and clear floats in admin layout.
 
 ## [4.5.7] - 2026-02-04
 ### Added
