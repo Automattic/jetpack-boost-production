@@ -18,6 +18,7 @@ This is an alpha version! The changes listed here are not final.
 ### Fixed
 - Compatibility: Clean up deprecated CSS.
 - Fix Hello Dolly banner background color and clear floats in admin layout.
+- Fix TS errors detected by tsgo.
 
 ## [4.5.7] - 2026-02-04
 ### Added
