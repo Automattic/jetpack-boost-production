@@ -16,6 +16,7 @@ This is an alpha version! The changes listed here are not final.
 - Update package dependencies.
 
 ### Fixed
+- Admin Page: Restore border on header component.
 - Compatibility: Clean up deprecated CSS.
 - Fix Hello Dolly banner background color and clear floats in admin layout.
 - Fix TS errors detected by tsgo.
