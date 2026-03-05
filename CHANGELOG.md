@@ -12,6 +12,7 @@ This is an alpha version! The changes listed here are not final.
 ### Changed
 - Remove header border-bottom from the admin page for a cleaner unified header appearance.
 - Replaced the large Jetpack Boost logo header with a compact unified header pattern (Jetpack icon + title + subtitle) for consistent product identity.
+- Switch to Native TypeScript compiler based on Go.
 - Update dependencies.
 - Update package dependencies.
 
