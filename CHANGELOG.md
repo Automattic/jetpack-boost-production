@@ -22,6 +22,7 @@ This is an alpha version! The changes listed here are not final.
 - Compatibility: Clean up deprecated CSS.
 - Fix Hello Dolly banner background color and clear floats in admin layout.
 - Fix TS errors detected by tsgo.
+- I18N: Fix translatable strings extraction
 
 ## [4.5.7] - 2026-02-04
 ### Added
