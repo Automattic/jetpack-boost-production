@@ -5,11 +5,12 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
-## [4.5.9-alpha] - unreleased
+## [4.6.0-alpha] - unreleased
 
 This is an alpha version! The changes listed here are not final.
 
 ### Changed
+- Migrated admin page to use the shared AdminPage component for a consistent header across Jetpack products. Fixed the "Use license key" link showing for users who already have an active Boost plan.
 - Update dependencies.
 - Update package dependencies.
 
@@ -924,7 +925,7 @@ This is an alpha version! The changes listed here are not final.
 
 - First public alpha release
 
-[4.5.9-alpha]: https://github.com/Automattic/jetpack-boost-production/compare/4.5.8-beta...4.5.9-alpha
+[4.6.0-alpha]: https://github.com/Automattic/jetpack-boost-production/compare/4.5.8-beta...4.6.0-alpha
 [4.5.8-beta]: https://github.com/Automattic/jetpack-boost-production/compare/4.5.7...4.5.8-beta
 [4.5.7]: https://github.com/Automattic/jetpack-boost-production/compare/4.5.6...4.5.7
 [4.5.6]: https://github.com/Automattic/jetpack-boost-production/compare/4.5.5...4.5.6
