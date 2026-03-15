@@ -9,6 +9,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 This is an alpha version! The changes listed here are not final.
 
+### Added
+- Connection: init identity crisis package.
+
 ### Changed
 - Migrated admin page to use the shared AdminPage component for a consistent header across Jetpack products. Fixed the "Use license key" link showing for users who already have an active Boost plan.
 - Update dependencies.
