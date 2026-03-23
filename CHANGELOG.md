@@ -18,6 +18,9 @@ This is an alpha version! The changes listed here are not final.
 - Update header button size to compact.
 - Update package dependencies.
 
+### Fixed
+- Add JITM notices slot to cache debug log page so notices render below the header instead of above it.
+
 ## [4.5.8-beta] - 2026-03-09
 ### Changed
 - Remove header border-bottom from the admin page for a cleaner unified header appearance. [#47313]
