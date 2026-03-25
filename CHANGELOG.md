@@ -16,6 +16,7 @@ This is an alpha version! The changes listed here are not final.
 - Migrated admin page to use the shared AdminPage component for a consistent header across Jetpack products. Fixed the "Use license key" link showing for users who already have an active Boost plan.
 - Update dependencies.
 - Update header button size to compact.
+- Update legacy Node calls.
 - Update package dependencies.
 
 ### Fixed
