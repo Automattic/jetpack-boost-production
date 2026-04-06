@@ -14,6 +14,7 @@ This is an alpha version! The changes listed here are not final.
 
 ### Changed
 - Admin: Use shared Jetpack footer component for consistent layout and links.
+- Comment: Add Tracking to Jetpack upsell link.
 - Migrated admin page to use the shared AdminPage component for a consistent header across Jetpack products. Fixed the "Use license key" link showing for users who already have an active Boost plan.
 - Update dependencies.
 - Update design of the sidebar upsell.
