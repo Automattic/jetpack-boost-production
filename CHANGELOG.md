@@ -24,6 +24,7 @@ This is an alpha version! The changes listed here are not final.
 
 ### Fixed
 - Add JITM notices slot to cache debug log page so notices render below the header instead of above it.
+- Image Guide: Fix script errors when JavaScript concatenation is enabled.
 
 ## [4.5.8-beta] - 2026-03-09
 ### Changed
