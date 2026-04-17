@@ -10,6 +10,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 This is an alpha version! The changes listed here are not final.
 
 ### Changed
+- Remove Jetpack color overrides on core components, allowing them to use native WordPress admin theme colors.
 - Tested up to WordPress 7.0.
 - Update package dependencies.
 
