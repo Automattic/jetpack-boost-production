@@ -11,6 +11,7 @@ This is an alpha version! The changes listed here are not final.
 
 ### Changed
 - Adopt the shared Jetpack admin-page-layout mixin on the Boost admin pages. Drops inline JetpackFooter renders and `showFooter={false}` overrides so AdminPage's built-in footer lives inside the flex column that the mixin pins.
+- Internal: migrate Notice component usages to @wordpress/ui.
 - Remove Jetpack color overrides on core components, allowing them to use native WordPress admin theme colors.
 - Tested up to WordPress 7.0.
 - Update package dependencies.
