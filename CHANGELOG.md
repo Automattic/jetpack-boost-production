@@ -17,6 +17,7 @@ This is an alpha version! The changes listed here are not final.
 - Update package dependencies.
 
 ### Fixed
+- Include blog_id in frontend Tracks events.
 - Render Blocking JS: Fix is_opened_script() regex interpolation and counting asymmetry so unclosed scripts are correctly detected when ignored scripts are present.
 
 ## [4.5.9] - 2026-04-13
