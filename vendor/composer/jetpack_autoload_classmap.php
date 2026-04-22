@@ -1638,6 +1638,10 @@ return array(
 		'version' => '4.5.10.0-alpha',
 		'path'    => $baseDir . '/tests/php/modules/optimizations/page-cache/Path_Actions_Test.php'
 	),
+	'Automattic\\Jetpack_Boost\\Tests\\Modules\\Optimizations\\Render_Blocking_JS\\Render_Blocking_JS_Test' => array(
+		'version' => '4.5.10.0-alpha',
+		'path'    => $baseDir . '/tests/php/modules/optimizations/render-blocking-js/Render_Blocking_JS_Test.php'
+	),
 	'Automattic\\Jetpack_Boost\\Tests\\Modules\\Optimizations\\Speculation_Rules\\Speculation_Rules_Test' => array(
 		'version' => '4.5.10.0-alpha',
 		'path'    => $baseDir . '/tests/php/modules/optimizations/speculation-rules/Speculation_Rules_Test.php'
