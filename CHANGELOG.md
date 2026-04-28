@@ -14,6 +14,7 @@ This is an alpha version! The changes listed here are not final.
 - Internal: migrate Notice component usages to @wordpress/ui.
 - Internal: No longer require automattic/jetpack-changelogger as a per-project dev dependency.
 - Remove Jetpack color overrides on core components, allowing them to use native WordPress admin theme colors.
+- Replace deprecated jetpack-components Spinner with WordPress Core Spinner.
 - Tested up to WordPress 7.0.
 - Update package dependencies.
 
