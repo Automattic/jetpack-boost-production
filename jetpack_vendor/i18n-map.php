@@ -80,6 +80,10 @@ return array(
       'path' => 'jetpack_vendor/automattic/jetpack-sync',
       'ver' => '4.36.1-alpha1777322605',
     ),
+    'jetpack-wp-abilities' => array(
+      'path' => 'jetpack_vendor/automattic/jetpack-wp-abilities',
+      'ver' => '0.1.0-alpha1777322605',
+    ),
     'jetpack-wp-js-data-sync' => array(
       'path' => 'jetpack_vendor/automattic/jetpack-wp-js-data-sync',
       'ver' => '0.6.9-alpha1777322605',
