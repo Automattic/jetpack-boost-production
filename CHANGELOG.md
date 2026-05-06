@@ -15,6 +15,7 @@ This is an alpha version! The changes listed here are not final.
 ### Changed
 - Adopt the shared Jetpack admin-page-layout mixin on the Boost admin pages. Drops inline JetpackFooter renders and `showFooter={false}` overrides so AdminPage's built-in footer lives inside the flex column that the mixin pins.
 - Boost: Remove translation wrappers from the "Boost" product name.
+- Components: Use Link from `@wordpress/ui` instead of ExternalLink.
 - Internal: migrate Notice component usages to @wordpress/ui.
 - Internal: No longer require automattic/jetpack-changelogger as a per-project dev dependency.
 - Remove Beta label from the Optimize LCP Images module.
