@@ -21,6 +21,7 @@ This is an alpha version! The changes listed here are not final.
 - Remove Beta label from the Optimize LCP Images module.
 - Remove Jetpack color overrides on core components, allowing them to use native WordPress admin theme colors.
 - Replace deprecated jetpack-components Spinner with WordPress Core Spinner.
+- Replace Gridicon with Icon and named icon exports from `@wordpress/icons`.
 - Tested up to WordPress 7.0.
 - Update package dependencies.
 
