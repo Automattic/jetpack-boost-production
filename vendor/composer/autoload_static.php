@@ -210,6 +210,7 @@ class ComposerStaticInitb1e77e6231d50e7663f84529b6a3dfda_jetpack_boostⓥ4_6_0_a
         'Automattic\\Jetpack\\Status\\Request' => __DIR__ . '/../..' . '/jetpack_vendor/automattic/jetpack-status/src/class-request.php',
         'Automattic\\Jetpack\\Status\\Visitor' => __DIR__ . '/../..' . '/jetpack_vendor/automattic/jetpack-status/src/class-visitor.php',
         'Automattic\\Jetpack\\Sync\\Actions' => __DIR__ . '/../..' . '/jetpack_vendor/automattic/jetpack-sync/src/class-actions.php',
+        'Automattic\\Jetpack\\Sync\\Activity_Log_Event' => __DIR__ . '/../..' . '/jetpack_vendor/automattic/jetpack-sync/src/class-activity-log-event.php',
         'Automattic\\Jetpack\\Sync\\Codec_Interface' => __DIR__ . '/../..' . '/jetpack_vendor/automattic/jetpack-sync/src/interface-codec.php',
         'Automattic\\Jetpack\\Sync\\Data_Settings' => __DIR__ . '/../..' . '/jetpack_vendor/automattic/jetpack-sync/src/class-data-settings.php',
         'Automattic\\Jetpack\\Sync\\Dedicated_Sender' => __DIR__ . '/../..' . '/jetpack_vendor/automattic/jetpack-sync/src/class-dedicated-sender.php',
