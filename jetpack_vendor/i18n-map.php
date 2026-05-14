@@ -26,7 +26,7 @@ return array(
     ),
     'jetpack-connection' => array(
       'path' => 'jetpack_vendor/automattic/jetpack-connection',
-      'ver' => '8.3.6-alpha1778782620',
+      'ver' => '8.3.6-alpha1778793320',
     ),
     'jetpack-explat' => array(
       'path' => 'jetpack_vendor/automattic/jetpack-explat',
@@ -34,7 +34,7 @@ return array(
     ),
     'jetpack-image-cdn' => array(
       'path' => 'jetpack_vendor/automattic/jetpack-image-cdn',
-      'ver' => '0.7.26-alpha1778782620',
+      'ver' => '0.7.26-alpha1778793320',
     ),
     'jetpack-ip' => array(
       'path' => 'jetpack_vendor/automattic/jetpack-ip',
@@ -70,7 +70,7 @@ return array(
     ),
     'jetpack-protect-status' => array(
       'path' => 'jetpack_vendor/automattic/jetpack-protect-status',
-      'ver' => '0.7.10-alpha1778782620',
+      'ver' => '0.7.10-alpha1778793320',
     ),
     'jetpack-schema' => array(
       'path' => 'jetpack_vendor/automattic/jetpack-schema',
@@ -78,7 +78,7 @@ return array(
     ),
     'jetpack-sync' => array(
       'path' => 'jetpack_vendor/automattic/jetpack-sync',
-      'ver' => '4.38.2-alpha1778782620',
+      'ver' => '4.38.2-alpha1778793320',
     ),
     'jetpack-wp-abilities' => array(
       'path' => 'jetpack_vendor/automattic/jetpack-wp-abilities',
@@ -86,7 +86,7 @@ return array(
     ),
     'jetpack-wp-js-data-sync' => array(
       'path' => 'jetpack_vendor/automattic/jetpack-wp-js-data-sync',
-      'ver' => '0.6.9-alpha1778782620',
+      'ver' => '0.6.9-alpha1778793320',
     ),
   ),
 );
