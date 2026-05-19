@@ -12,6 +12,9 @@ This is an alpha version! The changes listed here are not final.
 ### Changed
 - Internal: No longer require automattic/jetpack-changelogger as a per-project dev dependency.
 
+### Fixed
+- Phan: Address PhanPluginDuplicateConditionalNullCoalescing violations.
+
 ## [0.6.8] - 2025-09-17
 ### Fixed
 - Code: Resolve PhanImpossibleCondition violations. [#44869]
