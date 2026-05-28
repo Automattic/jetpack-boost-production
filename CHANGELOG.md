@@ -5,7 +5,7 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
-## [4.6.0-alpha] - unreleased
+## [5.0.0-alpha] - unreleased
 
 This is an alpha version! The changes listed here are not final.
 
@@ -17,6 +17,7 @@ This is an alpha version! The changes listed here are not final.
 - Boost: Remove translation wrappers from the "Boost" product name.
 - Componentry: align Boost UI with the WordPress admin color scheme to match the rest of Jetpack.
 - Components: Use Link from `@wordpress/ui` instead of ExternalLink.
+- General: Update minimum WordPress version to 6.9.
 - Internal: migrate Notice component usages to @wordpress/ui.
 - Internal: No longer require automattic/jetpack-changelogger as a per-project dev dependency.
 - Remove Beta label from the Optimize LCP Images module.
@@ -950,7 +951,7 @@ This is an alpha version! The changes listed here are not final.
 
 - First public alpha release
 
-[4.6.0-alpha]: https://github.com/Automattic/jetpack-boost-production/compare/4.5.9...4.6.0-alpha
+[5.0.0-alpha]: https://github.com/Automattic/jetpack-boost-production/compare/4.5.9...5.0.0-alpha
 [4.5.9]: https://github.com/Automattic/jetpack-boost-production/compare/4.5.8-beta...4.5.9
 [4.5.8-beta]: https://github.com/Automattic/jetpack-boost-production/compare/4.5.7...4.5.8-beta
 [4.5.7]: https://github.com/Automattic/jetpack-boost-production/compare/4.5.6...4.5.7
