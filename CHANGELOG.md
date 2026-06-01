@@ -30,6 +30,7 @@ This is an alpha version! The changes listed here are not final.
 - Update package dependencies.
 
 ### Fixed
+- Fixed a duplicate scrollbar on the Boost dashboard by removing an obsolete full-height override.
 - Include blog_id in frontend Tracks events.
 - Phan: Address PhanPluginDuplicateConditionalNullCoalescing violations.
 - Render Blocking JS: Fix is_opened_script() regex interpolation and counting asymmetry so unclosed scripts are correctly detected when ignored scripts are present.
