@@ -30,6 +30,7 @@ This is an alpha version! The changes listed here are not final.
 - Update package dependencies.
 
 ### Fixed
+- Fix Critical CSS progress bar backward jumps and incomplete fill to 100%.
 - Fixed a duplicate scrollbar on the Boost dashboard by removing an obsolete full-height override.
 - Include blog_id in frontend Tracks events.
 - Phan: Address PhanPluginDuplicateConditionalNullCoalescing violations.
