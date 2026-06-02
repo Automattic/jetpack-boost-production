@@ -22,6 +22,7 @@ This is an alpha version! The changes listed here are not final.
 - Internal: No longer require automattic/jetpack-changelogger as a per-project dev dependency.
 - Remove Beta label from the Optimize LCP Images module.
 - Remove Jetpack color overrides on core components, allowing them to use native WordPress admin theme colors.
+- Remove the per-page Hello Dolly rule; its content is now covered by the centralized normalize rule shipped with `@automattic/jetpack-components`'s AdminPage component.
 - Remove unneeded development and documentation files from the published plugin.
 - Replace deprecated jetpack-components Spinner with WordPress Core Spinner.
 - Replace Gridicon with Icon and named icon exports from `@wordpress/icons`.
