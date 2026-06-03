@@ -31,6 +31,7 @@ This is an alpha version! The changes listed here are not final.
 - Update package dependencies.
 
 ### Fixed
+- Cache debug log: remove the duplicate Jetpack logo and restyle the header breadcrumbs to match the design system, and modernize the "Copy to clipboard" and "See Logs" links. The TanStack Query debugger no longer renders.
 - Fix Critical CSS progress bar backward jumps and incomplete fill to 100%.
 - Fixed a duplicate scrollbar on the Boost dashboard by removing an obsolete full-height override.
 - Include blog_id in frontend Tracks events.
