@@ -35,6 +35,7 @@ This is an alpha version! The changes listed here are not final.
 - Fix Critical CSS progress bar backward jumps and incomplete fill to 100%.
 - Fixed a duplicate scrollbar on the Boost dashboard by removing an obsolete full-height override.
 - Include blog_id in frontend Tracks events.
+- LCP: Fix Cornerstone Page analysis errors on some sites.
 - Phan: Address PhanPluginDuplicateConditionalNullCoalescing violations.
 - Render Blocking JS: Fix is_opened_script() regex interpolation and counting asymmetry so unclosed scripts are correctly detected when ignored scripts are present.
 

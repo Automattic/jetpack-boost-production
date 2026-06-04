@@ -1618,6 +1618,10 @@ return array(
 		'version' => '5.0.0.0-alpha',
 		'path'    => $baseDir . '/tests/php/lib/cornerstone/Cornerstone_Pages_Test.php'
 	),
+	'Automattic\\Jetpack_Boost\\Tests\\Lib\\Cornerstone\\Cornerstone_Utils_Test' => array(
+		'version' => '5.0.0.0-alpha',
+		'path'    => $baseDir . '/tests/php/lib/cornerstone/Cornerstone_Utils_Test.php'
+	),
 	'Automattic\\Jetpack_Boost\\Tests\\Lib\\Critical_CSS\\Display_Critical_CSS_Test' => array(
 		'version' => '5.0.0.0-alpha',
 		'path'    => $baseDir . '/tests/php/lib/critical-css/Display_Critical_CSS_Test.php'
