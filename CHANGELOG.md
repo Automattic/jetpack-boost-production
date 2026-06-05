@@ -27,6 +27,7 @@ This is an alpha version! The changes listed here are not final.
 - Replace deprecated jetpack-components Spinner with WordPress Core Spinner.
 - Replace Gridicon with Icon and named icon exports from `@wordpress/icons`.
 - Tested up to WordPress 7.0.
+- Update composer.lock files.
 - Updated package dependencies.
 - Update package dependencies.
 
