@@ -317,6 +317,7 @@ return array(
     'Automattic\\Jetpack_Boost\\Lib\\Critical_CSS\\Source_Providers\\Source_Providers' => $baseDir . '/app/lib/critical-css/source-providers/class-source-providers.php',
     'Automattic\\Jetpack_Boost\\Lib\\Debug' => $baseDir . '/app/lib/class-debug.php',
     'Automattic\\Jetpack_Boost\\Lib\\Environment_Change_Detector' => $baseDir . '/app/lib/class-environment-change-detector.php',
+    'Automattic\\Jetpack_Boost\\Lib\\Js_Structure_Scanner' => $baseDir . '/app/lib/class-js-structure-scanner.php',
     'Automattic\\Jetpack_Boost\\Lib\\Minify' => $baseDir . '/app/lib/class-minify.php',
     'Automattic\\Jetpack_Boost\\Lib\\Minify\\Cleanup_Stored_Paths' => $baseDir . '/app/lib/minify/class-cleanup-stored-paths.php',
     'Automattic\\Jetpack_Boost\\Lib\\Minify\\Concatenate_CSS' => $baseDir . '/app/lib/minify/class-concatenate-css.php',

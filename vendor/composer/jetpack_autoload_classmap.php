@@ -1262,6 +1262,10 @@ return array(
 		'version' => '5.0.0.0-alpha',
 		'path'    => $baseDir . '/app/lib/class-environment-change-detector.php'
 	),
+	'Automattic\\Jetpack_Boost\\Lib\\Js_Structure_Scanner' => array(
+		'version' => '5.0.0.0-alpha',
+		'path'    => $baseDir . '/app/lib/class-js-structure-scanner.php'
+	),
 	'Automattic\\Jetpack_Boost\\Lib\\Minify' => array(
 		'version' => '5.0.0.0-alpha',
 		'path'    => $baseDir . '/app/lib/class-minify.php'
@@ -1614,6 +1618,10 @@ return array(
 		'version' => '5.0.0.0-alpha',
 		'path'    => $baseDir . '/tests/php/compatibility/Beaver_Builder_Test.php'
 	),
+	'Automattic\\Jetpack_Boost\\Tests\\Compatibility\\JS_Concatenate_Test' => array(
+		'version' => '5.0.0.0-alpha',
+		'path'    => $baseDir . '/tests/php/compatibility/JS_Concatenate_Test.php'
+	),
 	'Automattic\\Jetpack_Boost\\Tests\\Jetpack_Boost_Test' => array(
 		'version' => '5.0.0.0-alpha',
 		'path'    => $baseDir . '/tests/php/Jetpack_Boost_Test.php'
@@ -1638,9 +1646,21 @@ return array(
 		'version' => '5.0.0.0-alpha',
 		'path'    => $baseDir . '/tests/php/lib/critical-css/Display_Critical_CSS_Test.php'
 	),
+	'Automattic\\Jetpack_Boost\\Tests\\Lib\\Js_Structure_Scanner_Test' => array(
+		'version' => '5.0.0.0-alpha',
+		'path'    => $baseDir . '/tests/php/lib/Js_Structure_Scanner_Test.php'
+	),
+	'Automattic\\Jetpack_Boost\\Tests\\Lib\\Minify\\Functions_Helpers_Test' => array(
+		'version' => '5.0.0.0-alpha',
+		'path'    => $baseDir . '/tests/php/lib/minify/Functions_Helpers_Test.php'
+	),
 	'Automattic\\Jetpack_Boost\\Tests\\Lib\\Minify\\Functions_Service_Test' => array(
 		'version' => '5.0.0.0-alpha',
 		'path'    => $baseDir . '/tests/php/lib/minify/Functions_Service_Test.php'
+	),
+	'Automattic\\Jetpack_Boost\\Tests\\Lib\\Minify_Scan_Error_Test' => array(
+		'version' => '5.0.0.0-alpha',
+		'path'    => $baseDir . '/tests/php/lib/Minify_Scan_Error_Test.php'
 	),
 	'Automattic\\Jetpack_Boost\\Tests\\Lib\\Minify_Test' => array(
 		'version' => '5.0.0.0-alpha',

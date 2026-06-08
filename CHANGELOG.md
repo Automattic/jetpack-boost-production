@@ -10,6 +10,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 This is an alpha version! The changes listed here are not final.
 
 ### Added
+- Concatenate JS: Add a `jetpack_boost_js_minify_fallback` action that fires when JS minification is skipped in favor of the original bundle, so logging plugins can observe how often (and why) the safety net engages.
 - Register Jetpack Boost abilities via the WordPress Abilities API (modules read/toggle, latest speed score, and page cache flush) for AI agents on WordPress 6.9+.
 
 ### Changed
@@ -33,6 +34,7 @@ This is an alpha version! The changes listed here are not final.
 
 ### Fixed
 - Cache debug log: remove the duplicate Jetpack logo and restyle the header breadcrumbs to match the design system, and modernize the "Copy to clipboard" and "See Logs" links. The TanStack Query debugger no longer renders.
+- Concatenate JS: Fix pages breaking with an "Unexpected end of input" error when Concatenate JS is enabled on sites that use modern JavaScript under specific conditions.
 - Fix Critical CSS progress bar backward jumps and incomplete fill to 100%.
 - Fixed a duplicate scrollbar on the Boost dashboard by removing an obsolete full-height override.
 - Include blog_id in frontend Tracks events.
