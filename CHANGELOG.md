@@ -5,13 +5,11 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
-## [4.6.1-alpha] - unreleased
-
-This is an alpha version! The changes listed here are not final.
-
+## [4.6.1-beta] - 2026-06-10
 ### Changed
-- Update dependencies.
-- Update package dependencies.
+- Update dependencies. [#49464]
+- Update package dependencies. [#49273] [#49448] [#49492]
+- My Jetpack: Fix fatal error being logged when My Jetpack page is loaded. [#49479]
 
 ## [4.6.0] - 2026-06-09
 ### Added
@@ -964,7 +962,7 @@ This is an alpha version! The changes listed here are not final.
 
 - First public alpha release
 
-[4.6.1-alpha]: https://github.com/Automattic/jetpack-boost-production/compare/4.6.0...4.6.1-alpha
+[4.6.1-beta]: https://github.com/Automattic/jetpack-boost-production/compare/4.6.0...4.6.1-beta
 [4.6.0]: https://github.com/Automattic/jetpack-boost-production/compare/4.5.9...4.6.0
 [4.5.9]: https://github.com/Automattic/jetpack-boost-production/compare/4.5.8-beta...4.5.9
 [4.5.8-beta]: https://github.com/Automattic/jetpack-boost-production/compare/4.5.7...4.5.8-beta
