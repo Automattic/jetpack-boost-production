@@ -13,7 +13,7 @@ This is an alpha version! The changes listed here are not final.
 - Update dependencies.
 - Update package dependencies.
 
-## [4.6.0-beta] - 2026-06-08
+## [4.6.0] - 2026-06-09
 ### Added
 - Concatenate JS: Add a `jetpack_boost_js_minify_fallback` action that fires when JS minification is skipped in favor of the original bundle, so logging plugins can observe how often (and why) the safety net engages. [#49399]
 - Register Jetpack Boost abilities via the WordPress Abilities API (modules read/toggle, latest speed score, and page cache flush) for AI agents on WordPress 6.9+. [#48328]
@@ -964,8 +964,8 @@ This is an alpha version! The changes listed here are not final.
 
 - First public alpha release
 
-[4.6.1-alpha]: https://github.com/Automattic/jetpack-boost-production/compare/4.6.0-beta...4.6.1-alpha
-[4.6.0-beta]: https://github.com/Automattic/jetpack-boost-production/compare/4.5.9...4.6.0-beta
+[4.6.1-alpha]: https://github.com/Automattic/jetpack-boost-production/compare/4.6.0...4.6.1-alpha
+[4.6.0]: https://github.com/Automattic/jetpack-boost-production/compare/4.5.9...4.6.0
 [4.5.9]: https://github.com/Automattic/jetpack-boost-production/compare/4.5.8-beta...4.5.9
 [4.5.8-beta]: https://github.com/Automattic/jetpack-boost-production/compare/4.5.7...4.5.8-beta
 [4.5.7]: https://github.com/Automattic/jetpack-boost-production/compare/4.5.6...4.5.7
