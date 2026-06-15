@@ -9,6 +9,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 This is an alpha version! The changes listed here are not final.
 
+### Fixed
+- Critical CSS: continue generating for remaining providers when one provider fails unexpectedly, instead of failing the whole run.
+
 ## [4.6.1-beta] - 2026-06-10
 ### Changed
 - Update dependencies. [#49464]
