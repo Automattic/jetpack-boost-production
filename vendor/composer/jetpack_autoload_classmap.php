@@ -1642,6 +1642,10 @@ return array(
 		'version' => '4.7.0.0-alpha',
 		'path'    => $baseDir . '/tests/php/lib/cornerstone/Cornerstone_Utils_Test.php'
 	),
+	'Automattic\\Jetpack_Boost\\Tests\\Lib\\Critical_CSS\\Critical_CSS_Storage_Test' => array(
+		'version' => '4.7.0.0-alpha',
+		'path'    => $baseDir . '/tests/php/lib/critical-css/Critical_CSS_Storage_Test.php'
+	),
 	'Automattic\\Jetpack_Boost\\Tests\\Lib\\Critical_CSS\\Display_Critical_CSS_Test' => array(
 		'version' => '4.7.0.0-alpha',
 		'path'    => $baseDir . '/tests/php/lib/critical-css/Display_Critical_CSS_Test.php'
@@ -1685,6 +1689,10 @@ return array(
 	'Automattic\\Jetpack_Boost\\Tests\\Modules\\Module_Test' => array(
 		'version' => '4.7.0.0-alpha',
 		'path'    => $baseDir . '/tests/php/modules/Module_Test.php'
+	),
+	'Automattic\\Jetpack_Boost\\Tests\\Modules\\Optimizations\\Critical_CSS\\CSS_Proxy_Test' => array(
+		'version' => '4.7.0.0-alpha',
+		'path'    => $baseDir . '/tests/php/modules/optimizations/critical-css/CSS_Proxy_Test.php'
 	),
 	'Automattic\\Jetpack_Boost\\Tests\\Modules\\Optimizations\\Lcp\\LCP_Optimize_Bg_Image_Test' => array(
 		'version' => '4.7.0.0-alpha',

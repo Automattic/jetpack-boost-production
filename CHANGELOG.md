@@ -14,6 +14,7 @@ This is an alpha version! The changes listed here are not final.
 
 ### Fixed
 - Critical CSS: continue generating for remaining providers when one provider fails unexpectedly, instead of failing the whole run.
+- Critical CSS: stop stripping inline SVG markup and double quotes from valid CSS values while still preventing style-tag breakout.
 
 ## [4.6.1-beta] - 2026-06-10
 ### Changed
