@@ -5,9 +5,12 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
-## [4.6.2-alpha] - unreleased
+## [4.7.0-alpha] - unreleased
 
 This is an alpha version! The changes listed here are not final.
+
+### Added
+- Concatenate JS/CSS: allow administrators to test additional exclude handles per-request via jb-minify-js-excludes / jb-minify-css-excludes GET parameters, without changing saved settings. The parameters are ignored for non-administrators.
 
 ### Fixed
 - Critical CSS: continue generating for remaining providers when one provider fails unexpectedly, instead of failing the whole run.
@@ -969,7 +972,7 @@ This is an alpha version! The changes listed here are not final.
 
 - First public alpha release
 
-[4.6.2-alpha]: https://github.com/Automattic/jetpack-boost-production/compare/4.6.1-beta...4.6.2-alpha
+[4.7.0-alpha]: https://github.com/Automattic/jetpack-boost-production/compare/4.6.1-beta...4.7.0-alpha
 [4.6.1-beta]: https://github.com/Automattic/jetpack-boost-production/compare/4.6.0...4.6.1-beta
 [4.6.0]: https://github.com/Automattic/jetpack-boost-production/compare/4.5.9...4.6.0
 [4.5.9]: https://github.com/Automattic/jetpack-boost-production/compare/4.5.8-beta...4.5.9
