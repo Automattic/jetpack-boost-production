@@ -12,6 +12,9 @@ This is an alpha version! The changes listed here are not final.
 ### Added
 - Concatenate JS/CSS: allow administrators to test additional exclude handles per-request via jb-minify-js-excludes / jb-minify-css-excludes GET parameters, without changing saved settings. The parameters are ignored for non-administrators.
 
+### Changed
+- Update package dependencies.
+
 ### Fixed
 - Critical CSS: continue generating for remaining providers when one provider fails unexpectedly, instead of failing the whole run.
 - Critical CSS: stop stripping inline SVG markup and double quotes from valid CSS values while still preventing style-tag breakout.
