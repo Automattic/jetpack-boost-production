@@ -14,6 +14,7 @@ This is an alpha version! The changes listed here are not final.
 - Defer JS: add an exclusion list so specific pages can be excluded by URL pattern without disabling the feature site-wide.
 
 ### Changed
+- Migrate ToggleControl to @wordpress/components
 - Update package dependencies.
 
 ### Fixed
