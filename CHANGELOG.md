@@ -5,6 +5,13 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [4.6.3-alpha] - unreleased
+
+This is an alpha version! The changes listed here are not final.
+
+### Changed
+- Update dependencies.
+
 ## [4.6.2-beta] - 2026-06-24
 ### Added
 - Concatenate JS/CSS: allow administrators to test additional exclude handles per-request via jb-minify-js-excludes / jb-minify-css-excludes GET parameters, without changing saved settings. The parameters are ignored for non-administrators. [#49555]
@@ -12,7 +19,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Changed
 - Migrate ToggleControl to @wordpress/components [#49694]
-- Update package dependencies. [#49631] [#49638] [#49691] [#49757] [#49831] 
+- Update package dependencies. [#49631] [#49638] [#49691] [#49757] [#49831]
 
 ### Fixed
 - Critical CSS: continue generating for remaining providers when one provider fails unexpectedly, instead of failing the whole run. [#49554]
@@ -977,6 +984,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 - First public alpha release
 
+[4.6.3-alpha]: https://github.com/Automattic/jetpack-boost-production/compare/4.6.2-beta...4.6.3-alpha
 [4.6.2-beta]: https://github.com/Automattic/jetpack-boost-production/compare/4.6.1-beta...4.6.2-beta
 [4.6.1-beta]: https://github.com/Automattic/jetpack-boost-production/compare/4.6.0...4.6.1-beta
 [4.6.0]: https://github.com/Automattic/jetpack-boost-production/compare/4.5.9...4.6.0
