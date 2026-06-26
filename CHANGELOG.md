@@ -12,6 +12,9 @@ This is an alpha version! The changes listed here are not final.
 ### Changed
 - Update dependencies.
 
+### Fixed
+- Fix fatal error on My Jetpack when the current stable Jetpack plugin is active.
+
 ## [4.6.2-beta] - 2026-06-24
 ### Added
 - Concatenate JS/CSS: allow administrators to test additional exclude handles per-request via jb-minify-js-excludes / jb-minify-css-excludes GET parameters, without changing saved settings. The parameters are ignored for non-administrators. [#49555]
