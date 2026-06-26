@@ -5,6 +5,10 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [4.6.4-alpha] - unreleased
+
+This is an alpha version! The changes listed here are not final.
+
 ## [4.6.3] - 2026-06-26
 ### Changed
 - Update dependencies. [#49962]
@@ -984,6 +988,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 - First public alpha release
 
+[4.6.4-alpha]: https://github.com/Automattic/jetpack-boost-production/compare/4.6.3...4.6.4-alpha
 [4.6.3]: https://github.com/Automattic/jetpack-boost-production/compare/4.6.2...4.6.3
 [4.6.2]: https://github.com/Automattic/jetpack-boost-production/compare/4.6.1...4.6.2
 [4.6.1]: https://github.com/Automattic/jetpack-boost-production/compare/4.6.0...4.6.1
