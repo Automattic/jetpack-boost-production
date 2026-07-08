@@ -13,6 +13,9 @@ This is an alpha version! The changes listed here are not final.
 - Boost now reports its problem count to the central menu-badges registry instead of writing admin-menu markup directly.
 - Update package dependencies.
 
+### Fixed
+- Fix a blank Boost admin page on WordPress 6.9 installs without the Gutenberg plugin active, where the wp-theme script handle the embedded My Jetpack app depends on was otherwise unregistered.
+
 ## [4.6.3] - 2026-06-26
 ### Changed
 - Update dependencies. [#49962]

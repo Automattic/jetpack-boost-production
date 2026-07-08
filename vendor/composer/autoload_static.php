@@ -283,6 +283,7 @@ class ComposerStaticInitb1e77e6231d50e7663f84529b6a3dfda_jetpack_boostⓥ4_6_4_a
         'Automattic\\Jetpack\\Terms_Of_Service' => __DIR__ . '/../..' . '/jetpack_vendor/automattic/jetpack-connection/src/class-terms-of-service.php',
         'Automattic\\Jetpack\\Tracking' => __DIR__ . '/../..' . '/jetpack_vendor/automattic/jetpack-connection/src/class-tracking.php',
         'Automattic\\Jetpack\\WP_Abilities\\Registrar' => __DIR__ . '/../..' . '/jetpack_vendor/automattic/jetpack-wp-abilities/src/class-registrar.php',
+        'Automattic\\Jetpack\\WP_Build_Polyfills\\WP_Build_Polyfills' => __DIR__ . '/../..' . '/jetpack_vendor/automattic/jetpack-wp-build-polyfills/src/class-wp-build-polyfills.php',
         'Automattic\\Jetpack\\WP_JS_Data_Sync\\Contracts\\Data_Sync_Action' => __DIR__ . '/../..' . '/jetpack_vendor/automattic/jetpack-wp-js-data-sync/src/contracts/interface-data-sync-action.php',
         'Automattic\\Jetpack\\WP_JS_Data_Sync\\Contracts\\Data_Sync_Entry' => __DIR__ . '/../..' . '/jetpack_vendor/automattic/jetpack-wp-js-data-sync/src/contracts/interface-data-sync-entry.php',
         'Automattic\\Jetpack\\WP_JS_Data_Sync\\Contracts\\Entry_Can_Delete' => __DIR__ . '/../..' . '/jetpack_vendor/automattic/jetpack-wp-js-data-sync/src/contracts/interface-entry-can-delete.php',
