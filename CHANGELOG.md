@@ -11,6 +11,7 @@ This is an alpha version! The changes listed here are not final.
 
 ### Changed
 - Boost now reports its problem count to the central menu-badges registry instead of writing admin-menu markup directly.
+- Image CDN: update the image quality slider to use the WordPress RangeControl component.
 - Update @react-spring/web to v10 and remove the unused @react-spring/core dependency for React 19 compatibility.
 - Update package dependencies.
 
