@@ -17,6 +17,7 @@ This is an alpha version! The changes listed here are not final.
 
 ### Fixed
 - Fix a blank Boost admin page on WordPress 6.9 installs without the Gutenberg plugin active, where the wp-theme script handle the embedded My Jetpack app depends on was otherwise unregistered.
+- LCP: Preserve analysis results when a page reports an error or when the homepage is also configured as a cornerstone page.
 
 ## [4.6.3] - 2026-06-26
 ### Changed

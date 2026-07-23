@@ -1734,6 +1734,14 @@ return array(
 		'version' => '4.6.4.0-alpha',
 		'path'    => $baseDir . '/tests/php/modules/optimizations/lcp/LCP_Optimize_Img_Tag_Test.php'
 	),
+	'Automattic\\Jetpack_Boost\\Tests\\Modules\\Optimizations\\Lcp\\LCP_State_Schema_Test' => array(
+		'version' => '4.6.4.0-alpha',
+		'path'    => $baseDir . '/tests/php/modules/optimizations/lcp/LCP_State_Schema_Test.php'
+	),
+	'Automattic\\Jetpack_Boost\\Tests\\Modules\\Optimizations\\Lcp\\LCP_State_Test' => array(
+		'version' => '4.6.4.0-alpha',
+		'path'    => $baseDir . '/tests/php/modules/optimizations/lcp/LCP_State_Test.php'
+	),
 	'Automattic\\Jetpack_Boost\\Tests\\Modules\\Optimizations\\Page_Cache\\Cache_Preload_Test' => array(
 		'version' => '4.6.4.0-alpha',
 		'path'    => $baseDir . '/tests/php/modules/optimizations/page-cache/Cache_Preload_Test.php'
