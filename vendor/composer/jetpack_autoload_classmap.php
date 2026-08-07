@@ -1686,6 +1686,10 @@ return array(
 		'version' => '4.6.4.0-alpha',
 		'path'    => $baseDir . '/tests/php/lib/Js_Structure_Scanner_Test.php'
 	),
+	'Automattic\\Jetpack_Boost\\Tests\\Lib\\Minify\\Concatenate_Static_Cache_Urls_Test' => array(
+		'version' => '4.6.4.0-alpha',
+		'path'    => $baseDir . '/tests/php/lib/minify/Concatenate_Static_Cache_Urls_Test.php'
+	),
 	'Automattic\\Jetpack_Boost\\Tests\\Lib\\Minify\\Debug_Excludes_Test' => array(
 		'version' => '4.6.4.0-alpha',
 		'path'    => $baseDir . '/tests/php/lib/minify/Debug_Excludes_Test.php'
