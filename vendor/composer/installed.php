@@ -1,8 +1,8 @@
 <?php return array(
     'root' => array(
         'name' => 'automattic/jetpack-boost',
-        'pretty_version' => '4.6.4-alpha',
-        'version' => '4.6.4.0-alpha',
+        'pretty_version' => '4.7.0-alpha',
+        'version' => '4.7.0.0-alpha',
         'reference' => null,
         'type' => 'library',
         'install_path' => __DIR__ . '/../../',
@@ -16,6 +16,15 @@
             'reference' => 'f61be854fa59a0071fb50d516b813ca61ee25c2e',
             'type' => 'jetpack-library',
             'install_path' => __DIR__ . '/../../jetpack_vendor/automattic/jetpack-a8c-mc-stats',
+            'aliases' => array(),
+            'dev_requirement' => false,
+        ),
+        'automattic/jetpack-activity-log' => array(
+            'pretty_version' => '0.2.2',
+            'version' => '0.2.2.0',
+            'reference' => '2f9bea270a65647ccffeb0412516092c6824fe33',
+            'type' => 'jetpack-library',
+            'install_path' => __DIR__ . '/../../jetpack_vendor/automattic/jetpack-activity-log',
             'aliases' => array(),
             'dev_requirement' => false,
         ),
@@ -56,8 +65,8 @@
             'dev_requirement' => false,
         ),
         'automattic/jetpack-boost' => array(
-            'pretty_version' => '4.6.4-alpha',
-            'version' => '4.6.4.0-alpha',
+            'pretty_version' => '4.7.0-alpha',
+            'version' => '4.7.0.0-alpha',
             'reference' => null,
             'type' => 'library',
             'install_path' => __DIR__ . '/../../',

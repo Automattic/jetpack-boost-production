@@ -5,11 +5,12 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
-## [4.6.4-alpha] - unreleased
+## [4.7.0-alpha] - unreleased
 
 This is an alpha version! The changes listed here are not final.
 
 ### Added
+- Add the Activity Log page to wp-admin, so it is available without the Jetpack plugin installed.
 - Concatenate JS/CSS: Add a `jetpack_boost_minify_use_static_cache_urls` filter to override whether bundles are linked from the static cache.
 
 ### Changed
@@ -1003,7 +1004,7 @@ This is an alpha version! The changes listed here are not final.
 
 - First public alpha release
 
-[4.6.4-alpha]: https://github.com/Automattic/jetpack-boost-production/compare/4.6.3...4.6.4-alpha
+[4.7.0-alpha]: https://github.com/Automattic/jetpack-boost-production/compare/4.6.3...4.7.0-alpha
 [4.6.3]: https://github.com/Automattic/jetpack-boost-production/compare/4.6.2...4.6.3
 [4.6.2]: https://github.com/Automattic/jetpack-boost-production/compare/4.6.1...4.6.2
 [4.6.1]: https://github.com/Automattic/jetpack-boost-production/compare/4.6.0...4.6.1
