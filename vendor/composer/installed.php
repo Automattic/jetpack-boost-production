@@ -227,9 +227,9 @@
             'dev_requirement' => false,
         ),
         'automattic/jetpack-plugin-deactivation' => array(
-            'pretty_version' => '0.3.31-alpha.1784734664',
-            'version' => '0.3.31.0-alpha1784734664',
-            'reference' => 'edb1b59d97b922024be554023e3113d1c51727c1',
+            'pretty_version' => '0.3.31',
+            'version' => '0.3.31.0',
+            'reference' => 'dcd68ad238f86773331a0d9cd579d4b3e8f8f3e2',
             'type' => 'jetpack-library',
             'install_path' => __DIR__ . '/../../jetpack_vendor/automattic/jetpack-plugin-deactivation',
             'aliases' => array(),
