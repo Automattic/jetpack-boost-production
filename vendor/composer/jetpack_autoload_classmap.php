@@ -1710,6 +1710,10 @@ return array(
 		'version' => '4.7.0.0-alpha',
 		'path'    => $baseDir . '/tests/php/lib/critical-css/Display_Critical_CSS_Test.php'
 	),
+	'Automattic\\Jetpack_Boost\\Tests\\Lib\\Debug_Test' => array(
+		'version' => '4.7.0.0-alpha',
+		'path'    => $baseDir . '/tests/php/lib/Debug_Test.php'
+	),
 	'Automattic\\Jetpack_Boost\\Tests\\Lib\\Js_Structure_Scanner_Test' => array(
 		'version' => '4.7.0.0-alpha',
 		'path'    => $baseDir . '/tests/php/lib/Js_Structure_Scanner_Test.php'
@@ -1737,6 +1741,10 @@ return array(
 	'Automattic\\Jetpack_Boost\\Tests\\Lib\\Minify_Test' => array(
 		'version' => '4.7.0.0-alpha',
 		'path'    => $baseDir . '/tests/php/lib/Minify_Test.php'
+	),
+	'Automattic\\Jetpack_Boost\\Tests\\Lib\\Mocks\\Boost_POI_Test_Gadget' => array(
+		'version' => '4.7.0.0-alpha',
+		'path'    => $baseDir . '/tests/php/lib/mocks/class-boost-poi-test-gadget.php'
 	),
 	'Automattic\\Jetpack_Boost\\Tests\\Lib\\Mocks\\Mock_Premium_Features' => array(
 		'version' => '4.7.0.0-alpha',
@@ -1773,6 +1781,10 @@ return array(
 	'Automattic\\Jetpack_Boost\\Tests\\Modules\\Optimizations\\Lcp\\LCP_State_Test' => array(
 		'version' => '4.7.0.0-alpha',
 		'path'    => $baseDir . '/tests/php/modules/optimizations/lcp/LCP_State_Test.php'
+	),
+	'Automattic\\Jetpack_Boost\\Tests\\Modules\\Optimizations\\Lcp\\LCP_Storage_Test' => array(
+		'version' => '4.7.0.0-alpha',
+		'path'    => $baseDir . '/tests/php/modules/optimizations/lcp/LCP_Storage_Test.php'
 	),
 	'Automattic\\Jetpack_Boost\\Tests\\Modules\\Optimizations\\Page_Cache\\Cache_Preload_Test' => array(
 		'version' => '4.7.0.0-alpha',
