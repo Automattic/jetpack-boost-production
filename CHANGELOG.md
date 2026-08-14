@@ -24,6 +24,7 @@ This is an alpha version! The changes listed here are not final.
 - Concatenate JS/CSS: Fix broken CSS and JS delivery on pages rendered after a site is migrated onto WP Cloud or WordPress.com. Pages already served from a cache keep the old URLs until the cache is purged or expires.
 - Fix a blank Boost admin page on WordPress 6.9 installs without the Gutenberg plugin active, where the wp-theme script handle the embedded My Jetpack app depends on was otherwise unregistered.
 - LCP: Preserve analysis results when a page reports an error or when the homepage is also configured as a cornerstone page.
+- Modules: Batch the per-module status option reads into a single query to avoid redundant per-request database queries on sites without a persistent object cache.
 
 ## [4.6.3] - 2026-06-26
 ### Changed
