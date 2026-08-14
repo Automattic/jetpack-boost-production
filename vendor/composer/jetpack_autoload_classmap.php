@@ -1190,6 +1190,10 @@ return array(
 		'version' => '4.7.0.0-alpha',
 		'path'    => $baseDir . '/app/lib/class-assets.php'
 	),
+	'Automattic\\Jetpack_Boost\\Lib\\Body_Close_Locator' => array(
+		'version' => '4.7.0.0-alpha',
+		'path'    => $baseDir . '/app/lib/class-body-close-locator.php'
+	),
 	'Automattic\\Jetpack_Boost\\Lib\\Boost_Health' => array(
 		'version' => '4.7.0.0-alpha',
 		'path'    => $baseDir . '/app/lib/class-boost-health.php'
@@ -1353,6 +1357,10 @@ return array(
 	'Automattic\\Jetpack_Boost\\Lib\\Output_Filter' => array(
 		'version' => '4.7.0.0-alpha',
 		'path'    => $baseDir . '/app/lib/class-output-filter.php'
+	),
+	'Automattic\\Jetpack_Boost\\Lib\\Position_Aware_Tag_Processor' => array(
+		'version' => '4.7.0.0-alpha',
+		'path'    => $baseDir . '/app/lib/class-position-aware-tag-processor.php'
 	),
 	'Automattic\\Jetpack_Boost\\Lib\\Premium_Features' => array(
 		'version' => '4.7.0.0-alpha',
@@ -1678,6 +1686,10 @@ return array(
 		'version' => '4.7.0.0-alpha',
 		'path'    => $baseDir . '/tests/php/lib/Analytics_Test.php'
 	),
+	'Automattic\\Jetpack_Boost\\Tests\\Lib\\Body_Close_Locator_Test' => array(
+		'version' => '4.7.0.0-alpha',
+		'path'    => $baseDir . '/tests/php/lib/Body_Close_Locator_Test.php'
+	),
 	'Automattic\\Jetpack_Boost\\Tests\\Lib\\Cache_Compatibility_Test' => array(
 		'version' => '4.7.0.0-alpha',
 		'path'    => $baseDir . '/tests/php/lib/Cache_Compatibility_Test.php'
@@ -1773,6 +1785,10 @@ return array(
 	'Automattic\\Jetpack_Boost\\Tests\\Modules\\Optimizations\\Page_Cache\\Path_Actions_Test' => array(
 		'version' => '4.7.0.0-alpha',
 		'path'    => $baseDir . '/tests/php/modules/optimizations/page-cache/Path_Actions_Test.php'
+	),
+	'Automattic\\Jetpack_Boost\\Tests\\Modules\\Optimizations\\Render_Blocking_JS\\Render_Blocking_JS_Insertion_Test' => array(
+		'version' => '4.7.0.0-alpha',
+		'path'    => $baseDir . '/tests/php/modules/optimizations/render-blocking-js/Render_Blocking_JS_Insertion_Test.php'
 	),
 	'Automattic\\Jetpack_Boost\\Tests\\Modules\\Optimizations\\Render_Blocking_JS\\Render_Blocking_JS_Test' => array(
 		'version' => '4.7.0.0-alpha',
