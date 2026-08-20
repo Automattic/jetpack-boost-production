@@ -13,6 +13,9 @@ This is an alpha version! The changes listed here are not final.
 - Remove the Upgraded pill from module titles on the settings page.
 - Update package dependencies.
 
+### Fixed
+- Connection: Update wording for some connection error notices.
+
 ## [4.7.0] - 2026-08-17
 ### Security
 - Critical CSS/LCP: Close REST API access to the cache storage, and refuse to load a stored cache entry that contains a PHP object.
