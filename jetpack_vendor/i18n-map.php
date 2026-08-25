@@ -18,7 +18,7 @@ return array(
     ),
     'jetpack-assets' => array(
       'path' => 'jetpack_vendor/automattic/jetpack-assets',
-      'ver' => '5.0.0-alpha1787677819',
+      'ver' => '5.0.0-alpha1787686674',
     ),
     'jetpack-boost-core' => array(
       'path' => 'jetpack_vendor/automattic/jetpack-boost-core',
@@ -86,7 +86,7 @@ return array(
     ),
     'jetpack-schema' => array(
       'path' => 'jetpack_vendor/automattic/jetpack-schema',
-      'ver' => '0.3.0-alpha1787677819',
+      'ver' => '0.3.0-alpha1787686674',
     ),
     'jetpack-sync' => array(
       'path' => 'jetpack_vendor/automattic/jetpack-sync',
