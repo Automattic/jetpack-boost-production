@@ -16,6 +16,9 @@ This is an alpha version! The changes listed here are not final.
 - Tested up to WordPress 7.1.
 - Update package dependencies.
 
+### Removed
+- Updated PHP version requirements to PHP 7.4 or newer.
+
 ### Fixed
 - Charts: draw labels at the design system's font weight and size.
 - Connection: Update wording for some connection error notices.
