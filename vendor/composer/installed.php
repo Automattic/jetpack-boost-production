@@ -22,7 +22,7 @@
         'automattic/jetpack-activity-log' => array(
             'pretty_version' => '0.3.0',
             'version' => '0.3.0.0',
-            'reference' => 'c8a84b50374aff7ff98ec0c3be83121e38aed297',
+            'reference' => '2599236eebe78f7deb7452ed7f4bdef094ab5044',
             'type' => 'jetpack-library',
             'install_path' => __DIR__ . '/../../jetpack_vendor/automattic/jetpack-activity-log',
             'aliases' => array(),
@@ -202,7 +202,7 @@
         'automattic/jetpack-my-jetpack' => array(
             'pretty_version' => '6.1.0-alpha.1787779161',
             'version' => '6.1.0.0-alpha1787779161',
-            'reference' => '6cfff487a88c428cac06e185e2e945f97508ea6e',
+            'reference' => '44d5c2c4d8572a12ef70ff1bc5a686ffea40c464',
             'type' => 'jetpack-library',
             'install_path' => __DIR__ . '/../../jetpack_vendor/automattic/jetpack-my-jetpack',
             'aliases' => array(),
@@ -317,9 +317,9 @@
             'dev_requirement' => false,
         ),
         'automattic/jetpack-wp-build-polyfills' => array(
-            'pretty_version' => '0.5.0',
-            'version' => '0.5.0.0',
-            'reference' => '1b1075463133661856bced855e15738e7c712250',
+            'pretty_version' => '0.5.1-alpha.1787816115',
+            'version' => '0.5.1.0-alpha1787816115',
+            'reference' => 'b601ac4ee9953e98e1f1fce5b31c7803904074b9',
             'type' => 'jetpack-library',
             'install_path' => __DIR__ . '/../../jetpack_vendor/automattic/jetpack-wp-build-polyfills',
             'aliases' => array(),

@@ -254,6 +254,7 @@ return array(
     'Automattic\\Jetpack\\Terms_Of_Service' => $baseDir . '/jetpack_vendor/automattic/jetpack-connection/src/class-terms-of-service.php',
     'Automattic\\Jetpack\\Tracking' => $baseDir . '/jetpack_vendor/automattic/jetpack-connection/src/class-tracking.php',
     'Automattic\\Jetpack\\WP_Abilities\\Registrar' => $baseDir . '/jetpack_vendor/automattic/jetpack-wp-abilities/src/class-registrar.php',
+    'Automattic\\Jetpack\\WP_Build_Polyfills\\WP_Build_Admin_Frame' => $baseDir . '/jetpack_vendor/automattic/jetpack-wp-build-polyfills/src/class-wp-build-admin-frame.php',
     'Automattic\\Jetpack\\WP_Build_Polyfills\\WP_Build_Polyfills' => $baseDir . '/jetpack_vendor/automattic/jetpack-wp-build-polyfills/src/class-wp-build-polyfills.php',
     'Automattic\\Jetpack\\WP_JS_Data_Sync\\Contracts\\Data_Sync_Action' => $baseDir . '/jetpack_vendor/automattic/jetpack-wp-js-data-sync/src/contracts/interface-data-sync-action.php',
     'Automattic\\Jetpack\\WP_JS_Data_Sync\\Contracts\\Data_Sync_Entry' => $baseDir . '/jetpack_vendor/automattic/jetpack-wp-js-data-sync/src/contracts/interface-data-sync-entry.php',
