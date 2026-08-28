@@ -25,6 +25,7 @@ This is an alpha version! The changes listed here are not final.
 
 ### Fixed
 - Activity Log: Continue the wp-admin menu color behind the page frame on WordPress.com and third-party admin color schemes.
+- Admin dashboards: Keep the page header and content in view when the wp-admin menu is taller than the window.
 - Charts: draw labels at the design system's font weight and size.
 - Connection: Update wording for some connection error notices.
 - My Jetpack: always label the license activation link 'Activate a license'. It previously read 'Activate a new license' on sites with a plan, even when no licenses had been activated.
