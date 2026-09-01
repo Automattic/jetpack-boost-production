@@ -21,6 +21,7 @@ This is an alpha version! The changes listed here are not final.
 - Speed Score: Wait up to four minutes for a slow speed test instead of two.
 - Tested up to WordPress 7.1.
 - Update package dependencies.
+- Upgrade modal: refresh the copy to match the plan comparison on Jetpack.com.
 
 ### Removed
 - Updated PHP version requirements to PHP 7.4 or newer.
