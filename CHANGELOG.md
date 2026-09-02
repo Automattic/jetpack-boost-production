@@ -37,6 +37,8 @@ This is an alpha version! The changes listed here are not final.
 - My Jetpack: Stop repeating the partner lookup request on every page load.
 - My Jetpack: Stop the Stats dashboard from asking which plan you want again after Start for Free was already chosen.
 - Page Cache: keep cache invalidation best-effort when a cache subdirectory disappears mid-walk, instead of throwing an uncaught exception that could break saving templates or posts.
+- Speed Score: Restore the with and without Boost comparison and the score change notice on sites whose score has not moved.
+- Speed Score: Stop the My Jetpack card re-testing the site on every page load.
 
 ## [4.7.0] - 2026-08-17
 ### Security

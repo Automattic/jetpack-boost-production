@@ -19,7 +19,7 @@
 		"automattic/jetpack-assets": "^5.0.2-alpha",
 		"automattic/jetpack-autoloader": "^6.0.0",
 		"automattic/jetpack-boost-core": "^0.5.0",
-		"automattic/jetpack-boost-speed-score": "^0.5.0",
+		"automattic/jetpack-boost-speed-score": "^0.6.0-alpha",
 		"automattic/jetpack-composer-plugin": "^5.0.0",
 		"automattic/jetpack-config": "^4.0.0",
 		"automattic/jetpack-connection": "^9.1.1-alpha",
