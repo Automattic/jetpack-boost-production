@@ -1710,6 +1710,10 @@ return array(
 		'version' => '5.0.0.0-alpha',
 		'path'    => $baseDir . '/tests/php/lib/Js_Structure_Scanner_Test.php'
 	),
+	'Automattic\\Jetpack_Boost\\Tests\\Lib\\Minify\\Concatenate_JS_Strategy_Test' => array(
+		'version' => '5.0.0.0-alpha',
+		'path'    => $baseDir . '/tests/php/lib/minify/Concatenate_JS_Strategy_Test.php'
+	),
 	'Automattic\\Jetpack_Boost\\Tests\\Lib\\Minify\\Concatenate_Static_Cache_Urls_Test' => array(
 		'version' => '5.0.0.0-alpha',
 		'path'    => $baseDir . '/tests/php/lib/minify/Concatenate_Static_Cache_Urls_Test.php'
