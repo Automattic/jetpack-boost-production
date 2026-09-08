@@ -31,7 +31,7 @@
 		"automattic/jetpack-status": "^7.0.1-alpha",
 		"automattic/jetpack-sync": "^5.1.0",
 		"automattic/jetpack-wp-abilities": "^0.2.0",
-		"automattic/jetpack-wp-build-polyfills": "^0.5.2",
+		"automattic/jetpack-wp-build-polyfills": "^0.5.3-alpha",
 		"automattic/jetpack-wp-js-data-sync": "^0.7.0-alpha",
 		"ext-json": "*",
 		"matthiasmullie/minify": "^1.3"
