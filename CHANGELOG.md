@@ -43,6 +43,7 @@ This is an alpha version! The changes listed here are not final.
 - Page Cache: keep cache invalidation best-effort when a cache subdirectory disappears mid-walk, instead of throwing an uncaught exception that could break saving templates or posts.
 - Speed Score: Restore the with and without Boost comparison and the score change notice on sites whose score has not moved.
 - Speed Score: Stop the My Jetpack card re-testing the site on every page load.
+- Status: Detect a site served on any 127.0.0.0/8 loopback address, or on 0.0.0.0, as a local site.
 
 ## [4.7.0] - 2026-08-17
 ### Security
