@@ -22,7 +22,7 @@
         'automattic/jetpack-activity-log' => array(
             'pretty_version' => '0.3.3-alpha.1789058727',
             'version' => '0.3.3.0-alpha1789058727',
-            'reference' => '4e2c735fd631680e5e7bfada9504ce6ef7daef91',
+            'reference' => 'c6889c5a5b05b3f5c8148893f13e78056538d690',
             'type' => 'jetpack-library',
             'install_path' => __DIR__ . '/../../jetpack_vendor/automattic/jetpack-activity-log',
             'aliases' => array(),
