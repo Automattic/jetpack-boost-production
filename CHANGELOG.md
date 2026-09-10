@@ -36,6 +36,7 @@ This is an alpha version! The changes listed here are not final.
 - Concatenate JS: Preserve deferred and asynchronous script loading.
 - Connection: Hide connection error notices from users who cannot fix the connection.
 - Connection: Update wording for some connection error notices.
+- Defer JS: Stop moving the Jetpack Likes script out of place, so Like blocks and comment likes no longer stick on "Loading…".
 - JITM: Fix missing messages and a console error on sites without the Jetpack plugin active.
 - My Jetpack: always label the license activation link 'Activate a license'. It previously read 'Activate a new license' on sites with a plan, even when no licenses had been activated.
 - My Jetpack: Keep the Automattic for Agencies banner hidden after dismissing it and switching tabs.
