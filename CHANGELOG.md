@@ -11,6 +11,7 @@ This is an alpha version! The changes listed here are not final.
 
 ### Changed
 - Hide the Boost sidebar item when Boost is not active.
+- Update package dependencies.
 
 ### Fixed
 - Connection: Fix a stale connection error notice that could persist on healthy sites.
