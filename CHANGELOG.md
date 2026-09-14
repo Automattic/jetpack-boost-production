@@ -5,49 +5,43 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
-## [5.0.0-alpha] - unreleased
-
-This is an alpha version! The changes listed here are not final.
-
+## [4.7.1-beta] - 2026-09-14
 ### Added
-- My Jetpack: Allow the Automattic for Agencies banner to be dismissed.
+- My Jetpack: Allow the Automattic for Agencies banner to be dismissed. [#51441]
 
 ### Changed
-- Charts: follow the WordPress admin color scheme for chart series colors.
-- Charts: update chart grid, axis and label colors immediately when the theme changes.
-- Connection: Show every connection error in one notice, each with the account it affects, and link to Site Health when a firewall is blocking WordPress.com.
-- General: Update minimum WordPress version to 7.0.
-- My Jetpack: Show what Paid Stats actually adds — UTM tracking, device stats, and region & city locations — instead of commercial use.
-- Remove the Upgraded pill from module titles on the settings page.
-- Sidebar: sort Jetpack menu items alphabetically, pinning My Jetpack to the top and external links and Settings to the bottom.
-- Speed Score: Wait up to four minutes for a slow speed test instead of two.
-- Tested up to WordPress 7.1.
-- Update package dependencies.
-- Upgrade modal: refresh the copy to match the plan comparison on Jetpack.com.
+- Connection: Show every connection error in one notice, each with the account it affects, and link to Site Health when a firewall is blocking WordPress.com. [#51504]
+- General: Update minimum WordPress version to 7.0. [#51370]
+- My Jetpack: Show what Paid Stats actually adds — UTM tracking, device stats, and region & city locations — instead of commercial use. [#51410]
+- Remove the Upgraded pill from module titles on the settings page. [#51396]
+- Sidebar: sort Jetpack menu items alphabetically, pinning My Jetpack to the top and external links and Settings to the bottom. [#52003]
+- Speed Score: Wait up to four minutes for a slow speed test instead of two. [#51605]
+- Tested up to WordPress 7.1. [#51370]
+- Update package dependencies. [#51303] [#51399] [#51701] [#51802] [#52028] [#52200]
+- Upgrade modal: refresh the copy to match the plan comparison on Jetpack.com. [#51777]
 
 ### Removed
-- Updated PHP version requirements to PHP 7.4 or newer.
+- Updated PHP version requirements to PHP 7.4 or newer. [#51515]
 
 ### Fixed
-- Activity Log: Continue the wp-admin menu color behind the page frame on WordPress.com and third-party admin color schemes.
-- Activity Log: Fix the page overlapping the admin menu in right-to-left languages.
-- Admin dashboards: Keep the page header and content in view when the wp-admin menu is taller than the window.
-- Charts: draw labels at the design system's font weight and size.
-- Concatenate JS: Preserve deferred and asynchronous script loading.
-- Connection: Hide connection error notices from users who cannot fix the connection.
-- Connection: Update wording for some connection error notices.
-- Defer JS: Stop moving the Jetpack Likes script out of place, so Like blocks and comment likes no longer stick on "Loading…".
-- JITM: Fix missing messages and a console error on sites without the Jetpack plugin active.
-- My Jetpack: always label the license activation link 'Activate a license'. It previously read 'Activate a new license' on sites with a plan, even when no licenses had been activated.
-- My Jetpack: Keep the Automattic for Agencies banner hidden after dismissing it and switching tabs.
-- My Jetpack: keep the stats chart tooltip under sticky and fixed page elements.
-- My Jetpack: Show the right product status as soon as fresher plan data is available, instead of reusing an earlier lookup.
-- My Jetpack: Stop repeating the partner lookup request on every page load.
-- My Jetpack: Stop the Stats dashboard from asking which plan you want again after Start for Free was already chosen.
-- Page Cache: keep cache invalidation best-effort when a cache subdirectory disappears mid-walk, instead of throwing an uncaught exception that could break saving templates or posts.
-- Speed Score: Restore the with and without Boost comparison and the score change notice on sites whose score has not moved.
-- Speed Score: Stop the My Jetpack card re-testing the site on every page load.
-- Status: Detect a site served on any 127.0.0.0/8 loopback address, or on 0.0.0.0, as a local site.
+- Activity Log: Continue the wp-admin menu color behind the page frame on WordPress.com and third-party admin color schemes. [#51619]
+- Activity Log: Fix the page overlapping the admin menu in right-to-left languages. [#51963]
+- Admin dashboards: Keep the page header and content in view when the wp-admin menu is taller than the window. [#51696]
+- Concatenate JS: Preserve deferred and asynchronous script loading. [#52047]
+- Connection: Hide connection error notices from users who cannot fix the connection. [#52049]
+- Connection: Update wording for some connection error notices. [#51360]
+- Defer JS: Stop moving the Jetpack Likes script out of place, so Like blocks and comment likes no longer stick on "Loading…". [#52141]
+- JITM: Fix missing messages and a console error on sites without the Jetpack plugin active. [#51733]
+- My Jetpack: always label the license activation link 'Activate a license'. It previously read 'Activate a new license' on sites with a plan, even when no licenses had been activated. [#51283]
+- My Jetpack: Keep the Automattic for Agencies banner hidden after dismissing it and switching tabs. [#51441]
+- My Jetpack: keep the stats chart tooltip under sticky and fixed page elements. [#51640]
+- My Jetpack: Show the right product status as soon as fresher plan data is available, instead of reusing an earlier lookup. [#52009]
+- My Jetpack: Stop repeating the partner lookup request on every page load. [#51441]
+- My Jetpack: Stop the Stats dashboard from asking which plan you want again after Start for Free was already chosen. [#51413]
+- Page Cache: keep cache invalidation best-effort when a cache subdirectory disappears mid-walk, instead of throwing an uncaught exception that could break saving templates or posts. [#49849]
+- Speed Score: Restore the with and without Boost comparison and the score change notice on sites whose score has not moved. [#51709]
+- Speed Score: Stop the My Jetpack card re-testing the site on every page load. [#51709]
+- Status: Detect a site served on any 127.0.0.0/8 loopback address, or on 0.0.0.0, as a local site. [#51311]
 
 ## [4.7.0] - 2026-08-17
 ### Security
@@ -1051,7 +1045,7 @@ This is an alpha version! The changes listed here are not final.
 
 - First public alpha release
 
-[5.0.0-alpha]: https://github.com/Automattic/jetpack-boost-production/compare/4.7.0...5.0.0-alpha
+[4.7.1-beta]: https://github.com/Automattic/jetpack-boost-production/compare/4.7.0...4.7.1-beta
 [4.7.0]: https://github.com/Automattic/jetpack-boost-production/compare/4.6.3...4.7.0
 [4.6.3]: https://github.com/Automattic/jetpack-boost-production/compare/4.6.2...4.6.3
 [4.6.2]: https://github.com/Automattic/jetpack-boost-production/compare/4.6.1...4.6.2

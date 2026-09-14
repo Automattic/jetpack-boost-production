@@ -3,7 +3,7 @@
 	"description": "Boost your WordPress site's performance, from the creators of Jetpack",
 	"type": "library",
 	"license": "GPL-2.0-or-later",
-	"version": "5.0.0-alpha",
+	"version": "4.7.1-beta",
 	"authors": [
 		{
 			"name": "Automattic, Inc.",
@@ -13,27 +13,27 @@
 	"minimum-stability": "dev",
 	"prefer-stable": true,
 	"require": {
-		"automattic/jetpack-activity-log": "^0.3.4-alpha",
-		"automattic/jetpack-admin-ui": "^0.11.4-alpha",
-		"automattic/jetpack-assets": "^5.0.2",
+		"ext-json": "*",
+		"automattic/jetpack-activity-log": "^0.3.4",
+		"automattic/jetpack-admin-ui": "^0.11.4",
+		"automattic/jetpack-assets": "^5.0.3",
 		"automattic/jetpack-autoloader": "^6.0.0",
 		"automattic/jetpack-boost-core": "^0.5.0",
 		"automattic/jetpack-boost-speed-score": "^0.6.0",
 		"automattic/jetpack-composer-plugin": "^5.0.0",
 		"automattic/jetpack-config": "^4.0.0",
-		"automattic/jetpack-connection": "^9.2.0-alpha",
+		"automattic/jetpack-connection": "^9.2.0",
 		"automattic/jetpack-device-detection": "^4.0.0",
 		"automattic/jetpack-image-cdn": "^0.8.0",
 		"automattic/jetpack-menu-badges": "^0.2.0",
-		"automattic/jetpack-my-jetpack": "^6.2.2-alpha",
-		"automattic/jetpack-plugin-deactivation": "^0.4.0-alpha",
-		"automattic/jetpack-schema": "^0.3.0-alpha",
+		"automattic/jetpack-my-jetpack": "^6.2.2",
+		"automattic/jetpack-plugin-deactivation": "^0.4.0",
+		"automattic/jetpack-schema": "^0.3.0",
 		"automattic/jetpack-status": "^7.0.1",
 		"automattic/jetpack-sync": "^5.1.0",
 		"automattic/jetpack-wp-abilities": "^0.2.0",
-		"automattic/jetpack-wp-build-polyfills": "^0.5.3",
-		"automattic/jetpack-wp-js-data-sync": "^0.7.0-alpha",
-		"ext-json": "*",
+		"automattic/jetpack-wp-build-polyfills": "^0.5.4",
+		"automattic/jetpack-wp-js-data-sync": "^0.7.0",
 		"matthiasmullie/minify": "^1.3"
 	},
 	"require-dev": {
@@ -79,7 +79,7 @@
 		"platform": {
 			"ext-intl": "0.0.0"
 		},
-		"autoloader-suffix": "b1e77e6231d50e7663f84529b6a3dfda_jetpack_boostⓥ5_0_0_alpha",
+		"autoloader-suffix": "b1e77e6231d50e7663f84529b6a3dfda_jetpack_boostⓥ4_7_1_beta",
 		"allow-plugins": {
 			"automattic/jetpack-autoloader": true,
 			"automattic/jetpack-composer-plugin": true
@@ -99,6 +99,9 @@
 		"wp-svn-autopublish": true,
 		"changelogger": {
 			"link-template": "https://github.com/Automattic/jetpack-boost-production/compare/${old}...${new}"
-		}
+		},
+		"non-mirrored-require-dev": [
+			"automattic/jetpack-test-environment"
+		]
 	}
 }
