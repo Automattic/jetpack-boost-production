@@ -19,6 +19,7 @@ This is an alpha version! The changes listed here are not final.
 
 ### Fixed
 - Connection: Fix a stale connection error notice that could persist on healthy sites.
+- Dashboard: Restore button padding on the modernized Overview screen.
 
 ## [4.7.1-beta] - 2026-09-14
 ### Added
