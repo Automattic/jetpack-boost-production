@@ -13,7 +13,7 @@
 	"minimum-stability": "dev",
 	"prefer-stable": true,
 	"require": {
-		"automattic/jetpack-activity-log": "^0.3.4",
+		"automattic/jetpack-activity-log": "^0.3.5-alpha",
 		"automattic/jetpack-admin-ui": "^0.12.0-alpha",
 		"automattic/jetpack-assets": "^5.0.4-alpha",
 		"automattic/jetpack-autoloader": "^6.0.0",
