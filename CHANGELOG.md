@@ -18,6 +18,7 @@ This is an alpha version! The changes listed here are not final.
 - Update package dependencies.
 
 ### Fixed
+- Charts: Restore keyboard focus after dismissing line chart tooltips.
 - Connection: Fix a stale connection error notice that could persist on healthy sites.
 - Dashboard: Restore button padding on the modernized Overview screen.
 - Modern dashboard: Send the upgrade CTA to the Boost interstitial page instead of opening the modal.
