@@ -18,6 +18,7 @@ This is an alpha version! The changes listed here are not final.
 - Update package dependencies.
 
 ### Fixed
+- Charts: Fix unreadable axis labels in forced-colors mode.
 - Charts: Restore keyboard focus after dismissing line chart tooltips.
 - Connection: Fix a stale connection error notice that could persist on healthy sites.
 - Dashboard: Restore button padding on the modernized Overview screen.
