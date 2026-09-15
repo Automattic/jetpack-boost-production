@@ -14,6 +14,7 @@ This is an alpha version! The changes listed here are not final.
 
 ### Changed
 - Hide the Boost sidebar item when Boost is not active.
+- My Jetpack: Restyle dashboard notices to match the WordPress design system.
 - Update package dependencies.
 
 ### Fixed
