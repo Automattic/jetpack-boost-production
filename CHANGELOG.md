@@ -16,6 +16,7 @@ This is an alpha version! The changes listed here are not final.
 - Hide the Boost sidebar item when Boost is not active.
 - My Jetpack: Restyle dashboard notices to match the WordPress design system.
 - Update package dependencies.
+- Update the styling of error messages for failed data loads.
 
 ### Fixed
 - Charts: Fix unreadable axis labels in forced-colors mode.
