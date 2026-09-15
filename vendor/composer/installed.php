@@ -1,8 +1,8 @@
 <?php return array(
     'root' => array(
         'name' => 'automattic/jetpack-boost',
-        'pretty_version' => '4.7.2-alpha',
-        'version' => '4.7.2.0-alpha',
+        'pretty_version' => '4.8.0-alpha',
+        'version' => '4.8.0.0-alpha',
         'reference' => null,
         'type' => 'library',
         'install_path' => __DIR__ . '/../../',
@@ -56,8 +56,8 @@
             'dev_requirement' => false,
         ),
         'automattic/jetpack-boost' => array(
-            'pretty_version' => '4.7.2-alpha',
-            'version' => '4.7.2.0-alpha',
+            'pretty_version' => '4.8.0-alpha',
+            'version' => '4.8.0.0-alpha',
             'reference' => null,
             'type' => 'library',
             'install_path' => __DIR__ . '/../../',
@@ -101,9 +101,9 @@
             'dev_requirement' => false,
         ),
         'automattic/jetpack-connection' => array(
-            'pretty_version' => '9.3.0-alpha.1789426321',
-            'version' => '9.3.0.0-alpha1789426321',
-            'reference' => 'ea7b8e154b4dd2444582bd84c36e22cdb5e8fb60',
+            'pretty_version' => '9.3.0-alpha.1789451445',
+            'version' => '9.3.0.0-alpha1789451445',
+            'reference' => 'a22a9eded1658f83de8bfe379784f90cab54f597',
             'type' => 'jetpack-library',
             'install_path' => __DIR__ . '/../../jetpack_vendor/automattic/jetpack-connection',
             'aliases' => array(),
