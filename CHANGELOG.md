@@ -13,6 +13,7 @@ This is an alpha version! The changes listed here are not final.
 - Connection: Surface SSL certificate verification failures reported by WordPress.com as a connection error notice.
 
 ### Changed
+- Dashboard: Move the speed test to a "Run speed test" button in the modernized Overview header and add a page subtitle.
 - Hide the Boost sidebar item when Boost is not active.
 - My Jetpack: Restyle dashboard notices to match the WordPress design system.
 - Update package dependencies.
