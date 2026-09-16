@@ -29,7 +29,7 @@ This is an alpha version! The changes listed here are not final.
 - Modern dashboard: Send the upgrade CTA to the Boost interstitial page instead of opening the modal.
 - My Jetpack: Fix the dashboard failing to load on WordPress.com-hosted sites.
 
-## [4.7.1-beta] - 2026-09-14
+## [4.7.1] - 2026-09-16
 ### Added
 - My Jetpack: Allow the Automattic for Agencies banner to be dismissed. [#51441]
 
@@ -1069,8 +1069,8 @@ This is an alpha version! The changes listed here are not final.
 
 - First public alpha release
 
-[4.8.0-alpha]: https://github.com/Automattic/jetpack-boost-production/compare/4.7.1-beta...4.8.0-alpha
-[4.7.1-beta]: https://github.com/Automattic/jetpack-boost-production/compare/4.7.0...4.7.1-beta
+[4.8.0-alpha]: https://github.com/Automattic/jetpack-boost-production/compare/4.7.1...4.8.0-alpha
+[4.7.1]: https://github.com/Automattic/jetpack-boost-production/compare/4.7.0...4.7.1
 [4.7.0]: https://github.com/Automattic/jetpack-boost-production/compare/4.6.3...4.7.0
 [4.6.3]: https://github.com/Automattic/jetpack-boost-production/compare/4.6.2...4.6.3
 [4.6.2]: https://github.com/Automattic/jetpack-boost-production/compare/4.6.1...4.6.2
