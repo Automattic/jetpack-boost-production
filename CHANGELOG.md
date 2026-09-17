@@ -16,6 +16,7 @@ This is an alpha version! The changes listed here are not final.
 - Dashboard: Move the speed test to a "Run speed test" button in the modernized Overview header and add a page subtitle.
 - Dashboard: Show a loader instead of the modernized Overview while onboarding redirects to Getting Started.
 - Dashboard: Update the modernized Overview score card to show "Your site speed", an overall band, and its calculating and failure states inside the card.
+- Dashboard: Use the same light orange for "Could improve" days in the modernized Overview history chart as in the score card.
 - Hide the Boost sidebar item when Boost is not active.
 - My Jetpack: Restyle dashboard notices to match the WordPress design system.
 - My Jetpack: Show the Jetpack menu notification badge when a connection error is detected.
