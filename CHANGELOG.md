@@ -24,6 +24,7 @@ This is an alpha version! The changes listed here are not final.
 - Update the styling of error messages for failed data loads.
 
 ### Fixed
+- Activity Log: honor the module setting, so the page can be turned off.
 - Activity Log: Stop the frame from flashing while loading and when switching admin pages.
 - Charts: Fix unreadable axis labels in forced-colors mode.
 - Charts: Restore keyboard focus after dismissing line chart tooltips.
