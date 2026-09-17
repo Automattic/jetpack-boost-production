@@ -1826,6 +1826,10 @@ return array(
 		'version' => '4.8.0.0-alpha',
 		'path'    => $baseDir . '/tests/php/modules/optimizations/speculation-rules/Speculation_Rules_Test.php'
 	),
+	'Automattic\\Jetpack_Boost\\Tests\\Modules\\Performance_History\\Performance_History_Test' => array(
+		'version' => '4.8.0.0-alpha',
+		'path'    => $baseDir . '/tests/php/modules/performance-history/Performance_History_Test.php'
+	),
 	'Automattic\\Jetpack_Boost\\Tests\\My_Jetpack_Test' => array(
 		'version' => '4.8.0.0-alpha',
 		'path'    => $baseDir . '/tests/php/My_Jetpack_Test.php'
