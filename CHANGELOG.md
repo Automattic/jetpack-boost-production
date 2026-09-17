@@ -37,6 +37,7 @@ This is an alpha version! The changes listed here are not final.
 - Dashboard: Target contextual messages at the Boost screen on the modern dashboard.
 - Dashboard: Track Try again as a speed score refresh and keep keyboard focus on the page when a render failure removes the header button.
 - Keep admin icons colored after the @wordpress/icons 16 update, which draws them as strokes.
+- Keep keyboard focus on the first or last data point when an arrow key reaches the end of the score history chart, return focus to the chart when Escape closes a tooltip, stop a focused chart from swallowing keys it does not use such as Page Down, and close the tooltip when the series it describes is hidden.
 - Modern dashboard: Send the upgrade CTA to the Boost interstitial page instead of opening the modal.
 - My Jetpack: Fix the dashboard failing to load on WordPress.com-hosted sites.
 - Page Cache: Show the module as running, without contradictory setup errors, on WP Cloud hosts such as Pressable that already cache pages.
