@@ -71,13 +71,18 @@ __( "Loading…", "jetpack-boost" );
 __( "Not enough space to display data", "jetpack-boost" );
 __( "Percentage change unavailable", "jetpack-boost" );
 __( "No comparison data", "jetpack-boost" );
+__( "Good", "jetpack-boost" );
+__( "Could improve", "jetpack-boost" );
+__( "Poor", "jetpack-boost" );
+/* translators: %s is the improvement in a performance score, such as +10. */
+_n( "%s point compared with Boost disabled", "%s points compared with Boost disabled", 1, "jetpack-boost" );
 __( "Desktop", "jetpack-boost" );
 __( "Mobile", "jetpack-boost" );
+__( "No scores recorded before the feature was unlocked.", "jetpack-boost" );
+__( "No scores recorded for this day.", "jetpack-boost" );
 __( "Overall score", "jetpack-boost" );
-__( "Desktop score", "jetpack-boost" );
-__( "Mobile score", "jetpack-boost" );
 /* translators: %d is the performance score. */
-__( "%d / 100", "jetpack-boost" );
+__( "%d/100", "jetpack-boost" );
 __( "Largest Contentful Paint", "jetpack-boost" );
 /* translators: %s is a duration in seconds. */
 __( "%ss", "jetpack-boost" );
@@ -90,18 +95,19 @@ __( "Try again", "jetpack-boost" );
 __( "Hello there! Jetpack Boost premium has been activated.", "jetpack-boost" );
 __( "Your scores will be recorded from now on.", "jetpack-boost" );
 __( "Okay, got it!", "jetpack-boost" );
-__( "No performance history yet", "jetpack-boost" );
-__( "Performance history will appear here once enough data has been collected.", "jetpack-boost" );
-/* translators: %s is a date. */
-__( "View performance history annotation for %s", "jetpack-boost" );
-__( "Historical performance", "jetpack-boost" );
+__( "Desktop score history", "jetpack-boost" );
+__( "Mobile score history", "jetpack-boost" );
+__( "Score history", "jetpack-boost" );
+/* translators: %d is the number of days in the visible history window. */
+__( "Last %d days", "jetpack-boost" );
+/* translators: %d is the number of days to page backward. */
+__( "Previous %d days", "jetpack-boost" );
+/* translators: 1: first date, 2: last date of the visible history window. */
+__( "%1$s – %2$s", "jetpack-boost" );
+/* translators: %d is the number of days to page forward. */
+__( "Next %d days", "jetpack-boost" );
 __( "Error requesting speed scores", "jetpack-boost" );
 __( "Your Overall Score is a summary of your first Cornerstone Page across both mobile and desktop devices. It gives a general idea of your site's overall performance.", "jetpack-boost" );
-__( "Good", "jetpack-boost" );
-__( "Could improve", "jetpack-boost" );
-__( "Poor", "jetpack-boost" );
-/* translators: %s is the improvement in a performance score, such as +10. */
-_n( "%s point compared with Boost disabled", "%s points compared with Boost disabled", 1, "jetpack-boost" );
 __( "Failed to load speed scores", "jetpack-boost" );
 __( "Calculating…", "jetpack-boost" );
 _x( "Overall", "combined speed score grade", "jetpack-boost" );

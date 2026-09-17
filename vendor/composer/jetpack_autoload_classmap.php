@@ -1686,6 +1686,10 @@ return array(
 		'version' => '4.8.0.0-alpha',
 		'path'    => $baseDir . '/tests/php/compatibility/JS_Concatenate_Test.php'
 	),
+	'Automattic\\Jetpack_Boost\\Tests\\Data_Sync\\Performance_History_Entry_Test' => array(
+		'version' => '4.8.0.0-alpha',
+		'path'    => $baseDir . '/tests/php/data-sync/Performance_History_Entry_Test.php'
+	),
 	'Automattic\\Jetpack_Boost\\Tests\\Jetpack_Boost_Test' => array(
 		'version' => '4.8.0.0-alpha',
 		'path'    => $baseDir . '/tests/php/Jetpack_Boost_Test.php'
