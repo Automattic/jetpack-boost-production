@@ -28,6 +28,7 @@ This is an alpha version! The changes listed here are not final.
 - Connection: Fix a stale connection error notice that could persist on healthy sites.
 - Dashboard: Restore button padding on the modernized Overview screen.
 - Dashboard: Stop the modernized dashboard from logging a console error about missing Jetpack configuration.
+- Dashboard: Track Try again as a speed score refresh and keep keyboard focus on the page when a render failure removes the header button.
 - Keep admin icons colored after the @wordpress/icons 16 update, which draws them as strokes.
 - Modern dashboard: Send the upgrade CTA to the Boost interstitial page instead of opening the modal.
 - My Jetpack: Fix the dashboard failing to load on WordPress.com-hosted sites.
