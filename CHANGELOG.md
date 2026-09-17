@@ -14,6 +14,7 @@ This is an alpha version! The changes listed here are not final.
 
 ### Changed
 - Dashboard: Move the speed test to a "Run speed test" button in the modernized Overview header and add a page subtitle.
+- Dashboard: Update the modernized Overview score card to show "Your site speed", an overall band, and its calculating and failure states inside the card.
 - Hide the Boost sidebar item when Boost is not active.
 - My Jetpack: Restyle dashboard notices to match the WordPress design system.
 - Update package dependencies.
