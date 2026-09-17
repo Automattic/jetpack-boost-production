@@ -19,6 +19,7 @@ This is an alpha version! The changes listed here are not final.
 - Dashboard: Use the same light orange for "Could improve" days in the modernized Overview history chart as in the score card.
 - Hide the Boost sidebar item when Boost is not active.
 - My Jetpack: Restyle dashboard notices to match the WordPress design system.
+- My Jetpack: Show the dashboard in the new rounded admin page frame.
 - My Jetpack: Show the Jetpack menu notification badge when a connection error is detected.
 - Update package dependencies.
 - Update the styling of error messages for failed data loads.
