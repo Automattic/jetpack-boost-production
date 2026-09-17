@@ -30,6 +30,7 @@ This is an alpha version! The changes listed here are not final.
 - Dashboard: Fix the modernized onboarding loader staying in place of the Overview after onboarding completes.
 - Dashboard: Remove console errors and blank space under Critical CSS on sites that are not publicly available.
 - Dashboard: Restore button padding on the modernized Overview screen.
+- Dashboard: Show Jetpack in-dashboard messages on the modernized dashboard.
 - Dashboard: Stop the modernized dashboard from logging a console error about missing Jetpack configuration.
 - Dashboard: Target contextual messages at the Boost screen on the modern dashboard.
 - Dashboard: Track Try again as a speed score refresh and keep keyboard focus on the page when a render failure removes the header button.
