@@ -33,6 +33,7 @@ This is an alpha version! The changes listed here are not final.
 - Dashboard: Fix the modernized onboarding loader staying in place of the Overview after onboarding completes.
 - Dashboard: Remove console errors and blank space under Critical CSS on sites that are not publicly available.
 - Dashboard: Restore button padding on the modernized Overview screen.
+- Dashboard: Restore the "Use license key" link beside upgrade prompts on the modernized dashboard.
 - Dashboard: Restore the padding around the upgrade, error, and welcome notices in the modernized Overview score history card.
 - Dashboard: Show Jetpack in-dashboard messages on the modernized dashboard.
 - Dashboard: Stop the modernized dashboard from logging a console error about missing Jetpack configuration.
