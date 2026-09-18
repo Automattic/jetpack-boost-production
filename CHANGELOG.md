@@ -31,6 +31,7 @@ This is an alpha version! The changes listed here are not final.
 - Charts: Restore keyboard focus after dismissing line chart tooltips.
 - Connection: Fix a stale connection error notice that could persist on healthy sites.
 - Dashboard: Fix the modernized onboarding loader staying in place of the Overview after onboarding completes.
+- Dashboard: Keep day details in the modernized Overview score history fully on screen, let the pointer move onto them, and show a focus ring on the chart.
 - Dashboard: Remove console errors and blank space under Critical CSS on sites that are not publicly available.
 - Dashboard: Restore button padding on the modernized Overview screen.
 - Dashboard: Restore the "Use license key" link beside upgrade prompts on the modernized dashboard.
