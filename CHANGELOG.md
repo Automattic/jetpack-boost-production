@@ -24,6 +24,7 @@ This is an alpha version! The changes listed here are not final.
 - Dashboard: Update the modernized Overview score card to show "Your site speed", an overall band, and its calculating and failure states inside the card.
 - Dashboard: Use the same light orange for "Could improve" days in the modernized Overview history chart as in the score card.
 - Hide the Boost sidebar item when Boost is not active.
+- My Jetpack: answer module switch clicks immediately, and explain what happened when a change fails.
 - My Jetpack: Restyle dashboard notices to match the WordPress design system.
 - My Jetpack: Show the dashboard in the new rounded admin page frame.
 - My Jetpack: Show the Jetpack menu notification badge when a connection error is detected.
@@ -55,6 +56,7 @@ This is an alpha version! The changes listed here are not final.
 - Keep keyboard focus on the first or last data point when an arrow key reaches the end of the score history chart, return focus to the chart when Escape closes a tooltip, stop a focused chart from swallowing keys it does not use such as Page Down, and close the tooltip when the series it describes is hidden.
 - Modern dashboard: Send the upgrade CTA to the Boost interstitial page instead of opening the modal.
 - My Jetpack: Fix the dashboard failing to load on WordPress.com-hosted sites.
+- My Jetpack: Show each notice once instead of twice.
 - Page Cache: Show the module as running, without contradictory setup errors, on WP Cloud hosts such as Pressable that already cache pages.
 - Performance history: Load the Overview faster on sites with little or no score history.
 - Performance History: Show the recorded decimal LCP, TBT, and CLS values in the history chart tooltips instead of whole numbers.
