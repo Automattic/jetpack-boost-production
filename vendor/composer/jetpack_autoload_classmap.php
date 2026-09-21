@@ -1726,6 +1726,10 @@ return array(
 		'version' => '4.8.0.0-alpha',
 		'path'    => $baseDir . '/tests/php/lib/critical-css/Display_Critical_CSS_Test.php'
 	),
+	'Automattic\\Jetpack_Boost\\Tests\\Lib\\Critical_CSS\\Generator_Test' => array(
+		'version' => '4.8.0.0-alpha',
+		'path'    => $baseDir . '/tests/php/lib/critical-css/Generator_Test.php'
+	),
 	'Automattic\\Jetpack_Boost\\Tests\\Lib\\Debug_Test' => array(
 		'version' => '4.8.0.0-alpha',
 		'path'    => $baseDir . '/tests/php/lib/Debug_Test.php'

@@ -9,8 +9,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 This is an alpha version! The changes listed here are not final.
 
+### Security
+- Critical CSS: Only enter generation mode while a front-end page renders, so a link carrying the generation parameter can no longer force an admin, REST or login-page request to render as a logged-out visitor.
+
 ### Added
 - Connection: Surface SSL certificate verification failures reported by WordPress.com as a connection error notice.
+- Critical CSS: Explain when pages could not be optimized because they are only shown to logged-in visitors.
 
 ### Changed
 - Dashboard: Move the speed test to a "Run speed test" button in the modernized Overview header and add a page subtitle.
@@ -30,6 +34,7 @@ This is an alpha version! The changes listed here are not final.
 - Charts: Fix unreadable axis labels in forced-colors mode.
 - Charts: Restore keyboard focus after dismissing line chart tooltips.
 - Connection: Fix a stale connection error notice that could persist on healthy sites.
+- Critical CSS: Stop local generation at login-protected pages to keep administrators logged in, and prevent automatic restarts after a failed run throughout the dashboard page session.
 - Dashboard: Fix the modernized onboarding loader staying in place of the Overview after onboarding completes.
 - Dashboard: Keep day details in the modernized Overview score history fully on screen, let the pointer move onto them, and show a focus ring on the chart.
 - Dashboard: Remove console errors and blank space under Critical CSS on sites that are not publicly available.
