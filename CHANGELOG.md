@@ -36,6 +36,7 @@ This is an alpha version! The changes listed here are not final.
 - Connection: Fix a stale connection error notice that could persist on healthy sites.
 - Critical CSS: Stop local generation at login-protected pages to keep administrators logged in, and prevent automatic restarts after a failed run throughout the dashboard page session.
 - Dashboard: Fix the modernized onboarding loader staying in place of the Overview after onboarding completes.
+- Dashboard: Hide the history upgrade prompt in the modernized Overview when My Jetpack is turned off, so it no longer leads to a page you cannot open.
 - Dashboard: Keep day details in the modernized Overview score history fully on screen, let the pointer move onto them, and show a focus ring on the chart.
 - Dashboard: Remove console errors and blank space under Critical CSS on sites that are not publicly available.
 - Dashboard: Restore button padding on the modernized Overview screen.
