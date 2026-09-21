@@ -27,6 +27,7 @@ This is an alpha version! The changes listed here are not final.
 - My Jetpack: Restyle dashboard notices to match the WordPress design system.
 - My Jetpack: Show the dashboard in the new rounded admin page frame.
 - My Jetpack: Show the Jetpack menu notification badge when a connection error is detected.
+- Tests: Stabilize Overview focus checks and clean up query clients.
 - Update package dependencies.
 - Update the styling of error messages for failed data loads.
 
