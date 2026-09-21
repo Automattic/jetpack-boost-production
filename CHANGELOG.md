@@ -17,6 +17,7 @@ This is an alpha version! The changes listed here are not final.
 - Critical CSS: Explain when pages could not be optimized because they are only shown to logged-in visitors.
 
 ### Changed
+- Cornerstone Pages: Add a short description under the title on the settings page.
 - Dashboard: Move the speed test to a "Run speed test" button in the modernized Overview header and add a page subtitle.
 - Dashboard: Show a loader instead of the modernized Overview while onboarding redirects to Getting Started.
 - Dashboard: Update the modernized Overview score card to show "Your site speed", an overall band, and its calculating and failure states inside the card.
