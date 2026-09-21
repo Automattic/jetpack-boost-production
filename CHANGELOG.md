@@ -55,6 +55,7 @@ This is an alpha version! The changes listed here are not final.
 - Page Cache: Show the module as running, without contradictory setup errors, on WP Cloud hosts such as Pressable that already cache pages.
 - Performance history: Load the Overview faster on sites with little or no score history.
 - Performance History: Show the recorded decimal LCP, TBT, and CLS values in the history chart tooltips instead of whole numbers.
+- Settings: Hide upgrade and license links when their My Jetpack screens are unavailable.
 - Settings: Show tooltips in full on the modernized Settings page instead of cutting them off at the card edge.
 
 ## [4.7.1] - 2026-09-16
