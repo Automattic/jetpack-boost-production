@@ -32,6 +32,7 @@ This is an alpha version! The changes listed here are not final.
 - Settings: Organize modern settings into collapsible sections with descriptions and icons.
 - Settings: Show performance scores and optimization settings together on the modern dashboard.
 - Settings: Show upgrade notices without prices and add an explicit Generate step for manual Critical CSS in the modern dashboard.
+- Settings: Simplify modern settings descriptions and labels, and remove tips and priority support from the modern settings page.
 - Settings: Use a shared Except panel for JavaScript, CSS, and page cache exclusions in the modern dashboard.
 - Speed scores: Identify the dashboard surface used to refresh scores.
 - Tests: Stabilize chart interactions, Overview retries, and speed score refresh checks.
