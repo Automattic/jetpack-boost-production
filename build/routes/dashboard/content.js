@@ -32,8 +32,6 @@ __( "Jetpack", "jetpack-boost" );
 /* translators: %s: an error message. */
 __( "There was an error testing Jetpack. Error: %s", "jetpack-boost" );
 __( "Improve your site speed and performance.", "jetpack-boost" );
-__( "Overview", "jetpack-boost" );
-__( "Settings", "jetpack-boost" );
 __( "Your site got faster", "jetpack-boost" );
 __( "That's great! If you’re happy, why not rate Boost?", "jetpack-boost" );
 __( "Rate the Plugin", "jetpack-boost" );
@@ -123,3 +121,4 @@ __( "Run speed test", "jetpack-boost" );
 __( "Website is not publicly available", "jetpack-boost" );
 __( "Performance score and some other Boost features cannot work because the Boost Cloud cannot reach your website. To fix this, you need to make your website publicly available.", "jetpack-boost" );
 __( "Failed to load module settings", "jetpack-boost" );
+__( "Optimize your speed", "jetpack-boost" );
