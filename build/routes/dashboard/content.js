@@ -46,6 +46,7 @@ _x( "%1$s, %2$s", "legend item label and value", "jetpack-boost" );
 _x( "%s: visible. Toggle visibility.", "visible interactive legend item", "jetpack-boost" );
 _x( "%s: hidden. Toggle visibility.", "hidden interactive legend item", "jetpack-boost" );
 _x( "%s: hidden", "hidden non-interactive legend item", "jetpack-boost" );
+__( "Comparison period", "jetpack-boost" );
 _x( "All segments are hidden. Click legend items to show data.", "chart empty state: interactive segments", "jetpack-boost" );
 _x( "All segments are hidden.", "chart empty state: segments", "jetpack-boost" );
 _x( "All series are hidden. Click legend items to show data.", "chart empty state: interactive series", "jetpack-boost" );
