@@ -29,6 +29,7 @@ This is an alpha version! The changes listed here are not final.
 - My Jetpack: Show the dashboard in the new rounded admin page frame.
 - My Jetpack: Show the Jetpack menu notification badge when a connection error is detected.
 - Settings: Organize modern settings into collapsible sections with descriptions and icons.
+- Settings: Show upgrade notices without prices and add an explicit Generate step for manual Critical CSS in the modern dashboard.
 - Speed scores: Identify the dashboard surface used to refresh scores.
 - Tests: Stabilize chart interactions, Overview retries, and speed score refresh checks.
 - Tests: Stabilize Overview focus checks and clean up query clients.
