@@ -28,6 +28,7 @@ This is an alpha version! The changes listed here are not final.
 - My Jetpack: Restyle dashboard notices to match the WordPress design system.
 - My Jetpack: Show the dashboard in the new rounded admin page frame.
 - My Jetpack: Show the Jetpack menu notification badge when a connection error is detected.
+- Settings: Group Image CDN controls and LCP optimization status in inset panels on the modern dashboard, and label the auto-resize toggle.
 - Settings: Organize modern settings into collapsible sections with descriptions and icons.
 - Settings: Show upgrade notices without prices and add an explicit Generate step for manual Critical CSS in the modern dashboard.
 - Settings: Use a shared Except panel for JavaScript, CSS, and page cache exclusions in the modern dashboard.
