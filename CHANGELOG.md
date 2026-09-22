@@ -40,6 +40,7 @@ This is an alpha version! The changes listed here are not final.
 - Charts: Fix unreadable axis labels in forced-colors mode.
 - Charts: Restore keyboard focus after dismissing line chart tooltips.
 - Connection: Fix a stale connection error notice that could persist on healthy sites.
+- Critical CSS: Avoid duplicate status requests for CSS and LCP generation in the modern dashboard.
 - Critical CSS: Stop local generation at login-protected pages to keep administrators logged in, and prevent automatic restarts after a failed run throughout the dashboard page session.
 - Dashboard: Fix the modernized onboarding loader staying in place of the Overview after onboarding completes.
 - Dashboard: Hide the history upgrade prompt in the modernized Overview when My Jetpack is turned off, so it no longer leads to a page you cannot open.
@@ -60,6 +61,8 @@ This is an alpha version! The changes listed here are not final.
 - Page Cache: Show the module as running, without contradictory setup errors, on WP Cloud hosts such as Pressable that already cache pages.
 - Performance history: Load the Overview faster on sites with little or no score history.
 - Performance History: Show the recorded decimal LCP, TBT, and CLS values in the history chart tooltips instead of whole numbers.
+- Performance scores: Cancel pending background score requests while viewing a sub-page.
+- Settings: Avoid duplicate navigation when returning from a sub-page.
 - Settings: Hide upgrade and license links when their My Jetpack screens are unavailable.
 - Settings: Show tooltips in full on the modernized Settings page instead of cutting them off at the card edge.
 
