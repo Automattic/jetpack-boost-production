@@ -73,8 +73,8 @@ __( "No comparison data", "jetpack-boost" );
 __( "Good", "jetpack-boost" );
 __( "Could improve", "jetpack-boost" );
 __( "Poor", "jetpack-boost" );
-/* translators: %s is the improvement in a performance score, such as +10. */
-_n( "%s point compared with Boost disabled", "%s points compared with Boost disabled", 1, "jetpack-boost" );
+/* translators: %s is the change in a performance score, such as +10, 0, or -10. */
+_n( "%s point", "%s points", 1, "jetpack-boost" );
 __( "Desktop", "jetpack-boost" );
 __( "Mobile", "jetpack-boost" );
 __( "No scores recorded before the feature was unlocked.", "jetpack-boost" );
@@ -109,6 +109,8 @@ __( "Show score history preview", "jetpack-boost" );
 __( "Score history chart with sample data", "jetpack-boost" );
 __( "Error requesting speed scores", "jetpack-boost" );
 __( "Your Overall Score is a summary of your first Cornerstone Page across both mobile and desktop devices. It gives a general idea of your site's overall performance.", "jetpack-boost" );
+__( "About points", "jetpack-boost" );
+__( "Points gained from optimizations", "jetpack-boost" );
 __( "Failed to load speed scores", "jetpack-boost" );
 __( "Calculating…", "jetpack-boost" );
 _x( "Overall", "combined speed score grade", "jetpack-boost" );

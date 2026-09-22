@@ -22,6 +22,7 @@ This is an alpha version! The changes listed here are not final.
 - Dashboard: Move the speed test to a "Run speed test" button in the modernized Overview header and add a page subtitle.
 - Dashboard: Replace the free-plan score history prompt in the modernized Overview with a one-line upgrade notice that expands to a preview of the chart.
 - Dashboard: Show a loader instead of the modernized Overview while onboarding redirects to Getting Started.
+- Dashboard: Show score changes as badges, including unchanged scores, with an explanation in the modern Overview.
 - Dashboard: Update the modernized Overview score card to show "Your site speed", an overall band, and its calculating and failure states inside the card.
 - Dashboard: Use the same light orange for "Could improve" days in the modernized Overview history chart as in the score card.
 - Hide the Boost sidebar item when Boost is not active.
