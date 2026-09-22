@@ -15,6 +15,7 @@ This is an alpha version! The changes listed here are not final.
 ### Added
 - Connection: Surface SSL certificate verification failures reported by WordPress.com as a connection error notice.
 - Critical CSS: Explain when pages could not be optimized because they are only shown to logged-in visitors.
+- Settings: Add an explanation of Critical CSS beside its title in the modern dashboard.
 
 ### Changed
 - Cornerstone Pages: Add a short description under the title on the settings page.
