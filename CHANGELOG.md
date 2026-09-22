@@ -68,6 +68,7 @@ This is an alpha version! The changes listed here are not final.
 - Modern dashboard: Send the upgrade CTA to the Boost interstitial page instead of opening the modal.
 - My Jetpack: Fix the dashboard failing to load on WordPress.com-hosted sites.
 - My Jetpack: Show each notice once instead of twice.
+- Overview: Show the first recorded day of performance history immediately after upgrading.
 - Page Cache: Show the module as running, without contradictory setup errors, on WP Cloud hosts such as Pressable that already cache pages.
 - Performance history: Load the Overview faster on sites with little or no score history.
 - Performance History: Show the recorded decimal LCP, TBT, and CLS values in the history chart tooltips instead of whole numbers.
