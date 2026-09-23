@@ -73,6 +73,7 @@ This is an alpha version! The changes listed here are not final.
 - My Jetpack: Fix the dashboard failing to load on WordPress.com-hosted sites.
 - My Jetpack: Point users who cannot connect the site at an administrator, instead of an onboarding screen they cannot complete.
 - My Jetpack: Show each notice once instead of twice.
+- My Jetpack: stretch the tab content background to the full height of the page.
 - Overview: Show the first recorded day of performance history immediately after upgrading.
 - Page Cache: Show the module as running, without contradictory setup errors, on WP Cloud hosts such as Pressable that already cache pages.
 - Performance history: Load the Overview faster on sites with little or no score history.
