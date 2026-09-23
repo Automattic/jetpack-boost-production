@@ -22,7 +22,7 @@
         'automattic/jetpack-activity-log' => array(
             'pretty_version' => '0.4.2-alpha.1790149132',
             'version' => '0.4.2.0-alpha1790149132',
-            'reference' => '40361cda939f76bc78bf81215c1e3ba67c417a6c',
+            'reference' => 'b6f701daabacd8d3eda2b5a314d9f3329dfce0e3',
             'type' => 'jetpack-library',
             'install_path' => __DIR__ . '/../../jetpack_vendor/automattic/jetpack-activity-log',
             'aliases' => array(),
@@ -47,9 +47,9 @@
             'dev_requirement' => false,
         ),
         'automattic/jetpack-autoloader' => array(
-            'pretty_version' => '6.0.0',
-            'version' => '6.0.0.0',
-            'reference' => 'aacc2825e77a9bfa53b90ea1fc59fcaa845bfbe5',
+            'pretty_version' => '6.0.1-alpha.1790169688',
+            'version' => '6.0.1.0-alpha1790169688',
+            'reference' => '86313cb70fc1df802df60d90d2fc5fcc9989745a',
             'type' => 'composer-plugin',
             'install_path' => __DIR__ . '/../automattic/jetpack-autoloader',
             'aliases' => array(),
