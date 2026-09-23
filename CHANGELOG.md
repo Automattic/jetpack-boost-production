@@ -26,6 +26,7 @@ This is an alpha version! The changes listed here are not final.
 - Dashboard: Update the modernized Overview score card to show "Your site speed", an overall band, and its calculating and failure states inside the card.
 - Dashboard: Use the same light orange for "Could improve" days in the modernized Overview history chart as in the score card.
 - Hide the Boost sidebar item when Boost is not active.
+- History chart: Give the empty-day tooltip card its own rounded shadow.
 - My Jetpack: answer module switch clicks immediately, and explain what happened when a change fails.
 - My Jetpack: Restyle dashboard notices to match the WordPress design system.
 - My Jetpack: Show the dashboard in the new rounded admin page frame.
