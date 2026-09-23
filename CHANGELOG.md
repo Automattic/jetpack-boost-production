@@ -52,6 +52,7 @@ This is an alpha version! The changes listed here are not final.
 - Connection: Report a broken connection on My Jetpack's connection card instead of claiming everything looks good, and show a break only the connection owner can repair as a warning, not an error, to everyone else.
 - Critical CSS: Avoid duplicate status requests for CSS and LCP generation in the modern dashboard.
 - Critical CSS: Hide only the group of blocked pages you dismiss, instead of both.
+- Critical CSS: Show a focus ring around the manual regeneration info icon when it is reached with the keyboard.
 - Critical CSS: Stop local generation at login-protected pages to keep administrators logged in, and prevent automatic restarts after a failed run throughout the dashboard page session.
 - Dashboard: Avoid redundant requests when toggling optimization modules.
 - Dashboard: Fix the modernized onboarding loader staying in place of the Overview after onboarding completes.
