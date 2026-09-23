@@ -79,6 +79,7 @@ This is an alpha version! The changes listed here are not final.
 - Performance History: Show the recorded decimal LCP, TBT, and CLS values in the history chart tooltips instead of whole numbers.
 - Performance scores: Cancel pending background score requests while viewing a sub-page.
 - Settings: Avoid duplicate navigation when returning from a sub-page.
+- Settings: Close the Page Cache example and Cornerstone Pages warning tooltips with Escape, and the warning with a click elsewhere.
 - Settings: Hide upgrade and license links when their My Jetpack screens are unavailable.
 - Settings: Let keyboard users open tooltips with Enter or Space and dismiss them with Escape.
 - Settings: Show tooltips in full on the modernized Settings page instead of cutting them off at the card edge.
