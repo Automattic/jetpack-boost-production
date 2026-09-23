@@ -63,6 +63,7 @@ This is an alpha version! The changes listed here are not final.
 - Dashboard: Stop the modernized dashboard from logging a console error about missing Jetpack configuration.
 - Dashboard: Target contextual messages at the Boost screen on the modern dashboard.
 - Dashboard: Track Try again as a speed score refresh and keep keyboard focus on the page when a render failure removes the header button.
+- Fix My Jetpack links appearing when its admin page is unavailable.
 - Footer: Hide Products and Help links when My Jetpack is unavailable.
 - Keep admin icons colored after the @wordpress/icons 16 update, which draws them as strokes.
 - Keep keyboard focus on the first or last data point when an arrow key reaches the end of the score history chart, return focus to the chart when Escape closes a tooltip, stop a focused chart from swallowing keys it does not use such as Page Down, and close the tooltip when the series it describes is hidden.
