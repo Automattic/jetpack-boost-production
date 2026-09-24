@@ -32,6 +32,7 @@ This is an alpha version! The changes listed here are not final.
 - My Jetpack: Show the dashboard in the new rounded admin page frame.
 - My Jetpack: Show the Jetpack menu notification badge when a connection error is detected.
 - Settings: Group Image CDN controls and LCP optimization status in inset panels on the modern dashboard, and label the auto-resize toggle.
+- Settings: Keep focus on tooltip triggers when their tooltips open, announce the content to screen readers, and show a focus ring after clicking an info icon.
 - Settings: Organize modern settings into collapsible sections with descriptions and icons.
 - Settings: Show performance scores and optimization settings together on the modern dashboard.
 - Settings: Show upgrade notices without prices and add an explicit Generate step for manual Critical CSS in the modern dashboard.
