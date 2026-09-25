@@ -77,6 +77,7 @@ This is an alpha version! The changes listed here are not final.
 - Keep keyboard focus on the first or last data point when an arrow key reaches the end of the score history chart, return focus to the chart when Escape closes a tooltip, stop a focused chart from swallowing keys it does not use such as Page Down, and close the tooltip when the series it describes is hidden.
 - Modern dashboard: Send the upgrade CTA to the Boost interstitial page instead of opening the modal.
 - My Jetpack: Fix the dashboard failing to load on WordPress.com-hosted sites.
+- My Jetpack: Fix the layout of the connection screen for right-to-left languages.
 - My Jetpack: Point users who cannot connect the site at an administrator, instead of an onboarding screen they cannot complete.
 - My Jetpack: Show each notice once instead of twice.
 - My Jetpack: stretch the tab content background to the full height of the page.
