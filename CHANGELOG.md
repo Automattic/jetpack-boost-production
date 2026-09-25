@@ -81,6 +81,7 @@ This is an alpha version! The changes listed here are not final.
 - My Jetpack: Point users who cannot connect the site at an administrator, instead of an onboarding screen they cannot complete.
 - My Jetpack: Show each notice once instead of twice.
 - My Jetpack: stretch the tab content background to the full height of the page.
+- Overview: Let Tab move straight into and out of the score history while the pointer shows a day's details.
 - Overview: Let the pointer reach every day in the score history while a day's details are open, and leave a gap between the day and its details.
 - Overview: Let the pointer take over from the arrow keys in the score history, instead of flickering between the hovered and selected days.
 - Overview: Show a day's score details on hover again after paging the score history with the keyboard.
