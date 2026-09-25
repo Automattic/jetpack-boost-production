@@ -81,6 +81,7 @@ This is an alpha version! The changes listed here are not final.
 - My Jetpack: Point users who cannot connect the site at an administrator, instead of an onboarding screen they cannot complete.
 - My Jetpack: Show each notice once instead of twice.
 - My Jetpack: stretch the tab content background to the full height of the page.
+- Overview: Let the pointer reach every day in the score history while a day's details are open, and leave a gap between the day and its details.
 - Overview: Show a focus ring on the score history day selected with the arrow keys.
 - Overview: Show an upgrade link when the score history upgrade prompt cannot load.
 - Overview: Show the first recorded day of performance history immediately after upgrading.
