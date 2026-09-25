@@ -83,6 +83,7 @@ This is an alpha version! The changes listed here are not final.
 - My Jetpack: stretch the tab content background to the full height of the page.
 - Overview: Let the pointer reach every day in the score history while a day's details are open, and leave a gap between the day and its details.
 - Overview: Let the pointer take over from the arrow keys in the score history, instead of flickering between the hovered and selected days.
+- Overview: Show a day's score details on hover again after paging the score history with the keyboard.
 - Overview: Show a focus ring on the score history day selected with the arrow keys.
 - Overview: Show an upgrade link when the score history upgrade prompt cannot load.
 - Overview: Show the first recorded day of performance history immediately after upgrading.
