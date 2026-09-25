@@ -19,6 +19,7 @@ This is an alpha version! The changes listed here are not final.
 
 ### Changed
 - Cornerstone Pages: Add a short description under the title on the settings page.
+- Cornerstone Pages: Show the section description in the collapsed Settings header.
 - Dashboard: Move the speed test to a "Run speed test" button in the modernized Overview header and add a page subtitle.
 - Dashboard: Replace the free-plan score history prompt in the modernized Overview with a one-line upgrade notice that expands to a preview of the chart.
 - Dashboard: Show a loader instead of the modernized Overview while onboarding redirects to Getting Started.
