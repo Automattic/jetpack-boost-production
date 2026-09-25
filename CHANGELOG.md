@@ -82,6 +82,7 @@ This is an alpha version! The changes listed here are not final.
 - My Jetpack: Show each notice once instead of twice.
 - My Jetpack: stretch the tab content background to the full height of the page.
 - Overview: Show a focus ring on the score history day selected with the arrow keys.
+- Overview: Show an upgrade link when the score history upgrade prompt cannot load.
 - Overview: Show the first recorded day of performance history immediately after upgrading.
 - Page Cache: Show the module as running, without contradictory setup errors, on WP Cloud hosts such as Pressable that already cache pages.
 - Performance history: Load the Overview faster on sites with little or no score history.

@@ -100,6 +100,7 @@ __( "Previous %d days", "jetpack-boost" );
 __( "%1$s – %2$s", "jetpack-boost" );
 /* translators: %d is the number of days to page forward. */
 __( "Next %d days", "jetpack-boost" );
+__( "Upgrade now", "jetpack-boost" );
 __( "Learn more about your site performance over time.", "jetpack-boost" );
 __( "Hide score history preview", "jetpack-boost" );
 __( "Show score history preview", "jetpack-boost" );
