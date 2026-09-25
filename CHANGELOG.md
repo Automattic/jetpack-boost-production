@@ -88,6 +88,7 @@ This is an alpha version! The changes listed here are not final.
 - Settings: Close the Page Cache example and Cornerstone Pages warning tooltips with Escape, and the warning with a click elsewhere.
 - Settings: Hide upgrade and license links when their My Jetpack screens are unavailable.
 - Settings: Let keyboard users open tooltips with Enter or Space and dismiss them with Escape.
+- Settings: Nest the settings section headings under the page heading for screen readers.
 - Settings: Show tooltips in full on the modernized Settings page instead of cutting them off at the card edge.
 
 ## [4.7.1] - 2026-09-16
