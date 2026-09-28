@@ -46,13 +46,11 @@ class Feature_Visibility {
 			return array();
 		}
 
-		$hidden = defined( Admin_Menu::class . '::VISIBILITY_HIDDEN' ) ? Admin_Menu::VISIBILITY_HIDDEN : 'hidden';
-
 		return array_keys(
 			array_filter(
 				$states,
-				function ( $state ) use ( $hidden ) {
-					return $hidden === $state;
+				function ( $state ) {
+					return Admin_Menu::VISIBILITY_HIDDEN === $state;
 				}
 			)
 		);

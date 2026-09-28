@@ -5,36 +5,6 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
-## [6.7.0-alpha] - unreleased
-
-This is an alpha version! The changes listed here are not final.
-
-### Added
-- Add a More Features section to the Features tab that groups and switches Jetpack's other modules, behind the my-jetpack-features-tab feature flag.
-- Features: Record Tracks events for the Features tab.
-- Features tab: Add a dismissible banner explaining the tab.
-
-### Changed
-- Features: Say why a plugin can't be installed, show progress while it installs, and keep the reason on the card when an install fails.
-- Features tab: reorganize the feature details modal around what is free and what a paid plan adds, with an upgrade for every feature a paid plan covers and arrow keys to step between features, behind the my-jetpack-features-tab feature flag.
-- Features tab: say why the list is empty and offer a way forward, behind the my-jetpack-features-tab feature flag.
-- Features tab: Show a Configure link beside the switch of an active module, and stop Brute Force Protection from switching the Protect card on.
-- Features tab: Sort the More Features groups and their modules by name, add settings links, and show only the modules that apply to the site.
-- My Jetpack: add an icon to the Features tab's empty states.
-- Remove the hardcoded text color override on the wp-build dashboard, so text follows the design system color.
-- Render the Jetpack in-dashboard message slot from the shared component.
-- Show the Features tab in place of the Products tab by default, and link the footer's modules links to the Features list view.
-- Use core SnackbarNotices instead of Jetpack GlobalNotices.
-- Use logical CSS properties so layouts mirror in right-to-left languages.
-
-### Fixed
-- Admin menu: Avoid a fatal error when an older version of the admin UI package is loaded.
-- Features: Don't offer to install or activate a standalone plugin for a module your host or site administrator has disabled.
-- Features tab: Show VaultPress Backup and Protect as active, with an Open link, when a paid plan runs them without their plugin.
-- My Jetpack: keep the tab footer flush with the bottom of the content surface.
-- My Jetpack: stretch the tab content background to the full height of the page.
-- Show a note instead of Activate or purchase buttons on an Overview card whose module your host or site administrator has disabled.
-
 ## [6.6.0] - 2026-09-23
 ### Added
 - Add a filter letting hosts hide products and modules from My Jetpack. [#52505]
@@ -3002,7 +2972,6 @@ This is an alpha version! The changes listed here are not final.
 ### Added
 - Created package
 
-[6.7.0-alpha]: https://github.com/Automattic/jetpack-my-jetpack/compare/6.6.0...6.7.0-alpha
 [6.6.0]: https://github.com/Automattic/jetpack-my-jetpack/compare/6.5.0...6.6.0
 [6.5.0]: https://github.com/Automattic/jetpack-my-jetpack/compare/6.4.1...6.5.0
 [6.4.1]: https://github.com/Automattic/jetpack-my-jetpack/compare/6.4.0...6.4.1

@@ -13,6 +13,7 @@
 	"minimum-stability": "dev",
 	"prefer-stable": true,
 	"require": {
+		"ext-json": "*",
 		"automattic/jetpack-activity-log": "^0.4.2",
 		"automattic/jetpack-admin-ui": "^0.14.0",
 		"automattic/jetpack-assets": "^5.0.6",
@@ -21,19 +22,18 @@
 		"automattic/jetpack-boost-speed-score": "^0.6.0",
 		"automattic/jetpack-composer-plugin": "^5.0.0",
 		"automattic/jetpack-config": "^4.0.0",
-		"automattic/jetpack-connection": "^9.8.0-alpha",
+		"automattic/jetpack-connection": "^9.7.0",
 		"automattic/jetpack-device-detection": "^4.0.0",
 		"automattic/jetpack-image-cdn": "^0.8.0",
 		"automattic/jetpack-menu-badges": "^0.2.1",
-		"automattic/jetpack-my-jetpack": "^6.7.0-alpha",
-		"automattic/jetpack-plugin-deactivation": "^0.4.1-alpha",
+		"automattic/jetpack-my-jetpack": "^6.6.0",
+		"automattic/jetpack-plugin-deactivation": "^0.4.0",
 		"automattic/jetpack-schema": "^0.3.0",
 		"automattic/jetpack-status": "^7.1.0",
-		"automattic/jetpack-sync": "^5.3.0-alpha",
+		"automattic/jetpack-sync": "^5.2.0",
 		"automattic/jetpack-wp-abilities": "^0.2.0",
 		"automattic/jetpack-wp-build-polyfills": "^0.6.0",
 		"automattic/jetpack-wp-js-data-sync": "^0.7.0",
-		"ext-json": "*",
 		"matthiasmullie/minify": "^1.3"
 	},
 	"require-dev": {
@@ -99,6 +99,9 @@
 		"wp-svn-autopublish": true,
 		"changelogger": {
 			"link-template": "https://github.com/Automattic/jetpack-boost-production/compare/${old}...${new}"
-		}
+		},
+		"non-mirrored-require-dev": [
+			"automattic/jetpack-test-environment"
+		]
 	}
 }

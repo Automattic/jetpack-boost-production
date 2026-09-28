@@ -40,7 +40,7 @@ class Protected_Owner {
 	}
 
 	/**
-	 * Record the owner WordPress.com has confirmed for this site.
+	 * Record a confirmed protected owner and lock the anchor.
 	 *
 	 * @since 9.3.0
 	 * @since 9.6.0 No longer records how the owner was confirmed.
@@ -64,6 +64,7 @@ class Protected_Owner {
 		$anchor = array(
 			'wpcom_user_id' => $wpcom_user_id,
 			'local_user_id' => $local_user_id,
+			'locked'        => true,
 			'confirmed_at'  => gmdate( 'Y-m-d\TH:i:s\Z' ),
 		);
 
@@ -125,18 +126,19 @@ class Protected_Owner {
 	}
 
 	/**
-	 * Get the anchor, but only while it protects somebody.
+	 * Get the anchor, but only while it is locked.
 	 *
-	 * The anchor is dropped the moment WordPress.com stops confirming it, so holding one and
-	 * being protected by it are the same thing. Kept as the name gates read by, which says what
-	 * the call site means rather than what the storage happens to be.
+	 * An unlocked anchor names an owner without preventing ownership moving, so it protects
+	 * nobody and callers gating on protection must not see it.
 	 *
 	 * @since 9.3.0
 	 *
-	 * @return array|null The anchor, or null when there is none.
+	 * @return array|null The locked anchor, or null when there is none.
 	 */
 	public static function get_locked() {
-		return self::get();
+		$anchor = self::get();
+
+		return ( $anchor && ! empty( $anchor['locked'] ) ) ? $anchor : null;
 	}
 
 	/**

@@ -47,7 +47,7 @@ class Initializer {
 	 *
 	 * @var string
 	 */
-	const PACKAGE_VERSION = '6.7.0-alpha';
+	const PACKAGE_VERSION = '6.6.0';
 
 	/**
 	 * Feature flag that swaps the My Jetpack Products tab for a Features tab.
@@ -208,7 +208,6 @@ class Initializer {
 	 * @return void
 	 */
 	public static function add_my_jetpack_menu_item() {
-		$position    = defined( Admin_Menu::class . '::POSITION_FIRST' ) ? Admin_Menu::POSITION_FIRST : -10;
 		$menu_slug   = 'my-jetpack';
 		$page_suffix = Admin_Menu::add_menu(
 			__( 'My Jetpack', 'jetpack-my-jetpack' ),
@@ -216,7 +215,7 @@ class Initializer {
 			'edit_posts',
 			$menu_slug,
 			array( __CLASS__, 'admin_page' ),
-			$position
+			Admin_Menu::POSITION_FIRST
 		);
 		add_action( 'load-' . $page_suffix, array( __CLASS__, 'admin_init' ) );
 		// Users who can edit posts but have no Jetpack menu get an admin_page_ hook instead.
@@ -374,7 +373,7 @@ class Initializer {
 		Feature_Flags::register(
 			self::FEATURES_TAB_FEATURE_FLAG,
 			array(
-				'default'     => true,
+				'default'     => false,
 				'description' => 'Replace the My Jetpack Products tab with a Features tab.',
 				'owner'       => 'my-jetpack',
 			)
@@ -643,8 +642,6 @@ class Initializer {
 			$sandboxed_domain = defined( 'JETPACK__SANDBOX_DOMAIN' ) ? JETPACK__SANDBOX_DOMAIN : '';
 		}
 
-		$features_tab_enabled = self::is_features_tab_enabled();
-
 		wp_localize_script(
 			$data_handle,
 			'myJetpackInitialState',
@@ -652,8 +649,7 @@ class Initializer {
 				'products'               => array(
 					'items' => Products::get_products(),
 				),
-				'mainFeatures'           => $features_tab_enabled ? Main_Features::get_state() : null,
-				'featuresBanner'         => $features_tab_enabled ? array( 'isDismissed' => REST_Main_Features::is_banner_dismissed() ) : null,
+				'mainFeatures'           => self::is_features_tab_enabled() ? Main_Features::get_state() : null,
 				'plugins'                => Plugins_Installer::get_plugins(),
 				'themes'                 => Sync_Functions::get_themes(),
 				'myJetpackUrl'           => admin_url( 'admin.php?page=my-jetpack' ),

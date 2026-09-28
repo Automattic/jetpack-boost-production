@@ -187,15 +187,13 @@ class Jetpack_Manage {
 			$args = array( 'site' => $blog_id );
 		}
 
-		$position = defined( Admin_Menu::class . '::POSITION_EXTERNAL' ) ? Admin_Menu::POSITION_EXTERNAL : 100;
-
 		return Admin_Menu::add_menu(
 			__( 'Jetpack Manage', 'jetpack-my-jetpack' ),
 			_x( 'Jetpack Manage', 'product name shown in menu', 'jetpack-my-jetpack' ) . ' <span aria-hidden="true">↗</span>',
 			'manage_options',
 			esc_url( Redirect::get_url( 'cloud-manage-dashboard-wp-menu', $args ) ),
 			null,
-			$position,
+			Admin_Menu::POSITION_EXTERNAL,
 			array( 'key' => 'jetpack-manage' )
 		);
 	}
