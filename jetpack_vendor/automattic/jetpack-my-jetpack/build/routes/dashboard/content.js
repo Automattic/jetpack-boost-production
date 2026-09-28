@@ -166,6 +166,7 @@ __( "We’re sorry to see you go. Here at Jetpack, we’re always striving to pr
 __( "Help us improve", "jetpack-my-jetpack" );
 __( "No thank you", "jetpack-my-jetpack" );
 __( "Back to my website", "jetpack-my-jetpack" );
+__( "I couldn't get it to connect.", "jetpack-my-jetpack" );
 __( "Troubleshooting - I'll be reconnecting afterwards.", "jetpack-my-jetpack" );
 __( "I can't get it to work.", "jetpack-my-jetpack" );
 __( "It slowed down my site.", "jetpack-my-jetpack" );
@@ -179,6 +180,8 @@ __( "Submitting…", "jetpack-my-jetpack" );
 __( "Submit Feedback", "jetpack-my-jetpack" );
 __( "Before you go, help us improve Jetpack", "jetpack-my-jetpack" );
 __( "Let us know what didn't work for you", "jetpack-my-jetpack" );
+__( "Submit and deactivate", "jetpack-my-jetpack" );
+__( "Skip and deactivate", "jetpack-my-jetpack" );
 __( "Skip for now", "jetpack-my-jetpack" );
 __( "Thank you!", "jetpack-my-jetpack" );
 __( "Your answer has been submitted. <br/>Thanks for your input on how we can improve Jetpack.", "jetpack-my-jetpack" );
@@ -339,6 +342,9 @@ __( "Some products need a connection to WordPress.com to be able to work.", "jet
 __( "Connect your site", "jetpack-my-jetpack" );
 __( "Missing site connection", "jetpack-my-jetpack" );
 __( "Connecting…", "jetpack-my-jetpack" );
+__( "Enabled by your host or site administrator", "jetpack-my-jetpack" );
+__( "Disabled by your host or site administrator", "jetpack-my-jetpack" );
+__( "Not available on multisite", "jetpack-my-jetpack" );
 __( "Install Plugin", "jetpack-my-jetpack" );
 __( "Get plan", "jetpack-my-jetpack" );
 __( "Upgrade", "jetpack-my-jetpack" );
@@ -478,6 +484,32 @@ __( "Here are the tools that we think will help you reach your website goals:", 
 __( "Recommendations menu", "jetpack-my-jetpack" );
 __( "Previous", "jetpack-my-jetpack" );
 __( "Next", "jetpack-my-jetpack" );
+/* translators: %d is how many features are selected. */
+_n( "%d selected", "%d selected", 1, "jetpack-my-jetpack" );
+__( "Plugins can only be deactivated together while the Jetpack plugin is active.", "jetpack-my-jetpack" );
+__( "Select all features", "jetpack-my-jetpack" );
+__( "Select features to switch several at once", "jetpack-my-jetpack" );
+__( "All categories", "jetpack-my-jetpack" );
+__( "Recommended", "jetpack-my-jetpack" );
+__( "Included in plan", "jetpack-my-jetpack" );
+__( "Security", "jetpack-my-jetpack" );
+__( "Growth", "jetpack-my-jetpack" );
+__( "Performance", "jetpack-my-jetpack" );
+__( "Other", "jetpack-my-jetpack" );
+__( "Explore all", "jetpack-my-jetpack" );
+__( "We couldn’t load your features.", "jetpack-my-jetpack" );
+__( "Refresh the page, or try again in a moment.", "jetpack-my-jetpack" );
+__( "Reload", "jetpack-my-jetpack" );
+/* translators: %s is the term someone searched the features list for. */
+__( "No features match “%s”.", "jetpack-my-jetpack" );
+__( "It may go by another name here, or the answer may be on jetpack.com.", "jetpack-my-jetpack" );
+/* translators: %s is the term someone searched the features list for. */
+__( "Search jetpack.com for “%s”", "jetpack-my-jetpack" );
+__( "No features are active yet.", "jetpack-my-jetpack" );
+__( "Turn one on and it will appear here.", "jetpack-my-jetpack" );
+__( "Everything is turned on.", "jetpack-my-jetpack" );
+__( "There are no inactive features left on this site.", "jetpack-my-jetpack" );
+__( "No features found.", "jetpack-my-jetpack" );
 __( "Legacy sharing buttons cannot be customized on block themes.", "jetpack-my-jetpack" );
 _x( "Add the Sharing Buttons block to your theme’s template.", "Sharing block migration instruction", "jetpack-my-jetpack" );
 __( "Switch to Sharing Buttons block", "jetpack-my-jetpack" );
@@ -547,20 +579,30 @@ __( "Failed to deactivate %s.", "jetpack-my-jetpack" );
 __( "Open Site Editor", "jetpack-my-jetpack" );
 /* translators: %s is the module name */
 __( "Toggle %s module", "jetpack-my-jetpack" );
+/* translators: %s is a plugin name, such as "Jetpack Boost". */
+__( "Plugin installs are turned off on this site. Ask your host or site administrator to install %s.", "jetpack-my-jetpack" );
+/* translators: %s is a plugin name, such as "Jetpack Boost". */
+__( "Your account can’t install plugins. Ask a site administrator to install %s.", "jetpack-my-jetpack" );
 /* translators: %s is a plugin or feature name. */
 __( "%s deactivated.", "jetpack-my-jetpack" );
 /* translators: %s is a plugin or feature name. */
 __( "%s is on.", "jetpack-my-jetpack" );
 /* translators: %s is a plugin or feature name. */
 __( "Could not change %s. Please try again.", "jetpack-my-jetpack" );
+__( "The plugin could not be installed. Please try again.", "jetpack-my-jetpack" );
+__( "Installing…", "jetpack-my-jetpack" );
+__( "Activating…", "jetpack-my-jetpack" );
+__( "Open", "jetpack-my-jetpack" );
 __( "Activate Jetpack", "jetpack-my-jetpack" );
 __( "Install Jetpack", "jetpack-my-jetpack" );
+__( "All", "jetpack-my-jetpack" );
+__( "Essential", "jetpack-my-jetpack" );
+__( "Complete", "jetpack-my-jetpack" );
 /* translators: %s is the feature name. */
 __( "Learn more about %s", "jetpack-my-jetpack" );
-__( "Essential", "jetpack-my-jetpack" );
-__( "Enabled by your host or site administrator", "jetpack-my-jetpack" );
-__( "Disabled by your host or site administrator", "jetpack-my-jetpack" );
-__( "Not available on multisite", "jetpack-my-jetpack" );
+/* translators: %s is the feature name. */
+__( "Configure %s", "jetpack-my-jetpack" );
+__( "Configure", "jetpack-my-jetpack" );
 /* translators: %d is how many features were switched on. */
 _n( "%d feature activated.", "%d features activated.", 1, "jetpack-my-jetpack" );
 /* translators: %d is how many features were switched off. */
@@ -571,54 +613,51 @@ __( "Could not change the selected features. Please try again.", "jetpack-my-jet
 __( "Change this feature from its own control.", "jetpack-my-jetpack" );
 /* translators: %s is the feature name. */
 __( "Select %s", "jetpack-my-jetpack" );
-/* translators: %d is how many features are selected. */
-_n( "%d selected", "%d selected", 1, "jetpack-my-jetpack" );
-__( "Plugins can only be deactivated together while the Jetpack plugin is active.", "jetpack-my-jetpack" );
-__( "Select all features", "jetpack-my-jetpack" );
-__( "Select features to switch several at once", "jetpack-my-jetpack" );
 /* translators: %s is the feature name. */
 __( "%s in use", "jetpack-my-jetpack" );
-/* translators: 1: a plugin name, 2: a feature name. */
-__( "Install adds the %1$s plugin, then turns %2$s on for your site. It does not buy anything.", "jetpack-my-jetpack" );
-/* translators: 1: a plugin name, 2: a feature name. */
-__( "Activate switches on the %1$s plugin, already installed here, and turns %2$s on for your site.", "jetpack-my-jetpack" );
-/* translators: %s is a feature name, such as "Stats". */
-__( "Activate turns %s on for your site. There is nothing to install, and it does not buy anything.", "jetpack-my-jetpack" );
+/* translators: %s is a plugin name. Keep the <plugin> tags around it. */
+__( "Installing adds the <plugin>%s</plugin> plugin and turns it on. It does not buy anything.", "jetpack-my-jetpack" );
+/* translators: %s is a plugin name. Keep the <plugin> tags around it. */
+__( "The <plugin>%s</plugin> plugin is already installed. Activating turns it on.", "jetpack-my-jetpack" );
+__( "Built into Jetpack. Activating turns it on, with nothing to install or buy.", "jetpack-my-jetpack" );
 /* translators: %s is a feature name, such as "Stats". */
 __( "%s is part of the Jetpack plugin. Installing Jetpack turns it on; it does not buy anything.", "jetpack-my-jetpack" );
-__( "How to get it", "jetpack-my-jetpack" );
-__( "In Jetpack", "jetpack-my-jetpack" );
-/* translators: %s is a plugin name, such as "Jetpack Protect". */
-__( "View %s on WordPress.org", "jetpack-my-jetpack" );
 __( "Feature page", "jetpack-my-jetpack" );
 __( "Documentation", "jetpack-my-jetpack" );
-__( "Open", "jetpack-my-jetpack" );
 /* translators: %s is a plan name, such as "Jetpack Complete". */
 __( "Show everything in %s", "jetpack-my-jetpack" );
+__( "Included in <plan0 />", "jetpack-my-jetpack" );
+__( "Included in <plan0 /> and <plan1 />", "jetpack-my-jetpack" );
+__( "Included in <plan0 />, <plan1 /> and <plan2 />", "jetpack-my-jetpack" );
 __( "With a paid plan", "jetpack-my-jetpack" );
-__( "Available in", "jetpack-my-jetpack" );
-__( "What you get", "jetpack-my-jetpack" );
-__( "All", "jetpack-my-jetpack" );
-__( "Security", "jetpack-my-jetpack" );
-__( "Growth", "jetpack-my-jetpack" );
-__( "Complete", "jetpack-my-jetpack" );
+/* translators: %s is a product name, such as "Jetpack Akismet Anti-spam". */
+__( "Upgrade to %s", "jetpack-my-jetpack" );
+/* translators: %s is a feature name, such as "Stats". */
+__( "Previous: %s", "jetpack-my-jetpack" );
+/* translators: %s is a feature name, such as "Stats". */
+__( "Next: %s", "jetpack-my-jetpack" );
+__( "Previous feature", "jetpack-my-jetpack" );
+__( "Next feature", "jetpack-my-jetpack" );
+__( "Left arrow", "jetpack-my-jetpack" );
+__( "Right arrow", "jetpack-my-jetpack" );
+/* translators: 1: a feature name, 2: its place in the list, 3: how many are listed. */
+__( "%1$s, %2$d of %3$d", "jetpack-my-jetpack" );
+__( "Every Jetpack feature, in one place.", "jetpack-my-jetpack" );
+__( "Switch a feature on or off right here. Open one first to see what it does, what it needs, and where to find it once it is on.", "jetpack-my-jetpack" );
+__( "Dismiss banner", "jetpack-my-jetpack" );
+__( "Activate the Jetpack plugin to see and switch its other features.", "jetpack-my-jetpack" );
+__( "More Features", "jetpack-my-jetpack" );
 __( "Grid view", "jetpack-my-jetpack" );
 __( "List view", "jetpack-my-jetpack" );
 __( "Filter features", "jetpack-my-jetpack" );
 __( "Search features", "jetpack-my-jetpack" );
 __( "Layout", "jetpack-my-jetpack" );
-__( "All categories", "jetpack-my-jetpack" );
-__( "Recommended", "jetpack-my-jetpack" );
-__( "Included in plan", "jetpack-my-jetpack" );
-__( "Performance", "jetpack-my-jetpack" );
-__( "Other", "jetpack-my-jetpack" );
 /* translators: %d is how many features were added to the wp-admin menu. */
 _n( "%d feature is now in your menu", "%d features are now in your menu", 1, "jetpack-my-jetpack" );
 /* translators: %s is a feature name, e.g. "Stats". */
 __( "%s is now in your menu", "jetpack-my-jetpack" );
 /* translators: %d is how many features the filter or search matched. */
 _n( "%d feature shown", "%d features shown", 1, "jetpack-my-jetpack" );
-__( "No features found.", "jetpack-my-jetpack" );
 __( "Ask us a question", "jetpack-my-jetpack" );
 __( "Have a question? Our AI Assistant can help, or connect you to our support team.", "jetpack-my-jetpack" );
 __( "Troubleshooting", "jetpack-my-jetpack" );
