@@ -72,6 +72,7 @@ This is an alpha version! The changes listed here are not final.
 - Dashboard: Stop the modernized dashboard from logging a console error about missing Jetpack configuration.
 - Dashboard: Target contextual messages at the Boost screen on the modern dashboard.
 - Dashboard: Track Try again as a speed score refresh and keep keyboard focus on the page when a render failure removes the header button.
+- Defer JS: Keep scripts that come before a script left in place in their original order, fixing hidden product images and unclickable tabs on some sites using Jetpack Likes.
 - Fix My Jetpack links appearing when its admin page is unavailable.
 - Footer: Hide Products and Help links when My Jetpack is unavailable.
 - Keep admin icons colored after the @wordpress/icons 16 update, which draws them as strokes.
