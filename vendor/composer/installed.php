@@ -22,16 +22,16 @@
         'automattic/jetpack-activity-log' => array(
             'pretty_version' => '0.4.3',
             'version' => '0.4.3.0',
-            'reference' => '156647a1b202299bcb22847650b053fc682121c8',
+            'reference' => '75d48bce464fcb56875faddbddcbe2a12c7d2571',
             'type' => 'jetpack-library',
             'install_path' => __DIR__ . '/../../jetpack_vendor/automattic/jetpack-activity-log',
             'aliases' => array(),
             'dev_requirement' => false,
         ),
         'automattic/jetpack-admin-ui' => array(
-            'pretty_version' => '0.14.1',
-            'version' => '0.14.1.0',
-            'reference' => 'efc8aa05602ebdff352dcd0fc13dd69860675f7d',
+            'pretty_version' => '0.14.2-alpha.1790678782',
+            'version' => '0.14.2.0-alpha1790678782',
+            'reference' => '172383f2d8e2e8bc8ad03ae04eea9986f462455f',
             'type' => 'jetpack-library',
             'install_path' => __DIR__ . '/../../jetpack_vendor/automattic/jetpack-admin-ui',
             'aliases' => array(),
@@ -103,7 +103,7 @@
         'automattic/jetpack-connection' => array(
             'pretty_version' => '9.8.1-alpha.1790659913',
             'version' => '9.8.1.0-alpha1790659913',
-            'reference' => '3623f96bc737bf8d3c001b7baad69f4566ea6911',
+            'reference' => '839eee3d0e6f1d16a5af1dd04b4e1a31b7bb277d',
             'type' => 'jetpack-library',
             'install_path' => __DIR__ . '/../../jetpack_vendor/automattic/jetpack-connection',
             'aliases' => array(),
@@ -202,7 +202,7 @@
         'automattic/jetpack-my-jetpack' => array(
             'pretty_version' => '6.7.0',
             'version' => '6.7.0.0',
-            'reference' => '1c6ca336df8c155eb908716cafe470895c6b78e5',
+            'reference' => 'acf23063d437e31140aee12736a0bf4b8d1c2cda',
             'type' => 'jetpack-library',
             'install_path' => __DIR__ . '/../../jetpack_vendor/automattic/jetpack-my-jetpack',
             'aliases' => array(),
