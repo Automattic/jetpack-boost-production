@@ -10,6 +10,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 This is an alpha version! The changes listed here are not final.
 
 ### Changed
+- Overview: Open the points explanation when hovering the points badge.
 - Refer to Cornerstone Pages consistently, matching the support documentation.
 - Settings: Add a Clear cache button to Page Cache and show logging as a toggle with a link to the logs.
 
