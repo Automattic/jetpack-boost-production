@@ -18,6 +18,7 @@ This is an alpha version! The changes listed here are not final.
 - Critical CSS: Match the recommendations page text size and colour to the modern dashboard.
 - Settings: Add space between a module's description and its status notice in the modern dashboard.
 - Settings: Show the automatic Critical CSS status in the modern style.
+- Settings: Show the Image CDN quality, Page Cache options and Clear Cache controls as buttons rather than links, and announce whether the options panels are expanded.
 - Settings: Tighten the Cornerstone Pages list editor and match its text size and color to the rest of the page.
 - Settings: Use the same text size and color for the exceptions panels and Image CDN help text as the rest of the page.
 
