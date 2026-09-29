@@ -11,6 +11,7 @@ This is an alpha version! The changes listed here are not final.
 
 ### Changed
 - Refer to Cornerstone Pages consistently, matching the support documentation.
+- Settings: Add a Clear cache button to Page Cache and show logging as a toggle with a link to the logs.
 
 ### Fixed
 - Connection: Fix reconnecting your WordPress.com account so it no longer disconnects other users and clears the broken-connection notice on the first attempt.
