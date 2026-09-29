@@ -18,6 +18,7 @@ This is an alpha version! The changes listed here are not final.
 - Settings: Add space between a module's description and its status notice in the modern dashboard.
 - Settings: Show the automatic Critical CSS status in the modern style.
 - Settings: Tighten the Cornerstone Pages list editor and match its text size and color to the rest of the page.
+- Settings: Use the same text size and color for the exceptions panels and Image CDN help text as the rest of the page.
 
 ## [4.8.0-beta] - 2026-09-28
 ### Security
