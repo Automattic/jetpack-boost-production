@@ -9,6 +9,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 This is an alpha version! The changes listed here are not final.
 
+### Changed
+- Refer to Cornerstone Pages consistently, matching the support documentation.
+
 ### Fixed
 - Connection: Fix reconnecting your WordPress.com account so it no longer disconnects other users and clears the broken-connection notice on the first attempt.
 - Connection: Stop users who cannot set up the site connection from becoming the connection owner when the owner's connection is missing.

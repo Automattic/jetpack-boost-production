@@ -106,7 +106,7 @@ __( "Hide score history preview", "jetpack-boost" );
 __( "Show score history preview", "jetpack-boost" );
 __( "Score history chart with sample data", "jetpack-boost" );
 __( "Error requesting speed scores", "jetpack-boost" );
-__( "Your Overall Score is a summary of your first Cornerstone Page across both mobile and desktop devices. It gives a general idea of your site's overall performance.", "jetpack-boost" );
+__( "Your overall score is a summary of your first Cornerstone Page across both mobile and desktop devices. It gives a general idea of your site's overall performance.", "jetpack-boost" );
 __( "Points gained from optimizations", "jetpack-boost" );
 __( "No improvements in score", "jetpack-boost" );
 __( "About points", "jetpack-boost" );
