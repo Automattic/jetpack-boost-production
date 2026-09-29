@@ -11,6 +11,7 @@ This is an alpha version! The changes listed here are not final.
 
 ### Fixed
 - Connection: Fix reconnecting your WordPress.com account so it no longer disconnects other users and clears the broken-connection notice on the first attempt.
+- Connection: Stop users who cannot set up the site connection from becoming the connection owner when the owner's connection is missing.
 
 ## [4.8.0-beta] - 2026-09-28
 ### Security
