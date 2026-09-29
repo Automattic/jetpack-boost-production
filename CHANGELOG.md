@@ -18,6 +18,7 @@ This is an alpha version! The changes listed here are not final.
 - Critical CSS: Match the recommendations page text size and colour to the modern dashboard.
 - Overview: Show the score history's Previous and Next arrows in dark grey instead of blue, to match the rest of the page.
 - Settings: Add space between a module's description and its status notice in the modern dashboard.
+- Settings: Match notice text to the rest of the page.
 - Settings: Match the Save buttons in the exceptions panels and Cornerstone Pages editor to the rest of the page.
 - Settings: Show the automatic Critical CSS status in the modern style.
 - Settings: Show the Image CDN quality, Page Cache options and Clear Cache controls as buttons rather than links, and announce whether the options panels are expanded.
