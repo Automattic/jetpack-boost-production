@@ -15,6 +15,7 @@ This is an alpha version! The changes listed here are not final.
 ### Fixed
 - Connection: Fix reconnecting your WordPress.com account so it no longer disconnects other users and clears the broken-connection notice on the first attempt.
 - Connection: Stop users who cannot set up the site connection from becoming the connection owner when the owner's connection is missing.
+- Critical CSS: Match the recommendations page text size and colour to the modern dashboard.
 - Settings: Add space between a module's description and its status notice in the modern dashboard.
 - Settings: Show the automatic Critical CSS status in the modern style.
 - Settings: Tighten the Cornerstone Pages list editor and match its text size and color to the rest of the page.
