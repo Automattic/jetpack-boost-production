@@ -16,6 +16,7 @@ This is an alpha version! The changes listed here are not final.
 - Connection: Fix reconnecting your WordPress.com account so it no longer disconnects other users and clears the broken-connection notice on the first attempt.
 - Connection: Stop users who cannot set up the site connection from becoming the connection owner when the owner's connection is missing.
 - Settings: Add space between a module's description and its status notice in the modern dashboard.
+- Settings: Show the automatic Critical CSS status in the modern style.
 
 ## [4.8.0-beta] - 2026-09-28
 ### Security
