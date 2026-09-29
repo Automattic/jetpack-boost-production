@@ -17,6 +17,7 @@ This is an alpha version! The changes listed here are not final.
 - Connection: Fix reconnecting your WordPress.com account so it no longer disconnects other users and clears the broken-connection notice on the first attempt.
 - Connection: Stop users who cannot set up the site connection from becoming the connection owner when the owner's connection is missing.
 - Critical CSS: Match the recommendations page text size and colour to the modern dashboard.
+- Overview: Match the score help popovers, score history day details and paging tooltips to the design.
 - Overview: Show the score history's Previous and Next arrows in dark grey instead of blue, to match the rest of the page.
 - Settings: Add space between a module's description and its status notice in the modern dashboard.
 - Settings: Match notice text to the rest of the page.
