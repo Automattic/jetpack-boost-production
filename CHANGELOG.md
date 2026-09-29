@@ -11,6 +11,7 @@ This is an alpha version! The changes listed here are not final.
 
 ### Changed
 - Overview: Open the points explanation when hovering the points badge.
+- Overview: Show empty days in the score history in the same details popover as recorded days.
 - Refer to Cornerstone Pages consistently, matching the support documentation.
 - Settings: Add a Clear cache button to Page Cache and show logging as a toggle with a link to the logs.
 
