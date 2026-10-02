@@ -11,6 +11,7 @@ This is an alpha version! The changes listed here are not final.
 
 ### Changed
 - Activity Log: Show the connection error notice only when a connection error has been recorded.
+- My Jetpack: Show product cards flat, without a drop shadow.
 - Update package dependencies.
 
 ### Fixed
