@@ -146,9 +146,9 @@
             'dev_requirement' => false,
         ),
         'automattic/jetpack-image-cdn' => array(
-            'pretty_version' => '0.8.0',
-            'version' => '0.8.0.0',
-            'reference' => '2fe560ff9a3be3b1dce5447b35cd4745de060744',
+            'pretty_version' => '0.8.1-alpha.1790950421',
+            'version' => '0.8.1.0-alpha1790950421',
+            'reference' => 'c4405c9c8beb30a42d82fc30cc8535de36b34087',
             'type' => 'jetpack-library',
             'install_path' => __DIR__ . '/../../jetpack_vendor/automattic/jetpack-image-cdn',
             'aliases' => array(),
