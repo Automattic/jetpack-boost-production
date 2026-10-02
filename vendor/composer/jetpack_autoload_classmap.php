@@ -1734,6 +1734,10 @@ return array(
 		'version' => '4.8.1.0-alpha',
 		'path'    => $baseDir . '/tests/php/lib/critical-css/Critical_CSS_Storage_Test.php'
 	),
+	'Automattic\\Jetpack_Boost\\Tests\\Lib\\Critical_CSS\\Display_Critical_CSS_Debug_Test' => array(
+		'version' => '4.8.1.0-alpha',
+		'path'    => $baseDir . '/tests/php/lib/critical-css/Display_Critical_CSS_Debug_Test.php'
+	),
 	'Automattic\\Jetpack_Boost\\Tests\\Lib\\Critical_CSS\\Display_Critical_CSS_Test' => array(
 		'version' => '4.8.1.0-alpha',
 		'path'    => $baseDir . '/tests/php/lib/critical-css/Display_Critical_CSS_Test.php'
