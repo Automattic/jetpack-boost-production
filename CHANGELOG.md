@@ -19,7 +19,7 @@ This is an alpha version! The changes listed here are not final.
 - Connection: Stop users who cannot set up the site connection from becoming the connection owner when the owner's connection is missing.
 - Critical CSS: Reduce repeated styles during local generation, print after the page title, and reject generated CSS above 512 KiB with an error message.
 
-## [4.8.0-beta2] - 2026-09-29
+## [4.8.0] - 2026-10-02
 ### Security
 - Critical CSS: Improve the security of Critical CSS generation. [#52462]
 
@@ -1085,8 +1085,8 @@ This is an alpha version! The changes listed here are not final.
 
 - First public alpha release
 
-[4.8.1-alpha]: https://github.com/Automattic/jetpack-boost-production/compare/4.8.0-beta2...4.8.1-alpha
-[4.8.0-beta2]: https://github.com/Automattic/jetpack-boost-production/compare/4.7.1...4.8.0-beta2
+[4.8.1-alpha]: https://github.com/Automattic/jetpack-boost-production/compare/4.8.0...4.8.1-alpha
+[4.8.0]: https://github.com/Automattic/jetpack-boost-production/compare/4.7.1...4.8.0
 [4.7.1]: https://github.com/Automattic/jetpack-boost-production/compare/4.7.0...4.7.1
 [4.7.0]: https://github.com/Automattic/jetpack-boost-production/compare/4.6.3...4.7.0
 [4.6.3]: https://github.com/Automattic/jetpack-boost-production/compare/4.6.2...4.6.3
