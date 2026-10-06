@@ -1750,6 +1750,10 @@ return array(
 		'version' => '4.8.1.0-alpha',
 		'path'    => $baseDir . '/tests/php/lib/Js_Structure_Scanner_Test.php'
 	),
+	'Automattic\\Jetpack_Boost\\Tests\\Lib\\Minify\\Cache_Bust_Mtime_Test' => array(
+		'version' => '4.8.1.0-alpha',
+		'path'    => $baseDir . '/tests/php/lib/minify/Cache_Bust_Mtime_Test.php'
+	),
 	'Automattic\\Jetpack_Boost\\Tests\\Lib\\Minify\\Concatenate_JS_Strategy_Test' => array(
 		'version' => '4.8.1.0-alpha',
 		'path'    => $baseDir . '/tests/php/lib/minify/Concatenate_JS_Strategy_Test.php'
