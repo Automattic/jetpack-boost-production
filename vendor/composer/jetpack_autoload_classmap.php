@@ -1798,6 +1798,10 @@ return array(
 		'version' => '4.8.1.0-alpha',
 		'path'    => $baseDir . '/tests/php/modules/Force_Disabled_Test.php'
 	),
+	'Automattic\\Jetpack_Boost\\Tests\\Modules\\Image_Guide_Test' => array(
+		'version' => '4.8.1.0-alpha',
+		'path'    => $baseDir . '/tests/php/modules/Image_Guide_Test.php'
+	),
 	'Automattic\\Jetpack_Boost\\Tests\\Modules\\Module_Test' => array(
 		'version' => '4.8.1.0-alpha',
 		'path'    => $baseDir . '/tests/php/modules/Module_Test.php'
