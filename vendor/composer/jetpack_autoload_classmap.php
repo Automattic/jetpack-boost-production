@@ -1786,6 +1786,10 @@ return array(
 		'version' => '4.8.1.0-alpha',
 		'path'    => $baseDir . '/tests/php/lib/mocks/class-mock-premium-features.php'
 	),
+	'Automattic\\Jetpack_Boost\\Tests\\Lib\\Premium_Features_Test' => array(
+		'version' => '4.8.1.0-alpha',
+		'path'    => $baseDir . '/tests/php/lib/Premium_Features_Test.php'
+	),
 	'Automattic\\Jetpack_Boost\\Tests\\Modules\\Features_Index_Test' => array(
 		'version' => '4.8.1.0-alpha',
 		'path'    => $baseDir . '/tests/php/modules/Features_Index_Test.php'
