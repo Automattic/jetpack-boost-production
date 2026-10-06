@@ -26,7 +26,7 @@ __( "Dismiss", "jetpack-boost" );
 __( "Sections", "jetpack-boost" );
 __( "Jetpack Logo", "jetpack-boost" );
 __( "An Automattic Airline", "jetpack-boost" );
-__( "Products", "jetpack-boost" );
+__( "Features", "jetpack-boost" );
 __( "Help", "jetpack-boost" );
 __( "Jetpack", "jetpack-boost" );
 /* translators: %s: an error message. */
