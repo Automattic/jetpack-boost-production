@@ -29,6 +29,7 @@ This is an alpha version! The changes listed here are not final.
 - My Jetpack: Stop showing an empty account avatar on the Overview connection card on sites without a connection owner when nothing in use needs a user connection.
 - My Jetpack: Stop showing an empty account avatar on the Overview connection card when nothing in use needs a user connection.
 - Overview: Show grade ranges that match how the overall grade is calculated.
+- Score history: Announce the chart correctly to screen readers.
 
 ## [4.8.0] - 2026-10-02
 ### Security
