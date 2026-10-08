@@ -12,6 +12,7 @@ This is an alpha version! The changes listed here are not final.
 ### Changed
 - Activity Log: Show the connection error notice only when a connection error has been recorded.
 - Getting Started: Send premium upgrades to the My Jetpack upgrade page, where a license key can also be redeemed.
+- Image Guide: Render the overlay with React; administrators now load WordPress's data and React scripts on the front end.
 - My Jetpack: List VaultPress Backup among the plans that include Activity Log history, and simplify the Search paid-plan wording.
 - My Jetpack: Restore the Features tab's "Included in plan" view, keep Upgrade in view in feature details, return to the feature after checkout, and show the feature artwork without loading it from jetpack.com.
 - My Jetpack: Show product cards flat, without a drop shadow.
@@ -24,6 +25,7 @@ This is an alpha version! The changes listed here are not final.
 - Connection: Stop users who cannot set up the site connection from becoming the connection owner when the owner's connection is missing.
 - Critical CSS: Enable automatic regeneration after upgrading and confirm it on the dashboard.
 - Critical CSS: Reduce repeated styles during local generation, print after the page title, and reject generated CSS above 512 KiB with an error message.
+- Image Guide: Fix duplicate guides appearing after the guide is paused and resumed.
 - Image Guide: Fix popup links to open in separate new tabs.
 - LCP: Fix the "View details" link in the issues notice looking oversized next to the surrounding text on the modernized dashboard.
 - My Jetpack: Stop showing an empty account avatar on the Overview connection card on sites without a connection owner when nothing in use needs a user connection.
