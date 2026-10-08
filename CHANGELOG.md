@@ -5,7 +5,7 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
-## [4.8.1-alpha] - unreleased
+## [4.8.2-alpha] - unreleased
 
 This is an alpha version! The changes listed here are not final.
 
@@ -30,6 +30,10 @@ This is an alpha version! The changes listed here are not final.
 - My Jetpack: Stop showing an empty account avatar on the Overview connection card when nothing in use needs a user connection.
 - Overview: Show grade ranges that match how the overall grade is calculated.
 - Score history: Announce the chart correctly to screen readers.
+
+## [4.8.1] - 2026-10-08
+### Fixed
+- Page Cache: Improve cache key handling and URL purges for unusual request URIs and parameters. Clear old cached pages once after updating.
 
 ## [4.8.0] - 2026-10-02
 ### Security
@@ -1097,7 +1101,8 @@ This is an alpha version! The changes listed here are not final.
 
 - First public alpha release
 
-[4.8.1-alpha]: https://github.com/Automattic/jetpack-boost-production/compare/4.8.0...4.8.1-alpha
+[4.8.2-alpha]: https://github.com/Automattic/jetpack-boost-production/compare/4.8.1...4.8.2-alpha
+[4.8.1]: https://github.com/Automattic/jetpack-boost-production/compare/4.8.0...4.8.1
 [4.8.0]: https://github.com/Automattic/jetpack-boost-production/compare/4.7.1...4.8.0
 [4.7.1]: https://github.com/Automattic/jetpack-boost-production/compare/4.7.0...4.7.1
 [4.7.0]: https://github.com/Automattic/jetpack-boost-production/compare/4.6.3...4.7.0
