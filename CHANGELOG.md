@@ -16,6 +16,7 @@ This is an alpha version! The changes listed here are not final.
 - My Jetpack: List VaultPress Backup among the plans that include Activity Log history, and simplify the Search paid-plan wording.
 - My Jetpack: Restore the Features tab's "Included in plan" view, keep Upgrade in view in feature details, return to the feature after checkout, and show the feature artwork without loading it from jetpack.com.
 - My Jetpack: Show product cards flat, without a drop shadow.
+- My Jetpack: Stop asking to connect a WordPress.com account when nothing in use needs one.
 - Update package dependencies.
 
 ### Fixed
