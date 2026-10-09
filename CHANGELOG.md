@@ -22,6 +22,9 @@ This is an alpha version! The changes listed here are not final.
 - My Jetpack: Stop asking to connect a WordPress.com account when nothing in use needs one.
 - Update package dependencies.
 
+### Deprecated
+- Dashboard: Deprecate the filter that restores the legacy dashboard, which will be removed in a future release.
+
 ### Fixed
 - Concatenate JS: Fix scripts printed on their own failing to load on sites served from a custom port.
 - Connection: Fix reconnecting your WordPress.com account so it no longer disconnects other users and clears the broken-connection notice on the first attempt.
