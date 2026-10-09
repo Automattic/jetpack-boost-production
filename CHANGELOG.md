@@ -5,9 +5,12 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
-## [4.8.2-alpha] - unreleased
+## [4.9.0-alpha] - unreleased
 
 This is an alpha version! The changes listed here are not final.
+
+### Added
+- Connection: Add a Connected view to the Users page listing users with a linked WordPress.com account.
 
 ### Changed
 - Activity Log: Show the connection error notice only when a connection error has been recorded.
@@ -1106,7 +1109,7 @@ This is an alpha version! The changes listed here are not final.
 
 - First public alpha release
 
-[4.8.2-alpha]: https://github.com/Automattic/jetpack-boost-production/compare/4.8.1...4.8.2-alpha
+[4.9.0-alpha]: https://github.com/Automattic/jetpack-boost-production/compare/4.8.1...4.9.0-alpha
 [4.8.1]: https://github.com/Automattic/jetpack-boost-production/compare/4.8.0...4.8.1
 [4.8.0]: https://github.com/Automattic/jetpack-boost-production/compare/4.7.1...4.8.0
 [4.7.1]: https://github.com/Automattic/jetpack-boost-production/compare/4.7.0...4.7.1
