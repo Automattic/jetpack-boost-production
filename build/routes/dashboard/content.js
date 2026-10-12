@@ -70,6 +70,8 @@ __( "Loading…", "jetpack-boost" );
 __( "Not enough space to display data", "jetpack-boost" );
 __( "Percentage change unavailable", "jetpack-boost" );
 __( "No comparison data", "jetpack-boost" );
+__( "Pie chart", "jetpack-boost" );
+__( "Semi-circle chart", "jetpack-boost" );
 __( "Good", "jetpack-boost" );
 __( "Could improve", "jetpack-boost" );
 __( "Poor", "jetpack-boost" );
