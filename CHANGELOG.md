@@ -31,6 +31,7 @@ This is an alpha version! The changes listed here are not final.
 - Connection: Fix reconnecting your WordPress.com account so it no longer disconnects other users and clears the broken-connection notice on the first attempt.
 - Connection: Stop Site Health from showing spurious connection failures — remove the redundant outbound HTTP/HTTPS checks, and no longer prompt a reconnect when the WordPress.com connection test is inconclusive.
 - Connection: Stop users who cannot set up the site connection from becoming the connection owner when the owner's connection is missing.
+- Connection: Translate the Connectors card's text on sites that don't use English.
 - Critical CSS: Enable automatic regeneration after upgrading and confirm it on the dashboard.
 - Critical CSS: Reduce repeated styles during local generation, print after the page title, and reject generated CSS above 512 KiB with an error message.
 - Image Guide: Fix duplicate guides appearing after the guide is paused and resumed.
