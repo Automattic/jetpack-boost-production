@@ -627,7 +627,7 @@ return array(
 		'path'    => $vendorDir . '/automattic/jetpack-plans/src/class-plans.php'
 	),
 	'Automattic\\Jetpack\\Plugin_Deactivation\\Deactivation_Handler' => array(
-		'version' => '0.4.2.0-alpha1790800704',
+		'version' => '0.4.2.0',
 		'path'    => $baseDir . '/jetpack_vendor/automattic/jetpack-plugin-deactivation/src/class-deactivation-handler.php'
 	),
 	'Automattic\\Jetpack\\Plugins_Installer' => array(
