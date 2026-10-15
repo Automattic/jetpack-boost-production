@@ -134,6 +134,6 @@ __( "Your site speed", "jetpack-boost" );
 __( "Unable to display performance scores", "jetpack-boost" );
 __( "Run speed test", "jetpack-boost" );
 __( "Website is not publicly available", "jetpack-boost" );
-__( "Performance score and some other Boost features cannot work because the Boost Cloud cannot reach your website. To fix this, you need to make your website publicly available.", "jetpack-boost" );
 __( "Failed to load module settings", "jetpack-boost" );
+__( "Performance score and some other Boost features cannot work because the Boost Cloud cannot reach your website. To fix this, you need to make your website publicly available.", "jetpack-boost" );
 __( "Optimize your speed", "jetpack-boost" );
