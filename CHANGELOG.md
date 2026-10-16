@@ -42,6 +42,7 @@ This is an alpha version! The changes listed here are not final.
 - Image Guide: Fix popup links to open in separate new tabs.
 - LCP: Fix the "View details" link in the issues notice looking oversized next to the surrounding text on the modernized dashboard.
 - My Jetpack: Ask for a user connection on the Overview connection card as soon as a plugin that needs one is switched on, without a reload.
+- My Jetpack: Make the connection screen's Connect button and footer links reachable on shorter screens.
 - My Jetpack: Show the highest-priority notice first when several are set at once.
 - My Jetpack: Stop asking for a user connection on the Overview connection card as soon as the plugin that needed one is switched off, without a reload.
 - My Jetpack: Stop reporting an error when switching VideoPress off while the Jetpack plugin is inactive.
