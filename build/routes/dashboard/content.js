@@ -34,6 +34,7 @@ __( "Help", "jetpack-boost" );
 __( "Jetpack", "jetpack-boost" );
 /* translators: %s: an error message. */
 __( "There was an error testing Jetpack. Error: %s", "jetpack-boost" );
+__( "Connection", "jetpack-boost" );
 __( "Improve your site speed and performance.", "jetpack-boost" );
 __( "Your site got faster", "jetpack-boost" );
 __( "That's great! If you’re happy, why not rate Boost?", "jetpack-boost" );
