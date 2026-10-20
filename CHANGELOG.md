@@ -20,6 +20,7 @@ This is an alpha version! The changes listed here are not final.
 - Activity Log: Show the connection error notice only when a connection error has been recorded.
 - Getting Started: Send premium upgrades to the My Jetpack upgrade page, where a license key can also be redeemed.
 - Image Guide: Render the overlay with React; administrators now load WordPress's data and React scripts on the front end.
+- My Jetpack: Line up notices with the cards below them, and drop the grey background behind the Features grid and list buttons.
 - My Jetpack: List VaultPress Backup among the plans that include Activity Log history, and simplify the Search paid-plan wording.
 - My Jetpack: Restore the Features tab's "Included in plan" view, keep Upgrade in view in feature details, return to the feature after checkout, and show the feature artwork without loading it from jetpack.com.
 - My Jetpack: Show product cards flat, without a drop shadow.
