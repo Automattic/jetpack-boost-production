@@ -21,6 +21,7 @@ This is an alpha version! The changes listed here are not final.
 ### Changed
 - Activity Log: Show the connection error notice only when a connection error has been recorded.
 - Connection: Link the connection owner's name on the Connectors card to their profile, and update the card without reloading the page when a non-owner disconnects their account.
+- Connection screen: Show the terms of service line under the pricing table at the WordPress design system's text size.
 - Getting Started: Send premium upgrades to the My Jetpack upgrade page, where a license key can also be redeemed.
 - Image Guide: Render the overlay with React; administrators now load WordPress's data and React scripts on the front end.
 - My Jetpack: Line up notices with the cards below them, and drop the grey background behind the Features grid and list buttons.
