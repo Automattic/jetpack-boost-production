@@ -15,6 +15,8 @@ This is an alpha version! The changes listed here are not final.
 - Connection: Transfer connection ownership to another connected administrator from the Connectors page.
 - Dashboard: Add breadcrumbs linking to My Jetpack.
 - My Jetpack: Add an Available filter to the Features list.
+- My Jetpack: Add catalog-controlled Pro offers and preserve existing plan management.
+- My Jetpack: Recognize Jetpack Pro subscriptions and licenses.
 
 ### Changed
 - Activity Log: Show the connection error notice only when a connection error has been recorded.
@@ -22,6 +24,7 @@ This is an alpha version! The changes listed here are not final.
 - Image Guide: Render the overlay with React; administrators now load WordPress's data and React scripts on the front end.
 - My Jetpack: Line up notices with the cards below them, and drop the grey background behind the Features grid and list buttons.
 - My Jetpack: List VaultPress Backup among the plans that include Activity Log history, and simplify the Search paid-plan wording.
+- My Jetpack: Refresh Pro availability while preserving existing offers.
 - My Jetpack: Restore the Features tab's "Included in plan" view, keep Upgrade in view in feature details, return to the feature after checkout, and show the feature artwork without loading it from jetpack.com.
 - My Jetpack: Show product cards flat, without a drop shadow.
 - My Jetpack: Stop asking to connect a WordPress.com account when nothing in use needs one.
