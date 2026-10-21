@@ -44,6 +44,7 @@ This is an alpha version! The changes listed here are not final.
 - Critical CSS: Enable automatic regeneration after upgrading and confirm it on the dashboard.
 - Critical CSS: Fix the "Learn what to do" link in the failure notice looking oversized next to the surrounding text on the modernized dashboard.
 - Critical CSS: Reduce repeated styles during local generation, print after the page title, and reject generated CSS above 512 KiB with an error message.
+- Features: Show a plugin as active when a Beta or -dev copy is active beside an installed stable copy, and turn off the active copy when deactivating it.
 - Image Guide: Fix duplicate guides appearing after the guide is paused and resumed.
 - Image Guide: Fix popup links to open in separate new tabs.
 - LCP: Fix the "View details" link in the issues notice looking oversized next to the surrounding text on the modernized dashboard.
