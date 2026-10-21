@@ -23,6 +23,7 @@ This is an alpha version! The changes listed here are not final.
 - Connection: Link the connection owner's name on the Connectors card to their profile, and update the card without reloading the page when a non-owner disconnects their account.
 - Connection: When disconnecting the site from the Connectors card, list the plugins that will stop working and link to help.
 - Connection screen: Show the terms of service line under the pricing table at the WordPress design system's text size.
+- Dashboard: Show "Run speed test" as an icon on screens 480px wide or narrower, so the page title stays readable.
 - Getting Started: Send premium upgrades to the My Jetpack upgrade page, where a license key can also be redeemed.
 - Image Guide: Render the overlay with React; administrators now load WordPress's data and React scripts on the front end.
 - My Jetpack: Line up notices with the cards below them, and drop the grey background behind the Features grid and list buttons.
