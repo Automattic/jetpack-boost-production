@@ -20,6 +20,7 @@ This is an alpha version! The changes listed here are not final.
 
 ### Changed
 - Activity Log: Show the connection error notice only when a connection error has been recorded.
+- Connection: Ask for confirmation before disconnecting your user account, and offer to transfer ownership first when you own the connection.
 - Connection: Link the connection owner's name on the Connectors card to their profile, and update the card without reloading the page when a non-owner disconnects their account.
 - Connection: When disconnecting the site from the Connectors card, list the plugins that will stop working and link to help.
 - Connection screen: Show the terms of service line under the pricing table at the WordPress design system's text size.
