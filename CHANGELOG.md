@@ -11,6 +11,7 @@ This is an alpha version! The changes listed here are not final.
 
 ### Added
 - Connection: Add a Connected view to the Users page listing users with a linked WordPress.com account.
+- Connection: Show connection errors on the Connectors card, and keep showing the connection owner when their account connection breaks.
 - Connection: Transfer connection ownership to another administrator without leaving your site.
 - Connection: Transfer connection ownership to another connected administrator from the Connectors page.
 - Dashboard: Add breadcrumbs linking to My Jetpack.
