@@ -48,7 +48,6 @@ This is an alpha version! The changes listed here are not final.
 - Critical CSS: Enable automatic regeneration after upgrading and confirm it on the dashboard.
 - Critical CSS: Fix the "Learn what to do" link in the failure notice looking oversized next to the surrounding text on the modernized dashboard.
 - Critical CSS: Reduce repeated styles during local generation, print after the page title, and reject generated CSS above 512 KiB with an error message.
-- Features: Show a plugin as active when a Beta or -dev copy is active beside an installed stable copy, and turn off the active copy when deactivating it.
 - Image Guide: Fix duplicate guides appearing after the guide is paused and resumed.
 - Image Guide: Fix popup links to open in separate new tabs.
 - LCP: Fix the "View details" link in the issues notice looking oversized next to the surrounding text on the modernized dashboard.
@@ -57,6 +56,7 @@ This is an alpha version! The changes listed here are not final.
 - My Jetpack: Hide other plugins' notices while the setup screen is open, and stop the full-screen layout breaking when another plugin adds an admin body class first.
 - My Jetpack: Keep the Help tab's cards inside their column on narrow screens.
 - My Jetpack: Make the connection screen's Connect button and footer links reachable on shorter screens.
+- My Jetpack: Show the correct product status and use the active plugin copy when turning products on or off with both stable and Beta or development copies installed.
 - My Jetpack: Show the highest-priority notice first when several are set at once.
 - My Jetpack: Stop asking for a user connection on the Overview connection card as soon as the plugin that needed one is switched off, without a reload.
 - My Jetpack: Stop offering retired Security and Growth plans while preserving existing subscriptions.
