@@ -41,6 +41,7 @@ This is an alpha version! The changes listed here are not final.
 - Dashboard: Deprecate the filter that restores the legacy dashboard, which will be removed in a future release.
 
 ### Fixed
+- Activity Log: Show an empty date picker on the free plan, instead of a date range it does not apply.
 - Concatenate JS: Fix scripts printed on their own failing to load on sites served from a custom port.
 - Connection: Fix reconnecting your WordPress.com account so it no longer disconnects other users and clears the broken-connection notice on the first attempt.
 - Connection: Stop Site Health from showing spurious connection failures — remove the redundant outbound HTTP/HTTPS checks, and no longer prompt a reconnect when the WordPress.com connection test is inconclusive.
