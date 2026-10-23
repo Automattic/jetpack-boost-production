@@ -27,8 +27,8 @@ _n( "Show %d hidden breadcrumb item", "Show %d hidden breadcrumb items", 1, "jet
 __( "Breadcrumbs", "jetpack-boost" );
 __( "Dismiss", "jetpack-boost" );
 __( "Sections", "jetpack-boost" );
-__( "Jetpack Logo", "jetpack-boost" );
 __( "An Automattic Airline", "jetpack-boost" );
+__( "Jetpack Logo", "jetpack-boost" );
 __( "Features", "jetpack-boost" );
 __( "Help", "jetpack-boost" );
 __( "Jetpack", "jetpack-boost" );
