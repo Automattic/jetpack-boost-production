@@ -23,6 +23,7 @@ This is an alpha version! The changes listed here are not final.
 - Activity Log: Show the connection error notice only when a connection error has been recorded.
 - Connection: Ask for confirmation before disconnecting your user account, and offer to transfer ownership first when you own the connection.
 - Connection: Link the connection owner's name on the Connectors card to their profile, and update the card without reloading the page when a non-owner disconnects their account.
+- Connection: Use one wording across My Jetpack and the Connectors screen for the consent notice shown before connecting, for Offline Mode, and for the ownership lock.
 - Connection: When disconnecting the site from the Connectors card, list the plugins that will stop working and link to help.
 - Connection screen: Show the terms of service line under the pricing table at the WordPress design system's text size.
 - Dashboard: Show "Run speed test" as an icon on screens 480px wide or narrower, so the page title stays readable.
