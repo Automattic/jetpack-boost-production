@@ -55,6 +55,7 @@ This is an alpha version! The changes listed here are not final.
 - Image Guide: Fix duplicate guides appearing after the guide is paused and resumed.
 - Image Guide: Fix popup links to open in separate new tabs.
 - LCP: Fix the "View details" link in the issues notice looking oversized next to the surrounding text on the modernized dashboard.
+- LCP: Stop cropping optimized images whose box has a different shape, so images set to fit inside it (object-fit: contain) show in full.
 - My Jetpack: Ask for a user connection on the Overview connection card as soon as a plugin that needs one is switched on, without a reload.
 - My Jetpack: Fetch a new speed score when the saved one is incomplete, instead of showing an empty score.
 - My Jetpack: Hide other plugins' notices while the setup screen is open, and stop the full-screen layout breaking when another plugin adds an admin body class first.
