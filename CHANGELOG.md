@@ -36,6 +36,7 @@ This is an alpha version! The changes listed here are not final.
 - My Jetpack: Refresh Pro availability while preserving existing offers.
 - My Jetpack: Restore the Features tab's "Included in plan" view, keep Upgrade in view in feature details, return to the feature after checkout, and show the feature artwork without loading it from jetpack.com.
 - My Jetpack: Show product cards flat, without a drop shadow.
+- My Jetpack: Show the avatar and connection status control in the headers of My Jetpack and the modern Boost dashboard by default, with access to connection and plan details.
 - My Jetpack: Stop asking to connect a WordPress.com account when nothing in use needs one.
 - Performance history: Mark the keyboard-selected day with a focus ring that shows on any bar color.
 - Update package dependencies.
