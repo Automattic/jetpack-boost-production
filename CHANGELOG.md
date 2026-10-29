@@ -32,6 +32,7 @@ This is an alpha version! The changes listed here are not final.
 - Image Guide: Render the overlay with React; administrators now load WordPress's data and React scripts on the front end.
 - My Jetpack: Line up notices with the cards below them, and drop the grey background behind the Features grid and list buttons.
 - My Jetpack: List VaultPress Backup among the plans that include Activity Log history, and simplify the Search paid-plan wording.
+- My Jetpack: On the Features tab, keep a plugin's switch busy until its card is up to date after a failed change, or after any change on sites that also run Jetpack.
 - My Jetpack: Open supported Modules links in Features when Jetpack is active.
 - My Jetpack: Refresh Pro availability while preserving existing offers.
 - My Jetpack: Restore the Features tab's "Included in plan" view, keep Upgrade in view in feature details, return to the feature after checkout, and show the feature artwork without loading it from jetpack.com.
