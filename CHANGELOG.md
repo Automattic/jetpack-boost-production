@@ -63,6 +63,8 @@ This is an alpha version! The changes listed here are not final.
 - Image Guide: Fix popup links to open in separate new tabs.
 - LCP: Fix the "View details" link in the issues notice looking oversized next to the surrounding text on the modernized dashboard.
 - LCP: Stop cropping optimized images whose box has a different shape, so images set to fit inside it (object-fit: contain) show in full.
+- LCP: Stop cropping the LCP image when its original file is offloaded or deleted.
+- LCP: Stop cropping the LCP image when its URL has a query string.
 - My Jetpack: Ask for a user connection on the Overview connection card as soon as a plugin that needs one is switched on, without a reload.
 - My Jetpack: Bring the first Features results into view after changing the filter or search while scrolled down.
 - My Jetpack: Fetch a new speed score when the saved one is incomplete, instead of showing an empty score.
@@ -77,7 +79,6 @@ This is an alpha version! The changes listed here are not final.
 - My Jetpack: Stop reporting an error when switching VideoPress off while the Jetpack plugin is inactive.
 - My Jetpack: Stop showing an empty account avatar on the Overview connection card on sites without a connection owner when nothing in use needs a user connection.
 - My Jetpack: Stop showing an empty account avatar on the Overview connection card when nothing in use needs a user connection.
-- Optimize LCP Images: Stop cropping the LCP image when its URL has a query string.
 - Overview: Show grade ranges that match how the overall grade is calculated.
 - Score history: Announce the chart correctly to screen readers.
 - Settings: Announce the Cornerstone Pages Save button as disabled while the list has an error.
