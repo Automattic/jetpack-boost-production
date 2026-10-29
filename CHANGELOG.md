@@ -35,6 +35,7 @@ This is an alpha version! The changes listed here are not final.
 - My Jetpack: List VaultPress Backup among the plans that include Activity Log history, and simplify the Search paid-plan wording.
 - My Jetpack: On the Features tab, keep a plugin's switch busy until its card is up to date after a failed change, or after any change on sites that also run Jetpack.
 - My Jetpack: Open supported Modules links in Features when Jetpack is active.
+- My Jetpack: Open the Jetpack Connection details on the Connectors screen from the header's Manage connection link.
 - My Jetpack: Refresh Pro availability while preserving existing offers.
 - My Jetpack: Restore the Features tab's "Included in plan" view, keep Upgrade in view in feature details, return to the feature after checkout, and show the feature artwork without loading it from jetpack.com.
 - My Jetpack: Show product cards flat, without a drop shadow.
