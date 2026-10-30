@@ -42,6 +42,7 @@ This is an alpha version! The changes listed here are not final.
 - My Jetpack: Show the avatar and connection status control in the headers of My Jetpack and the modern Boost dashboard by default, with access to connection and plan details.
 - My Jetpack: Show the Features page on sites in Offline Mode, without connecting to WordPress.com.
 - My Jetpack: Stop asking to connect a WordPress.com account when nothing in use needs one.
+- My Jetpack: Turn a module on once Install Jetpack or Activate Jetpack on its card finishes setup.
 - Performance history: Mark the keyboard-selected day with a focus ring that shows on any bar color.
 - Update package dependencies.
 
