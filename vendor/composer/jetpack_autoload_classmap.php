@@ -1834,6 +1834,10 @@ return array(
 		'version' => '4.9.0.0-alpha',
 		'path'    => $baseDir . '/tests/php/modules/optimizations/critical-css/CSS_Proxy_Test.php'
 	),
+	'Automattic\\Jetpack_Boost\\Tests\\Modules\\Optimizations\\Lcp\\LCP_Invalidator_Test' => array(
+		'version' => '4.9.0.0-alpha',
+		'path'    => $baseDir . '/tests/php/modules/optimizations/lcp/LCP_Invalidator_Test.php'
+	),
 	'Automattic\\Jetpack_Boost\\Tests\\Modules\\Optimizations\\Lcp\\LCP_Optimize_Bg_Image_Test' => array(
 		'version' => '4.9.0.0-alpha',
 		'path'    => $baseDir . '/tests/php/modules/optimizations/lcp/LCP_Optimize_Bg_Image_Test.php'

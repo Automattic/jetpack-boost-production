@@ -82,6 +82,8 @@ This is an alpha version! The changes listed here are not final.
 - My Jetpack: Stop reporting an error when switching VideoPress off while the Jetpack plugin is inactive.
 - My Jetpack: Stop showing an empty account avatar on the Overview connection card on sites without a connection owner when nothing in use needs a user connection.
 - My Jetpack: Stop showing an empty account avatar on the Overview connection card when nothing in use needs a user connection.
+- Optimize LCP Images: Re-analyze cornerstone pages a few minutes after a template, Global Styles or Additional CSS change, so LCP images follow the new styles.
+- Optimize LCP Images: Show an error instead of staying on "optimizing" when a page re-analysis can't be started.
 - Optimize LCP Images: Size the LCP image to its box when the theme's stylesheet sets `object-fit: cover`, instead of serving a larger file than needed.
 - Overview: Show grade ranges that match how the overall grade is calculated.
 - Score history: Announce the chart correctly to screen readers.
