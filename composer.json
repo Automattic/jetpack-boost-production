@@ -13,9 +13,9 @@
 	"minimum-stability": "dev",
 	"prefer-stable": true,
 	"require": {
-		"automattic/jetpack-activity-log": "^0.7.1",
-		"automattic/jetpack-admin-ui": "^0.14.10",
-		"automattic/jetpack-assets": "^5.0.16",
+		"automattic/jetpack-activity-log": "^0.7.2-alpha",
+		"automattic/jetpack-admin-ui": "^0.14.11-alpha",
+		"automattic/jetpack-assets": "^5.0.17-alpha",
 		"automattic/jetpack-autoloader": "^6.0.2",
 		"automattic/jetpack-boost-core": "^0.5.1",
 		"automattic/jetpack-boost-speed-score": "^0.6.2-alpha",
@@ -31,7 +31,7 @@
 		"automattic/jetpack-status": "^7.1.1",
 		"automattic/jetpack-sync": "^5.4.4",
 		"automattic/jetpack-wp-abilities": "^0.2.1",
-		"automattic/jetpack-wp-build-polyfills": "^0.7.1",
+		"automattic/jetpack-wp-build-polyfills": "^0.7.2-alpha",
 		"automattic/jetpack-wp-js-data-sync": "^0.7.1-alpha",
 		"ext-json": "*",
 		"matthiasmullie/minify": "^1.3"

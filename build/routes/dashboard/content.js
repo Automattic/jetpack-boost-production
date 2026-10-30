@@ -17,14 +17,14 @@ __( "Timed out", "jetpack-boost" );
 __( "An unknown error occurred while requesting metrics", "jetpack-boost" );
 __( "Invalid response while requesting metrics", "jetpack-boost" );
 __( "Timed out while waiting for speed-score.", "jetpack-boost" );
-/* translators: accessibility text appended to link text */
-__( "(opens in a new tab)", "jetpack-boost" );
+__( "Loading", "jetpack-boost" );
 /* translators: %s: keyboard shortcut. */
 __( "Keyboard shortcut: %s", "jetpack-boost" );
-__( "Loading", "jetpack-boost" );
-/* translators: %d: number of breadcrumb links hidden in the overflow menu. */
-_n( "Show %d hidden breadcrumb item", "Show %d hidden breadcrumb items", 1, "jetpack-boost" );
+/* translators: accessibility text appended to link text */
+__( "(opens in a new tab)", "jetpack-boost" );
 __( "Breadcrumbs", "jetpack-boost" );
+/* translators: %d: number of breadcrumb ancestors hidden in the overflow menu. */
+_n( "Show %d hidden breadcrumb item", "Show %d hidden breadcrumb items", 1, "jetpack-boost" );
 __( "Dismiss", "jetpack-boost" );
 __( "Sections", "jetpack-boost" );
 __( "An Automattic Airline", "jetpack-boost" );
