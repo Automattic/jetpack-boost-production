@@ -27,6 +27,7 @@ This is an alpha version! The changes listed here are not final.
 - Connection: Use one wording across My Jetpack and the Connectors screen for the consent notice shown before connecting, for Offline Mode, and for the ownership lock.
 - Connection: When disconnecting the site from the Connectors card, list the plugins that will stop working and link to help.
 - Connection screen: Show the terms of service line under the pricing table at the WordPress design system's text size.
+- Dashboard: Build the speed score bars from the current WordPress UI components, with no visible change.
 - Dashboard: Show "Run speed test" as an icon on screens 480px wide or narrower, so the page title stays readable.
 - Getting Started: Send premium upgrades to the My Jetpack upgrade page, where a license key can also be redeemed.
 - Image Guide: Render the overlay with React; administrators now load WordPress's data and React scripts on the front end.

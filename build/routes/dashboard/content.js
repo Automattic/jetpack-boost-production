@@ -26,6 +26,7 @@ __( "Breadcrumbs", "jetpack-boost" );
 /* translators: %d: number of breadcrumb ancestors hidden in the overflow menu. */
 _n( "Show %d hidden breadcrumb item", "Show %d hidden breadcrumb items", 1, "jetpack-boost" );
 __( "Dismiss", "jetpack-boost" );
+__( "In progress", "jetpack-boost" );
 __( "Sections", "jetpack-boost" );
 __( "An Automattic Airline", "jetpack-boost" );
 __( "Jetpack Logo", "jetpack-boost" );
