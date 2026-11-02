@@ -91,6 +91,7 @@ This is an alpha version! The changes listed here are not final.
 - Overview: Show grade ranges that match how the overall grade is calculated.
 - Score history: Announce the chart correctly to screen readers.
 - Settings: Announce the Cornerstone Pages Save button as disabled while the list has an error.
+- Speed Score: Fix the dashboard header showing old scores after a test was started from My Jetpack.
 
 ## [4.8.1] - 2026-10-08
 ### Fixed
