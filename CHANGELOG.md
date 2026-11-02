@@ -45,6 +45,7 @@ This is an alpha version! The changes listed here are not final.
 - My Jetpack: Stop asking to connect a WordPress.com account when nothing in use needs one.
 - My Jetpack: Turn a module on once Install Jetpack or Activate Jetpack on its card finishes setup.
 - Performance history: Mark the keyboard-selected day with a focus ring that shows on any bar color.
+- Say "Checking site speed…" instead of "Calculating…" while a speed test runs, on the Boost dashboard and on the Boost card in My Jetpack.
 - Update package dependencies.
 
 ### Deprecated
