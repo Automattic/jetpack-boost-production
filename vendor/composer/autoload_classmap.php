@@ -313,6 +313,7 @@ return array(
     'Automattic\\Jetpack_Boost\\Lib\\Boost_Health' => $baseDir . '/app/lib/class-boost-health.php',
     'Automattic\\Jetpack_Boost\\Lib\\CLI' => $baseDir . '/app/lib/class-cli.php',
     'Automattic\\Jetpack_Boost\\Lib\\Cache_Compatibility' => $baseDir . '/app/lib/class-cache-compatibility.php',
+    'Automattic\\Jetpack_Boost\\Lib\\Cleanup_Transients' => $baseDir . '/app/lib/class-cleanup-transients.php',
     'Automattic\\Jetpack_Boost\\Lib\\Collection' => $baseDir . '/app/lib/class-collection.php',
     'Automattic\\Jetpack_Boost\\Lib\\Connection' => $baseDir . '/app/lib/class-connection.php',
     'Automattic\\Jetpack_Boost\\Lib\\Cornerstone\\Cornerstone_Pages' => $baseDir . '/app/lib/cornerstone/class-cornerstone-pages.php',

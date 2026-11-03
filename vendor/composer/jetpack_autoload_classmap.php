@@ -1246,6 +1246,10 @@ return array(
 		'version' => '4.9.0.0-alpha',
 		'path'    => $baseDir . '/app/lib/class-cache-compatibility.php'
 	),
+	'Automattic\\Jetpack_Boost\\Lib\\Cleanup_Transients' => array(
+		'version' => '4.9.0.0-alpha',
+		'path'    => $baseDir . '/app/lib/class-cleanup-transients.php'
+	),
 	'Automattic\\Jetpack_Boost\\Lib\\Collection' => array(
 		'version' => '4.9.0.0-alpha',
 		'path'    => $baseDir . '/app/lib/class-collection.php'
@@ -1737,6 +1741,10 @@ return array(
 	'Automattic\\Jetpack_Boost\\Tests\\Lib\\Cache_Compatibility_Test' => array(
 		'version' => '4.9.0.0-alpha',
 		'path'    => $baseDir . '/tests/php/lib/Cache_Compatibility_Test.php'
+	),
+	'Automattic\\Jetpack_Boost\\Tests\\Lib\\Cleanup_Transients_Test' => array(
+		'version' => '4.9.0.0-alpha',
+		'path'    => $baseDir . '/tests/php/lib/Cleanup_Transients_Test.php'
 	),
 	'Automattic\\Jetpack_Boost\\Tests\\Lib\\Cornerstone\\Cornerstone_Pages_Test' => array(
 		'version' => '4.9.0.0-alpha',

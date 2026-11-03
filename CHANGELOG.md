@@ -54,6 +54,7 @@ This is an alpha version! The changes listed here are not final.
 
 ### Fixed
 - Activity Log: Show an empty date picker on the free plan, instead of a date range it does not apply.
+- Cache cleanup: Prevent memory exhaustion when removing expired optimization data.
 - Concatenate JS: Fix scripts printed on their own failing to load on sites served from a custom port.
 - Connection: Fix reconnecting your WordPress.com account so it no longer disconnects other users and clears the broken-connection notice on the first attempt.
 - Connection: Fix the Safe Mode window in My Jetpack opening empty, with no choices.
