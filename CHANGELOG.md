@@ -27,10 +27,12 @@ This is an alpha version! The changes listed here are not final.
 - Connection: Use one wording across My Jetpack and the Connectors screen for the consent notice shown before connecting, for Offline Mode, and for the ownership lock.
 - Connection: When disconnecting the site from the Connectors card, list the plugins that will stop working and link to help.
 - Connection screen: Show the terms of service line under the pricing table at the WordPress design system's text size.
+- Cornerstone pages: Use the design system tooltip.
 - Dashboard: Build the speed score bars from the current WordPress UI components, with no visible change.
 - Dashboard: Show "Run speed test" as an icon on screens 480px wide or narrower, so the page title stays readable.
 - Getting Started: Send premium upgrades to the My Jetpack upgrade page, where a license key can also be redeemed.
 - Image Guide: Render the overlay with React; administrators now load WordPress's data and React scripts on the front end.
+- LCP: Use the design system progress bar.
 - My Jetpack: Connect a WordPress.com account from feature cards that need one. Show feature states through switches or buttons instead of redundant Active or Inactive badges, and show host restrictions below descriptions. Leave features out of Available when their only action is an install you cannot make.
 - My Jetpack: Leave the recommendation to install or activate plugins included in a bundle plan out of the Jetpack menu notification badge.
 - My Jetpack: Line up notices with the cards below them, and drop the grey background behind the Features grid and list buttons.
