@@ -68,6 +68,7 @@ This is an alpha version! The changes listed here are not final.
 - Critical CSS: Fix the "Learn what to do" link in the failure notice looking oversized next to the surrounding text on the modernized dashboard.
 - Critical CSS: Reduce repeated styles during local generation, print after the page title, and reject generated CSS above 512 KiB with an error message.
 - Dashboard: Fix "Something went wrong!" on WordPress 7.1 when the site data request fails.
+- Footer: Show the Features link to administrators only.
 - Image CDN: Fix some images hosted on other sites failing to load when their file name ends in a size like -600x400.
 - Image Guide: Fix duplicate guides appearing after the guide is paused and resumed.
 - Image Guide: Fix popup links to open in separate new tabs.
