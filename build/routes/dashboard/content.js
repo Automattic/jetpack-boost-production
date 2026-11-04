@@ -63,6 +63,7 @@ __( "Line chart", "jetpack-boost" );
 __( "Area chart", "jetpack-boost" );
 __( "Week of %s", "jetpack-boost" );
 __( "%1$s: %2$s", "jetpack-boost" );
+__( "Total", "jetpack-boost" );
 __( "Bar chart", "jetpack-boost" );
 __( "Bar list chart", "jetpack-boost" );
 _n( "%s item", "%s items", 1, "jetpack-boost" );
