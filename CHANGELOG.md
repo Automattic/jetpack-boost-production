@@ -85,6 +85,7 @@ This is an alpha version! The changes listed here are not final.
 - My Jetpack: Stop asking for a user connection on the Overview connection card as soon as the plugin that needed one is switched off, without a reload.
 - My Jetpack: Stop offering retired Security and Growth plans while preserving existing subscriptions.
 - My Jetpack: Stop reporting an error when switching VideoPress off while the Jetpack plugin is inactive.
+- My Jetpack: Stop showing $0 and NaN for paid plans on the Boost upgrade page, and $0.00 on recommendation cards, when prices cannot be loaded.
 - My Jetpack: Stop showing an empty account avatar on the Overview connection card on sites without a connection owner when nothing in use needs a user connection.
 - My Jetpack: Stop showing an empty account avatar on the Overview connection card when nothing in use needs a user connection.
 - Optimize LCP Images: Re-analyze cornerstone pages a few minutes after a template, Global Styles or Additional CSS change, so LCP images follow the new styles.
