@@ -18,6 +18,7 @@ This is an alpha version! The changes listed here are not final.
 - My Jetpack: Add an Available filter to the Features list.
 - My Jetpack: Add catalog-controlled Pro offers and preserve existing plan management.
 - My Jetpack: Recognize Jetpack Pro subscriptions and licenses.
+- Site Health: Add Jetpack connection details to the Info tab and the copied site info report.
 
 ### Changed
 - Activity Log: Show the connection error notice only when a connection error has been recorded.
