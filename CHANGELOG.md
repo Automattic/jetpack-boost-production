@@ -94,6 +94,7 @@ This is an alpha version! The changes listed here are not final.
 - Optimize LCP Images: Re-analyze cornerstone pages a few minutes after a template, Global Styles or Additional CSS change, so LCP images follow the new styles.
 - Optimize LCP Images: Show an error instead of staying on "optimizing" when a page re-analysis can't be started.
 - Optimize LCP Images: Size the LCP image to its box when the theme's stylesheet sets `object-fit: cover`, instead of serving a larger file than needed.
+- Optimize LCP Images: Stop a cornerstone page save from starting an LCP analysis when no analysis results are stored.
 - Overview: Show grade ranges that match how the overall grade is calculated.
 - Score history: Announce the chart correctly to screen readers.
 - Settings: Announce the Cornerstone Pages Save button as disabled while the list has an error.
