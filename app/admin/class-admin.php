@@ -121,10 +121,10 @@ class Admin {
 		 *
 		 * @since 4.7.1
 		 * @since 4.8.0 Defaults to true.
-		 * @deprecated 4.9.0-alpha The legacy dashboard will be removed in a future release.
+		 * @deprecated 4.8.2 The legacy dashboard will be removed in a future release.
 		 * @param bool $enabled Whether to enable the modern dashboard. Default true.
 		 */
-		return (bool) apply_filters_deprecated( self::MODERNIZATION_FILTER, array( true ), '4.9.0-alpha', '', $message );
+		return (bool) apply_filters_deprecated( self::MODERNIZATION_FILTER, array( true ), '4.8.2', '', $message );
 	}
 
 	/**

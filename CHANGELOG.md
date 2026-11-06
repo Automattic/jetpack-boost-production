@@ -5,103 +5,51 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
-## [4.9.0-alpha] - unreleased
-
-This is an alpha version! The changes listed here are not final.
-
+## [4.8.2] - 2026-11-06
 ### Added
-- Connection: Add a Connected view to the Users page listing users with a linked WordPress.com account.
-- Connection: Note that moving a Jetpack plan is an additional step when transferring connection ownership, and link to the support doc on transferring a plan.
-- Connection: Show connection errors on the Connectors card, and keep showing the connection owner when their account connection breaks.
-- Connection: Transfer connection ownership to another administrator without leaving your site.
-- Connection: Transfer connection ownership to another connected administrator from the Connectors page.
-- Dashboard: Add breadcrumbs linking to My Jetpack.
-- My Jetpack: Add an Available filter to the Features list.
-- My Jetpack: Add catalog-controlled Pro offers and preserve existing plan management.
-- My Jetpack: Recognize Jetpack Pro subscriptions and licenses.
-- Site Health: Add Jetpack connection details to the Info tab and the copied site info report.
+- Connection: Add a Connected view to the Users page, show connection errors on the Connectors card, and transfer connection ownership to another administrator without leaving your site, with a note that moving a Jetpack plan is an additional step. [#53150] [#53359] [#53581] [#53596] [#54527]
+- Dashboard: Add breadcrumbs linking to My Jetpack. [#53621]
+- My Jetpack: Add an Available filter to the Features list, and recognize Jetpack Pro subscriptions, licenses and catalog offers while preserving existing plans. [#53308] [#53421] [#53424] [#53425]
+- Site Health: Add Jetpack connection details to the Info tab and the copied site info report. [#54269]
 
 ### Changed
-- Activity Log: Show the connection error notice only when a connection error has been recorded.
-- Connection: Ask for confirmation before disconnecting your user account, and offer to transfer ownership first when you own the connection.
-- Connection: Link the connection owner's name on the Connectors card to their profile, and update the card without reloading the page when a non-owner disconnects their account.
-- Connection: Show a clear message when connecting the site to WordPress.com from the Connectors card fails, instead of WordPress.com's raw error text.
-- Connection: Use one wording across My Jetpack and the Connectors screen for the consent notice shown before connecting, for Offline Mode, and for the ownership lock.
-- Connection: When disconnecting the site from the Connectors card, list the plugins that will stop working and link to help.
-- Connection screen: Show the terms of service line under the pricing table at the WordPress design system's text size.
-- Cornerstone pages: Use the design system tooltip.
-- Dashboard: Build the speed score bars from the current WordPress UI components, with no visible change.
-- Dashboard: Show "Run speed test" as an icon on screens 480px wide or narrower, so the page title stays readable.
-- Getting Started: Send premium upgrades to the My Jetpack upgrade page, where a license key can also be redeemed.
-- Image Guide: Render the overlay with React; administrators now load WordPress's data and React scripts on the front end.
-- LCP: Use the design system progress bar.
-- My Jetpack: Connect a WordPress.com account from feature cards that need one. Show feature states through switches or buttons instead of redundant Active or Inactive badges, and show host restrictions below descriptions. Leave features out of Available when their only action is an install you cannot make.
-- My Jetpack: Leave the recommendation to install or activate plugins included in a bundle plan out of the Jetpack menu notification badge.
-- My Jetpack: Line up notices with the cards below them, and drop the grey background behind the Features grid and list buttons.
-- My Jetpack: List VaultPress Backup among the plans that include Activity Log history, and simplify the Search paid-plan wording.
-- My Jetpack: On the Features tab, keep a plugin's switch busy until its card is up to date after a failed change, or after any change on sites that also run Jetpack.
-- My Jetpack: Open supported Modules links in Features when Jetpack is active.
-- My Jetpack: Open the Jetpack Connection details on the Connectors screen from the header's Manage connection link.
-- My Jetpack: Refresh Pro availability while preserving existing offers.
-- My Jetpack: Restore the Features tab's "Included in plan" view, keep Upgrade in view in feature details, return to the feature after checkout, and show the feature artwork without loading it from jetpack.com.
-- My Jetpack: Show product cards flat, without a drop shadow.
-- My Jetpack: Show the avatar and connection status control in the headers of My Jetpack and the modern Boost dashboard by default, with access to connection and plan details.
-- My Jetpack: Show the Features page on sites in Offline Mode, without connecting to WordPress.com.
-- My Jetpack: Stop asking to connect a WordPress.com account when nothing in use needs one.
-- My Jetpack: Turn a module on once Install Jetpack or Activate Jetpack on its card finishes setup.
-- Performance history: Mark the keyboard-selected day with a focus ring that shows on any bar color.
-- Say "Checking site speed…" instead of "Calculating…" while a speed test runs, on the Boost dashboard and on the Boost card in My Jetpack.
-- Update package dependencies.
+- Activity Log: Show the connection error notice only when a connection error has been recorded. [#52977]
+- Connection: Clarify connection, Offline Mode and ownership notices, confirm account disconnections and list the plugins that stop working, and show clearer errors and owner details on the Connectors card. [#53785] [#53861] [#53865] [#53892] [#54034] [#54035]
+- Dashboard: Show "Checking site speed…" while a speed test runs, and show "Run speed test" as an icon on screens 480px wide or narrower. [#53921] [#54352]
+- Getting Started: Send premium upgrades to the My Jetpack upgrade page, where a license key can also be redeemed. [#53162]
+- Image Guide: Render the overlay with React; administrators now load WordPress's data and React scripts on the front end. [#53209]
+- My Jetpack: Ask for a WordPress.com account only when something in use needs one, and leave plugins included in a bundle plan out of the menu notification badge. [#53242] [#54355]
+- My Jetpack: Connect accounts from the feature cards that need one, turn a module on once Install or Activate Jetpack finishes, open Modules links in Features, and restore the "Included in plan" view. [#53052] [#53990] [#53992] [#54007]
+- My Jetpack: List VaultPress Backup among the plans that include Activity Log history, and simplify the Search paid-plan wording. [#53181]
+- My Jetpack: Show the avatar and connection status control in the headers of My Jetpack and the modern Boost dashboard, with access to connection and plan details. [#54225] [#54276]
+- My Jetpack: Simplify the Features tab with switches instead of status badges, flat cards and aligned notices, and show it in Offline Mode. [#52988] [#53759] [#53990] [#54216]
+- Update package dependencies. [#52999] [#53004] [#53448] [#53806] [#53869] [#53951] [#54001] [#54072] [#54117] [#54118] [#54512] [#54557]
 
 ### Deprecated
-- Dashboard: Deprecate the filter that restores the legacy dashboard, which will be removed in a future release.
+- Dashboard: Deprecate the filter that restores the legacy dashboard, which will be removed in a future release. [#53348]
 
 ### Fixed
-- Activity Log: Show an empty date picker on the free plan, instead of a date range it does not apply.
-- Cache cleanup: Prevent memory exhaustion when removing expired optimization data.
-- Concatenate JS: Fix scripts printed on their own failing to load on sites served from a custom port.
-- Connection: Fix reconnecting your WordPress.com account so it no longer disconnects other users and clears the broken-connection notice on the first attempt.
-- Connection: Fix the Safe Mode window in My Jetpack opening empty, with no choices.
-- Connection: Show connection owner names containing characters like & correctly.
-- Connection: Stop Site Health from showing spurious connection failures — remove the redundant outbound HTTP/HTTPS checks, and no longer prompt a reconnect when the WordPress.com connection test is inconclusive.
-- Connection: Stop users who cannot set up the site connection from becoming the connection owner when the owner's connection is missing.
-- Connection: Translate the Connectors card's text on sites that don't use English.
-- Critical CSS: Enable automatic regeneration after upgrading and confirm it on the dashboard.
-- Critical CSS: Fix the "Learn what to do" link in the failure notice looking oversized next to the surrounding text on the modernized dashboard.
-- Critical CSS: Keep a generation run going when the site answers a status check with an older copy, stop waiting on a page whose status check never answers, report a Regenerate that did not start, and show the site's reply when a Regenerate request or a save is refused.
-- Critical CSS: Reduce repeated styles during local generation, print after the page title, and reject generated CSS above 512 KiB with an error message.
-- Dashboard: Fix "Something went wrong!" on WordPress 7.1 when the site data request fails.
-- Footer: Show the Features link to administrators only.
-- Image CDN: Fix some images hosted on other sites failing to load when their file name ends in a size like -600x400.
-- Image Guide: Fix duplicate guides appearing after the guide is paused and resumed.
-- Image Guide: Fix popup links to open in separate new tabs.
-- LCP: Fix the "View details" link in the issues notice looking oversized next to the surrounding text on the modernized dashboard.
-- LCP: Stop cropping optimized images whose box has a different shape, so images set to fit inside it (object-fit: contain) show in full.
-- LCP: Stop cropping the LCP image when its original file is offloaded or deleted.
-- LCP: Stop cropping the LCP image when its URL has a query string.
-- My Jetpack: Ask for a user connection on the Overview connection card as soon as a plugin that needs one is switched on, without a reload.
-- My Jetpack: Bring the first Features results into view after changing the filter or search while scrolled down.
-- My Jetpack: Fetch a new speed score when the saved one is incomplete, instead of showing an empty score.
-- My Jetpack: Hide other plugins' notices while the setup screen is open, and stop the full-screen layout breaking when another plugin adds an admin body class first.
-- My Jetpack: Keep the Help tab's cards inside their column on narrow screens.
-- My Jetpack: Make the connection screen's Connect button and footer links reachable on shorter screens.
-- My Jetpack: Return to the tab you came from with the back link on product upgrade screens.
-- My Jetpack: Show the correct product status and use the active plugin copy when turning products on or off with both stable and Beta or development copies installed.
-- My Jetpack: Show the highest-priority notice first when several are set at once.
-- My Jetpack: Stop asking for a user connection on the Overview connection card as soon as the plugin that needed one is switched off, without a reload.
-- My Jetpack: Stop offering retired Security and Growth plans while preserving existing subscriptions.
-- My Jetpack: Stop reporting an error when switching VideoPress off while the Jetpack plugin is inactive.
-- My Jetpack: Stop showing $0 and NaN for paid plans on the Boost upgrade page, and $0.00 on recommendation cards, when prices cannot be loaded.
-- My Jetpack: Stop showing an empty account avatar on the Overview connection card on sites without a connection owner when nothing in use needs a user connection.
-- My Jetpack: Stop showing an empty account avatar on the Overview connection card when nothing in use needs a user connection.
-- Optimize LCP Images: Re-analyze cornerstone pages a few minutes after a template, Global Styles or Additional CSS change, so LCP images follow the new styles.
-- Optimize LCP Images: Show an error instead of staying on "optimizing" when a page re-analysis can't be started.
-- Optimize LCP Images: Size the LCP image to its box when the theme's stylesheet sets `object-fit: cover`, instead of serving a larger file than needed.
-- Optimize LCP Images: Stop a cornerstone page save from starting an LCP analysis when no analysis results are stored.
-- Overview: Show grade ranges that match how the overall grade is calculated.
-- Score history: Announce the chart correctly to screen readers.
-- Settings: Announce the Cornerstone Pages Save button as disabled while the list has an error.
-- Speed Score: Fix the dashboard header showing old scores after a test was started from My Jetpack.
+- Accessibility: Announce the score history chart and a disabled Cornerstone Pages Save button correctly to screen readers, and show the selected history day's focus ring on any bar color. [#53202] [#53237] [#53830]
+- Activity Log: Show an empty date picker on the free plan, instead of a date range it does not apply. [#53982]
+- Cache cleanup: Prevent memory exhaustion when removing expired optimization data. [#54432]
+- Concatenate: Improve loading of combined scripts and styles.
+- Concatenate: Improve minification reliability.
+- Concatenate JS: Fix scripts printed on their own failing to load on sites served from a custom port. [#53220]
+- Connection: Fix reconnecting an account disconnecting other users, an empty Safe Mode window, owner names with characters like &, untranslated Connectors card text, and spurious Site Health connection failures. [#52851] [#52916] [#53179] [#54030] [#54197]
+- Connection: Stop users who cannot set up the site connection from becoming the connection owner when the owner's connection is missing. [#52880]
+- Critical CSS: Enable automatic regeneration after upgrading, reduce repeated styles, print after the page title, and reject generated CSS above 512 KiB with an error message. [#53047] [#53211]
+- Critical CSS: Keep generation running when the site returns an older status or a page never answers, and report a Regenerate that did not start or a request the site refused. [#54581]
+- Dashboard: Fix "Something went wrong!" on WordPress 7.1 when the site data request fails, old scores in the header after a test started from My Jetpack, and oversized links in notices. [#53254] [#53438] [#54347] [#54396]
+- Footer: Show the Features link to administrators only. [#54541]
+- Image CDN: Fix some images hosted on other sites failing to load when their file name ends in a size like -600x400. [#54204]
+- Image Guide: Fix duplicate guides appearing after the guide is paused and resumed, and open popup links in separate new tabs. [#53209] [#53279]
+- LCP: Stop cropping optimized images when their box has a different shape, their URL has a query string, or their original file is offloaded or deleted, and size the image to its box when the theme sets `object-fit: cover`. [#53976] [#54207] [#54263] [#54264]
+- My Jetpack: Fetch a new speed score when the saved one is incomplete, and show the highest-priority notice first. [#53400] [#53918]
+- My Jetpack: Fix layout problems on the setup and connection screens and in the Help tab on narrow screens, scroll to the first Features results after filtering, and return to the previous tab from upgrade screens. [#52765] [#53402] [#53847] [#54101] [#54201]
+- My Jetpack: Keep product switches, statuses and the Overview connection card in sync after changes, including failed changes, Beta or development plugin copies, and switching VideoPress off without Jetpack. [#53247] [#53287] [#53356] [#53367] [#53371] [#53807] [#54156]
+- My Jetpack: Stop showing $0, NaN or $0.00 prices when prices cannot be loaded, and stop offering retired Security and Growth plans while preserving existing subscriptions. [#53854] [#54458]
+- Optimize LCP Images: Re-analyze cornerstone pages a few minutes after a template, Global Styles or Additional CSS change, show an error when a re-analysis can't start, and skip the analysis on a cornerstone page save when no results are stored. [#54344] [#54506]
+- Overview: Show grade ranges that match how the overall grade is calculated. [#53110]
 
 ## [4.8.1] - 2026-10-08
 ### Fixed
@@ -1169,7 +1117,7 @@ This is an alpha version! The changes listed here are not final.
 
 - First public alpha release
 
-[4.9.0-alpha]: https://github.com/Automattic/jetpack-boost-production/compare/4.8.1...4.9.0-alpha
+[4.8.2]: https://github.com/Automattic/jetpack-boost-production/compare/4.8.1...4.8.2
 [4.8.1]: https://github.com/Automattic/jetpack-boost-production/compare/4.8.0...4.8.1
 [4.8.0]: https://github.com/Automattic/jetpack-boost-production/compare/4.7.1...4.8.0
 [4.7.1]: https://github.com/Automattic/jetpack-boost-production/compare/4.7.0...4.7.1
