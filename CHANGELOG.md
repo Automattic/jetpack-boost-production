@@ -68,6 +68,7 @@ This is an alpha version! The changes listed here are not final.
 - Connection: Translate the Connectors card's text on sites that don't use English.
 - Critical CSS: Enable automatic regeneration after upgrading and confirm it on the dashboard.
 - Critical CSS: Fix the "Learn what to do" link in the failure notice looking oversized next to the surrounding text on the modernized dashboard.
+- Critical CSS: Keep a generation run going when the site answers a status check with an older copy, stop waiting on a page whose status check never answers, report a Regenerate that did not start, and show the site's reply when a Regenerate request or a save is refused.
 - Critical CSS: Reduce repeated styles during local generation, print after the page title, and reject generated CSS above 512 KiB with an error message.
 - Dashboard: Fix "Something went wrong!" on WordPress 7.1 when the site data request fails.
 - Footer: Show the Features link to administrators only.
