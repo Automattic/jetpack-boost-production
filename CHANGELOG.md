@@ -9,6 +9,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 This is an alpha version! The changes listed here are not final.
 
+### Fixed
+- My Jetpack: Fix the Overview showing a product's old status after a feature is switched on or off on the Features tab.
+
 ## [4.8.2] - 2026-11-06
 ### Added
 - Connection: Add a Connected view to the Users page, show connection errors on the Connectors card, and transfer connection ownership to another administrator without leaving your site, with a note that moving a Jetpack plan is an additional step. [#53150] [#53359] [#53581] [#53596] [#54527]
