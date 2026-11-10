@@ -15,6 +15,7 @@ This is an alpha version! The changes listed here are not final.
 ### Fixed
 - My Jetpack: Fix the Overview showing a product's old status after a feature is switched on or off on the Features tab.
 - My Jetpack: Fix the Security and Growth filters on the Features tab showing no features.
+- My Jetpack: Show what went wrong and let users retry when the onboarding connection to WordPress.com fails.
 
 ## [4.8.2] - 2026-11-06
 ### Added
