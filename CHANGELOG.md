@@ -10,6 +10,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 This is an alpha version! The changes listed here are not final.
 
 ### Changed
+- My Jetpack: Return to the license screen after you connect your account from "Activate a license", and show the WordPress.com connection screen made for your site's plugins.
 - Update package dependencies.
 
 ### Fixed
