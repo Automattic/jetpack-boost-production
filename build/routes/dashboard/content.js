@@ -110,6 +110,7 @@ __( "Error requesting speed scores", "jetpack-boost" );
 __( "Failed to load speed scores", "jetpack-boost" );
 __( "Testing site speed", "jetpack-boost" );
 __( "Checking site speed…", "jetpack-boost" );
+__( "Checking site speed… <pct>%d%%</pct>", "jetpack-boost" );
 __( "Your overall score is a summary of your first Cornerstone Page across both mobile and desktop devices. It gives a general idea of your site's overall performance.", "jetpack-boost" );
 __( "Over 90", "jetpack-boost" );
 __( "Over 75 to 90", "jetpack-boost" );
