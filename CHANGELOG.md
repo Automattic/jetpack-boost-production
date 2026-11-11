@@ -19,6 +19,7 @@ This is an alpha version! The changes listed here are not final.
 
 ### Fixed
 - Connection: Keep the progress indicator on screen after clicking Restore Connection until the redirect to WordPress.com.
+- My Jetpack: Fill checked checkboxes in the Features list with the selected filter's color, show their focus ring only for keyboard focus, and show one focus ring per control instead of two.
 - My Jetpack: Fix the Overview showing a product's old status after a feature is switched on or off on the Features tab.
 - My Jetpack: Fix the Security and Growth filters on the Features tab showing no features.
 - My Jetpack: Show what went wrong and let users retry when the onboarding connection to WordPress.com fails.
