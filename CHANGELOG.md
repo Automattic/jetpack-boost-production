@@ -13,6 +13,7 @@ This is an alpha version! The changes listed here are not final.
 - Dashboard: Show roughly how far along a speed test is, based on how long recent tests on the site took.
 
 ### Changed
+- Dashboard: Remove the "Jetpack" link to My Jetpack from the page header.
 - Dashboard: Return to the Boost dashboard after you connect your account or restore the connection from the header, and show the WordPress.com connection screen made for your site's plugins.
 - Dashboard: Show new speed scores without waiting for the comparison test that runs without Boost.
 - Dashboard: Show speed scores as meters, and use the standard progress bar while a speed test runs.

@@ -9,8 +9,6 @@
 __( "Loading", "jetpack-boost" );
 __( "Keyboard shortcut: %s", "jetpack-boost" );
 __( "(opens in a new tab)", "jetpack-boost" );
-__( "Breadcrumbs", "jetpack-boost" );
-_n( "Show %d hidden breadcrumb item", "Show %d hidden breadcrumb items", 1, "jetpack-boost" );
 __( "Dismiss", "jetpack-boost" );
 __( "In progress", "jetpack-boost" );
 __( "Sections", "jetpack-boost" );
