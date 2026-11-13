@@ -10,6 +10,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 This is an alpha version! The changes listed here are not final.
 
 ### Added
+- Dashboard: Open Boost from other Jetpack dashboards without a page load when the Jetpack admin shell is on.
 - Dashboard: Show roughly how far along a speed test is, based on how long recent tests on the site took.
 
 ### Changed
