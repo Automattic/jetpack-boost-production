@@ -26,6 +26,7 @@ This is an alpha version! The changes listed here are not final.
 - Update package dependencies.
 
 ### Fixed
+- Abilities: Set up the page cache when the set-module-status ability turns it on, report a setup failure, and pass on its notices, such as WP Super Cache being switched off.
 - Connection: Keep the progress indicator on screen after clicking Restore Connection until the redirect to WordPress.com.
 - My Jetpack: Fill checked checkboxes in the Features list with the selected filter's color, show their focus ring only for keyboard focus, and show one focus ring per control instead of two.
 - My Jetpack: Fix the Overview showing a product's old status after a feature is switched on or off on the Features tab.
