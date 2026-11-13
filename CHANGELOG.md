@@ -29,6 +29,7 @@ This is an alpha version! The changes listed here are not final.
 - My Jetpack: Fix the Security and Growth filters on the Features tab showing no features.
 - My Jetpack: Keep the Jetpack Pro card on the upgrade screen inside phone screens.
 - My Jetpack: Show what went wrong and let users retry when the onboarding connection to WordPress.com fails.
+- Stop the upgrade screen from briefly offering Jetpack Complete before Jetpack Pro.
 
 ## [4.8.2] - 2026-11-06
 ### Added
