@@ -30,7 +30,7 @@
 		"automattic/jetpack-schema": "^0.3.1",
 		"automattic/jetpack-status": "^7.1.2-alpha",
 		"automattic/jetpack-sync": "^5.6.0-alpha",
-		"automattic/jetpack-wp-abilities": "^0.2.1",
+		"automattic/jetpack-wp-abilities": "^0.2.2-alpha",
 		"automattic/jetpack-wp-build-polyfills": "^0.7.5-alpha",
 		"automattic/jetpack-wp-js-data-sync": "^0.7.2-alpha",
 		"ext-json": "*",
