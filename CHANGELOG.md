@@ -19,6 +19,7 @@ This is an alpha version! The changes listed here are not final.
 - Dashboard: Show speed scores as meters, and use the standard progress bar while a speed test runs.
 - Dashboard: Show which step a speed test is on, and the mobile score as soon as it is measured.
 - My Jetpack: Highlight expiring and expired plans in the account panel under your avatar, list them first with a renew link, and show other plans as active until their renewal date.
+- My Jetpack: On sites with Jetpack Pro, replace "Purchase a plan" with "Upgrade to Complete", which goes straight to checkout.
 - My Jetpack: Return to the license screen after you connect your account from "Activate a license", and show the WordPress.com connection screen made for your site's plugins.
 - Update package dependencies.
 
