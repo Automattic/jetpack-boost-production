@@ -66,6 +66,7 @@ __( "Loading map", "jetpack-boost" );
 __( "Geo chart", "jetpack-boost" );
 __( "Less", "jetpack-boost" );
 __( "More", "jetpack-boost" );
+__( "%s (incomplete)", "jetpack-boost" );
 __( "Heatmap chart", "jetpack-boost" );
 __( "Current period", "jetpack-boost" );
 __( "Previous period", "jetpack-boost" );
