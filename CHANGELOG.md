@@ -5,38 +5,22 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
-## [4.9.0-alpha] - unreleased
-
-This is an alpha version! The changes listed here are not final.
-
+## [4.9.0-beta] - 2026-11-17
 ### Added
-- Dashboard: Open Boost from other Jetpack dashboards without a page load when the Jetpack admin shell is on.
-- Dashboard: Show roughly how far along a speed test is, based on how long recent tests on the site took.
+- Dashboard: Open Boost from other Jetpack dashboards without a page load when the Jetpack admin shell is on. [#54917]
+- Dashboard: Show how far along a speed test is and which step it is on, show scores as meters, and show each new score as soon as it is measured instead of waiting for the comparison test that runs without Boost. [#54357] [#54364] [#54758] [#54791]
 
 ### Changed
-- Dashboard: Remove the "Jetpack" link to My Jetpack from the page header.
-- Dashboard: Return to the Boost dashboard after you connect your account or restore the connection from the header, and show the WordPress.com connection screen made for your site's plugins.
-- Dashboard: Show new speed scores without waiting for the comparison test that runs without Boost.
-- Dashboard: Show speed scores as meters, and use the standard progress bar while a speed test runs.
-- Dashboard: Show which step a speed test is on, and the mobile score as soon as it is measured.
-- My Jetpack: Highlight expiring and expired plans in the account panel under your avatar, list them first with a renew link, and show other plans as active until their renewal date.
-- My Jetpack: On sites with Jetpack Pro, replace "Purchase a plan" with "Upgrade to Complete", which goes straight to checkout.
-- My Jetpack: Remember whether you last picked the grid or the list layout on the Features tab, and open the tab in that layout next time.
-- My Jetpack: Return to the license screen after you connect your account from "Activate a license", and show the WordPress.com connection screen made for your site's plugins.
-- My Jetpack: Show the WordPress.com connection screen made for your site's plugins when you connect your account from the Features tab.
-- Update package dependencies.
+- Connection: Show the WordPress.com connection screen made for your site's plugins when you connect your account from the Boost dashboard header, "Activate a license" or the Features tab, and return to the Boost dashboard or the license screen afterwards. [#54697] [#54748] [#54867]
+- Dashboard: Remove the "Jetpack" link to My Jetpack from the page header. [#54857]
+- My Jetpack: Highlight expiring and expired plans with a renew link in the account panel under your avatar, offer "Upgrade to Complete" straight to checkout on sites with Jetpack Pro, and remember the grid or list layout you last picked on the Features tab. [#54781] [#54862] [#54925]
+- Update package dependencies. [#54666] [#54703] [#54706]
 
 ### Fixed
-- Abilities: Set up the page cache when the set-module-status ability turns it on, report a setup failure, and pass on its notices, such as WP Super Cache being switched off.
-- Connection: Keep the progress indicator on screen after clicking Restore Connection until the redirect to WordPress.com.
-- Connection: Let a second administrator fix a broken connection owner by connecting their own account, which makes them the new owner.
-- Connection: Stop showing a connection error notice for a request signature mismatch, which reconnecting rarely fixes.
-- My Jetpack: Fill checked checkboxes in the Features list with the selected filter's color, show their focus ring only for keyboard focus, and show one focus ring per control instead of two.
-- My Jetpack: Fix the Overview showing a product's old status after a feature is switched on or off on the Features tab.
-- My Jetpack: Fix the Security and Growth filters on the Features tab showing no features.
-- My Jetpack: Keep the Jetpack Pro card on the upgrade screen inside phone screens.
-- My Jetpack: Show what went wrong and let users retry when the onboarding connection to WordPress.com fails.
-- Stop the upgrade screen from briefly offering Jetpack Complete before Jetpack Pro.
+- Abilities: Set up the page cache when the set-module-status ability turns it on, report a setup failure, and pass on its notices, such as WP Super Cache being switched off. [#53558]
+- Connection: Let a second administrator fix a broken connection owner by connecting their own account, keep the progress indicator on screen after clicking Restore Connection, and stop showing a connection error notice for a request signature mismatch, which reconnecting rarely fixes. [#54469] [#54744]
+- My Jetpack: Fix the Security and Growth filters on the Features tab showing no features, the Overview showing a product's old status after a feature switch, and the Features list's checkbox colors and doubled focus rings. [#54311] [#54496] [#54608]
+- My Jetpack: Show what went wrong and let users retry when the onboarding connection to WordPress.com fails, keep the Jetpack Pro card inside phone screens, and stop the upgrade screen from briefly offering Jetpack Complete before Jetpack Pro. [#54613] [#54839] [#54841]
 
 ## [4.8.2] - 2026-11-06
 ### Added
@@ -1150,7 +1134,7 @@ This is an alpha version! The changes listed here are not final.
 
 - First public alpha release
 
-[4.9.0-alpha]: https://github.com/Automattic/jetpack-boost-production/compare/4.8.2...4.9.0-alpha
+[4.9.0-beta]: https://github.com/Automattic/jetpack-boost-production/compare/4.8.2...4.9.0-beta
 [4.8.2]: https://github.com/Automattic/jetpack-boost-production/compare/4.8.1...4.8.2
 [4.8.1]: https://github.com/Automattic/jetpack-boost-production/compare/4.8.0...4.8.1
 [4.8.0]: https://github.com/Automattic/jetpack-boost-production/compare/4.7.1...4.8.0
