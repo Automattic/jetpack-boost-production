@@ -15,6 +15,7 @@ This is an alpha version! The changes listed here are not final.
 
 ### Fixed
 - Keep disabled modules off when reactivating Boost.
+- Safe Mode: Stop showing the Safe Mode screen to non-admins once an admin has chosen to stay in Safe Mode.
 
 ## [4.9.0-beta] - 2026-11-17
 ### Added
