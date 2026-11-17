@@ -9,6 +9,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 This is an alpha version! The changes listed here are not final.
 
+### Fixed
+- Keep disabled modules off when reactivating Boost.
+
 ## [4.9.0-beta] - 2026-11-17
 ### Added
 - Dashboard: Open Boost from other Jetpack dashboards without a page load when the Jetpack admin shell is on. [#54917]
