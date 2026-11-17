@@ -15,6 +15,7 @@ This is an alpha version! The changes listed here are not final.
 - Admin shell: Record the page view again when the shell shows the Boost page again.
 
 ### Fixed
+- Dashboard: Show the account control in Boost's header when opening Boost from My Jetpack in the Jetpack admin shell.
 - Keep disabled modules off when reactivating Boost.
 - Safe Mode: Stop showing the Safe Mode screen to non-admins once an admin has chosen to stay in Safe Mode.
 
