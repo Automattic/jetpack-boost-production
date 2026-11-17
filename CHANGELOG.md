@@ -11,6 +11,7 @@ This is an alpha version! The changes listed here are not final.
 
 ### Changed
 - Admin shell: Declare the page title and subtitle shown while the dashboard opens, when the admin shell flag is on.
+- Admin shell: Record one page view, not two, when the shell reopens Boost at another page.
 - Admin shell: Record the page view again when the shell shows the Boost page again.
 
 ### Fixed
