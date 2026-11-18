@@ -15,6 +15,7 @@ This is an alpha version! The changes listed here are not final.
 - Admin shell: Record the page view again when the shell shows the Boost page again.
 
 ### Fixed
+- Concatenate CSS: Keep styles applied when another plugin stops one stylesheet in a bundle from loading as a stylesheet, as Trustindex review widgets 15.0 do.
 - Dashboard: Show the account control in Boost's header when opening Boost from My Jetpack in the Jetpack admin shell.
 - Keep disabled modules off when reactivating Boost.
 - Page Cache: Stop caching when disabled with WP-CLI and report deactivation failures.
