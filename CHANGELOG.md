@@ -18,6 +18,7 @@ This is an alpha version! The changes listed here are not final.
 - Dashboard: Show the account control in Boost's header when opening Boost from My Jetpack in the Jetpack admin shell.
 - Keep disabled modules off when reactivating Boost.
 - Page Cache: Stop caching when disabled with WP-CLI and report deactivation failures.
+- Safe Mode: Show the WordPress.com address correctly instead of reversed after Safe Mode checks the connection again.
 - Safe Mode: Stop showing the Safe Mode screen to non-admins once an admin has chosen to stay in Safe Mode.
 
 ## [4.9.0-beta] - 2026-11-17
