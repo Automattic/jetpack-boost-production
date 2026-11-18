@@ -13,6 +13,7 @@ This is an alpha version! The changes listed here are not final.
 - Admin shell: Declare the page title and subtitle shown while the dashboard opens, when the admin shell flag is on.
 - Admin shell: Record one page view, not two, when the shell reopens Boost at another page.
 - Admin shell: Record the page view again when the shell shows the Boost page again.
+- Safe Mode: Show the Jetpack Safe Mode admin bar item while the choice is still pending, style it on the front end of the site too, and have it open My Jetpack from Jetpack pages that can't show the Safe Mode screen.
 
 ### Fixed
 - Concatenate CSS: Keep styles applied when another plugin stops one stylesheet in a bundle from loading as a stylesheet, as Trustindex review widgets 15.0 do.
