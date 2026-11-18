@@ -1758,6 +1758,10 @@ return array(
 		'version' => '4.9.1.0-alpha',
 		'path'    => $baseDir . '/tests/php/lib/Body_Close_Locator_Test.php'
 	),
+	'Automattic\\Jetpack_Boost\\Tests\\Lib\\CLI_Test' => array(
+		'version' => '4.9.1.0-alpha',
+		'path'    => $baseDir . '/tests/php/lib/CLI_Test.php'
+	),
 	'Automattic\\Jetpack_Boost\\Tests\\Lib\\Cache_Compatibility_Test' => array(
 		'version' => '4.9.1.0-alpha',
 		'path'    => $baseDir . '/tests/php/lib/Cache_Compatibility_Test.php'
