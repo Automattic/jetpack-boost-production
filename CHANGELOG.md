@@ -16,15 +16,13 @@ This is an alpha version! The changes listed here are not final.
 - Safe Mode: Show the Jetpack Safe Mode admin bar item while the choice is still pending, style it on the front end of the site too, and have it open My Jetpack from Jetpack pages that can't show the Safe Mode screen.
 
 ### Fixed
-- Concatenate CSS: Keep styles applied when another plugin stops one stylesheet in a bundle from loading as a stylesheet, as Trustindex review widgets 15.0 do.
-- Dashboard: Show the account control in Boost's header when opening Boost from My Jetpack in the Jetpack admin shell.
 - Keep disabled modules off when reactivating Boost.
 - Page Cache: Stop caching when disabled with WP-CLI and report deactivation failures.
 - Safe Mode: Show the WordPress.com address correctly instead of reversed after Safe Mode checks the connection again.
 - Safe Mode: Stop showing the Safe Mode screen to non-admins once an admin has chosen to stay in Safe Mode.
 - Send module status changes to WordPress.com right away.
 
-## [4.9.0-beta] - 2026-11-17
+## [4.9.0] - 2026-11-19
 ### Added
 - Dashboard: Open Boost from other Jetpack dashboards without a page load when the Jetpack admin shell is on. [#54917]
 - Dashboard: Show how far along a speed test is and which step it is on, show scores as meters, and show each new score as soon as it is measured instead of waiting for the comparison test that runs without Boost. [#54357] [#54364] [#54758] [#54791]
@@ -37,7 +35,9 @@ This is an alpha version! The changes listed here are not final.
 
 ### Fixed
 - Abilities: Set up the page cache when the set-module-status ability turns it on, report a setup failure, and pass on its notices, such as WP Super Cache being switched off. [#53558]
+- Concatenate CSS: Keep styles applied when another plugin stops one stylesheet in a bundle from loading as a stylesheet, as Trustindex review widgets 15.0 do. [#55144]
 - Connection: Let a second administrator fix a broken connection owner by connecting their own account, keep the progress indicator on screen after clicking Restore Connection, and stop showing a connection error notice for a request signature mismatch, which reconnecting rarely fixes. [#54469] [#54744]
+- Dashboard: Show the account control in Boost's header when you open Boost from My Jetpack with the Jetpack admin shell on. [#55108]
 - My Jetpack: Fix the Security and Growth filters on the Features tab showing no features, the Overview showing a product's old status after a feature switch, and the Features list's checkbox colors and doubled focus rings. [#54311] [#54496] [#54608]
 - My Jetpack: Show what went wrong and let users retry when the onboarding connection to WordPress.com fails, keep the Jetpack Pro card inside phone screens, and stop the upgrade screen from briefly offering Jetpack Complete before Jetpack Pro. [#54613] [#54839] [#54841]
 
@@ -1153,8 +1153,8 @@ This is an alpha version! The changes listed here are not final.
 
 - First public alpha release
 
-[4.9.1-alpha]: https://github.com/Automattic/jetpack-boost-production/compare/4.9.0-beta...4.9.1-alpha
-[4.9.0-beta]: https://github.com/Automattic/jetpack-boost-production/compare/4.8.2...4.9.0-beta
+[4.9.1-alpha]: https://github.com/Automattic/jetpack-boost-production/compare/4.9.0...4.9.1-alpha
+[4.9.0]: https://github.com/Automattic/jetpack-boost-production/compare/4.8.2...4.9.0
 [4.8.2]: https://github.com/Automattic/jetpack-boost-production/compare/4.8.1...4.8.2
 [4.8.1]: https://github.com/Automattic/jetpack-boost-production/compare/4.8.0...4.8.1
 [4.8.0]: https://github.com/Automattic/jetpack-boost-production/compare/4.7.1...4.8.0
