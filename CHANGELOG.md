@@ -5,6 +5,13 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [4.9.1-alpha] - unreleased
+
+This is an alpha version! The changes listed here are not final.
+
+### Fixed
+- Concatenate CSS: Keep styles applied when another plugin stops one stylesheet in a bundle from loading as a stylesheet, as Trustindex review widgets 15.0 do.
+
 ## [4.9.0-beta] - 2026-11-17
 ### Added
 - Dashboard: Open Boost from other Jetpack dashboards without a page load when the Jetpack admin shell is on. [#54917]
@@ -1134,6 +1141,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 - First public alpha release
 
+[4.9.1-alpha]: https://github.com/Automattic/jetpack-boost-production/compare/4.9.0-beta...4.9.1-alpha
 [4.9.0-beta]: https://github.com/Automattic/jetpack-boost-production/compare/4.8.2...4.9.0-beta
 [4.8.2]: https://github.com/Automattic/jetpack-boost-production/compare/4.8.1...4.8.2
 [4.8.1]: https://github.com/Automattic/jetpack-boost-production/compare/4.8.0...4.8.1
