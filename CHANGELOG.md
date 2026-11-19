@@ -22,6 +22,7 @@ This is an alpha version! The changes listed here are not final.
 - Page Cache: Stop caching when disabled with WP-CLI and report deactivation failures.
 - Safe Mode: Show the WordPress.com address correctly instead of reversed after Safe Mode checks the connection again.
 - Safe Mode: Stop showing the Safe Mode screen to non-admins once an admin has chosen to stay in Safe Mode.
+- Send module status changes to WordPress.com right away.
 
 ## [4.9.0-beta] - 2026-11-17
 ### Added
