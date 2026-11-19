@@ -11,6 +11,7 @@ This is an alpha version! The changes listed here are not final.
 
 ### Fixed
 - Concatenate CSS: Keep styles applied when another plugin stops one stylesheet in a bundle from loading as a stylesheet, as Trustindex review widgets 15.0 do.
+- Dashboard: Show the account control in Boost's header when opening Boost from My Jetpack in the Jetpack admin shell.
 
 ## [4.9.0-beta] - 2026-11-17
 ### Added
