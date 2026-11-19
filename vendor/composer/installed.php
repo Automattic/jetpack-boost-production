@@ -1,8 +1,8 @@
 <?php return array(
     'root' => array(
         'name' => 'automattic/jetpack-boost',
-        'pretty_version' => '4.9.1-alpha',
-        'version' => '4.9.1.0-alpha',
+        'pretty_version' => '4.10.0-alpha',
+        'version' => '4.10.0.0-alpha',
         'reference' => null,
         'type' => 'library',
         'install_path' => __DIR__ . '/../../',
@@ -56,8 +56,8 @@
             'dev_requirement' => false,
         ),
         'automattic/jetpack-boost' => array(
-            'pretty_version' => '4.9.1-alpha',
-            'version' => '4.9.1.0-alpha',
+            'pretty_version' => '4.10.0-alpha',
+            'version' => '4.10.0.0-alpha',
             'reference' => null,
             'type' => 'library',
             'install_path' => __DIR__ . '/../../',
@@ -103,7 +103,7 @@
         'automattic/jetpack-connection' => array(
             'pretty_version' => '9.18.3-alpha.1795112338',
             'version' => '9.18.3.0-alpha1795112338',
-            'reference' => '14b85bf1d5c69b7f8789f8c11c048e08a6f08b4e',
+            'reference' => 'a86b1f41ed30ac1b01fdbd966aa75c1bb64e8731',
             'type' => 'jetpack-library',
             'install_path' => __DIR__ . '/../../jetpack_vendor/automattic/jetpack-connection',
             'aliases' => array(),
@@ -308,9 +308,9 @@
             'dev_requirement' => false,
         ),
         'automattic/jetpack-wp-abilities' => array(
-            'pretty_version' => '0.2.3-alpha.1795112338',
-            'version' => '0.2.3.0-alpha1795112338',
-            'reference' => '097e91ce216f1e48db356f29dc041f7ddaf3f78e',
+            'pretty_version' => '0.3.0-alpha.1795121940',
+            'version' => '0.3.0.0-alpha1795121940',
+            'reference' => '9e521603bbf6cdd45f56aa72667abe50f9c671b8',
             'type' => 'jetpack-library',
             'install_path' => __DIR__ . '/../../jetpack_vendor/automattic/jetpack-wp-abilities',
             'aliases' => array(),

@@ -5,11 +5,12 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
-## [4.9.1-alpha] - unreleased
+## [4.10.0-alpha] - unreleased
 
 This is an alpha version! The changes listed here are not final.
 
 ### Changed
+- Abilities: Make Boost's abilities available to AI agents by default. Return false from the jetpack_wp_abilities_enabled filter to turn them off.
 - Admin shell: Declare the page title and subtitle shown while the dashboard opens, when the admin shell flag is on.
 - Admin shell: Record one page view, not two, when the shell reopens Boost at another page.
 - Admin shell: Record the page view again when the shell shows the Boost page again.
@@ -1155,7 +1156,7 @@ This is an alpha version! The changes listed here are not final.
 
 - First public alpha release
 
-[4.9.1-alpha]: https://github.com/Automattic/jetpack-boost-production/compare/4.9.0...4.9.1-alpha
+[4.10.0-alpha]: https://github.com/Automattic/jetpack-boost-production/compare/4.9.0...4.10.0-alpha
 [4.9.0]: https://github.com/Automattic/jetpack-boost-production/compare/4.8.2...4.9.0
 [4.8.2]: https://github.com/Automattic/jetpack-boost-production/compare/4.8.1...4.8.2
 [4.8.1]: https://github.com/Automattic/jetpack-boost-production/compare/4.8.0...4.8.1

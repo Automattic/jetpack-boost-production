@@ -140,7 +140,7 @@ class Premium_Features {
 	 * A mismatch, or no answer from My Jetpack, means the cache needs a fresh fetch. My Jetpack keeps
 	 * its answer for 15 seconds, so a plan change can take that long to show.
 	 *
-	 * @since 4.9.1-alpha
+	 * @since 4.10.0-alpha
 	 *
 	 * @return bool
 	 */
