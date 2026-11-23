@@ -19,6 +19,7 @@ This is an alpha version! The changes listed here are not final.
 
 ### Fixed
 - Keep disabled modules off when reactivating Boost.
+- My Jetpack: Don't install a product's plugin when plugin installs are turned off or the user can't install plugins.
 - My Jetpack: Fix the Learn more, Manage and Connect buttons on recommendation cards, which did nothing.
 - Page Cache: Stop caching when disabled with WP-CLI and report deactivation failures.
 - Safe Mode: Show the WordPress.com address correctly instead of reversed after Safe Mode checks the connection again.
