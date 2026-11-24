@@ -15,6 +15,7 @@ This is an alpha version! The changes listed here are not final.
 - Admin shell: Record one page view, not two, when the shell reopens Boost at another page.
 - Admin shell: Record the page view again when the shell shows the Boost page again.
 - Dashboard: Load the Boost page faster by skipping the plan features lookup when your plan hasn't changed.
+- My Jetpack: Remove the Features link from the footer, since the header already links to it.
 - Safe Mode: Show the Jetpack Safe Mode admin bar item while the choice is still pending, style it on the front end of the site too, and have it open My Jetpack from Jetpack pages that can't show the Safe Mode screen.
 
 ### Removed
