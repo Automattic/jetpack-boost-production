@@ -17,6 +17,9 @@ This is an alpha version! The changes listed here are not final.
 - Dashboard: Load the Boost page faster by skipping the plan features lookup when your plan hasn't changed.
 - Safe Mode: Show the Jetpack Safe Mode admin bar item while the choice is still pending, style it on the front end of the site too, and have it open My Jetpack from Jetpack pages that can't show the Safe Mode screen.
 
+### Removed
+- Dashboard: Remove the legacy dashboard and the deprecated filter that restored it.
+
 ### Fixed
 - Keep disabled modules off when reactivating Boost.
 - My Jetpack: Don't install a product's plugin when plugin installs are turned off or the user can't install plugins.
