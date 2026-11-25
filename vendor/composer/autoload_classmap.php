@@ -379,6 +379,7 @@ return array(
     'Automattic\\Jetpack_Boost\\Modules\\Optimizations\\Cloud_CSS\\Cloud_CSS_Followup' => $baseDir . '/app/modules/optimizations/cloud-css/class-cloud-css-followup.php',
     'Automattic\\Jetpack_Boost\\Modules\\Optimizations\\Critical_CSS\\CSS_Proxy' => $baseDir . '/app/modules/optimizations/critical-css/class-css-proxy.php',
     'Automattic\\Jetpack_Boost\\Modules\\Optimizations\\Critical_CSS\\Critical_CSS' => $baseDir . '/app/modules/optimizations/critical-css/class-critical-css.php',
+    'Automattic\\Jetpack_Boost\\Modules\\Optimizations\\Defer_Fonts\\Defer_Fonts' => $baseDir . '/app/modules/optimizations/defer-fonts/class-defer-fonts.php',
     'Automattic\\Jetpack_Boost\\Modules\\Optimizations\\Image_CDN\\Image_CDN' => $baseDir . '/app/modules/optimizations/image-cdn/class-image-cdn.php',
     'Automattic\\Jetpack_Boost\\Modules\\Optimizations\\Image_CDN\\Liar' => $baseDir . '/app/modules/optimizations/image-cdn/class-liar.php',
     'Automattic\\Jetpack_Boost\\Modules\\Optimizations\\Image_CDN\\Quality_Settings' => $baseDir . '/app/modules/optimizations/image-cdn/class-quality-settings.php',

@@ -9,6 +9,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 This is an alpha version! The changes listed here are not final.
 
+### Added
+- Add a Defer Web Fonts module that loads theme fonts after the rest of the page, so text and images appear sooner.
+
 ### Changed
 - Abilities: Make Boost's abilities available to AI agents by default. Return false from the jetpack_wp_abilities_enabled filter to turn them off.
 - Admin shell: Declare the page title and subtitle shown while the dashboard opens, when the admin shell flag is on.

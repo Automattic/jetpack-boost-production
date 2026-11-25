@@ -413,6 +413,7 @@ class ComposerStaticInitb1e77e6231d50e7663f84529b6a3dfda_jetpack_boostⓥ4_10_0_
         'Automattic\\Jetpack_Boost\\Modules\\Optimizations\\Cloud_CSS\\Cloud_CSS_Followup' => __DIR__ . '/../..' . '/app/modules/optimizations/cloud-css/class-cloud-css-followup.php',
         'Automattic\\Jetpack_Boost\\Modules\\Optimizations\\Critical_CSS\\CSS_Proxy' => __DIR__ . '/../..' . '/app/modules/optimizations/critical-css/class-css-proxy.php',
         'Automattic\\Jetpack_Boost\\Modules\\Optimizations\\Critical_CSS\\Critical_CSS' => __DIR__ . '/../..' . '/app/modules/optimizations/critical-css/class-critical-css.php',
+        'Automattic\\Jetpack_Boost\\Modules\\Optimizations\\Defer_Fonts\\Defer_Fonts' => __DIR__ . '/../..' . '/app/modules/optimizations/defer-fonts/class-defer-fonts.php',
         'Automattic\\Jetpack_Boost\\Modules\\Optimizations\\Image_CDN\\Image_CDN' => __DIR__ . '/../..' . '/app/modules/optimizations/image-cdn/class-image-cdn.php',
         'Automattic\\Jetpack_Boost\\Modules\\Optimizations\\Image_CDN\\Liar' => __DIR__ . '/../..' . '/app/modules/optimizations/image-cdn/class-liar.php',
         'Automattic\\Jetpack_Boost\\Modules\\Optimizations\\Image_CDN\\Quality_Settings' => __DIR__ . '/../..' . '/app/modules/optimizations/image-cdn/class-quality-settings.php',

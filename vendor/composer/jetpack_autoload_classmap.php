@@ -1510,6 +1510,10 @@ return array(
 		'version' => '4.10.0.0-alpha',
 		'path'    => $baseDir . '/app/modules/optimizations/critical-css/class-critical-css.php'
 	),
+	'Automattic\\Jetpack_Boost\\Modules\\Optimizations\\Defer_Fonts\\Defer_Fonts' => array(
+		'version' => '4.10.0.0-alpha',
+		'path'    => $baseDir . '/app/modules/optimizations/defer-fonts/class-defer-fonts.php'
+	),
 	'Automattic\\Jetpack_Boost\\Modules\\Optimizations\\Image_CDN\\Image_CDN' => array(
 		'version' => '4.10.0.0-alpha',
 		'path'    => $baseDir . '/app/modules/optimizations/image-cdn/class-image-cdn.php'
@@ -1881,6 +1885,14 @@ return array(
 	'Automattic\\Jetpack_Boost\\Tests\\Modules\\Optimizations\\Critical_CSS\\CSS_Proxy_Test' => array(
 		'version' => '4.10.0.0-alpha',
 		'path'    => $baseDir . '/tests/php/modules/optimizations/critical-css/CSS_Proxy_Test.php'
+	),
+	'Automattic\\Jetpack_Boost\\Tests\\Modules\\Optimizations\\Defer_Fonts\\Defer_Fonts_Printer_Test' => array(
+		'version' => '4.10.0.0-alpha',
+		'path'    => $baseDir . '/tests/php/modules/optimizations/defer-fonts/Defer_Fonts_Printer_Test.php'
+	),
+	'Automattic\\Jetpack_Boost\\Tests\\Modules\\Optimizations\\Defer_Fonts\\Defer_Fonts_Test' => array(
+		'version' => '4.10.0.0-alpha',
+		'path'    => $baseDir . '/tests/php/modules/optimizations/defer-fonts/Defer_Fonts_Test.php'
 	),
 	'Automattic\\Jetpack_Boost\\Tests\\Modules\\Optimizations\\Lcp\\LCP_Invalidator_Test' => array(
 		'version' => '4.10.0.0-alpha',
