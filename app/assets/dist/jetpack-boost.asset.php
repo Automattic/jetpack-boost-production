@@ -1,6 +1,5 @@
 <?php return array(
 	'dependencies' => array(
-		'jetpack-connection',
 		'jetpack-script-data',
 		'react',
 		'react-dom',
@@ -18,5 +17,5 @@
 		'wp-primitives',
 		'wp-url'
 	),
-	'version' => '2406f9f291e42dffc10e'
+	'version' => '9058a3d9c72fe8547d2a'
 );
