@@ -26,6 +26,7 @@ This is an alpha version! The changes listed here are not final.
 - Dashboard: Remove the legacy dashboard and the deprecated filter that restored it.
 
 ### Fixed
+- Announce the same connection status on the header's account button as in its panel, and read that status first when the panel opens from the keyboard.
 - Connection: Keep a Safe Mode screen left open, for example in another tab, from disconnecting a site that is no longer in Safe Mode.
 - Keep disabled modules off when reactivating Boost.
 - My Jetpack: Don't install a product's plugin when plugin installs are turned off or the user can't install plugins.
