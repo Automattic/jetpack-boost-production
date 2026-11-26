@@ -29,6 +29,7 @@ This is an alpha version! The changes listed here are not final.
 - Connection: Keep a Safe Mode screen left open, for example in another tab, from disconnecting a site that is no longer in Safe Mode.
 - Keep disabled modules off when reactivating Boost.
 - My Jetpack: Don't install a product's plugin when plugin installs are turned off or the user can't install plugins.
+- My Jetpack: Explain why a Jetpack Pro license can't be activated on a site.
 - My Jetpack: Fix the Learn more, Manage and Connect buttons on recommendation cards, which did nothing.
 - My Jetpack: Show the manual-install notice and disable the install buttons on product pricing pages when the site cannot install plugins.
 - Page Cache: Fix the Exceptions examples popover not closing with Escape or a click outside it.
