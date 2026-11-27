@@ -30,6 +30,7 @@ This is an alpha version! The changes listed here are not final.
 - Connection: Keep a Safe Mode screen left open, for example in another tab, from disconnecting a site that is no longer in Safe Mode.
 - Connection: Show clearer messages when the connect request to your site fails, for example because its REST API is disabled or a PHP error broke the response.
 - Cornerstone Pages: Fix prerendering on sites that use a custom port.
+- Critical CSS: Speed up local generation for deeply nested stylesheets without cascade layers.
 - Format numbers in the site's full locale, so Traditional Chinese sites read 萬 instead of 万.
 - Keep disabled modules off when reactivating Boost.
 - My Jetpack: Don't install a product's plugin when plugin installs are turned off or the user can't install plugins.
